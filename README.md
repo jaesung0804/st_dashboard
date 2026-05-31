@@ -12,7 +12,7 @@ The current operating model is a **walk-forward** workflow:
 4. Select candidates from upside top 5%, then exclude all non-GREEN downside-risk names.
 5. Show the result in a local dashboard.
 
-Do not interpret this as investment advice. The quarterly financial dataset is still partial, so performance is not yet final.
+Do not interpret this as investment advice. Model performance still needs ongoing walk-forward validation before real-money use.
 
 ## Setup
 
@@ -42,7 +42,7 @@ $env:OPENDART_API_KEY="your-key"
 Combine annual and quarterly financial files:
 
 ```powershell
-.\.venv\Scripts\python.exe -m ai_stock_assistant.cli combine-kr-financials --listings-path data\raw\krx_listings_kospi_kosdaq_20260531.csv --account-paths data\raw\opendart_accounts_annual_2021_2025.csv data\raw\opendart_accounts_q1_half_q3_2021_2025_partial.csv --manifest-paths data\raw\opendart_manifest_annual_2021_2025.csv data\raw\opendart_manifest_q1_half_q3_2021_2025_partial.csv --output-slug all_reports_2021_2025_partial
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli combine-kr-financials --listings-path data\raw\krx_listings_kospi_kosdaq_20260531.csv --account-paths data\raw\opendart_accounts_annual_2021_2025.csv data\raw\opendart_accounts_q1_half_q3_2021_2025.csv --manifest-paths data\raw\opendart_manifest_annual_2021_2025.csv data\raw\opendart_manifest_q1_half_q3_2021_2025.csv --output-slug all_reports_2021_2025
 ```
 
 ## Daily Refresh
