@@ -1,0 +1,16 @@
+[project]
+name = "ai-stock-assistant"
+version = "0.1.0"
+description = "Two-model stock selection assistant for Korean and US equities."
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=82"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
