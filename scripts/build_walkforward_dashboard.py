@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import shutil
 
 import pandas as pd
 
@@ -53,8 +54,16 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     scores = load_scores()
     validation = pd.read_csv(WF_DIR / "walkforward_validation.csv")
-    rows = records(scores)
-    (OUT_DIR / "walkforward_scores.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+    by_date_dir = OUT_DIR / "walkforward_scores_by_date"
+    if by_date_dir.exists():
+        shutil.rmtree(by_date_dir)
+    by_date_dir.mkdir(parents=True, exist_ok=True)
+    for date, part in scores.groupby(scores["date"].astype(str), sort=False):
+        safe_date = str(date)
+        (by_date_dir / f"{safe_date}.json").write_text(
+            json.dumps(records(part), ensure_ascii=False),
+            encoding="utf-8",
+        )
     scores.to_csv(OUT_DIR / "walkforward_scores.csv", index=False, encoding="utf-8-sig")
     final = scores[scores.get("isFinalCandidate", False).astype(bool)] if "isFinalCandidate" in scores else scores
     final.to_csv(OUT_DIR / "walkforward_candidates.csv", index=False, encoding="utf-8-sig")
@@ -105,9 +114,10 @@ function heat(v,key){{const raw=num(v), good=key==='risk_overheat'?100-raw:raw; 
 function metric(r,h){{return '<div class="metric-grid"><div class="metric"><b>예상수익</b><span class="'+cls(r['expRet_'+h])+'">'+r['expRet_'+h]+'</span></div><div class="metric"><b>예상종가</b><span>'+r['expClose_'+h]+'</span></div><div class="metric"><b>실제수익</b><span class="'+cls(r['actRet_'+h])+'">'+r['actRet_'+h]+'</span></div><div class="metric"><b>실제종가</b><span>'+r['actClose_'+h]+'</span></div></div>';}}
 function subs(r){{return '<div class="sub-grid">'+Object.entries(subLabels).map(([k,label])=>'<div class="metric"><b>'+label+'</b><span class="heat" style="'+heat(r[k],k)+'">'+r[k]+'</span></div>').join('')+'</div>';}}
 function modeRows(rows){{if(mode==='final')return rows.filter(r=>r.isFinalCandidate); if(mode==='up')return rows.filter(r=>r.isUpCandidate); if(mode==='down')return rows.filter(r=>r.isDownRed); return rows;}}
-function render(){{const d=dateSel.value,s=sectorSel.value,det=detailSel.value,h=horizonSel.value,n=parseInt(topN.value||50,10),q=query.value.trim().toLowerCase(); let rows=ROWS.filter(r=>r.date===d&&(s==='전체'||r.sector===s)&&(det==='전체'||r.detailSector===det)); rows=modeRows(rows); if(q)rows=rows.filter(r=>String(r.name).toLowerCase().includes(q)||String(r.ticker).includes(q)); const sortKey=sortSel.value; rows.sort((a,b)=>(sortAsc?1:-1)*cmp(a,b,sortKey)); rows=rows.slice(0,n); const arrow=sortAsc?'오름차순 ▲':'내림차순 ▼'; dirBtn.textContent=arrow; sortNote.textContent='정렬 기준: '+sortSel.options[sortSel.selectedIndex].text+' '+arrow+' / 표시 '+rows.length+'개'; let html='<table><thead><tr><th>순위</th><th class="left">티커</th><th class="left">종목명</th><th class="left">섹터</th><th class="left">세부섹터</th><th>종가</th><th>떡상점수</th><th>떡상등급</th><th>떡락위험</th><th>떡락등급</th><th>선택기간</th><th>하위스코어</th></tr></thead><tbody>'; rows.forEach((r,i)=>html+='<tr><td>'+(i+1)+'</td><td class="left">'+r.ticker+'</td><td class="left">'+r.name+'</td><td class="left">'+r.sector+'</td><td class="left">'+r.detailSector+'</td><td>'+r.close+'</td><td>'+r.upScore+'</td><td><span class="badge '+r.upGrade+'">'+r.upGrade+'</span></td><td>'+r.downRisk+'</td><td><span class="badge '+r.downGrade+'">'+r.downGrade+'</span></td><td>'+metric(r,h)+'</td><td>'+subs(r)+'</td></tr>'); document.getElementById('table').innerHTML=html+'</tbody></table>';}}
+function render(){{const s=sectorSel.value,det=detailSel.value,h=horizonSel.value,n=parseInt(topN.value||50,10),q=query.value.trim().toLowerCase(); let rows=ROWS.filter(r=>(s==='전체'||r.sector===s)&&(det==='전체'||r.detailSector===det)); rows=modeRows(rows); if(q)rows=rows.filter(r=>String(r.name).toLowerCase().includes(q)||String(r.ticker).includes(q)); const sortKey=sortSel.value; rows.sort((a,b)=>(sortAsc?1:-1)*cmp(a,b,sortKey)); rows=rows.slice(0,n); const arrow=sortAsc?'오름차순 ▲':'내림차순 ▼'; dirBtn.textContent=arrow; sortNote.textContent='정렬 기준: '+sortSel.options[sortSel.selectedIndex].text+' '+arrow+' / 표시 '+rows.length+'개'; let html='<table><thead><tr><th>순위</th><th class="left">티커</th><th class="left">종목명</th><th class="left">섹터</th><th class="left">세부섹터</th><th>종가</th><th>떡상점수</th><th>떡상등급</th><th>떡락위험</th><th>떡락등급</th><th>선택기간</th><th>하위스코어</th></tr></thead><tbody>'; rows.forEach((r,i)=>html+='<tr><td>'+(i+1)+'</td><td class="left">'+r.ticker+'</td><td class="left">'+r.name+'</td><td class="left">'+r.sector+'</td><td class="left">'+r.detailSector+'</td><td>'+r.close+'</td><td>'+r.upScore+'</td><td><span class="badge '+r.upGrade+'">'+r.upGrade+'</span></td><td>'+r.downRisk+'</td><td><span class="badge '+r.downGrade+'">'+r.downGrade+'</span></td><td>'+metric(r,h)+'</td><td>'+subs(r)+'</td></tr>'); document.getElementById('table').innerHTML=html+'</tbody></table>';}}
 document.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>{{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active')); btn.classList.add('active'); mode=btn.dataset.mode; render();}});
-async function init(){{document.getElementById('table').innerHTML='<div class="note">일별 스코어 데이터를 불러오는 중...</div>'; ROWS=await fetch('walkforward_scores.json').then(r=>r.json()); refreshDetails(); sectorSel.onchange=()=>{{refreshDetails();render();}}; [dateSel,detailSel,horizonSel,topN,query,sortSel].forEach(x=>x.addEventListener('input',render)); sortSel.addEventListener('change',render); dirBtn.onclick=()=>{{sortAsc=!sortAsc;render();}}; render();}}
+async function loadDate(){{document.getElementById('table').innerHTML='<div class="note">선택한 날짜의 스코어 데이터를 불러오는 중...</div>'; ROWS=await fetch('walkforward_scores_by_date/'+dateSel.value+'.json').then(r=>r.json()); render();}}
+async function init(){{refreshDetails(); sectorSel.onchange=()=>{{refreshDetails();render();}}; dateSel.onchange=loadDate; [detailSel,horizonSel,topN,query,sortSel].forEach(x=>x.addEventListener('input',render)); sortSel.addEventListener('change',render); dirBtn.onclick=()=>{{sortAsc=!sortAsc;render();}}; await loadDate();}}
 init();
 </script></body></html>"""
     (OUT_DIR / "dashboard.html").write_text(html, encoding="utf-8")

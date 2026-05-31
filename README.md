@@ -65,7 +65,7 @@ Generated data is intentionally ignored by git:
 Generate leak-safe month-end candidates:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\run_walkforward_warning.py --start 2025-12-01 --end 2026-05-31
+.\.venv\Scripts\python.exe scripts\run_walkforward_warning.py --frequency daily
 ```
 
 Build the dashboard from walk-forward output:
@@ -96,10 +96,13 @@ http://127.0.0.1:8765/dashboard.html
 
 The walk-forward script writes:
 
+- `outputs/walkforward_warning/walkforward_scores.csv`
 - `outputs/walkforward_warning/walkforward_candidates.csv`
+- `outputs/walkforward_warning/walkforward_up_candidates.csv`
+- `outputs/walkforward_warning/walkforward_down_red.csv`
 - `outputs/walkforward_warning/walkforward_validation.csv`
 
-Each signal date uses a label cutoff of approximately `signal_date - 126 trading days`, so future 6-month returns are not used for training that signal date.
+Each signal date uses a label cutoff of approximately `signal_date - 126 trading days`, so future 6-month returns are not used for training that signal date. The dashboard writes one JSON file per signal date under `outputs/lgbm_warning_dashboard/walkforward_scores_by_date/` so historical dates can be searched without loading the full multi-year score table into the browser.
 
 ## Tests
 

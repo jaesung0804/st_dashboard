@@ -60,8 +60,8 @@ SUBSCORES = {
 
 def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser()
-    p.add_argument("--start", default="2025-12-01")
-    p.add_argument("--end", default="2026-05-31")
+    p.add_argument("--start", default="auto", help="YYYY-MM-DD, or auto for earliest inferable date.")
+    p.add_argument("--end", default="auto", help="YYYY-MM-DD, or auto for latest available date.")
     p.add_argument("--frequency", choices=["daily", "month-end"], default="daily")
     return p
 
@@ -110,7 +110,9 @@ def static_pool(frame: pd.DataFrame, require_target: bool) -> pd.DataFrame:
 
 def signal_dates(frame: pd.DataFrame, start: str, end: str, frequency: str) -> list[pd.Timestamp]:
     dates = pd.Series(pd.to_datetime(frame["date"].drop_duplicates())).sort_values()
-    dates = dates[(dates >= pd.Timestamp(start)) & (dates <= pd.Timestamp(end))]
+    start_date = dates.min() if str(start).lower() == "auto" else pd.Timestamp(start)
+    end_date = dates.max() if str(end).lower() == "auto" else pd.Timestamp(end)
+    dates = dates[(dates >= start_date) & (dates <= end_date)]
     if frequency == "month-end":
         dates = dates.groupby(dates.dt.to_period("M")).max()
     return [pd.Timestamp(x) for x in dates.tolist()]
