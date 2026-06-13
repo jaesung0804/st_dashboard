@@ -63,23 +63,52 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--start", default="auto", help="YYYY-MM-DD, or auto for earliest inferable date.")
     p.add_argument("--end", default="auto", help="YYYY-MM-DD, or auto for latest available date.")
     p.add_argument("--frequency", choices=["daily", "month-end"], default="daily")
+    p.add_argument("--market", choices=["kr", "us"], default="kr")
+    p.add_argument("--features-path", default=str(FEATURES_PATH))
+    p.add_argument("--listings-path", default=None)
+    p.add_argument("--sector-map-path", default=str(SECTOR_MAP_PATH))
+    p.add_argument("--out-dir", default=str(OUT_DIR))
+    p.add_argument("--min-trading-value", type=float, default=None)
+    p.add_argument("--min-close", type=float, default=None)
     return p
 
 
-def load_sector() -> pd.DataFrame:
+def normalize_ticker(series: pd.Series) -> pd.Series:
+    text = series.astype(str).str.strip()
+    return text.where(~text.str.fullmatch(r"\d{1,6}"), text.str.zfill(6))
+
+
+def load_kr_sector(path: Path) -> pd.DataFrame:
     sec = pd.read_excel(
-        SECTOR_MAP_PATH,
+        path,
         sheet_name="SectorMap",
         dtype={"ticker": str},
         usecols=["ticker", "company_name", "security_type", "model_sector", "model_industry", "theme_tags"],
     )
-    sec["ticker"] = sec["ticker"].astype(str).str.zfill(6)
+    sec["ticker"] = normalize_ticker(sec["ticker"])
     return sec.rename(
         columns={
             "company_name": "name",
             "model_sector": "sector",
             "model_industry": "detailSector",
             "theme_tags": "theme",
+        }
+    )
+
+
+def load_us_sector(path: Path | None) -> pd.DataFrame:
+    if path is None or not path.exists():
+        return pd.DataFrame(columns=["ticker", "name", "security_type", "sector", "detailSector", "theme"])
+    listings = pd.read_csv(path, dtype={"ticker": str})
+    listings["ticker"] = normalize_ticker(listings["ticker"])
+    return pd.DataFrame(
+        {
+            "ticker": listings["ticker"],
+            "name": listings.get("name", listings["ticker"]),
+            "security_type": "common",
+            "sector": listings.get("sector", listings.get("exchange", "")),
+            "detailSector": listings.get("industry", listings.get("exchange", "")),
+            "theme": "",
         }
     )
 
@@ -97,11 +126,11 @@ def add_targets(frame: pd.DataFrame) -> pd.DataFrame:
     return frame
 
 
-def static_pool(frame: pd.DataFrame, require_target: bool) -> pd.DataFrame:
+def static_pool(frame: pd.DataFrame, require_target: bool, min_trading_value: float, min_close: float) -> pd.DataFrame:
     mask = (
         ~frame["security_type"].eq("preferred")
-        & (pd.to_numeric(frame["avg_trading_value_20d"], errors="coerce").fillna(0) >= MIN_TRADING_VALUE)
-        & (pd.to_numeric(frame["adj_close"], errors="coerce").fillna(0) > MIN_CLOSE)
+        & (pd.to_numeric(frame["avg_trading_value_20d"], errors="coerce").fillna(0) >= min_trading_value)
+        & (pd.to_numeric(frame["adj_close"], errors="coerce").fillna(0) > min_close)
     )
     if require_target:
         mask &= frame["future_return_126d"].notna()
@@ -258,13 +287,20 @@ def score_one_date(
 
 def main() -> None:
     args = parser().parse_args()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    sector = load_sector()
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    min_trading_value = args.min_trading_value if args.min_trading_value is not None else (MIN_TRADING_VALUE if args.market == "kr" else 5_000_000)
+    min_close = args.min_close if args.min_close is not None else (MIN_CLOSE if args.market == "kr" else 1)
+    if args.market == "kr":
+        sector = load_kr_sector(Path(args.sector_map_path))
+    else:
+        sector = load_us_sector(Path(args.listings_path) if args.listings_path else None)
     usecols = (
         {"date", "ticker", "adj_close", "avg_trading_value_20d", "future_return_20d", "future_return_63d", "future_return_126d", "future_return_252d"}
         | set(FEATURE_COLUMNS)
     )
-    raw = pd.read_csv(FEATURES_PATH, dtype={"ticker": str}, usecols=lambda c: c in usecols)
+    raw = pd.read_csv(Path(args.features_path), dtype={"ticker": str}, usecols=lambda c: c in usecols)
+    raw["ticker"] = normalize_ticker(raw["ticker"])
     raw["date"] = pd.to_datetime(raw["date"])
     raw = raw.merge(sector, on="ticker", how="left")
     raw["security_type"] = raw["security_type"].fillna("common")
@@ -272,8 +308,8 @@ def main() -> None:
     raw["detailSector"] = raw["detailSector"].fillna("미분류")
     raw["theme"] = raw["theme"].fillna("")
     raw = add_targets(raw)
-    pool = static_pool(raw, require_target=False)
-    labeled = static_pool(raw, require_target=True)
+    pool = static_pool(raw, require_target=False, min_trading_value=min_trading_value, min_close=min_close)
+    labeled = static_pool(raw, require_target=True, min_trading_value=min_trading_value, min_close=min_close)
     all_dates = sorted(pd.to_datetime(pool["date"].drop_duplicates()).tolist())
     signals = signal_dates(pool, args.start, args.end, args.frequency)
     if not signals:
@@ -352,25 +388,25 @@ def main() -> None:
     for col in cols:
         if col not in scores:
             scores[col] = ""
-    scores[cols].to_csv(OUT_DIR / "walkforward_scores.csv", index=False, encoding="utf-8-sig")
+    scores[cols].to_csv(out_dir / "walkforward_scores.csv", index=False, encoding="utf-8-sig")
     scores.loc[scores["isFinalCandidate"], cols].sort_values(["date", "upScore"], ascending=[True, False]).to_csv(
-        OUT_DIR / "walkforward_candidates.csv",
+        out_dir / "walkforward_candidates.csv",
         index=False,
         encoding="utf-8-sig",
     )
     scores.loc[scores["isUpCandidate"], cols].sort_values(["date", "upScore"], ascending=[True, False]).to_csv(
-        OUT_DIR / "walkforward_up_candidates.csv",
+        out_dir / "walkforward_up_candidates.csv",
         index=False,
         encoding="utf-8-sig",
     )
     scores.loc[scores["isDownRed"], cols].sort_values(["date", "downRisk"], ascending=[True, False]).to_csv(
-        OUT_DIR / "walkforward_down_red.csv",
+        out_dir / "walkforward_down_red.csv",
         index=False,
         encoding="utf-8-sig",
     )
-    pd.DataFrame(validations).to_csv(OUT_DIR / "walkforward_validation.csv", index=False, encoding="utf-8-sig")
-    print(OUT_DIR / "walkforward_scores.csv")
-    print(OUT_DIR / "walkforward_candidates.csv")
+    pd.DataFrame(validations).to_csv(out_dir / "walkforward_validation.csv", index=False, encoding="utf-8-sig")
+    print(out_dir / "walkforward_scores.csv")
+    print(out_dir / "walkforward_candidates.csv")
 
 
 if __name__ == "__main__":

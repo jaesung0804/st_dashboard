@@ -8,11 +8,11 @@ import pandas as pd
 
 OUT_DIR = Path("outputs/walkforward_warning")
 SUBSCORES = [
-    ("growth_profit", "성장·수익성"),
-    ("cash_quality", "현금흐름 품질"),
+    ("growth_profit", "성장/수익성"),
+    ("cash_quality", "현금흐름/재무안정"),
     ("valuation", "밸류에이션"),
-    ("price_volume", "가격·거래량"),
-    ("risk_overheat", "위험·과열"),
+    ("price_volume", "가격/거래량"),
+    ("risk_overheat", "위험/과열"),
 ]
 
 
@@ -22,6 +22,9 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--end", default=None, help="YYYY-MM-DD inclusive.")
     p.add_argument("--month-end-only", action="store_true")
     p.add_argument("--combined-output", default=None)
+    p.add_argument("--wf-dir", default=str(OUT_DIR))
+    p.add_argument("--out-dir", default=None)
+    p.add_argument("--prefix", default="walkforward_summary")
     return p
 
 
@@ -29,14 +32,18 @@ def value(row: pd.Series, col: str, default: str = "") -> str:
     item = row.get(col, default)
     if pd.isna(item):
         return default
-    return str(item)
+    text = str(item)
+    if "誘몃텇瑜" in text:
+        return "미분류"
+    return text
 
 
 def summary_line(index: int, row: pd.Series) -> str:
     return (
-        f"{index}. {value(row, 'name')}({value(row, 'ticker')}) | {value(row, 'sector')} / {value(row, 'detailSector')}\n"
-        f"   종가 {value(row, 'close')} | 떡상점수 {value(row, 'upScore')} | "
-        f"떡락위험 {value(row, 'downRisk')} ({value(row, 'downGrade')})\n"
+        f"{index}. {value(row, 'name')}({value(row, 'ticker')}) | "
+        f"{value(row, 'sector')} / {value(row, 'detailSector')}\n"
+        f"   종가 {value(row, 'close')} | 상승점수 {value(row, 'upScore')} | "
+        f"하락위험 {value(row, 'downRisk')} ({value(row, 'downGrade')})\n"
         f"   예상: 1M {value(row, 'expRet_1m')}({value(row, 'expClose_1m')}) / "
         f"3M {value(row, 'expRet_3m')}({value(row, 'expClose_3m')}) / "
         f"6M {value(row, 'expRet_6m')}({value(row, 'expClose_6m')}) / "
@@ -50,8 +57,8 @@ def detail_block(index: int, row: pd.Series) -> str:
         f"[{index}] {value(row, 'name')} ({value(row, 'ticker')})\n"
         f"- 섹터: {value(row, 'sector')} / {value(row, 'detailSector')}\n"
         f"- 현재 종가: {value(row, 'close')}\n"
-        f"- 조기경보: 떡상 {value(row, 'upScore')} ({value(row, 'upGrade')}), "
-        f"떡락위험 {value(row, 'downRisk')} ({value(row, 'downGrade')})\n"
+        f"- 조기경보: 상승 {value(row, 'upScore')} ({value(row, 'upGrade')}), "
+        f"하락위험 {value(row, 'downRisk')} ({value(row, 'downGrade')})\n"
         f"- 예상 종가/수익: 1M {value(row, 'expClose_1m')} / {value(row, 'expRet_1m')}, "
         f"3M {value(row, 'expClose_3m')} / {value(row, 'expRet_3m')}, "
         f"6M {value(row, 'expClose_6m')} / {value(row, 'expRet_6m')}, "
@@ -61,6 +68,8 @@ def detail_block(index: int, row: pd.Series) -> str:
 
 
 def validation_for_date(validation: pd.DataFrame, date: str) -> pd.Series | None:
+    if validation.empty:
+        return None
     month = str(pd.Timestamp(date).to_period("M"))
     if "signal_month" in validation.columns:
         val = validation[validation["signal_month"].astype(str).eq(month)]
@@ -78,14 +87,14 @@ def build_text(data: pd.DataFrame, validation: pd.DataFrame, date: str) -> str:
     lines = [
         f"[AI 주식 조기경보 / Walk-forward] {date} 기준",
         "",
-        "조건: 각 월 첫 신호일 기준으로 126거래일 전까지 라벨이 확정된 과거 데이터만 학습.",
-        "선별: 떡상 LGBM 상위 5% 중 떡락위험 GREEN만 통과.",
-        "제외: 우선주 제외, KRX 상세 섹터 매핑 적용.",
+        "조건: 각 날짜 신호일 기준으로 126거래일 앞까지 수익률을 추정했고, 과거 데이터만 학습.",
+        "선별: 상승 LGBM 상위 5% 중 하락위험 GREEN만 통과.",
+        "제외: 우선주/비정상 종목 등 수집 단계 필터 적용.",
     ]
     if val is not None:
         lines.append(
             f"검증: label_cutoff {val['label_cutoff']}, validation AUC "
-            f"떡상 {float(val['up_auc']):.3f}, 떡락 {float(val['down_auc']):.3f}"
+            f"상승 {float(val['up_auc']):.3f}, 하락 {float(val['down_auc']):.3f}"
         )
     lines.extend(["주의: 투자 권유가 아니라 모델 신호 점검용.", "", f"최종 후보 총 {len(part)}개", ""])
     lines.append(f"[전체 {len(part)}개 요약]")
@@ -115,20 +124,24 @@ def target_dates(data: pd.DataFrame, start: str | None, end: str | None, month_e
 
 def main() -> None:
     args = parser().parse_args()
-    data = pd.read_csv(OUT_DIR / "walkforward_candidates.csv", dtype={"ticker": str})
-    validation = pd.read_csv(OUT_DIR / "walkforward_validation.csv")
+    wf_dir = Path(args.wf_dir)
+    out_dir = Path(args.out_dir) if args.out_dir else wf_dir
+    out_dir.mkdir(parents=True, exist_ok=True)
+    data = pd.read_csv(wf_dir / "walkforward_candidates.csv", dtype={"ticker": str}, low_memory=False)
+    validation_path = wf_dir / "walkforward_validation.csv"
+    validation = pd.read_csv(validation_path) if validation_path.exists() else pd.DataFrame()
     dates = target_dates(data, args.start, args.end, args.month_end_only)
     texts = []
     for date in dates:
         text = build_text(data, validation, date)
-        output = OUT_DIR / f"walkforward_summary_{date}.txt"
-        output.write_text(text, encoding="utf-8")
+        output = out_dir / f"{args.prefix}_{date}.txt"
+        output.write_text(text, encoding="utf-8-sig")
         print(output)
         texts.append(text)
     if args.combined_output:
         combined = Path(args.combined_output)
         combined.parent.mkdir(parents=True, exist_ok=True)
-        combined.write_text(("\n" + "=" * 88 + "\n\n").join(texts), encoding="utf-8")
+        combined.write_text(("\n" + "=" * 88 + "\n\n").join(texts), encoding="utf-8-sig")
         print(combined)
 
 

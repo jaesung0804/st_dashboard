@@ -67,6 +67,11 @@ FINANCIAL_FEATURES = [
 FEATURE_COLUMNS = PRICE_FEATURES + FINANCIAL_FEATURES
 
 
+def normalize_ticker(series: pd.Series) -> pd.Series:
+    text = series.astype(str).str.strip()
+    return text.where(~text.str.fullmatch(r"\d{1,6}"), text.str.zfill(6))
+
+
 def _safe_div(numerator: pd.Series, denominator: pd.Series) -> pd.Series:
     return numerator / denominator.replace(0, np.nan)
 
@@ -138,7 +143,7 @@ def add_price_features(prices: pd.DataFrame) -> pd.DataFrame:
 
 def prepare_financial_asof(financials: pd.DataFrame) -> pd.DataFrame:
     frame = financials.copy()
-    frame["ticker"] = frame["ticker"].astype(str).str.zfill(6)
+    frame["ticker"] = normalize_ticker(frame["ticker"])
     frame["bsns_year"] = frame["bsns_year"].astype(int)
     report_month_day = {
         "q1": ("03-31", 45),
@@ -229,8 +234,10 @@ def build_feature_matrix(
     output_path: Path | None = None,
 ) -> pd.DataFrame:
     prices = pd.read_csv(prices_path, dtype={"ticker": str})
+    prices["ticker"] = normalize_ticker(prices["ticker"])
     if listings_path is not None and listings_path.exists():
         listings = pd.read_csv(listings_path, dtype={"ticker": str})
+        listings["ticker"] = normalize_ticker(listings["ticker"])
         prices = prices.merge(listings[["ticker", "exchange", "industry", "shares_outstanding"]], on="ticker", how="left")
     features = add_price_features(prices)
     if financials_path is not None and financials_path.exists():

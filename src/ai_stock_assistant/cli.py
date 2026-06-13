@@ -27,6 +27,48 @@ def build_parser() -> argparse.ArgumentParser:
     universe.add_argument("--force", action="store_true", help="Refetch tickers even if cached CSV exists.")
     universe.add_argument("--no-combine", action="store_true", help="Skip combined universe CSV creation.")
 
+    us_listings = subparsers.add_parser("fetch-us-listings")
+    us_listings.add_argument("--markets", nargs="+", default=["NASDAQ", "NYSE", "NYSEARCA", "NYSEAMERICAN"])
+    us_listings.add_argument("--asof", default=None, help="YYYYMMDD date. Defaults to today.")
+    us_listings.add_argument("--include-etfs", action="store_true", help="Include ETFs in the US listing universe.")
+    us_listings.add_argument("--universe", default="listed", choices=["listed", "sp500"])
+
+    us_profiles = subparsers.add_parser("fetch-us-profiles")
+    us_profiles.add_argument("--listings-path", required=True, help="US listings CSV to enrich.")
+    us_profiles.add_argument("--output-path", default=None, help="Optional enriched listings CSV path.")
+    us_profiles.add_argument("--limit", type=int, default=None, help="Optional ticker limit for smoke tests.")
+    us_profiles.add_argument("--offset", type=int, default=0, help="Skip this many listing rows before fetching.")
+    us_profiles.add_argument("--sleep", type=float, default=0.05, help="Delay after uncached yfinance .info requests.")
+    us_profiles.add_argument("--force", action="store_true", help="Refetch profiles even if cached JSON exists.")
+    us_profiles.add_argument("--workers", type=int, default=4, help="Parallel yfinance profile workers.")
+
+    us_prices = subparsers.add_parser("fetch-us-prices")
+    us_prices.add_argument("--tickers", nargs="+", required=True)
+    us_prices.add_argument("--start", required=True, help="YYYYMMDD start date.")
+    us_prices.add_argument("--end", required=True, help="YYYYMMDD end date.")
+
+    us_universe = subparsers.add_parser("fetch-us-universe-prices")
+    us_universe.add_argument("--markets", nargs="+", default=["NASDAQ", "NYSE", "NYSEARCA", "NYSEAMERICAN"])
+    us_universe.add_argument("--listings-path", default=None, help="Optional US listings CSV to use as the universe.")
+    us_universe.add_argument("--start", default=None, help="YYYYMMDD start date. Defaults to five years before end.")
+    us_universe.add_argument("--end", default=None, help="YYYYMMDD end date. Defaults to today.")
+    us_universe.add_argument("--sleep", type=float, default=0.1, help="Delay between ticker requests.")
+    us_universe.add_argument("--limit", type=int, default=None, help="Optional ticker limit for smoke tests.")
+    us_universe.add_argument("--offset", type=int, default=0, help="Skip this many listing rows before fetching.")
+    us_universe.add_argument("--force", action="store_true", help="Refetch tickers even if cached CSV exists.")
+    us_universe.add_argument("--no-combine", action="store_true", help="Skip combined universe CSV creation.")
+    us_universe.add_argument("--include-etfs", action="store_true", help="Include ETFs in the US listing universe.")
+    us_universe.add_argument("--batch-size", type=int, default=100, help="Ticker chunk size for yfinance batch downloads.")
+
+    us_financials = subparsers.add_parser("fetch-us-financials")
+    us_financials.add_argument("--listings-path", required=True, help="CSV with ticker column.")
+    us_financials.add_argument("--reports", nargs="+", default=["annual", "quarterly"], choices=["annual", "quarterly"])
+    us_financials.add_argument("--sleep", type=float, default=0.1)
+    us_financials.add_argument("--limit", type=int, default=None, help="Optional ticker limit for smoke tests.")
+    us_financials.add_argument("--offset", type=int, default=0, help="Skip this many listing rows before fetching.")
+    us_financials.add_argument("--force", action="store_true", help="Refetch tickers even if cached CSV exists.")
+    us_financials.add_argument("--workers", type=int, default=1, help="Parallel yfinance request workers.")
+
     corp_codes = subparsers.add_parser("fetch-opendart-corp-codes")
     corp_codes.add_argument("--force", action="store_true", help="Refetch corp code mapping.")
 
@@ -119,6 +161,83 @@ def main() -> None:
         print(f"listings={result.listings_path}")
         print(f"price_dir={result.price_dir}")
         print(f"combined_prices={result.combined_prices_path}")
+        print(f"manifest={result.manifest_path}")
+        print(f"requested={result.requested_count} saved={result.saved_count} failed={result.failed_count}")
+        return
+
+    if args.command == "fetch-us-listings":
+        from ai_stock_assistant.data.us import save_us_listings
+
+        output_path = save_us_listings(
+            markets=args.markets,
+            asof=args.asof,
+            include_etfs=args.include_etfs,
+            universe=args.universe,
+        )
+        print(output_path)
+        return
+
+    if args.command == "fetch-us-profiles":
+        from ai_stock_assistant.data.us import enrich_us_listings_with_yfinance_info
+
+        result = enrich_us_listings_with_yfinance_info(
+            listings_path=Path(args.listings_path),
+            output_path=Path(args.output_path) if args.output_path else None,
+            limit=args.limit,
+            offset=args.offset,
+            sleep_seconds=args.sleep,
+            force=args.force,
+            workers=args.workers,
+        )
+        print(f"enriched_listings={result.output_path}")
+        print(f"manifest={result.manifest_path}")
+        print(f"requested={result.requested_count} saved={result.saved_count} failed={result.failed_count}")
+        return
+
+    if args.command == "fetch-us-prices":
+        from ai_stock_assistant.data.us import save_us_ohlcv
+
+        output_path = save_us_ohlcv(tickers=args.tickers, start=args.start, end=args.end)
+        print(output_path)
+        return
+
+    if args.command == "fetch-us-universe-prices":
+        from ai_stock_assistant.data.us import save_us_universe_ohlcv
+
+        result = save_us_universe_ohlcv(
+            start=args.start,
+            end=args.end,
+            markets=args.markets,
+            listings_path=Path(args.listings_path) if args.listings_path else None,
+            sleep_seconds=args.sleep,
+            limit=args.limit,
+            offset=args.offset,
+            force=args.force,
+            combine=not args.no_combine,
+            include_etfs=args.include_etfs,
+            batch_size=args.batch_size,
+        )
+        print(f"listings={result.listings_path}")
+        print(f"price_dir={result.price_dir}")
+        print(f"combined_prices={result.combined_prices_path}")
+        print(f"manifest={result.manifest_path}")
+        print(f"requested={result.requested_count} saved={result.saved_count} failed={result.failed_count}")
+        return
+
+    if args.command == "fetch-us-financials":
+        from ai_stock_assistant.data.us import save_us_financials
+
+        result = save_us_financials(
+            listings_path=Path(args.listings_path),
+            reports=args.reports,
+            sleep_seconds=args.sleep,
+            limit=args.limit,
+            offset=args.offset,
+            force=args.force,
+            workers=args.workers,
+        )
+        print(f"raw_accounts={result.raw_accounts_path}")
+        print(f"normalized_financials={result.normalized_financials_path}")
         print(f"manifest={result.manifest_path}")
         print(f"requested={result.requested_count} saved={result.saved_count} failed={result.failed_count}")
         return

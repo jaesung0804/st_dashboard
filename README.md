@@ -31,6 +31,27 @@ Fetch KRX listings and OHLCV:
 .\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-kr-universe-prices --markets KOSPI KOSDAQ
 ```
 
+Fetch US listings and yfinance OHLCV:
+
+```powershell
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-listings
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-profiles --listings-path data\raw\us_listings_nasdaq_nyse_20260612.csv --output-path data\raw\us_listings_nasdaq_nyse_yfinfo_20260612.csv --workers 12 --sleep 0
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-prices --tickers AAPL MSFT NVDA --start 20210101 --end 20260611
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-universe-prices --markets NASDAQ NYSE --limit 50
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-financials --listings-path data\raw\us_listings_nasdaq_nyse_20260611.csv --limit 50
+```
+
+Build the S&P 500 US walk-forward dashboard using the same date window as the Korean run:
+
+```powershell
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-listings --universe sp500 --asof 20260608
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-universe-prices --listings-path data\raw\us_listings_sp500_20260608.csv --start 20210531 --end 20260608 --batch-size 25
+.\.venv\Scripts\python.exe -m ai_stock_assistant.cli fetch-us-financials --listings-path data\raw\us_listings_sp500_20260608.csv --workers 8 --sleep 0
+.\.venv\Scripts\python.exe -c "from pathlib import Path; from ai_stock_assistant.features import build_feature_matrix; build_feature_matrix(Path('data/raw/us_ohlcv_sp500_20210531_20260608.csv'), Path('data/raw/yfinance_financials_annual_quarterly.csv'), Path('data/raw/us_listings_sp500_20260608.csv'), Path('outputs/us_features_sp500/training_features_daily.csv'))"
+.\.venv\Scripts\python.exe scripts\run_walkforward_warning.py --market us --features-path outputs\us_features_sp500\training_features_daily.csv --listings-path data\raw\us_listings_sp500_20260608.csv --out-dir outputs\walkforward_warning_us --frequency daily --min-trading-value 5000000 --min-close 1
+.\.venv\Scripts\python.exe scripts\build_walkforward_dashboard.py --wf-dir outputs\walkforward_warning_us --out-dir outputs\lgbm_warning_dashboard_us
+```
+
 Fetch OpenDART data:
 
 ```powershell
@@ -74,6 +95,12 @@ Build the dashboard from walk-forward output:
 .\.venv\Scripts\python.exe scripts\build_walkforward_dashboard.py
 ```
 
+For large daily histories, build only the most recent signal dates for the web dashboard:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\build_walkforward_dashboard.py --recent-days 260
+```
+
 Generate text summaries for PDF or chat sharing:
 
 ```powershell
@@ -89,7 +116,7 @@ Serve the dashboard locally:
 Open:
 
 ```text
-http://127.0.0.1:8765/dashboard.html
+http://127.0.0.1:8765/index.html
 ```
 
 ## Validation
@@ -102,7 +129,7 @@ The walk-forward script writes:
 - `outputs/walkforward_warning/walkforward_down_red.csv`
 - `outputs/walkforward_warning/walkforward_validation.csv`
 
-Each signal date uses a label cutoff of approximately `signal_date - 126 trading days`, so future 6-month returns are not used for training that signal date. The dashboard writes one JSON file per signal date under `outputs/lgbm_warning_dashboard/walkforward_scores_by_date/` so historical dates can be searched without loading the full multi-year score table into the browser.
+Each signal date uses a label cutoff of approximately `signal_date - 126 trading days`, so future 6-month returns are not used for training that signal date. The dashboard writes a small `manifest.json` plus one JSON file per included signal date under `outputs/lgbm_warning_dashboard/walkforward_scores_by_date/`, so the browser only loads the selected date instead of the full multi-year score table. Use `--recent-days 0` to include every signal date, or `--copy-csv` if CSV exports are needed in the dashboard folder.
 
 ## Tests
 

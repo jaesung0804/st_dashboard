@@ -10,12 +10,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Serve the LGBM warning dashboard.")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
-    parser.add_argument("--directory", type=Path, default=Path("outputs/lgbm_warning_dashboard"))
+    parser.add_argument("--directory", type=Path, default=Path("outputs"))
     args = parser.parse_args()
 
     handler = functools.partial(SimpleHTTPRequestHandler, directory=str(args.directory))
     server = ThreadingHTTPServer((args.host, args.port), handler)
-    print(f"http://{args.host}:{args.port}/dashboard.html")
+    print(f"http://{args.host}:{args.port}/lgbm_warning_dashboard/index.html")
     server.serve_forever()
 
 
