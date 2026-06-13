@@ -218,7 +218,10 @@ def grade(rank: pd.Series) -> pd.Series:
 def pct_rank(frame: pd.DataFrame, col: str, high_good: bool = True) -> pd.Series:
     if col.endswith("_low"):
         base = col.removesuffix("_low")
-        values = pd.to_numeric(frame[base], errors="coerce") if base in frame.columns else pd.Series(np.nan, index=frame.index)
+        if base in frame.columns:
+            values = pd.to_numeric(frame[base], errors="coerce")
+        else:
+            values = pd.to_numeric(frame[col], errors="coerce") if col in frame.columns else pd.Series(np.nan, index=frame.index)
         return values.rank(pct=True, ascending=True) * 100
     values = pd.to_numeric(frame[col], errors="coerce") if col in frame.columns else pd.Series(np.nan, index=frame.index)
     return values.rank(pct=True, ascending=not high_good) * 100
