@@ -108,6 +108,29 @@ FINANCIAL_FIELD_ALIASES = {
     "eps": {"Basic EPS", "Diluted EPS"},
 }
 
+YAHOO_TIMESERIES_URL = "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/{ticker}"
+YAHOO_TIMESERIES_FIELD_MAP = {
+    "revenue": "TotalRevenue",
+    "gross_profit": "GrossProfit",
+    "operating_income": "OperatingIncome",
+    "net_income": "NetIncome",
+    "total_assets": "TotalAssets",
+    "total_liabilities": "TotalLiabilitiesNetMinorityInterest",
+    "total_equity": "StockholdersEquity",
+    "cash": "CashAndCashEquivalents",
+    "short_term_debt": "CurrentDebt",
+    "long_term_debt": "LongTermDebt",
+    "operating_cash_flow": "OperatingCashFlow",
+    "investing_cash_flow": "InvestingCashFlow",
+    "financing_cash_flow": "FinancingCashFlow",
+    "capex": "CapitalExpenditure",
+    "eps": "DilutedEPS",
+}
+YAHOO_TIMESERIES_FALLBACK_FIELD_MAP = {
+    "eps": ["BasicEPS"],
+    "cash": ["CashCashEquivalentsAndShortTermInvestments"],
+}
+
 REPORT_CODE_BY_NAME = {
     "annual": "10-K",
     "q1": "10-Q",
@@ -277,9 +300,116 @@ def _fetch_yfinance_statement_frames(ticker: str, frequency: str) -> tuple[pd.Da
     return income, balance, cashflow
 
 
+def _yahoo_timeseries_types(frequency: str) -> dict[str, str]:
+    prefix = "annual" if frequency == "annual" else "quarterly"
+    result = {field: f"{prefix}{suffix}" for field, suffix in YAHOO_TIMESERIES_FIELD_MAP.items()}
+    for field, suffixes in YAHOO_TIMESERIES_FALLBACK_FIELD_MAP.items():
+        for suffix in suffixes:
+            result[f"{field}__fallback__{suffix}"] = f"{prefix}{suffix}"
+    return result
+
+
+def _fetch_yahoo_timeseries_financials_for_ticker(
+    ticker: str,
+    frequency: str = "annual",
+    name: str | None = None,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    ticker = _to_yfinance_ticker(ticker)
+    type_by_key = _yahoo_timeseries_types(frequency)
+    response = requests.get(
+        YAHOO_TIMESERIES_URL.format(ticker=ticker),
+        params={
+            "type": ",".join(type_by_key.values()),
+            "period1": "0",
+            "period2": str(int(time.time()) + 86400 * 370),
+        },
+        headers={"User-Agent": "Mozilla/5.0"},
+        timeout=30,
+    )
+    response.raise_for_status()
+    result = response.json().get("timeseries", {}).get("result", []) or []
+    if not result:
+        return pd.DataFrame(), pd.DataFrame(columns=FINANCIAL_COLUMNS)
+
+    type_to_field: dict[str, str] = {}
+    fallback_types: dict[str, str] = {}
+    for key, yahoo_type in type_by_key.items():
+        if "__fallback__" in key:
+            field = key.split("__fallback__", 1)[0]
+            fallback_types[yahoo_type] = field
+        else:
+            type_to_field[yahoo_type] = key
+
+    rows_by_period: dict[pd.Timestamp, dict[str, object]] = {}
+    raw_rows: list[dict[str, object]] = []
+    for item in result:
+        yahoo_type = (item.get("meta", {}).get("type") or [None])[0]
+        if not yahoo_type:
+            continue
+        field = type_to_field.get(yahoo_type) or fallback_types.get(yahoo_type)
+        if field is None:
+            continue
+        for point in item.get(yahoo_type, []) or []:
+            period_value = point.get("asOfDate")
+            reported = point.get("reportedValue") or {}
+            amount = reported.get("raw")
+            if not period_value or amount is None:
+                continue
+            period = pd.Timestamp(period_value)
+            report_name = _financial_report_name(period, frequency=frequency)
+            if frequency != "annual" and report_name == "annual":
+                continue
+            row = rows_by_period.setdefault(
+                period,
+                {
+                    column: None for column in FINANCIAL_COLUMNS
+                }
+                | {
+                    "ticker": ticker,
+                    "corp_code": ticker,
+                    "corp_name": name or ticker,
+                    "bsns_year": int(period.year),
+                    "reprt_code": REPORT_CODE_BY_NAME[report_name],
+                    "report_name": report_name,
+                    "fs_div": "YF_TS",
+                },
+            )
+            if row.get(field) is None or yahoo_type in type_to_field:
+                row[field] = _parse_float(amount)
+            raw_rows.append(
+                {
+                    "ticker": ticker,
+                    "corp_code": ticker,
+                    "corp_name": name or ticker,
+                    "bsns_year": int(period.year),
+                    "reprt_code": row["reprt_code"],
+                    "report_name": report_name,
+                    "fs_div": "YF_TS",
+                    "period_end": period.strftime("%Y-%m-%d"),
+                    "account_id": field,
+                    "account_nm": yahoo_type,
+                    "amount": _parse_float(amount),
+                }
+            )
+
+    if not rows_by_period:
+        return pd.DataFrame(), pd.DataFrame(columns=FINANCIAL_COLUMNS)
+    raw = pd.DataFrame(raw_rows)
+    normalized = pd.DataFrame(rows_by_period.values(), columns=FINANCIAL_COLUMNS)
+    normalized = normalized.sort_values(["ticker", "bsns_year", "reprt_code", "report_name"]).reset_index(drop=True)
+    return raw, normalized
+
+
 def fetch_us_financials_for_ticker(ticker: str, frequency: str = "annual", name: str | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Fetch and normalize yfinance statements for one US ticker."""
     ticker = _to_yfinance_ticker(ticker)
+    try:
+        raw, normalized = _fetch_yahoo_timeseries_financials_for_ticker(ticker=ticker, frequency=frequency, name=name)
+        if not normalized.empty:
+            return raw, normalized
+    except Exception:
+        pass
+
     income, balance, cashflow = _fetch_yfinance_statement_frames(ticker, frequency=frequency)
     statements = [income, balance, cashflow]
     periods = sorted(
