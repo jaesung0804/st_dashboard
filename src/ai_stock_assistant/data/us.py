@@ -105,7 +105,7 @@ FINANCIAL_FIELD_ALIASES = {
     "investing_cash_flow": {"Investing Cash Flow", "Total Cashflows From Investing Activities"},
     "financing_cash_flow": {"Financing Cash Flow", "Total Cash From Financing Activities"},
     "capex": {"Capital Expenditure", "Capital Expenditures"},
-    "eps": {"Basic EPS", "Diluted EPS", "Basic Average Shares"},
+    "eps": {"Basic EPS", "Diluted EPS"},
 }
 
 REPORT_CODE_BY_NAME = {
