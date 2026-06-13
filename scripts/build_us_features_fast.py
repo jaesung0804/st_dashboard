@@ -107,7 +107,10 @@ def merge_ticker_financials(group: pd.DataFrame, fin: pd.DataFrame) -> pd.DataFr
         by="ticker",
         direction="backward",
     )
-    market_cap = joined["adj_close"] * joined.get("shares_outstanding", np.nan)
+    shares = pd.to_numeric(joined.get("shares_outstanding", np.nan), errors="coerce")
+    static_market_cap = pd.to_numeric(joined.get("market_cap", np.nan), errors="coerce")
+    market_cap = joined["adj_close"] * shares
+    market_cap = market_cap.where(market_cap.notna(), static_market_cap)
     joined["cash_to_market_cap"] = _safe_div(joined["cash"], market_cap)
     joined["psr"] = _safe_div(market_cap, joined["revenue"])
     joined["pbr"] = _safe_div(market_cap, joined["total_equity"])
@@ -126,7 +129,10 @@ def main() -> None:
     prices["date"] = pd.to_datetime(prices["date"])
     listings = pd.read_csv(args.listings_path, dtype={"ticker": str})
     listings["ticker"] = normalize_ticker(listings["ticker"])
-    listings = listings[["ticker", "exchange", "industry", "shares_outstanding"]]
+    for col in ["exchange", "industry", "shares_outstanding", "market_cap"]:
+        if col not in listings:
+            listings[col] = np.nan
+    listings = listings[["ticker", "exchange", "industry", "shares_outstanding", "market_cap"]]
     prices = prices.merge(listings, on="ticker", how="left")
 
     financials = pd.read_csv(args.financials_path, dtype={"ticker": str, "corp_code": str})
@@ -140,6 +146,7 @@ def main() -> None:
         "exchange",
         "industry",
         "shares_outstanding",
+        "market_cap",
         "future_return_20d",
         "future_return_63d",
         "future_return_126d",
