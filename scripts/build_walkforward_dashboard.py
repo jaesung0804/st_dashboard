@@ -86,7 +86,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--listings-path", default=None, help="Optional listings CSV used to refresh name/sector tags.")
     p.add_argument("--home-href", default="index.html", help="Relative link to the dashboard home page.")
     p.add_argument("--kr-dashboard-href", default="dashboard.html")
-    p.add_argument("--us-dashboard-href", default="../lgbm_warning_dashboard_us_full_daily/dashboard.html")
+    p.add_argument("--us-dashboard-href", default="../lgbm_warning_dashboard_macro_us_latest/dashboard.html")
     p.add_argument("--recent-days", type=int, default=0, help="Only write the most recent N signal dates. 0 keeps every date.")
     p.add_argument("--copy-csv", action="store_true", help="Also copy compact CSV exports into the dashboard folder.")
     return p
@@ -569,7 +569,7 @@ def main() -> None:
     (out_dir / "index.html").write_text(home, encoding="utf-8")
     if out_dir.parent.name == "outputs":
         root_kr = f"{out_dir.name}/{args.kr_dashboard_href}" if not args.kr_dashboard_href.startswith("../") else "lgbm_warning_dashboard/dashboard.html"
-        root_us = f"{out_dir.name}/{args.us_dashboard_href}" if not args.us_dashboard_href.startswith("../") else "lgbm_warning_dashboard_us_full_daily/dashboard.html"
+        root_us = f"{out_dir.name}/{args.us_dashboard_href}" if not args.us_dashboard_href.startswith("../") else "lgbm_warning_dashboard_macro_us_latest/dashboard.html"
         (out_dir.parent / "index.html").write_text(home_html(root_kr, root_us), encoding="utf-8")
     print(out_dir / args.html_name)
 
