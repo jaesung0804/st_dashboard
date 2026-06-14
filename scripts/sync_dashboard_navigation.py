@@ -37,6 +37,7 @@ def home_html(prefix: str = "") -> str:
 <a href="{us}dashboard.html"><b>미국 대시보드</b><span>NASDAQ/NYSE 최신 후보와 종목 상세</span></a>
 <a href="{kr}backtest.html"><b>한국 백테스트</b><span>확정 수익률 기준 후보 성과 검증</span></a>
 <a href="{us}backtest.html"><b>미국 백테스트</b><span>확정 수익률 기준 후보 성과 검증</span></a>
+<a href="{prefix}down_negative_model_comparison/index.html"><b>하락 타겟 모델 비교</b><span>하위 5% 하락모델과 6개월 음수 하락모델 비교</span></a>
 </div>
 </main>
 </body>
