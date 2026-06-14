@@ -9,8 +9,8 @@ from pathlib import Path
 ROOT = Path("outputs")
 KR_DASHBOARD = ROOT / "lgbm_warning_dashboard_macro_kr_latest"
 US_DASHBOARD = ROOT / "lgbm_warning_dashboard_macro_us_latest"
-KR_LATEST_WF = ROOT / "walkforward_warning_macro_kr_latest_20260614"
-US_LATEST_WF = ROOT / "walkforward_warning_macro_us_latest_20260614"
+KR_LATEST_WF = ROOT / "walkforward_warning_macro_kr_combined_20260614"
+US_LATEST_WF = ROOT / "walkforward_warning_macro_us_combined_20260614"
 KR_BACKTEST_WF = ROOT / "walkforward_warning_macro_kr_backtest_20251128"
 US_BACKTEST_WF = ROOT / "walkforward_warning_macro_us_backtest_20251128"
 US_LISTINGS = Path("data/raw/us_listings_nasdaq_nyse_yfinfo_20260612.csv")
@@ -27,7 +27,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--us-listings-path", default=str(US_LISTINGS))
     p.add_argument("--signal-date", default="2025-11-28")
     p.add_argument("--latest-date", default="2026-06-12")
-    p.add_argument("--recent-days", type=int, default=1)
+    p.add_argument("--recent-days", type=int, default=0)
     return p
 
 
