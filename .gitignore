@@ -17,6 +17,7 @@ data/processed/
 outputs/
 models/
 reports/
+.pages-deploy/
 
 # Logs and temporary files
 *.log

@@ -25,19 +25,19 @@ def home_html(prefix: str = "") -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>주식 조기경보 대시보드</title>
+<title>Stock Early-Warning Dashboard</title>
 <style>{CSS}</style>
 </head>
 <body>
 <main>
-<h1>주식 조기경보 대시보드</h1>
-<p>한국과 미국 최신 조기경보 결과와 백테스트를 같은 기준으로 확인합니다. 최신 신호일은 장 데이터가 확인된 가장 최근 거래일 기준입니다.</p>
+<h1>Stock Early-Warning Dashboard</h1>
+<p>Review the latest Korea and US early-warning candidates alongside backtest results. Latest signal dates are based on the most recent available trading data.</p>
 <div class="grid">
-<a href="{kr}dashboard.html"><b>한국 대시보드</b><span>KOSPI/KOSDAQ 최신 후보와 종목 상세</span></a>
-<a href="{us}dashboard.html"><b>미국 대시보드</b><span>NASDAQ/NYSE 최신 후보와 종목 상세</span></a>
-<a href="{kr}backtest.html"><b>한국 백테스트</b><span>확정 수익률 기준 후보 성과 검증</span></a>
-<a href="{us}backtest.html"><b>미국 백테스트</b><span>확정 수익률 기준 후보 성과 검증</span></a>
-<a href="{prefix}down_negative_model_comparison/index.html"><b>하락 타겟 모델 비교</b><span>하위 5% 하락모델과 6개월 음수 하락모델 비교</span></a>
+<a href="{kr}dashboard.html"><b>Korea Dashboard</b><span>Latest KOSPI/KOSDAQ candidate details</span></a>
+<a href="{us}dashboard.html"><b>US Dashboard</b><span>Latest NASDAQ/NYSE candidate details</span></a>
+<a href="{kr}backtest.html"><b>Korea Backtest</b><span>Candidate performance using finalized forward returns</span></a>
+<a href="{us}backtest.html"><b>US Backtest</b><span>Candidate performance using finalized forward returns</span></a>
+<a href="{prefix}down_negative_model_comparison/index.html"><b>Downside Model Comparison</b><span>Compare bottom-5% downside and 6-month recovery downside models</span></a>
 </div>
 </main>
 </body>
@@ -48,18 +48,18 @@ def home_html(prefix: str = "") -> str:
 def nav_html(market: str) -> str:
     if market == "kr":
         return (
-            '<nav class="topnav"><a href="../index.html">홈</a>'
-            '<a href="dashboard.html">한국 대시보드</a>'
-            '<a href="backtest.html">한국 백테스트</a>'
-            '<a href="../lgbm_warning_dashboard_macro_us_latest/dashboard.html">미국 대시보드</a>'
-            '<a href="../lgbm_warning_dashboard_macro_us_latest/backtest.html">미국 백테스트</a></nav>'
+            '<nav class="topnav"><a href="../index.html">Home</a>'
+            '<a href="dashboard.html">Korea Dashboard</a>'
+            '<a href="backtest.html">Korea Backtest</a>'
+            '<a href="../lgbm_warning_dashboard_macro_us_latest/dashboard.html">US Dashboard</a>'
+            '<a href="../lgbm_warning_dashboard_macro_us_latest/backtest.html">US Backtest</a></nav>'
         )
     return (
-        '<nav class="topnav"><a href="../index.html">홈</a>'
-        '<a href="../lgbm_warning_dashboard_macro_kr_latest/dashboard.html">한국 대시보드</a>'
-        '<a href="../lgbm_warning_dashboard_macro_kr_latest/backtest.html">한국 백테스트</a>'
-        '<a href="dashboard.html">미국 대시보드</a>'
-        '<a href="backtest.html">미국 백테스트</a></nav>'
+        '<nav class="topnav"><a href="../index.html">Home</a>'
+        '<a href="../lgbm_warning_dashboard_macro_kr_latest/dashboard.html">Korea Dashboard</a>'
+        '<a href="../lgbm_warning_dashboard_macro_kr_latest/backtest.html">Korea Backtest</a>'
+        '<a href="dashboard.html">US Dashboard</a>'
+        '<a href="backtest.html">US Backtest</a></nav>'
     )
 
 
@@ -79,14 +79,14 @@ def redirect_html(target_base: str, page: str, label: str) -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="refresh" content="0; url={target}">
-<title>{label}로 이동</title>
+<title>Go to {label}</title>
 <script>
 const next = "{target}" + window.location.search + window.location.hash;
 window.location.replace(next);
 </script>
 </head>
 <body>
-<p><a href="{target}">{label}로 이동</a></p>
+<p><a href="{target}">Go to {label}</a></p>
 </body>
 </html>
 """
@@ -100,7 +100,7 @@ def sync_legacy_redirects() -> None:
                 shutil.rmtree(child)
             else:
                 child.unlink()
-        label = "최신 한국 대시보드" if "us" not in directory.name else "최신 미국 대시보드"
+        label = "latest Korea dashboard" if "us" not in directory.name else "latest US dashboard"
         for page in ["index.html", "dashboard.html", "stock.html", "backtest.html"]:
             directory.joinpath(page).write_text(redirect_html(target_base, page, label), encoding="utf-8")
 
