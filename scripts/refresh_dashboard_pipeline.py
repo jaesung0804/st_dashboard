@@ -18,7 +18,7 @@ import pandas as pd
 
 from ai_stock_assistant.data.macro import fetch_macro_indicators
 from ai_stock_assistant.data.opendart import save_korean_financials
-from ai_stock_assistant.data.refresh import refresh_kr_daily_data, refresh_us_daily_data
+from ai_stock_assistant.data.refresh import refresh_kr_daily_data_fast, refresh_us_daily_data
 from ai_stock_assistant.data.us import save_us_financials
 from ai_stock_assistant.features import build_feature_matrix
 
@@ -179,7 +179,11 @@ def main() -> None:
     copy_if_exists(latest("data/raw/opendart_financials_all_reports_*.csv") or latest("data/raw/opendart_financials_state.csv"), KR_FINANCIAL_STATE)
     copy_if_exists(latest("data/raw/yfinance_financials_annual_quarterly.csv") or latest("data/raw/yfinance_financials_state.csv"), US_FINANCIAL_STATE)
 
-    kr_refresh = refresh_kr_daily_data(asof=asof, lookback_days=args.lookback_days)
+    kr_refresh = refresh_kr_daily_data_fast(
+        asof=asof,
+        prices_path=KR_PRICE_STATE,
+        output_path=KR_PRICE_STATE,
+    )
     copy_if_exists(kr_refresh.combined_prices_path, KR_PRICE_STATE)
     copy_if_exists(kr_refresh.listings_path, KR_LISTINGS_STATE)
 

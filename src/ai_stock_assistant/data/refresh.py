@@ -8,11 +8,12 @@ import pandas as pd
 
 from ai_stock_assistant.config import DAILY_OUTPUT_DIR, RAW_DATA_DIR, ensure_project_dirs
 from ai_stock_assistant.data.krx import (
+    PRICE_SCHEMA as KRX_PRICE_SCHEMA,
     fetch_krx_listings_for_markets,
     fetch_krx_ohlcv,
     today_yyyymmdd,
 )
-from ai_stock_assistant.data.us import PRICE_SCHEMA, fetch_us_ohlcv_batch
+from ai_stock_assistant.data.us import PRICE_SCHEMA as US_PRICE_SCHEMA, fetch_us_ohlcv_batch
 
 
 @dataclass(frozen=True)
@@ -158,6 +159,85 @@ def refresh_kr_daily_data(
     )
 
 
+def _normalize_krx_by_ticker(raw: pd.DataFrame, asof: str) -> pd.DataFrame:
+    if raw.empty:
+        return pd.DataFrame(columns=KRX_PRICE_SCHEMA)
+    frame = raw.reset_index()
+    column_map = {
+        frame.columns[0]: "ticker",
+        frame.columns[1]: "open",
+        frame.columns[2]: "high",
+        frame.columns[3]: "low",
+        frame.columns[4]: "close",
+        frame.columns[5]: "volume",
+    }
+    frame = frame.rename(columns=column_map)
+    frame["ticker"] = frame["ticker"].astype(str).str.zfill(6)
+    frame["date"] = pd.to_datetime(asof).strftime("%Y-%m-%d")
+    frame["adjusted_close"] = frame["close"]
+    return frame[KRX_PRICE_SCHEMA]
+
+
+def refresh_kr_daily_data_fast(
+    markets: list[str] | None = None,
+    asof: str | None = None,
+    prices_path: Path | None = None,
+    output_path: Path | None = None,
+) -> DailyRefreshResult:
+    """Refresh one KRX date by fetching each market in bulk."""
+    from pykrx import stock
+
+    ensure_project_dirs()
+    markets = markets or ["KOSPI", "KOSDAQ"]
+    asof = asof or today_yyyymmdd()
+    market_slug = "_".join(market.lower() for market in markets)
+    run_dir = DAILY_OUTPUT_DIR / asof
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    listings = fetch_krx_listings_for_markets(asof=asof, markets=markets)
+    listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{asof}.csv"
+    listings.to_csv(listings_path, index=False, encoding="utf-8-sig")
+
+    frames = []
+    summary_rows = []
+    for market in markets:
+        try:
+            raw = stock.get_market_ohlcv_by_ticker(asof, market=market)
+            frame = _normalize_krx_by_ticker(raw, asof)
+            frames.append(frame)
+            summary_rows.append({"market": market, "status": "updated", "rows": len(frame), "error": ""})
+        except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
+            summary_rows.append({"market": market, "status": "failed", "rows": 0, "error": repr(exc)})
+        print(f"[KRX {market}] {summary_rows[-1]['status']} rows={summary_rows[-1]['rows']}", flush=True)
+
+    update = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
+    update = update[update["ticker"].isin(listings["ticker"].astype(str).str.zfill(6))]
+
+    prices_path = prices_path or _find_latest_combined_prices(market_slug) or (RAW_DATA_DIR / f"krx_ohlcv_{market_slug}_daily.csv")
+    output_path = output_path or prices_path
+    existing = pd.read_csv(prices_path, dtype={"ticker": str}) if prices_path.exists() else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
+    combined = pd.concat([existing, update], ignore_index=True)
+    if not combined.empty:
+        combined["ticker"] = combined["ticker"].astype(str).str.zfill(6)
+        combined["date"] = pd.to_datetime(combined["date"]).dt.strftime("%Y-%m-%d")
+        combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    combined.to_csv(output_path, index=False, encoding="utf-8-sig")
+
+    summary_path = run_dir / "krx_daily_data_refresh_summary.csv"
+    pd.DataFrame(summary_rows).to_csv(summary_path, index=False, encoding="utf-8-sig")
+    failed = sum(row["status"] == "failed" for row in summary_rows)
+    return DailyRefreshResult(
+        asof=asof,
+        listings_path=listings_path,
+        price_dir=RAW_DATA_DIR,
+        combined_prices_path=output_path,
+        summary_path=summary_path,
+        updated_count=len(update),
+        failed_count=failed,
+    )
+
+
 def write_daily_readme(asof: str | None = None) -> Path:
     ensure_project_dirs()
     asof = asof or date.today().strftime("%Y%m%d")
@@ -260,7 +340,7 @@ def refresh_us_daily_data(
             batch_error = ""
 
         for ticker in batch:
-            update = batch_prices.get(ticker, pd.DataFrame(columns=PRICE_SCHEMA))
+            update = batch_prices.get(ticker, pd.DataFrame(columns=US_PRICE_SCHEMA))
             if not update.empty:
                 frames.append(update)
                 updated_count += 1
@@ -283,7 +363,7 @@ def refresh_us_daily_data(
             )
             print(f"[US {min(offset + len(batch), len(tickers))}/{len(tickers)}] {ticker} {status}", flush=True)
 
-    combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=PRICE_SCHEMA)
+    combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=US_PRICE_SCHEMA)
     if not combined.empty:
         combined["ticker"] = combined["ticker"].astype(str).str.upper()
         combined["date"] = pd.to_datetime(combined["date"]).dt.strftime("%Y-%m-%d")
