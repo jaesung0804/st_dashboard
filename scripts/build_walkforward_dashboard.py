@@ -27,7 +27,12 @@ KEEP_COLUMNS = [
     "sector",
     "detailSector",
     "theme",
+    "exchange",
     "close",
+    "closeRaw",
+    "currency",
+    "usdKrw",
+    "closeKrw",
     "upScore",
     "up_lgbm_prob",
     "upGrade",
@@ -39,18 +44,22 @@ KEEP_COLUMNS = [
     "isFinalCandidate",
     "expRet_1m",
     "expClose_1m",
+    "expCloseKrw_1m",
     "actRet_1m",
     "actClose_1m",
     "expRet_3m",
     "expClose_3m",
+    "expCloseKrw_3m",
     "actRet_3m",
     "actClose_3m",
     "expRet_6m",
     "expClose_6m",
+    "expCloseKrw_6m",
     "actRet_6m",
     "actClose_6m",
     "expRet_12m",
     "expClose_12m",
+    "expCloseKrw_12m",
     "actRet_12m",
     "actClose_12m",
     *SUBSCORES.keys(),
@@ -61,7 +70,12 @@ HISTORY_COLUMNS = [
     "name",
     "sector",
     "detailSector",
+    "exchange",
     "close",
+    "closeRaw",
+    "currency",
+    "usdKrw",
+    "closeKrw",
     "upScore",
     "upGrade",
     "downRisk",
@@ -73,6 +87,14 @@ HISTORY_COLUMNS = [
     "expRet_3m",
     "expRet_6m",
     "expRet_12m",
+    "expClose_1m",
+    "expClose_3m",
+    "expClose_6m",
+    "expClose_12m",
+    "expCloseKrw_1m",
+    "expCloseKrw_3m",
+    "expCloseKrw_6m",
+    "expCloseKrw_12m",
     *SUBSCORES.keys(),
 ]
 
@@ -116,7 +138,7 @@ def apply_listing_tags(scores: pd.DataFrame, listings_path: Path | None) -> pd.D
     listings = pd.read_csv(listings_path, dtype={"ticker": str})
     listings["ticker"] = listings["ticker"].astype(str).str.strip()
     tag_cols = ["ticker"]
-    for col in ["name", "sector", "industry", "representative_industry"]:
+    for col in ["name", "sector", "industry", "representative_industry", "exchange"]:
         if col in listings:
             tag_cols.append(col)
     tags = listings[tag_cols].drop_duplicates("ticker", keep="first")
@@ -135,6 +157,8 @@ def apply_listing_tags(scores: pd.DataFrame, listings_path: Path | None) -> pd.D
         merged["detailSector"] = merged["industry"].where(usable(merged["industry"]), merged["detailSector"])
     if "industry" in merged:
         merged["theme"] = merged["industry"].where(usable(merged["industry"]), merged["theme"])
+    if "exchange_listing" in merged:
+        merged["exchange"] = merged["exchange_listing"].where(usable(merged["exchange_listing"]), merged.get("exchange", ""))
     drop_cols = [c for c in merged.columns if c.endswith("_listing") or c in {"representative_industry", "industry"}]
     return merged.drop(columns=drop_cols, errors="ignore").fillna("")
 
@@ -199,6 +223,7 @@ def write_stock_history(scores: pd.DataFrame, out_dir: Path, dates: list[str]) -
                 "name": str(latest.get("name", "")),
                 "sector": str(latest.get("sector", "")),
                 "detailSector": str(latest.get("detailSector", "")),
+                "exchange": str(latest.get("exchange", "")),
             }
         )
         payload = {
@@ -206,6 +231,7 @@ def write_stock_history(scores: pd.DataFrame, out_dir: Path, dates: list[str]) -
             "name": latest.get("name", ""),
             "sector": latest.get("sector", ""),
             "detailSector": latest.get("detailSector", ""),
+            "exchange": latest.get("exchange", ""),
             "rows": part.fillna("").to_dict("records"),
         }
         json_dump(history_dir / f"{quote(str(ticker), safe='')}.json", payload)

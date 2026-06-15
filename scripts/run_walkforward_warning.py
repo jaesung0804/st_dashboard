@@ -98,7 +98,7 @@ def load_kr_sector(path: Path) -> pd.DataFrame:
 
 def load_us_sector(path: Path | None) -> pd.DataFrame:
     if path is None or not path.exists():
-        return pd.DataFrame(columns=["ticker", "name", "security_type", "sector", "detailSector", "theme"])
+        return pd.DataFrame(columns=["ticker", "name", "security_type", "sector", "detailSector", "theme", "exchange"])
     listings = pd.read_csv(path, dtype={"ticker": str})
     listings["ticker"] = normalize_ticker(listings["ticker"])
     return pd.DataFrame(
@@ -109,6 +109,7 @@ def load_us_sector(path: Path | None) -> pd.DataFrame:
             "sector": listings.get("sector", listings.get("exchange", "")),
             "detailSector": listings.get("industry", listings.get("exchange", "")),
             "theme": "",
+            "exchange": listings.get("exchange", ""),
         }
     )
 
@@ -236,11 +237,20 @@ def add_subscores(frame: pd.DataFrame) -> pd.DataFrame:
 
 
 def fmt_pct(x: float | None) -> str:
-    return "미확정" if pd.isna(x) else f"{x * 100:.1f}%"
+    return "미확인" if pd.isna(x) else f"{x * 100:.1f}%"
 
 
-def fmt_price(x: float | None) -> str:
-    return "미확정" if pd.isna(x) else f"{int(round(float(x))):,}"
+def fmt_price(x: float | None, currency: str = "KRW") -> str:
+    if pd.isna(x):
+        return "미확인"
+    value = float(x)
+    if currency == "USD":
+        return f"${value:,.2f}"
+    return f"{int(round(value)):,}원"
+
+
+def fmt_krw(x: float | None) -> str:
+    return "미확인" if pd.isna(x) else f"{int(round(float(x))):,}원"
 
 
 def validation_auc(model: LGBMClassifier, val: pd.DataFrame, features: list[str], target: str) -> float:
@@ -261,8 +271,15 @@ def score_one_date(
     up_features: list[str],
     down_features: list[str],
     ret_features: list[str],
+    market: str,
 ) -> pd.DataFrame:
     score = score.copy()
+    currency = "USD" if market == "us" else "KRW"
+    fx = pd.to_numeric(score.get("macro_usd_krw", pd.Series(np.nan, index=score.index)), errors="coerce")
+    score["closeRaw"] = pd.to_numeric(score["adj_close"], errors="coerce").round(4)
+    score["currency"] = currency
+    score["usdKrw"] = fx.round(4)
+    score["closeKrw"] = np.where(currency == "USD", score["closeRaw"] * fx, score["closeRaw"])
     score["up_lgbm_prob"] = up_model.predict_proba(score[up_features].replace([np.inf, -np.inf], np.nan))[:, 1]
     score["down_lgbm_prob"] = down_model.predict_proba(score[down_features].replace([np.inf, -np.inf], np.nan))[:, 1]
     score["up_rank_pct"] = score["up_lgbm_prob"].rank(pct=True, ascending=False, method="first")
@@ -278,12 +295,16 @@ def score_one_date(
         reg = regressors[key]
         pred = reg.predict(score[ret_features].replace([np.inf, -np.inf], np.nan)).clip(-0.85, 2.5)
         score[f"expRet_{key}"] = [fmt_pct(x) for x in pred]
-        score[f"expClose_{key}"] = [fmt_price(c * (1 + r)) for c, r in zip(score["adj_close"], pred)]
+        score[f"expClose_{key}"] = [fmt_price(c * (1 + r), currency) for c, r in zip(score["adj_close"], pred)]
+        if currency == "USD":
+            score[f"expCloseKrw_{key}"] = [fmt_krw(c * (1 + r) * rate) for c, r, rate in zip(score["adj_close"], pred, fx)]
         actual = score.get(f"future_return_{dict(HORIZONS)[key]}d", pd.Series(np.nan, index=score.index))
         score[f"actRet_{key}"] = [fmt_pct(x) for x in actual]
-        score[f"actClose_{key}"] = [fmt_price(c * (1 + r) if not pd.isna(r) else np.nan) for c, r in zip(score["adj_close"], actual)]
+        score[f"actClose_{key}"] = [fmt_price(c * (1 + r) if not pd.isna(r) else np.nan, currency) for c, r in zip(score["adj_close"], actual)]
     score = add_subscores(score)
-    score["close"] = score["adj_close"].map(fmt_price)
+    score["close"] = [fmt_price(x, currency) for x in score["adj_close"]]
+    if currency == "USD":
+        score["close"] = [f"{usd} / {fmt_krw(krw)}" for usd, krw in zip(score["close"], score["closeKrw"])]
     score["date"] = sig.strftime("%Y-%m-%d")
     return score
 
@@ -299,7 +320,17 @@ def main() -> None:
     else:
         sector = load_us_sector(Path(args.listings_path) if args.listings_path else None)
     usecols = (
-        {"date", "ticker", "adj_close", "avg_trading_value_20d", "future_return_20d", "future_return_63d", "future_return_126d", "future_return_252d"}
+        {
+            "date",
+            "ticker",
+            "adj_close",
+            "avg_trading_value_20d",
+            "future_return_20d",
+            "future_return_63d",
+            "future_return_126d",
+            "future_return_252d",
+            "exchange",
+        }
         | set(FEATURE_COLUMNS)
     )
     raw = pd.read_csv(Path(args.features_path), dtype={"ticker": str}, usecols=lambda c: c in usecols)
@@ -310,6 +341,8 @@ def main() -> None:
     raw["sector"] = raw["sector"].fillna("미분류")
     raw["detailSector"] = raw["detailSector"].fillna("미분류")
     raw["theme"] = raw["theme"].fillna("")
+    if "exchange" not in raw:
+        raw["exchange"] = ""
     raw = add_targets(raw)
     pool = static_pool(raw, require_target=False, min_trading_value=min_trading_value, min_close=min_close)
     labeled = static_pool(raw, require_target=True, min_trading_value=min_trading_value, min_close=min_close)
@@ -369,6 +402,7 @@ def main() -> None:
                 up_features,
                 down_features,
                 ret_features,
+                args.market,
             )
             all_scores.append(scored)
             print(
@@ -380,12 +414,13 @@ def main() -> None:
 
     scores = pd.concat(all_scores, ignore_index=True)
     cols = [
-        "date", "ticker", "name", "sector", "detailSector", "theme", "close", "upScore", "up_lgbm_prob", "upGrade",
+        "date", "ticker", "name", "sector", "detailSector", "theme", "exchange", "close", "closeRaw", "currency",
+        "usdKrw", "closeKrw", "upScore", "up_lgbm_prob", "upGrade",
         "downRisk", "down_lgbm_prob", "downGrade", "isUpCandidate", "isDownRed", "isFinalCandidate",
-        "expRet_1m", "expClose_1m", "actRet_1m", "actClose_1m",
-        "expRet_3m", "expClose_3m", "actRet_3m", "actClose_3m",
-        "expRet_6m", "expClose_6m", "actRet_6m", "actClose_6m",
-        "expRet_12m", "expClose_12m", "actRet_12m", "actClose_12m",
+        "expRet_1m", "expClose_1m", "expCloseKrw_1m", "actRet_1m", "actClose_1m",
+        "expRet_3m", "expClose_3m", "expCloseKrw_3m", "actRet_3m", "actClose_3m",
+        "expRet_6m", "expClose_6m", "expCloseKrw_6m", "actRet_6m", "actClose_6m",
+        "expRet_12m", "expClose_12m", "expCloseKrw_12m", "actRet_12m", "actClose_12m",
         *SUBSCORES.keys(),
     ]
     for col in cols:
