@@ -26,6 +26,7 @@ jobs:
     env:
       OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
       DART_API_KEY: ${{ secrets.DART_API_KEY }}
+      GITHUB_TOKEN: ${{ github.token }}
       PYTHONUTF8: "1"
       PYTHONIOENCODING: "utf-8"
     steps:

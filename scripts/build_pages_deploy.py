@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import os
 import shutil
@@ -303,6 +304,12 @@ def remove_tree(path: Path) -> None:
 def push_pages(deploy_dir: Path, repo: str) -> None:
     run_git(["init"], deploy_dir)
     run_git(["checkout", "-B", "gh-pages"], deploy_dir)
+    run_git(["config", "user.name", "github-actions[bot]"], deploy_dir)
+    run_git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], deploy_dir)
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        credential = base64.b64encode(f"x-access-token:{token}".encode("utf-8")).decode("ascii")
+        run_git(["config", "http.https://github.com/.extraheader", f"AUTHORIZATION: basic {credential}"], deploy_dir)
     run_git(["add", "-A"], deploy_dir)
     run_git(["commit", "-m", "Deploy dashboard to GitHub Pages"], deploy_dir)
     try:
