@@ -1,0 +1,48 @@
+name: Daily Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 18:30 UTC = 03:30 Korea time. Adjust after the full data pipeline is finalized.
+    - cron: "30 18 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  publish-existing-dashboard:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        shell: pwsh
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Check generated dashboard inputs
+        id: generated
+        shell: pwsh
+        run: |
+          $required = @(
+            "outputs\lgbm_warning_dashboard_macro_kr_latest\walkforward_scores_by_date",
+            "outputs\lgbm_warning_dashboard_macro_us_latest\walkforward_scores_by_date"
+          )
+          $missing = $required | Where-Object { -not (Test-Path $_) }
+          if ($missing.Count -gt 0) {
+            Write-Host "::notice::Generated dashboard outputs are not committed to this repository. This workflow is wired as the manual/scheduled refresh button, but the full collection pipeline still needs persistent data/artifact storage before GitHub-hosted runners can refresh from scratch."
+            "ready=false" >> $env:GITHUB_OUTPUT
+          } else {
+            "ready=true" >> $env:GITHUB_OUTPUT
+          }
+
+      - name: Publish GitHub Pages bundle
+        if: steps.generated.outputs.ready == 'true'
+        shell: pwsh
+        run: |
+          python scripts\build_pages_deploy.py --days 22 --push
