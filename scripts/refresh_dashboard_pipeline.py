@@ -90,7 +90,9 @@ def should_refresh_financials(mode: str) -> bool:
         return True
     if mode == "never":
         return False
-    return date.today().weekday() == 0 or not KR_FINANCIAL_STATE.exists() or not US_FINANCIAL_STATE.exists()
+    today = date.today()
+    monthly_window = today.weekday() == 4 and today.day <= 7
+    return monthly_window or not KR_FINANCIAL_STATE.exists() or not US_FINANCIAL_STATE.exists()
 
 
 def run(args: list[str]) -> None:
