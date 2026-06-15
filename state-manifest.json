@@ -1,0 +1,47 @@
+{
+  "data/raw/krx_ohlcv_kospi_kosdaq_state.csv": {
+    "type": "split",
+    "size": 155817581,
+    "parts": [
+      ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0000",
+      ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0001"
+    ]
+  },
+  "data/raw/krx_listings_kospi_kosdaq_state.csv": {
+    "type": "file",
+    "size": 172552
+  },
+  "data/raw/opendart_financials_state.csv": {
+    "type": "file",
+    "size": 11460507
+  },
+  "data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv": {
+    "type": "split",
+    "size": 624275314,
+    "parts": [
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0000",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0001",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0002",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0003",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0004",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0005",
+      ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0006"
+    ]
+  },
+  "data/raw/us_listings_nasdaq_nyse_yfinfo_state.csv": {
+    "type": "file",
+    "size": 490356
+  },
+  "data/raw/yfinance_financials_state.csv": {
+    "type": "file",
+    "size": 8677785
+  },
+  "data/raw/krx_kospi_kosdaq_detailed_sector_map.xlsx": {
+    "type": "file",
+    "size": 769752
+  },
+  "data/raw/opendart_corp_codes.csv": {
+    "type": "file",
+    "size": 263463
+  }
+}
