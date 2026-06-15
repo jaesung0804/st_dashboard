@@ -13,6 +13,14 @@ import pandas as pd
 WF_DIR = Path("outputs/walkforward_warning")
 OUT_DIR = Path("outputs/lgbm_warning_dashboard")
 ALL = "전체"
+WINDOWS_RESERVED_NAMES = {
+    "CON",
+    "PRN",
+    "AUX",
+    "NUL",
+    *(f"COM{i}" for i in range(1, 10)),
+    *(f"LPT{i}" for i in range(1, 10)),
+}
 SUBSCORES = {
     "growth_profit": "성장/수익",
     "cash_quality": "현금흐름",
@@ -116,6 +124,14 @@ def parser() -> argparse.ArgumentParser:
 
 def json_dump(path: Path, payload: Any) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
+def safe_stock_filename(ticker: str) -> str:
+    name = quote(str(ticker), safe="")
+    stem = name.rsplit(".", 1)[0].upper()
+    if stem in WINDOWS_RESERVED_NAMES:
+        name = f"{name}_"
+    return f"{name}.json"
 
 
 def load_scores(wf_dir: Path) -> pd.DataFrame:
@@ -234,7 +250,7 @@ def write_stock_history(scores: pd.DataFrame, out_dir: Path, dates: list[str]) -
             "exchange": latest.get("exchange", ""),
             "rows": part.fillna("").to_dict("records"),
         }
-        json_dump(history_dir / f"{quote(str(ticker), safe='')}.json", payload)
+        json_dump(history_dir / safe_stock_filename(str(ticker)), payload)
     json_dump(out_dir / "stock_index.json", sorted(index_rows, key=lambda row: row["ticker"]))
 
 
@@ -330,12 +346,19 @@ let compareList = [];
 let tablePage = 1;
 let stockIndex = [];
 const palette = ['#1d4ed8','#dc2626','#059669','#7c3aed','#ea580c','#0891b2','#be123c','#4d7c0f','#9333ea','#0f766e'];
+const reservedNames = new Set(['CON','PRN','AUX','NUL','COM1','COM2','COM3','COM4','COM5','COM6','COM7','COM8','COM9','LPT1','LPT2','LPT3','LPT4','LPT5','LPT6','LPT7','LPT8','LPT9']);
 
 function esc(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
 function num(value){const n=parseFloat(String(value??'').replace(/,/g,'').replace('%',''));return Number.isNaN(n)?null:n;}
 function badge(v){return `<span class="badge ${esc(v)}">${esc(v)}</span>`;}
+function safeTickerFile(symbol){
+  let name = encodeURIComponent(String(symbol || ''));
+  const stem = name.split('.')[0].toUpperCase();
+  if(reservedNames.has(stem)) name += '_';
+  return name;
+}
 function loadHistory(symbol){
-  return fetch(`stock_history/${encodeURIComponent(symbol)}.json`).then(r=>{
+  return fetch(`stock_history/${safeTickerFile(symbol)}.json`).then(r=>{
     if(!r.ok) throw new Error(`${symbol}: ${r.status} ${r.statusText}`);
     return r.json();
   });

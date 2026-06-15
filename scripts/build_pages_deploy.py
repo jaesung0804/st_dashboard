@@ -13,6 +13,14 @@ from urllib.parse import quote
 ROOT = Path("outputs")
 DEPLOY_DIR = Path(".pages-deploy")
 ACTION_URL = "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml"
+WINDOWS_RESERVED_NAMES = {
+    "CON",
+    "PRN",
+    "AUX",
+    "NUL",
+    *(f"COM{i}" for i in range(1, 10)),
+    *(f"LPT{i}" for i in range(1, 10)),
+}
 DASHBOARDS = {
     "kr": {
         "source": ROOT / "lgbm_warning_dashboard_macro_kr_latest",
@@ -45,6 +53,14 @@ def json_load(path: Path) -> object:
 def json_dump(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
+def safe_stock_filename(ticker: str) -> str:
+    name = quote(str(ticker), safe="")
+    stem = name.rsplit(".", 1)[0].upper()
+    if stem in WINDOWS_RESERVED_NAMES:
+        name = f"{name}_"
+    return f"{name}.json"
 
 
 def selected_date_files(source: Path, days: int) -> list[Path]:
@@ -176,14 +192,16 @@ def stock_html(label: str, other_href: str, other_label: str) -> str:
 const params=new URLSearchParams(location.search),ticker=params.get('ticker')||'';const labels=['신호일','종가','상승','상승등급','하락','하락등급','최종','대표점수','예상 6개월'];
 const scoreLabels=[['growth_profit','성장'],['cash_quality','현금'],['valuation','밸류'],['price_volume','가격'],['risk_overheat','위험']];
 const suffix={{NASDAQ:'.O',NYSE:'.N',NYSEAMERICAN:'.A',NYSEARCA:'.P'}};
+const reservedNames=new Set(['CON','PRN','AUX','NUL','COM1','COM2','COM3','COM4','COM5','COM6','COM7','COM8','COM9','LPT1','LPT2','LPT3','LPT4','LPT5','LPT6','LPT7','LPT8','LPT9']);
 function esc(v){{return String(v??'').replace(/[&<>"']/g,ch=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[ch]));}}
 function num(v){{const n=parseFloat(String(v??'').replace(/[$,원%]/g,'').split('/')[0]);return Number.isNaN(n)?NaN:n;}}
+function safeTickerFile(t){{let name=encodeURIComponent(String(t||''));const stem=name.split('.')[0].toUpperCase();if(reservedNames.has(stem))name+='_';return name;}}
 function cls(v){{const n=num(v);return Number.isNaN(n)?'':n<0?'neg':'pos';}}
 function heat(v,key){{const n=Math.max(0,Math.min(100,num(v)||0));const good=key==='risk_overheat'?100-n:n;const hue=220-good*1.7;return `background:hsl(${{hue}} 84% 91%);color:hsl(${{hue}} 76% 27%)`;}}
 function scoreBlock(r){{return '<div class="scores">'+scoreLabels.map(([key,label])=>`<div class="score" style="${{heat(r[key],key)}}"><small>${{label}}</small><b>${{esc(r[key]??'-')}}</b></div>`).join('')+'</div>';}}
 function naverUrl(r){{const t=String(r.ticker||ticker); if(String(r.currency||'').toUpperCase()==='USD') return `https://m.stock.naver.com/worldstock/stock/${{encodeURIComponent(t+(suffix[String(r.exchange||'').toUpperCase()]||'.O'))}}/total`; return `https://m.stock.naver.com/domestic/stock/${{encodeURIComponent(t.padStart(6,'0'))}}/total`;}}
 function expected(r){{const krw=r.expCloseKrw_6m?` / ${{esc(r.expCloseKrw_6m)}}`:'';return `<span class="${{cls(r.expRet_6m)}}">${{esc(r.expRet_6m||'-')}}</span><br>${{esc(r.expClose_6m||'-')}}${{krw}}`;}}
-async function init(){{if(!ticker)throw new Error('티커가 없습니다.');const data=await fetch(`stock_history/${{encodeURIComponent(ticker)}}.json`).then(r=>{{if(!r.ok)throw new Error(`${{r.status}} ${{r.statusText}}`);return r.json();}});const rows=(data.rows||[]).slice().reverse();document.getElementById('title').textContent=`{label} 종목 상세: ${{data.ticker}} ${{data.name||''}}`;document.getElementById('naver').href=naverUrl(rows[0]||data);document.getElementById('content').innerHTML='<table><thead><tr>'+labels.map(x=>`<th>${{x}}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>{{const cells=[esc(r.date),esc(r.close),esc(r.upScore),esc(r.upGrade),esc(r.downRisk),esc(r.downGrade),r.isFinalCandidate?'Y':'',scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,i)=>`<td data-label="${{labels[i]}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
+async function init(){{if(!ticker)throw new Error('티커가 없습니다.');const data=await fetch(`stock_history/${{safeTickerFile(ticker)}}.json`).then(r=>{{if(!r.ok)throw new Error(`${{r.status}} ${{r.statusText}}`);return r.json();}});const rows=(data.rows||[]).slice().reverse();document.getElementById('title').textContent=`{label} 종목 상세: ${{data.ticker}} ${{data.name||''}}`;document.getElementById('naver').href=naverUrl(rows[0]||data);document.getElementById('content').innerHTML='<table><thead><tr>'+labels.map(x=>`<th>${{x}}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>{{const cells=[esc(r.date),esc(r.close),esc(r.upScore),esc(r.upGrade),esc(r.downRisk),esc(r.downGrade),r.isFinalCandidate?'Y':'',scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,i)=>`<td data-label="${{labels[i]}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
 init().catch(err=>{{document.getElementById('content').textContent=err.message;}});
 </script></body></html>"""
 
@@ -256,7 +274,7 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
         rows.sort(key=lambda row: str(row.get("date", "")))
         index = stock_index[ticker]
         json_dump(
-            history_dir / f"{quote(ticker, safe='')}.json",
+            history_dir / safe_stock_filename(ticker),
             {"ticker": ticker, "name": index["name"], "sector": index["sector"], "detailSector": index["detailSector"], "exchange": index["exchange"], "rows": rows},
         )
     (target / "dashboard.html").write_text(dashboard_html(label, subtitle, other_href, other_label), encoding="utf-8")
