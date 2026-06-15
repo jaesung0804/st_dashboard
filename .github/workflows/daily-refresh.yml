@@ -2,18 +2,41 @@ name: Daily Refresh
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_financials:
+        description: "Financial statement refresh mode"
+        required: false
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - always
+          - never
   schedule:
-    # 18:30 UTC = 03:30 Korea time. Adjust after the full data pipeline is finalized.
-    - cron: "30 18 * * 1-5"
+    # 22:30 UTC = 07:30 Korea time, Tuesday-Saturday. This is after the US close.
+    - cron: "30 22 * * 1-5"
 
 permissions:
   contents: write
 
 jobs:
-  publish-existing-dashboard:
+  refresh-and-publish:
     runs-on: windows-latest
+    timeout-minutes: 330
+    env:
+      OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
+      DART_API_KEY: ${{ secrets.DART_API_KEY }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          path: app
+
+      - name: Checkout dashboard state
+        uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
 
       - uses: actions/setup-python@v5
         with:
@@ -21,28 +44,37 @@ jobs:
 
       - name: Install dependencies
         shell: pwsh
+        working-directory: app
         run: |
           python -m pip install -U pip
           python -m pip install -r requirements.txt
 
-      - name: Check generated dashboard inputs
-        id: generated
+      - name: Restore dashboard state
         shell: pwsh
+        working-directory: app
         run: |
-          $required = @(
-            "outputs\lgbm_warning_dashboard_macro_kr_latest\walkforward_scores_by_date",
-            "outputs\lgbm_warning_dashboard_macro_us_latest\walkforward_scores_by_date"
-          )
-          $missing = $required | Where-Object { -not (Test-Path $_) }
-          if ($missing.Count -gt 0) {
-            Write-Host "::notice::Generated dashboard outputs are not committed to this repository. This workflow is wired as the manual/scheduled refresh button, but the full collection pipeline still needs persistent data/artifact storage before GitHub-hosted runners can refresh from scratch."
-            "ready=false" >> $env:GITHUB_OUTPUT
-          } else {
-            "ready=true" >> $env:GITHUB_OUTPUT
-          }
+          python scripts\unpack_dashboard_state.py --state-dir .dashboard-state
 
-      - name: Publish GitHub Pages bundle
-        if: steps.generated.outputs.ready == 'true'
+      - name: Collect, rebuild, and publish
         shell: pwsh
+        working-directory: app
         run: |
-          python scripts\build_pages_deploy.py --days 22 --push
+          $mode = "${{ github.event.inputs.refresh_financials }}"
+          if (-not $mode) { $mode = "auto" }
+          python scripts\refresh_dashboard_pipeline.py --refresh-financials $mode
+
+      - name: Pack dashboard state
+        shell: pwsh
+        working-directory: app
+        run: |
+          python scripts\pack_dashboard_state.py --state-dir .dashboard-state
+
+      - name: Push dashboard state
+        shell: pwsh
+        working-directory: app/.dashboard-state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh dashboard state" || Write-Host "No dashboard state changes to commit."
+          git push origin HEAD:dashboard-state

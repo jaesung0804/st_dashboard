@@ -18,6 +18,7 @@ outputs/
 models/
 reports/
 .pages-deploy/
+.dashboard-state*/
 
 # Logs and temporary files
 *.log

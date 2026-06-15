@@ -68,6 +68,17 @@ Combine annual and quarterly financial files:
 
 ## Daily Refresh
 
+GitHub Pages deployment is updated by `.github/workflows/daily-refresh.yml`.
+The workflow runs on a schedule and can also be started manually from the Actions page:
+
+```text
+https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml
+```
+
+The GitHub-hosted runner restores the `dashboard-state` branch, refreshes KR/US closes, optionally refreshes financial statements, rebuilds recent walk-forward scores, deploys `gh-pages`, and writes the updated state back to `dashboard-state`.
+
+For Korean financial statement refreshes, add `OPENDART_API_KEY` as a repository secret. Without it, the workflow keeps the existing Korean financial state and still refreshes prices.
+
 ```powershell
 $env:OPENDART_API_KEY="your-key"
 .\scripts\daily_refresh.ps1

@@ -12,6 +12,7 @@ from ai_stock_assistant.data.krx import (
     fetch_krx_ohlcv,
     today_yyyymmdd,
 )
+from ai_stock_assistant.data.us import PRICE_SCHEMA, fetch_us_ohlcv_batch
 
 
 @dataclass(frozen=True)
@@ -19,6 +20,16 @@ class DailyRefreshResult:
     asof: str
     listings_path: Path
     price_dir: Path
+    combined_prices_path: Path
+    summary_path: Path
+    updated_count: int
+    failed_count: int
+
+
+@dataclass(frozen=True)
+class USDailyRefreshResult:
+    asof: str
+    listings_path: Path
     combined_prices_path: Path
     summary_path: Path
     updated_count: int
@@ -176,3 +187,118 @@ def write_daily_readme(asof: str | None = None) -> Path:
         encoding="utf-8",
     )
     return path
+
+
+def _find_latest_us_listings() -> Path | None:
+    candidates = sorted(
+        (path for path in RAW_DATA_DIR.glob("us_listings_nasdaq_nyse_yfinfo_*.csv") if "manifest" not in path.stem),
+        key=lambda path: path.name,
+    )
+    if candidates:
+        return candidates[-1]
+    candidates = sorted(
+        (path for path in RAW_DATA_DIR.glob("us_listings_nasdaq_nyse_*.csv") if "manifest" not in path.stem),
+        key=lambda path: path.name,
+    )
+    return candidates[-1] if candidates else None
+
+
+def _find_latest_us_combined_prices() -> Path | None:
+    candidates = sorted(
+        RAW_DATA_DIR.glob("us_ohlcv_nasdaq_nyse_yfinfo_*.csv"),
+        key=lambda path: path.name,
+    )
+    if candidates:
+        return candidates[-1]
+    candidates = sorted(RAW_DATA_DIR.glob("us_ohlcv_nasdaq_nyse_*.csv"), key=lambda path: path.name)
+    return candidates[-1] if candidates else None
+
+
+def refresh_us_daily_data(
+    listings_path: Path | None = None,
+    prices_path: Path | None = None,
+    output_path: Path | None = None,
+    asof: str | None = None,
+    lookback_days: int = 10,
+    batch_size: int = 100,
+) -> USDailyRefreshResult:
+    """Incrementally refresh US close data from the latest combined price CSV."""
+    ensure_project_dirs()
+    asof = asof or today_yyyymmdd()
+    listings_path = listings_path or _find_latest_us_listings()
+    prices_path = prices_path or _find_latest_us_combined_prices()
+    if listings_path is None:
+        raise FileNotFoundError("No US listings CSV found under data/raw.")
+    if prices_path is None:
+        raise FileNotFoundError("No US combined OHLCV CSV found under data/raw.")
+
+    output_path = output_path or prices_path
+    listings = pd.read_csv(listings_path, dtype={"ticker": str})
+    existing = pd.read_csv(prices_path, dtype={"ticker": str})
+    if existing.empty:
+        start = (pd.to_datetime(asof) - pd.Timedelta(days=365 * 5)).strftime("%Y%m%d")
+    else:
+        latest = pd.to_datetime(existing["date"]).max().date()
+        start = (latest - pd.Timedelta(days=lookback_days)).strftime("%Y%m%d")
+
+    tickers = listings["ticker"].astype(str).str.strip().str.upper().dropna().drop_duplicates().tolist()
+    rows: list[dict[str, object]] = []
+    frames = [existing]
+    updated_count = 0
+    failed_count = 0
+    run_dir = DAILY_OUTPUT_DIR / asof
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    for offset in range(0, len(tickers), batch_size):
+        batch = tickers[offset : offset + batch_size]
+        try:
+            batch_prices = fetch_us_ohlcv_batch(batch, start=start, end=asof)
+        except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
+            batch_prices = {}
+            batch_error = repr(exc)
+        else:
+            batch_error = ""
+
+        for ticker in batch:
+            update = batch_prices.get(ticker, pd.DataFrame(columns=PRICE_SCHEMA))
+            if not update.empty:
+                frames.append(update)
+                updated_count += 1
+                status = "updated"
+                latest_date = update["date"].max()
+                error = ""
+            else:
+                failed_count += 1
+                status = "empty"
+                latest_date = ""
+                error = batch_error
+            rows.append(
+                {
+                    "ticker": ticker,
+                    "status": status,
+                    "rows": len(update),
+                    "latest_date": latest_date,
+                    "error": error,
+                }
+            )
+            print(f"[US {min(offset + len(batch), len(tickers))}/{len(tickers)}] {ticker} {status}", flush=True)
+
+    combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=PRICE_SCHEMA)
+    if not combined.empty:
+        combined["ticker"] = combined["ticker"].astype(str).str.upper()
+        combined["date"] = pd.to_datetime(combined["date"]).dt.strftime("%Y-%m-%d")
+        combined = combined.drop_duplicates(["ticker", "date"], keep="last")
+        combined = combined.sort_values(["ticker", "date"]).reset_index(drop=True)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    combined.to_csv(output_path, index=False, encoding="utf-8-sig")
+
+    summary_path = run_dir / "us_daily_data_refresh_summary.csv"
+    pd.DataFrame(rows).to_csv(summary_path, index=False, encoding="utf-8-sig")
+    return USDailyRefreshResult(
+        asof=asof,
+        listings_path=listings_path,
+        combined_prices_path=output_path,
+        summary_path=summary_path,
+        updated_count=updated_count,
+        failed_count=failed_count,
+    )
