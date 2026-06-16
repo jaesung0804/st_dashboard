@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, time, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
@@ -178,37 +179,88 @@ def _normalize_krx_by_ticker(raw: pd.DataFrame, asof: str) -> pd.DataFrame:
     return frame[KRX_PRICE_SCHEMA]
 
 
+def latest_completed_krx_asof(now: datetime | None = None) -> str:
+    """Return the most likely completed KRX trading date to request.
+
+    The scheduled refresh runs before the Korean market has closed. In that
+    window, asking KRX for today's date can miss the most recent completed
+    close, so default to yesterday until after the regular market close.
+    """
+    seoul_now = now.astimezone(ZoneInfo("Asia/Seoul")) if now else datetime.now(ZoneInfo("Asia/Seoul"))
+    target = seoul_now.date()
+    if seoul_now.time() < time(18, 0):
+        target -= timedelta(days=1)
+    return target.strftime("%Y%m%d")
+
+
+def _krx_candidate_asofs(requested_asof: str, lookback_days: int) -> list[str]:
+    candidates: list[str] = []
+    for offset in range(max(0, lookback_days) + 1):
+        candidate = pd.Timestamp(requested_asof) - pd.Timedelta(days=offset)
+        if candidate.weekday() >= 5:
+            continue
+        candidates.append(candidate.strftime("%Y%m%d"))
+    return candidates
+
+
 def refresh_kr_daily_data_fast(
     markets: list[str] | None = None,
     asof: str | None = None,
     prices_path: Path | None = None,
     output_path: Path | None = None,
+    asof_lookback_days: int = 7,
 ) -> DailyRefreshResult:
     """Refresh one KRX date by fetching each market in bulk."""
     from pykrx import stock
 
     ensure_project_dirs()
     markets = markets or ["KOSPI", "KOSDAQ"]
-    asof = asof or today_yyyymmdd()
+    requested_asof = asof or latest_completed_krx_asof()
     market_slug = "_".join(market.lower() for market in markets)
-    run_dir = DAILY_OUTPUT_DIR / asof
-    run_dir.mkdir(parents=True, exist_ok=True)
+    candidate_asofs = _krx_candidate_asofs(requested_asof, asof_lookback_days)
+    if not candidate_asofs:
+        candidate_asofs = [requested_asof]
 
-    listings = fetch_krx_listings_for_markets(asof=asof, markets=markets)
-    listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{asof}.csv"
-    listings.to_csv(listings_path, index=False, encoding="utf-8-sig")
-
+    listings = pd.DataFrame()
+    listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{requested_asof}.csv"
     frames = []
     summary_rows = []
-    for market in markets:
+    selected_asof = requested_asof
+    for candidate_asof in candidate_asofs:
+        candidate_frames = []
+        candidate_summary = []
         try:
-            raw = stock.get_market_ohlcv_by_ticker(asof, market=market)
-            frame = _normalize_krx_by_ticker(raw, asof)
-            frames.append(frame)
-            summary_rows.append({"market": market, "status": "updated", "rows": len(frame), "error": ""})
-        except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
-            summary_rows.append({"market": market, "status": "failed", "rows": 0, "error": repr(exc)})
-        print(f"[KRX {market}] {summary_rows[-1]['status']} rows={summary_rows[-1]['rows']}", flush=True)
+            candidate_listings = fetch_krx_listings_for_markets(asof=candidate_asof, markets=markets)
+        except Exception as exc:  # noqa: BLE001 - try an earlier date if listings are unavailable.
+            summary_rows.append({"asof": candidate_asof, "market": "ALL", "status": "failed", "rows": 0, "error": repr(exc)})
+            print(f"[KRX {candidate_asof} ALL] failed rows=0", flush=True)
+            continue
+        for market in markets:
+            try:
+                raw = stock.get_market_ohlcv_by_ticker(candidate_asof, market=market)
+                frame = _normalize_krx_by_ticker(raw, candidate_asof)
+                candidate_frames.append(frame)
+                candidate_summary.append({"asof": candidate_asof, "market": market, "status": "updated", "rows": len(frame), "error": ""})
+            except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
+                candidate_summary.append({"asof": candidate_asof, "market": market, "status": "failed", "rows": 0, "error": repr(exc)})
+            print(
+                f"[KRX {candidate_asof} {market}] {candidate_summary[-1]['status']} rows={candidate_summary[-1]['rows']}",
+                flush=True,
+            )
+        rows = sum(int(row["rows"]) for row in candidate_summary)
+        summary_rows.extend(candidate_summary)
+        if rows > 0:
+            selected_asof = candidate_asof
+            listings = candidate_listings
+            frames = candidate_frames
+            listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{selected_asof}.csv"
+            break
+
+    run_dir = DAILY_OUTPUT_DIR / selected_asof
+    run_dir.mkdir(parents=True, exist_ok=True)
+    if listings.empty:
+        listings = fetch_krx_listings_for_markets(asof=selected_asof, markets=markets)
+    listings.to_csv(listings_path, index=False, encoding="utf-8-sig")
 
     update = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
     update = update[update["ticker"].isin(listings["ticker"].astype(str).str.zfill(6))]
@@ -228,7 +280,7 @@ def refresh_kr_daily_data_fast(
     pd.DataFrame(summary_rows).to_csv(summary_path, index=False, encoding="utf-8-sig")
     failed = sum(row["status"] == "failed" for row in summary_rows)
     return DailyRefreshResult(
-        asof=asof,
+        asof=selected_asof,
         listings_path=listings_path,
         price_dir=RAW_DATA_DIR,
         combined_prices_path=output_path,
