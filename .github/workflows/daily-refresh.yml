@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   refresh-and-publish:
@@ -29,6 +30,7 @@ jobs:
       GITHUB_TOKEN: ${{ github.token }}
       PYTHONUTF8: "1"
       PYTHONIOENCODING: "utf-8"
+
     steps:
       - name: Checkout app
         uses: actions/checkout@v4
@@ -41,7 +43,8 @@ jobs:
           ref: dashboard-state
           path: app/.dashboard-state
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -50,6 +53,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global http.version HTTP/1.1
+          git config --global http.postBuffer 524288000
 
       - name: Install dependencies
         shell: pwsh
@@ -79,25 +84,85 @@ jobs:
         run: |
           python scripts\pack_dashboard_state.py --state-dir .dashboard-state
 
+      - name: Inspect dashboard state
+        shell: pwsh
+        working-directory: app
+        run: |
+          Write-Host "Git status:"
+          git -C .dashboard-state status --short
+
+          Write-Host "Recent dashboard-state commits:"
+          git -C .dashboard-state log --oneline -3
+
+          Write-Host "Largest files in dashboard state:"
+          Get-ChildItem .dashboard-state -Recurse -File |
+            Where-Object { $_.FullName -notmatch "\\.git\\" } |
+            Sort-Object Length -Descending |
+            Select-Object -First 20 FullName, Length
+
+      - name: Create dashboard state backup zip
+        shell: pwsh
+        working-directory: app
+        run: |
+          if (Test-Path dashboard-state-backup.zip) {
+            Remove-Item dashboard-state-backup.zip -Force
+          }
+
+          $items = Get-ChildItem .dashboard-state -Force |
+            Where-Object { $_.Name -ne ".git" }
+
+          Compress-Archive -Path $items.FullName -DestinationPath dashboard-state-backup.zip -Force
+
+          Write-Host "Created dashboard-state-backup.zip"
+          Get-Item dashboard-state-backup.zip | Select-Object FullName, Length
+
+      - name: Upload dashboard state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-state-backup
+          path: app/dashboard-state-backup.zip
+          retention-days: 7
+
       - name: Push dashboard state
         shell: pwsh
         working-directory: app/.dashboard-state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config http.version HTTP/1.1
           git config http.postBuffer 524288000
+
           git add -A
-          git commit -m "Refresh dashboard state" || Write-Host "No dashboard state changes to commit."
+
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No dashboard state changes to commit."
+          } else {
+            git commit -m "Refresh dashboard state"
+          }
+
+          git gc --prune=now
+
           $pushOk = $false
           for ($attempt = 1; $attempt -le 3; $attempt++) {
+            Write-Host "Dashboard state push attempt $attempt of 3"
+
             git push origin HEAD:dashboard-state
+
             if ($LASTEXITCODE -eq 0) {
               $pushOk = $true
+              Write-Host "Dashboard state push succeeded."
               break
             }
-            Write-Warning "Dashboard state push failed on attempt $attempt; retrying."
+
+            Write-Warning "Dashboard state push failed on attempt $attempt."
             Start-Sleep -Seconds (30 * $attempt)
           }
+
           if (-not $pushOk) {
-            Write-Warning "Dashboard state push failed after retries. Pages was already published, so this run stays green."
+            Write-Warning "Dashboard state push failed after retries."
+            Write-Warning "Pages was already published. The workflow will stay green."
+            Write-Warning "Download the dashboard-state-backup artifact from this run and restore it manually if needed."
           }
+
+
