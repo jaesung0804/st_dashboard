@@ -80,6 +80,10 @@ def selected_date_files(source: Path, days: int) -> list[Path]:
     return files[:days]
 
 
+def has_date_files(source: Path) -> bool:
+    return any((source / "walkforward_scores_by_date").glob("*.json"))
+
+
 def load_us_exchange_map() -> dict[str, str]:
     candidates = [
         Path("data/raw/us_listings_nasdaq_nyse_yfinfo_state.csv"),
@@ -338,24 +342,37 @@ def main() -> None:
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
     (deploy_dir / "index.html").write_text(home_html(), encoding="utf-8")
     copy_comparison(deploy_dir)
-    build_dashboard(
-        DASHBOARDS["kr"]["source"],
-        deploy_dir / DASHBOARDS["kr"]["target"],
-        args.days,
-        DASHBOARDS["kr"]["label"],
-        DASHBOARDS["kr"]["subtitle"],
-        "../lgbm_warning_dashboard_macro_us_latest/dashboard.html",
-        "미국",
-    )
-    build_dashboard(
-        DASHBOARDS["us"]["source"],
-        deploy_dir / DASHBOARDS["us"]["target"],
-        args.days,
-        DASHBOARDS["us"]["label"],
-        DASHBOARDS["us"]["subtitle"],
-        "../lgbm_warning_dashboard_macro_kr_latest/dashboard.html",
-        "한국",
-    )
+    built_dashboards = 0
+    dashboard_jobs = [
+        (
+            "kr",
+            "../lgbm_warning_dashboard_macro_us_latest/dashboard.html",
+            "미국",
+        ),
+        (
+            "us",
+            "../lgbm_warning_dashboard_macro_kr_latest/dashboard.html",
+            "한국",
+        ),
+    ]
+    for key, other_href, other_label in dashboard_jobs:
+        dashboard = DASHBOARDS[key]
+        source = dashboard["source"]
+        if not has_date_files(source):
+            print(f"Skipping {key} pages: no date JSON files found under {source}", flush=True)
+            continue
+        build_dashboard(
+            source,
+            deploy_dir / dashboard["target"],
+            args.days,
+            dashboard["label"],
+            dashboard["subtitle"],
+            other_href,
+            other_label,
+        )
+        built_dashboards += 1
+    if built_dashboards == 0:
+        raise FileNotFoundError("No dashboard date JSON files found under outputs")
     total = sum(path.stat().st_size for path in deploy_dir.rglob("*") if path.is_file())
     print(f"Built {deploy_dir} with {sum(1 for _ in deploy_dir.rglob('*') if _.is_file())} files, {total / 1024 / 1024:.1f} MB.")
     if args.push:
