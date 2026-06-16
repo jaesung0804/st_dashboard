@@ -232,6 +232,23 @@ def _krx_candidate_asofs(requested_asof: str, lookback_days: int) -> list[str]:
     return candidates
 
 
+def _krx_refresh_asofs(requested_asof: str, existing: pd.DataFrame, lookback_days: int) -> list[str]:
+    requested = pd.Timestamp(requested_asof).normalize()
+    if existing.empty or "date" not in existing.columns:
+        return [requested.strftime("%Y%m%d")]
+
+    existing_dates = set(pd.to_datetime(existing["date"], errors="coerce").dropna().dt.strftime("%Y%m%d"))
+    start = requested - pd.Timedelta(days=max(0, lookback_days))
+    targets = []
+    for candidate in pd.date_range(start=start, end=requested, freq="D"):
+        if candidate.weekday() >= 5:
+            continue
+        yyyymmdd = candidate.strftime("%Y%m%d")
+        if yyyymmdd not in existing_dates or yyyymmdd == requested.strftime("%Y%m%d"):
+            targets.append(yyyymmdd)
+    return targets or [requested.strftime("%Y%m%d")]
+
+
 def refresh_kr_daily_data_fast(
     markets: list[str] | None = None,
     asof: str | None = None,
@@ -239,22 +256,23 @@ def refresh_kr_daily_data_fast(
     output_path: Path | None = None,
     asof_lookback_days: int = 7,
 ) -> DailyRefreshResult:
-    """Refresh one KRX date by fetching each market in bulk."""
+    """Refresh missing recent KRX dates by fetching each market in bulk."""
     ensure_project_dirs()
     stock = _pykrx_stock()
     markets = markets or ["KOSPI", "KOSDAQ"]
     requested_asof = asof or latest_completed_krx_asof()
     market_slug = "_".join(market.lower() for market in markets)
-    candidate_asofs = _krx_candidate_asofs(requested_asof, asof_lookback_days)
-    if not candidate_asofs:
-        candidate_asofs = [requested_asof]
+    prices_path = prices_path or _find_latest_combined_prices(market_slug) or (RAW_DATA_DIR / f"krx_ohlcv_{market_slug}_daily.csv")
+    output_path = output_path or prices_path
+    existing = pd.read_csv(prices_path, dtype={"ticker": str}) if prices_path.exists() else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
+    target_asofs = _krx_refresh_asofs(requested_asof, existing, asof_lookback_days)
 
     listings = pd.DataFrame()
     listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{requested_asof}.csv"
     frames = []
     summary_rows = []
     selected_asof = requested_asof
-    for candidate_asof in candidate_asofs:
+    for candidate_asof in target_asofs:
         candidate_frames = []
         candidate_summary = []
         try:
@@ -310,11 +328,10 @@ def refresh_kr_daily_data_fast(
         if rows > 0:
             selected_asof = candidate_asof
             listings = candidate_listings
-            frames = candidate_frames
+            frames.extend(candidate_frames)
             listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{selected_asof}.csv"
-            break
 
-    run_dir = DAILY_OUTPUT_DIR / selected_asof
+    run_dir = DAILY_OUTPUT_DIR / requested_asof
     run_dir.mkdir(parents=True, exist_ok=True)
     if listings.empty:
         listings = fetch_krx_listings_for_markets(asof=selected_asof, markets=markets)
@@ -323,9 +340,6 @@ def refresh_kr_daily_data_fast(
     update = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
     update = update[update["ticker"].isin(listings["ticker"].astype(str).str.zfill(6))]
 
-    prices_path = prices_path or _find_latest_combined_prices(market_slug) or (RAW_DATA_DIR / f"krx_ohlcv_{market_slug}_daily.csv")
-    output_path = output_path or prices_path
-    existing = pd.read_csv(prices_path, dtype={"ticker": str}) if prices_path.exists() else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
     combined = pd.concat([existing, update], ignore_index=True)
     if not combined.empty:
         combined["ticker"] = combined["ticker"].astype(str).str.zfill(6)
