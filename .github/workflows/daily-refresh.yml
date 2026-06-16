@@ -1,3 +1,5 @@
+
+
 name: Daily Refresh
 
 on:
@@ -12,6 +14,12 @@ on:
           - auto
           - always
           - never
+      asof:
+        description: "Force refresh date, YYYYMMDD. Example: 20260615. Leave blank for auto."
+        required: false
+        default: ""
+        type: string
+
   schedule:
     # 22:30 UTC = 07:30 Korea time, Tuesday-Saturday. This is after the US close.
     - cron: "30 22 * * 1-5"
@@ -70,13 +78,132 @@ jobs:
         run: |
           python scripts\unpack_dashboard_state.py --state-dir .dashboard-state
 
-      - name: Collect, rebuild, and publish
+      - name: Collect and rebuild without publishing
         shell: pwsh
         working-directory: app
         run: |
           $mode = "${{ github.event.inputs.refresh_financials }}"
           if (-not $mode) { $mode = "auto" }
-          python scripts\refresh_dashboard_pipeline.py --refresh-financials $mode
+
+          $asof = "${{ github.event.inputs.asof }}"
+
+          $pipelineArgs = @(
+            "scripts\refresh_dashboard_pipeline.py",
+            "--refresh-financials", $mode,
+            "--skip-push",
+            "--serial-markets",
+            "--model-jobs", "1"
+          )
+
+          if ($asof) {
+            Write-Host "Running pipeline with forced asof=$asof"
+            $pipelineArgs += @("--asof", $asof)
+          } else {
+            Write-Host "Running pipeline with automatic asof"
+          }
+
+          python @pipelineArgs
+
+      - name: Validate generated KR dates
+        shell: pwsh
+        working-directory: app
+        run: |
+          $asof = "${{ github.event.inputs.asof }}"
+
+          if ($asof) {
+            $expected = [datetime]::ParseExact($asof, "yyyyMMdd", $null).ToString("yyyy-MM-dd")
+            Write-Host "Expected KR latest date from manual asof: $expected"
+          } else {
+            $expected = ""
+            Write-Host "No manual asof supplied. Date validation will print diagnostics only."
+          }
+
+          $env:EXPECTED_KR_DATE = $expected
+
+          @'
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          import pandas as pd
+
+
+          def max_date_from_csv(path: str, column: str) -> str:
+              p = Path(path)
+              if not p.exists():
+                  print(f"{path}: MISSING")
+                  return ""
+
+              header = pd.read_csv(p, nrows=0)
+              if column not in header.columns:
+                  print(f"{path}: column {column!r} not found")
+                  return ""
+
+              df = pd.read_csv(p, usecols=[column])
+              if df.empty:
+                  print(f"{path}: EMPTY")
+                  return ""
+
+              value = pd.to_datetime(df[column], errors="coerce").max()
+              if pd.isna(value):
+                  print(f"{path}: no valid dates")
+                  return ""
+
+              result = value.strftime("%Y-%m-%d")
+              print(f"{path}: max {column} = {result}")
+              return result
+
+
+          kr_price_date = max_date_from_csv(
+              "data/raw/krx_ohlcv_kospi_kosdaq_state.csv",
+              "date",
+          )
+
+          kr_wf_date = max_date_from_csv(
+              "outputs/walkforward_warning_macro_kr_latest_auto/walkforward_scores.csv",
+              "date",
+          )
+
+          manifest_path = Path("outputs/lgbm_warning_dashboard_macro_kr_latest/manifest.json")
+          kr_manifest_latest = ""
+
+          if manifest_path.exists():
+              manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+              kr_manifest_latest = str(manifest.get("latest", ""))
+              print(f"{manifest_path}: latest = {kr_manifest_latest}")
+              print(f"{manifest_path}: dateCount = {manifest.get('dateCount')}")
+              print(f"{manifest_path}: latestRows = {manifest.get('latestRows')}")
+          else:
+              print(f"{manifest_path}: MISSING")
+
+          expected = os.environ.get("EXPECTED_KR_DATE", "").strip()
+
+          if expected:
+              failures = []
+
+              if not kr_price_date or kr_price_date < expected:
+                  failures.append(
+                      f"KR raw price state did not reach {expected}. Actual max date: {kr_price_date or 'MISSING'}"
+                  )
+
+              if not kr_wf_date or kr_wf_date < expected:
+                  failures.append(
+                      f"KR walkforward scores did not reach {expected}. Actual max date: {kr_wf_date or 'MISSING'}"
+                  )
+
+              if not kr_manifest_latest or kr_manifest_latest < expected:
+                  failures.append(
+                      f"KR dashboard manifest did not reach {expected}. Actual latest: {kr_manifest_latest or 'MISSING'}"
+                  )
+
+              if failures:
+                  for failure in failures:
+                      print(f"::error::{failure}")
+                  sys.exit(1)
+
+              print(f"KR validation passed. Dashboard reached {expected}.")
+          '@ | python -
 
       - name: Pack dashboard state
         shell: pwsh
@@ -123,6 +250,12 @@ jobs:
           path: app/dashboard-state-backup.zip
           retention-days: 7
 
+      - name: Publish GitHub Pages
+        shell: pwsh
+        working-directory: app
+        run: |
+          python scripts\build_pages_deploy.py --days 22 --push
+
       - name: Push dashboard state
         shell: pwsh
         working-directory: app/.dashboard-state
@@ -164,5 +297,3 @@ jobs:
             Write-Warning "Pages was already published. The workflow will stay green."
             Write-Warning "Download the dashboard-state-backup artifact from this run and restore it manually if needed."
           }
-
-
