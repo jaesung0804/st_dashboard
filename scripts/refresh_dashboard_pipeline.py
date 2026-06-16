@@ -5,8 +5,10 @@ import os
 import shutil
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
+from typing import Callable
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR / "src") not in sys.path:
@@ -40,6 +42,8 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--signal-days", type=int, default=45, help="Recent calendar days to score.")
     p.add_argument("--pages-days", type=int, default=22, help="Recent trading days to publish.")
     p.add_argument("--workers", type=int, default=6)
+    p.add_argument("--model-jobs", type=int, default=0, help="LightGBM threads per market. 0 chooses a safe value.")
+    p.add_argument("--serial-markets", action="store_true", help="Run KR/US market stages sequentially.")
     p.add_argument("--refresh-financials", choices=["auto", "always", "never"], default="auto")
     p.add_argument("--skip-push", action="store_true")
     return p
@@ -100,6 +104,21 @@ def run(args: list[str]) -> None:
     subprocess.run(args, check=True)
 
 
+def run_parallel(tasks: list[tuple[str, Callable[[], object]]], parallel: bool = True) -> None:
+    if not parallel or len(tasks) <= 1:
+        for name, task in tasks:
+            print(f"Starting {name}", flush=True)
+            task()
+            print(f"Finished {name}", flush=True)
+        return
+    with ThreadPoolExecutor(max_workers=len(tasks)) as executor:
+        futures = {executor.submit(task): name for name, task in tasks}
+        for future in as_completed(futures):
+            name = futures[future]
+            future.result()
+            print(f"Finished {name}", flush=True)
+
+
 def max_price_date(path: Path) -> pd.Timestamp:
     dates = pd.read_csv(path, usecols=["date"])
     return pd.to_datetime(dates["date"]).max()
@@ -126,7 +145,14 @@ def attach_macro(features_path: Path, macro_path: Path, output_path: Path) -> Pa
     return output_path
 
 
-def build_walkforward(market: str, features_path: Path, out_dir: Path, start: str, listings_path: Path | None = None) -> None:
+def build_walkforward(
+    market: str,
+    features_path: Path,
+    out_dir: Path,
+    start: str,
+    listings_path: Path | None = None,
+    model_jobs: int = -1,
+) -> None:
     cmd = [
         sys.executable,
         "scripts/run_walkforward_warning_macro.py",
@@ -142,6 +168,8 @@ def build_walkforward(market: str, features_path: Path, out_dir: Path, start: st
         start,
         "--end",
         "auto",
+        "--model-jobs",
+        str(model_jobs),
     ]
     if market == "us" and listings_path is not None:
         cmd.extend(["--listings-path", str(listings_path)])
@@ -229,26 +257,49 @@ def main() -> None:
     us_macro_features = OUT / "daily_features_us_macro" / "training_features_daily.csv"
     build_feature_matrix(KR_PRICE_STATE, KR_FINANCIAL_STATE, KR_LISTINGS_STATE, kr_features)
     build_feature_matrix(US_PRICE_STATE, US_FINANCIAL_STATE, US_LISTINGS_STATE, us_features)
-    attach_macro(kr_features, macro.feature_path, kr_macro_features)
-    attach_macro(us_features, macro.feature_path, us_macro_features)
+    parallel_markets = not args.serial_markets
+    run_parallel(
+        [
+            ("attach macro kr", lambda: attach_macro(kr_features, macro.feature_path, kr_macro_features)),
+            ("attach macro us", lambda: attach_macro(us_features, macro.feature_path, us_macro_features)),
+        ],
+        parallel=parallel_markets,
+    )
 
     kr_wf = OUT / "walkforward_warning_macro_kr_latest_auto"
     us_wf = OUT / "walkforward_warning_macro_us_latest_auto"
-    build_walkforward("kr", kr_macro_features, kr_wf, signal_start(KR_PRICE_STATE, args.signal_days))
-    build_walkforward("us", us_macro_features, us_wf, signal_start(US_PRICE_STATE, args.signal_days), US_LISTINGS_STATE)
-
-    build_dashboard(
-        kr_wf,
-        OUT / "lgbm_warning_dashboard_macro_kr_latest",
-        "한국",
-        args.pages_days,
+    model_jobs = args.model_jobs if args.model_jobs > 0 else (max(1, args.workers // 2) if parallel_markets else -1)
+    run_parallel(
+        [
+            ("walkforward kr", lambda: build_walkforward("kr", kr_macro_features, kr_wf, signal_start(KR_PRICE_STATE, args.signal_days), model_jobs=model_jobs)),
+            ("walkforward us", lambda: build_walkforward("us", us_macro_features, us_wf, signal_start(US_PRICE_STATE, args.signal_days), US_LISTINGS_STATE, model_jobs=model_jobs)),
+        ],
+        parallel=parallel_markets,
     )
-    build_dashboard(
-        us_wf,
-        OUT / "lgbm_warning_dashboard_macro_us_latest",
-        "미국",
-        args.pages_days,
-        US_LISTINGS_STATE,
+
+    run_parallel(
+        [
+            (
+                "dashboard kr",
+                lambda: build_dashboard(
+                    kr_wf,
+                    OUT / "lgbm_warning_dashboard_macro_kr_latest",
+                    "한국",
+                    args.pages_days,
+                ),
+            ),
+            (
+                "dashboard us",
+                lambda: build_dashboard(
+                    us_wf,
+                    OUT / "lgbm_warning_dashboard_macro_us_latest",
+                    "미국",
+                    args.pages_days,
+                    US_LISTINGS_STATE,
+                ),
+            ),
+        ],
+        parallel=parallel_markets,
     )
     publish = [sys.executable, "scripts/build_pages_deploy.py", "--days", str(args.pages_days)]
     if not args.skip_push:

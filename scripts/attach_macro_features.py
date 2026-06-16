@@ -1,9 +1,16 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
 import pandas as pd
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR / "src") not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR / "src"))
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 from ai_stock_assistant.features import FEATURE_COLUMNS
 
@@ -38,11 +45,20 @@ def main() -> None:
         output_path.unlink()
 
     macro = pd.read_csv(args.macro_features_path)
-    macro["date"] = pd.to_datetime(macro["date"])
+    macro["date"] = pd.to_datetime(macro["date"]).dt.normalize()
     macro = macro.sort_values("date")
     macro_cols = [col for col in macro.columns if col.startswith("macro_")]
     if not macro_cols:
         raise RuntimeError("No macro feature columns found.")
+    full_dates = pd.date_range(macro["date"].min(), macro["date"].max(), freq="D")
+    macro = (
+        macro.set_index("date")
+        .reindex(full_dates)
+        .ffill()
+        .reset_index()
+        .rename(columns={"index": "date"})
+    )
+    macro["date"] = macro["date"].dt.strftime("%Y-%m-%d")
 
     wrote_header = False
     total_rows = 0
@@ -52,14 +68,8 @@ def main() -> None:
         usecols = lambda col: col in keep
 
     for chunk in pd.read_csv(args.features_path, dtype={"ticker": str}, chunksize=args.chunksize, usecols=usecols):
-        chunk["date"] = pd.to_datetime(chunk["date"])
-        merged = pd.merge_asof(
-            chunk.sort_values("date"),
-            macro[["date", *macro_cols]],
-            on="date",
-            direction="backward",
-        )
-        merged["date"] = merged["date"].dt.strftime("%Y-%m-%d")
+        chunk["date"] = pd.to_datetime(chunk["date"]).dt.strftime("%Y-%m-%d")
+        merged = chunk.merge(macro[["date", *macro_cols]], on="date", how="left", sort=False)
         merged.to_csv(
             output_path,
             mode="a",

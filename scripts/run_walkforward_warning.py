@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 
 import numpy as np
@@ -14,6 +15,7 @@ from ai_stock_assistant.features import FEATURE_COLUMNS
 FEATURES_PATH = Path("outputs/daily_features_full/training_features_daily.csv")
 SECTOR_MAP_PATH = Path("data/raw/krx_kospi_kosdaq_detailed_sector_map.xlsx")
 OUT_DIR = Path("outputs/walkforward_warning")
+MODEL_N_JOBS = int(os.getenv("LGBM_N_JOBS", "-1"))
 
 MIN_TRADING_VALUE = 500_000_000
 MIN_CLOSE = 1_000
@@ -70,6 +72,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--out-dir", default=str(OUT_DIR))
     p.add_argument("--min-trading-value", type=float, default=None)
     p.add_argument("--min-close", type=float, default=None)
+    p.add_argument("--model-jobs", type=int, default=MODEL_N_JOBS, help="LightGBM threads per model. Use 1-3 when running markets in parallel.")
     return p
 
 
@@ -186,7 +189,7 @@ def fit_classifier(train: pd.DataFrame, target: str, features: list[str], seed: 
         subsample=0.82,
         colsample_bytree=0.82,
         scale_pos_weight=(neg / pos if pos else 1.0),
-        n_jobs=-1,
+        n_jobs=MODEL_N_JOBS,
         random_state=seed,
         verbosity=-1,
     )
@@ -204,7 +207,7 @@ def fit_regressor(train: pd.DataFrame, features: list[str], target: str, seed: i
         min_child_samples=45,
         subsample=0.82,
         colsample_bytree=0.82,
-        n_jobs=-1,
+        n_jobs=MODEL_N_JOBS,
         random_state=seed,
         verbosity=-1,
     )
@@ -310,7 +313,9 @@ def score_one_date(
 
 
 def main() -> None:
+    global MODEL_N_JOBS
     args = parser().parse_args()
+    MODEL_N_JOBS = args.model_jobs
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     min_trading_value = args.min_trading_value if args.min_trading_value is not None else (MIN_TRADING_VALUE if args.market == "kr" else 5_000_000)
