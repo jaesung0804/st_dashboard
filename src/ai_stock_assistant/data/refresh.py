@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta
+from contextlib import redirect_stdout
+import importlib
+import io
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -15,6 +18,22 @@ from ai_stock_assistant.data.krx import (
     today_yyyymmdd,
 )
 from ai_stock_assistant.data.us import PRICE_SCHEMA as US_PRICE_SCHEMA, fetch_us_ohlcv_batch
+
+
+def _pykrx_stock():
+    buffer = io.StringIO()
+    with redirect_stdout(buffer):
+        return importlib.import_module("pykrx.stock")
+
+
+def _call_pykrx(func, *args, **kwargs):
+    buffer = io.StringIO()
+    with redirect_stdout(buffer):
+        return func(*args, **kwargs)
+
+
+def _brief_error(exc: Exception) -> str:
+    return f"{type(exc).__name__}: {str(exc).splitlines()[0]}"
 
 
 @dataclass(frozen=True)
@@ -179,6 +198,16 @@ def _normalize_krx_by_ticker(raw: pd.DataFrame, asof: str) -> pd.DataFrame:
     return frame[KRX_PRICE_SCHEMA]
 
 
+def _fetch_krx_market_by_date_fallback(asof: str, market: str, tickers: list[str]) -> pd.DataFrame:
+    frames = []
+    for idx, ticker in enumerate(tickers, start=1):
+        frame = fetch_krx_ohlcv(ticker=ticker, start=asof, end=asof)
+        if not frame.empty:
+            frames.append(frame)
+        print(f"[KRX {asof} {market} fallback {idx}/{len(tickers)}] {ticker} rows={len(frame)}", flush=True)
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
+
+
 def latest_completed_krx_asof(now: datetime | None = None) -> str:
     """Return the most likely completed KRX trading date to request.
 
@@ -211,9 +240,8 @@ def refresh_kr_daily_data_fast(
     asof_lookback_days: int = 7,
 ) -> DailyRefreshResult:
     """Refresh one KRX date by fetching each market in bulk."""
-    from pykrx import stock
-
     ensure_project_dirs()
+    stock = _pykrx_stock()
     markets = markets or ["KOSPI", "KOSDAQ"]
     requested_asof = asof or latest_completed_krx_asof()
     market_slug = "_".join(market.lower() for market in markets)
@@ -237,12 +265,42 @@ def refresh_kr_daily_data_fast(
             continue
         for market in markets:
             try:
-                raw = stock.get_market_ohlcv_by_ticker(candidate_asof, market=market)
+                raw = _call_pykrx(stock.get_market_ohlcv_by_ticker, candidate_asof, market=market)
                 frame = _normalize_krx_by_ticker(raw, candidate_asof)
                 candidate_frames.append(frame)
                 candidate_summary.append({"asof": candidate_asof, "market": market, "status": "updated", "rows": len(frame), "error": ""})
             except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
-                candidate_summary.append({"asof": candidate_asof, "market": market, "status": "failed", "rows": 0, "error": repr(exc)})
+                print(f"[KRX {candidate_asof} {market}] bulk failed; using per-ticker fallback", flush=True)
+                try:
+                    market_tickers = (
+                        candidate_listings.loc[candidate_listings["exchange"].astype(str).str.upper().eq(market), "ticker"]
+                        .astype(str)
+                        .str.zfill(6)
+                        .drop_duplicates()
+                        .tolist()
+                    )
+                    frame = _fetch_krx_market_by_date_fallback(candidate_asof, market, market_tickers)
+                    candidate_frames.append(frame)
+                    status = "fallback_updated" if not frame.empty else "fallback_empty"
+                    candidate_summary.append(
+                        {
+                            "asof": candidate_asof,
+                            "market": market,
+                            "status": status,
+                            "rows": len(frame),
+                            "error": _brief_error(exc),
+                        }
+                    )
+                except Exception as fallback_exc:  # noqa: BLE001 - try an earlier date if fallback also fails.
+                    candidate_summary.append(
+                        {
+                            "asof": candidate_asof,
+                            "market": market,
+                            "status": "failed",
+                            "rows": 0,
+                            "error": f"bulk={_brief_error(exc)}; fallback={_brief_error(fallback_exc)}",
+                        }
+                    )
             print(
                 f"[KRX {candidate_asof} {market}] {candidate_summary[-1]['status']} rows={candidate_summary[-1]['rows']}",
                 flush=True,

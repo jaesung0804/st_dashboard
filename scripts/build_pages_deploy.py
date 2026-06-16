@@ -13,7 +13,11 @@ from urllib.parse import quote
 
 ROOT = Path("outputs")
 DEPLOY_DIR = Path(".pages-deploy")
-ACTION_URL = "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml"
+ACTION_URLS = {
+    "all": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
+    "kr": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
+    "us": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
+}
 WINDOWS_RESERVED_NAMES = {
     "CON",
     "PRN",
@@ -36,6 +40,11 @@ DASHBOARDS = {
         "subtitle": "NASDAQ/NYSE 조기경보 후보",
     },
 }
+
+DASHBOARDS["kr"]["label"] = "한국"
+DASHBOARDS["kr"]["subtitle"] = "KOSPI/KOSDAQ 조기경보 후보"
+DASHBOARDS["us"]["label"] = "미국"
+DASHBOARDS["us"]["subtitle"] = "NASDAQ/NYSE 조기경보 후보"
 
 
 def parser() -> argparse.ArgumentParser:
@@ -131,7 +140,7 @@ def home_html() -> str:
 <div class="actions">
 <a class="button" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html">한국 보기</a>
 <a class="button" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html">미국 보기</a>
-<a class="button secondary" href="{ACTION_URL}">최신화 실행</a>
+<a class="button secondary" href="{ACTION_URLS["all"]}">최신화 실행 (market 선택)</a>
 </div>
 <div class="grid">
 <a class="card" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html"><b>한국 대시보드</b><span>신호일별 KOSPI/KOSDAQ 최근 후보</span></a>
@@ -142,6 +151,7 @@ def home_html() -> str:
 
 
 def dashboard_html(label: str, subtitle: str, other_href: str, other_label: str) -> str:
+    action_url = ACTION_URLS["kr"] if label == "한국" else ACTION_URLS["us"]
     return f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{label} 조기경보 대시보드</title>
@@ -150,7 +160,7 @@ def dashboard_html(label: str, subtitle: str, other_href: str, other_label: str)
 *{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}header{{background:var(--head);color:white;padding:16px 18px}}header h1{{margin:0 0 5px;font-size:22px}}.sub{{color:#cbd5e1;font-size:13px;line-height:1.45}}nav{{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}}nav a{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px}}main{{max-width:1360px;margin:0 auto;padding:14px}}.stats{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:12px}}.stat,.panel{{background:white;border:1px solid var(--line);border-radius:8px}}.stat{{padding:12px}}.stat small{{display:block;color:var(--muted);margin-bottom:4px}}.stat b{{font-size:20px}}.panel{{padding:12px;margin-bottom:12px}}.guide{{line-height:1.55;color:#334155;font-size:13px}}.guide b{{color:#0f172a}}.controls{{display:grid;grid-template-columns:170px repeat(4,minmax(120px,1fr));gap:9px;align-items:end}}label{{font-size:12px;color:#475569;display:grid;gap:4px}}select,input{{width:100%;padding:9px;border:1px solid #cbd5e1;border-radius:6px;background:white}}.tabs{{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}}button{{border:1px solid #bfdbfe;background:#eff6ff;color:#1e40af;padding:8px 10px;border-radius:6px;font-weight:800;cursor:pointer}}button.active{{background:var(--blue);color:white}}.meta{{font-size:13px;color:#475569;margin:8px 0}}table{{width:100%;border-collapse:separate;border-spacing:0;font-size:12px}}th,td{{border-bottom:1px solid var(--line);padding:9px 8px;text-align:right;vertical-align:top}}th{{background:#eef3f8;color:#334155;position:sticky;top:0}}td.left,th.left{{text-align:left}}.name{{font-weight:800;color:#1d4ed8;text-decoration:none}}.name:hover{{text-decoration:underline}}.wrap{{white-space:normal;overflow-wrap:anywhere;line-height:1.35}}.badge{{display:inline-block;min-width:54px;text-align:center;border-radius:5px;padding:3px 6px;font-weight:800}}.score-grid{{display:grid;grid-template-columns:repeat(5,minmax(56px,1fr));gap:4px;min-width:310px;text-align:left}}.score{{border:1px solid #d9e2ec;border-radius:5px;padding:5px}}.score small{{display:block;color:#64748b;font-size:10px;margin-bottom:2px}}.score b{{font-size:12px}}.GREEN{{background:#dbeafe;color:#1d4ed8}}.RED{{background:#fee2e2;color:#b91c1c}}.YELLOW{{background:#fef9c3;color:#854d0e}}.ORANGE{{background:#ffedd5;color:#c2410c}}.pos{{color:var(--green);font-weight:800}}.neg{{color:var(--red);font-weight:800}}.pager{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}}.scroll{{overflow:auto}}.empty{{padding:16px;color:var(--muted)}}.price{{line-height:1.35}}.price small{{display:block;color:#64748b}}@media(max-width:760px){{header{{padding:14px 12px}}header h1{{font-size:20px}}main{{padding:10px}}.stats{{grid-template-columns:1fr 1fr;gap:8px}}.stat{{padding:10px}}.stat b{{font-size:18px}}.controls{{grid-template-columns:1fr}}.panel{{padding:10px;border-radius:7px}}table,thead,tbody,tr,th,td{{display:block}}thead{{display:none}}tbody{{display:grid;gap:10px}}tr{{background:white;border:1px solid var(--line);border-radius:8px;padding:10px}}td{{border:0;display:grid;grid-template-columns:92px 1fr;gap:8px;text-align:left;padding:5px 0;white-space:normal}}td::before{{content:attr(data-label);color:#64748b;font-size:11px;font-weight:800;text-transform:uppercase}}td.left{{text-align:left}}.badge{{min-width:0}}.score-grid{{min-width:0;grid-template-columns:1fr 1fr}}.pager button{{flex:1}}}}
 </style></head><body>
 <header><h1>{label} 조기경보 대시보드</h1><div class="sub">{subtitle}. 최근 공개 신호일을 보여줍니다.</div>
-<nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a href="../down_negative_model_comparison/index.html">모델 비교</a><a href="{ACTION_URL}">최신화 실행</a></nav></header>
+<nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a href="../down_negative_model_comparison/index.html">모델 비교</a><a href="{action_url}">최신화 실행 (market 선택)</a></nav></header>
 <main>
 <div class="stats"><div class="stat"><small>최신 신호일</small><b id="latest">-</b></div><div class="stat"><small>최종 후보</small><b id="finalCount">-</b></div><div class="stat"><small>상승 후보</small><b id="upCount">-</b></div><div class="stat"><small>전체 종목</small><b id="rowCount">-</b></div></div>
 <section class="panel guide"><b>해석 가이드</b><br>상승점수는 같은 날짜 종목 중 6개월 상승 확률이 높은 순위 점수이고, 하락위험은 6개월 하락 확률이 높은 순위 점수입니다. 등급은 상위 5% RED, 5-15% ORANGE, 15-35% YELLOW, 나머지 GREEN으로 나뉩니다. 최종 후보는 상승 상위 5%이면서 하락위험이 GREEN인 종목입니다. 대표점수는 모델 입력 특성을 묶어 백분위로 요약한 해석 보조 지표이며, 색이 진할수록 해당 묶음의 강도가 큽니다.</section>

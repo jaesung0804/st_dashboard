@@ -2,12 +2,14 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, timedelta
+from contextlib import redirect_stdout
+import importlib
+import io
 from pathlib import Path
 import time
 
 import pandas as pd
 import FinanceDataReader as fdr
-from pykrx import stock
 
 from ai_stock_assistant.config import RAW_DATA_DIR, ensure_project_dirs
 
@@ -31,6 +33,18 @@ COMPANY_SCHEMA = [
     "shares_outstanding",
     "listing_date",
 ]
+
+
+def _pykrx_stock():
+    buffer = io.StringIO()
+    with redirect_stdout(buffer):
+        return importlib.import_module("pykrx.stock")
+
+
+def _call_pykrx(func, *args, **kwargs):
+    buffer = io.StringIO()
+    with redirect_stdout(buffer):
+        return func(*args, **kwargs)
 
 
 @dataclass(frozen=True)
@@ -60,14 +74,18 @@ def five_years_ago_yyyymmdd(end: str | None = None) -> str:
 def fetch_krx_listings(asof: str | None = None, market: str = "ALL") -> pd.DataFrame:
     """Fetch KRX tickers from pykrx and normalize to project company schema."""
     asof = asof or today_yyyymmdd()
-    tickers = stock.get_market_ticker_list(asof, market=market)
+    stock = _pykrx_stock()
+    try:
+        tickers = _call_pykrx(stock.get_market_ticker_list, asof, market=market)
+    except Exception:
+        return fetch_krx_listings_from_fdr(market=market)
     if not tickers:
         return fetch_krx_listings_from_fdr(market=market)
 
     rows = [
         {
             "ticker": ticker,
-            "name": stock.get_market_ticker_name(ticker),
+            "name": _call_pykrx(stock.get_market_ticker_name, ticker),
             "exchange": "KRX",
             "sector": None,
             "industry": None,
@@ -126,7 +144,8 @@ def fetch_krx_ohlcv(ticker: str, start: str, end: str) -> pd.DataFrame:
     pykrx returns adjusted OHLCV when adjusted=True. It does not expose a
     separate adjusted close column, so adjusted_close is mirrored from close.
     """
-    raw = stock.get_market_ohlcv_by_date(start, end, ticker, adjusted=True)
+    stock = _pykrx_stock()
+    raw = _call_pykrx(stock.get_market_ohlcv_by_date, start, end, ticker, adjusted=True)
     if raw.empty:
         return pd.DataFrame(columns=PRICE_SCHEMA)
 
@@ -238,7 +257,8 @@ def save_krx_universe_ohlcv(
 
     manifest = pd.DataFrame(manifest_rows)
     manifest_path = RAW_DATA_DIR / f"krx_ohlcv_manifest_{market_slug}_{start}_{end}.csv"
-    manifest.to_csv(manifest_path, index=False, encoding="utf-8-sig")
+    manifest.to_csv(manifest_path, index=False, encoding="" \
+    "utf-8-sig")
 
     combined_prices_path: Path | None = None
     if combine:

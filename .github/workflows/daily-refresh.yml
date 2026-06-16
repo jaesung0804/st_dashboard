@@ -1,6 +1,7 @@
 
 
 name: Daily Refresh
+run-name: Daily Refresh (${{ github.event.inputs.market || 'all' }})
 
 on:
   workflow_dispatch:
@@ -14,6 +15,15 @@ on:
           - auto
           - always
           - never
+      market:
+        description: "Market side to refresh and rebuild"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - kr
+          - us
       asof:
         description: "Force refresh date, YYYYMMDD. Example: 20260615. Leave blank for auto."
         required: false
@@ -82,14 +92,18 @@ jobs:
         shell: pwsh
         working-directory: app
         run: |
-          $mode = "${{ github.event.inputs.refresh_financials }}"
+          $mode = "${{ github.event.inputs.refresh_financials || 'auto' }}"
           if (-not $mode) { $mode = "auto" }
 
-          $asof = "${{ github.event.inputs.asof }}"
+          $market = "${{ github.event.inputs.market || 'all' }}"
+          if (-not $market) { $market = "all" }
+
+          $asof = "${{ github.event.inputs.asof || '' }}"
 
           $pipelineArgs = @(
             "scripts\refresh_dashboard_pipeline.py",
             "--refresh-financials", $mode,
+            "--market", $market,
             "--skip-push",
             "--serial-markets",
             "--model-jobs", "1"
@@ -108,7 +122,14 @@ jobs:
         shell: pwsh
         working-directory: app
         run: |
-          $asof = "${{ github.event.inputs.asof }}"
+          $asof = "${{ github.event.inputs.asof || '' }}"
+          $market = "${{ github.event.inputs.market || 'all' }}"
+          if (-not $market) { $market = "all" }
+
+          if ($market -eq "us") {
+            Write-Host "US-only refresh selected. Skipping KR date validation."
+            exit 0
+          }
 
           if ($asof) {
             $expected = [datetime]::ParseExact($asof, "yyyyMMdd", $null).ToString("yyyy-MM-dd")

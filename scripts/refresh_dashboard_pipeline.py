@@ -45,6 +45,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--model-jobs", type=int, default=0, help="LightGBM threads per market. 0 chooses a safe value.")
     p.add_argument("--parallel-walkforward", action="store_true", help="Run KR/US walk-forward training together. This can exceed hosted runner memory.")
     p.add_argument("--serial-markets", action="store_true", help="Run KR/US market stages sequentially.")
+    p.add_argument("--market", choices=["all", "kr", "us"], default="all", help="Market side to refresh and rebuild.")
     p.add_argument("--refresh-financials", choices=["auto", "always", "never"], default="auto")
     p.add_argument("--skip-push", action="store_true")
     return p
@@ -197,6 +198,8 @@ def build_dashboard(wf_dir: Path, out_dir: Path, market_name: str, recent_days: 
 
 def main() -> None:
     args = parser().parse_args()
+    run_kr = args.market in {"all", "kr"}
+    run_us = args.market in {"all", "us"}
     RAW.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -208,25 +211,31 @@ def main() -> None:
     copy_if_exists(latest("data/raw/opendart_financials_all_reports_*.csv") or latest("data/raw/opendart_financials_state.csv"), KR_FINANCIAL_STATE)
     copy_if_exists(latest("data/raw/yfinance_financials_annual_quarterly.csv") or latest("data/raw/yfinance_financials_state.csv"), US_FINANCIAL_STATE)
 
-    kr_refresh = refresh_kr_daily_data_fast(
-        asof=asof,
-        prices_path=KR_PRICE_STATE,
-        output_path=KR_PRICE_STATE,
-    )
-    copy_if_exists(kr_refresh.combined_prices_path, KR_PRICE_STATE)
-    copy_if_exists(kr_refresh.listings_path, KR_LISTINGS_STATE)
+    if run_kr:
+        kr_refresh = refresh_kr_daily_data_fast(
+            asof=asof,
+            prices_path=KR_PRICE_STATE,
+            output_path=KR_PRICE_STATE,
+        )
+        copy_if_exists(kr_refresh.combined_prices_path, KR_PRICE_STATE)
+        copy_if_exists(kr_refresh.listings_path, KR_LISTINGS_STATE)
+    else:
+        print("Skipping KR price refresh.", flush=True)
 
-    us_refresh = refresh_us_daily_data(
-        asof=asof,
-        lookback_days=args.lookback_days,
-        listings_path=US_LISTINGS_STATE,
-        prices_path=US_PRICE_STATE,
-        output_path=US_PRICE_STATE,
-    )
-    copy_if_exists(us_refresh.listings_path, US_LISTINGS_STATE)
+    if run_us:
+        us_refresh = refresh_us_daily_data(
+            asof=asof,
+            lookback_days=args.lookback_days,
+            listings_path=US_LISTINGS_STATE,
+            prices_path=US_PRICE_STATE,
+            output_path=US_PRICE_STATE,
+        )
+        copy_if_exists(us_refresh.listings_path, US_LISTINGS_STATE)
+    else:
+        print("Skipping US price refresh.", flush=True)
 
     if should_refresh_financials(args.refresh_financials):
-        if os.getenv("OPENDART_API_KEY") or os.getenv("DART_API_KEY"):
+        if run_kr and (os.getenv("OPENDART_API_KEY") or os.getenv("DART_API_KEY")):
             current_year = date.today().year
             kr_fin = save_korean_financials(
                 listings_path=KR_LISTINGS_STATE,
@@ -236,15 +245,16 @@ def main() -> None:
                 sleep_seconds=0,
             )
             merge_financials(KR_FINANCIAL_STATE, kr_fin.normalized_financials_path, KR_FINANCIAL_STATE)
-        else:
+        elif run_kr:
             print("OPENDART_API_KEY is not set. Keeping the existing Korean financial state.", flush=True)
-        us_fin = save_us_financials(
-            listings_path=US_LISTINGS_STATE,
-            reports=["annual", "quarterly"],
-            workers=max(1, min(args.workers, 4)),
-            sleep_seconds=0,
-        )
-        merge_financials(US_FINANCIAL_STATE, us_fin.normalized_financials_path, US_FINANCIAL_STATE)
+        if run_us:
+            us_fin = save_us_financials(
+                listings_path=US_LISTINGS_STATE,
+                reports=["annual", "quarterly"],
+                workers=max(1, min(args.workers, 4)),
+                sleep_seconds=0,
+            )
+            merge_financials(US_FINANCIAL_STATE, us_fin.normalized_financials_path, US_FINANCIAL_STATE)
     else:
         print("Skipping financial statement refresh for this run.", flush=True)
 
@@ -256,31 +266,32 @@ def main() -> None:
     us_features = OUT / "daily_features_us" / "training_features_daily.csv"
     kr_macro_features = OUT / "daily_features_kr_macro" / "training_features_daily.csv"
     us_macro_features = OUT / "daily_features_us_macro" / "training_features_daily.csv"
-    build_feature_matrix(KR_PRICE_STATE, KR_FINANCIAL_STATE, KR_LISTINGS_STATE, kr_features)
-    build_feature_matrix(US_PRICE_STATE, US_FINANCIAL_STATE, US_LISTINGS_STATE, us_features)
+    if run_kr:
+        build_feature_matrix(KR_PRICE_STATE, KR_FINANCIAL_STATE, KR_LISTINGS_STATE, kr_features)
+    if run_us:
+        build_feature_matrix(US_PRICE_STATE, US_FINANCIAL_STATE, US_LISTINGS_STATE, us_features)
     parallel_markets = not args.serial_markets
-    run_parallel(
-        [
-            ("attach macro kr", lambda: attach_macro(kr_features, macro.feature_path, kr_macro_features)),
-            ("attach macro us", lambda: attach_macro(us_features, macro.feature_path, us_macro_features)),
-        ],
-        parallel=parallel_markets,
-    )
+    macro_tasks = []
+    if run_kr:
+        macro_tasks.append(("attach macro kr", lambda: attach_macro(kr_features, macro.feature_path, kr_macro_features)))
+    if run_us:
+        macro_tasks.append(("attach macro us", lambda: attach_macro(us_features, macro.feature_path, us_macro_features)))
+    run_parallel(macro_tasks, parallel=parallel_markets)
 
     kr_wf = OUT / "walkforward_warning_macro_kr_latest_auto"
     us_wf = OUT / "walkforward_warning_macro_us_latest_auto"
     parallel_walkforward = parallel_markets and args.parallel_walkforward
     model_jobs = args.model_jobs if args.model_jobs > 0 else (max(1, args.workers // 2) if parallel_walkforward else -1)
-    run_parallel(
-        [
-            ("walkforward kr", lambda: build_walkforward("kr", kr_macro_features, kr_wf, signal_start(KR_PRICE_STATE, args.signal_days), model_jobs=model_jobs)),
-            ("walkforward us", lambda: build_walkforward("us", us_macro_features, us_wf, signal_start(US_PRICE_STATE, args.signal_days), US_LISTINGS_STATE, model_jobs=model_jobs)),
-        ],
-        parallel=parallel_walkforward,
-    )
+    wf_tasks = []
+    if run_kr:
+        wf_tasks.append(("walkforward kr", lambda: build_walkforward("kr", kr_macro_features, kr_wf, signal_start(KR_PRICE_STATE, args.signal_days), model_jobs=model_jobs)))
+    if run_us:
+        wf_tasks.append(("walkforward us", lambda: build_walkforward("us", us_macro_features, us_wf, signal_start(US_PRICE_STATE, args.signal_days), US_LISTINGS_STATE, model_jobs=model_jobs)))
+    run_parallel(wf_tasks, parallel=parallel_walkforward)
 
-    run_parallel(
-        [
+    dashboard_tasks = []
+    if run_kr:
+        dashboard_tasks.append(
             (
                 "dashboard kr",
                 lambda: build_dashboard(
@@ -289,7 +300,10 @@ def main() -> None:
                     "한국",
                     args.pages_days,
                 ),
-            ),
+            )
+        )
+    if run_us:
+        dashboard_tasks.append(
             (
                 "dashboard us",
                 lambda: build_dashboard(
@@ -299,10 +313,9 @@ def main() -> None:
                     args.pages_days,
                     US_LISTINGS_STATE,
                 ),
-            ),
-        ],
-        parallel=parallel_markets,
-    )
+            )
+        )
+    run_parallel(dashboard_tasks, parallel=parallel_markets)
     publish = [sys.executable, "scripts/build_pages_deploy.py", "--days", str(args.pages_days)]
     if not args.skip_push:
         publish.append("--push")
