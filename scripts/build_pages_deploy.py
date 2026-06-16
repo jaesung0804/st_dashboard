@@ -132,12 +132,37 @@ def normalized_row(row: dict, label: str, exchange_map: dict[str, str]) -> dict:
     return out
 
 
+def theme_head_script() -> str:
+    return """<script>
+(function(){try{if(localStorage.getItem('dashboardTheme')==='dark')document.documentElement.dataset.theme='dark';}catch(e){}})();
+</script>"""
+
+
+def theme_toggle_script() -> str:
+    return """<script>
+(function(){
+  const button=document.getElementById('themeToggle');
+  if(!button)return;
+  function apply(theme){
+    const dark=theme==='dark';
+    document.documentElement.dataset.theme=dark?'dark':'';
+    button.textContent=dark?'라이트모드':'다크모드';
+    button.setAttribute('aria-pressed',String(dark));
+    try{localStorage.setItem('dashboardTheme',dark?'dark':'light');}catch(e){}
+  }
+  button.addEventListener('click',()=>apply(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+  apply(document.documentElement.dataset.theme==='dark'?'dark':'light');
+})();
+</script>"""
+
+
 def home_html() -> str:
     return f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>주식 조기경보 대시보드</title>
+{theme_head_script()}
 <style>
-*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:#f6f8fb;color:#17202a}}main{{max-width:1040px;margin:0 auto;padding:28px 18px 42px}}h1{{font-size:26px;margin:0 0 8px}}.sub{{color:#64748b;line-height:1.55;margin-bottom:18px}}.grid{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}.card{{display:block;background:#fff;border:1px solid #d9e2ec;border-radius:8px;padding:18px;text-decoration:none;color:#17202a}}.card:hover{{border-color:#1d4ed8;box-shadow:0 8px 24px rgba(15,23,42,.08)}}b{{display:block;font-size:18px;margin-bottom:7px}}span{{display:block;color:#64748b;font-size:14px;line-height:1.45}}.actions{{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}}.button{{display:inline-flex;align-items:center;justify-content:center;background:#1d4ed8;color:#fff;border-radius:7px;padding:10px 13px;text-decoration:none;font-weight:800}}.button.secondary{{background:#e8eef8;color:#1e3a8a}}@media(max-width:720px){{main{{padding:20px 12px 34px}}h1{{font-size:23px}}.grid{{grid-template-columns:1fr}}.card{{padding:15px}}.button{{width:100%}}}}
+:root{{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--panel:#fff;--blue:#1d4ed8;--button-soft:#e8eef8;--button-soft-ink:#1e3a8a;--shadow:rgba(15,23,42,.08)}}html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--panel:#161b22;--blue:#3b82f6;--button-soft:#1f2937;--button-soft-ink:#dbeafe;--shadow:rgba(0,0,0,.32)}}*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}main{{max-width:1040px;margin:0 auto;padding:28px 18px 42px}}h1{{font-size:26px;margin:0 0 8px}}.sub{{color:var(--muted);line-height:1.55;margin-bottom:18px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}.card{{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;text-decoration:none;color:var(--ink)}}.card:hover{{border-color:var(--blue);box-shadow:0 8px 24px var(--shadow)}}b{{display:block;font-size:18px;margin-bottom:7px}}span{{display:block;color:var(--muted);font-size:14px;line-height:1.45}}.actions{{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}}.button{{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;border:1px solid transparent;border-radius:7px;padding:10px 13px;text-decoration:none;font-weight:800;cursor:pointer;font:inherit}}.button.secondary,.theme-toggle{{background:var(--button-soft);color:var(--button-soft-ink)}}@media(max-width:720px){{main{{padding:20px 12px 34px}}h1{{font-size:23px}}.grid{{grid-template-columns:1fr}}.card{{padding:15px}}.button{{width:100%}}}}
 </style></head><body><main>
 <h1>주식 조기경보 대시보드</h1>
 <div class="sub">최근 한 달치 신호일을 공개용으로 가볍게 정리한 화면입니다. 매일 GitHub Actions가 종가와 재무 상태를 갱신하고 Pages를 다시 배포합니다.</div>
@@ -145,13 +170,13 @@ def home_html() -> str:
 <a class="button" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html">한국 보기</a>
 <a class="button" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html">미국 보기</a>
 <a class="button secondary" href="{ACTION_URLS["all"]}">최신화 실행 (market 선택)</a>
+<button class="button secondary theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button>
 </div>
 <div class="grid">
 <a class="card" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html"><b>한국 대시보드</b><span>신호일별 KOSPI/KOSDAQ 최근 후보</span></a>
 <a class="card" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html"><b>미국 대시보드</b><span>신호일별 NASDAQ/NYSE 최근 후보</span></a>
-<a class="card" href="down_negative_model_comparison/index.html"><b>하락 모델 비교</b><span>하락 필터별 차이를 요약한 비교 리포트</span></a>
 </div>
-</main></body></html>"""
+</main>{theme_toggle_script()}</body></html>"""
 
 
 def dashboard_html(label: str, subtitle: str, other_href: str, other_label: str) -> str:
@@ -159,12 +184,14 @@ def dashboard_html(label: str, subtitle: str, other_href: str, other_label: str)
     return f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{label} 조기경보 대시보드</title>
+{theme_head_script()}
 <style>
 :root{{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--head:#101827;--blue:#1d4ed8;--red:#b91c1c;--green:#047857}}
 *{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}header{{background:var(--head);color:white;padding:16px 18px}}header h1{{margin:0 0 5px;font-size:22px}}.sub{{color:#cbd5e1;font-size:13px;line-height:1.45}}nav{{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}}nav a{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px}}main{{max-width:1360px;margin:0 auto;padding:14px}}.stats{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:12px}}.stat,.panel{{background:white;border:1px solid var(--line);border-radius:8px}}.stat{{padding:12px}}.stat small{{display:block;color:var(--muted);margin-bottom:4px}}.stat b{{font-size:20px}}.panel{{padding:12px;margin-bottom:12px}}.guide{{line-height:1.55;color:#334155;font-size:13px}}.guide b{{color:#0f172a}}.controls{{display:grid;grid-template-columns:170px repeat(4,minmax(120px,1fr));gap:9px;align-items:end}}label{{font-size:12px;color:#475569;display:grid;gap:4px}}select,input{{width:100%;padding:9px;border:1px solid #cbd5e1;border-radius:6px;background:white}}.tabs{{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}}button{{border:1px solid #bfdbfe;background:#eff6ff;color:#1e40af;padding:8px 10px;border-radius:6px;font-weight:800;cursor:pointer}}button.active{{background:var(--blue);color:white}}.meta{{font-size:13px;color:#475569;margin:8px 0}}table{{width:100%;border-collapse:separate;border-spacing:0;font-size:12px}}th,td{{border-bottom:1px solid var(--line);padding:9px 8px;text-align:right;vertical-align:top}}th{{background:#eef3f8;color:#334155;position:sticky;top:0}}td.left,th.left{{text-align:left}}.name{{font-weight:800;color:#1d4ed8;text-decoration:none}}.name:hover{{text-decoration:underline}}.wrap{{white-space:normal;overflow-wrap:anywhere;line-height:1.35}}.badge{{display:inline-block;min-width:54px;text-align:center;border-radius:5px;padding:3px 6px;font-weight:800}}.score-grid{{display:grid;grid-template-columns:repeat(5,minmax(56px,1fr));gap:4px;min-width:310px;text-align:left}}.score{{border:1px solid #d9e2ec;border-radius:5px;padding:5px}}.score small{{display:block;color:#64748b;font-size:10px;margin-bottom:2px}}.score b{{font-size:12px}}.GREEN{{background:#dbeafe;color:#1d4ed8}}.RED{{background:#fee2e2;color:#b91c1c}}.YELLOW{{background:#fef9c3;color:#854d0e}}.ORANGE{{background:#ffedd5;color:#c2410c}}.pos{{color:var(--green);font-weight:800}}.neg{{color:var(--red);font-weight:800}}.pager{{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}}.scroll{{overflow:auto}}.empty{{padding:16px;color:var(--muted)}}.price{{line-height:1.35}}.price small{{display:block;color:#64748b}}@media(max-width:760px){{header{{padding:14px 12px}}header h1{{font-size:20px}}main{{padding:10px}}.stats{{grid-template-columns:1fr 1fr;gap:8px}}.stat{{padding:10px}}.stat b{{font-size:18px}}.controls{{grid-template-columns:1fr}}.panel{{padding:10px;border-radius:7px}}table,thead,tbody,tr,th,td{{display:block}}thead{{display:none}}tbody{{display:grid;gap:10px}}tr{{background:white;border:1px solid var(--line);border-radius:8px;padding:10px}}td{{border:0;display:grid;grid-template-columns:92px 1fr;gap:8px;text-align:left;padding:5px 0;white-space:normal}}td::before{{content:attr(data-label);color:#64748b;font-size:11px;font-weight:800;text-transform:uppercase}}td.left{{text-align:left}}.badge{{min-width:0}}.score-grid{{min-width:0;grid-template-columns:1fr 1fr}}.pager button{{flex:1}}}}
+html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--head:#010409;--blue:#3b82f6;--red:#f87171;--green:#34d399}}html[data-theme="dark"] .stat,html[data-theme="dark"] .panel{{background:#161b22}}html[data-theme="dark"] .guide{{color:#c9d1d9}}html[data-theme="dark"] .guide b{{color:#f3f4f6}}html[data-theme="dark"] label,html[data-theme="dark"] .meta{{color:#9ca3af}}html[data-theme="dark"] select,html[data-theme="dark"] input{{background:#0d1117;color:#e5e7eb;border-color:#30363d}}html[data-theme="dark"] th{{background:#1f2937;color:#d1d5db}}html[data-theme="dark"] tr{{background:#161b22}}html[data-theme="dark"] .name{{color:#60a5fa}}html[data-theme="dark"] .score{{border-color:#30363d}}html[data-theme="dark"] .price small,html[data-theme="dark"] .score small{{color:#9ca3af}}.theme-toggle{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px;background:transparent;font-weight:400}}html[data-theme="dark"] .theme-toggle{{background:#1f2937;color:#e5e7eb}}
 </style></head><body>
 <header><h1>{label} 조기경보 대시보드</h1><div class="sub">{subtitle}. 최근 공개 신호일을 보여줍니다.</div>
-<nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a href="../down_negative_model_comparison/index.html">모델 비교</a><a href="{action_url}">최신화 실행 (market 선택)</a></nav></header>
+<nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a href="{action_url}">최신화 실행 (market 선택)</a><button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button></nav></header>
 <main>
 <div class="stats"><div class="stat"><small>최신 신호일</small><b id="latest">-</b></div><div class="stat"><small>최종 후보</small><b id="finalCount">-</b></div><div class="stat"><small>상승 후보</small><b id="upCount">-</b></div><div class="stat"><small>전체 종목</small><b id="rowCount">-</b></div></div>
 <section class="panel guide"><b>해석 가이드</b><br>상승점수는 같은 날짜 종목 중 6개월 상승 확률이 높은 순위 점수이고, 하락위험은 6개월 하락 확률이 높은 순위 점수입니다. 등급은 상위 5% RED, 5-15% ORANGE, 15-35% YELLOW, 나머지 GREEN으로 나뉩니다. 최종 후보는 상승 상위 5%이면서 하락위험이 GREEN인 종목입니다. 대표점수는 모델 입력 특성을 묶어 백분위로 요약한 해석 보조 지표이며, 색이 진할수록 해당 묶음의 강도가 큽니다.</section>
@@ -194,15 +221,16 @@ async function loadDate(){{const date=$('date').value;$('table').innerHTML='<div
 function render(){{filtered=selectedRows();const size=Math.max(10,Math.min(200,parseInt($('pageSize').value||10,10)));const pages=Math.max(1,Math.ceil(filtered.length/size));page=Math.max(1,Math.min(page,pages));const start=(page-1)*size, shown=filtered.slice(start,start+size);$('meta').textContent=`${{filtered.length.toLocaleString()}}개 / 신호일 ${{$('date').value}}`;$('pageInfo').textContent=`${{page}} / ${{pages}}`; $('prev').disabled=page<=1;$('next').disabled=page>=pages;$('dir').textContent=asc?'오름차순':'내림차순';if(!shown.length){{$('table').innerHTML='<div class="empty">조건에 맞는 종목이 없습니다.</div>';return;}}$('table').innerHTML='<table><thead><tr>'+labels.map((x,i)=>`<th class="${{i>=1&&i<=4?'left':''}}">${{x}}</th>`).join('')+'</tr></thead><tbody>'+shown.map((r,i)=>{{const cells=[start+i+1,`<a class="name" href="${{naver(r)}}" target="_blank" rel="noopener">${{esc(r.ticker)}}</a>`,`<a class="name" href="stock.html?ticker=${{encodeURIComponent(r.ticker)}}">${{esc(r.name||r.ticker)}}</a>`,esc(r.sector),esc(r.detailSector),price(r),esc(r.upScore),`<span class="badge ${{esc(r.upGrade)}}">${{esc(r.upGrade)}}</span>`,esc(r.downRisk),`<span class="badge ${{esc(r.downGrade)}}">${{esc(r.downGrade)}}</span>`,scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,idx)=>`<td data-label="${{labels[idx]}}" class="${{idx>=1&&idx<=4?'left wrap':''}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
 async function init(){{manifest=await fetch('manifest.json').then(r=>r.json());$('latest').textContent=manifest.latest||'-';$('finalCount').textContent=Number(manifest.latestFinal||0).toLocaleString();$('upCount').textContent=Number(manifest.latestUp||0).toLocaleString();$('rowCount').textContent=Number(manifest.latestRows||0).toLocaleString();(manifest.dates||[]).forEach(d=>$('date').add(new Option(d,d)));['date','mode','query','sort','pageSize'].forEach(id=>$(id).addEventListener(id==='query'?'input':'change',()=>{{page=1;id==='date'?loadDate():render();}}));$('dir').onclick=()=>{{asc=!asc;render();}};$('prev').onclick=()=>{{page--;render();}};$('next').onclick=()=>{{page++;render();}};await loadDate();}}
 init().catch(err=>{{$('table').innerHTML=`<div class="empty">${{esc(err.message)}}</div>`;}});
-</script></body></html>"""
+</script>{theme_toggle_script()}</body></html>"""
 
 
 def stock_html(label: str, other_href: str, other_label: str) -> str:
     return f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{label} 종목 상세</title>
-<style>*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:#f6f8fb;color:#17202a}}header{{background:#101827;color:white;padding:16px 18px}}nav{{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}}nav a{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px}}main{{max-width:1100px;margin:0 auto;padding:14px}}.panel{{background:white;border:1px solid #d9e2ec;border-radius:8px;padding:12px;overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:12px}}th,td{{border-bottom:1px solid #d9e2ec;padding:8px;text-align:right}}th{{background:#eef3f8}}th:first-child,td:first-child{{text-align:left}}.scores{{display:grid;grid-template-columns:repeat(5,minmax(48px,1fr));gap:4px;min-width:270px;text-align:left}}.score{{border:1px solid #d9e2ec;border-radius:5px;padding:5px}}.score small{{display:block;color:#64748b;font-size:10px}}.score b{{font-size:12px}}.pos{{color:#047857;font-weight:800}}.neg{{color:#b91c1c;font-weight:800}}.ext{{color:#dbeafe}}@media(max-width:720px){{main{{padding:10px}}table,thead,tbody,tr,th,td{{display:block}}thead{{display:none}}tr{{border:1px solid #d9e2ec;border-radius:8px;margin-bottom:9px;padding:8px}}td{{border:0;display:grid;grid-template-columns:92px 1fr;text-align:left;padding:5px}}td::before{{content:attr(data-label);font-size:11px;color:#64748b;font-weight:800;text-transform:uppercase}}.scores{{min-width:0;grid-template-columns:1fr 1fr}}}}</style></head>
-<body><header><h1 id="title">{label} 종목 상세</h1><nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a id="naver" class="ext" target="_blank" rel="noopener">네이버 증권</a></nav></header><main><section class="panel" id="content">불러오는 중...</section></main>
+{theme_head_script()}
+<style>:root{{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--panel:#fff;--head:#101827;--thead:#eef3f8;--red:#b91c1c;--green:#047857}}html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--panel:#161b22;--head:#010409;--thead:#1f2937;--red:#f87171;--green:#34d399}}*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}header{{background:var(--head);color:white;padding:16px 18px}}nav{{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}}nav a,.theme-toggle{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px;background:transparent;cursor:pointer;font:inherit}}main{{max-width:1100px;margin:0 auto;padding:14px}}.panel{{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:12px}}th,td{{border-bottom:1px solid var(--line);padding:8px;text-align:right}}th{{background:var(--thead);color:var(--ink)}}th:first-child,td:first-child{{text-align:left}}.scores{{display:grid;grid-template-columns:repeat(5,minmax(48px,1fr));gap:4px;min-width:270px;text-align:left}}.score{{border:1px solid var(--line);border-radius:5px;padding:5px}}.score small{{display:block;color:var(--muted);font-size:10px}}.score b{{font-size:12px}}.pos{{color:var(--green);font-weight:800}}.neg{{color:var(--red);font-weight:800}}.ext{{color:#dbeafe}}html[data-theme="dark"] .theme-toggle{{background:#1f2937;color:#e5e7eb}}@media(max-width:720px){{main{{padding:10px}}table,thead,tbody,tr,th,td{{display:block}}thead{{display:none}}tr{{border:1px solid var(--line);border-radius:8px;margin-bottom:9px;padding:8px}}td{{border:0;display:grid;grid-template-columns:92px 1fr;text-align:left;padding:5px}}td::before{{content:attr(data-label);font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase}}.scores{{min-width:0;grid-template-columns:1fr 1fr}}}}</style></head>
+<body><header><h1 id="title">{label} 종목 상세</h1><nav><a href="../index.html">홈</a><a href="dashboard.html">{label}</a><a href="{other_href}">{other_label}</a><a id="naver" class="ext" target="_blank" rel="noopener">네이버 증권</a><button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button></nav></header><main><section class="panel" id="content">불러오는 중...</section></main>
 <script>
 const params=new URLSearchParams(location.search),ticker=params.get('ticker')||'';const labels=['신호일','종가','상승','상승등급','하락','하락등급','최종','대표점수','예상 6개월'];
 const scoreLabels=[['growth_profit','성장'],['cash_quality','현금'],['valuation','밸류'],['price_volume','가격'],['risk_overheat','위험']];
@@ -218,7 +246,7 @@ function naverUrl(r){{const t=String(r.ticker||ticker); if(String(r.currency||''
 function expected(r){{const krw=r.expCloseKrw_6m?` / ${{esc(r.expCloseKrw_6m)}}`:'';return `<span class="${{cls(r.expRet_6m)}}">${{esc(r.expRet_6m||'-')}}</span><br>${{esc(r.expClose_6m||'-')}}${{krw}}`;}}
 async function init(){{if(!ticker)throw new Error('티커가 없습니다.');const data=await fetch(`stock_history/${{safeTickerFile(ticker)}}.json`).then(r=>{{if(!r.ok)throw new Error(`${{r.status}} ${{r.statusText}}`);return r.json();}});const rows=(data.rows||[]).slice().reverse();document.getElementById('title').textContent=`{label} 종목 상세: ${{data.ticker}} ${{data.name||''}}`;document.getElementById('naver').href=naverUrl(rows[0]||data);document.getElementById('content').innerHTML='<table><thead><tr>'+labels.map(x=>`<th>${{x}}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>{{const cells=[esc(r.date),esc(r.close),esc(r.upScore),esc(r.upGrade),esc(r.downRisk),esc(r.downGrade),r.isFinalCandidate?'Y':'',scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,i)=>`<td data-label="${{labels[i]}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
 init().catch(err=>{{document.getElementById('content').textContent=err.message;}});
-</script></body></html>"""
+</script>{theme_toggle_script()}</body></html>"""
 
 
 def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle: str, other_href: str, other_label: str) -> None:
@@ -297,12 +325,6 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
     (target / "stock.html").write_text(stock_html(label, other_href, other_label), encoding="utf-8")
 
 
-def copy_comparison(deploy_dir: Path) -> None:
-    source = ROOT / "down_negative_model_comparison"
-    if source.exists():
-        shutil.copytree(source, deploy_dir / "down_negative_model_comparison")
-
-
 def run_git(args: list[str], cwd: Path) -> None:
     subprocess.run(["git", *args], cwd=cwd, check=True)
 
@@ -341,7 +363,6 @@ def main() -> None:
     deploy_dir.mkdir(parents=True)
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
     (deploy_dir / "index.html").write_text(home_html(), encoding="utf-8")
-    copy_comparison(deploy_dir)
     built_dashboards = 0
     dashboard_jobs = [
         (

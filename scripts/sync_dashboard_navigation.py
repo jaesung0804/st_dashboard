@@ -37,7 +37,6 @@ def home_html(prefix: str = "") -> str:
 <a href="{us}dashboard.html"><b>US Dashboard</b><span>Latest NASDAQ/NYSE candidate details</span></a>
 <a href="{kr}backtest.html"><b>Korea Backtest</b><span>Candidate performance using finalized forward returns</span></a>
 <a href="{us}backtest.html"><b>US Backtest</b><span>Candidate performance using finalized forward returns</span></a>
-<a href="{prefix}down_negative_model_comparison/index.html"><b>Downside Model Comparison</b><span>Compare bottom-5% downside and 6-month recovery downside models</span></a>
 </div>
 </main>
 </body>
