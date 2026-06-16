@@ -39,10 +39,11 @@ def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Collect latest data, rebuild dashboard outputs, and publish Pages.")
     p.add_argument("--asof", default=None, help="YYYYMMDD. Defaults to today on the runner.")
     p.add_argument("--lookback-days", type=int, default=10)
-    p.add_argument("--signal-days", type=int, default=45, help="Recent calendar days to score.")
+    p.add_argument("--signal-days", type=int, default=35, help="Recent calendar days to score. 35 days is enough for roughly one trading month.")
     p.add_argument("--pages-days", type=int, default=22, help="Recent trading days to publish.")
     p.add_argument("--workers", type=int, default=6)
     p.add_argument("--model-jobs", type=int, default=0, help="LightGBM threads per market. 0 chooses a safe value.")
+    p.add_argument("--parallel-walkforward", action="store_true", help="Run KR/US walk-forward training together. This can exceed hosted runner memory.")
     p.add_argument("--serial-markets", action="store_true", help="Run KR/US market stages sequentially.")
     p.add_argument("--refresh-financials", choices=["auto", "always", "never"], default="auto")
     p.add_argument("--skip-push", action="store_true")
@@ -268,13 +269,14 @@ def main() -> None:
 
     kr_wf = OUT / "walkforward_warning_macro_kr_latest_auto"
     us_wf = OUT / "walkforward_warning_macro_us_latest_auto"
-    model_jobs = args.model_jobs if args.model_jobs > 0 else (max(1, args.workers // 2) if parallel_markets else -1)
+    parallel_walkforward = parallel_markets and args.parallel_walkforward
+    model_jobs = args.model_jobs if args.model_jobs > 0 else (max(1, args.workers // 2) if parallel_walkforward else -1)
     run_parallel(
         [
             ("walkforward kr", lambda: build_walkforward("kr", kr_macro_features, kr_wf, signal_start(KR_PRICE_STATE, args.signal_days), model_jobs=model_jobs)),
             ("walkforward us", lambda: build_walkforward("us", us_macro_features, us_wf, signal_start(US_PRICE_STATE, args.signal_days), US_LISTINGS_STATE, model_jobs=model_jobs)),
         ],
-        parallel=parallel_markets,
+        parallel=parallel_walkforward,
     )
 
     run_parallel(
