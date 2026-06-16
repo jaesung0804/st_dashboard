@@ -85,6 +85,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config http.postBuffer 524288000
           git add -A
           git commit -m "Refresh dashboard state" || Write-Host "No dashboard state changes to commit."
-          git push origin HEAD:dashboard-state
+          $pushOk = $false
+          for ($attempt = 1; $attempt -le 3; $attempt++) {
+            git push origin HEAD:dashboard-state
+            if ($LASTEXITCODE -eq 0) {
+              $pushOk = $true
+              break
+            }
+            Write-Warning "Dashboard state push failed on attempt $attempt; retrying."
+            Start-Sleep -Seconds (30 * $attempt)
+          }
+          if (-not $pushOk) {
+            Write-Warning "Dashboard state push failed after retries. Pages was already published, so this run stays green."
+          }
