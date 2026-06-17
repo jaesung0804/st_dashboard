@@ -6,6 +6,7 @@ import json
 import os
 import shutil
 import subprocess
+import tempfile
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
@@ -53,6 +54,12 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--days", type=int, default=22, help="Trading dates to publish, roughly one month by default.")
     p.add_argument("--push", action="store_true", help="Commit and force-push the deploy bundle to gh-pages.")
     p.add_argument("--repo", default="https://github.com/jaesung0804/st_dashboard.git")
+    p.add_argument(
+        "--preserve-existing-pages",
+        action=argparse.BooleanOptionalAction,
+        default=None,
+        help="Copy any missing dashboard directories from the current gh-pages branch. Defaults to on when --push is used.",
+    )
     return p
 
 
@@ -329,6 +336,51 @@ def run_git(args: list[str], cwd: Path) -> None:
     subprocess.run(["git", *args], cwd=cwd, check=True)
 
 
+def git_auth_prefix(repo: str) -> list[str]:
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token or not repo.startswith("https://github.com/"):
+        return ["git"]
+    credential = base64.b64encode(f"x-access-token:{token}".encode("utf-8")).decode("ascii")
+    return ["git", "-c", f"http.https://github.com/.extraheader=AUTHORIZATION: basic {credential}"]
+
+
+def restore_existing_dashboards(deploy_dir: Path, repo: str, targets: list[str]) -> int:
+    targets = [target for target in targets if not (deploy_dir / target).exists()]
+    if not targets:
+        return 0
+
+    with tempfile.TemporaryDirectory(prefix="pages-existing-") as tmp:
+        checkout = Path(tmp) / "gh-pages"
+        result = subprocess.run(
+            [
+                *git_auth_prefix(repo),
+                "clone",
+                "--depth",
+                "1",
+                "--branch",
+                "gh-pages",
+                repo,
+                str(checkout),
+            ],
+            text=True,
+            capture_output=True,
+        )
+        if result.returncode != 0:
+            print(f"Could not restore existing pages from gh-pages: {result.stderr.strip()}", flush=True)
+            return 0
+
+        restored = 0
+        for target in targets:
+            source = checkout / target
+            if not source.exists():
+                print(f"No existing {target} found on gh-pages.", flush=True)
+                continue
+            shutil.copytree(source, deploy_dir / target)
+            restored += 1
+            print(f"Restored existing {target} from gh-pages.", flush=True)
+        return restored
+
+
 def remove_tree(path: Path) -> None:
     def onexc(func, target, exc_info):  # noqa: ANN001
         os.chmod(target, 0o700)
@@ -364,6 +416,7 @@ def main() -> None:
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
     (deploy_dir / "index.html").write_text(home_html(), encoding="utf-8")
     built_dashboards = 0
+    missing_targets: list[str] = []
     dashboard_jobs = [
         (
             "kr",
@@ -381,6 +434,7 @@ def main() -> None:
         source = dashboard["source"]
         if not has_date_files(source):
             print(f"Skipping {key} pages: no date JSON files found under {source}", flush=True)
+            missing_targets.append(dashboard["target"])
             continue
         build_dashboard(
             source,
@@ -392,7 +446,11 @@ def main() -> None:
             other_label,
         )
         built_dashboards += 1
-    if built_dashboards == 0:
+    preserve_existing_pages = args.preserve_existing_pages if args.preserve_existing_pages is not None else args.push
+    restored_dashboards = 0
+    if preserve_existing_pages:
+        restored_dashboards = restore_existing_dashboards(deploy_dir, args.repo, missing_targets)
+    if built_dashboards + restored_dashboards == 0:
         raise FileNotFoundError("No dashboard date JSON files found under outputs")
     total = sum(path.stat().st_size for path in deploy_dir.rglob("*") if path.is_file())
     print(f"Built {deploy_dir} with {sum(1 for _ in deploy_dir.rglob('*') if _.is_file())} files, {total / 1024 / 1024:.1f} MB.")
