@@ -344,8 +344,19 @@ def git_auth_prefix(repo: str) -> list[str]:
     return ["git", "-c", f"http.https://github.com/.extraheader=AUTHORIZATION: basic {credential}"]
 
 
+def manifest_latest(path: Path) -> str:
+    manifest_path = path / "manifest.json"
+    if not manifest_path.exists():
+        return ""
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return ""
+    return str(manifest.get("latest", ""))
+
+
 def restore_existing_dashboards(deploy_dir: Path, repo: str, targets: list[str]) -> int:
-    targets = [target for target in targets if not (deploy_dir / target).exists()]
+    targets = sorted(set(targets))
     if not targets:
         return 0
 
@@ -375,9 +386,19 @@ def restore_existing_dashboards(deploy_dir: Path, repo: str, targets: list[str])
             if not source.exists():
                 print(f"No existing {target} found on gh-pages.", flush=True)
                 continue
-            shutil.copytree(source, deploy_dir / target)
+
+            destination = deploy_dir / target
+            existing_latest = manifest_latest(source)
+            local_latest = manifest_latest(destination)
+            if destination.exists() and existing_latest <= local_latest:
+                continue
+
+            if destination.exists():
+                shutil.rmtree(destination)
+            shutil.copytree(source, destination)
             restored += 1
-            print(f"Restored existing {target} from gh-pages.", flush=True)
+            reason = "missing locally" if not local_latest else f"newer than local {local_latest}"
+            print(f"Restored existing {target} from gh-pages ({existing_latest}; {reason}).", flush=True)
         return restored
 
 
@@ -429,6 +450,7 @@ def main() -> None:
             "한국",
         ),
     ]
+    dashboard_targets = [dashboard["target"] for dashboard in DASHBOARDS.values()]
     for key, other_href, other_label in dashboard_jobs:
         dashboard = DASHBOARDS[key]
         source = dashboard["source"]
@@ -449,7 +471,7 @@ def main() -> None:
     preserve_existing_pages = args.preserve_existing_pages if args.preserve_existing_pages is not None else args.push
     restored_dashboards = 0
     if preserve_existing_pages:
-        restored_dashboards = restore_existing_dashboards(deploy_dir, args.repo, missing_targets)
+        restored_dashboards = restore_existing_dashboards(deploy_dir, args.repo, dashboard_targets)
     if built_dashboards + restored_dashboards == 0:
         raise FileNotFoundError("No dashboard date JSON files found under outputs")
     total = sum(path.stat().st_size for path in deploy_dir.rglob("*") if path.is_file())
