@@ -1,7 +1,7 @@
 {
   "data/raw/krx_ohlcv_kospi_kosdaq_state.csv": {
     "type": "split",
-    "size": 156499817,
+    "size": 156635869,
     "parts": [
       ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0000",
       ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0001"
@@ -9,7 +9,7 @@
   },
   "data/raw/krx_listings_kospi_kosdaq_state.csv": {
     "type": "file",
-    "size": 172443
+    "size": 172417
   },
   "data/raw/opendart_financials_state.csv": {
     "type": "file",
