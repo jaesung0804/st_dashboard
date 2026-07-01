@@ -1,7 +1,7 @@
 {
   "data/raw/krx_ohlcv_kospi_kosdaq_state.csv": {
     "type": "split",
-    "size": 157315307,
+    "size": 157450917,
     "parts": [
       ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0000",
       ".parts/data/raw/krx_ohlcv_kospi_kosdaq_state.csv/part-0001"
@@ -9,7 +9,7 @@
   },
   "data/raw/krx_listings_kospi_kosdaq_state.csv": {
     "type": "file",
-    "size": 172426
+    "size": 172370
   },
   "data/raw/opendart_financials_state.csv": {
     "type": "file",
@@ -17,7 +17,7 @@
   },
   "data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv": {
     "type": "split",
-    "size": 629607655,
+    "size": 630171156,
     "parts": [
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0000",
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0001",
