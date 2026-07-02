@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국 종목 상세</title>
+<script>
+(function(){try{if(localStorage.getItem('dashboardTheme')==='dark')document.documentElement.dataset.theme='dark';}catch(e){}})();
+</script>
+<style>:root{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--panel:#fff;--head:#101827;--thead:#eef3f8;--red:#b91c1c;--green:#047857;--heat-high-bg:#ecfdf5;--heat-high-ink:#065f46;--heat-high-line:#bbf7d0;--heat-mid-bg:#f0fdfa;--heat-mid-ink:#0f766e;--heat-mid-line:#99f6e4;--heat-low-bg:#fffbeb;--heat-low-ink:#92400e;--heat-low-line:#fde68a;--heat-risk-bg:#fff1f2;--heat-risk-ink:#9f1239;--heat-risk-line:#fecdd3}html[data-theme="dark"]{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--panel:#161b22;--head:#010409;--thead:#1f2937;--red:#f87171;--green:#34d399;--heat-high-bg:#123524;--heat-high-ink:#a7f3d0;--heat-high-line:#1f6f4a;--heat-mid-bg:#11333a;--heat-mid-ink:#99f6e4;--heat-mid-line:#1f6570;--heat-low-bg:#3b2f12;--heat-low-ink:#fde68a;--heat-low-line:#7a5a17;--heat-risk-bg:#3a1620;--heat-risk-ink:#fecdd3;--heat-risk-line:#7f2b3c}*{box-sizing:border-box}body{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}header{background:var(--head);color:white;padding:16px 18px}nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}nav a,.theme-toggle{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px;background:transparent;cursor:pointer;font:inherit}main{max-width:1100px;margin:0 auto;padding:14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto}table{width:100%;border-collapse:collapse;font-size:12px}th,td{border-bottom:1px solid var(--line);padding:8px;text-align:right}th{background:var(--thead);color:var(--ink)}th:first-child,td:first-child{text-align:left}.scores{display:grid;grid-template-columns:repeat(5,minmax(48px,1fr));gap:4px;min-width:270px;text-align:left}.score{border:1px solid var(--line);border-radius:5px;padding:5px}.score small{display:block;color:var(--muted);font-size:10px}.score b{font-size:12px}.pos{color:var(--green);font-weight:800}.neg{color:var(--red);font-weight:800}.ext{color:#dbeafe}html[data-theme="dark"] .theme-toggle{background:#1f2937;color:#e5e7eb}@media(max-width:720px){main{padding:10px}table,thead,tbody,tr,th,td{display:block}thead{display:none}tr{border:1px solid var(--line);border-radius:8px;margin-bottom:9px;padding:8px}td{border:0;display:grid;grid-template-columns:92px 1fr;text-align:left;padding:5px}td::before{content:attr(data-label);font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase}.scores{min-width:0;grid-template-columns:1fr 1fr}}</style></head>
+<body><header><h1 id="title">미국 종목 상세</h1><nav><a href="../index.html?v=1782958165">홈</a><a href="dashboard.html?v=1782958165">미국</a><a href="../lgbm_warning_dashboard_macro_kr_latest/dashboard.html?v=1782958165">한국</a><a id="naver" class="ext" target="_blank" rel="noopener">네이버 증권</a><button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button></nav></header><main><section class="panel" id="content">불러오는 중...</section></main>
+<script>
+const params=new URLSearchParams(location.search),ticker=params.get('ticker')||'';const labels=['신호일','종가','상승','상승등급','하락','하락등급','최종','대표점수','예상 6개월'];
+const scoreLabels=[['growth_profit','성장'],['cash_quality','현금'],['valuation','밸류'],['price_volume','가격'],['risk_overheat','위험']];
+const suffix={NASDAQ:'.O',NYSE:'.N',NYSEAMERICAN:'.A',NYSEARCA:'.P'};
+const reservedNames=new Set(['CON','PRN','AUX','NUL','COM1','COM2','COM3','COM4','COM5','COM6','COM7','COM8','COM9','LPT1','LPT2','LPT3','LPT4','LPT5','LPT6','LPT7','LPT8','LPT9']);
+function esc(v){return String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+function num(v){const n=parseFloat(String(v??'').replace(/[$,원%]/g,'').split('/')[0]);return Number.isNaN(n)?NaN:n;}
+function safeTickerFile(t){let name=encodeURIComponent(String(t||''));const stem=name.split('.')[0].toUpperCase();if(reservedNames.has(stem))name+='_';return name;}
+function cls(v){const n=num(v);return Number.isNaN(n)?'':n<0?'neg':'pos';}
+function heat(v,key){const raw=num(v);const good=key==='risk_overheat'?100-raw:raw;const n=Math.max(0,Math.min(100,Number.isNaN(good)?50:good));if(n>=75)return 'background:var(--heat-high-bg);color:var(--heat-high-ink);border-color:var(--heat-high-line)';if(n>=55)return 'background:var(--heat-mid-bg);color:var(--heat-mid-ink);border-color:var(--heat-mid-line)';if(n>=35)return 'background:var(--heat-low-bg);color:var(--heat-low-ink);border-color:var(--heat-low-line)';return 'background:var(--heat-risk-bg);color:var(--heat-risk-ink);border-color:var(--heat-risk-line)';}
+function scoreBlock(r){return '<div class="scores">'+scoreLabels.map(([key,label])=>`<div class="score" style="${heat(r[key],key)}"><small>${label}</small><b>${esc(r[key]??'-')}</b></div>`).join('')+'</div>';}
+function naverUrl(r){const t=String(r.ticker||ticker); if(String(r.currency||'').toUpperCase()==='USD') return `https://m.stock.naver.com/worldstock/stock/${encodeURIComponent(t+(suffix[String(r.exchange||'').toUpperCase()]||'.O'))}/total`; return `https://m.stock.naver.com/domestic/stock/${encodeURIComponent(t.padStart(6,'0'))}/total`;}
+function expected(r){const krw=r.expCloseKrw_6m?` / ${esc(r.expCloseKrw_6m)}`:'';return `<span class="${cls(r.expRet_6m)}">${esc(r.expRet_6m||'-')}</span><br>${esc(r.expClose_6m||'-')}${krw}`;}
+async function init(){if(!ticker)throw new Error('티커가 없습니다.');const data=await fetch(`stock_history/${safeTickerFile(ticker)}.json?v=1782958165`,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`${r.status} ${r.statusText}`);return r.json();});const rows=(data.rows||[]).slice().reverse();document.getElementById('title').textContent=`미국 종목 상세: ${data.ticker} ${data.name||''}`;document.getElementById('naver').href=naverUrl(rows[0]||data);document.getElementById('content').innerHTML='<table><thead><tr>'+labels.map(x=>`<th>${x}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>{const cells=[esc(r.date),esc(r.close),esc(r.upScore),esc(r.upGrade),esc(r.downRisk),esc(r.downGrade),r.isFinalCandidate?'Y':'',scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,i)=>`<td data-label="${labels[i]}">${c}</td>`).join('')+'</tr>';}).join('')+'</tbody></table>';}
+init().catch(err=>{document.getElementById('content').textContent=err.message;});
+</script><script>
+(function(){
+  const button=document.getElementById('themeToggle');
+  if(!button)return;
+  function apply(theme){
+    const dark=theme==='dark';
+    document.documentElement.dataset.theme=dark?'dark':'';
+    button.textContent=dark?'라이트모드':'다크모드';
+    button.setAttribute('aria-pressed',String(dark));
+    try{localStorage.setItem('dashboardTheme',dark?'dark':'light');}catch(e){}
+  }
+  button.addEventListener('click',()=>apply(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+  apply(document.documentElement.dataset.theme==='dark'?'dark':'light');
+})();
+</script></body></html>
