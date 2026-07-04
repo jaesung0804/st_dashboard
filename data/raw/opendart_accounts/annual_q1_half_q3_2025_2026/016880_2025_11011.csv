@@ -1,0 +1,276 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 43 기,5347440026503,제 42 기,970970804269,제 41 기,1027078032335,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 43 기,929438044318,제 42 기,404122873919,제 41 기,432073368991,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 43 기,106261861847,제 42 기,49069057016,제 41 기,47969470496,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentContractAssets,계약자산,-,제 43 기,3900714007,제 42 기,6708131977,제 41 기,2976196266,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 43 기,1086579165,제 42 기,37434216,제 41 기,440183657,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 43 기,157117546282,제 42 기,163557422262,제 41 기,162000324824,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 43 기,51407803348,제 42 기,60360494135,제 41 기,66569596406,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 43 기,67636245678,제 42 기,79999876249,제 41 기,107408520372,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 43 기,65406930709,제 42 기,35176936131,제 41 기,38693451063,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 43 기,476620363282,제 42 기,9213521933,제 41 기,6015625907,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 43 기,4418001982185,제 42 기,566847930350,제 41 기,595004663344,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 43 기,1683147705802,제 42 기,4734894687,제 41 기,7453119768,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 43 기,52947458306,제 42 기,42564866385,제 41 기,38129962294,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 43 기,912597811154,제 42 기,46279883146,제 41 기,61530467686,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자주식,-,제 43 기,0,제 42 기,0,제 41 기,4109482909,21,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 43 기,106272103851,제 42 기,10936711468,제 41 기,10949057397,22,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,장기매출채권,-,제 43 기,18771347588,제 42 기,19723916494,제 41 기,12430541734,23,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 43 기,567121540153,제 42 기,30177563893,제 41 기,26533240961,24,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 43 기,25528723484,제 42 기,12346799675,제 41 기,13342704374,25,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 43 기,1051615291847,제 42 기,400083294602,제 41 기,420526086221,26,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 43 기,336077402738,제 42 기,188901005477,제 41 기,191624801173,28,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 43 기,177894684839,제 42 기,71388376257,제 41 기,65030983985,29,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 43 기,103041688910,제 42 기,109760887737,제 41 기,105896579559,30,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 43 기,9794577715,제 42 기,8545990350,제 41 기,7810097371,31,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 43 기,-8930734354,제 42 기,1468075578,제 41 기,982060786,32,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 43 기,42213540000,제 42 기,42213540000,제 41 기,42213540000,33,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 43 기,31775612568,제 42 기,-90600117408,제 41 기,-91871293731,34,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 43 기,158182717899,제 42 기,117512629220,제 41 기,126593817188,35,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와자본총계,-,제 43 기,5347440026503,제 42 기,970970804269,제 41 기,1027078032335,36,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 43 기,1038801371461,제 42 기,678617510607,제 41 기,631966521029,38,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,-표준계정코드 미사용-,단기차입금,-,제 43 기,474785112448,제 42 기,260466590999,제 41 기,255732590999,39,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,-표준계정코드 미사용-,유동성사채,-,제 43 기,0,제 42 기,4999252949,제 41 기,34990073454,40,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 43 기,3166640000,제 42 기,107240240975,제 41 기,3309219256,41,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,-표준계정코드 미사용-,단기사채,-,제 43 기,54475342682,제 42 기,0,제 41 기,0,42,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 43 기,7144969679,제 42 기,1149320414,제 41 기,144857311,43,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 43 기,322653475195,제 42 기,130994905172,제 41 기,140624425029,44,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 43 기,110701470344,제 42 기,110637971025,제 41 기,134207114287,45,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동충당부채,-,제 43 기,5705938765,제 42 기,3574046592,제 41 기,3510245282,46,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 43 기,60168422348,제 42 기,59555182481,제 41 기,59447995411,47,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 43 기,5011362623765,제 42 기,782069798792,제 41 기,835453231162,48,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 43 기,3972561252304,제 42 기,103452288185,제 41 기,203486710133,49,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 43 기,159481150131,제 42 기,7168275845,제 41 기,8346829304,50,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,사채,-,제 43 기,19979582924,제 42 기,19965764420,제 41 기,0,51,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 43 기,740202768855,제 42 기,14249880000,제 41 기,121509630980,52,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherLongtermProvisions,충당부채,-,제 43 기,43909847436,제 42 기,1741882228,제 41 기,1967142665,53,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 43 기,78212538741,제 42 기,39497312225,제 41 기,49909783212,54,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 43 기,2921038710498,제 42 기,12799695388,제 41 기,13762278700,55,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 43 기,9736653719,제 42 기,8029478079,제 41 기,7991045272,56,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업 등 투자이익,-,제 43 기,59330514985,제 42 기,522567674,제 41 기,0,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 43 기,78114435118,제 42 기,31084577897,제 41 기,22359940820,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 43 기,77488970788,제 42 기,8896121329,제 41 기,4746398626,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 43 기,36784935906,제 42 기,25300995007,제 41 기,40137567352,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 43 기,466091284599,제 42 기,444824478044,제 41 기,463631804856,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 43 기,103434627665,제 42 기,-6821394438,제 41 기,-27296357888,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 43 기,-6134413801,제 42 기,-8578585553,제 41 기,-14942931766,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 43 기,109569041466,제 42 기,1757191115,제 41 기,-12353426122,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 43 기,606485779422,제 42 기,532202309648,제 41 기,532585405948,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 43 기,1554,제 42 기,40,제 41 기,-135,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 43 기,1554,제 42 기,40,제 41 기,-135,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 43 기,58544640205,제 42 기,25807649828,제 41 기,27267646879,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 43 기,2878596561,제 42 기,2177137124,제 41 기,6360975864,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 43 기,544205719717,제 42 기,475909055941,제 41 기,485991745676,21,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 43 기,8101841631,제 42 기,-3251576331,제 41 기,-9183100633,22,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 43 기,-10946472045,제 42 기,-1644729958,제 41 기,-2541559600,23,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 포괄손익,-,제 43 기,-10750160748,제 42 기,552230453,제 41 기,1282277874,24,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 43 기,945599969,제 42 기,491389106,제 41 기,1178360503,25,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),-,제 43 기,-11695760717,제 42 기,60841347,제 41 기,103917371,26,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 포괄손익,-,제 43 기,-196311297,제 42 기,-2196960411,제 41 기,-3823837474,27,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,-,제 43 기,-196311297,제 42 기,-2188168982,제 41 기,-3854070164,28,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,-,제 43 기,0,제 42 기,-8791429,제 41 기,30232690,29,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 43 기,114381099710,제 42 기,-5176664480,제 41 기,-24754798288,30,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 43 기,-6379990129,제 42 기,-8247657002,제 41 기,-14206095957,32,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 43 기,120761089839,제 42 기,3070992522,제 41 기,-10548702331,33,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 43 기,122482941341,제 42 기,-8428240811,제 41 기,-33937898921,34,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 43 기,1150691499139,제 42 기,1008111365589,제 41 기,1018577151624,35,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 43 기,49069057016,제 42 기,47969470496,제 41 기,38710081842,2,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 43 기,106261861847,제 42 기,49069057016,제 41 기,47969470496,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,해외사업환산으로 인한 현금의 변동,-,제 43 기,6354197,제 42 기,208773000,제 41 기,125079001,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 43 기,816742772487,제 42 기,-66577211672,제 41 기,-68611784623,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 43 기,10008998452,제 42 기,0,제 41 기,2841206976,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 43 기,38914402845,제 42 기,37053308869,제 41 기,36292172403,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 43 기,82312500000,제 42 기,19954780000,제 41 기,0,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 43 기,625843014840,제 42 기,0,제 41 기,5700000000,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 43 기,413123197060,제 42 기,180700000000,제 41 기,139895000000,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_RepaymentOfConvertibleBonds,상환전환우선주부채의 상환,-,제 43 기,0,제 42 기,0,제 41 기,23824123000,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 43 기,28000000000,제 42 기,0,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 43 기,0,제 42 기,672404587,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 43 기,172352248000,제 42 기,175536000000,제 41 기,99065100000,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,예수보증금의 감소,-,제 43 기,5485447392,제 42 기,3188106602,제 41 기,2183299449,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,예수보증금의 증가,-,제 43 기,9965985450,제 42 기,2414000000,제 41 기,3001672000,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,중도상환수수료 지급,-,제 43 기,0,제 42 기,17238071,제 41 기,0,21,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,차입주선수수료 지급,-,제 43 기,1503000000,제 42 기,0,제 41 기,3005650000,22,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,유동성사채의 상환,-,제 43 기,5000000000,제 42 기,30000000000,제 41 기,25000000000,23,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,-,제 43 기,3166640000,제 42 기,4159149759,제 41 기,6443147959,24,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,-표준계정코드 미사용-,회생채무의 상환,-,제 43 기,0,제 42 기,0,제 41 기,27484044,25,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 43 기,4086595750,제 42 기,0,제 41 기,3135452250,26,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자의 지급,-,제 43 기,42277456424,제 42 기,19320455984,제 41 기,13523176542,27,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_PaymentsToAcquireOrRedeemEntitysShares,비지배지분 추가취득,-,제 43 기,3707136000,제 42 기,99327800,제 41 기,1867644000,28,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속회사의 유상증자,-,제 43 기,0,제 42 기,400000000,제 41 기,0,29,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 43 기,-1021137966298,제 42 기,-22452914256,제 41 기,-15353448110,30,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromDisposalOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정 금융자산의 처분,-,제 43 기,63818305942,제 42 기,26910503277,제 41 기,42719950743,31,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정 금융자산의 처분,-,제 43 기,66521171785,제 42 기,450000000,제 41 기,0,32,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산의 처분,-,제 43 기,273996315663,제 42 기,986176498,제 41 기,967104243,33,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 43 기,193003121147,제 42 기,0,제 41 기,2500000,34,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 감소,-,제 43 기,19238611849,제 42 기,7028214690,제 41 기,4685438765,35,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 43 기,467156964312,제 42 기,20499521926,제 41 기,90656730659,36,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정 금융자산의 취득,-,제 43 기,2400000000,제 42 기,360000000,제 41 기,0,37,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산의취득,-,제 43 기,431999445647,제 42 기,0,제 41 기,0,38,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정 금융자산의 취득,-,제 43 기,177111660821,제 42 기,26818568315,제 41 기,43245285399,39,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfFinancialInstruments,장기금융상품의 취득,-,제 43 기,126401675432,제 42 기,0,제 41 기,0,40,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 증가,-,제 43 기,7982083243,제 42 기,4770022533,제 41 기,5502528506,41,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 43 기,527782050751,제 42 기,23010661556,제 41 기,57500381653,42,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 순현금유출액,-,제 43 기,-874703480643,제 42 기,0,제 41 기,0,43,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 순현금유입액,-,제 43 기,0,제 42 기,-95152655,제 41 기,0,44,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsInvestingActivities,배당금의 수취,-,제 43 기,15813260510,제 42 기,102924000,제 41 기,104317410,45,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsInvestingActivities,이자의 수취,-,제 43 기,51679367363,제 42 기,1746916835,제 41 기,2300734047,46,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 43 기,0,제 42 기,876737116,제 41 기,726345956,47,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 43 기,60111000,제 42 기,145126909,제 41 기,30000000,48,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 43 기,359925796,제 42 기,0,제 41 기,0,49,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentsAccountedForUsingEquityMethod,관계기업투자주식의 처분,-,제 43 기,19075190,제 42 기,0,제 41 기,0,50,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 43 기,27396926,제 42 기,64125082,제 41 기,111916925,51,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 43 기,12037884075,제 42 기,20667425331,제 41 기,30440470792,52,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod,관계기업주식의 취득,-,제 43 기,0,제 42 기,0,제 41 기,4375000000,53,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 43 기,12413313169,제 42 기,5731635509,제 41 기,16594820508,54,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 43 기,261616995655,제 42 기,89896860446,제 41 기,93102082282,55,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 43 기,98113601796,제 42 기,-122859755629,제 41 기,-112064806829,56,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순손익조정을 위한 가감,-,제 43 기,68135158821,제 42 기,213211043872,제 41 기,232068491210,57,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 43 기,19012864672,제 42 기,-4722236683,제 41 기,2146803811,58,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 43 기,114381099710,제 42 기,-5176664480,제 41 기,-24754798288,59,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시 현금및현금성자산의 환율변동효과,-,제 43 기,-35351210,제 42 기,24079002,제 41 기,-2539896,60,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가,-,제 43 기,57221801844,제 42 기,866734518,제 41 기,9136849549,61,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 43 기,188901005477,제 42 기,191624801173,제 41 기,226164473393,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 43 기,117512629220,제 42 기,126593817188,제 41 기,148351634867,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,71388376257,제 42 기,65030983985,제 41 기,77812838526,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,109760887737,제 42 기,105896579559,제 41 기,104384276522,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,1468075578,제 42 기,982060786,제 41 기,34198168,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,-90600117408,제 42 기,-91871293731,제 41 기,-78570004991,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,42213540000,제 42 기,42213540000,제 41 기,42213540000,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,8545990350,제 42 기,7810097371,제 41 기,9750828827,3,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 43 기,103434627665,제 42 기,-6821394438,제 41 기,-27296357888,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 43 기,-6134413801,제 42 기,-8578585553,제 41 기,-14942931766,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,109569041466,제 42 기,1757191115,제 41 기,-12353426122,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,-10398809932,제 42 기,486014792,제 41 기,947862618,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,119967851398,제 42 기,1271176323,제 41 기,-13301288740,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,4,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),연결재무제표 [member],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,516170624,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,-516170624,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 처분이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,5,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),연결재무제표 [member],제 43 기,-11695760717,제 42 기,60841347,제 41 기,103917371,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 43 기,-27171324,제 42 기,26221482,제 41 기,49133955,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,-11668589393,제 42 기,34619865,제 41 기,54783416,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,-11668589393,제 42 기,34619865,제 41 기,54783416,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,6,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,연결재무제표 [member],제 43 기,945599969,제 42 기,491389106,제 41 기,1178360503,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|비지배지분 [구성요소],제 43 기,191991132,제 42 기,39994179,제 41 기,285281301,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,753608837,제 42 기,451394927,제 41 기,893079202,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,753608837,제 42 기,451394927,제 41 기,893079202,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,7,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,연결재무제표 [member],제 43 기,-196311297,제 42 기,-2188168982,제 41 기,-3854070164,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 43 기,80756520,제 42 기,-393649568,제 41 기,-1086797443,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,-277067817,제 42 기,-1794519414,제 41 기,-2767272721,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,-277067817,제 42 기,-1794519414,제 41 기,-2767272721,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,8,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 43 기,114381099710,제 42 기,-5176664480,제 41 기,-24754798288,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 43 기,-6379990129,제 42 기,-8247657002,제 41 기,-14206095957,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,120761089839,제 42 기,3070992522,제 41 기,-10548702331,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,120761089839,제 42 기,3070992522,제 41 기,-10548702331,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,9,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,연결재무제표 [member],제 43 기,0,제 42 기,-8791429,제 41 기,30232690,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|비지배지분 [구성요소],제 43 기,0,제 42 기,-3494644,제 41 기,15546378,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,-5296785,제 41 기,14686312,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,-5296785,제 41 기,14686312,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 확정급여부채의 재측정요소 중 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,10,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 43 기,336077402738,제 42 기,188901005477,제 41 기,191624801173,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 43 기,158182717899,제 42 기,117512629220,제 41 기,126593817188,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,177894684839,제 42 기,71388376257,제 41 기,65030983985,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,9794577715,제 42 기,8545990350,제 41 기,7810097371,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,-8930734354,제 42 기,1468075578,제 41 기,982060786,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,31775612568,제 42 기,-90600117408,제 41 기,-91871293731,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,42213540000,제 42 기,42213540000,제 41 기,42213540000,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,103041688910,제 42 기,109760887737,제 41 기,105896579559,11,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",연결재무제표 [member],제 43 기,43741769596,제 42 기,4097598742,제 41 기,-7243314332,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 43 기,46804502480,제 42 기,-502602415,제 41 기,-6814885913,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,-3062732884,제 42 기,4600201157,제 41 기,-428428419,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,1248587365,제 42 기,735892979,제 41 기,-1940731456,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,2407878578,제 42 기,0,제 41 기,0,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,"소유주와의 거래로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,-6719198827,제 42 기,3864308178,제 41 기,1512303037,12,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,연결재무제표 [member],제 43 기,56615873178,제 42 기,-1789056545,제 41 기,-2017255050,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|비지배지분 [구성요소],제 43 기,54203480572,제 42 기,-1227710548,제 41 기,-828206635,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,2412392606,제 42 기,-561345997,제 41 기,-1189048415,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,2407878578,제 42 기,0,제 41 기,0,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,4514028,제 42 기,-561345997,제 41 기,-1189048415,13,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),연결재무제표 [member],제 43 기,0,제 42 기,0,제 41 기,0,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|비지배지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,-2715026671,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,2715026671,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,dart_CompoundFinancialInstrumentRedemption,교환사채 상환(교환권대가),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,2715026671,14,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,연결재무제표 [member],제 43 기,0,제 42 기,0,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|비지배지분 [구성요소],제 43 기,238741964,제 42 기,1297987261,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,-238741964,제 42 기,-1297987261,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,-표준계정코드 미사용-,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,-238741964,제 42 기,-1297987261,제 41 기,0,15,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,연결재무제표 [member],제 43 기,0,제 42 기,5191197887,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|비지배지분 [구성요소],제 43 기,0,제 42 기,2063530973,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,3127666914,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ChangesInEquity,기타자본의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,3127666914,제 41 기,0,16,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,연결재무제표 [member],제 43 기,4086595750,제 42 기,0,제 41 기,3135452250,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|비지배지분 [구성요소],제 43 기,4086595750,제 42 기,0,제 41 기,3135452250,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_DividendsPaid,종속기업의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,17,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,연결재무제표 [member],제 43 기,1761685862,제 42 기,695457400,제 41 기,233102378,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|비지배지분 [구성요소],제 43 기,-27096745,제 42 기,-40435579,제 41 기,-127177900,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,1788782607,제 42 기,735892979,제 41 기,360280278,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,1788782607,제 42 기,735892979,제 41 기,360280278,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상원가의 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,18,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 43 기,10549193694,제 42 기,0,제 41 기,2301011734,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 43 기,3046543633,제 42 기,0,제 41 기,0,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,7502650061,제 42 기,0,제 41 기,2301011734,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,540195242,제 42 기,0,제 41 기,2301011734,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,6962454819,제 42 기,0,제 41 기,0,19,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 43 기,0,제 42 기,0,제 41 기,-22697676,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,-9022457,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기,0,제 42 기,0,제 41 기,-13675219,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,0,20,KRW,,016880,웅진,CFS
+20260318001480,11011,2025,00143651,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기,0,제 42 기,0,제 41 기,-13675219,20,KRW,,016880,웅진,CFS

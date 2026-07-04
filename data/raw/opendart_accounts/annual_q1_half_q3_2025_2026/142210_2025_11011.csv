@@ -1,0 +1,293 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 30 기,339823769537,제 29 기,311691091332,제 28 기,248508832060,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 30 기,301796160563,제 29 기,261645646966,제 28 기,204750999889,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 30 기,45854819641,제 29 기,39323220541,제 28 기,22577879436,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 30 기,93781958788,제 29 기,86496597412,제 28 기,79391891061,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 30 기,108641918973,제 29 기,100679561709,제 28 기,73923245547,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 30 기,29512470266,제 29 기,17793059459,제 28 기,22152828707,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 30 기,24004992895,제 29 기,17353207845,제 28 기,6705155138,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 30 기,38027608974,제 29 기,50045444366,제 28 기,43757832171,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 30 기,2819218215,제 29 기,7815295787,제 28 기,1922151649,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 30 기,609847530,제 29 기,610896565,제 28 기,611945600,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,관계 및 공동기업 투자자산,-,제 30 기,6603973924,제 29 기,8085448380,제 28 기,13091071813,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 30 기,4859768538,제 29 기,1747873724,제 28 기,2144700461,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 30 기,129272772,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 30 기,0,제 29 기,0,제 28 기,746977499,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 30 기,18300498278,제 29 기,26894967619,제 28 기,21520381889,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 30 기,4705029717,제 29 기,4890962291,제 28 기,3720603260,22,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 30 기,145071779111,제 29 기,131938869803,제 28 기,113314505211,24,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업소유주지분,-,제 30 기,139384521889,제 29 기,126100435169,제 28 기,107650151092,25,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 30 기,-2209350033,제 29 기,-1520504170,제 28 기,-1937843213,26,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 30 기,-8931924268,제 29 기,-3038100476,제 28 기,-2058664100,27,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 30 기,10505035500,제 29 기,9623046000,제 28 기,9623046000,28,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 30 기,102672713689,제 29 기,92795228325,제 28 기,73782846915,29,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 30 기,37348047001,제 29 기,28240765490,제 28 기,28240765490,30,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 30 기,5687257222,제 29 기,5838434634,제 28 기,5664354119,31,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 30 기,339823769537,제 29 기,311691091332,제 28 기,248508832060,32,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 30 기,190242394790,제 29 기,140192885382,제 28 기,118757942693,34,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 30 기,7977745624,제 29 기,0,제 28 기,0,35,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued,유동성사채,-,제 30 기,0,제 29 기,0,제 28 기,16116751210,36,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,유동성 차입금,-,제 30 기,129285840039,제 29 기,77851490530,제 28 기,48909755029,37,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 30 기,89867790,제 29 기,185227395,제 28 기,174069884,38,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 30 기,5148398034,제 29 기,5178822889,제 28 기,3588668494,39,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 30 기,16807198941,제 29 기,6059654186,제 28 기,3374198361,40,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 30 기,4161178221,제 29 기,4654586944,제 28 기,384900599,41,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 30 기,26772166141,제 29 기,46263103438,제 28 기,46209599116,42,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 30 기,194751990426,제 29 기,179752221529,제 28 기,135194326849,43,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 30 기,4509595636,제 29 기,39559336147,제 28 기,16436384156,44,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NetDeferredTaxLiabilities,이연법인세부채,-,제 30 기,0,제 29 기,395672073,제 28 기,0,45,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,비유동 사채,-,제 30 기,0,제 29 기,4993949637,제 28 기,0,46,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,비유동성 차입금,-,제 30 기,0,제 29 기,29438850000,제 28 기,12894000000,47,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 30 기,234498859,제 29 기,88006453,제 28 기,0,48,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,기타장기종업원급여부채,-,제 30 기,172963135,제 29 기,0,제 28 기,0,49,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 30 기,2312311606,제 29 기,2389803488,제 28 기,1600805042,50,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 30 기,1789822036,제 29 기,2253054496,제 28 기,1941579114,51,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 30 기,32268544768,제 29 기,36127149169,제 28 기,30923836146,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 30 기,1528007313,제 29 기,999342882,제 28 기,682461841,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 30 기,6256593350,제 29 기,351457754,제 28 기,598773841,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 30 기,33966249393,제 29 기,30717257819,제 28 기,21610916373,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 30 기,5941876472,제 29 기,18702306851,제 28 기,16193521309,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,-881128650,제 29 기,-1220287783,제 28 기,1378501278,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeFromContinuingOperationsAttributableToNoncontrollingInterests,계속영업 총포괄손익,-,제 30 기,-881128650,제 29 기,-1220287783,제 28 기,1039714583,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeFromDiscontinuedOperationsAttributableToNoncontrollingInterests,중단영업 총포괄손익,-,제 30 기,0,제 29 기,0,제 28 기,338786695,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유주지분,-,제 30 기,6823005122,제 29 기,19922594634,제 28 기,14815020031,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeFromContinuingOperationsAttributableToOwnersOfParent,계속영업 총포괄손익,-,제 30 기,6823005122,제 29 기,19922594634,제 28 기,11202373767,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,중단영업 총포괄손익,-,제 30 기,0,제 29 기,0,제 28 기,3612646264,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 30 기,702739659530,제 29 기,645444180273,제 28 기,545559009693,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 30 기,640,제 29 기,1105,제 28 기,808,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 30 기,0,제 29 기,0,제 28 기,194,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 30 기,623,제 29 기,1105,제 28 기,806,22,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 30 기,0,제 29 기,0,제 28 기,194,23,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 30 기,26703811158,제 29 기,28096651367,제 28 기,20900562024,24,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 30 기,19073216473,제 29 기,24903583089,제 28 기,13629546327,25,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 30 기,66234794161,제 29 기,66844406988,제 28 기,52534752519,26,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 30 기,6585291805,제 29 기,7477949836,제 28 기,6317071229,27,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,연결기타포괄손익,-,제 30 기,-5891859079,제 29 기,-1008751679,제 28 기,-3844834152,28,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 항목,-,제 30 기,8862234,제 29 기,19979733,제 28 기,10103006,29,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,-,제 30 기,8862234,제 29 기,19979733,제 28 기,10103006,30,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 30 기,-5900721313,제 29 기,-1028731412,제 28 기,-3854937158,31,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToInvestmentsInEquityInstrumentsOfOtherComprehensiveIncome,법인세효과,-,제 30 기,1611483814,제 29 기,134251776,제 28 기,865160082,32,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome,법인세효과,-,제 30 기,53566099,제 29 기,137956266,제 28 기,153415180,33,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산 평가손익,-,제 30 기,-7324926427,제 29 기,-642352997,제 28 기,-4139521924,34,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 30 기,-240844799,제 29 기,-658586457,제 28 기,-733990496,35,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates,관계및공동기업 투자관련손익,-,제 30 기,-1490336690,제 29 기,-6392957653,제 28 기,-1335394267,36,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLoss,연결당기순이익,-,제 30 기,11833735551,제 29 기,19711058530,제 28 기,20038355461,37,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,-883093363,제 29 기,-1190972480,제 28 기,1378928655,39,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests,계속영업이익(손실),-,제 30 기,-883093363,제 29 기,-1190972480,제 28 기,1038579517,40,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests,중단영업이익,-,제 30 기,0,제 29 기,0,제 28 기,340349138,41,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,-,제 30 기,12716828914,제 29 기,20902031010,제 28 기,18659426806,42,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,계속영업이익,-,제 30 기,12716828914,제 29 기,20902031010,제 28 기,15045463436,43,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_IncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,중단영업이익,-,제 30 기,0,제 29 기,0,제 28 기,3613963370,44,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 30 기,18419027356,제 29 기,27189008366,제 28 기,22401114182,45,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익,-,제 30 기,11833735551,제 29 기,19711058530,제 28 기,16084042953,46,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익,-,제 30 기,0,제 29 기,0,제 28 기,3954312508,47,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 30 기,768974453691,제 29 기,712288587261,제 28 기,598093762212,48,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 30 기,39323220541,제 29 기,22577879436,제 28 기,8763226158,2,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 30 기,45854819641,제 29 기,39323220541,제 28 기,22577879436,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 30 기,36285069493,제 29 기,24436543643,제 28 기,5865387482,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,종속기업의 자기주식 취득,-,제 30 기,0,제 29 기,115628800,제 28 기,0,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsFinancingActivities,차입금 관련 파생상품의 결제로 인한 현금지급,-,제 30 기,139500000,제 29 기,38688829,제 28 기,4981428,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsFinancingActivities,차입금 관련 파생상품의 결제로 인한 현금수취,-,제 30 기,1579560850,제 29 기,900122053,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 30 기,5000000,제 29 기,0,제 28 기,0,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 30 기,1320995830,제 29 기,1392555366,제 28 기,1012745092,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 30 기,0,제 29 기,4989880000,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 30 기,11997737760,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromExerciseOfConvertibleRightOrWarrant,전환사채의 전환,-,제 30 기,0,제 29 기,0,제 28 기,-2525331,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 30 기,49569500000,제 29 기,25788000000,제 28 기,13378000000,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromPaidinCapitalIncrease,유상증자,-,제 30 기,9989271011,제 29 기,0,제 28 기,0,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 30 기,72189357826,제 29 기,239365637880,제 28 기,162626894857,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_RepaymentOfConvertibleBonds,전환상환우선주 상환,-,제 30 기,0,제 29 기,557200000,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 30 기,5078013023,제 29 기,16120000000,제 28 기,7000000000,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 30 기,66600000,제 29 기,61050000,제 28 기,0,22,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 30 기,99965091270,제 29 기,221674843282,제 28 기,155018021233,23,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,-표준계정코드 미사용-,공급자금융약정의 차입,-,제 30 기,63800637261,제 29 기,83444539867,제 28 기,66732328654,24,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,-표준계정코드 미사용-,공급자금융약정의 상환,-,제 30 기,63426451542,제 29 기,88672826447,제 28 기,72239051045,25,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 30 기,2839343550,제 29 기,1976049600,제 28 기,1850511900,26,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업의 유상증자,-,제 30 기,0,제 29 기,557206167,제 28 기,0,27,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_ProceedsFromSaleOrIssueOfTreasuryShares,종속기업의 자기주식 처분,-,제 30 기,0,제 29 기,0,제 28 기,256000000,28,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 30 기,-7586191200,제 29 기,-11481822303,제 28 기,-916409022,29,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,리스채권의 감소,-,제 30 기,0,제 29 기,15497184,제 28 기,0,30,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 30 기,332671000,제 29 기,28580000,제 28 기,120000,31,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 30 기,81733200,제 29 기,734438900,제 28 기,360602400,32,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치금융자산의 처분,-,제 30 기,170583189,제 29 기,1676359998,제 28 기,549611662,33,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiariesJointVenturesAndAssociates,관계및공동기업 투자의 처분,-,제 30 기,0,제 29 기,1387681311,제 28 기,0,34,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 30 기,18000000,제 29 기,1283887455,제 28 기,621416747,35,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 30 기,0,제 29 기,315903000,제 28 기,0,36,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 30 기,860474272,제 29 기,1817733699,제 28 기,1029006570,37,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,대여금의 감소,-,제 30 기,7383391646,제 29 기,2012000000,제 28 기,5631003230,38,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치금융자산의 취득,-,제 30 기,37365850,제 29 기,3205893675,제 28 기,1101001850,39,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 30 기,2147000000,제 29 기,119738990,제 28 기,2251206860,40,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 30 기,521884511,제 29 기,750019339,제 28 기,628864663,41,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 30 기,0,제 29 기,0,제 28 기,13524000,42,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 30 기,957704360,제 29 기,1568522192,제 28 기,485305321,43,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,대여금의 증가,-,제 30 기,11000000000,제 29 기,10370000000,제 28 기,3800000000,44,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,-표준계정코드 미사용-,주임종단기채권의 감소,-,제 30 기,114400000,제 29 기,94000000,제 28 기,102200000,45,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,-표준계정코드 미사용-,주임종단기채권의 증가,-,제 30 기,140000000,제 29 기,60000000,제 28 기,210000000,46,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 현금흐름,-,제 30 기,0,제 29 기,2495654957,제 28 기,0,47,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 30 기,0,제 29 기,0,제 28 기,74545454,48,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 30 기,16500000,제 29 기,14195454,제 28 기,77090912,49,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 30 기,962118107,제 29 기,391129729,제 28 기,15000000,50,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 30 기,634405279,제 29 기,432262622,제 28 기,135898503,51,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 30 기,-22160199452,제 29 기,3645632627,제 28 기,8868737298,52,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 30 기,-8078371363,제 29 기,15496687967,제 28 기,21837278361,53,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 30 기,-45745823486,제 29 기,-28860517530,제 28 기,-7414008522,54,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,비현금항목의 조정,-,제 30 기,25833716572,제 29 기,24646146967,제 28 기,9212931422,55,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_ProfitLoss,연결당기순이익,-,제 30 기,11833735551,제 29 기,19711058530,제 28 기,20038355461,56,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 30 기,41322029,제 29 기,95403263,제 28 기,53117022,57,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부,-,제 30 기,8458355574,제 29 기,5270085123,제 28 기,9115279429,58,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 30 기,7390567405,제 29 기,7041643832,제 28 기,4456679441,59,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 30 기,1725772861,제 29 기,365270352,제 28 기,550300785,60,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 30 기,-7079741,제 29 기,144987138,제 28 기,-3062480,61,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 30 기,6531599100,제 29 기,16745341105,제 28 기,13814653278,62,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,126100435169,제 29 기,107650151092,제 28 기,92570058456,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 30 기,5838434634,제 29 기,5664354119,제 28 기,3700827323,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,28240765490,제 29 기,28240765490,제 28 기,26697722306,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,9623046000,제 29 기,9623046000,제 28 기,9427357500,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,92795228325,제 29 기,73782846915,제 28 기,56973932009,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,-3038100476,제 29 기,-2058664100,제 28 기,1785742675,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-1520504170,제 29 기,-1937843213,제 28 기,-2314696034,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 30 기,131938869803,제 29 기,113314505211,제 28 기,96270885779,3,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 30 기,5941876472,제 29 기,18702306851,제 28 기,16193521309,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,12716828914,제 29 기,20902031010,제 28 기,18659426806,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,-5893823792,제 29 기,-979436376,제 28 기,-3844406775,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,6823005122,제 29 기,19922594634,제 28 기,14815020031,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-881128650,제 29 기,-1220287783,제 28 기,1378501278,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-5713442613,제 29 기,-508101221,제 28 기,-3274361842,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 30 기,-5713442613,제 29 기,-508101221,제 28 기,-3274361842,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,-5713442613,제 29 기,-508101221,제 28 기,-3274361842,5,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,연결재무제표 [member],제 30 기,-187278700,제 29 기,-520630191,제 28 기,-580575316,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 30 기,1964713,제 29 기,-29315303,제 28 기,-427377,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,-189243413,제 29 기,-491314888,제 28 기,-580147939,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-189243413,제 29 기,-491314888,제 28 기,-580147939,6,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,연결재무제표 [member],제 30 기,11833735551,제 29 기,19711058530,제 28 기,20038355461,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,12716828914,제 29 기,20902031010,제 28 기,18659426806,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,12716828914,제 29 기,20902031010,제 28 기,18659426806,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-883093363,제 29 기,-1190972480,제 28 기,1378928655,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,연결재무제표 [member],제 30 기,8862234,제 29 기,19979733,제 28 기,10103006,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,8862234,제 29 기,19979733,제 28 기,10103006,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,8862234,제 29 기,19979733,제 28 기,10103006,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계및공동기업기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 30 기,145071779111,제 29 기,131938869803,제 28 기,113314505211,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 30 기,5687257222,제 29 기,5838434634,제 28 기,5664354119,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,139384521889,제 29 기,126100435169,제 28 기,107650151092,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-2209350033,제 29 기,-1520504170,제 28 기,-1937843213,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,-8931924268,제 29 기,-3038100476,제 28 기,-2058664100,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,102672713689,제 29 기,92795228325,제 28 기,73782846915,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,10505035500,제 29 기,9623046000,제 28 기,9623046000,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,37348047001,제 29 기,28240765490,제 28 기,28240765490,9,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,연결재무제표 [member],제 30 기,7191032836,제 29 기,-77942259,제 28 기,850098123,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|비지배지분 [구성요소],제 30 기,729951238,제 29 기,1394368298,제 28 기,585025518,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,6461081598,제 29 기,-1472310557,제 28 기,265072605,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-688845863,제 29 기,417339043,제 28 기,376852821,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,-2839343550,제 29 기,-1889649600,제 28 기,-1850511900,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,881989500,제 29 기,0,제 28 기,195688500,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,9107281511,제 29 기,0,제 28 기,1543043184,10,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,306025883,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,306025883,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,1738731684,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,1738731684,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,195688500,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,전환사채의 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,1543043184,12,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,연결재무제표 [member],제 30 기,-218692824,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|비지배지분 [구성요소],제 30 기,707425159,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-926117983,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-926117983,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,-표준계정코드 미사용-,종속기업의 비지배지분 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,13,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 30 기,2839343550,제 29 기,1976049600,제 28 기,1850511900,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,86400000,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,2839343550,제 29 기,1889649600,제 28 기,1850511900,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,2839343550,제 29 기,1889649600,제 28 기,1850511900,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,연결재무제표 [member],제 30 기,0,제 29 기,1209042448,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,1209042448,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,연결재무제표 [member],제 30 기,0,제 29 기,497548462,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,279844569,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,217703893,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,217703893,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,연결재무제표 [member],제 30 기,84238724,제 29 기,47852376,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|비지배지분 [구성요소],제 30 기,84238724,제 29 기,47852376,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,17,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,655852456,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,278999635,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,376852821,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,376852821,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,종속기업 전환사채 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,18,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,연결재무제표 [member],제 30 기,9989271011,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,9989271011,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,881989500,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,9107281511,제 29 기,0,제 28 기,0,19,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,연결재무제표 [member],제 30 기,148347705,제 29 기,55971095,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|비지배지분 [구성요소],제 30 기,61712645,제 29 기,55971095,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,86635060,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,86635060,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,20,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 30 기,323907180,제 29 기,199635150,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,323907180,제 29 기,199635150,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,323907180,제 29 기,199635150,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,21,KRW,,142210,유니트론텍,CFS
+20260318001467,11011,2025,00879020,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,21,KRW,,142210,유니트론텍,CFS

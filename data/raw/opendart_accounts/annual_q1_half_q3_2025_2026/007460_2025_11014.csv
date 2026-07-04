@@ -1,0 +1,284 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 55 기 3분기말,811816811977,제 54 기말,609968261404,7,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 55 기 3분기말,248162384112,제 54 기말,134316587265,8,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 55 기 3분기말,99018554874,제 54 기말,37161653845,9,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 55 기 3분기말,1690258749,제 54 기말,1790780430,10,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 55 기 3분기말,62613110558,제 54 기말,62483278527,11,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 55 기 3분기말,4088495800,제 54 기말,1768211198,12,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 55 기 3분기말,25680563631,제 54 기말,6500000000,13,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타유동채권,-,제 55 기 3분기말,55071400500,제 54 기말,24612663265,14,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 55 기 3분기말,563654427865,제 54 기말,475651674139,15,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 55 기 3분기말,132151516719,제 54 기말,52706512917,16,KRW,제 53 기,42114257232,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자주식,-,제 55 기 3분기말,3261659212,제 54 기말,0,17,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 55 기 3분기말,17993043749,제 54 기말,54017073,18,KRW,제 53 기,55240320,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentReceivables,기타비유동채권,-,제 55 기 3분기말,21922714439,제 54 기말,46102116140,19,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 55 기 3분기말,64252553,제 54 기말,2818224641,20,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 55 기 3분기말,18919030782,제 54 기말,9790050435,21,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 55 기 3분기말,369342210411,제 54 기말,364180752933,22,KRW,제 53 기,362958697290,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 55 기 3분기말,488304189264,제 54 기말,440090638442,24,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 55 기 3분기말,158077978957,제 54 기말,158633660429,25,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 55 기 3분기말,520075953779,제 54 기말,512886984262,26,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 55 기 3분기말,-66641662802,제 54 기말,-100429214738,27,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 55 기 3분기말,12637481845,제 54 기말,12619797988,28,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 55 기 3분기말,163353814000,제 54 기말,152062247000,29,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 55 기 3분기말,-471347607865,제 54 기말,-418506154083,30,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 55 기 3분기말,330226210307,제 54 기말,281456978013,31,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와 자본 총계,-,제 55 기 3분기말,811816811977,제 54 기말,609968261404,32,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 55 기 3분기말,250085417488,제 54 기말,112959362693,34,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동성파생상품금융부채,-,제 55 기 3분기말,13565055495,제 54 기말,6208973921,35,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,금융보증부채,-,제 55 기 3분기말,40000000,제 54 기말,40000000,36,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_CurrentPortionOfBondWithWarrant,유동성신주인수권부사채,-,제 55 기 3분기말,517281047,제 54 기말,11870529473,37,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 55 기 3분기말,124680006711,제 54 기말,614776513,38,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,-표준계정코드 미사용-,단기차입금,-,제 55 기 3분기말,35884110705,제 54 기말,23298238020,39,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 55 기 3분기말,45000000000,제 54 기말,45000000000,40,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동성리스부채,-,제 55 기 3분기말,1163054811,제 54 기말,592225622,41,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 55 기 3분기말,172441738,제 54 기말,246718888,42,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 55 기 3분기말,8376020552,제 54 기말,7191769249,43,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherShorttermProvisions,기타유동충당부채,-,제 55 기 3분기말,728567062,제 54 기말,636620120,44,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타유동채무,-,제 55 기 3분기말,19958879367,제 54 기말,17259510887,45,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 55 기 3분기말,323512622713,제 54 기말,169877622962,46,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 55 기 3분기말,73427205225,제 54 기말,56918260269,47,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 55 기 3분기말,6607212116,제 54 기말,6590143509,48,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 55 기 3분기말,804246371,제 54 기말,326686166,49,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentPayables,기타비유동채무,-,제 55 기 3분기말,3070000000,제 54 기말,70000000,50,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 55 기 3분기말,40000000000,제 54 기말,32000000000,51,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기종업원급여부채,-,제 55 기 3분기말,566685444,제 54 기말,513474592,52,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 55 기 3분기말,18482110293,제 54 기말,15693623025,53,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherLongtermProvisions,기타비유동충당부채,-,제 55 기 3분기말,1863780163,제 54 기말,1724332977,54,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 55 기 3분기말,2033170838,제 54 기말,0,55,KRW,,,,,,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업투자이익,-,제 55 기 3분기,443790178,,,6,KRW,,,0,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_ImpairmentLossOfFinancialAssetsAtAmortisedCost,상각후원가측정금융자산손상차손,-,제 55 기 3분기,17681256556,,,7,KRW,,,40931666068,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 55 기 3분기,885406075,,,8,KRW,,,3746567749,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_LossesOnSaleOfInvestmentsInAssociates,관계기업투자손실,-,제 55 기 3분기,0,,,9,KRW,,,35103899698,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_LossesOnSaleOfInvestmentsInSubsidiaries,종속기업투자손실,-,제 55 기 3분기,0,,,10,KRW,,,0,제 54 기 3분기,93608,93608,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_NonOperatingExpense,기타영업외비용,-,제 55 기 3분기,152118980,,,11,KRW,,,375499110,제 54 기 3분기,229919123,707477576,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_NonOperatingIncome,기타영업외수익,-,제 55 기 3분기,2139351331,,,12,KRW,,,33476425381,제 54 기 3분기,59324773,613612653,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 55 기 3분기,-22293355262,,,13,KRW,,,-68660790691,제 54 기 3분기,-22043536727,-57686473538,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,dart_ReversalOfImpairmentLossOfFinancialAssetsAtAmortisedCost,상각후원가측정금융자산손상환입,-,제 55 기 3분기,0,,,14,KRW,,,0,제 54 기 3분기,795580040,1700430872,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),-,제 55 기 3분기,-32448044798,,,15,KRW,,,-106239782997,제 54 기 3분기,-22222241425,-59972029926,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 55 기 3분기,-10692341371,,,17,KRW,,,-53416013072,제 54 기 3분기,4930204635,396990027,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 55 기 3분기,-21755703427,,,18,KRW,,,-52823769925,제 54 기 3분기,-27152446060,-60369019953,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 55 기 3분기,24491495575,,,19,KRW,,,60267242553,제 54 기 3분기,28272166356,84125326194,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순이익(손실),-,제 55 기 3분기,-74,,,21,KRW,,,-178,제 54 기 3분기,-103,-237,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당순이익(손실),-,제 55 기 3분기,-74,,,22,KRW,,,-178,제 54 기 3분기,-103,-236,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 55 기 3분기,2721678159,,,23,KRW,,,38315285783,제 54 기 3분기,4216470578,9256502775,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 55 기 3분기,7913530522,,,24,KRW,,,48703947191,제 54 기 3분기,2920970792,10066385721,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 55 기 3분기,11062264170,,,25,KRW,,,26178228932,제 54 기 3분기,8520541162,26339888469,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 55 기 3분기,483709307,,,26,KRW,,,1129767689,제 54 기 3분기,-773798998,3701502127,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 55 기 3분기,1272807510,,,27,KRW,,,-156678781,제 54 기 3분기,-281895992,-1000409548,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 55 기 3분기,837151643,,,28,KRW,,,794804758,제 54 기 3분기,-11322324,60210483,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 55 기 3분기,665486285,,,29,KRW,,,623139400,제 54 기 3분기,-11322324,60210483,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax,지분법자본변동,-,제 55 기 3분기,171665358,,,30,KRW,,,171665358,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 55 기 3분기,435655867,,,31,KRW,,,-951483539,제 54 기 3분기,-270573668,-1060620031,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss,법인세효과,-,제 55 기 3분기,0,,,32,KRW,,,0,제 54 기 3분기,26041018,861857362,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 55 기 3분기,-230010365,,,33,KRW,,,-429135581,제 54 기 3분기,-95448808,-465441209,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,-,제 55 기 3분기,609815239,,,34,KRW,,,-538298577,제 54 기 3분기,-201165878,-1457036184,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation,자산재평가차익(차손),-,제 55 기 3분기,2568270,,,35,KRW,,,2568270,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossBeforeTax,지분법자본변동,-,제 55 기 3분기,53282723,,,36,KRW,,,13382349,제 54 기 3분기,0,0,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ProfitLoss,연결당기순이익(손실),-,제 55 기 3분기,-33720852308,,,37,KRW,,,-106083104216,제 54 기 3분기,-21940345433,-58971620378,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 55 기 3분기,-11338497043,,,39,KRW,,,-53641366439,제 54 기 3분기,5011326421,615283878,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 55 기 3분기,-22382355265,,,40,KRW,,,-52441737777,제 54 기 3분기,-26951671854,-59586904256,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 55 기 3분기,-33237143001,,,41,KRW,,,-104953336527,제 54 기 3분기,-22714144431,-55270118251,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 55 기 3분기,35553759745,,,42,KRW,,,86445471485,제 54 기 3분기,36792707518,110465214663,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 55 기 3분기,33355619432,,,43,KRW,,,94839019623,제 54 기 3분기,30564077889,84026362007,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 55 기 3분기,37161653845,,,2,KRW,,,,제 54 기 3분기,35684412981,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 55 기 3분기,99018554874,,,3,KRW,,,,제 54 기 3분기,43402776422,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 55 기 3분기,162040027540,,,8,KRW,,,,제 54 기 3분기,70577675997,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유입액,-,제 55 기 3분기,196325767370,,,9,KRW,,,,제 54 기 3분기,91068759025,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 55 기 3분기,148834748120,,,10,KRW,,,,제 54 기 3분기,16350000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_ProceedsFromExerciseOfConvertibleRightOrWarrant,신주인수권의 행사,-,제 55 기 3분기,0,,,11,KRW,,,,제 54 기 3분기,761301,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 55 기 3분기,8000000000,,,12,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 55 기 3분기,37500000000,,,13,KRW,,,,제 54 기 3분기,6500000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,전환사채 발행계약 선수금 증가,-,제 55 기 3분기,1000000000,,,14,KRW,,,,제 54 기 3분기,9000000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업에 대한 소유지분의 변동으로 인한 현금유입,-,제 55 기 3분기,991019250,,,15,KRW,,,,제 54 기 3분기,59217997724,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유출액,-,제 55 기 3분기,34285739830,,,16,KRW,,,,제 54 기 3분기,20491083028,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_PaymentForStockIssueCost,주식발행비용,-,제 55 기 3분기,71791858,,,17,KRW,,,,제 54 기 3분기,80069430,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,유동성리스부채의 감소,-,제 55 기 3분기,674745728,,,18,KRW,,,,제 54 기 3분기,789081923,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_RepaymentsOfBondWithWarrant,신주인수권부사채의 감소,-,제 55 기 3분기,21695932203,,,19,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_RepaymentsOfConvertibleBonds,전환사채의 상환,-,제 55 기 3분기,0,,,20,KRW,,,,제 54 기 3분기,12002160000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,영업보증금의 감소,-,제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,5000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,전환사채 중도상환청구권 취득,-,제 55 기 3분기,0,,,22,KRW,,,,제 54 기 3분기,75000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 55 기 3분기,84588,,,23,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업에 대한 소유지분의 변동으로 인한 현금유출,-,제 55 기 3분기,1043185453,,,24,KRW,,,,제 54 기 3분기,2489771675,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_RepaymentsOfCurrentBorrowings,단기차입금의 감소,-,제 55 기 3분기,10800000000,,,25,KRW,,,,제 54 기 3분기,5050000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 55 기 3분기,-85449349079,,,26,KRW,,,,제 54 기 3분기,-21921493849,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유입,-,제 55 기 3분기,61501718365,,,27,KRW,,,,제 54 기 3분기,6047041034,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherCurrentFinancialAssets,기타유동금융자산의 감소,-,제 55 기 3분기,2500000000,,,28,KRW,,,,제 54 기 3분기,1014320944,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,기타유동채권의 감소,-,제 55 기 3분기,336103000,,,29,KRW,,,,제 54 기 3분기,351400000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,기타비유동채권의 감소,-,제 55 기 3분기,327834832,,,30,KRW,,,,제 54 기 3분기,4651426000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위의 변동으로 인한 현금증가,-,제 55 기 3분기,58122240193,,,31,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 55 기 3분기,215540340,,,32,KRW,,,,제 54 기 3분기,29894090,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유출,-,제 55 기 3분기,146951067444,,,33,KRW,,,,제 54 기 3분기,27968534883,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 55 기 3분기,11000000000,,,34,KRW,,,,제 54 기 3분기,2300000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 증가,-,제 55 기 3분기,74890221,,,35,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,차입원가자본화로 인한 무형자산의 증가,-,제 55 기 3분기,1340733575,,,36,KRW,,,,제 54 기 3분기,1047980950,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,기타유동채권의 증가,-,제 55 기 3분기,19582000000,,,37,KRW,,,,제 54 기 3분기,125000000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,기타비유동채권의 증가,-,제 55 기 3분기,12005492300,,,38,KRW,,,,제 54 기 3분기,4361405750,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,-표준계정코드 미사용-,차입원가자본화로 인한 유형자산의 증가,-,제 55 기 3분기,1957744758,,,39,KRW,,,,제 54 기 3분기,2472116934,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위의 변동으로 인한 현금감소,-,제 55 기 3분기,5079935612,,,40,KRW,,,,제 54 기 3분기,6516746173,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 55 기 3분기,19342850604,,,41,KRW,,,,제 54 기 3분기,8182706182,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자주식의 증가,-,제 55 기 3분기,70921216150,,,42,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 55 기 3분기,5646204224,,,43,KRW,,,,제 54 기 3분기,2962578894,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 55 기 3분기,-15493290483,,,44,KRW,,,,제 54 기 3분기,-41211273181,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 55 기 3분기,-16352016014,,,45,KRW,,,,제 54 기 3분기,-43367573598,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 55 기 3분기,25849663098,,,46,KRW,,,,제 54 기 3분기,-10445016416,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 55 기 3분기,63881425104,,,47,KRW,,,,제 54 기 3분기,26049063196,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_ProfitLoss,연결당기순이익(손실),-,제 55 기 3분기,-33720852308,,,48,KRW,,,,제 54 기 3분기,-21940345433,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 55 기 3분기,10960000,,,49,KRW,,,,제 54 기 3분기,6468000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 55 기 3분기,4546096,,,50,KRW,,,,제 54 기 3분기,-946386937,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 55 기 3분기,1653397809,,,51,KRW,,,,제 54 기 3분기,502967886,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 55 기 3분기,2505709436,,,52,KRW,,,,제 54 기 3분기,1706413366,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 55 기 3분기,759513051,,,53,KRW,,,,제 54 기 3분기,273454474,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증감,-,제 55 기 3분기,61097387978,,,54,KRW,,,,제 54 기 3분기,7444908967,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 55 기 3분기,440090638442,,,3,KRW,,,,제 54 기 3분기,417688000298,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,281456978013,,,3,KRW,,,,제 54 기 3분기,269888417606,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,158633660429,,,3,KRW,,,,제 54 기 3분기,147799582692,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,-100429214738,,,3,KRW,,,,제 54 기 3분기,-108277853538,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,12619797988,,,3,KRW,,,,제 54 기 3분기,9927619040,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,-418506154083,,,3,KRW,,,,제 54 기 3분기,-359219476251,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,152062247000,,,3,KRW,,,,제 54 기 3분기,132418629000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,512886984262,,,3,KRW,,,,제 54 기 3분기,472950664441,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),연결재무제표 [member],제 55 기 3분기,-32448044798,,,4,KRW,,,,제 54 기 3분기,-22222241425,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,-53416013072,,,4,KRW,,,,제 54 기 3분기,396990027,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,-52823769925,,,4,KRW,,,,제 54 기 3분기,-60369019953,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,4,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,32154730,,,4,KRW,,,,제 54 기 3분기,311325997,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,-52855924655,,,4,KRW,,,,제 54 기 3분기,-60680345950,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,4,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ComprehensiveIncome,연결총포괄이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,4,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 55 기 3분기,665486285,,,5,KRW,,,,제 54 기 3분기,-11322324,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,413994525,,,5,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,209144875,,,5,KRW,,,,제 54 기 3분기,60210483,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,5,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,209144875,,,5,KRW,,,,제 54 기 3분기,60210483,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,5,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,5,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,5,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 55 기 3분기,-429135581,,,6,KRW,,,,제 54 기 3분기,411283795,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,-182035718,,,6,KRW,,,,제 54 기 3분기,160168281,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,-247099863,,,6,KRW,,,,제 54 기 3분기,251115514,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,6,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,-247099863,,,6,KRW,,,,제 54 기 3분기,251115514,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,6,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,6,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,6,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,연결재무제표 [member],제 55 기 3분기,-538298577,,,7,KRW,,,,제 54 기 3분기,-1471903826,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,-124111699,,,7,KRW,,,,제 54 기 3분기,-378462132,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,-414186878,,,7,KRW,,,,제 54 기 3분기,-1093441694,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,7,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,7,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,-414186878,,,7,KRW,,,,제 54 기 3분기,-1093441694,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,7,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,7,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,연결재무제표 [member],제 55 기 3분기,2568270,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,1732087,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,836183,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,836183,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가차익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,8,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),연결재무제표 [member],제 55 기 3분기,-33720852308,,,9,KRW,,,,제 54 기 3분기,-21940345433,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,-53641366439,,,9,KRW,,,,제 54 기 3분기,615283878,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,-52441737777,,,9,KRW,,,,제 54 기 3분기,-59586904256,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,9,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,9,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,-52441737777,,,9,KRW,,,,제 54 기 3분기,-59586904256,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,9,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ProfitLoss,연결당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,9,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,연결재무제표 [member],제 55 기 3분기,185047707,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,115774172,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,69273535,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,69273535,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,10,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 55 기 3분기,488304189264,,440090638442,11,KRW,,,,제 54 기 3분기,443266227539,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,330226210307,,,11,KRW,,,,제 54 기 3분기,320532549804,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,158077978957,,,11,KRW,,,,제 54 기 3분기,122733677735,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,-66641662802,,,11,KRW,,,,제 54 기 3분기,-106678621237,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,12637481845,,,11,KRW,,,,제 54 기 3분기,10238945037,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,-471347607865,,,11,KRW,,,,제 54 기 3분기,-419899822201,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,163353814000,,,11,KRW,,,,제 54 기 3분기,143425884000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,520075953779,,,11,KRW,,,,제 54 기 3분기,495647292136,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,연결재무제표 [member],제 55 기 3분기,154453333819,,,12,KRW,,,,제 54 기 3분기,85550257167,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,102185245366,,,12,KRW,,,,제 54 기 3분기,50247142171,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,52268088453,,,12,KRW,,,,제 54 기 3분기,35303114996,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,33787551936,,,12,KRW,,,,제 54 기 3분기,1599232301,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,-14470873,,,12,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,14470873,,,12,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,11291567000,,,12,KRW,,,,제 54 기 3분기,11007255000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,7188969517,,,12,KRW,,,,제 54 기 3분기,22696627695,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,연결재무제표 [member],제 55 기 3분기,133938425688,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,133938425688,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,0,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,-13382349,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,13382349,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,13,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,연결재무제표 [member],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,-947990600,,,14,KRW,,,,제 54 기 3분기,-315590978,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,14,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,947990600,,,14,KRW,,,,제 54 기 3분기,315590978,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,연결재무제표 [member],제 55 기 3분기,-1998933275,,,15,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,0,,,15,KRW,,,,제 54 기 3분기,2368908678,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,-1998933275,,,15,KRW,,,,제 54 기 3분기,-2368908678,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,-1998933275,,,15,KRW,,,,제 54 기 3분기,-2368908678,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,-1088524,,,15,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,1088524,,,15,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,15,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,-표준계정코드 미사용-,자본계정간 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,15,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,연결재무제표 [member],제 55 기 3분기,84588,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,84588,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,16,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,연결재무제표 [member],제 55 기 3분기,936458119,,,17,KRW,,,,제 54 기 3분기,1316623846,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,0,,,17,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,936458119,,,17,KRW,,,,제 54 기 3분기,1316623846,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,936458119,,,17,KRW,,,,제 54 기 3분기,1316623846,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,17,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,17,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,17,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_ExpenseFromSharebasedPaymentTransactionsWithEmployees,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,17,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,연결재무제표 [member],제 55 기 3분기,0,,,18,KRW,,,,제 54 기 3분기,28342836664,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,-34794417867,,,18,KRW,,,,제 54 기 3분기,-5351625659,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,34794417867,,,18,KRW,,,,제 54 기 3분기,33694462323,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,34794417867,,,18,KRW,,,,제 54 기 3분기,33694462323,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,18,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,18,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,18,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 지분 추가취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,18,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,연결재무제표 [member],제 55 기 3분기,4044921958,,,19,KRW,,,,제 54 기 3분기,-281248430,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,3041322133,,,19,KRW,,,,제 54 기 3분기,-3133976608,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,1003599825,,,19,KRW,,,,제 54 기 3분기,2852728178,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,1003599825,,,19,KRW,,,,제 54 기 3분기,2852728178,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,19,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,19,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,19,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,19,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,연결재무제표 [member],제 55 기 3분기,17532545917,,,20,KRW,,,,제 54 기 3분기,33388291717,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,0,,,20,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,17532545917,,,20,KRW,,,,제 54 기 3분기,33388291717,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,20,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,20,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,20,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,11291567000,,,20,KRW,,,,제 54 기 3분기,11007255000,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,6240978917,,,20,KRW,,,,제 54 기 3분기,22381036717,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,연결재무제표 [member],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,22783753370,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|비지배지분 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,56363835760,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,-33580082390,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,-33580082390,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS
+20251114001917,11014,2025,00152385,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,종속기업의 지분 일부처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 55 기 3분기,0,,,21,KRW,,,,제 54 기 3분기,0,,007460,에이프로젠,CFS

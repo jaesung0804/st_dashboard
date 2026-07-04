@@ -1,0 +1,228 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 33 기 1분기말,22416015434,제 32 기말,23692001477,7,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 33 기 1분기말,7485811306,제 32 기말,7728259263,8,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 33 기 1분기말,98797020,제 32 기말,1635172442,9,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CashAndCashEquivalentsClassifiedAsPartOfDisposalGroupHeldForSale,매각예정자산,-,제 33 기 1분기말,199821862,제 32 기말,186220761,10,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 33 기 1분기말,53327160,제 32 기말,42348450,11,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 33 기 1분기말,3419055978,제 32 기말,2784291722,12,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 33 기 1분기말,491738520,제 32 기말,398618194,13,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 33 기 1분기말,426006000,제 32 기말,127262500,14,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 33 기 1분기말,2797064766,제 32 기말,2554345194,15,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 33 기 1분기말,14930204128,제 32 기말,15963742214,16,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 33 기 1분기말,2000000,제 32 기말,2000000,17,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타비유동채권,-,제 33 기 1분기말,203954614,제 32 기말,212042140,18,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산,-,제 33 기 1분기말,384133263,제 32 기말,386572551,19,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 33 기 1분기말,0,제 32 기말,1978840,20,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 33 기 1분기말,726397167,제 32 기말,1422522904,21,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 33 기 1분기말,13277215371,제 32 기말,13517882359,22,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 33 기 1분기말,336503713,제 32 기말,420743420,23,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 33 기 1분기말,7291446720,제 32 기말,9526135050,25,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 33 기 1분기말,7291446720,제 32 기말,9526135050,26,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 33 기 1분기말,81034904540,제 32 기말,81034904540,27,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 33 기 1분기말,1448918105,제 32 기말,1448918105,28,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 33 기 1분기말,-10407884119,제 32 기말,-9713586053,29,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 33 기 1분기말,19940182000,제 32 기말,19940182000,30,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 33 기 1분기말,-84724673806,제 32 기말,-83184283542,31,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 33 기 1분기말,0,제 32 기말,0,32,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 33 기 1분기말,22416015434,제 32 기말,23692001477,33,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 33 기 1분기말,13673252301,제 32 기말,12773489953,35,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 33 기 1분기말,3506999040,제 32 기말,4709436479,36,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,유동성차입금,-,제 33 기 1분기말,1000000000,제 32 기말,0,37,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 33 기 1분기말,243713671,제 32 기말,295720660,38,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale,매각예정부채,-,제 33 기 1분기말,164586232,제 32 기말,152812802,39,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 33 기 1분기말,2274884060,제 32 기말,916259460,40,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 33 기 1분기말,179674748,제 32 기말,370570988,41,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 33 기 1분기말,6303394550,제 32 기말,6328689564,42,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 33 기 1분기말,15124568714,제 32 기말,14165866427,43,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 33 기 1분기말,1451316413,제 32 기말,1392376474,44,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,-,제 33 기 1분기말,1298374060,제 32 기말,1197686046,45,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 33 기 1분기말,0,제 32 기말,0,46,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 33 기 1분기말,84420215,제 32 기말,114484164,47,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 33 기 1분기말,68522138,제 32 기말,80206264,48,KRW,,,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 33 기 1분기,-859418265,,,6,KRW,-859418265,제 32 기 1분기,1117992176,1117992176,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 33 기 1분기,147182399,,,7,KRW,147182399,제 32 기 1분기,63087232,63087232,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 33 기 1분기,1189790,,,8,KRW,1189790,제 32 기 1분기,2069825666,2069825666,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 33 기 1분기,1150394787,,,9,KRW,1150394787,제 32 기 1분기,1076819298,1076819298,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 33 기 1분기,-2234688330,,,10,KRW,-2234688330,제 32 기 1분기,-10197072458,-10197072458,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 33 기 1분기,0,,,12,KRW,0,제 32 기 1분기,0,0,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 33 기 1분기,-694298066,,,13,KRW,-694298066,제 32 기 1분기,-5285544249,-5285544249,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 33 기 1분기,8256559709,,,14,KRW,8256559709,제 32 기 1분기,12129349909,12129349909,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 33 기 1분기,-39,,,16,KRW,-39,제 32 기 1분기,-157,-157,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 33 기 1분기,-39,,,17,KRW,-39,제 32 기 1분기,-157,-157,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 33 기 1분기,835067690,,,18,KRW,835067690,제 32 기 1분기,4105609866,4105609866,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 33 기 1분기,8103082,,,19,KRW,8103082,제 32 기 1분기,82827915,82827915,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 33 기 1분기,290976522,,,20,KRW,290976522,제 32 기 1분기,2194811474,2194811474,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 33 기 1분기,0,,,21,KRW,0,제 32 기 1분기,0,0,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 33 기 1분기,-694298066,,,22,KRW,-694298066,제 32 기 1분기,-5285544249,-5285544249,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 33 기 1분기,1827671,,,23,KRW,1827671,제 32 기 1분기,0,0,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 33 기 1분기,-696125737,,,24,KRW,-696125737,제 32 기 1분기,-5285544249,-5285544249,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 33 기 1분기,-1540390264,,,25,KRW,-1540390264,제 32 기 1분기,-4911528209,-4911528209,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 33 기 1분기,0,,,27,KRW,0,제 32 기 1분기,0,0,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 33 기 1분기,-1540390264,,,28,KRW,-1540390264,제 32 기 1분기,-4911528209,-4911528209,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 33 기 1분기,-1540390264,,,29,KRW,-1540390264,제 32 기 1분기,-4911528209,-4911528209,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 33 기 1분기,-1540390264,,,30,KRW,-1540390264,제 32 기 1분기,-4911528209,-4911528209,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 33 기 1분기,8547536231,,,31,KRW,8547536231,제 32 기 1분기,14324161383,14324161383,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 33 기 1분기,1635172442,,,2,KRW,,제 32 기 1분기,759742656,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 33 기 1분기,98797020,,,3,KRW,,제 32 기 1분기,2430347291,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 33 기 1분기,379858674,,,8,KRW,,제 32 기 1분기,-64723128,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 지급,-,제 33 기 1분기,75739641,,,10,KRW,,제 32 기 1분기,64723128,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromBonds,전환사채의 재매각,-,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 33 기 1분기,7968451415,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 33 기 1분기,1412937731,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_RepaymentsOfConvertibleBonds,전환사채의 상환,-,제 33 기 1분기,8512853100,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,유동성장기차입금의 상환,-,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 33 기 1분기,412937731,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,-,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 33 기 1분기,-81218182,,,18,KRW,,제 32 기 1분기,-69995636,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 33 기 1분기,10000000,,,19,KRW,,제 32 기 1분기,5000000,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_DecreaseInLoans,단기대여금의 회수,-,제 33 기 1분기,0,,,20,KRW,,제 32 기 1분기,42000000,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 33 기 1분기,0,,,21,KRW,,제 32 기 1분기,402000,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,-,제 33 기 1분기,0,,,22,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치금융자산의처분,-,제 33 기 1분기,0,,,23,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfFinanceLeaseAssets,사용권자산의 감소,-,제 33 기 1분기,0,,,24,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 33 기 1분기,0,,,25,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 33 기 1분기,0,,,26,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 33 기 1분기,0,,,27,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업에 대한 투자자산의 취득,-,제 33 기 1분기,0,,,28,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 33 기 1분기,0,,,29,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 33 기 1분기,0,,,30,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 33 기 1분기,0,,,31,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_CashAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities,제3자에 대한 선급금 및 대여금,-,제 33 기 1분기,0,,,32,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 33 기 1분기,0,,,33,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 33 기 1분기,18181818,,,34,KRW,,제 32 기 1분기,8636364,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_PurchaseOfAvailableforsaleFinancialAssets,기타포괄손익공정가치측정금융자산의 취득,-,제 33 기 1분기,0,,,35,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 33 기 1분기,0,,,36,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 33 기 1분기,109400000,,,37,KRW,,제 32 기 1분기,125230000,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 33 기 1분기,-1836658903,,,38,KRW,,제 32 기 1분기,1804908127,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 33 기 1분기,-2407217178,,,39,KRW,,제 32 기 1분기,197326785,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 33 기 1분기,1390686431,,,40,KRW,,제 32 기 1분기,6622823515,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 33 기 1분기,10978710,,,41,KRW,,제 32 기 1분기,8963010,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 33 기 1분기,-726191525,,,42,KRW,,제 32 기 1분기,104600000,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 33 기 1분기,5049293,,,43,KRW,,제 32 기 1분기,9849046,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 33 기 1분기,-1540390264,,,44,KRW,,제 32 기 1분기,-4911528209,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 33 기 1분기,1647890,,,45,KRW,,제 32 기 1분기,415272,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 33 기 1분기,-1536375422,,,46,KRW,,제 32 기 1분기,1670604635,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 33 기 1분기,-1538023312,,,47,KRW,,제 32 기 1분기,1670189363,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 33 기 1분기,-4901,,,48,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정 또는 소유주에 대한 분배예정으로 분류된 비유동자산이나 처분자산집단의 처분,-,제 33 기 1분기,-4901,,,49,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,연결재무제표 [member],제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_DebtForEquitySwaps,전환사채 자본전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,3,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 33 기 1분기,9526135050,,,4,KRW,,제 32 기 1분기,18633246627,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,,,,4,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,9526135050,,,4,KRW,,제 32 기 1분기,18633246627,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,1448918105,,,4,KRW,,제 32 기 1분기,1448918105,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,-9713586053,,,4,KRW,,제 32 기 1분기,-14263952567,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,-83184283542,,,4,KRW,,제 32 기 1분기,-59693430756,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,19940182000,,,4,KRW,,제 32 기 1분기,15665834500,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,81034904540,,,4,KRW,,제 32 기 1분기,75475877345,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 33 기 1분기,-696125737,,,5,KRW,,제 32 기 1분기,-5285544249,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,5,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,-696125737,,,5,KRW,,제 32 기 1분기,-5285544249,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,5,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,-696125737,,,5,KRW,,제 32 기 1분기,-5285544249,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,5,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,5,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,5,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,연결재무제표 [member],제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가이익 결손금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,6,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,연결재무제표 [member],제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,7,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,연결재무제표 [member],제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,지분법자본변동의 결손금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,8,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,연결재무제표 [member],제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,확정급여제도의 재측정요소의 이동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,9,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 33 기 1분기,7291446720,,9526135050,10,KRW,,제 32 기 1분기,8436174169,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,10,KRW,,제 32 기 1분기,,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,7291446720,,,10,KRW,,제 32 기 1분기,8436174169,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,1448918105,,,10,KRW,,제 32 기 1분기,1448918105,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,-10407884119,,,10,KRW,,제 32 기 1분기,-19549496816,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,-84724673806,,,10,KRW,,제 32 기 1분기,-64604958965,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,19940182000,,,10,KRW,,제 32 기 1분기,15665834500,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,81034904540,,,10,KRW,,제 32 기 1분기,75475877345,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,연결재무제표 [member],제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,11,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,연결재무제표 [member],제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매입선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,12,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,연결재무제표 [member],제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,13,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 33 기 1분기,-4901,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,1827671,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,14,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,연결재무제표 [member],제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,15,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 33 기 1분기,-1540390264,,,16,KRW,,제 32 기 1분기,-4911528209,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,-1540390264,,,16,KRW,,제 32 기 1분기,-4911528209,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,-1540390264,,,16,KRW,,제 32 기 1분기,-4911528209,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,16,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,연결재무제표 [member],제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타자본구성요소,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|기타포괄손익누계액,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|이익잉여금,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본금,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS
+20260515002506,11013,2026,00409140,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,부의지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분|자본잉여금,제 33 기 1분기,0,,,17,KRW,,제 32 기 1분기,0,,088290,이원컴포텍,CFS

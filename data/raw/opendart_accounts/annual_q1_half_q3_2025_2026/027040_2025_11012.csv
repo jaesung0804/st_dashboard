@@ -1,0 +1,159 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 43 기 반기말,51355020108,제 42 기말,69423552759,7,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 43 기 반기말,19259828204,제 42 기말,27407212620,8,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 43 기 반기말,3561961641,제 42 기말,8783735553,9,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익-공정가치측정금융자산,-,제 43 기 반기말,51113,제 42 기말,3570640028,10,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 43 기 반기말,427956864,제 42 기말,543721589,11,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 43 기 반기말,5962893424,제 42 기말,5854638377,12,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 43 기 반기말,452882850,제 42 기말,129493965,13,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 43 기 반기말,8854082312,제 42 기말,8524983108,14,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 43 기 반기말,32095191904,제 42 기말,42016340139,15,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권및기타채권,-,제 43 기 반기말,3128912915,제 42 기말,219429467,16,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 43 기 반기말,288505816,제 42 기말,347073832,17,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산,-,제 43 기 반기말,21230437970,제 42 기말,32817434440,18,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 43 기 반기말,104571485,제 42 기말,196165866,19,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 43 기 반기말,7342763718,제 42 기말,8436236534,20,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 43 기 반기말,9021537352,제 42 기말,15003347601,22,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 43 기 반기말,9021537352,제 42 기말,15003347601,23,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 43 기 반기말,13690874733,제 42 기말,13690874733,24,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 43 기 반기말,26021688157,제 42 기말,27797496015,25,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 43 기 반기말,6958884700,제 42 기말,34794423500,26,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_RetainedEarnings,결손금,-,제 43 기 반기말,-37649910238,제 42 기말,-61279446647,27,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 43 기 반기말,51355020108,제 42 기말,69423552759,29,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 43 기 반기말,29688987773,제 42 기말,40883802627,31,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_CurentPortionOfFinanceLeaseLiabilities,리스부채,-,제 43 기 반기말,453084419,제 42 기말,582294343,32,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_CurrentFinancialLiabilitiesAtAmortisedCost,유동성사채및장기차입금,-,제 43 기 반기말,759228955,제 42 기말,10641487024,33,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 43 기 반기말,,제 42 기말,7626649808,34,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 43 기 반기말,98548736,제 42 기말,77531134,35,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 43 기 반기말,22182527540,제 42 기말,16123298664,36,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 43 기 반기말,6195598123,제 42 기말,5832541654,37,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 43 기 반기말,42333482756,제 42 기말,54420205158,38,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 43 기 반기말,12644494983,제 42 기말,13536402531,39,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_LongTermBorrowingsGross,사채및장기차입금,-,제 43 기 반기말,949038850,제 42 기말,1474294174,40,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,기타채무,-,제 43 기 반기말,60759697,제 42 기말,56011539,41,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,dart_NonCurrentFinanceLeaseLiabilities,리스부채,-,제 43 기 반기말,1530400774,제 42 기말,1723293975,42,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 43 기 반기말,453652962,제 42 기말,768675719,43,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 43 기 반기말,150642700,제 42 기말,14127124,44,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 43 기 반기말,9500000000,제 42 기말,9500000000,45,KRW,,,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 43 기 반기,45430956,,,6,KRW,-141296682,제 42 기 반기,-483073837,-1486612203,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_OtherGains,기타영업외수익,-,제 43 기 반기,241517569,,,7,KRW,830217927,제 42 기 반기,369629429,1237043988,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_OtherLosses,기타영업외비용,-,제 43 기 반기,-374910289,,,8,KRW,855557145,제 42 기 반기,43453694,1046105307,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 43 기 반기,1755868985,,,9,KRW,3616244907,제 42 기 반기,2355485223,4099939166,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_FreightExpensesSellingGeneralAdministrativeExpenses,판매비,-,제 43 기 반기,22597475,,,10,KRW,38164673,제 42 기 반기,20609102,39382491,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_MiscellaneousExpenses,관리비,-,제 43 기 반기,1563066158,,,11,KRW,3221635625,제 42 기 반기,1942393445,3379093918,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,dart_OrdinaryDevelopmentExpenseSellingGeneralAdministrativeExpenses,연구개발비,-,제 43 기 반기,170205352,,,12,KRW,356444609,제 42 기 반기,392482676,681462757,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기총포괄손익,-,제 43 기 반기,816466027,,,13,KRW,-5921825506,제 42 기 반기,4784307979,-6191529147,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주,-,제 43 기 반기,816466027,,,16,KRW,-5921825506,제 42 기 반기,4784307979,-6191529147,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 43 기 반기,7364719053,,,17,KRW,14510365871,제 42 기 반기,6752080684,13499559430,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 43 기 반기,0,,,19,KRW,-60,제 42 기 반기,-13,-31,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 43 기 반기,744148989,,,20,KRW,4628676947,제 42 기 반기,1169985439,2257878783,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 43 기 반기,64234962,,,21,KRW,908592835,제 42 기 반기,842711766,1428676309,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 43 기 반기,1801299941,,,22,KRW,3474948225,제 42 기 반기,1872411386,2613326963,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 43 기 반기,-18208552,,,23,KRW,259026036,제 42 기 반기,400361437,62098484,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 43 기 반기,816312688,,,24,KRW,-1776079458,제 42 기 반기,5668841191,-4004554667,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 43 기 반기,-470411963,,,25,KRW,-351067862,제 42 기 반기,254278143,400513575,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,당기손익으로 재분류될 수 있는 항목의 법인세,-,제 43 기 반기,86436214,,,26,KRW,51255089,제 42 기 반기,-33282314,-66726867,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 43 기 반기,-556848177,,,27,KRW,-552362951,제 42 기 반기,268560457,457120442,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정 금융자산 평가이익,-,제 43 기 반기,150040000,,,28,KRW,150040000,제 42 기 반기,19000000,10120000,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 43 기 반기,1286724651,,,29,KRW,-1425011596,제 42 기 반기,5414563048,-4405068242,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가이익,-,제 43 기 반기,1126359480,,,30,KRW,-1801531727,제 42 기 반기,6845212450,-5568986400,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,당기손익으로 재분류되지 않는 항목의 법인세,-,제 43 기 반기,160365171,,,31,KRW,376520131,제 42 기 반기,-1430649402,1163918158,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 43 기 반기,153339,,,32,KRW,-4145746048,제 42 기 반기,-884533212,-2186974480,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주,-,제 43 기 반기,153339,,,35,KRW,-4145746048,제 42 기 반기,-884533212,-2186974480,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 43 기 반기,-18055213,,,36,KRW,-3886720012,제 42 기 반기,-484171775,-2124875996,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 43 기 반기,9166018994,,,37,KRW,17985314096,제 42 기 반기,8624492070,16112886393,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 43 기 반기,8783735553,,,2,KRW,,제 42 기 반기,15316415024,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 43 기 반기,3561961641,,,3,KRW,,제 42 기 반기,9315197146,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 43 기 반기,-14417911744,,,8,KRW,,제 42 기 반기,7604840072,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 43 기 반기,302901396,,,9,KRW,,제 42 기 반기,322358928,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromExchangeableBond,교환사채의 증가,-,제 43 기 반기,,,,10,KRW,,제 42 기 반기,15000000000,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 43 기 반기,10814463040,,,11,KRW,,제 42 기 반기,5998476934,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_RepaymentsOfExchangeableBond,교환사채의 상환,-,제 43 기 반기,20000000000,,,12,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 43 기 반기,4929473388,,,13,KRW,,제 42 기 반기,13071277934,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 43 기 반기,13235617109,,,14,KRW,,제 42 기 반기,-11861634990,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치측정 금융자산의 처분,-,제 43 기 반기,24190590028,,,15,KRW,,제 42 기 반기,646892042,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 43 기 반기,9636062321,,,16,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,리스채권의 회수,-,제 43 기 반기,12463890,,,17,KRW,,제 42 기 반기,12463890,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 43 기 반기,,,,18,KRW,,제 42 기 반기,1289400000,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,당기손익-공정가치측정 금융자산의 취득,-,제 43 기 반기,20606437567,,,19,KRW,,제 42 기 반기,15855403412,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities,대여금의 회수,-,제 43 기 반기,,,,20,KRW,,제 42 기 반기,1203588,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities,선수금의 증가,-,제 43 기 반기,,,,21,KRW,,제 42 기 반기,2499918242,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 43 기 반기,60729689,,,22,KRW,,제 42 기 반기,145456,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 43 기 반기,,,,23,KRW,,제 42 기 반기,2850000,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 43 기 반기,57791252,,,24,KRW,,제 42 기 반기,453404796,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 43 기 반기,-3737762052,,,25,KRW,,제 42 기 반기,-2056983429,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 43 기 반기,-3988298679,,,26,KRW,,제 42 기 반기,-1035628931,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInLeaseholdDeposits,임차보증금의 감소(증가),-,제 43 기 반기,5000000,,,27,KRW,,제 42 기 반기,-257283310,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 43 기 반기,-261728201,,,28,KRW,,제 42 기 반기,22072074,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 43 기 반기,16670917,,,29,KRW,,제 42 기 반기,114690144,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermTradeReceivable,장기매출채권의 감소(증가),-,제 43 기 반기,17206847,,,30,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 43 기 반기,285797830,,,31,KRW,,제 42 기 반기,48168776,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 43 기 반기,-23217233,,,32,KRW,,제 42 기 반기,-36250169,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 43 기 반기,30269229,,,33,KRW,,제 42 기 반기,155330,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInGuaranteeDepositRent,임대보증금의 증가(감소),-,제 43 기 반기,20915696,,,34,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 43 기 반기,-524546909,,,35,KRW,,제 42 기 반기,-76269190,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직금의 지급,-,제 43 기 반기,-17086891,,,36,KRW,,제 42 기 반기,-160361600,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 43 기 반기,-6734270,,,37,KRW,,제 42 기 반기,883620,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,기타보증금의 감소(증가),-,제 43 기 반기,-2866792500,,,38,KRW,,제 42 기 반기,-6949050,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 43 기 반기,-112005302,,,39,KRW,,제 42 기 반기,-949816307,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가),-,제 43 기 반기,77215331,,,40,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 43 기 반기,-85287756,,,41,KRW,,제 42 기 반기,-50411211,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 43 기 반기,6511983485,,,42,KRW,,제 42 기 반기,-1428598548,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 43 기 반기,-7055958952,,,43,KRW,,제 42 기 반기,1744340510,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,수익ㆍ비용의 조정,-,제 43 기 반기,4769905213,,,44,KRW,,제 42 기 반기,1837971474,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비(대손충당금환입),-,제 43 기 반기,-17349539,,,45,KRW,,제 42 기 반기,-82488,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 43 기 반기,61438389,,,46,KRW,,제 42 기 반기,413109,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 43 기 반기,45880145,,,47,KRW,,제 42 기 반기,437093035,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialLiabilities,파생금융부채평가이익,-,제 43 기 반기,,,,48,KRW,,제 42 기 반기,760483812,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치측정 금융자산 평가이익,-,제 43 기 반기,13563546,,,49,KRW,,제 42 기 반기,61282756,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForGainsOnRedemptionOfBorrowings,사채상환이익,-,제 43 기 반기,702191902,,,50,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 43 기 반기,967689253,,,51,KRW,,제 42 기 반기,1862132220,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForLossesFromRedemptionOfBorrowings,사채상환손실,-,제 43 기 반기,3007467145,,,52,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산폐기손실,-,제 43 기 반기,,,,53,KRW,,제 42 기 반기,3000,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 43 기 반기,3166855,,,54,KRW,,제 42 기 반기,468038,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생금융자산평가손실,-,제 43 기 반기,,,,55,KRW,,제 42 기 반기,87991917,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 43 기 반기,963532425,,,56,KRW,,제 42 기 반기,556804257,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익,-,제 43 기 반기,13025203,,,57,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 43 기 반기,136931550,,,58,KRW,,제 42 기 반기,138914100,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForShareBasedPayment,주식보상비용,-,제 43 기 반기,,,,59,KRW,,제 42 기 반기,13567713,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실(환입),-,제 43 기 반기,-323245797,,,60,KRW,,제 42 기 반기,-79342295,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_GainFromDerivatives,거래일손익조정이익,-,제 43 기 반기,43462980,,,61,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,dart_LossesOnDisposalsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손실,-,제 43 기 반기,156844230,,,62,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 43 기 반기,27740947,,,63,KRW,,제 42 기 반기,27267834,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 43 기 반기,573824269,,,64,KRW,,제 42 기 반기,673937558,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 43 기 반기,259026036,,,65,KRW,,제 42 기 반기,62098484,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 43 기 반기,106159996,,,66,KRW,,제 42 기 반기,246516152,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 43 기 반기,-39785842,,,67,KRW,,제 42 기 반기,52589100,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 43 기 반기,511724214,,,68,KRW,,제 42 기 반기,898298732,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 43 기 반기,98315834,,,69,KRW,,제 42 기 반기,278536340,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 43 기 반기,153339,,,70,KRW,,제 42 기 반기,-884533212,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 43 기 반기,-301717225,,,71,KRW,,제 42 기 반기,312560469,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 43 기 반기,-5221773912,,,72,KRW,,제 42 기 반기,-6001217878,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,-469749502,,,3,KRW,,제 42 기 반기,392508655,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,-469749502,,,3,KRW,,제 42 기 반기,392508655,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외사업환산손익,연결재무제표 [member],제 43 기 반기,-469749502,,,3,KRW,,제 42 기 반기,392508655,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,-1306329956,,,4,KRW,,제 42 기 반기,-4397063322,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,-1366314699,,,4,KRW,,제 42 기 반기,-4397063322,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,연결재무제표 [member],제 43 기 반기,-1366314699,,,4,KRW,,제 42 기 반기,-4397063322,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기 반기,-59984743,,,4,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 43 기 반기,15003347601,,,5,KRW,,제 42 기 반기,38933916521,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,15003347601,,,5,KRW,,제 42 기 반기,38933916521,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,27797496015,,,5,KRW,,제 42 기 반기,48831558908,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기 반기,-61279446647,,,5,KRW,,제 42 기 반기,-58382940620,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기 반기,34794423500,,,5,KRW,,제 42 기 반기,34794423500,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기 반기,13690874733,,,5,KRW,,제 42 기 반기,13690874733,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,271600,,,6,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기 반기,-27835538800,,,6,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기 반기,27835267200,,,6,KRW,,제 42 기 반기,,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 43 기 반기,9021537352,,15003347601,7,KRW,,제 42 기 반기,32753119435,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,9021537352,,,7,KRW,,제 42 기 반기,32753119435,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,26021688157,,,7,KRW,,제 42 기 반기,44837736302,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기 반기,-37649910238,,,7,KRW,,제 42 기 반기,-60569915100,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 43 기 반기,6958884700,,,7,KRW,,제 42 기 반기,34794423500,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 43 기 반기,13690874733,,,7,KRW,,제 42 기 반기,13690874733,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,연결재무제표 [member],제 43 기 반기,,,,8,KRW,,제 42 기 반기,10732061,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,,,,8,KRW,,제 42 기 반기,10732061,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 43 기 반기,,,,8,KRW,,제 42 기 반기,10732061,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 43 기 반기,-4145746048,,,9,KRW,,제 42 기 반기,-2186974480,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 43 기 반기,153339,,,9,KRW,,제 42 기 반기,-884533212,,027040,서울전자통신,CFS
+20250814003041,11012,2025,00130587,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 43 기 반기,-4145746048,,,9,KRW,,제 42 기 반기,-2186974480,,027040,서울전자통신,CFS

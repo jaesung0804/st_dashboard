@@ -1,0 +1,243 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 14 기 3분기말,3491328543324,제 13 기말,3126693019808,7,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 14 기 3분기말,1166400689086,제 13 기말,858706005147,8,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 14 기 3분기말,0,제 13 기말,34663828,9,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 14 기 3분기말,252621529941,제 13 기말,141871214022,10,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산(유동),-,제 14 기 3분기말,284826044,제 13 기말,9048969739,11,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 14 기 3분기말,695894824,제 13 기말,849726304,12,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 14 기 3분기말,347106570746,제 13 기말,284223381552,13,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 14 기 3분기말,452476278425,제 13 기말,327667249099,14,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정자산,-,제 14 기 3분기말,14710787797,제 13 기말,15043391218,15,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 14 기 3분기말,17544026085,제 13 기말,11479944399,16,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 14 기 3분기말,80960775224,제 13 기말,68487464986,17,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 14 기 3분기말,2324927854238,제 13 기말,2267987014661,18,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 14 기 3분기말,34677899059,제 13 기말,29489372984,19,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 14 기 3분기말,1237697433126,제 13 기말,1249286902336,20,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자 및 공동기업투자,-,제 14 기 3분기말,9536838063,제 13 기말,9644763618,21,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 14 기 3분기말,41484415697,제 13 기말,38620924354,22,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산(비유동),-,제 14 기 3분기말,35889873910,제 13 기말,31385582167,23,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 비유동금융자산,-,제 14 기 3분기말,19305445061,제 13 기말,6745487144,24,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 14 기 3분기말,12363393854,제 13 기말,21272070646,25,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 14 기 3분기말,2633482921,제 13 기말,3545146034,26,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 14 기 3분기말,8020102302,제 13 기말,6767586501,27,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 14 기 3분기말,865831324116,제 13 기말,811081499771,28,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 14 기 3분기말,57487646129,제 13 기말,60147679106,29,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 14 기 3분기말,1598518650212,제 13 기말,1505731966547,31,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 14 기 3분기말,861076832451,제 13 기말,792634831327,32,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 14 기 3분기말,294691580186,제 13 기말,294691580186,33,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,자본조정,-,제 14 기 3분기말,400160875,제 13 기말,400160875,34,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 14 기 3분기말,2530419232,제 13 기말,-2173681769,35,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 14 기 3분기말,11802538500,제 13 기말,11802538500,36,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 14 기 3분기말,551652133658,제 13 기말,487914233535,37,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 14 기 3분기말,737441817761,제 13 기말,713097135220,38,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 14 기 3분기말,3491328543324,제 13 기말,3126693019808,39,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 14 기 3분기말,1383465751247,제 13 기말,1215031627082,41,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 14 기 3분기말,53100442,제 13 기말,0,42,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued,유동사채,-,제 14 기 3분기말,53963031447,제 13 기말,59986856265,43,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,-,제 14 기 3분기말,12645260352,제 13 기말,12193617715,44,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,단기차입금,-,제 14 기 3분기말,699693071814,제 13 기말,726829527032,45,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 14 기 3분기말,22838526324,제 13 기말,29980362842,46,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 14 기 3분기말,72918271523,제 13 기말,60063175606,47,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 14 기 3분기말,143990992732,제 13 기말,137689815989,48,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동충당부채,-,제 14 기 3분기말,750708170,제 13 기말,747886267,49,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 14 기 3분기말,376612788443,제 13 기말,187540385366,50,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 14 기 3분기말,1892809893112,제 13 기말,1620961053261,51,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 14 기 3분기말,509344141865,제 13 기말,405929426179,52,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,비유동파생상품부채,-,제 14 기 3분기말,340922828,제 13 기말,733988662,53,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 14 기 3분기말,45606054595,제 13 기말,39672886159,54,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동리스부채,-,제 14 기 3분기말,41027101004,제 13 기말,42261897395,55,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,비유동사채,-,제 14 기 3분기말,295456720568,제 13 기말,249432398967,56,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,비유동차입금,-,제 14 기 3분기말,107280764524,제 13 기말,59541163383,57,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 14 기 3분기말,5924073585,제 13 기말,29279350,58,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherLongtermProvisions,비유동충당부채,-,제 14 기 3분기말,3229720585,제 13 기말,3710748721,59,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 14 기 3분기말,1852621440,제 13 기말,1709480767,60,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 14 기 3분기말,8626162736,제 13 기말,8837582775,61,KRW,,,,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업투자주식 처분이익,-,제 14 기 3분기,-22964513,,,6,KRW,142074445,제 13 기 3분기,11245175998,12198702025,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 14 기 3분기,58330238822,,,7,KRW,191747456996,제 13 기 3분기,54539639175,158710476293,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 14 기 3분기,862652268,,,8,KRW,2767848408,제 13 기 3분기,1969355694,4135936648,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 14 기 3분기,973651380,,,9,KRW,23973277407,제 13 기 3분기,15848572568,35011294850,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 14 기 3분기,137008779725,,,10,KRW,404377166454,제 13 기 3분기,122354779903,372587972306,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,연결분기총포괄손익,-,제 14 기 3분기,43147843908,,,11,KRW,115432701305,제 13 기 3분기,26503434445,77763987703,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 총포괄손익,-,제 14 기 3분기,11912555709,,,13,KRW,29995044741,제 13 기 3분기,8884958972,23146962100,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 총포괄손익,-,제 14 기 3분기,31235288199,,,14,KRW,85437656564,제 13 기 3분기,17618475473,54617025603,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 14 기 3분기,487675519829,,,15,KRW,1470824848068,제 13 기 3분기,449610770967,1330267554203,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 14 기 3분기,1347,,,17,KRW,3388,제 13 기 3분기,651,2408,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 14 기 3분기,1347,,,18,KRW,3388,제 13 기 3분기,651,2408,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 14 기 3분기,6238053698,,,19,KRW,42550490503,제 13 기 3분기,15377308449,39870492098,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 14 기 3분기,2247269637,,,20,KRW,12499256275,제 13 기 3분기,-1068677004,14826255197,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 14 기 3분기,195339018547,,,21,KRW,596124623450,제 13 기 3분기,176894419078,531298448599,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 14 기 3분기,11826493406,,,22,KRW,33271608714,제 13 기 3분기,11817346480,34109328932,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,연결기타포괄손익,-,제 14 기 3분기,768846178,,,23,KRW,8071441805,제 13 기 3분기,2861168079,-3116266580,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 항목,-,제 14 기 3분기,-1576794999,,,24,KRW,3181207521,제 13 기 3분기,1657710260,-2021824688,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,-,제 14 기 3분기,-1576794999,,,25,KRW,3181207521,제 13 기 3분기,1657710260,-2021794318,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 14 기 3분기,0,,,26,KRW,0,제 13 기 3분기,0,-30370,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 14 기 3분기,2345641177,,,27,KRW,4890234284,제 13 기 3분기,1203457819,-1094441892,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 지분상품 평가손익,-,제 14 기 3분기,2113595503,,,28,KRW,4120967904,제 13 기 3분기,981640784,-1688155277,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 14 기 3분기,232045674,,,29,KRW,769266380,제 13 기 3분기,221817035,593713385,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ProfitLoss,연결분기순이익,-,제 14 기 3분기,42378997730,,,30,KRW,107361259500,제 13 기 3분기,23642266366,80880254283,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 반기순이익,-,제 14 기 3분기,10575234231,,,32,KRW,27371489017,제 13 기 3분기,8263851810,24322189483,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 반기순이익,-,제 14 기 3분기,31803763499,,,33,KRW,79989770483,제 13 기 3분기,15378414556,56558064800,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순이익,-,제 14 기 3분기,54205491136,,,34,KRW,140632868214,제 13 기 3분기,35459612846,114989583215,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 14 기 3분기,683014538376,,,35,KRW,2066949471518,제 13 기 3분기,626505190045,1861566002802,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 14 기 3분기,141871214022,,,2,KRW,,제 13 기 3분기,170839479489,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 14 기 3분기,252621529941,,,3,KRW,,제 13 기 3분기,159449383171,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 14 기 3분기,24693946627,,,8,KRW,,제 13 기 3분기,-47223316606,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,355738504,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherNonCurrentLiabilities,기타비유동부채의 증가(감소),-,제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,245300000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermGuaranteeDepositRent,장기임대보증금의 증가(감소),-,제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,-32000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermGuaranteeDepositRent,단기임대보증금의 증가(감소),-,제 14 기 3분기,-5000000,,,12,KRW,,제 13 기 3분기,46000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_DispositionOfTreasuryShares,자기주식의 처분,-,제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,334193650,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 14 기 3분기,10192191275,,,14,KRW,,제 13 기 3분기,11381834902,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 14 기 3분기,99712065529,,,15,KRW,,제 13 기 3분기,99706540000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 14 기 3분기,45000000000,,,16,KRW,,제 13 기 3분기,70000000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 14 기 3분기,397282527535,,,17,KRW,,제 13 기 3분기,842309846471,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 14 기 3분기,60000000000,,,18,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 14 기 3분기,39653837536,,,19,KRW,,제 13 기 3분기,41500000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 14 기 3분기,384803599986,,,20,KRW,,제 13 기 3분기,938363355436,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 14 기 3분기,22646017640,,,21,KRW,,제 13 기 3분기,19379070200,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업투자주식의 취득,-,제 14 기 3분기,0,,,22,KRW,,제 13 기 3분기,48853197685,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 14 기 3분기,-134180754045,,,23,KRW,,제 13 기 3분기,-100437520858,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업및공동기업투자주식의 처분,-,제 14 기 3분기,250000000,,,24,KRW,,제 13 기 3분기,14121182986,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 감소,-,제 14 기 3분기,234217890432,,,25,KRW,,제 13 기 3분기,374189598717,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 감소,-,제 14 기 3분기,7755486101,,,26,KRW,,제 13 기 3분기,3783036866,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 증가,-,제 14 기 3분기,233490390605,,,27,KRW,,제 13 기 3분기,313880090275,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 증가,-,제 14 기 3분기,17558808891,,,28,KRW,,제 13 기 3분기,10715710807,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,-표준계정코드 미사용-,정부보조금의 사용,-,제 14 기 3분기,323800596,,,29,KRW,,제 13 기 3분기,19098200,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타비유동자산의 감소(증가),-,제 14 기 3분기,326599850,,,30,KRW,,제 13 기 3분기,-31700128,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 순현금흐름,-,제 14 기 3분기,6805686092,,,31,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 14 기 3분기,331800596,,,32,KRW,,제 13 기 3분기,19098200,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 14 기 3분기,25000000,,,33,KRW,,제 13 기 3분기,159870117,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 14 기 3분기,10075979163,,,34,KRW,,제 13 기 3분기,1030149599,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 14 기 3분기,4782942424,,,35,KRW,,제 13 기 3분기,10513763416,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 14 기 3분기,124201881579,,,36,KRW,,제 13 기 3분기,158580094517,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 14 기 3분기,223129653197,,,37,KRW,,제 13 기 3분기,135697906927,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 14 기 3분기,3580163796,,,38,KRW,,제 13 기 3분기,-59457354947,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 14 기 3분기,288839199313,,,39,KRW,,제 13 기 3분기,190590117242,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수령,-,제 14 기 3분기,2879372,,,40,KRW,,제 13 기 3분기,116516487,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 14 기 3분기,36600576948,,,41,KRW,,제 13 기 3분기,24117081225,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 14 기 3분기,33488759815,,,42,KRW,,제 13 기 3분기,36205787298,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수령,-,제 14 기 3분기,4376911275,,,43,KRW,,제 13 기 3분기,5314141721,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_OtherAdjustmentsForNoncashItems,비현금항목에 관한 기타조정,-,제 14 기 3분기,177897776017,,,44,KRW,,제 13 기 3분기,169167217906,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_ProfitLoss,연결분기순이익,-,제 14 기 3분기,42378997730,,,45,KRW,,제 13 기 3분기,23642266366,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 14 기 3분기,-2892529860,,,46,KRW,,제 13 기 3분기,572834219,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가(감소),-,제 14 기 3분기,113642845779,,,47,KRW,,제 13 기 3분기,-11962930537,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 14 기 3분기,1505731966547,,,3,KRW,,제 13 기 3분기,1418590136562,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,713097135220,,,3,KRW,,제 13 기 3분기,769968019894,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,792634831327,,,3,KRW,,제 13 기 3분기,648622116668,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,400160875,,,3,KRW,,제 13 기 3분기,412617172,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,-2173681769,,,3,KRW,,제 13 기 3분기,6843137479,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,487914233535,,,3,KRW,,제 13 기 3분기,367618540069,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,11802538500,,,3,KRW,,제 13 기 3분기,11440590000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,294691580186,,,3,KRW,,제 13 기 3분기,262307231948,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,1497412180,,,4,KRW,,제 13 기 3분기,-620019814,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,2623555724,,,4,KRW,,제 13 기 3분기,-1068135463,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 14 기 3분기,4120967904,,,4,KRW,,제 13 기 3분기,-1688155277,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,4,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,4,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,4,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,-25481300,,,4,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,1522893480,,,4,KRW,,제 13 기 3분기,-620019814,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,연결재무제표 [member],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,35054890920,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,35054890920,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,361948500,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_OtherTransactions,주식교환으로 인한 신주발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,5,KRW,,제 13 기 3분기,34692942420,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,연결재무제표 [member],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,-50000000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,50000000000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,6,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,16995655440,,,7,KRW,,제 13 기 3분기,16159190635,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,5650362200,,,7,KRW,,제 13 기 3분기,3219879565,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 14 기 3분기,22646017640,,,7,KRW,,제 13 기 3분기,19379070200,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,7,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,7,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,16995655440,,,7,KRW,,제 13 기 3분기,13728708000,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,7,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,7,KRW,,제 13 기 3분기,2430482635,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,861076832451,,,8,KRW,,제 13 기 3분기,771173225026,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,737441817761,,,8,KRW,,제 13 기 3분기,705779929381,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 14 기 3분기,1598518650212,,1505731966547,8,KRW,,제 13 기 3분기,1476953154407,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,400160875,,,8,KRW,,제 13 기 3분기,400160875,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,294691580186,,,8,KRW,,제 13 기 3분기,293620530500,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,11802538500,,,8,KRW,,제 13 기 3분기,11802538500,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,551652133658,,,8,KRW,,제 13 기 3분기,461001991120,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,2530419232,,,8,KRW,,제 13 기 3분기,4348004031,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,연결재무제표 [member],제 14 기 3분기,-1576794999,,,9,KRW,,제 13 기 3분기,1657710260,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,-146711054,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,3181207521,,,9,KRW,,제 13 기 3분기,-1875083264,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,3181207521,,,9,KRW,,제 13 기 3분기,-1875083264,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,9,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",연결재무제표 [member],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,49050838767,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,49050838767,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,"종속기업의 취득으로 인한 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,10,KRW,,제 13 기 3분기,49050838767,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,연결재무제표 [member],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,-84122256447,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,-84122256447,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배주주지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,11,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,4111696,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,7083399,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",연결재무제표 [member],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,11195095,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,4111696,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,12,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 14 기 3분기,232045674,,,13,KRW,,제 13 기 3분기,221817035,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,39619134,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,769266380,,,13,KRW,,제 13 기 3분기,554094251,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,769266380,,,13,KRW,,제 13 기 3분기,554094251,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,13,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,79989770483,,,14,KRW,,제 13 기 3분기,56558064800,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,27371489017,,,14,KRW,,제 13 기 3분기,24322189483,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,연결재무제표 [member],제 14 기 3분기,42378997730,,,14,KRW,,제 13 기 3분기,23642266366,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,14,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,14,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,14,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,79989770483,,,14,KRW,,제 13 기 3분기,56558064800,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ProfitLoss,연결분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,14,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,355738504,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,355738504,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,355738504,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,15,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,339170511,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,339170511,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,339170511,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,16,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,-30370,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,-30370,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS
+20251114001172,11014,2025,00939331,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 14 기 3분기,0,,,17,KRW,,제 13 기 3분기,0,,161890,한국콜마,CFS

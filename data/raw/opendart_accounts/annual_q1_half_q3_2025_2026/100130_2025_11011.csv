@@ -1,0 +1,272 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 25 기,256327957251,제 24 기,310764184164,제 23 기,472601990302,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 25 기,80459346885,제 24 기,132918936259,제 23 기,213797840709,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 25 기,0,제 24 기,0,제 23 기,142820000,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ReceivablesOnConstructionContractsNet,공사미수금,-,제 25 기,1155352963,제 24 기,2514956395,제 23 기,8192335814,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermAccruedIncomeNet,미수수익,-,제 25 기,269982519,제 24 기,41092049,제 23 기,474870558,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWorkNet,미청구공사,-,제 25 기,1718242159,제 24 기,1278927241,제 23 기,10052027098,12,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermLoansNet,단기대여금,-,제 25 기,350000000,제 24 기,350000000,제 23 기,400000000,13,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermOtherReceivablesNet,미수금,-,제 25 기,1239221555,제 24 기,3129601411,제 23 기,5692041526,14,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,-표준계정코드 미사용-,선급관세,-,제 25 기,813260178,제 24 기,1321998010,제 23 기,639419680,15,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 25 기,48440893867,제 24 기,23533069946,제 23 기,7571444044,16,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentPrepaidExpenses,선급비용,-,제 25 기,141387728,제 24 기,152943569,제 23 기,674315854,17,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentPrepayments,선급금,-,제 25 기,547421364,제 24 기,17589199460,제 23 기,18505316871,18,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 25 기,542661728,제 24 기,744620666,제 23 기,34103727,19,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 25 기,13244331377,제 24 기,37730924729,제 23 기,67850906977,20,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 25 기,8000000000,제 24 기,0,제 23 기,15514943882,21,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권,-,제 25 기,3996591447,제 24 기,44531602783,제 23 기,78053294678,22,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 25 기,175868610366,제 24 기,177845247905,제 23 기,258804149593,23,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermAccruedIncomeNet,장기미수수익,-,제 25 기,33222734,제 24 기,23995934,제 23 기,15727451,24,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융자산,-,제 25 기,6800000,제 24 기,6800000,제 23 기,6800000,25,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermDepositsProvidedNet,장기보증금,-,제 25 기,770442010,제 24 기,2064476529,제 23 기,4696165221,26,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermLoansNet,장기대여금,-,제 25 기,67365151312,제 24 기,62857886574,제 23 기,80859671826,27,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermOtherReceivablesNet,장기미수금,-,제 25 기,214666668,제 24 기,0,제 23 기,302143084,28,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,-표준계정코드 미사용-,상각후원가 측정 금융자산,-,제 25 기,887817146,제 24 기,866008737,제 23 기,920734598,29,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 25 기,1752433198,제 24 기,2400041719,제 23 기,10520487131,30,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 25 기,135038692,제 24 기,167099492,제 23 기,434124258,31,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 25 기,1096042055,제 24 기,515876757,제 23 기,515876757,32,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_InvestmentsInAssociatesAccountedForUsingEquityMethod,관계기업 투자자산,-,제 25 기,16708480635,제 24 기,17702973010,제 23 기,23058900905,33,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 25 기,216443944,제 24 기,512233264,제 23 기,512233264,34,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 지정 금융자산,-,제 25 기,3925881990,제 24 기,3943609250,제 23 기,4967983620,35,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 25 기,321502118,제 24 기,297135095,제 23 기,898681559,36,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 25 기,82434687864,제 24 기,86487111544,제 23 기,131094619919,37,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 25 기,185639285728,제 24 기,187429252894,제 23 기,249338999169,39,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 25 기,185639285728,제 24 기,187429252894,제 23 기,227797153846,40,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 25 기,178934265403,제 24 기,178934265403,제 23 기,178934265403,41,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,자본조정,-,제 25 기,-13131874478,제 24 기,-13131874478,제 23 기,-13131874478,42,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 25 기,6054057188,제 24 기,6247261661,제 23 기,6033377622,43,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 25 기,28571500000,제 24 기,28571500000,제 23 기,28571500000,44,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 25 기,-14788662385,제 24 기,-13191899692,제 23 기,27389885299,45,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 25 기,0,제 24 기,0,제 23 기,21541845323,46,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 25 기,256327957251,제 24 기,310764184164,제 23 기,472601990302,47,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 25 기,69857472738,제 24 기,123313484703,제 23 기,213878087794,49,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 25 기,0,제 24 기,1192055187,제 23 기,14274397,50,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_CurrentProvisionForConstructionLosses,공사손실충당부채,-,제 25 기,0,제 24 기,1425288314,제 23 기,0,51,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_CurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 25 기,1466563,제 24 기,0,제 23 기,161137063,52,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,-,제 25 기,60572391,제 24 기,173681368,제 23 기,1085042882,53,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermAdvancesCustomers,선수금,-,제 25 기,314864598,제 24 기,314864600,제 23 기,1778363580,54,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,초과청구공사,-,제 25 기,4186516763,제 24 기,23771069395,제 23 기,20266133074,55,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,-,제 25 기,28000000,제 24 기,0,제 23 기,0,56,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermOtherPayables,미지급금,-,제 25 기,15633189380,제 24 기,12428147605,제 23 기,14737745807,57,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 25 기,3208011737,제 24 기,10589787849,제 23 기,43171584290,58,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 25 기,120428160,제 24 기,171466744,제 23 기,649959284,59,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 25 기,17338879,제 24 기,667709508,제 23 기,342996667,60,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 25 기,0,제 24 기,7890000000,제 23 기,3599999996,61,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 25 기,0,제 24 기,0,제 23 기,1478880157,62,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 25 기,46039029920,제 24 기,63000000000,제 23 기,126591970597,63,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_ShorttermMiscellaneousOtherProvisions,기타충당부채,-,제 25 기,248054347,제 24 기,1689414133,제 23 기,0,64,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 25 기,70688671523,제 24 기,123334931270,제 23 기,223262991133,65,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 25 기,831198785,제 24 기,21446567,제 23 기,9384903339,66,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_LongTermOtherPayablesNet,장기미지급금,-,제 25 기,1758248,제 24 기,125320,제 23 기,0,67,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_NonCurrentProvisionForConstructionLosses,공사손실충당부채,-,제 25 기,2967276,제 24 기,0,제 23 기,0,68,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,dart_NonCurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 25 기,199682133,제 24 기,0,제 23 기,0,69,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 25 기,0,제 24 기,0,제 23 기,9190000007,70,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_LongtermProvisionForDecommissioningRestorationAndRehabilitationCosts,복구충당부채,-,제 25 기,572905312,제 24 기,0,제 23 기,0,71,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 25 기,1085691,제 24 기,21321247,제 23 기,194903332,72,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기종업원급여부채,-,제 25 기,52800125,제 24 기,0,제 23 기,0,73,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_ImpairmentLossesOnAssociates,관계기업에 대한 손상,-,제 25 기,1907266002,제 24 기,6377890509,제 23 기,0,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 25 기,6944254857,제 24 기,-5534041323,제 23 기,-35262178928,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_OtherGains,기타영업외수익,-,제 25 기,2641876665,제 24 기,401257154,제 23 기,10972292050,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_OtherLosses,기타영업외비용,-,제 25 기,6426792382,제 24 기,20567453136,제 23 기,13254952289,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 25 기,8040488000,제 24 기,11479997812,제 23 기,42750383564,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 25 기,104700141926,제 24 기,159833533435,제 23 기,171090324656,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_CostOfSalesFromConstruction,공사매출원가,-,제 25 기,39932430120,제 24 기,57024934384,제 23 기,74684413345,12,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_CostOfSalesFromRenderingOfServicesRental,임대료원가,-,제 25 기,17998990,제 24 기,0,제 23 기,0,13,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_CostOfSalesFromSaleOfGoods,상품및제품매출원가,-,제 25 기,64749712816,제 24 기,102808599051,제 23 기,96405911311,14,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속기업 기본주당이익(손실),-,제 25 기,-30,제 24 기,-732,제 23 기,-540,16,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업 기본주당이익(손실),-,제 25 기,0,제 24 기,10,제 23 기,-2,17,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 25 기,5366471336,제 24 기,9387041020,제 23 기,6544697853,18,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 25 기,2537560593,제 24 기,5286142274,제 23 기,4488597786,19,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 25 기,14984742857,제 24 기,5945956489,제 23 기,7488204636,20,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 25 기,1245619985,제 24 기,5717002681,제 23 기,-8148758192,21,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기,-1670905549,제 24 기,-39766423586,제 23 기,-30266271436,22,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 25 기,0,제 24 기,454747942,제 23 기,-58113535,24,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배지분,-,제 25 기,-1670905549,제 24 기,-40221171528,제 23 기,-30208157901,25,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 25 기,-425285564,제 24 기,-35067557456,제 23 기,-38263965264,26,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 25 기,-1670905549,제 24 기,-40784560137,제 23 기,-30115207072,27,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 25 기,0,제 24 기,1018136551,제 23 기,-151064364,28,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_Revenue,매출액,-,제 25 기,119684884783,제 24 기,165779489924,제 23 기,178578529292,29,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_RevenueFromConstruction,공사매출액,-,제 25 기,42117731422,제 24 기,44008860732,제 23 기,81860172685,30,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,dart_RevenueFromRenderingOfServicesRental,임대료수입,-,제 25 기,46909092,제 24 기,128632000,제 23 기,126432000,31,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_RevenueFromSaleOfGoods,상품및제품매출액,-,제 25 기,77520244269,제 24 기,121641997192,제 23 기,96591924607,32,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,IS,손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업에 대한 지분법 손익,-,제 25 기,1151552041,제 24 기,1111469104,제 23 기,1336973970,33,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기총포괄손익(손실),-,제 25 기,-1809863237,제 24 기,-40028909567,제 23 기,-30692253358,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 25 기,0,제 24 기,229385085,제 23 기,-58071870,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배지분,-,제 25 기,-1809863237,제 24 기,-40258294652,제 23 기,-30634181488,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 25 기,-138957688,제 24 기,-262485981,제 23 기,-425981922,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 항목,-,제 25 기,1601550,제 24 기,323490339,제 23 기,-3182710,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,-,제 25 기,1601550,제 24 기,323490339,제 23 기,-3182710,12,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 25 기,-140559238,제 24 기,-585976320,제 23 기,-422799212,13,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,-,제 25 기,-222036451,제 24 기,0,제 23 기,-76310584,14,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,-,제 25 기,32845297,제 24 기,-566825968,제 23 기,-254715491,15,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업 순확정급여부채의 재측정요소 중 지분해당액,-,제 25 기,48631916,제 24 기,-19150352,제 23 기,-91773137,16,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기,-1670905549,제 24 기,-39766423586,제 23 기,-30266271436,17,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 25 기,23533069946,제 24 기,7571444044,제 23 기,14292959322,2,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 25 기,48440893867,제 24 기,23533069946,제 23 기,7571444044,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 25 기,-25153106528,제 24 기,170084934,제 23 기,-3277283934,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유입,-,제 25 기,61228433876,제 24 기,113254276980,제 23 기,147450742377,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 차입,-,제 25 기,61228433876,제 24 기,113254276980,제 23 기,147450742377,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유출,-,제 25 기,86381540404,제 24 기,113084192046,제 23 기,150728026311,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 25 기,302136448,제 24 기,479236127,제 23 기,379986563,12,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 25 기,86079403956,제 24 기,112604955919,제 23 기,150348039748,13,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 25 기,-16084233318,제 24 기,44097676195,제 23 기,5176395580,14,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유입,-,제 25 기,1396584643,제 24 기,101007313124,제 23 기,70889879545,15,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 25 기,1360597225,제 24 기,46842228966,제 23 기,20793143633,16,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 처분,-,제 25 기,0,제 24 기,24107630000,제 23 기,0,17,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 25 기,0,제 24 기,0,제 23 기,1500000,18,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 회수,-,제 25 기,24689218,제 24 기,4000000000,제 23 기,800000000,19,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 25 기,0,제 24 기,25302693576,제 23 기,21205959439,20,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 회수,-,제 25 기,0,제 24 기,50000000,제 23 기,408750000,21,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 25 기,0,제 24 기,0,제 23 기,73219200,22,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 25 기,11298200,제 24 기,704760582,제 23 기,27607307273,23,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유출,-,제 25 기,17480817961,제 24 기,56909636929,제 23 기,65713483965,24,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 25 기,66621696,제 24 기,44562304304,제 23 기,23500683384,25,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 25 기,0,제 24 기,13667690,제 23 기,0,26,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 대여,-,제 25 기,8666179071,제 24 기,35152934,제 23 기,1650000000,27,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 25 기,8000000000,제 24 기,9807026829,제 23 기,33753988609,28,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 대여,-,제 25 기,0,제 24 기,0,제 23 기,190000000,29,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위변동에 따른 현금유출,-,제 25 기,0,제 24 기,683930477,제 23 기,0,30,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 25 기,0,제 24 기,12960000,제 23 기,146438400,31,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자자산의 취득,-,제 25 기,590781194,제 24 기,0,제 23 기,0,32,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 25 기,157236000,제 24 기,1794594695,제 23 기,6472373572,33,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 25 기,66145163767,제 24 기,-28306135227,제 23 기,-8602473645,34,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 25 기,67879145137,제 24 기,-19870721228,제 23 기,-2785478804,35,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 25 기,55675624350,제 24 기,-29923352444,제 23 기,-15102868960,36,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품자산의 감소(증가),-,제 25 기,0,제 24 기,142820000,제 23 기,0,37,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDueFromCustomersForContractWork,미청구공사의 감소(증가),-,제 25 기,-439314918,제 24 기,9324511950,제 23 기,-2721343785,38,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 25 기,17041778096,제 24 기,-269959854,제 23 기,-4841423860,39,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 25 기,175758230,제 24 기,-490039895,제 23 기,-573576385,40,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermAccruedIncome,장기미수수익의 감소(증가),-,제 25 기,0,제 24 기,0,제 23 기,0,41,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermOtherReceivables,장기미수금의 감소(증가),-,제 25 기,-214666668,제 24 기,0,제 23 기,194784666,42,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 25 기,200216592,제 24 기,-5298808085,제 23 기,-1620096196,43,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDerivativeLiabilities,파생상품부채의 증가(감소),-,제 25 기,0,제 24 기,0,제 23 기,-52800000,44,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDueToCustomersForContractWork,초과청구공사의 증가(감소),-,제 25 기,-19584552632,제 24 기,3504936321,제 23 기,12857209473,45,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForConstructionWarranties,하자보수충당부채의 증가(감소),-,제 25 기,-210775248,제 24 기,-854936880,제 23 기,-617925188,46,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 25 기,-32606499,제 24 기,-175205985,제 23 기,204979101,47,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 25 기,-2,제 24 기,-447184750,제 23 기,-974650319,48,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermOtherPayables,장기미지급금의 증가(감소),-,제 25 기,1632928,제 24 기,125320,제 23 기,0,49,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInNonCurrentProvisionsForEmployeeBenefits,비유동종업원급여충당부채의 증가(감소),-,제 25 기,13618104,제 24 기,0,제 23 기,0,50,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 25 기,3385806775,제 24 기,1185026776,제 23 기,-4439260876,51,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPresentValueOfDefinedBenefitObligation,확정급여채무의현재가치의 증가(감소),-,제 25 기,0,제 24 기,118457721,제 23 기,103217813,52,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermGuaranteeDepositRent,단기임대보증금의 증가(감소),-,제 25 기,28000000,제 24 기,0,제 23 기,0,53,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 25 기,-51038584,제 24 기,-4441520,제 23 기,78176170,54,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 25 기,-563002490,제 24 기,-605394050,제 23 기,-817387440,55,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,공사미수금의 감소(증가),-,제 25 기,1359603432,제 24 기,5959558443,제 23 기,-7748223874,56,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,선납법인세의 감소 (증가),-,제 25 기,0,제 24 기,8646310,제 23 기,350919634,57,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,선납관세의 감소(증가),-,제 25 기,508737832,제 24 기,-682578330,제 23 기,46194800,58,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,유동성파생상품부채의 증가(감소),-,제 25 기,-1192055187,제 24 기,0,제 23 기,0,59,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 25 기,22127695764,제 24 기,-20209292639,제 23 기,34309888826,60,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 25 기,11555841,제 24 기,376517872,제 23 기,-131659960,61,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 25 기,40490758000,제 24 기,-6351701504,제 23 기,-35659064387,62,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 25 기,-7381525016,제 24 기,-15154409665,제 23 기,-3050827173,63,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 25 기,13874426336,제 24 기,49819054802,제 23 기,42583661592,64,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 25 기,0,제 24 기,-52341527,제 23 기,29456393471,65,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisions,충당부채전입액,-,제 25 기,105797471,제 24 기,1689414133,제 23 기,0,66,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익 조정,-,제 25 기,9848335,제 24 기,329072641,제 23 기,6065730398,67,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익 조정,-,제 25 기,182105537,제 24 기,3155013035,제 23 기,307220896,68,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가이익 조정,-,제 25 기,50948200,제 24 기,1452400,제 23 기,35015600,69,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOnInvestmentsInAssociates,관계기업투자주식손상차손,-,제 25 기,1907266002,제 24 기,6377890509,제 23 기,0,70,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용 조정,-,제 25 기,2781687509,제 24 기,7929754075,제 23 기,8588750151,71,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryLiquidation,재고자산처분손실 조정,-,제 25 기,204783117,제 24 기,1481823,제 23 기,2688300,72,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실 조정,-,제 25 기,33197300,제 24 기,161130527,제 23 기,624686376,73,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가손실 조정,-,제 25 기,68675460,제 24 기,1025826770,제 23 기,39347490,74,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실 조정,-,제 25 기,45342777,제 24 기,1362472360,제 23 기,810218565,75,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비 조정,-,제 25 기,5852599656,제 24 기,18187495872,제 23 기,12154870629,76,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForOtherReversalsOfProvisions,기타충당부채의 환입 조정,-,제 25 기,1547157257,제 24 기,0,제 23 기,0,77,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익 조정,-,제 25 기,1151552041,제 24 기,1111725794,제 23 기,1338847174,78,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여 조정,-,제 25 기,407163791,제 24 기,862333291,제 23 기,892778666,79,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForReversalsOfBadDebtExpenses,기타의 대손충당금환입,-,제 25 기,28211277,제 24 기,0,제 23 기,500000000,80,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForWarrantyExpenses,하자보수비 조정,-,제 25 기,411923944,제 24 기,837015285,제 23 기,633212455,81,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실 조정,-,제 25 기,2154451011,제 24 기,369796109,제 23 기,-766772739,82,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,지급수수료 조정,-,제 25 기,0,제 24 기,0,제 23 기,73175375,83,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,배당수익에 대한 조정,-,제 25 기,0,제 24 기,22280000,제 23 기,26736000,84,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재고자산처분이익 조정,-,제 25 기,336540,제 24 기,949774,제 23 기,2291310,85,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,파생상품평가이익 조정,-,제 25 기,0,제 24 기,0,제 23 기,142820000,86,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,사업처분손실 조정,-,제 25 기,0,제 24 기,163966852,제 23 기,0,87,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재고자산폐기손실 조정,-,제 25 기,0,제 24 기,657079406,제 23 기,629289968,88,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,파생상품평가손실 조정,-,제 25 기,0,제 24 기,1177780790,제 23 기,14274397,89,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,공사손실충당부채전입액의 조정,-,제 25 기,2967276,제 24 기,1425288314,제 23 기,0,90,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,공사손실 충당부채의 환입 조정,-,제 25 기,1425288314,제 24 기,0,제 23 기,0,91,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비에 대한 조정,-,제 25 기,32060800,제 24 기,99002866,제 23 기,67238198,92,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비에 대한 조정,-,제 25 기,4392706680,제 24 기,6733809990,제 23 기,7198128997,93,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 25 기,1245619985,제 24 기,6044681125,제 23 기,-8181290007,94,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 25 기,1376368942,제 24 기,614330124,제 23 기,1234667322,95,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기,-1670905549,제 24 기,-39766423586,제 23 기,-30266271436,96,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 25 기,329764160,제 24 기,802044160,제 23 기,1256500160,97,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 25 기,354597123,제 24 기,2241439270,제 23 기,-418507703,98,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 25 기,2823007966,제 24 기,7944241080,제 23 기,8516343546,99,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 25 기,1113859559,제 24 기,948222191,제 23 기,1024340842,100,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 25 기,0,제 24 기,0,제 23 기,-18153279,101,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 25 기,24907823921,제 24 기,15961625902,제 23 기,-6721515278,102,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 25 기,0,제 24 기,-21880836708,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,-21771230408,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,0,제 24 기,-109606300,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,-109606300,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,3,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,-222036451,제 24 기,0,제 23 기,-76310584,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,연결재무제표 [member],제 25 기,-222036451,제 24 기,0,제 23 기,-76310584,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,-222036451,제 24 기,0,제 23 기,-76310584,4,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 25 기,187429252894,제 24 기,249338999169,제 23 기,280031252527,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,21541845323,제 23 기,21599917193,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,187429252894,제 24 기,227797153846,제 23 기,258431335334,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,28571500000,제 24 기,28571500000,제 23 기,28571500000,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,-13191899692,제 24 기,27389885299,제 23 기,57944573493,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,6247261661,제 24 기,6033377622,제 23 기,6112870916,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,-13131874478,제 24 기,-13131874478,제 23 기,-13131874478,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,178934265403,제 24 기,178934265403,제 23 기,178934265403,5,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,101373284,제 24 기,-360613463,제 23 기,-346530293,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,-225362857,제 23 기,41665,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,연결재무제표 [member],제 25 기,101373284,제 24 기,-585976320,제 23 기,-346488628,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,101373284,제 24 기,-360613463,제 23 기,-346530293,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,연결재무제표 [member],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,27230428,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,-27230428,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치 금융자산 평가손익 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 25 기,185639285728,제 24 기,187429252894,제 23 기,249338999169,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,21541845323,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,185639285728,제 24 기,187429252894,제 23 기,227797153846,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,-13131874478,제 24 기,-13131874478,제 23 기,-13131874478,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,6054057188,제 24 기,6247261661,제 23 기,6033377622,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,-14788662385,제 24 기,-13191899692,제 23 기,27389885299,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,28571500000,제 24 기,28571500000,제 23 기,28571500000,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,178934265403,제 24 기,178934265403,제 23 기,178934265403,9,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 25 기,-1670905549,제 24 기,-39766423586,제 23 기,-30266271436,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,454747942,제 23 기,-58113535,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,-1670905549,제 24 기,-40221171528,제 23 기,-30208157901,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,-1670905549,제 24 기,-40221171528,제 23 기,-30208157901,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,연결재무제표 [member],제 25 기,1601550,제 24 기,323490339,제 23 기,-3182710,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|비지배지분 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기,1601550,제 24 기,323490339,제 23 기,-3182710,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,1601550,제 24 기,323490339,제 23 기,-3182710,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,100130,동국S&C,CFS
+20260316001236,11011,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 기타포괄손익에 대한 지분해당액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,100130,동국S&C,CFS

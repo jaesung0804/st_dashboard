@@ -1,0 +1,260 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 37 기,352924626454,제 36 기,343309351669,제 35 기,323808557595,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 37 기,226468657980,제 36 기,214386837403,제 35 기,201719594082,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 37 기,11531903,제 36 기,0,제 35 기,0,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 37 기,48086313271,제 36 기,39750784612,제 35 기,34444882980,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentBiologicalAssets,생물자산,-,제 37 기,225580312,제 36 기,176868246,제 35 기,231579873,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 37 기,571426053,제 36 기,447304166,제 35 기,117885403,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 37 기,55237575238,제 36 기,51109548330,제 35 기,49676339160,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 37 기,114069139863,제 36 기,116196098708,제 35 기,109779444625,14,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정비유동자산,-,제 37 기,4591358861,제 36 기,2820187793,제 35 기,3113315463,15,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 37 기,2757145332,제 36 기,2820591352,제 35 기,3808944733,16,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타금융자산,-,제 37 기,918587147,제 36 기,1065454196,제 35 기,547201845,17,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 37 기,126455968474,제 36 기,128922514266,제 35 기,122088963513,18,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 37 기,2866572921,제 36 기,3076611381,제 35 기,3284914234,19,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 37 기,28323222845,제 36 기,28128412096,제 35 기,28980211504,20,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 37 기,15585885000,제 36 기,14786065099,제 35 기,13309629530,21,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산,-,제 37 기,3718906300,제 36 기,3593602860,제 35 기,4112004260,22,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,비유동매출채권,-,제 37 기,0,제 36 기,0,제 35 기,90848125,23,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 37 기,0,제 36 기,60984810,제 35 기,56801844,24,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,장기기타금융자산,-,제 37 기,4597356308,제 36 기,3810291859,제 35 기,3779501046,25,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 37 기,71364025100,제 36 기,75466546161,제 35 기,68475052970,26,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 37 기,278413024734,제 36 기,271565404591,제 35 기,257991299621,28,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 37 기,277709470716,제 36 기,270810731320,제 35 기,257366419520,29,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,-표준계정코드 미사용-,기타자본구성요소,-,제 37 기,14210557671,제 36 기,16073839281,제 35 기,10262737846,30,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 37 기,8015280500,제 36 기,8015280500,제 35 기,8015280500,31,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 37 기,202172131557,제 36 기,193410110551,제 35 기,185776900186,32,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_SharePremium,자본잉여금,-,제 37 기,53311500988,제 36 기,53311500988,제 35 기,53311500988,33,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 37 기,703554018,제 36 기,754673271,제 35 기,624880101,34,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 37 기,352924626454,제 36 기,343309351669,제 35 기,323808557595,35,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 37 기,67731633064,제 36 기,55741935916,제 35 기,61794505889,37,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 37 기,100927442,제 36 기,0,제 35 기,0,38,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,단기차입금,-,제 37 기,20012518000,제 36 기,8044059468,제 35 기,20561350677,39,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 37 기,2000920620,제 36 기,2300779103,제 35 기,463451330,40,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 37 기,14426810167,제 36 기,14564772306,제 35 기,13631881234,41,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherCurrentPayables,기타지급채무,-,제 37 기,7388052248,제 36 기,7342075217,제 35 기,6685395051,42,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherShorttermProvisions,충당부채,-,제 37 기,3557047003,제 36 기,3651955439,제 35 기,3993203752,43,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 37 기,20245357584,제 36 기,19838294383,제 35 기,16459223845,44,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 37 기,74511601720,제 36 기,71743947078,제 35 기,65817257974,45,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 37 기,6779968656,제 36 기,16002011162,제 35 기,4022752085,46,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 37 기,2038785000,제 36 기,12040884000,제 35 기,0,47,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 37 기,57741479,제 36 기,37721482,제 35 기,59574470,48,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,BS,재무상태표,ifrs-full_OtherNoncurrentPayables,기타장기지급채무,-,제 37 기,4683442177,제 36 기,3923405680,제 35 기,3963177615,49,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 37 기,13641451850,제 36 기,11103130280,제 35 기,8944808701,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,dart_OtherGains,기타수익,-,제 37 기,5407987524,제 36 기,3378978351,제 35 기,4083305463,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,dart_OtherLosses,기타비용,-,제 37 기,3335333560,제 36 기,4446796824,제 35 기,2930352918,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 37 기,80977964599,제 36 기,72794505039,제 35 기,69662192903,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 37 기,767,제 36 기,676,제 35 기,635,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 37 기,0,제 36 기,0,제 35 기,10,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 37 기,767,제 36 기,676,제 35 기,635,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 37 기,0,제 36 기,0,제 35 기,10,14,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 37 기,3567421391,제 36 기,2026027134,제 35 기,3066340750,15,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 37 기,2919329697,제 36 기,5456444495,제 35 기,2948974954,16,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 37 기,77811094010,제 36 기,71885719541,제 35 기,66181418882,17,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 37 기,2782829053,제 36 기,2556808124,제 35 기,-188238785,18,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 37 기,12283185067,제 36 기,10908921044,제 35 기,10321401300,19,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 37 기,-5559359,제 36 기,69598479,제 35 기,-11243267,21,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests,비지배지분에 귀속될 계속영업이익(손실),-,제 37 기,-5559359,제 36 기,69598479,제 35 기,-11243267,22,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests,비지배지분에 귀속될 중단영업이익(손실),-,제 37 기,0,제 36 기,0,제 35 기,0,23,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 37 기,12288744426,제 36 기,10839322565,제 35 기,10332644567,24,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 계속영업손익,-,제 37 기,12288744426,제 36 기,10839322565,제 35 기,10179877502,25,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_IncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 중단영업손익,-,제 37 기,0,제 36 기,0,제 35 기,152767065,26,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 37 기,15066014120,제 36 기,13465729168,제 35 기,9980395450,27,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업당기순이익,-,제 37 기,12283185067,제 36 기,10908921044,제 35 기,10168634235,28,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업당기순이익,-,제 37 기,0,제 36 기,0,제 35 기,152767065,29,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_Revenue,수익(매출액),-,제 37 기,158789058609,제 36 기,144680224580,제 35 기,135843611785,30,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,IS,손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 37 기,64169642160,제 36 기,60782589261,제 35 기,57236610181,31,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 37 기,10374343563,제 36 기,16780217170,제 35 기,11116078838,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 총포괄손익,-,제 37 기,-51119253,제 36 기,129793170,제 35 기,15907222,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 총포괄손익,-,제 37 기,10425462816,제 36 기,16650424000,제 35 기,11100171616,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 37 기,-1908841504,제 36 기,5871296126,제 35 기,794677538,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 37 기,-1982295655,제 36 기,6281351633,제 35 기,-514406034,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 37 기,-1982295655,제 36 기,6281351633,제 35 기,-514406034,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 37 기,73454151,제 36 기,-410055507,제 35 기,1309083572,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 37 기,73454151,제 36 기,-410055507,제 35 기,1309083572,14,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 37 기,12283185067,제 36 기,10908921044,제 35 기,10321401300,15,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 37 기,39750784612,제 36 기,34444882980,제 35 기,24130281969,2,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 37 기,48086313271,제 36 기,39750784612,제 35 기,34444882980,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 37 기,-3978095366,제 36 기,-7363227523,제 35 기,-10384459145,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,예수보증금의 감소,-,제 37 기,45000000,제 36 기,40000000,제 35 기,44000000,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,예수보증금의 증가,-,제 37 기,0,제 36 기,85000000,제 35 기,44000000,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 37 기,42100000,제 36 기,11893630000,제 35 기,0,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 37 기,7129717819,제 36 기,14085496876,제 35 기,13879487601,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 37 기,301614500,제 36 기,0,제 35 기,0,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 37 기,5145294167,제 36 기,27435998347,제 35 기,18251926880,14,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,중단재무활동 현금흐름유입액,-,제 37 기,0,제 36 기,0,제 35 기,799048895,15,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,중단재무활동 현금흐름유출액,-,제 37 기,0,제 36 기,0,제 35 기,965147157,16,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 37 기,3526723420,제 36 기,3206112200,제 35 기,3206112200,17,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자지급,-,제 37 기,664912738,제 36 기,770622405,제 35 기,1212184654,18,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,재무활동으로 분류된 리스부채의 지급,-,제 37 기,1466368360,제 36 기,1974621447,제 35 기,1427624750,19,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 37 기,-1810996317,제 36 기,-7206581497,제 35 기,4314434150,20,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 37 기,495584350,제 36 기,910864564,제 35 기,443060663,21,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 37 기,1322142853,제 36 기,888402902,제 35 기,1025124317,22,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfBuildings,건물의 처분,-,제 37 기,508640881,제 36 기,431141763,제 35 기,846627280,23,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfConstructionInProgress,건설중인자산의 처분,-,제 37 기,0,제 36 기,5705000,제 35 기,14230281,24,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfFinanceLeaseAssets,사용권자산의 처분,-,제 37 기,754954164,제 36 기,0,제 35 기,0,25,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfFixturesAndFittings,시설장치의 처분,-,제 37 기,35910852,제 36 기,10050000,제 35 기,500000,26,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfLand,토지의 처분,-,제 37 기,1911232301,제 36 기,306448000,제 35 기,565908500,27,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfMachinery,기계장치의 처분,-,제 37 기,27570116,제 36 기,164404668,제 35 기,16157143,28,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산의 처분,-,제 37 기,0,제 36 기,0,제 35 기,359101885,29,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfOfficeEquipment,집기비품의 처분,-,제 37 기,2392243,제 36 기,1037818,제 35 기,4053326,30,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_ProceedsFromSalesOfVehicles,차량운반구의 처분,-,제 37 기,33533237,제 36 기,39629728,제 35 기,40356664,31,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfBuildings,건물의 취득,-,제 37 기,60979354,제 36 기,132448004,제 35 기,1324698331,32,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfConstructionInProgress,건설중인자산의 취득,-,제 37 기,2849611976,제 36 기,5638949049,제 35 기,1459463407,33,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfFixturesAndFittings,시설장치의 취득,-,제 37 기,767042384,제 36 기,853094741,제 35 기,487348709,34,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfLand,토지의 취득,-,제 37 기,256275898,제 36 기,1464637500,제 35 기,0,35,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfMachinery,기계장치의 취득,-,제 37 기,418934707,제 36 기,311658176,제 35 기,984986792,36,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfOfficeEquipment,집기비품의 취득,-,제 37 기,489244673,제 36 기,277810164,제 35 기,406310369,37,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfOtherPropertyPlantAndEquipment,임차시설물의 취득,-,제 37 기,44915165,제 36 기,0,제 35 기,0,38,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfStructure,구축물의 취득,-,제 37 기,104500,제 36 기,16129594,제 35 기,449073611,39,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_PurchaseOfVehicles,차량운반구의 취득,-,제 37 기,353195925,제 36 기,352379131,제 35 기,400639386,40,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,중단투자활동 현금흐름유입액,-,제 37 기,0,제 36 기,0,제 35 기,509866385,41,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,중단투자활동 현금흐름유출액,-,제 37 기,0,제 36 기,0,제 35 기,130709892,42,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업과 기타 사업의 지배력 상실에 따른 현금흐름,-,제 37 기,0,제 36 기,0,제 35 기,8287597705,43,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업과 기타 사업의 지배력 획득에 따른 현금흐름,-,제 37 기,0,제 36 기,0,제 35 기,53032000,44,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,"선물계약, 선도계약, 옵션계약, 스왑계약에 따른 현금지급",-,제 37 기,39117604,제 36 기,0,제 35 기,0,45,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,통화선도계약의 정산,-,제 37 기,7530000,제 36 기,0,제 35 기,0,46,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsInvestingActivities,배당금수취,-,제 37 기,124749000,제 36 기,124749000,제 35 기,83166000,47,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsInvestingActivities,이자수취,-,제 37 기,908328187,제 36 기,736509308,제 35 기,509982253,48,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,투자활동으로 분류된 무형자산의 취득,-,제 37 기,19856609,제 36 기,1612085,제 35 기,23400040,49,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 37 기,0,제 36 기,0,제 35 기,621387081,50,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 37 기,14929777764,제 36 기,18984098165,제 35 기,16330972018,51,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 37 기,-9592231864,제 36 기,-3620864451,제 35 기,-4172058395,52,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermPrepaidExpenses,장기선급비용의 증감,-,제 37 기,1646519,제 36 기,2100120,제 35 기,2044842,53,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherCurrentFinancialAssets,단기금융상품의 증감,-,제 37 기,18363216,제 36 기,-18079477,제 35 기,274449184,54,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInShortTermAdvancePayments,선급금의 증감,-,제 37 기,108805959,제 36 기,409921003,제 35 기,-547713234,55,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInShortTermOtherReceivables,미수금의 증감,-,제 37 기,135661462,제 36 기,-457704826,제 35 기,139000127,56,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInShortTermPrepaidExpenses,선급비용의 증감,-,제 37 기,150846319,제 36 기,1368739603,제 35 기,-1704419758,57,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInIncomeReceivedInAdvance,선수수익의 증감,-,제 37 기,-33405200,제 36 기,53188474,제 35 기,-154160233,58,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherNonCurrentLiabilities,기타비유동부채의 증감,-,제 37 기,712869,제 36 기,35513909,제 35 기,-7452062,59,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForReturnedGoods,계약부채의 증감,-,제 37 기,-94908436,제 36 기,-178492313,제 35 기,102952964,60,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLegalProceedingsProvision,소송충당부채의 증가(감소),-,제 37 기,0,제 36 기,-170280000,제 35 기,0,61,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermAccruedExpenses,장기미지급비용의 증감,-,제 37 기,0,제 36 기,0,제 35 기,-19602521,62,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermAccruedExpenses,미지급비용의 증감,-,제 37 기,-61,제 36 기,-16123,제 35 기,-861316,63,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermAdvancesCustomers,선수금의 증감,-,제 37 기,22018936,제 36 기,409933610,제 35 기,-353908940,64,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermOtherPayables,미지급금의 증감,-,제 37 기,602476590,제 36 기,-61977445,제 35 기,1238575571,65,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermTradePayables,매입채무의 증감,-,제 37 기,949941799,제 36 기,1200328215,제 35 기,-203016043,66,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInShortTermWithholdings,예수금의 증감,-,제 37 기,602351228,제 36 기,41465811,제 35 기,-14333620,67,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,반환제품회수권의 증감,-,제 37 기,24202189,제 36 기,12136431,제 35 기,120502052,68,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,-표준계정코드 미사용-,예수보증금의 증감,-,제 37 기,93352375,제 36 기,118284766,제 35 기,-20948517,69,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInBiologicalAssets,생물자산의 증감,-,제 37 기,-57393721,제 36 기,75975200,제 35 기,264927971,70,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 증감,-,제 37 기,-6223442573,제 36 기,-7050147922,제 35 기,-4270514675,71,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables,기타당좌자산의 증감,-,제 37 기,-397115781,제 36 기,-509380522,제 35 기,555237091,72,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권및장기매출채권의 증감,-,제 37 기,-5151113769,제 36 기,693543912,제 35 기,479204361,73,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증감,-,제 37 기,-345231784,제 36 기,404083123,제 35 기,-52021639,74,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 37 기,16368468537,제 36 기,13942170710,제 35 기,13881076196,75,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,손실충당금전입액,-,제 37 기,661111715,제 36 기,726580955,제 35 기,694524313,76,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDepreciationInvestmentProperty,투자부동산감가상각비,-,제 37 기,727985467,제 36 기,842505734,제 35 기,769885860,77,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForDepreciationRightofuseAssets,사용권자산감가상각비,-,제 37 기,1444447405,제 36 기,1357883478,제 35 기,1257390357,78,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisions,소송충당부채전입액,-,제 37 기,0,제 36 기,0,제 35 기,87171335,79,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainFromLeaseContractChange,리스해지이익,-,제 37 기,547577,제 36 기,3616018,제 35 기,40500445,80,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 37 기,2109880869,제 36 기,285256094,제 35 기,910532779,81,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 37 기,786870845,제 36 기,2624989361,제 35 기,653537708,82,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동관련처분이익,-,제 37 기,0,제 36 기,0,제 35 기,214430343,83,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialAssets,파생상품평가이익,-,제 37 기,11531903,제 36 기,0,제 35 기,0,84,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForGainsOnTransactionOfDerivativeFinancialAssets,파생상품거래이익,-,제 37 기,7530000,제 36 기,0,제 35 기,0,85,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 37 기,0,제 36 기,0,제 35 기,270932758,86,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산손상차손,-,제 37 기,202606000,제 36 기,308665773,제 35 기,446736272,87,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment,유형자산손상차손,-,제 37 기,74522610,제 36 기,274369130,제 35 기,123384695,88,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 37 기,982838106,제 36 기,1027052679,제 35 기,1385196828,89,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossFromLeaseContractChange,리스해지손실,-,제 37 기,507233,제 36 기,0,제 35 기,154749,90,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryShrinkage,재고자산폐기손실,-,제 37 기,5656711549,제 36 기,5659926229,제 35 기,6324148420,91,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 37 기,0,제 36 기,0,제 35 기,356120,92,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 37 기,10097597,제 36 기,48801273,제 35 기,108590023,93,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생상품평가손실,-,제 37 기,100927442,제 36 기,0,제 35 기,0,94,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 37 기,895994708,제 36 기,621507322,제 35 기,875416112,95,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForLossesOnTransactionOfDerivativeFinancialAssets,파생상품거래손실,-,제 37 기,39117604,제 36 기,0,제 35 기,0,96,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익,-,제 37 기,9458,제 36 기,11076,제 35 기,6149,97,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForMiscellaneousLosses,잡손실,-,제 37 기,0,제 36 기,0,제 35 기,210385,98,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForOtherLossesWithoutCashFlowOut,경상개발비,-,제 37 기,204028494,제 36 기,0,제 35 기,0,99,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForOtherRevenue,임대수익,-,제 37 기,28015200,제 36 기,21852988,제 35 기,21105002,100,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForReversalAllowanceDoubtfulAccounts,대손충당금 환입,-,제 37 기,129773196,제 36 기,0,제 35 기,0,101,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForReversalsOfImpairmentLossesOnNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산손상차손환입,-,제 37 기,0,제 36 기,0,제 35 기,25666204,102,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실,-,제 37 기,2345237415,제 36 기,310121385,제 35 기,837828221,103,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 37 기,220502302,제 36 기,241804038,제 35 기,248652973,104,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 37 기,4126240072,제 36 기,3763128435,제 35 기,3097662443,105,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 37 기,124749000,제 36 기,124749000,제 35 기,83166000,106,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 37 기,2782829053,제 36 기,2556808124,제 35 기,-188238785,107,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 37 기,908328187,제 36 기,736509308,제 35 기,509982253,108,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivitiesDiscontinuedOperations,중단영업활동 현금흐름,-,제 37 기,0,제 36 기,0,제 35 기,-208407593,109,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 37 기,4129643976,제 36 기,2246129138,제 35 기,3338272425,110,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_ProfitLossFromContinuingOperations,계속영업당기순이익,-,제 37 기,12283185067,제 36 기,10908921044,제 35 기,10168634235,111,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 37 기,-805157422,제 36 기,891612487,제 35 기,53653988,112,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증가(감소),-,제 37 기,9140686081,제 36 기,4414289145,제 35 기,10260947023,113,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,8015280500,제 36 기,8015280500,제 35 기,8015280500,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,193410110551,제 36 기,185776900186,제 35 기,178650367819,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,16073839281,제 36 기,10262737846,제 35 기,9465162521,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,270810731320,제 36 기,257366419520,제 35 기,249442311828,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 37 기,754673271,제 36 기,624880101,제 35 기,692053155,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 37 기,271565404591,제 36 기,257991299621,제 35 기,250134364983,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,53311500988,제 36 기,53311500988,제 35 기,53311500988,3,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,12288744426,제 36 기,10839322565,제 35 기,10332644567,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,-1863281610,제 36 기,5811101435,제 35 기,767527049,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,10425462816,제 36 기,16650424000,제 35 기,11100171616,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 37 기,-51119253,제 36 기,129793170,제 35 기,15907222,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 37 기,10374343563,제 36 기,16780217170,제 35 기,11116078838,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,4,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 37 기,-1908841504,제 36 기,5871296126,제 35 기,794677538,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 37 기,-45559894,제 36 기,60194691,제 35 기,27150489,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,-1863281610,제 36 기,5811101435,제 35 기,767527049,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,-1863281610,제 36 기,5811101435,제 35 기,767527049,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,5,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 37 기,-1982295655,제 36 기,6281351633,제 35 기,-514406034,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 37 기,-45559894,제 36 기,60194691,제 35 기,27150489,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,-1936735761,제 36 기,6221156942,제 35 기,-541556523,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,-1936735761,제 36 기,6221156942,제 35 기,-541556523,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,6,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,73454151,제 36 기,-410055507,제 35 기,1309083572,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,73454151,제 36 기,-410055507,제 35 기,1309083572,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 37 기,73454151,제 36 기,-410055507,제 35 기,1309083572,7,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 37 기,12283185067,제 36 기,10908921044,제 35 기,10321401300,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 37 기,-5559359,제 36 기,69598479,제 35 기,-11243267,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,12288744426,제 36 기,10839322565,제 35 기,10332644567,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,12288744426,제 36 기,10839322565,제 35 기,10332644567,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,8,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,53311500988,제 36 기,53311500988,제 35 기,53311500988,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,8015280500,제 36 기,8015280500,제 35 기,8015280500,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,202172131557,제 36 기,193410110551,제 35 기,185776900186,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,14210557671,제 36 기,16073839281,제 35 기,10262737846,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,277709470716,제 36 기,270810731320,제 35 기,257366419520,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 37 기,703554018,제 36 기,754673271,제 35 기,624880101,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 37 기,278413024734,제 36 기,271565404591,제 35 기,257991299621,9,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,-3526723420,제 36 기,-3206112200,제 35 기,-3206112200,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,0,제 36 기,0,제 35 기,30048276,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,-3526723420,제 36 기,-3206112200,제 35 기,-3176063924,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|비지배지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,-83080276,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,연결재무제표 [member],제 37 기,-3526723420,제 36 기,-3206112200,제 35 기,-3259144200,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,10,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|비지배지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,3526723420,제 36 기,3206112200,제 35 기,3206112200,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,3526723420,제 36 기,3206112200,제 35 기,3206112200,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_DividendsPaid,배당,연결재무제표 [member],제 37 기,3526723420,제 36 기,3206112200,제 35 기,3206112200,11,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|비지배지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,-53032000,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,연결재무제표 [member],제 37 기,0,제 36 기,0,제 35 기,-53032000,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,12,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 37 기,0,제 36 기,0,제 35 기,30048276,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,30048276,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|비지배지분 [구성요소],제 37 기,0,제 36 기,0,제 35 기,-30048276,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,연결재무제표 [member],제 37 기,0,제 36 기,0,제 35 기,0,13,KRW,,054050,NH농우바이오,CFS
+20260320000311,11011,2025,00176835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,지분변동차액,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 37 기,0,제 36 기,0,제 35 기,0,13,KRW,,054050,NH농우바이오,CFS

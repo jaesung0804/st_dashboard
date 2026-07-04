@@ -1,0 +1,167 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 38 기 반기말,1550850568411,제 37 기말,1564362058881,7,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 38 기 반기말,653785909361,제 37 기말,654342781639,8,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 38 기 반기말,101067355881,제 37 기말,140426555766,9,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 38 기 반기말,315265842128,제 37 기말,312250888988,10,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 38 기 반기말,204435891465,제 37 기말,175102549013,11,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 38 기 반기말,13768689206,제 37 기말,8025264005,12,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 38 기 반기말,19248130681,제 37 기말,18537523867,13,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 38 기 반기말,897064659050,제 37 기말,910019277242,14,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 38 기 반기말,60260419,제 37 기말,105850583,15,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 38 기 반기말,95984876748,제 37 기말,91951497556,16,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업 및 공동기업투자주식,-,제 38 기 반기말,731492276,제 37 기말,860490682,17,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 38 기 반기말,65300109795,제 37 기말,68675029399,18,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융자산(비유동),-,제 38 기 반기말,54839402621,제 37 기말,53555522621,19,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 38 기 반기말,9467745279,제 37 기말,10997034534,20,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 38 기 반기말,59855467111,제 37 기말,68911846196,21,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 38 기 반기말,516444715134,제 37 기말,517597739611,22,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 38 기 반기말,94380589667,제 37 기말,97364266060,23,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 38 기 반기말,425263850573,제 37 기말,415381333819,25,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 38 기 반기말,425263850573,제 37 기말,415381333819,26,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 38 기 반기말,193349886134,제 37 기말,193174268527,27,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 38 기 반기말,11871586000,제 37 기말,11871586000,28,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 38 기 반기말,129423069595,제 37 기말,119716170448,29,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 38 기 반기말,90619308844,제 37 기말,90619308844,30,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 38 기 반기말,0,제 37 기말,0,31,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와 자본총계,-,제 38 기 반기말,1550850568411,제 37 기말,1564362058881,32,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 38 기 반기말,820503893177,제 37 기말,815556491248,34,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,dart_CurrentPortionOfBonds,유동성장기사채,-,제 38 기 반기말,85380917263,제 37 기말,99994227023,35,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채(유동),-,제 38 기 반기말,37699191658,제 37 기말,37758305488,36,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,유동성장기차입금,-,제 38 기 반기말,1200000000,제 37 기말,1200000000,37,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 38 기 반기말,9458048879,제 37 기말,10785992892,38,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 38 기 반기말,106924949972,제 37 기말,129452253540,39,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 38 기 반기말,83763458978,제 37 기말,58850319061,40,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 38 기 반기말,105135004086,제 37 기말,71422920484,41,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 38 기 반기말,390942322341,제 37 기말,406092472760,42,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 38 기 반기말,1125586717838,제 37 기말,1148980725062,43,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 38 기 반기말,305082824661,제 37 기말,333424233814,44,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 38 기 반기말,8040602938,제 37 기말,8805863241,45,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채(비유동),-,제 38 기 반기말,131717517858,제 37 기말,135895788020,46,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,비유동사채,-,제 38 기 반기말,107749230811,제 37 기말,116432140468,47,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 38 기 반기말,6199000000,제 37 기말,6799000000,48,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 38 기 반기말,37991186898,제 37 기말,43443624939,49,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 38 기 반기말,6825198809,제 37 기말,7341130813,50,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 38 기 반기말,6560087347,제 37 기말,14706686333,51,KRW,,,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 38 기 반기,27436591402,,,6,KRW,38067378518,제 37 기 반기,30110236420,40653224809,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 38 기 반기,1234208600,,,7,KRW,1427044919,제 37 기 반기,238509470,440223214,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 38 기 반기,5434915199,,,8,KRW,9991203252,제 37 기 반기,3611356495,6219014881,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 38 기 반기,136478830352,,,9,KRW,263837491108,제 37 기 반기,127856055177,250357688890,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,반기총포괄손익,-,제 38 기 반기,15074684975,,,10,KRW,16764930454,제 37 기 반기,15749331163,16818288965,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 총포괄손익,-,제 38 기 반기,0,,,11,KRW,0,제 37 기 반기,-2070512,-10878636,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 총포괄손익,-,제 38 기 반기,15074684975,,,12,KRW,16764930454,제 37 기 반기,15751401675,16829167601,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 38 기 반기,719401602929,,,13,KRW,1380051101004,제 37 기 반기,653312017724,1251716009463,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,보통주기본주당이익(손실),-,제 38 기 반기,1262,,,15,KRW,1397,제 37 기 반기,1339,1451,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,보통주희석주당이익(손실),-,제 38 기 반기,1262,,,16,KRW,1397,제 37 기 반기,1339,1451,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 38 기 반기,15150395315,,,17,KRW,24784960227,제 37 기 반기,12488175148,23615397010,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 38 기 반기,11993366415,,,18,KRW,17057626794,제 37 기 반기,7042304069,13412669198,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 38 기 반기,163915421754,,,19,KRW,301904869626,제 37 기 반기,157966291597,291010913699,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세수익(비용),-,제 38 기 반기,5037325783,,,20,KRW,5063155792,제 37 기 반기,5248862796,7147944469,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,반기기타포괄손익,-,제 38 기 반기,89955591,,,21,KRW,180912901,제 37 기 반기,-141376621,-393544473,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 38 기 반기,-217341541,,,23,KRW,-214556245,제 37 기 반기,-79136662,-292649127,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,-,제 38 기 반기,302266838,,,24,KRW,390458852,제 37 기 반기,-62254959,-100965346,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 38 기 반기,-265000,,,25,KRW,-285000,제 37 기 반기,15000,70000,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 38 기 반기,5295294,,,27,KRW,5295294,제 37 기 반기,0,0,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ProfitLoss,반기순이익,-,제 38 기 반기,14984729384,,,28,KRW,16584017553,제 37 기 반기,15890707784,17211833438,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 38 기 반기,0,,,29,KRW,0,제 37 기 반기,-2070512,-10878636,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 38 기 반기,14984729384,,,30,KRW,16584017553,제 37 기 반기,15892778296,17222712074,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 38 기 반기,20022055167,,,31,KRW,21647173345,제 37 기 반기,21139570580,24359777907,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 38 기 반기,883317024683,,,32,KRW,1681955970630,제 37 기 반기,811278309321,1542726923162,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익,-,제 38 기 반기,-56800736,,,33,KRW,-128713407,제 37 기 반기,-151947736,-311927423,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초 현금및현금성자산,-,제 38 기 반기,140426555766,,,2,KRW,,제 37 기 반기,65771621449,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,반기말현금및현금성자산,-,제 38 기 반기,101067355881,,,3,KRW,,제 37 기 반기,119597678429,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 38 기 반기,-18482203821,,,8,KRW,,제 37 기 반기,63405971874,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 38 기 반기,5934100000,,,9,KRW,,제 37 기 반기,170000000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_DividendsPaidToHybridBond,신종자본증권 분배금 지급,-,제 38 기 반기,1540200000,,,10,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 38 기 반기,5991266000,,,11,KRW,,제 37 기 반기,70000000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 원금지급,-,제 38 기 반기,17799457492,,,12,KRW,,제 37 기 반기,17069564888,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 38 기 반기,79764210000,,,13,KRW,,제 37 기 반기,19983780000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 38 기 반기,0,,,14,KRW,,제 37 기 반기,2500000000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 38 기 반기,100000000000,,,15,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,유동성장기차입금의 상환,-,제 38 기 반기,600000000,,,16,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings,단기차입금의 순증감,-,제 38 기 반기,37875112775,,,17,KRW,,제 37 기 반기,76974921362,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 38 기 반기,5342213700,,,18,KRW,,제 37 기 반기,6894213700,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자의 지급,-,제 38 기 반기,10896821404,,,19,KRW,,제 37 기 반기,11748810770,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분의 감소,-,제 38 기 반기,0,,,20,KRW,,제 37 기 반기,340140130,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분의 증가,-,제 38 기 반기,0,,,21,KRW,,제 37 기 반기,100000000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 38 기 반기,-16364292097,,,22,KRW,,제 37 기 반기,-25484646306,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 감소,-,제 38 기 반기,1760800000,,,23,KRW,,제 37 기 반기,1052082580,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 감소,-,제 38 기 반기,13724427573,,,24,KRW,,제 37 기 반기,13607545540,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 금융자산의 취득,-,제 38 기 반기,1284000000,,,25,KRW,,제 37 기 반기,500004000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 증가,-,제 38 기 반기,134890000,,,26,KRW,,제 37 기 반기,1690556069,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 증가,-,제 38 기 반기,5886493210,,,27,KRW,,제 37 기 반기,3888699540,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsInvestingActivities,이자의 수취,-,제 38 기 반기,2023326584,,,28,KRW,,제 37 기 반기,1436664193,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 38 기 반기,11820129,,,29,KRW,,제 37 기 반기,2217272727,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 38 기 반기,5832932473,,,30,KRW,,제 37 기 반기,2190712431,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 38 기 반기,8070198662,,,31,KRW,,제 37 기 반기,8828704279,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 38 기 반기,24342016984,,,32,KRW,,제 37 기 반기,31080959889,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 38 기 반기,-3979910702,,,33,KRW,,제 37 기 반기,15439749941,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 38 기 반기,2509372443,,,34,KRW,,제 37 기 반기,26772140509,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 38 기 반기,6489283145,,,35,KRW,,제 37 기 반기,11332390568,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 38 기 반기,-532793265,,,36,KRW,,제 37 기 반기,464981471,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가(감소),-,제 38 기 반기,-38826406620,,,37,KRW,,제 37 기 반기,53361075509,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,1540200000,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,0,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,1540200000,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,연결재무제표 [member],제 38 기 반기,1540200000,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 등의 분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,3,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,11871586000,,,4,KRW,,제 37 기 반기,11871586000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,119716170448,,,4,KRW,,제 37 기 반기,102675054962,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,193174268527,,,4,KRW,,제 37 기 반기,84450284362,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,415381333819,,,4,KRW,,제 37 기 반기,289616234168,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,4,KRW,,제 37 기 반기,79883832159,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 38 기 반기,415381333819,,,4,KRW,,제 37 기 반기,369500066327,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,90619308844,,,4,KRW,,제 37 기 반기,90619308844,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 38 기 반기,5342213700,,,5,KRW,,제 37 기 반기,5342213700,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,5,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,5342213700,,,5,KRW,,제 37 기 반기,5342213700,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,0,,,5,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,5342213700,,,5,KRW,,제 37 기 반기,5342213700,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,5,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,5,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 38 기 반기,425263850573,,415381333819,6,KRW,,제 37 기 반기,380319151592,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,6,KRW,,제 37 기 반기,80063763477,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,425263850573,,,6,KRW,,제 37 기 반기,300255388115,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,193349886134,,,6,KRW,,제 37 기 반기,83208939935,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,129423069595,,,6,KRW,,제 37 기 반기,114555553336,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,11871586000,,,6,KRW,,제 37 기 반기,11871586000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,90619308844,,,6,KRW,,제 37 기 반기,90619308844,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 38 기 반기,-217341541,,,7,KRW,,제 37 기 반기,-79136662,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,7,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,7,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,7,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,0,,,7,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,-214556245,,,7,KRW,,제 37 기 반기,-292649127,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,-214556245,,,7,KRW,,제 37 기 반기,-292649127,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,-847799954,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,-847799954,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,190809954,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,연결재무제표 [member],제 38 기 반기,,,,8,KRW,,제 37 기 반기,-656990000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유지분의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,,,,8,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,390458852,,,9,KRW,,제 37 기 반기,-100965346,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,390458852,,,9,KRW,,제 37 기 반기,-100965346,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,9,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,연결재무제표 [member],제 38 기 반기,302266838,,,9,KRW,,제 37 기 반기,-62254959,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,0,,,9,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,9,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,9,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,5295294,,,10,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,5295294,,,10,KRW,,제 37 기 반기,,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 38 기 반기,5295294,,,10,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,0,,,11,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,11,KRW,,제 37 기 반기,-10878636,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,16584017553,,,11,KRW,,제 37 기 반기,17222712074,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,16584017553,,,11,KRW,,제 37 기 반기,17222712074,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,11,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,연결재무제표 [member],제 38 기 반기,14984729384,,,11,KRW,,제 37 기 반기,15890707784,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,11,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 38 기 반기,0,,,12,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 38 기 반기,0,,,12,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 38 기 반기,-265000,,,12,KRW,,제 37 기 반기,15000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 38 기 반기,0,,,12,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 38 기 반기,-285000,,,12,KRW,,제 37 기 반기,70000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 38 기 반기,-285000,,,12,KRW,,제 37 기 반기,70000,,051500,CJ프레시웨이,CFS
+20250814002183,11012,2025,00127954,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 38 기 반기,0,,,12,KRW,,제 37 기 반기,0,,051500,CJ프레시웨이,CFS

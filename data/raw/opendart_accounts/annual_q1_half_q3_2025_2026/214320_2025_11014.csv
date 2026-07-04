@@ -1,0 +1,175 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 21 기 3분기말,2479385837469,제 20 기말,2714582224859,7,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 21 기 3분기말,1747515356730,제 20 기말,1984555352694,8,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 21 기 3분기말,634347823160,제 20 기말,482693949587,9,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 21 기 3분기말,9122085227,제 20 기말,8674347533,10,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타자산,-,제 21 기 3분기말,158203304538,제 20 기말,160393670804,11,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 21 기 3분기말,24920960754,제 20 기말,27997258449,12,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 21 기 3분기말,113826475955,제 20 기말,155255921976,13,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 21 기 3분기말,807094707096,제 20 기말,1149540204345,14,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 21 기 3분기말,731870480739,제 20 기말,730026872165,15,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 21 기 3분기말,7700736251,제 20 기말,6292000710,16,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 21 기 3분기말,10800989010,제 20 기말,10176291561,17,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 21 기 3분기말,292822656372,제 20 기말,303847234304,18,KRW,제 19 기,303608245000,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,공동기업 및 관계기업투자,-,제 21 기 3분기말,5382263493,제 20 기말,4665170792,19,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 21 기 3분기말,0,제 20 기말,68255869,20,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 21 기 3분기말,22673246158,제 20 기말,21657143921,21,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 21 기 3분기말,259937515087,제 20 기말,253428691796,22,KRW,제 19 기,53708738000,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 21 기 3분기말,132553074368,제 20 기말,129892083212,23,KRW,제 19 기,152814066000,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 21 기 3분기말,1066582240634,제 20 기말,1031880296378,25,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업소유주지분,-,제 21 기 3분기말,1024288611131,제 20 기말,1001998693589,26,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 21 기 3분기말,2665834802,제 20 기말,3000489990,27,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_AdditionalPaidinCapital,기타불입자본,-,제 21 기 3분기말,122314988301,제 20 기말,122314988301,28,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 21 기 3분기말,20000000000,제 20 기말,20000000000,29,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 21 기 3분기말,879307788028,제 20 기말,856683215298,30,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 21 기 3분기말,42293629503,제 20 기말,29881602789,31,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와 자본총계,-,제 21 기 3분기말,2479385837469,제 20 기말,2714582224859,32,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 21 기 3분기말,1201555969938,제 20 기말,1484041313304,34,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,단기차입금,-,제 21 기 3분기말,103428260000,제 20 기말,103523240000,35,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 21 기 3분기말,162482941,제 20 기말,142022710,36,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 21 기 3분기말,9984573051,제 20 기말,12025177875,37,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타금융부채,-,제 21 기 3분기말,35898422917,제 20 기말,32001577283,38,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타부채,-,제 21 기 3분기말,121008920045,제 20 기말,139169454337,39,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 21 기 3분기말,931073310984,제 20 기말,1197179841099,40,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 21 기 3분기말,1412803596835,제 20 기말,1682701928481,41,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 21 기 3분기말,211247626897,제 20 기말,198660615177,42,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 21 기 3분기말,59798805332,제 20 기말,55465362406,43,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 21 기 3분기말,55520000,제 20 기말,142970000,44,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentPayables,매입채무및기타비유동채무,-,제 21 기 3분기말,281399600,제 20 기말,1183162682,45,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 21 기 3분기말,8537415854,제 20 기말,8756892935,46,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 21 기 3분기말,11672389287,제 20 기말,3788734298,47,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타금융부채,-,제 21 기 3분기말,130902096824,제 20 기말,129323492856,48,KRW,,,,,,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 21 기 3분기,51327081354,,,6,KRW,,,117584431970,제 20 기 3분기,45896006406,113032939042,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 21 기 3분기,296187447,,,7,KRW,,,852534841,제 20 기 3분기,207311612,6945976835,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 21 기 3분기,1610522159,,,8,KRW,,,3127743474,제 20 기 3분기,1444275438,3901691194,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 21 기 3분기,197015705561,,,9,KRW,,,604426260265,제 20 기 3분기,191966263531,570176052929,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 21 기 3분기,51446842130,,,10,KRW,,,72387863376,제 20 기 3분기,11542141744,101745418172,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 21 기 3분기,6064217223,,,12,KRW,,,12493046441,제 20 기 3분기,4343830476,13903867240,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유주지분,-,제 21 기 3분기,45382624907,,,13,KRW,,,59894816935,제 20 기 3분기,7198311268,87841550932,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 21 기 3분기,243184831770,,,14,KRW,,,791951223836,제 20 기 3분기,274161953407,838403453945,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 21 기 3분기,713,,,16,KRW,,,1515,제 20 기 3분기,683,1906,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 21 기 3분기,713,,,17,KRW,,,1515,제 20 기 3분기,683,1906,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 21 기 3분기,1043554012,,,18,KRW,,,20622155926,제 20 기 3분기,2988284728,11755927490,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 21 기 3분기,5361716441,,,19,KRW,,,18951906708,제 20 기 3분기,6521308707,24859943839,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 21 기 3분기,248342786915,,,20,KRW,,,722010692235,제 20 기 3분기,237862269937,683208991971,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 21 기 3분기,20702042808,,,21,KRW,,,40379253956,제 20 기 3분기,15359188299,40115650722,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 21 기 3분기,17918947738,,,22,KRW,,,-1854187154,제 20 기 3분기,-21113343777,12870298443,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 21 기 3분기,17907655787,,,23,KRW,,,-1887881528,제 20 기 3분기,-21114295209,12848446437,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 21 기 3분기,17711088775,,,24,KRW,,,-1807981717,제 20 기 3분기,-21088949305,12520346758,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 21 기 3분기,196567012,,,25,KRW,,,-79899811,제 20 기 3분기,-25345904,328099679,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 21 기 3분기,11291951,,,26,KRW,,,33694374,제 20 기 3분기,951432,21852006,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,-,제 21 기 3분기,11291951,,,27,KRW,,,33694374,제 20 기 3분기,951432,21852006,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ProfitLoss,분기순이익,-,제 21 기 3분기,33527894392,,,28,KRW,,,74242050530,제 20 기 3분기,32655485521,88875119729,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 21 기 3분기,5016249810,,,30,KRW,,,13651172174,제 20 기 3분기,5339394040,12643682308,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,-,제 21 기 3분기,28511644582,,,31,KRW,,,60590878356,제 20 기 3분기,27316091481,76231437421,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 21 기 3분기,54229937200,,,32,KRW,,,114621304486,제 20 기 3분기,48014673820,128990770451,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 21 기 3분기,491527618685,,,33,KRW,,,1513961916071,제 20 기 3분기,512024223344,1521612445916,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법투자손익,-,제 21 기 3분기,-100971871,,,34,KRW,,,982330367,제 20 기 3분기,-177392739,-190470581,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 21 기 3분기,482693949587,,,2,KRW,,,,제 20 기 3분기,529267186438,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 21 기 3분기,634347823160,,,3,KRW,,,,제 20 기 3분기,492710335298,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 21 기 3분기,-79602318587,,,8,KRW,,,,제 20 기 3분기,3410125901,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 21 기 3분기,100000000000,,,9,KRW,,,,제 20 기 3분기,100167600458,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 21 기 3분기,38000000000,,,10,KRW,,,,제 20 기 3분기,62591656492,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분 취득,-,제 21 기 3분기,17900882242,,,11,KRW,,,,제 20 기 3분기,10670138225,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 21 기 3분기,23519006345,,,12,KRW,,,,제 20 기 3분기,22913789382,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 21 기 3분기,100182430000,,,13,KRW,,,,제 20 기 3분기,581890458,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 21 기 3분기,25770712293,,,14,KRW,,,,제 20 기 3분기,-241586935141,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_ProceedsFromDisposalOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 처분,-,제 21 기 3분기,135223042,,,15,KRW,,,,제 20 기 3분기,496363868,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자주식의 처분,-,제 21 기 3분기,1497896,,,16,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 감소,-,제 21 기 3분기,2405845833,,,17,KRW,,,,제 20 기 3분기,2979499596,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 취득,-,제 21 기 3분기,0,,,18,KRW,,,,제 20 기 3분기,2750000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 증가,-,제 21 기 3분기,3032495612,,,19,KRW,,,,제 20 기 3분기,3491095080,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,-표준계정코드 미사용-,장기금융상품의 순증감,-,제 21 기 3분기,-1368902958,,,20,KRW,,,,제 20 기 3분기,361172652,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,-표준계정코드 미사용-,단기금융상품의 순증감,-,제 21 기 3분기,40954832949,,,21,KRW,,,,제 20 기 3분기,-36732636419,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 21 기 3분기,0,,,22,KRW,,,,제 20 기 3분기,1739700000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 21 기 3분기,167055723,,,23,KRW,,,,제 20 기 3분기,158869412,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 21 기 3분기,1418273419,,,24,KRW,,,,제 20 기 3분기,2199595611,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 21 기 3분기,12074071161,,,25,KRW,,,,제 20 기 3분기,202149213559,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 21 기 3분기,214238186075,,,26,KRW,,,,제 20 기 3분기,193050492467,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산ㆍ부채의 변동,-,제 21 기 3분기,78466080534,,,27,KRW,,,,제 20 기 3분기,58999094119,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,제 21 기 3분기,92536468053,,,28,KRW,,,,제 20 기 3분기,73276130032,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 21 기 3분기,245244599117,,,29,KRW,,,,제 20 기 3분기,221150343880,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 21 기 3분기,0,,,30,KRW,,,,제 20 기 3분기,4086802058,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 지급,-,제 21 기 3분기,37241877649,,,31,KRW,,,,제 20 기 3분기,41063495132,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 21 기 3분기,8550527171,,,32,KRW,,,,제 20 기 3분기,7509685074,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 21 기 3분기,14785991778,,,33,KRW,,,,제 20 기 3분기,16386526735,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_ProfitLoss,분기순이익,-,제 21 기 3분기,33527894392,,,34,KRW,,,,제 20 기 3분기,32655485521,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 21 기 3분기,-8752706208,,,35,KRW,,,,제 20 기 3분기,8569465633,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 21 기 3분기,160406579781,,,36,KRW,,,,제 20 기 3분기,-45126316773,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,20000000000,,,3,KRW,,,,제 20 기 3분기,20000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,856683215298,,,3,KRW,,,,제 20 기 3분기,804953549803,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,3000489990,,,3,KRW,,,,제 20 기 3분기,-36438128679,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 21 기 3분기,1031880296378,,,3,KRW,,,,제 20 기 3분기,937468760274,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,29881602789,,,3,KRW,,,,제 20 기 3분기,26638350849,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,1001998693589,,,3,KRW,,,,제 20 기 3분기,910830409425,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,122314988301,,,3,KRW,,,,제 20 기 3분기,122314988301,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,9000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,9000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,연결재무제표 [member],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,9000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,dart_InterimDividendsPaid,중간배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,4,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 21 기 3분기,51446842130,,,5,KRW,,,,제 20 기 3분기,11542141744,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,12493046441,,,5,KRW,,,,제 20 기 3분기,13903867240,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,59894816935,,,5,KRW,,,,제 20 기 3분기,87841550932,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,-729755795,,,5,KRW,,,,제 20 기 3분기,11588261505,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,60624572730,,,5,KRW,,,,제 20 기 3분기,76253289427,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,5,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,5,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 21 기 3분기,38000000000,,,6,KRW,,,,제 20 기 3분기,54010591858,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,0,,,6,KRW,,,,제 20 기 3분기,16010591858,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,38000000000,,,6,KRW,,,,제 20 기 3분기,38000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,0,,,6,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,38000000000,,,6,KRW,,,,제 20 기 3분기,38000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,6,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,6,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,1024288611131,,,7,KRW,,,,제 20 기 3분기,950533844412,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,42293629503,,,7,KRW,,,,제 20 기 3분기,24388921905,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 21 기 3분기,1066582240634,,1031880296378,7,KRW,,,,제 20 기 3분기,974922766317,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,2665834802,,,7,KRW,,,,제 20 기 3분기,-25987983119,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,122314988301,,,7,KRW,,,,제 20 기 3분기,122314988301,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,20000000000,,,7,KRW,,,,제 20 기 3분기,20000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,879307788028,,,7,KRW,,,,제 20 기 3분기,834206839230,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,8,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,0,,,8,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,395100607,,,8,KRW,,,,제 20 기 3분기,-1138115945,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,395100607,,,8,KRW,,,,제 20 기 3분기,-1138115945,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,-81019727,,,8,KRW,,,,제 20 기 3분기,-142704326,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,연결재무제표 [member],제 21 기 3분기,314080880,,,8,KRW,,,,제 20 기 3분기,-1280820271,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에 대한 소유주지분의 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,8,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,9,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,-38000000000,,,9,KRW,,,,제 20 기 3분기,-47000000000,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,395100607,,,9,KRW,,,,제 20 기 3분기,-1138115945,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,-37604899393,,,9,KRW,,,,제 20 기 3분기,-48138115945,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,-81019727,,,9,KRW,,,,제 20 기 3분기,-16153296184,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,연결재무제표 [member],제 21 기 3분기,-37685919120,,,9,KRW,,,,제 20 기 3분기,-64291412129,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,9,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 21 기 3분기,-1807981717,,,10,KRW,,,,제 20 기 3분기,12520346758,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,-1158125733,,,10,KRW,,,,제 20 기 3분기,1260184932,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,-649855984,,,10,KRW,,,,제 20 기 3분기,11260161826,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,-649855984,,,10,KRW,,,,제 20 기 3분기,11260161826,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,0,,,10,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,10,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,10,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,연결재무제표 [member],제 21 기 3분기,11291951,,,11,KRW,,,,제 20 기 3분기,951432,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,0,,,11,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,33694374,,,11,KRW,,,,제 20 기 3분기,21852006,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,11,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,33694374,,,11,KRW,,,,제 20 기 3분기,21852006,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,0,,,11,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,11,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,13651172174,,,12,KRW,,,,제 20 기 3분기,12643682308,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,60590878356,,,12,KRW,,,,제 20 기 3분기,76231437421,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,0,,,12,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,60590878356,,,12,KRW,,,,제 20 기 3분기,76231437421,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,12,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,12,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,연결재무제표 [member],제 21 기 3분기,33527894392,,,12,KRW,,,,제 20 기 3분기,32655485521,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 21 기 3분기,196567012,,,13,KRW,,,,제 20 기 3분기,-25345904,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 21 기 3분기,0,,,13,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 21 기 3분기,-79899811,,,13,KRW,,,,제 20 기 3분기,328099679,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 21 기 3분기,0,,,13,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 21 기 3분기,0,,,13,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 21 기 3분기,0,,,13,KRW,,,,제 20 기 3분기,0,,214320,이노션,CFS
+20251114002644,11014,2025,00565154,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 21 기 3분기,-79899811,,,13,KRW,,,,제 20 기 3분기,328099679,,214320,이노션,CFS

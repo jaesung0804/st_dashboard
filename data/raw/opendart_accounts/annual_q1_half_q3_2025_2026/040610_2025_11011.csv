@@ -1,0 +1,151 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 33 기,488759326992,제 32 기,453424090839,제 31 기,410802145404,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 33 기,14603775228,제 32 기,38180260856,제 31 기,35858590529,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 33 기,4961182077,제 32 기,4587116048,제 31 기,2863999799,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 33 기,22380,제 32 기,22790,제 31 기,22410,10,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 33 기,3426083599,제 32 기,3084510068,제 31 기,2971270440,11,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정비유동자산,-,제 33 기,0,제 32 기,22162736292,제 31 기,22162736292,12,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 33 기,321962965,제 32 기,319991013,제 31 기,350232561,13,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 33 기,257090,제 32 기,500257090,제 31 기,257090,14,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타금융자산,-,제 33 기,5894267117,제 32 기,7525627555,제 31 기,7510071937,15,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 33 기,474155551764,제 32 기,415243829983,제 31 기,374943554875,16,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타금융자산,-,제 33 기,1001580000,제 32 기,804080000,제 31 기,746480000,17,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 33 기,1817765527,제 32 기,1768770830,제 31 기,1154220178,18,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 33 기,28314753281,제 32 기,6635177703,제 31 기,7057304947,19,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 33 기,384118688098,제 32 기,348222555148,제 31 기,310062103241,20,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,-,제 33 기,28097147687,제 32 기,26237236349,제 31 기,23093433551,21,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 33 기,26796561095,제 32 기,26793803516,제 31 기,26776890473,22,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 33 기,4009056076,제 32 기,4782206437,제 31 기,6053122485,23,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 33 기,416653416833,제 32 기,380538565211,제 31 기,345773485129,25,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 33 기,416661357855,제 32 기,380546506233,제 31 기,345781426151,26,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 33 기,9897234896,제 32 기,19544730439,제 31 기,5533562619,27,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 33 기,17043598000,제 32 기,17043598000,제 31 기,17043598000,28,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 33 기,359803521399,제 32 기,314041174234,제 31 기,293287261972,29,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_SharePremium,기타불입자본,-,제 33 기,29917003560,제 32 기,29917003560,제 31 기,29917003560,30,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 33 기,-7941022,제 32 기,-7941022,제 31 기,-7941022,31,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 33 기,488759326992,제 32 기,453424090839,제 31 기,410802145404,32,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 33 기,46711913040,제 32 기,49290233674,제 31 기,43710137794,34,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 33 기,2140657902,제 32 기,1641339665,제 31 기,1785856175,35,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 33 기,0,제 32 기,0,제 31 기,21700000000,36,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 33 기,322147050,제 32 기,1512577982,제 31 기,36320987,37,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale,매각계정비유동부채,-,제 33 기,0,제 32 기,60000000,제 31 기,20000000,38,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 33 기,1093521610,제 32 기,1209116508,제 31 기,676437677,39,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 33 기,37514808282,제 32 기,39014808282,제 31 기,14014808282,40,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타금융부채,-,제 33 기,5640778196,제 32 기,5852391237,제 31 기,5476714673,41,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 33 기,72105910159,제 32 기,72885525628,제 31 기,65028660275,42,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 33 기,25393997119,제 32 기,23595291954,제 31 기,21318522481,43,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 33 기,1700000000,제 32 기,1700000000,제 31 기,0,44,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타금융부채,-,제 33 기,124000000,제 32 기,36000000,제 31 기,77000000,45,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,dart_PostemploymentBenefitObligations,확정급여부채,-,제 33 기,400265028,제 32 기,232427239,제 31 기,569908949,46,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 33 기,20846310577,제 32 기,18089557702,제 31 기,16070773680,47,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 33 기,2323421514,제 32 기,3537307013,제 31 기,4600839852,48,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 33 기,3673192861,제 32 기,6411588800,제 31 기,2952730625,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 33 기,634196050,제 32 기,718889392,제 31 기,569669304,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 33 기,756483306,제 32 기,1958000,제 31 기,20550028,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 33 기,3151943750,제 32 기,2980132238,제 31 기,2822223961,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,-표준계정코드 미사용-,관계기업투자이익(손실),-,제 33 기,27479796128,제 32 기,13110206626,제 31 기,19642450388,10,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 33 기,36100390390,제 32 기,34765080082,제 31 기,32200948595,11,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 33 기,0,제 32 기,0,제 31 기,8337326,13,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 33 기,36100390390,제 32 기,34765080082,제 31 기,32192611269,14,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 33 기,40871887471,제 32 기,41370736756,제 31 기,36123744348,15,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 33 기,806,제 32 기,480,제 31 기,592,18,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 33 기,806,제 32 기,480,제 31 기,592,20,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 33 기,1657976062,제 32 기,2028831059,제 31 기,2340144032,21,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 33 기,174285378,제 32 기,244577188,제 31 기,233700537,22,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 33 기,6825136611,제 32 기,9391721038,제 31 기,5774954586,23,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 33 기,2350076754,제 32 기,2271194887,제 31 기,1064506872,24,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 33 기,8903456095,제 32 기,18581802022,제 31 기,12227598673,25,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목,-,제 33 기,-11117884640,제 32 기,11524419807,제 31 기,11090749821,26,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업자본변동,-,제 33 기,-11117884640,제 32 기,11524419807,제 31 기,11090749821,27,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목,-,제 33 기,20021340735,제 32 기,7057382215,제 31 기,1136848852,28,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,"세후기타포괄손익, 지분상품에 대한 투자자산",-,제 33 기,18647899260,제 32 기,4691679414,제 31 기,-868682700,29,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적이익(손실),-,제 33 기,-96947622,제 32 기,-121045212,제 31 기,-98535751,30,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,기타포괄손익-공정가치금융자산평가손익,-,제 33 기,1470389097,제 32 기,2486748013,제 31 기,2104067303,31,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 33 기,27196934295,제 32 기,16183278060,제 31 기,19973349922,32,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 33 기,0,제 32 기,0,제 31 기,8337326,34,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 33 기,27196934295,제 32 기,16183278060,제 31 기,19965012596,35,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 33 기,29547011049,제 32 기,18454472947,제 31 기,21037856794,36,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 33 기,27196934295,제 32 기,16183278060,제 31 기,19973349922,37,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 33 기,47697024082,제 32 기,50762457794,제 31 기,41898698934,38,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 33 기,4587116048,제 32 기,2863999799,제 31 기,1046316792,2,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 33 기,4961182077,제 32 기,4587116048,제 31 기,2863999799,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 33 기,-3710325611,제 32 기,3070155672,제 31 기,-1867286031,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 33 기,2210325611,제 32 기,1929844328,제 31 기,1867286031,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 33 기,0,제 32 기,1700000000,제 31 기,0,10,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 33 기,27500000000,제 32 기,26000000000,제 31 기,0,11,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 33 기,0,제 32 기,21700000000,제 31 기,0,12,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 33 기,29000000000,제 32 기,1000000000,제 31 기,0,13,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 33 기,-281980164,제 32 기,-9396302815,제 31 기,2375811697,14,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 33 기,0,제 32 기,175000000,제 31 기,70000000,15,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 33 기,213600000,제 32 기,250000000,제 31 기,0,16,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 처분,-,제 33 기,18000000,제 32 기,17900000,제 31 기,19500000,17,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정으로 분류된 비유동자산이나 처분자산집단의 처분,-,제 33 기,0,제 32 기,0,제 31 기,0,18,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 33 기,500000000,제 32 기,500000000,제 31 기,3107094198,19,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업투자주식의 취득,-,제 33 기,0,제 32 기,8126743694,제 31 기,0,20,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 33 기,0,제 32 기,0,제 31 기,0,21,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_PurchaseOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정으로 분류된 비유동자산이나 처분자산집단의 취득,-,제 33 기,0,제 32 기,0,제 31 기,0,22,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 33 기,0,제 32 기,1000000000,제 31 기,491480000,23,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities,다른 기업의 지분상품이나 채무상품의 처분에 따른 기타현금유입,-,제 33 기,138492560,제 32 기,0,제 31 기,0,24,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 33 기,0,제 32 기,18181819,제 31 기,91609150,25,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 33 기,57500000,제 32 기,626400000,제 31 기,110103940,26,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 33 기,0,제 32 기,0,제 31 기,14500000,27,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 33 기,667372724,제 32 기,104240940,제 31 기,296307711,28,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 33 기,4385759773,제 32 기,7974886567,제 31 기,1320149645,29,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,순운전자본의 변동,-,제 33 기,320192800,제 32 기,300836895,제 31 기,-2736591917,30,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 33 기,-19845908431,제 32 기,-6675595642,제 31 기,-13753548039,31,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 33 기,117887004,제 32 기,0,제 31 기,0,32,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 33 기,2158014429,제 32 기,108628532,제 31 기,459507298,33,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 33 기,1302469563,제 32 기,1756487311,제 31 기,1769118077,34,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 33 기,57138097,제 32 기,31483097,제 31 기,65565054,35,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 33 기,27196934295,제 32 기,16183278060,제 31 기,19973349922,36,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 33 기,-19387969,제 32 기,74376825,제 31 기,-10992304,37,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 33 기,374066029,제 32 기,1723116249,제 31 기,1817683007,38,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,연결재무제표 [member],제 33 기,18647899260,제 32 기,4691679414,제 31 기,-868682700,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|비지배지분 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,18647899260,제 32 기,4691679414,제 31 기,-868682700,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,18647899260,제 32 기,4691679414,제 31 기,-868682700,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,관계기업이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,3,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,1470389097,제 32 기,2486748013,제 31 기,2104067303,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|비지배지분 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,연결재무제표 [member],제 33 기,1470389097,제 32 기,2486748013,제 31 기,2104067303,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,1470389097,제 32 기,2486748013,제 31 기,2104067303,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,4,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 33 기,380538565211,제 32 기,345773485129,제 31 기,313570308945,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 33 기,-7941022,제 32 기,-7941022,제 31 기,-16278348,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,380546506233,제 32 기,345781426151,제 31 기,313586587293,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,17043598000,제 32 기,17043598000,제 31 기,17043598000,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,314041174234,제 32 기,293287261972,제 31 기,274287240238,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,19544730439,제 32 기,5533562619,제 31 기,-7661254505,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,29917003560,제 32 기,29917003560,제 31 기,29917003560,5,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,-82486390,제 32 기,-121045212,제 31 기,-96308162,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,연결재무제표 [member],제 33 기,-82486390,제 32 기,-121045212,제 31 기,-96308162,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,-82486390,제 32 기,-121045212,제 31 기,-96308162,6,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,416661357855,제 32 기,380546506233,제 31 기,345781426151,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 33 기,-7941022,제 32 기,-7941022,제 31 기,-7941022,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 33 기,416653416833,제 32 기,380538565211,제 31 기,345773485129,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,9897234896,제 32 기,19544730439,제 31 기,5533562619,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,359803521399,제 32 기,314041174234,제 31 기,293287261972,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,17043598000,제 32 기,17043598000,제 31 기,17043598000,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,29917003560,제 32 기,29917003560,제 31 기,29917003560,7,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,-11117884640,제 32 기,11524419807,제 31 기,11090749821,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|비지배지분 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,연결재무제표 [member],제 33 기,-11117884640,제 32 기,11524419807,제 31 기,11090749821,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,-11117884640,제 32 기,11524419807,제 31 기,11090749821,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,관계기업자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,0,제 32 기,,제 31 기,0,8,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 33 기,27196934295,제 32 기,16183278060,제 31 기,19973349922,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 33 기,0,제 32 기,0,제 31 기,8337326,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 33 기,27196934295,제 32 기,16183278060,제 31 기,19965012596,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 33 기,27196934295,제 32 기,16183278060,제 31 기,19965012596,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,9,KRW,,040610,SG&G,CFS
+20260319000627,11011,2025,00264714,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 33 기,0,제 32 기,0,제 31 기,0,9,KRW,,040610,SG&G,CFS

@@ -1,0 +1,182 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 50 기 1분기말,508214047824,제 49 기말,463394842463,7,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 50 기 1분기말,289423977405,제 49 기말,249343742625,8,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 50 기 1분기말,16417704086,제 49 기말,16205803331,9,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 50 기 1분기말,1118680319,제 49 기말,1066890360,10,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 50 기 1분기말,110398845295,제 49 기말,103227203634,11,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 50 기 1분기말,1704088754,제 49 기말,937589687,12,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 50 기 1분기말,53690648156,제 49 기말,34812672322,13,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 50 기 1분기말,106094010795,제 49 기말,93093583291,14,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 50 기 1분기말,218790070419,제 49 기말,214051099838,15,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_LongTermTradeReceivablesGross,장기성매출채권,-,제 50 기 1분기말,0,제 49 기말,0,16,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 50 기 1분기말,20385080688,제 49 기말,19746814014,17,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition,당기손익-공정가치측정지정금융자산,-,제 50 기 1분기말,0,제 49 기말,0,18,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산 및 영업권,-,제 50 기 1분기말,1050021000,제 49 기말,1057915400,19,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 50 기 1분기말,0,제 49 기말,0,20,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 50 기 1분기말,2407800296,제 49 기말,2333971992,21,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 50 기 1분기말,191374850741,제 49 기말,187286286291,22,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 50 기 1분기말,3572317694,제 49 기말,3626112141,23,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 50 기 1분기말,154401421461,제 49 기말,147210745252,25,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배주주지분,-,제 50 기 1분기말,150814889732,제 49 기말,143696247074,26,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_CapitalAdjustments,자본조정,-,제 50 기 1분기말,-4003909841,제 49 기말,-4003909841,27,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 50 기 1분기말,22332958424,제 49 기말,22332958424,28,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 50 기 1분기말,22327986782,제 49 기말,17296501578,29,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 50 기 1분기말,6584230000,제 49 기말,6584230000,30,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 50 기 1분기말,103573624367,제 49 기말,101486466913,31,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 50 기 1분기말,3586531729,제 49 기말,3514498178,32,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 50 기 1분기말,508214047824,제 49 기말,463394842463,33,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 50 기 1분기말,233242331164,제 49 기말,212673231766,35,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_CurrentPortionOfBonds,사채,-,제 50 기 1분기말,0,제 49 기말,0,36,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 50 기 1분기말,5224437105,제 49 기말,5039426170,37,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_CurrentProvisionsForProductWarranties,판매보증충당부채,-,제 50 기 1분기말,1265590882,제 49 기말,803289488,38,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 50 기 1분기말,10722466660,제 49 기말,4355800000,39,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동성리스부채,-,제 50 기 1분기말,815861577,제 49 기말,1218069130,40,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 50 기 1분기말,1264181151,제 49 기말,524028365,41,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 50 기 1분기말,2972332800,제 49 기말,2932027919,42,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherFinancialLiabilities,기타금융부채,-,제 50 기 1분기말,5083443886,제 49 기말,5083443886,43,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 50 기 1분기말,117898750940,제 49 기말,100862946259,44,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 50 기 1분기말,87995266163,제 49 기말,91854200549,45,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 50 기 1분기말,353812626363,제 49 기말,316184097211,46,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 50 기 1분기말,120570295199,제 49 기말,103510865445,47,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,매입채무및기타채무,-,제 50 기 1분기말,119867682,제 49 기말,97699542,48,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,dart_NonCurrentProvisionsForProductWarranties,판매보증충당부채,-,제 50 기 1분기말,618894263,제 49 기말,561690714,49,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 50 기 1분기말,393481282,제 49 기말,379272782,50,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 50 기 1분기말,2496763887,제 49 기말,2576147664,51,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,사채,-,제 50 기 1분기말,39958424625,제 49 기말,39951741226,52,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 50 기 1분기말,47047883340,제 49 기말,31464185000,53,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 50 기 1분기말,25528639701,제 49 기말,24351969185,54,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 50 기 1분기말,0,제 49 기말,0,55,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 50 기 1분기말,4406340419,제 49 기말,4128159332,56,KRW,,,,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 50 기 1분기,2951732642,,,6,KRW,2951732642,제 49 기 1분기,1757780450,1757780450,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 50 기 1분기,220060217,,,7,KRW,220060217,제 49 기 1분기,565786900,565786900,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 50 기 1분기,15325980,,,8,KRW,15325980,제 49 기 1분기,70709748,70709748,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 50 기 1분기,8235224376,,,9,KRW,8235224376,제 49 기 1분기,8616906730,8616906730,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 50 기 1분기,8200350769,,,10,KRW,8200350769,제 49 기 1분기,928526083,928526083,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 50 기 1분기,72033551,,,12,KRW,72033551,제 49 기 1분기,82285181,82285181,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유지분,-,제 50 기 1분기,8128317218,,,13,KRW,8128317218,제 49 기 1분기,846240902,846240902,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 50 기 1분기,105933642354,,,14,KRW,105933642354,제 49 기 1분기,96066490795,96066490795,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 50 기 1분기,245,,,16,KRW,245,제 49 기 1분기,78,78,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 50 기 1분기,251,,,17,KRW,251,제 49 기 1분기,78,78,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 50 기 1분기,2876137951,,,18,KRW,2876137951,제 49 기 1분기,2259918491,2259918491,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 50 기 1분기,3682198067,,,19,KRW,3682198067,제 49 기 1분기,968418336,968418336,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 50 기 1분기,11186957018,,,20,KRW,11186957018,제 49 기 1분기,10374687180,10374687180,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 50 기 1분기,793661430,,,21,KRW,793661430,제 49 기 1분기,-111302555,-111302555,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 50 기 1분기,5031485204,,,22,KRW,5031485204,제 49 기 1분기,-144133919,-144133919,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 세후기타포괄손익,-,제 50 기 1분기,5031485204,,,23,KRW,5031485204,제 49 기 1분기,-144133919,-144133919,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,외화환산외환차이의 세후차익(차손),-,제 50 기 1분기,5031485204,,,24,KRW,5031485204,제 49 기 1분기,-144133919,-144133919,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류 되지않는 세후기타포괄손익,-,제 50 기 1분기,0,,,25,KRW,0,제 49 기 1분기,0,0,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 50 기 1분기,0,,,26,KRW,0,제 49 기 1분기,0,0,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 50 기 1분기,3168865565,,,27,KRW,3168865565,제 49 기 1분기,1072660002,1072660002,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 50 기 1분기,72033551,,,29,KRW,72033551,제 49 기 1분기,82281716,82281716,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유지분,-,제 50 기 1분기,3096832014,,,30,KRW,3096832014,제 49 기 1분기,990378286,990378286,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 50 기 1분기,3962526995,,,31,KRW,3962526995,제 49 기 1분기,961357447,961357447,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CIS,포괄손익계산서,ifrs-full_Revenue,영업수익,-,제 50 기 1분기,117120599372,,,32,KRW,117120599372,제 49 기 1분기,106441177975,106441177975,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 50 기 1분기,16205803331,,,2,KRW,,제 49 기 1분기,13850809845,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 50 기 1분기,16417704086,,,3,KRW,,제 49 기 1분기,24175070468,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 50 기 1분기,35610181415,,,8,KRW,,제 49 기 1분기,35025696235,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 50 기 1분기,0,,,10,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 50 기 1분기,0,,,11,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromBonds,사채의 증가,-,제 50 기 1분기,0,,,12,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 증가,-,제 50 기 1분기,0,,,13,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 50 기 1분기,25000000000,,,14,KRW,,제 49 기 1분기,9196512000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 50 기 1분기,21366489940,,,15,KRW,,제 49 기 1분기,33336943508,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 50 기 1분기,0,,,16,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 50 기 1분기,2782854000,,,17,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 50 기 1분기,5943928859,,,18,KRW,,제 49 기 1분기,4905549398,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,-표준계정코드 미사용-,기타자본의 취득,-,제 50 기 1분기,0,,,19,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,-표준계정코드 미사용-,유동성장기차입부채의 상환,-,제 50 기 1분기,813950000,,,20,KRW,,제 49 기 1분기,1251449000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 50 기 1분기,1009674560,,,21,KRW,,제 49 기 1분기,1009674560,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 50 기 1분기,205901106,,,22,KRW,,제 49 기 1분기,341086315,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 50 기 1분기,-20896051871,,,23,KRW,,제 49 기 1분기,-12648395597,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 50 기 1분기,0,,,24,KRW,,제 49 기 1분기,4000000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 50 기 1분기,0,,,25,KRW,,제 49 기 1분기,2473032000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 50 기 1분기,31960346,,,26,KRW,,제 49 기 1분기,10000000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 50 기 1분기,0,,,27,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 50 기 1분기,0,,,28,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 처분,-,제 50 기 1분기,0,,,29,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 50 기 1분기,0,,,30,KRW,,제 49 기 1분기,7068072890,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 50 기 1분기,0,,,31,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 50 기 1분기,0,,,32,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 50 기 1분기,38640000,,,33,KRW,,제 49 기 1분기,38640000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 50 기 1분기,18015000000,,,34,KRW,,제 49 기 1분기,2094097660,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 50 기 1분기,69366112,,,35,KRW,,제 49 기 1분기,91130268,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 50 기 1분기,0,,,36,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 50 기 1분기,59547124,,,37,KRW,,제 49 기 1분기,5000000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 50 기 1분기,0,,,38,KRW,,제 49 기 1분기,104200000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 50 기 1분기,2939364761,,,39,KRW,,제 49 기 1분기,20042693095,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 50 기 1분기,-15146701234,,,40,KRW,,제 49 기 1분기,-12049774083,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 50 기 1분기,23097562599,,,41,KRW,,제 49 기 1분기,18327527414,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 50 기 1분기,-18063733,,,42,KRW,,제 49 기 1분기,-45103163,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentFinancialAssets,기타비유동금융자산의 감소(증가),-,제 50 기 1분기,0,,,43,KRW,,제 49 기 1분기,-1868109,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInTradeAndOtherCurrentReceivables,매출채권 및 기타유동채권의 감소(증가),-,제 50 기 1분기,6830372126,,,44,KRW,,제 49 기 1분기,11668293453,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherNonCurrentLiabilities,기타비유동부채의 증가(감소),-,제 50 기 1분기,-235504118,,,45,KRW,,제 49 기 1분기,118745285,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForProductWarranties,판매보증충당부채의 증가(감소),-,제 50 기 1분기,-73751933,,,46,KRW,,제 49 기 1분기,104339913,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 50 기 1분기,-194649833,,,47,KRW,,제 49 기 1분기,122104827,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 50 기 1분기,3964450310,,,48,KRW,,제 49 기 1분기,-13242730476,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가) 조정,-,제 50 기 1분기,724758247,,,49,KRW,,제 49 기 1분기,-198149890,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 50 기 1분기,102200852,,,50,KRW,,제 49 기 1분기,-1095199237,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables,매입채무 및 기타채무의 증가(감소),-,제 50 기 1분기,11608451015,,,51,KRW,,제 49 기 1분기,21141304465,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 50 기 1분기,-6758433494,,,52,KRW,,제 49 기 1분기,-6908904390,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 50 기 1분기,126246640,,,53,KRW,,제 49 기 1분기,317300791,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 50 기 1분기,2147968816,,,54,KRW,,제 49 기 1분기,1866916969,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취(영업),-,제 50 기 1분기,297777762,,,55,KRW,,제 49 기 1분기,480406699,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 50 기 1분기,3168865565,,,56,KRW,,제 49 기 1분기,1072660002,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 50 기 1분기,644472445,,,57,KRW,,제 49 기 1분기,-3265932,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 50 기 1분기,211900755,,,58,KRW,,제 49 기 1분기,10324260623,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 50 기 1분기,147210745252,,,3,KRW,,제 49 기 1분기,140708797281,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,3514498178,,,3,KRW,,제 49 기 1분기,3221404739,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,143696247074,,,3,KRW,,제 49 기 1분기,137487392542,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,17296501578,,,3,KRW,,제 49 기 1분기,18508103011,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,101486466913,,,3,KRW,,제 49 기 1분기,94066010948,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,6584230000,,,3,KRW,,제 49 기 1분기,6584230000,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,22332958424,,,3,KRW,,제 49 기 1분기,22332958424,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,-4003909841,,,3,KRW,,제 49 기 1분기,-4003909841,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,1009674560,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 50 기 1분기,1009674560,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,1009674560,,,4,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 50 기 1분기,154401421461,,147210745252,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,3586531729,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,150814889732,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,22332958424,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,6584230000,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,103573624367,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,22327986782,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,-4003909841,,,5,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,5031485204,,,6,KRW,,제 49 기 1분기,-144137384,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,3465,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 50 기 1분기,5031485204,,,6,KRW,,제 49 기 1분기,-144133919,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,5031485204,,,6,KRW,,제 49 기 1분기,-144137384,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,3096832014,,,8,KRW,,제 49 기 1분기,990378286,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,72033551,,,8,KRW,,제 49 기 1분기,82281716,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 50 기 1분기,3168865565,,,8,KRW,,제 49 기 1분기,1072660002,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,3096832014,,,8,KRW,,제 49 기 1분기,990378286,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS
+20260515001651,11013,2026,00117726,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,092780,DYP,CFS

@@ -1,0 +1,170 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 68 기 3분기말,158988258885,제 67 기말,187184486500,7,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 68 기 3분기말,85331857915,제 67 기말,85310733695,8,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 68 기 3분기말,34903612,제 67 기말,28469464,9,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_ContractAssets,미청구공사,-,제 68 기 3분기말,14281604414,제 67 기말,4743470100,10,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 68 기 3분기말,33092620,제 67 기말,77420,11,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 68 기 3분기말,30212558073,제 67 기말,29302274155,12,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정비유동자산,-,제 68 기 3분기말,0,제 67 기말,13584066133,13,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 68 기 3분기말,12962527298,제 67 기말,10476245917,14,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 68 기 3분기말,1620664199,제 67 기말,2940664199,15,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 68 기 3분기말,371639593,제 67 기말,1006724136,16,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 68 기 3분기말,25814868106,제 67 기말,23228742171,17,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 68 기 3분기말,73656400970,제 67 기말,101873752805,18,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 68 기 3분기말,1402392937,제 67 기말,2169192937,19,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타채권,-,제 68 기 3분기말,4098396024,제 67 기말,3619087848,20,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 68 기 3분기말,10267886991,제 67 기말,11053382830,21,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 68 기 3분기말,1166080534,제 67 기말,2825403315,22,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 68 기 3분기말,2846631310,제 67 기말,7815859669,23,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 68 기 3분기말,1022686893,제 67 기말,1218273705,24,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 68 기 3분기말,732276150,제 67 기말,740917644,25,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업투자,-,제 68 기 3분기말,2596721642,제 67 기말,2584741522,26,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 68 기 3분기말,14233043786,제 67 기말,14652585223,27,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 68 기 3분기말,35290284703,제 67 기말,55194308112,28,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 68 기 3분기말,-16857323183,제 67 기말,18850797039,30,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 68 기 3분기말,-16976292789,제 67 기말,18731849399,31,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_CapitalSurplus,기타불입자본,-,제 68 기 3분기말,36636565867,제 67 기말,36647205067,32,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 68 기 3분기말,-405040035,제 67 기말,670184285,33,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 68 기 3분기말,27479820000,제 67 기말,27479820000,34,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 68 기 3분기말,-80687638621,제 67 기말,-46065359953,35,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 68 기 3분기말,118969606,제 67 기말,118947640,36,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 68 기 3분기말,158988258885,제 67 기말,187184486500,37,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 68 기 3분기말,160253933974,제 67 기말,152013805762,39,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,금융보증부채,-,제 68 기 3분기말,148561327,제 67 기말,231972222,40,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_CurrentProvisionForConstructionLosses,공사손실충당부채,-,제 68 기 3분기말,0,제 67 기말,3272905176,41,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_CurrentWorkoutPayables,회생채무,-,제 68 기 3분기말,0,제 67 기말,66515577,42,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,유동성장기차입금,-,제 68 기 3분기말,32930000000,제 67 기말,36718252843,43,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentContractLiabilities,초과청구공사,-,제 68 기 3분기말,4206928534,제 67 기말,5413306490,44,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스미지급금,-,제 68 기 3분기말,312664251,제 67 기말,487400416,45,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 68 기 3분기말,1481513667,제 67 기말,2056041570,46,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타금융부채,-,제 68 기 3분기말,0,제 67 기말,1989360800,47,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 68 기 3분기말,1045676810,제 67 기말,631074960,48,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 68 기 3분기말,59885044698,제 67 기말,55203372141,49,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 68 기 3분기말,60243544687,제 67 기말,45943603567,50,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 68 기 3분기말,175845582068,제 67 기말,168333689461,51,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 68 기 3분기말,15591648094,제 67 기말,16319883699,52,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 68 기 3분기말,1015160000,제 67 기말,1250000000,53,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타부채,-,제 68 기 3분기말,167187850,제 67 기말,167187850,54,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_NonCurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 68 기 3분기말,5858885388,제 67 기말,6456070739,55,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,dart_PostemploymentBenefitObligations,순확정급여부채,-,제 68 기 3분기말,2531953259,제 67 기말,3451988528,56,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 68 기 3분기말,1267569476,제 67 기말,3376453192,57,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_LongtermLegalProceedingsProvision,소송충당부채,-,제 68 기 3분기말,3454082611,제 67 기말,114790000,58,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,장기리스미지급금,-,제 68 기 3분기말,34347510,제 67 기말,230931390,59,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 68 기 3분기말,1262462000,제 67 기말,1272462000,60,KRW,,,,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_CostOfSalesFromConstruction,공사원가,-,제 68 기 3분기,11662715081,,,6,KRW,81291060519,제 67 기 3분기,25785250638,92783645731,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_CostOfSalesFromRenderingOfServicesDistribution,창고원가,-,제 68 기 3분기,750008039,,,7,KRW,1903553257,제 67 기 3분기,742451485,1867491865,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsRealEstate,분양원가,-,제 68 기 3분기,0,,,8,KRW,0,제 67 기 3분기,4740000,2674694087,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 68 기 3분기,-3321737323,,,9,KRW,-26855266407,제 67 기 3분기,-6051088644,-21203029051,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_OtherCostOfSales,기타원가,-,제 68 기 3분기,2209262,,,10,KRW,11390623,제 67 기 3분기,342300371,400258499,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_OtherGains,기타영업외수익,-,제 68 기 3분기,2007828665,,,11,KRW,4584778753,제 67 기 3분기,524957204,1815816656,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_OtherLosses,기타영업외비용,-,제 68 기 3분기,994303519,,,12,KRW,12225085178,제 67 기 3분기,54539436,467502405,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 68 기 3분기,0,,,13,KRW,11980120,제 67 기 3분기,0,12062736,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_RevenueFromConstruction,공사수익,-,제 68 기 3분기,11813489865,,,14,KRW,62455755245,제 67 기 3분기,21858715947,78195462248,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_RevenueFromRenderingOfServicesDistribution,창고수익,-,제 68 기 3분기,1048812333,,,15,KRW,3126879779,제 67 기 3분기,1173647475,3522467223,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsRealEstate,분양수익,-,제 68 기 3분기,0,,,16,KRW,0,제 67 기 3분기,0,2791326932,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 68 기 3분기,3801272719,,,17,KRW,9311859295,제 67 기 3분기,2582418886,8463833000,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기총포괄손익,-,제 68 기 3분기,-3369615664,,,18,KRW,-35697481022,제 67 기 3분기,-6417055819,-23999560503,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 총포괄손익,-,제 68 기 3분기,21943,,,20,KRW,21966,제 67 기 3분기,12,29,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 총포괄손익,-,제 68 기 3분기,-3369637607,,,21,KRW,-35697502988,제 67 기 3분기,-6417055831,-23999560532,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 68 기 3분기,12414932382,,,22,KRW,83206004399,제 67 기 3분기,26874742494,97726090182,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 68 기 3분기,-123,,,24,KRW,-1269,제 67 기 3분기,-259,-957,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 68 기 3분기,-123,,,25,KRW,-1268,제 67 기 3분기,-258,-956,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 68 기 3분기,1116998777,,,26,KRW,3260610434,제 67 기 3분기,963103087,4445819369,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 68 기 3분기,176033650,,,27,KRW,1880584394,제 67 기 3분기,327015820,1139624464,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 68 기 3분기,479535396,,,28,KRW,-17543407112,제 67 기 3분기,-3468669758,-12739196051,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 68 기 3분기,120438360,,,29,KRW,-1005354852,제 67 기 3분기,199632339,590102789,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 68 기 3분기,0,,,30,KRW,-839217122,제 67 기 3분기,-665337,-260610745,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 68 기 3분기,0,,,31,KRW,-839217122,제 67 기 3분기,-665337,-260610745,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 평가손익,-,제 68 기 3분기,0,,,32,KRW,-932844320,제 67 기 3분기,0,0,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 68 기 3분기,0,,,33,KRW,93627198,제 67 기 3분기,-665337,-260610745,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_OtherRevenue,기타수익,-,제 68 기 3분기,32165580,,,34,KRW,79962263,제 67 기 3분기,373709314,477637728,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 3분기,-3369615664,,,35,KRW,-34858263900,제 67 기 3분기,-6416390482,-23738949758,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 68 기 3분기,21943,,,37,KRW,21966,제 67 기 3분기,12,29,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 68 기 3분기,-3369637607,,,38,KRW,-34858285866,제 67 기 3분기,-6416390494,-23738949787,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 68 기 3분기,-3249177304,,,39,KRW,-35863618752,제 67 기 3분기,-6216758143,-23148846969,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 68 기 3분기,12894467778,,,40,KRW,65662597287,제 67 기 3분기,23406072736,84986894131,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 68 기 3분기,28469464,,,2,KRW,,제 67 기 3분기,238584087,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 68 기 3분기,34903612,,,3,KRW,,제 67 기 3분기,793178134,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 68 기 3분기,3694936036,,,8,KRW,,제 67 기 3분기,14095788371,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 68 기 3분기,10000000,,,9,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,822100000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 68 기 3분기,291896521,,,11,KRW,,제 67 기 3분기,364497884,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 68 기 3분기,15160000,,,12,KRW,,제 67 기 3분기,1000000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 68 기 3분기,29813171485,,,13,KRW,,제 67 기 3분기,25543050016,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 68 기 3분기,50000000,,,14,KRW,,제 67 기 3분기,150000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 68 기 3분기,25531498928,,,15,KRW,,제 67 기 3분기,12684863761,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기차입금의 상환,-,제 68 기 3분기,250000000,,,16,KRW,,제 67 기 3분기,70000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 68 기 3분기,9756280330,,,17,KRW,,제 67 기 3분기,-3100421840,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfBuildings,건물의 처분,-,제 68 기 3분기,0,,,18,KRW,,제 67 기 3분기,401436000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익공정가치측정금융자산의 처분,-,제 68 기 3분기,1544224171,,,19,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfFixturesAndFittings,공기구와비품의 처분,-,제 68 기 3분기,7658200,,,20,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfLand,토지의 처분,-,제 68 기 3분기,0,,,21,KRW,,제 67 기 3분기,986564000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 68 기 3분기,766800000,,,22,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 68 기 3분기,0,,,23,KRW,,제 67 기 3분기,1970000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산의 처분,-,제 68 기 3분기,7500000000,,,24,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 68 기 3분기,659291865,,,25,KRW,,제 67 기 3분기,244912685,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 68 기 3분기,1320000000,,,26,KRW,,제 67 기 3분기,356887310,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_ProceedsFromSalesOfVehicles,차량운반구의 처분,-,제 68 기 3분기,900000,,,27,KRW,,제 67 기 3분기,462350,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfBuildings,건물의 취득,-,제 68 기 3분기,0,,,28,KRW,,제 67 기 3분기,93400000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfFixturesAndFittings,공기구비품의 취득,-,제 68 기 3분기,6492728,,,29,KRW,,제 67 기 3분기,25332909,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업투자주식의 증가,-,제 68 기 3분기,2155198629,,,30,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 68 기 3분기,0,,,31,KRW,,제 67 기 3분기,2167192937,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 68 기 3분기,237000000,,,32,KRW,,제 67 기 3분기,3746873685,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfMachinery,기계장치의 취득,-,제 68 기 3분기,8800000,,,33,KRW,,제 67 기 3분기,4700000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 68 기 3분기,24198049,,,34,KRW,,제 67 기 3분기,248846525,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 68 기 3분기,28500000,,,35,KRW,,제 67 기 3분기,502838129,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_PurchaseOfStructure,구축물의 취득,-,제 68 기 3분기,62404500,,,36,KRW,,제 67 기 3분기,6500000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,-표준계정코드 미사용-,무형자산의 감소,-,제 68 기 3분기,0,,,37,KRW,,제 67 기 3분기,135000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,-표준계정코드 미사용-,기타포괄공정가치측정금융자산의 처분,-,제 68 기 3분기,480000000,,,38,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,-표준계정코드 미사용-,기타포괄손익공정가치측정금융자산의 증가,-,제 68 기 3분기,0,,,39,KRW,,제 67 기 3분기,400000000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 68 기 3분기,-13444782218,,,40,KRW,,제 67 기 3분기,-10440772484,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 68 기 3분기,17754903944,,,41,KRW,,제 67 기 3분기,9489390593,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,제 68 기 3분기,6661606256,,,42,KRW,,제 67 기 3분기,5032528600,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금 수입,-,제 68 기 3분기,0,,,43,KRW,,제 67 기 3분기,70370000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 68 기 3분기,674421360,,,44,KRW,,제 67 기 3분기,-136030570,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 68 기 3분기,2515614377,,,45,KRW,,제 67 기 3분기,2080004692,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 68 기 3분기,187007219,,,46,KRW,,제 67 기 3분기,649862203,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 3분기,-3369615664,,,47,KRW,,제 67 기 3분기,-6416390482,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 68 기 3분기,6434148,,,48,KRW,,제 67 기 3분기,554594047,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,27479820000,,,3,KRW,,제 67 기 3분기,24831982000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,-46065359953,,,3,KRW,,제 67 기 3분기,269419126,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,670184285,,,3,KRW,,제 67 기 3분기,601926509,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,18731849399,,,3,KRW,,제 67 기 3분기,62014865868,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,118947640,,,3,KRW,,제 67 기 3분기,118968800,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 68 기 3분기,18850797039,,,3,KRW,,제 67 기 3분기,62133834668,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,36647205067,,,3,KRW,,제 67 기 3분기,36311538233,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 68 기 3분기,-932844320,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-932844320,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-1075224320,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,142380000,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,4,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,27479820000,,,5,KRW,,제 67 기 3분기,24831982000,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,-80687638621,,,5,KRW,,제 67 기 3분기,-23730141406,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-405040035,,,5,KRW,,제 67 기 3분기,601926509,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-16976292789,,,5,KRW,,제 67 기 3분기,38015305336,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,118969606,,,5,KRW,,제 67 기 3분기,118968829,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 68 기 3분기,-16857323183,,18850797039,5,KRW,,제 67 기 3분기,38134274165,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,36636565867,,,5,KRW,,제 67 기 3분기,36311538233,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-10639200,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,연결재무제표 [member],제 68 기 3분기,-10639200,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,-10639200,,,6,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,93627198,,,7,KRW,,제 67 기 3분기,-260610745,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,-665337,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,93627198,,,7,KRW,,제 67 기 3분기,-260610745,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 68 기 3분기,-3369615664,,,8,KRW,,제 67 기 3분기,-6416390482,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,21966,,,8,KRW,,제 67 기 3분기,29,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-34858285866,,,8,KRW,,제 67 기 3분기,-23738949787,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,8,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,-34858285866,,,8,KRW,,제 67 기 3분기,-23738949787,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,8,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS
+20251114003074,11014,2025,00122694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,8,KRW,,제 67 기 3분기,0,,002410,범양건영,CFS

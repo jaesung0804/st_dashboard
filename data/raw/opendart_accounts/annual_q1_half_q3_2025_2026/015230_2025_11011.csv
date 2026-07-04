@@ -1,0 +1,226 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 45 기,401820257799,제 44 기,372341113498,제 43 기,334751849114,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 45 기,261457120997,제 44 기,250300992393,제 43 기,221515052129,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 45 기,37811110064,제 44 기,38702208692,제 43 기,26631470126,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 45 기,767671887,제 44 기,382200059,제 43 기,0,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 45 기,97640799676,제 44 기,90602304661,제 43 기,94885871162,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 45 기,3341347334,제 44 기,2465294891,제 43 기,1821711408,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 45 기,64985151392,제 44 기,73798840370,제 43 기,53696489126,13,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 45 기,56911040644,제 44 기,44350143720,제 43 기,44479510307,14,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 45 기,140363136802,제 44 기,122040121105,제 43 기,113236796985,15,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 45 기,1004430000,제 44 기,1220100000,제 43 기,0,16,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 45 기,1192826657,제 44 기,1273921215,제 43 기,1108632547,17,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,지분법적용 투자지분,-,제 45 기,7824413114,제 44 기,6953521464,제 43 기,6338305019,18,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,비유동 순확정급여자산,-,제 45 기,1236492142,제 44 기,844000018,제 43 기,595170804,19,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 45 기,2646983685,제 44 기,2350089266,제 43 기,1632681148,20,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 45 기,122971205735,제 44 기,103976534676,제 43 기,97546916993,21,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 45 기,3486785469,제 44 기,5421954466,제 43 기,6015090474,22,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 45 기,323284050270,제 44 기,301343784779,제 43 기,272538657429,24,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 45 기,322892838277,제 44 기,299546671495,제 43 기,266615963148,25,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 45 기,89925706,제 44 기,89925706,제 43 기,89925706,26,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,자본조정,-,제 45 기,-23355925497,제 44 기,-23355925497,제 43 기,-18962755024,27,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 45 기,8571793990,제 44 기,10197075625,제 43 기,1579438618,28,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 45 기,14286115000,제 44 기,14286115000,제 43 기,14286115000,29,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 45 기,323300929078,제 44 기,298329480661,제 43 기,269623238848,30,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 45 기,391211993,제 44 기,1797113284,제 43 기,5922694281,31,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 45 기,401820257799,제 44 기,372341113498,제 43 기,334751849114,32,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 45 기,43521844091,제 44 기,40486249523,제 43 기,37308575376,34,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,유동 차입금,-,제 45 기,785597035,제 44 기,0,제 43 기,0,35,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 45 기,543600185,제 44 기,1894407395,제 43 기,1515706613,36,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 45 기,1172903428,제 44 기,1074120369,제 43 기,517990443,37,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 45 기,4098495334,제 44 기,2849656830,제 43 기,4294946009,38,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 45 기,483922112,제 44 기,969942108,제 43 기,1439160249,39,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 45 기,36437325997,제 44 기,33698122821,제 43 기,29540772062,40,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 45 기,78536207529,제 44 기,70997328719,제 43 기,62213191685,41,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 45 기,35014363438,제 44 기,30511079196,제 43 기,24904616309,42,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 45 기,27752173735,제 44 기,24548196941,제 43 기,18965731180,43,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_LongtermBorrowings,비유동차입금,-,제 45 기,6307526501,제 44 기,4480696769,제 43 기,3469900283,44,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 45 기,954663202,제 44 기,1482185486,제 43 기,2468984846,45,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,비유동 순확정급여부채,-,제 45 기,0,제 44 기,0,제 43 기,0,46,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 45 기,38033603172,제 44 기,30073913587,제 43 기,46442960961,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 45 기,766028389,제 44 기,8224763052,제 43 기,2030921547,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 45 기,165257339,제 44 기,235634004,제 43 기,947277738,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 45 기,31904081687,제 44 기,31770226121,제 43 기,28674110945,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 45 기,25974495891,제 44 기,41525358050,제 43 기,34440057956,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 45 기,-1405901291,제 44 기,-460649290,제 43 기,-80883123,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 45 기,27380397182,제 44 기,41986007340,제 43 기,34520941079,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 45 기,276329366298,제 44 기,260393189912,제 43 기,297005518338,13,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 45 기,1142,제 44 기,1317,제 43 기,1310,15,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 45 기,1142,제 44 기,1317,제 43 기,1310,16,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 45 기,5524107293,제 44 기,1930515429,제 43 기,4503241693,17,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 45 기,6310686144,제 44 기,10206181916,제 43 기,6416065341,18,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 45 기,69937684859,제 44 기,61844139708,제 43 기,75117071906,19,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 45 기,12544361775,제 44 기,12973861370,제 43 기,14936102534,20,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 45 기,-1502824124,제 44 기,8580114864,제 43 기,529715638,21,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 45 기,-2065990734,제 44 기,8957037119,제 43 기,695635367,22,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 45 기,-2109635313,제 44 기,8677776463,제 43 기,649964060,23,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 지분법 적용대상 관계기업과 공동기업의 세후기타포괄손익에 대한 지분,-,제 45 기,43644579,제 44 기,279260656,제 43 기,45671307,24,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 포괄손익,-,제 45 기,563166610,제 44 기,-376922255,제 43 기,-165919729,25,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,-,제 45 기,215699446,제 44 기,12319171,제 43 기,-29032957,26,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,-,제 45 기,221734545,제 44 기,-213221216,제 43 기,171026426,27,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업의 기타포괄손익에 대한 지분,-,제 45 기,125732619,제 44 기,-176020210,제 43 기,-307913198,28,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 45 기,27477320015,제 44 기,32945243186,제 43 기,33910342318,29,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 45 기,-1309011797,제 44 기,-629416024,제 43 기,-26136341,31,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 45 기,28786331812,제 44 기,33574659210,제 43 기,33936478659,32,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 45 기,40021681790,제 44 기,45919104556,제 43 기,48846444852,33,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 45 기,346267051157,제 44 기,322237329620,제 43 기,372122590244,34,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업및공동기업투자손익,-,제 45 기,600728717,제 44 기,-419604566,제 43 기,-592983566,35,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 45 기,38702208692,제 44 기,26631470126,제 43 기,31937445745,2,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 45 기,37811110064,제 44 기,38702208692,제 43 기,26631470126,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 45 기,-2935037859,제 44 기,-14546924479,제 43 기,-9424260876,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 45 기,0,제 44 기,4478526180,제 43 기,0,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 45 기,4034063690,제 44 기,4661941000,제 43 기,5179934500,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자지급,-,제 45 기,316811454,제 44 기,796123591,제 43 기,602836614,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동으로 인한 지급,-,제 45 기,0,제 44 기,3579576000,제 43 기,0,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,재무활동으로 분류된 리스부채의 지급,-,제 45 기,1833315672,제 44 기,1891089276,제 43 기,1726525107,13,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금에 따른 유입,-,제 45 기,3438509532,제 44 기,860331568,제 43 기,728220555,14,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동으로 인한 현금유입,-,제 45 기,0,제 44 기,0,제 43 기,881421790,15,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 45 기,189356575,제 44 기,0,제 43 기,3524607000,16,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 45 기,-14726099863,제 44 기,-15572779293,제 43 기,-69141877547,17,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_ProceedsFromSalesOfCurrentFairValueFinancialAsset,유동당기손익인식금융자산의 처분,-,제 45 기,7000000,제 44 기,687659254,제 43 기,0,18,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 처분,-,제 45 기,0,제 44 기,0,제 43 기,13848000000,19,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타금융자산(유동)의 처분,-,제 45 기,134118543837,제 44 기,111212286786,제 43 기,52479780048,20,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 처분,-,제 45 기,47786592,제 44 기,100190,제 43 기,7102733,21,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,유동당기손익인식금융자산의 취득,-,제 45 기,2500000,제 44 기,894710630,제 43 기,0,22,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 45 기,179443940,제 44 기,321536620,제 43 기,0,23,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업에 대한 투자자산의 취득,-,제 45 기,0,제 44 기,940000000,제 43 기,1260504000,24,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 45 기,125006043675,제 44 기,130875988072,제 43 기,95227627116,25,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 취득,-,제 45 기,0,제 44 기,0,제 43 기,10591196,26,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,-표준계정코드 미사용-,기타채무의증가,-,제 45 기,0,제 44 기,0,제 43 기,6698306798,27,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,-표준계정코드 미사용-,기타채무의감소,-,제 45 기,0,제 44 기,0,제 43 기,22116447873,28,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,투자활동으로 분류된 종속기업과 기타 사업의 지배력 상실에 따른 현금흐름,-,제 45 기,0,제 44 기,0,제 43 기,-964419256,29,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsInvestingActivities,배당금수취,-,제 45 기,2275000,제 44 기,0,제 43 기,0,30,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsInvestingActivities,이자수취,-,제 45 기,2860062500,제 44 기,3590844565,제 43 기,2110315354,31,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 45 기,1422543764,제 44 기,0,제 43 기,0,32,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 45 기,145454546,제 44 기,390909091,제 43 기,0,33,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 45 기,247344236,제 44 기,10352335608,제 43 기,295180900,34,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 45 기,109749080,제 44 기,546673370,제 43 기,22492082,35,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 45 기,28279373643,제 44 기,8228006095,제 43 기,24978481857,36,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 45 기,17704670608,제 44 기,40925256161,제 43 기,73418025954,37,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 45 기,25956370694,제 44 기,53681831705,제 43 기,89049807264,38,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 45 기,-20743963795,제 44 기,11530389455,제 43 기,35119857465,39,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융자산의 감소(증가) - 영업활동,-,제 45 기,-308981743,제 44 기,0,제 43 기,0,40,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 45 기,-201767042,제 44 기,-736488319,제 43 기,186210992,41,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentNonFinancialAssets,기타비유동비금융자산의 감소(증가),-,제 45 기,385608812,제 44 기,-381306782,제 43 기,0,42,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisions,충당부채의 증가(감소),-,제 45 기,-390509432,제 44 기,-226542256,제 43 기,0,43,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 45 기,733242480,제 44 기,512431620,제 43 기,643079450,44,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,-표준계정코드 미사용-,관계회사 퇴직금 전출입,-,제 45 기,33776390,제 44 기,0,제 43 기,0,45,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 45 기,-8378689480,제 44 기,10785981397,제 43 기,18316178346,46,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가) 조정,-,제 45 기,-1000244166,제 44 기,-446781282,제 43 기,6220807325,47,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables,기타 영업활동 관련 채권의 감소(증가),-,제 45 기,542340730,제 44 기,-466362733,제 43 기,106599989,48,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 45 기,-13580504983,제 44 기,3281984720,제 43 기,21488131538,49,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 45 기,-164875337,제 44 기,-487251587,제 43 기,-2160294955,50,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherOperatingPayables,기타 영업활동 관련 채무의 증가(감소),-,제 45 기,-1979580439,제 44 기,4104960657,제 43 기,-998755725,51,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 45 기,5032705375,제 44 기,-3385372740,제 43 기,-7395940595,52,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 45 기,19223014474,제 44 기,9206199064,제 43 기,20019607481,53,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 45 기,56300200,제 44 기,163158278,제 43 기,-122087237,54,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForDepreciationRightofuseAssets,사용권자산감가상각비 조정,-,제 45 기,1756289238,제 44 기,1903137859,제 43 기,1772452212,55,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익 조정,-,제 45 기,192706164,제 44 기,7464839602,제 43 기,249180101,56,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익 조정,-,제 45 기,671094043,제 44 기,2803814909,제 43 기,121931898,57,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익 조정,-,제 45 기,70514756,제 44 기,112684601,제 43 기,0,58,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfInvestmentsInAssociates,종속기업/관계기업/공동기업투자처분이익,-,제 45 기,0,제 44 기,0,제 43 기,1016653714,59,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가이익 조정,-,제 45 기,0,제 44 기,20121364,제 43 기,0,60,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용 조정,-,제 45 기,316811454,제 44 기,324763955,제 43 기,178782376,61,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실 조정,-,제 45 기,0,제 44 기,419604566,제 43 기,592983566,62,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실 조정,-,제 45 기,0,제 44 기,0,제 43 기,14000,63,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실 조정,-,제 45 기,23917069,제 44 기,0,제 43 기,4423410,64,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가손실 조정,-,제 45 기,27548870,제 44 기,0,제 43 기,0,65,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실 조정,-,제 45 기,1634092472,제 44 기,153457308,제 43 기,672042030,66,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익 조정,-,제 45 기,116590,제 44 기,63460,제 43 기,266392522,67,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForMiscellaneousLosses,잡손실 조정,-,제 45 기,0,제 44 기,184935610,제 43 기,0,68,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비 조정,-,제 45 기,65188682,제 44 기,58688947,제 43 기,0,69,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForOtherLossesWithoutCashFlowOut,기타 현금의 유출 없는 비용등,-,제 45 기,107800000,제 44 기,20467346,제 43 기,0,70,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익 조정,-,제 45 기,600728717,제 44 기,0,제 43 기,0,71,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여 조정,-,제 45 기,784806539,제 44 기,694259225,제 43 기,822248045,72,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,dart_AdjustmentsForWarrantyExpenses,하자보수비 조정,-,제 45 기,503656135,제 44 기,921687150,제 43 기,0,73,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,-표준계정코드 미사용-,당기손익인식금융자산처분이익 조정,-,제 45 기,278354060,제 44 기,87119005,제 43 기,0,74,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,-표준계정코드 미사용-,사용권자산처분이익 조정,-,제 45 기,24692440,제 44 기,113319,제 43 기,0,75,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비에 대한 조정,-,제 45 기,72445833,제 44 기,114356205,제 43 기,110976364,76,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비에 대한 조정,-,제 45 기,5956027635,제 44 기,4830687841,제 43 기,4881797642,77,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익에 대한 조정,-,제 45 기,2275000,제 44 기,0,제 43 기,0,78,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 45 기,12544361775,제 44 기,12973861370,제 43 기,14936102534,79,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 45 기,2785749658,제 44 기,3068110336,제 43 기,2175969226,80,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 45 기,27477320015,제 44 기,32945243186,제 43 기,33910342318,81,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부,-,제 45 기,8251700086,제 44 기,12756575544,제 43 기,15631781310,82,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 45 기,-934631514,제 44 기,1265186177,제 43 기,-157863150,83,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 45 기,-891098628,제 44 기,12070738566,제 43 기,-5305975619,84,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 45 기,301343784779,제 44 기,272538657429,제 43 기,242397320483,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 45 기,1797113284,제 44 기,5922694281,제 43 기,5122155614,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,299546671495,제 44 기,266615963148,제 43 기,237275164869,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,-23355925497,제 44 기,-18962755024,제 43 기,-18962755024,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,10197075625,제 44 기,1579438618,제 43 기,1167249706,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,298329480661,제 44 기,269623238848,제 43 기,240694629481,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,14286115000,제 44 기,14286115000,제 43 기,14286115000,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,89925706,제 44 기,89925706,제 43 기,89925706,3,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,-4478526180,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,연결재무제표 [member],제 45 기,0,제 44 기,-4478526180,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,-4478526180,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 45 기,4034230400,제 44 기,4662128520,제 43 기,5180142800,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,4034230400,제 44 기,4662128520,제 43 기,5180142800,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,4034230400,제 44 기,4662128520,제 43 기,5180142800,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,322892838277,제 44 기,299546671495,제 43 기,266615963148,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 45 기,391211993,제 44 기,1797113284,제 43 기,5922694281,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 45 기,323284050270,제 44 기,301343784779,제 43 기,272538657429,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,-23355925497,제 44 기,-23355925497,제 43 기,-18962755024,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,89925706,제 44 기,89925706,제 43 기,89925706,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,14286115000,제 44 기,14286115000,제 43 기,14286115000,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,323300929078,제 44 기,298329480661,제 43 기,269623238848,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,8571793990,제 44 기,10197075625,제 43 기,1579438618,6,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,-2010358279,제 44 기,8494438665,제 43 기,670847371,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 45 기,-99277034,제 44 기,183337798,제 43 기,-20883311,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),연결재무제표 [member],제 45 기,-2109635313,제 44 기,8677776463,제 43 기,649964060,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,-2010358279,제 44 기,8494438665,제 43 기,670847371,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,85355707,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,-3664931707,제 43 기,881421790,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,연결재무제표 [member],제 45 기,0,제 44 기,-3579576000,제 43 기,881421790,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,85355707,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,연결재무제표 [member],제 45 기,215699446,제 44 기,12319171,제 43 기,-29032957,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,-2810391,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,215699446,제 44 기,12319171,제 43 기,-26222566,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,215699446,제 44 기,12319171,제 43 기,-26222566,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,연결재무제표 [member],제 45 기,221734545,제 44 기,-213221216,제 43 기,171026426,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 45 기,2387540,제 44 기,-6932339,제 43 기,-1247082,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,219347005,제 44 기,-206288877,제 43 기,172273508,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,219347005,제 44 기,-206288877,제 43 기,172273508,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 45 기,27477320015,제 44 기,32945243186,제 43 기,33910342318,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 45 기,-1309011797,제 44 기,-629416024,제 43 기,-26136341,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,28786331812,제 44 기,33574659210,제 43 기,33936478659,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,28786331812,제 44 기,33574659210,제 43 기,33936478659,11,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",연결재무제표 [member],제 45 기,169377198,제 44 기,103240446,제 43 기,-262241891,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 45 기,169377198,제 44 기,110879171,제 43 기,-232435893,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,169377198,제 44 기,110879171,제 43 기,-232435893,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,-7638725,제 43 기,-29805998,12,KRW,,015230,대창단조,CFS
+20260319000402,11011,2025,00112679,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"지분법적용대상인 관계기업과 공동기업의 기타포괄손익의 총지분, 세후",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,015230,대창단조,CFS

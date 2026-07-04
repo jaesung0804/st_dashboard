@@ -1,0 +1,271 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 141 기,1255644259736,제 140 기,1214347475924,제 139 기,1206860950940,7,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 141 기,187655820492,제 140 기,145868325619,제 139 기,147155592912,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_AllowanceForDoubtfulAcccountShortTermTradeReceivable,대손충당금,-,제 141 기,1975780525,제 140 기,1485031882,제 139 기,1177291907,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermDepositsProvidedNet,보증금,-,제 141 기,710947067,제 140 기,1008916510,제 139 기,1051090392,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermOtherReceivablesNet,미수금,-,제 141 기,10357600963,제 140 기,9745624784,제 139 기,8647813583,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 141 기,45322131518,제 140 기,52912278168,제 139 기,49672777723,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_AccruedIncomeOtherThanContractAssets,미수수익,-,제 141 기,591848422,제 140 기,,제 139 기,5560274,13,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 141 기,65355314503,제 140 기,21620477438,제 139 기,29320807299,14,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentAdvancesToSuppliers,선급금,-,제 141 기,1395665185,제 140 기,2540324029,제 139 기,851148071,15,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentPrepaidExpenses,선급비용,-,제 141 기,2705431853,제 140 기,3117422484,제 139 기,2798130819,16,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 141 기,61813524256,제 140 기,54779182821,제 139 기,53893627622,17,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 141 기,1379137250,제 140 기,1629131267,제 139 기,1591929036,18,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 141 기,,제 140 기,,제 139 기,500000000,19,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 141 기,1067988439244,제 140 기,1068479150305,제 139 기,1059705358028,20,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LongTermDepositsProvidedNet,장기보증금,-,제 141 기,5281728113,제 140 기,5149968223,제 139 기,5326064556,21,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LongTermPrepaidExpensesNet,장기선급비용,-,제 141 기,212042498,제 140 기,368748223,제 139 기,472531078,22,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 141 기,1731205746,제 140 기,1754579107,제 139 기,1415798354,23,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 141 기,582176159038,제 140 기,591073385221,제 139 기,590100438694,24,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_InvestmentsInAssociatesAccountedForUsingEquityMethod,관계기업주식,-,제 141 기,63021828472,제 140 기,63219142607,제 139 기,67118477235,25,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_LongtermDeposits,장기금융기관예치금,-,제 141 기,9500000,제 140 기,9500000,제 139 기,72207904,26,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정금융자산,-,제 141 기,101651970704,제 140 기,92106909147,제 139 기,83133070070,27,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 141 기,9918394376,제 140 기,1572493036,제 139 기,1630339869,28,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 141 기,9100320885,제 140 기,9181411161,제 139 기,9560539022,29,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 141 기,276612426825,제 140 기,282915671561,제 139 기,280039180736,30,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 141 기,18272862587,제 140 기,21127342019,제 139 기,20836710510,31,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 141 기,811826797534,제 140 기,759626462484,제 139 기,738045543935,33,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 141 기,811845969050,제 140 기,759641998841,제 139 기,738061858170,34,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 141 기,-20922909913,제 140 기,-30079127550,제 139 기,-30079127550,35,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LossesSaleTreasuryStock,자기주식처분손실,-,제 141 기,3736670995,제 140 기,,제 139 기,,36,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_TreasuryShares,자기주식,-,제 141 기,17186238918,제 140 기,30079127550,제 139 기,30079127550,37,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 141 기,-736517284,제 140 기,-138323858,제 139 기,-1239702955,38,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ComprehensiveIncomeGainsLossesEquityMethodSecurities,지분법자본변동,-,제 141 기,-581281191,제 140 기,-581281191,제 139 기,-581281191,39,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_ReserveOfExchangeDifferencesOnTranslation,해외사업환산손익,-,제 141 기,677680306,제 140 기,1475928867,제 139 기,274989550,40,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산평가손익,-,제 141 기,-327127983,제 140 기,-571912990,제 139 기,-582099677,41,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_ReserveOfRemeasurementsOfDefinedBenefitPlans,보험수리적손익,-,제 141 기,-505788416,제 140 기,-461058544,제 139 기,-351311637,42,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 141 기,13707635000,제 140 기,13707635000,제 139 기,13707635000,43,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_IssuedCapitalOfCommonStock,보통주자본금,-,제 141 기,13707635000,제 140 기,13707635000,제 139 기,13707635000,44,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 141 기,819797761247,제 140 기,776151815249,제 139 기,755673053675,45,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_RetainedEarningsBeforeAppropriationsAccumulatedDeficitBeforeDisposition,미처분이익잉여금(결손금),-,제 141 기,29825237440,제 140 기,10553291442,제 139 기,-17113470132,46,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_VoluntaryReserves,별도적립금,-,제 141 기,231500000000,제 140 기,207500000000,제 139 기,215000000000,47,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,-표준계정코드 미사용-,자산재평가적립금,-,제 141 기,552212523807,제 140 기,552212523807,제 139 기,552212523807,48,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_StatutoryReserve,이익준비금,-,제 141 기,6260000000,제 140 기,5886000000,제 139 기,5574000000,49,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 141 기,-19171516,제 140 기,-15536357,제 139 기,-16314235,50,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와 자본총계,-,제 141 기,1255644259736,제 140 기,1214347475924,제 139 기,1206860950940,51,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 141 기,266261459346,제 140 기,247427767447,제 139 기,284315938413,53,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermGuaranteeDepositRent,수입보증금,-,제 141 기,18485109511,제 140 기,21833728229,제 139 기,26607537622,54,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermIncomeReceivedInAdvance,선수수익,-,제 141 기,5404372052,제 140 기,5705593523,제 139 기,5606858181,55,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 141 기,194234604,제 140 기,196812810,제 139 기,331332311,56,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_AccrualsClassifiedAsCurrent,미지급비용,-,제 141 기,8768060149,제 140 기,8348684994,제 139 기,11387281142,57,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentAdvances,선수금,-,제 141 기,267588747,제 140 기,368841288,제 139 기,212190390,58,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,파생상품부채,-,제 141 기,151525440,제 140 기,107942100,제 139 기,0,59,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기부채,-,제 141 기,,제 140 기,,제 139 기,80000000000,60,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 141 기,4273311590,제 140 기,4777128697,제 139 기,4519659054,61,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 141 기,6733022450,제 140 기,3763784611,제 139 기,2879351936,62,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_OtherCurrentPayables,미지급금,-,제 141 기,13373345787,제 140 기,12465268021,제 139 기,13553733142,63,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 141 기,186681508326,제 140 기,167732677496,제 139 기,117604550517,64,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 141 기,21929380690,제 140 기,22127305678,제 139 기,21613444118,65,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 141 기,443817462202,제 140 기,454721013440,제 139 기,468815407005,66,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 141 기,177556002856,제 140 기,207293245993,제 139 기,184499468592,67,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LongTermGuaranteeDepositRentGross,장기수입보증금,-,제 141 기,85679848000,제 140 기,82756040000,제 139 기,78962040000,68,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LongTermIncomeReceivedInAdvance,장기선수수익,-,제 141 기,14106069430,제 140 기,18601766244,제 139 기,20137448040,69,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_LongTermOtherGuaranteeDepositReceivedGross,위탁영업예치금,-,제 141 기,27000000000,제 140 기,27000000000,제 139 기,27000000000,70,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_PresentValueDiscountsLongTermGuaranteeDepositRentGross,현재가치할인차금,-,제 141 기,14004153084,제 140 기,17280948120,제 139 기,19832274839,71,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,dart_PresentValueDiscountsLongTermOtherGuaranteeDepositReceivedGross,현재가치할인차금,-,제 141 기,5988460372,제 140 기,7362249586,제 139 기,8646185619,72,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 141 기,49536499127,제 140 기,44086996393,제 139 기,46259288315,73,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 141 기,15000000000,제 140 기,50000000000,제 139 기,30000000000,74,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 141 기,6226199755,제 140 기,9491641062,제 139 기,10619152695,75,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_NonOperatingExpense,영업외비용,-,제 141 기,7512653835,제 140 기,9098262713,제 139 기,24597346800,6,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossOnForeignExchangeTranslations,외화환산손실,-,제 141 기,4054895148,제 140 기,4952334494,제 139 기,2952070901,7,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_MiscellaneousLosses,잡손실,-,제 141 기,1281316162,제 140 기,476979350,제 139 기,1040772380,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,-표준계정코드 미사용-,사용권자산손상차손,-,제 141 기,,제 140 기,,제 139 기,2484541352,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ForeignExchangeLoss,외환차손,-,제 141 기,2176442525,제 140 기,3660988869,제 139 기,2524022042,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ImpairmentLossRecognisedInProfitOrLossInvestmentProperty,투자부동산손상차손,-,제 141 기,,제 140 기,,제 139 기,2646263159,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment,유형자산손상차손,-,제 141 기,,제 140 기,,제 139 기,12914052632,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_LossesOnDisposalsOfPropertyPlantAndEquipment,유형자산처분손실,-,제 141 기,,제 140 기,7960000,제 139 기,35624334,13,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_NonOperatingIncome,영업외수익,-,제 141 기,9523550342,제 140 기,16614705255,제 139 기,4723607417,14,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_GainOnForeignExchangeTranslations,외화환산이익,-,제 141 기,1474424840,제 140 기,7958109064,제 139 기,1902875924,15,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_MiscellaneousIncome,잡이익,-,제 141 기,538417517,제 140 기,275503499,제 139 기,376967211,16,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_ReversalsOfImpairmentLossesOnInvestmentProperty,투자부동산손상차손환입,-,제 141 기,858000860,제 140 기,807181473,제 139 기,,17,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_ReversalsOfPropertyPlantAndEquipment,유형자산손상차손환입,-,제 141 기,3721414629,제 140 기,3681536620,제 139 기,,18,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,-표준계정코드 미사용-,사용권자산손상차손환입,-,제 141 기,936668759,제 140 기,813631994,제 139 기,,19,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ForeignExchangeGain,외환차익,-,제 141 기,1993529737,제 140 기,3061408787,제 139 기,2443764282,20,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_GainsOnDisposalsOfPropertyPlantAndEquipment,유형자산처분이익,-,제 141 기,1094000,제 140 기,17333818,제 139 기,,21,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_OperatingIncomeLoss,영업손익,-,제 141 기,45993453219,제 140 기,33449462550,제 139 기,15968826403,22,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,-표준계정코드 미사용-,관계기업투자손익,-,제 141 기,2312188541,제 140 기,-6343810631,제 139 기,4494340344,23,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업투자주식처분이익,-,제 141 기,299057171,제 140 기,744546055,제 139 기,0,24,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 141 기,802891247,제 140 기,7966183187,제 139 기,258494298,25,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossesOnSaleOfInvestmentsInAssociates,관계기업투자주식처분손실,-,제 141 기,,제 140 기,34043496,제 139 기,705668,26,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 141 기,2816022617,제 140 기,911869997,제 139 기,4753540310,27,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 141 기,277551770809,제 140 기,272322655815,제 139 기,281727138783,28,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당손익,-,제 141 기,1888,제 140 기,947,제 139 기,-540,30,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당손익,-,제 141 기,1888,제 140 기,947,제 139 기,-540,31,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 141 기,18124785828,제 140 기,24024237500,제 139 기,29028586766,32,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossesOnDisposalsOfFairValueFinancialAssetFinancialExpense,당기손익-공정가치금융자산처분손실,-,제 141 기,99938690,제 140 기,204973467,제 139 기,4098999861,33,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossesOnTransactionOfDerivativeFinancialInstrumentsFinancialExpense,파생상품거래손실,-,제 141 기,283669928,제 140 기,188820003,제 139 기,14159,34,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_LossesOnValuationOfFairValueFinancialAssetFinancialExpense,당기손익-공정가치금융자산평가손실,-,제 141 기,2694550358,제 140 기,7554483369,제 139 기,4552074760,35,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_InterestExpense,이자비용,-,제 141 기,8119584733,제 140 기,10431344927,제 139 기,12231935425,36,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_LossesOnChangeInFairValueOfDerivatives,파생상품평가손실,-,제 141 기,43583340,제 140 기,107942100,제 139 기,0,37,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_OtherFinanceCost,기타금융비용,-,제 141 기,6883458779,제 140 기,5536673634,제 139 기,8145562561,38,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 141 기,27403990466,제 140 기,21130695803,제 139 기,25865227174,39,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_DividendIncome,배당금수익,-,제 141 기,4453944935,제 140 기,15098144302,제 139 기,2913215614,40,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_GainsOnDisposalsOfFairValueFinancialAssetFinancialIncome,당기손익-공정가치금융자산처분이익,-,제 141 기,15369404141,제 140 기,2136215361,제 139 기,11696080278,41,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_GainsOnTransactionOfDerivativeFinancialInstrumentsFinancialIncome,파생상품거래이익,-,제 141 기,,제 140 기,,제 139 기,14929928,42,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_GainsOnValuationOfFairValueFinancialAssetFinancialIncome,당기손익-공정가치금융자산평가이익,-,제 141 기,6797010331,제 140 기,2520584362,제 139 기,2658768861,43,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_InterestIncomeFinanceIncome,이자수익,-,제 141 기,387510075,제 140 기,721257394,제 139 기,274301944,44,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_GainsOnChangeInFairValueOfDerivatives,파생상품평가이익,-,제 141 기,233494141,제 140 기,497881476,제 139 기,8001776319,45,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_OtherFinanceIncome,기타금융수익,-,제 141 기,162626843,제 140 기,156612908,제 139 기,306154230,46,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 141 기,134924106654,제 140 기,124954100582,제 139 기,111791820213,47,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 141 기,12216596954,제 140 기,8134225194,제 139 기,10878286923,48,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 141 기,47379145951,제 140 기,23594327570,제 139 기,-13452219151,49,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 141 기,-4090547,제 140 기,1157246,제 139 기,3189086,51,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 141 기,47383236498,제 140 기,23593170324,제 139 기,-13455408237,52,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 141 기,59595742905,제 140 기,31728552764,제 139 기,-2573932228,53,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_Revenue,매출액,-,제 141 기,412475877463,제 140 기,397276756397,제 139 기,393518958996,54,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 141 기,88930653435,제 140 기,91504638032,제 139 기,95822993810,55,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_AdvertisingExpensesSellingGeneralAdministrativeExpenses,광고선전비,-,제 141 기,804656817,제 140 기,767554911,제 139 기,1063533071,56,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_AmortisationExpenseSellingGeneralAdministrativeExpenses,무형자산상각비,-,제 141 기,22447569,제 140 기,28405969,제 139 기,43884741,57,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_BadDebtExpensesSellingGeneralAdministrativeExpenses,대손상각비,-,제 141 기,535974727,제 140 기,235392440,제 139 기,163609674,58,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_CommissionsSellingGeneralAdministrativeExpenses,지급수수료,-,제 141 기,67146631770,제 140 기,67026791982,제 139 기,71268405934,59,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_CommunicationExpensesSellingGeneralAdministrativeExpenses,통신비,-,제 141 기,54115875,제 140 기,67791822,제 139 기,102278395,60,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_ConferenceExpensesSellingGeneralAdministrativeExpenses,회의비,-,제 141 기,22540741,제 140 기,18164722,제 139 기,17803271,61,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_DepreciationExpenseSellingGeneralAdministrativeExpenses,감가상각비,-,제 141 기,7803605019,제 140 기,11351059272,제 139 기,10720924781,62,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_EmployeeBenefitsSellingGeneralAdministrativeExpenses,복리후생비,-,제 141 기,455020509,제 140 기,481307966,제 139 기,545408876,63,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_EntertainmentExpensesSellingGeneralAdministrativeExpenses,접대비,-,제 141 기,336125752,제 140 기,314239543,제 139 기,313997411,64,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_FreightExpensesSellingGeneralAdministrativeExpenses,선임과운임,-,제 141 기,2114218883,제 140 기,2042436970,제 139 기,1946930463,65,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_InsurancePremiumsSellingGeneralAdministrativeExpenses,보험료,-,제 141 기,72105842,제 140 기,69497470,제 139 기,72480352,66,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_MiscellaneousExpenses,잡비,-,제 141 기,340405004,제 140 기,98843112,제 139 기,189495424,67,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_OrdinaryDevelopmentExpenseSellingGeneralAdministrativeExpenses,기술개발비,-,제 141 기,62108766,제 140 기,39790547,제 139 기,30702557,68,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_ProvisionForSeveranceIndemnities,퇴직급여,-,제 141 기,229466077,제 140 기,253280448,제 139 기,275184330,69,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_RentalExpensesSellingGeneralAdministrativeExpenses,임차료,-,제 141 기,31336137,제 140 기,26706658,제 139 기,27622627,70,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_RepairExpensesSellingGeneralAdministrativeExpenses,수선비,-,제 141 기,669759662,제 140 기,376891310,제 139 기,722801355,71,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_SalariesWages,급여,-,제 141 기,3407910886,제 140 기,3488516885,제 139 기,3564214056,72,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_SupplyExpensesSellingGeneralAdministrativeExpenses,소모품비,-,제 141 기,181109022,제 140 기,160332619,제 139 기,208866894,73,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_TaxesDuesSellingGeneralAdministrativeExpenses,제세공과금,-,제 141 기,2159185725,제 140 기,2113158262,제 139 기,2115579077,74,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_TrainingExpensesSellingGeneralAdministrativeExpenses,교육훈련비,-,제 141 기,17503999,제 140 기,21045110,제 139 기,35444709,75,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_TravelExpensesSellingGeneralAdministrativeExpenses,여비교통비,-,제 141 기,284639398,제 140 기,312526374,제 139 기,238952386,76,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_UtilityExpensesSellingGeneralAdministrativeExpenses,수도광열비,-,제 141 기,2107715981,제 140 기,2139676946,제 139 기,2081384123,77,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,IS,손익계산서,dart_VehicleMaintenanceExpensesSellingGeneralAdministrativeExpenses,차량유지비,-,제 141 기,72069274,제 140 기,71226694,제 139 기,73489303,78,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익(손실),-,제 141 기,46781407913,제 140 기,24695327299,제 139 기,-13848506672,6,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 141 기,-3635159,제 140 기,777878,제 139 기,3988534,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유지분,-,제 141 기,46785043072,제 140 기,24694549421,제 139 기,-13852495206,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 141 기,-597738038,제 140 기,1100999729,제 139 기,-396287521,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 141 기,-797793173,제 140 기,1200559949,제 139 기,-353692061,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 141 기,-797793173,제 140 기,1200559949,제 139 기,-352936169,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 141 기,,제 140 기,,제 139 기,-755892,13,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 141 기,200055135,제 140 기,-99560220,제 139 기,-42595460,14,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산관련손익,-,제 141 기,244785007,제 140 기,10186687,제 139 기,-28079837,15,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,-,제 141 기,-44729872,제 140 기,-109746907,제 139 기,-14515623,16,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 141 기,47379145951,제 140 기,23594327570,제 139 기,-13452219151,17,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 141 기,21620477438,제 140 기,29320807299,제 139 기,20627097681,2,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 141 기,65355314503,제 140 기,21620477438,제 139 기,29320807299,3,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 141 기,-18590465459,제 140 기,-25609615778,제 139 기,-31353485138,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 141 기,35000000000,제 140 기,30000000000,제 139 기,20000000000,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 141 기,214426039595,제 140 기,198665420997,제 139 기,195181555097,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,-표준계정코드 미사용-,유동성장기부채의 상환,-,제 141 기,,제 140 기,30000000000,제 139 기,1298760000,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 141 기,3732323460,제 140 기,3110269435,제 139 기,3110164735,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 141 기,2964270883,제 140 기,2712370633,제 139 기,3144145865,13,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ProceedsFromCurrentBorrowings,단기차입금의 차입,-,제 141 기,237532168479,제 140 기,238878445287,제 139 기,191381140559,14,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 141 기,981954421,제 140 기,-42933598967,제 139 기,-7490438072,15,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 141 기,67614149275,제 140 기,47685242513,제 139 기,65275850485,16,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 141 기,,제 140 기,80000000,제 139 기,,17,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융기관예치금의 감소,-,제 141 기,,제 140 기,64122368,제 139 기,633910611,18,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 141 기,,제 140 기,500000000,제 139 기,,19,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 141 기,54982566264,제 140 기,58839103629,제 139 기,59393706343,20,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 141 기,,제 140 기,,제 139 기,500000000,21,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업주식의 처분,-,제 141 기,2436746056,제 140 기,3936729283,제 139 기,788263653,22,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 141 기,1094000,제 140 기,17333818,제 139 기,0,23,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 141 기,16344661,제 140 기,130821523,제 139 기,1769356,24,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업주식의 취득,-,제 141 기,1188000000,제 140 기,7840136165,제 139 기,5025509574,25,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 141 기,5131900000,제 140 기,13241900000,제 139 기,4011558165,26,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 141 기,7751223985,제 140 기,15165065632,제 139 기,5255919383,27,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 141 기,60087310946,제 140 기,59309423358,제 139 기,46197442385,28,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 141 기,-1023100634,제 140 기,-1699044986,제 139 기,23950012396,29,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAccruedIncome,미수수익의 감소(증가),-,제 141 기,-592242405,제 140 기,,제 139 기,,30,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 141 기,889040332,제 140 기,-1465589129,제 139 기,41985326,31,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInDepositsProvided,보증금의 감소(증가),-,제 141 기,25162365,제 140 기,327801066,제 139 기,447720228,32,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의 감소(증가),-,제 141 기,-4137014,제 140 기,-56079369,제 139 기,-24045688,33,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 141 기,-549474549,제 140 기,-995063900,제 139 기,-1381396765,34,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInIncomeReceivedInAdvance,장단기선수수익의 증가(감소),-,제 141 기,974702533,제 140 기,3908535545,제 139 기,-1407933931,35,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 141 기,476121740,제 140 기,-2746593040,제 139 기,128782647,36,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 141 기,-88499122,제 140 기,96328554,제 139 기,67940506,37,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInGuaranteeDepositRent,장단기수입보증금의 증가(감소),-,제 141 기,-480000000,제 140 기,-970339000,제 139 기,112000000,38,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 141 기,1113598989,제 140 기,213645722,제 139 기,-4781173310,39,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 141 기,4440438,제 140 기,,제 139 기,,40,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의 지급,-,제 141 기,245862986,제 140 기,193920631,제 139 기,75954312,41,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,-표준계정코드 미사용-,기타자산부채의 증감,-,제 141 기,-653709309,제 140 기,-807123507,제 139 기,-64311884,42,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 141 기,-9017418766,제 140 기,669620077,제 139 기,43559344840,43,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,장단기선급비용의 감소(증가),-,제 141 기,1126512358,제 140 기,957190091,제 139 기,1353162448,44,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 141 기,5920748225,제 140 기,-643921323,제 139 기,-12677257494,45,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 141 기,77916537,제 140 기,6463858,제 139 기,-1348850215,46,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정항목,-,제 141 기,22789138267,제 140 기,42140355485,제 139 기,51868982961,47,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 141 기,535974727,제 140 기,235392440,제 139 기,163609674,48,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForGainOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분이익,-,제 141 기,299057171,제 140 기,710502559,제 139 기,,49,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForGainsLossesOnTransactionOfDerivativeFinancialInstruments,파생상품거래손익,-,제 141 기,-283669928,제 140 기,-188820003,제 139 기,14915769,50,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가이익,-,제 141 기,6797010331,제 140 기,2520584362,제 139 기,2658768861,51,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForImpairmentLossOnLeasedAssets,리스자산 손상차손,-,제 141 기,,제 140 기,,제 139 기,2484541352,52,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 141 기,8119584733,제 140 기,10431344927,제 139 기,12231935425,53,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForLossOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분손실,-,제 141 기,,제 140 기,,제 139 기,705668,54,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 141 기,802891247,제 140 기,7966183187,제 139 기,258494298,55,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가손실,-,제 141 기,2694550358,제 140 기,7554483369,제 139 기,4552074760,56,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForOtherIncomeExpense,기타손익,-,제 141 기,4533192,제 140 기,15724178,제 139 기,-310455862,57,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 141 기,2816022617,제 140 기,911869997,제 139 기,4753540310,58,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 141 기,176311050,제 140 기,154248200,제 139 기,124403010,59,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForReversalsOfImpairmentLossOnLeasedAssets,리스자산손상차손환입,-,제 141 기,936668759,제 140 기,813631994,제 139 기,,60,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_AdjustmentsForReversalsOfPropertyPlantAndEquipment,유형자산손상차손환입,-,제 141 기,3721414629,제 140 기,3681536620,제 139 기,0,61,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_GainsLossesOnDisposalsOfFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산처분손익,-,제 141 기,15269465451,제 140 기,1931241894,제 139 기,7597080417,62,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,dart_ReversalsOfImpairmentLossesOnInvestmentProperty,투자부동산손상차손환입,-,제 141 기,858000860,제 140 기,807181473,제 139 기,,63,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,-표준계정코드 미사용-,복합쇼핑몰운영원가,-,제 141 기,,제 140 기,25819191,제 139 기,6748055,64,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,-표준계정코드 미사용-,복합쇼핑몰운영수익,-,제 141 기,5822932841,제 140 기,5897866036,제 139 기,3741619217,65,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 141 기,162997195,제 140 기,157472678,제 139 기,43884741,66,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 141 기,32490830377,제 140 기,37450929838,제 139 기,40112988061,67,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 141 기,4453944935,제 140 기,15098144302,제 139 기,2913215614,68,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForFinanceCosts,기타금융비용,-,제 141 기,5242957280,제 140 기,5536673634,제 139 기,8113544463,69,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForGainLossOnDisposalsPropertyPlantAndEquipment,유형자산처분손익,-,제 141 기,1094000,제 140 기,9373818,제 139 기,-35624334,70,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForGainsLossesOnChangeInFairValueOfDerivatives,파생상품평가손익,-,제 141 기,189910801,제 140 기,389939376,제 139 기,8001776319,71,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossInventories,재고자산평가손익,-,제 141 기,-797503385,제 140 기,976004305,제 139 기,-13796451752,72,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(이익),-,제 141 기,12216596954,제 140 기,8134225194,제 139 기,10878286923,73,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 141 기,387510075,제 140 기,721257394,제 139 기,274301944,74,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains,외화환산손익,-,제 141 기,2580470308,제 140 기,-3005774570,제 139 기,1049194977,75,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ImpairmentLossRecognisedInProfitOrLossInvestmentProperty,투자부동산손상차손,-,제 141 기,,제 140 기,,제 139 기,2646263159,76,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment,유형자산손상차손,-,제 141 기,,제 140 기,,제 139 기,12914052632,77,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_OtherFinanceIncome,기타금융수익,-,제 141 기,162626843,제 140 기,156612908,제 139 기,306154230,78,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 141 기,5714701555,제 140 기,16557075181,제 139 기,4059345223,79,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_FinanceCostsPaidClassifiedAsOperatingActivities,기타금융비용 지급,-,제 141 기,407553344,제 140 기,473441644,제 139 기,542516724,80,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_IncomeTaxesPaidClassifiedAsOperatingActivities,"법인세 납부, 영업활동",-,제 141 기,6192790188,제 140 기,10003168225,제 139 기,7439410364,81,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자비용 지급,-,제 141 기,8559740736,제 140 기,11533497691,제 139 기,12515493626,82,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수익 수취,-,제 141 기,387510075,제 140 기,726817668,제 139 기,268741670,83,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 141 기,47379145951,제 140 기,23594327570,제 139 기,-13452219151,84,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금성자산의 환율변동으로 인한 효과,-,제 141 기,1256037157,제 140 기,1533461526,제 139 기,1340190443,85,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 순증감,-,제 141 기,43734837065,제 140 기,-7700329861,제 139 기,8693709618,86,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,244785007,제 140 기,10186687,제 139 기,-28079837,3,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,244785007,제 140 기,10186687,제 139 기,-28079837,3,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산평가손익,연결재무제표 [member],제 141 기,244785007,제 140 기,10186687,제 139 기,-28079837,3,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 141 기,12892888632,제 140 기,,제 139 기,,4,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,12892888632,제 140 기,0,제 139 기,,4,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 141 기,12892888632,제 140 기,,제 139 기,,4,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,759641998841,제 140 기,738061858170,제 139 기,755028762126,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 141 기,-15536357,제 140 기,-16314235,제 139 기,-20302769,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 141 기,759626462484,제 140 기,738045543935,제 139 기,755008459357,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 141 기,-30079127550,제 140 기,-30079127550,제 139 기,-30079127550,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 141 기,13707635000,제 140 기,13707635000,제 139 기,13707635000,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 141 기,776151815249,제 140 기,755673053675,제 139 기,772242870662,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,-138323858,제 140 기,-1239702955,제 139 기,-842615986,5,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,-표준계정코드 미사용-,자기주식의 처분손실,연결재무제표 [member],제 141 기,-3736670995,제 140 기,,제 139 기,,6,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,-표준계정코드 미사용-,자기주식의 처분손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,-3736670995,제 140 기,0,제 139 기,,6,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,-표준계정코드 미사용-,자기주식의 처분손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 141 기,-3736670995,제 140 기,,제 139 기,,6,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,3737290500,제 140 기,3114408750,제 139 기,3114408750,7,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,연결재무제표 [member],제 141 기,3737290500,제 140 기,3114408750,제 139 기,3114408750,7,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 141 기,3737290500,제 140 기,3114408750,제 139 기,3114408750,7,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 141 기,811826797534,제 140 기,759626462484,제 139 기,738045543935,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 141 기,13707635000,제 140 기,13707635000,제 139 기,13707635000,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 141 기,819797761247,제 140 기,776151815249,제 139 기,755673053675,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,-736517284,제 140 기,-138323858,제 139 기,-1239702955,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 141 기,-20922909913,제 140 기,-30079127550,제 139 기,-30079127550,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,811845969050,제 140 기,759641998841,제 139 기,738061858170,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 141 기,-19171516,제 140 기,-15536357,제 139 기,-16314235,8,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 141 기,455388,제 140 기,-379368,제 139 기,799448,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 141 기,-797793173,제 140 기,1200559949,제 139 기,-352936169,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,-798248561,제 140 기,1200939317,제 139 기,-353735617,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,-798248561,제 140 기,1200939317,제 139 기,-353735617,9,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,-44729872,제 140 기,-109746907,제 139 기,-14515623,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,연결재무제표 [member],제 141 기,-44729872,제 140 기,-109746907,제 139 기,-14515623,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,-44729872,제 140 기,-109746907,제 139 기,-14515623,10,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 141 기,47383236498,제 140 기,23593170324,제 139 기,-13455408237,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,47383236498,제 140 기,23593170324,제 139 기,-13455408237,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 141 기,-4090547,제 140 기,1157246,제 139 기,3189086,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 141 기,47379145951,제 140 기,23594327570,제 139 기,-13452219151,11,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 141 기,0,제 140 기,0,제 139 기,-755892,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 141 기,,제 140 기,,제 139 기,-755892,12,KRW,,000050,경방,CFS
+20260318000486,11011,2025,00101628,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 141 기,,제 140 기,,제 139 기,-755892,12,KRW,,000050,경방,CFS

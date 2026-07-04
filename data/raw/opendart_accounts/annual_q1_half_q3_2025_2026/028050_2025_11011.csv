@@ -1,0 +1,192 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 59 기,10039557572475,제 58 기,10013337796132,제 57 기,7801398613122,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 59 기,7659197467345,제 58 기,7941890024257,제 57 기,5965342032534,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_CurrentFirmCommitmentAsset,확정계약자산,-,제 59 기,74384193,제 58 기,694247113,제 57 기,7829698677,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWorkNet,미청구공사,-,제 59 기,730748340033,제 58 기,620117161703,제 57 기,1549747225120,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermLoansNet,단기대여금,-,제 59 기,80582116746,제 58 기,27800847222,제 57 기,37320135541,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermOtherReceivablesNet,미수금,-,제 59 기,244240139430,제 58 기,191438936570,제 57 기,118649778893,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermPrepaidConstructionCostsNet,선급공사비,-,제 59 기,47112071,제 58 기,6140701908,제 57 기,17196719127,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 59 기,861796626374,제 58 기,2595674599832,제 57 기,915023632645,14,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialAssets,파생상품자산,-,제 59 기,31999705729,제 58 기,328987674,제 57 기,8465234166,15,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtAmortisedCost,유동성 상각후원가 측정 금융자산,-,제 59 기,365880000,제 58 기,156780000,제 57 기,87920000,16,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentPrepaidExpenses,선급비용,-,제 59 기,53715319290,제 58 기,47273330664,제 57 기,53433397117,17,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentPrepayments,선급금,-,제 59 기,492658844524,제 58 기,265978872273,제 57 기,359674338092,18,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 59 기,24278710315,제 58 기,8577571345,제 57 기,44977557256,19,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 59 기,2918247972841,제 58 기,3504750561009,제 57 기,2101194980427,20,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 59 기,210207980489,제 58 기,169992908378,제 57 기,196067751969,21,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 59 기,2010234335310,제 58 기,502964518566,제 57 기,555673663504,22,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 59 기,2380360105130,제 58 기,2071447771875,제 57 기,1836056580588,23,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_LongTermDepositsProvidedNet,보증금,-,제 59 기,152396152476,제 58 기,163469748677,제 57 기,75862851134,24,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_NonCurrentFirmCommitmentAsset,확정계약자산,-,제 59 기,32552846,제 58 기,0,제 57 기,0,25,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 59 기,804735620966,제 58 기,786877280187,제 57 기,692881624786,26,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 59 기,107580579386,제 58 기,98886766326,제 57 기,80599203902,27,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업 및 공동기업투자,-,제 59 기,270630588992,제 58 기,223154522170,제 57 기,177120220905,28,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 59 기,171268663714,제 58 기,174015701020,제 57 기,176762738326,29,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialAssets,파생상품자산,-,제 59 기,12546728611,제 58 기,2097841410,제 57 기,2445158513,30,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtAmortisedCost,상각후원가 측정 금융자산,-,제 59 기,588446719,제 58 기,961129052,제 57 기,1053490423,31,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융자산,-,제 59 기,62811623527,제 58 기,61684564460,제 57 기,52406817217,32,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentInvestmentsInEquityInstrumentsDesignatedAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 59 기,36720748306,제 58 기,32463297729,제 57 기,28905211567,33,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 59 기,229491131299,제 58 기,48834117996,제 57 기,79905944328,34,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 59 기,24071908595,제 58 기,35641011189,제 57 기,38391215524,35,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 59 기,507485359693,제 58 기,443361791659,제 57 기,429722103963,36,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 59 기,4446187475181,제 58 기,3895741786193,제 57 기,3298338295974,38,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유지본,-,제 59 기,4740713498360,제 58 기,4231791398254,제 57 기,3473253746048,39,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 59 기,85308429010,제 58 기,64507327508,제 57 기,62899009458,40,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 59 기,980000000000,제 58 기,980000000000,제 57 기,980000000000,41,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 59 기,3675405069350,제 58 기,3187284070746,제 57 기,2430354736590,42,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 59 기,-294526023179,제 58 기,-336049612061,제 57 기,-174915450074,43,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와자본총계,-,제 59 기,10039557572475,제 58 기,10013337796132,제 57 기,7801398613122,44,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 59 기,5258678217510,제 58 기,5871110579495,제 57 기,4216949491567,46,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,금융보증부채,-,제 59 기,269357091981,제 58 기,288082552702,제 57 기,130614360933,47,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_CurrentFirmCommitmentLiabilities,확정계약부채,-,제 59 기,14198290005,제 58 기,37801770,제 57 기,979207553,48,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,-,제 59 기,457898309477,제 58 기,343786482646,제 57 기,243977578273,49,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,초과청구공사,-,제 59 기,2326743078297,제 58 기,2811677449322,제 57 기,1687599714604,50,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermOtherPayables,미지급금,-,제 59 기,348334803905,제 58 기,458834740352,제 57 기,393812652915,51,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 59 기,239664218016,제 58 기,221657493469,제 57 기,139668756523,52,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,파생상품부채,-,제 59 기,5269945771,제 58 기,46084087640,제 57 기,3847733594,53,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 59 기,78404700951,제 58 기,268808303481,제 57 기,158499491977,54,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 59 기,508470156380,제 58 기,528522606423,제 57 기,464119182227,55,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 59 기,0,제 58 기,103600000000,제 57 기,119330640031,56,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 59 기,1010337622727,제 58 기,800019061690,제 57 기,874500172937,57,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 59 기,5593370097294,제 58 기,6117596009939,제 57 기,4503060317148,58,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 59 기,334691879784,제 58 기,246485430444,제 57 기,286110825581,59,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,dart_NonCurrentFirmCommitmentLiabilities,확정계약부채,-,제 59 기,15910058483,제 58 기,0,제 57 기,0,60,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,-표준계정코드 미사용-,비유동법인세부채,-,제 59 기,22325173891,제 58 기,16973828549,제 57 기,15132700963,61,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 59 기,66053855385,제 58 기,26834528239,제 57 기,65842748953,62,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialLiabilities,파생상품부채,-,제 59 기,291514599,제 58 기,5914546176,제 57 기,416796191,63,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 59 기,9242002250,제 58 기,7305675407,제 57 기,6268891214,64,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 59 기,220869275176,제 58 기,189456852073,제 57 기,198449688260,65,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 59 기,1889950112,제 58 기,5364960368,제 57 기,8427335029,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 59 기,792078846892,제 58 기,971611686017,제 57 기,993128866188,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_OtherGains,기타수익,-,제 59 기,216258167121,제 58 기,235023138580,제 57 기,257012459777,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_OtherLosses,기타비용,-,제 59 기,303256810045,제 58 기,472246036613,제 57 기,254797839478,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 59 기,20701872963,제 58 기,12288474183,제 57 기,8778195603,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 59 기,541817326106,제 58 기,537562956151,제 57 기,457632969865,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 59 기,7694872910652,제 58 기,8457376702309,제 57 기,9174156157542,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순이익,-,제 59 기,3150,제 58 기,3862,제 57 기,3846,14,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 59 기,135120842167,제 58 기,116180586125,제 57 기,214055274649,15,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 59 기,241663357612,제 58 기,278645617899,제 57 기,150994301571,16,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 59 기,1333896172998,제 58 기,1509174642168,제 57 기,1450761836053,17,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 59 기,182126702641,제 58 기,265104881593,제 57 기,237025430972,18,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,648307939623,제 58 기,638672451980,제 57 기,695607943011,19,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 59 기,30826941019,제 58 기,-118256882176,제 57 기,-58210535382,21,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 59 기,617480998604,제 58 기,756929334156,제 57 기,753818478393,22,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 59 기,830434642264,제 58 기,903777333573,제 57 기,932633373983,23,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,IS,손익계산서,ifrs-full_Revenue,매출액,-,제 59 기,9028769083650,제 58 기,9966551344477,제 57 기,10624917993595,24,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,연결당기총포괄이익,-,제 59 기,697901945713,제 58 기,597599479571,제 57 기,721297889019,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 59 기,14583911934,제 58 기,-160938172635,제 57 기,-58779054600,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 59 기,683318033779,제 58 기,758537652206,제 57 기,780076943619,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,연결기타포괄손익,-,제 59 기,49594006090,제 58 기,-41072972409,제 57 기,25689946008,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 59 기,22615543824,제 58 기,-22101469,제 57 기,51752532883,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,-,제 59 기,36866993171,제 58 기,-19760070750,제 57 기,-147177454,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 59 기,3388148416,제 58 기,-10640356247,제 57 기,52459780410,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가,-,제 59 기,5234030557,제 58 기,-1727944193,제 57 기,0,14,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,-,제 59 기,-22873628320,제 58 기,32106269721,제 57 기,-560070073,15,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 59 기,26978462266,제 58 기,-41050870940,제 57 기,-26062586875,16,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 금융자산 평가,-,제 59 기,3223946287,제 58 기,2757807396,제 57 기,4576865327,17,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,-,제 59 기,-13137035421,제 58 기,-43808678336,제 57 기,-30639452202,18,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,-,제 59 기,36891551400,제 58 기,0,제 57 기,0,19,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,648307939623,제 58 기,638672451980,제 57 기,695607943011,20,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 59 기,2595674599832,제 58 기,915023632645,제 57 기,1412070576945,2,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 59 기,861796626374,제 58 기,2595674599832,제 57 기,915023632645,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 59 기,-263868168206,제 58 기,-29639226302,제 57 기,-123480009972,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 59 기,459790924,제 58 기,298644000,제 57 기,49781334,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 59 기,0,제 58 기,12067000,제 57 기,768620000,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,-표준계정코드 미사용-,단기차입부채의 순증감,-,제 59 기,-103600000000,제 58 기,-19093213760,제 57 기,-112251829776,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금 지급,-,제 59 기,129360000000,제 58 기,195989352,제 57 기,0,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업 지분의 추가 취득,-,제 59 기,18096256725,제 58 기,0,제 57 기,0,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 59 기,12352120557,제 58 기,10063446190,제 57 기,11947018862,14,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 59 기,-1709116071579,제 58 기,-49656151552,제 57 기,16438514312,15,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 59 기,23408019660,제 58 기,13942406933,제 57 기,6987615755,16,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_DecreaseInLoans,단기대여금의 감소,-,제 59 기,12022961173,제 58 기,17218074708,제 57 기,12611454354,17,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 59 기,17429502567,제 58 기,57035096323,제 57 기,13817254376,18,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_IncreaseInLoans,단기대여금의 증가,-,제 59 기,64751040000,제 58 기,9701369328,제 57 기,17043160000,19,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가 측정 금융자산의 회수,-,제 59 기,169897500,제 58 기,89070000,제 57 기,78086187,20,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄-공정가치 측정 금융자산의 처분,-,제 59 기,0,제 58 기,0,제 57 기,505619634,21,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_ProceedsFromSalesOfIntangibleAssetsOtherThanGoodwill,무형자산의 처분,-,제 59 기,0,제 58 기,0,제 57 기,2246000,22,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동자산의 감소,-,제 59 기,67518635,제 58 기,20339436,제 57 기,2500000,23,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산의 취득,-,제 59 기,0,제 58 기,16203100015,제 57 기,4003491352,24,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가 측정 금융자산의 취득,-,제 59 기,6135000,제 58 기,65300000,제 57 기,87632500,25,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동자산의 증가,-,제 59 기,10697226,제 58 기,2966711,제 57 기,7062155,26,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,-표준계정코드 미사용-,단기금융상품의 순증감,-,제 59 기,-1511950860323,제 58 기,89987793965,제 57 기,94676423925,27,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 59 기,1533873165,제 58 기,1253502959,제 57 기,336593626,28,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 59 기,42999684171,제 58 기,43451384579,제 57 기,26137502359,29,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod,관계기업투자의 취득,-,제 59 기,55677823709,제 58 기,2754008228,제 57 기,9681068320,30,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 59 기,53492598716,제 58 기,42954114369,제 57 기,27984854107,31,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 59 기,254433358974,제 58 기,1635836692152,제 57 기,-459792198902,32,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 59 기,524534309467,제 58 기,1817649974592,제 57 기,-335056519965,33,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,순운전자본의 변동,-,제 59 기,-516934355471,제 58 기,730404425753,제 57 기,-1550572029626,34,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,제 59 기,393160725315,제 58 기,448573096859,제 57 기,519907566650,35,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,648307939623,제 58 기,638672451980,제 57 기,695607943011,36,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금 수취,-,제 59 기,7031502818,제 58 기,3462351272,제 57 기,3008776961,37,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_IncomeTaxesPaidClassifiedAsOperatingActivities,법인세 부담액,-,제 59 기,374325727378,제 58 기,224527003228,제 57 기,168102032499,38,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 59 기,1833679490,제 58 기,14247043570,제 57 기,22642740910,39,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 59 기,99026953557,제 58 기,53498413086,제 57 기,63000317511,40,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 59 기,-15327092647,제 58 기,124109652889,제 57 기,69786750262,41,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증감,-,제 59 기,-1733877973458,제 58 기,1680650967187,제 57 기,-497046944300,42,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 59 기,3895741786193,제 58 기,3298338295974,제 57 기,2577040406955,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-336049612061,제 58 기,-174915450074,제 57 기,-116136395474,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,4231791398254,제 58 기,3473253746048,제 57 기,2693176802429,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,64507327508,제 58 기,62899009458,제 57 기,36640544232,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,3187284070746,제 58 기,2430354736590,제 57 기,1676536258197,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,980000000000,제 58 기,980000000000,제 57 기,980000000000,3,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,129360000000,제 58 기,0,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,129360000000,제 58 기,0,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|비지배지분 [구성요소],제 59 기,0,제 58 기,195989352,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,연결재무제표 [member],제 59 기,129360000000,제 58 기,195989352,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_DividendsPaid,배당금 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,4,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 59 기,4446187475181,제 58 기,3895741786193,제 57 기,3298338295974,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-294526023179,제 58 기,-336049612061,제 57 기,-174915450074,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,4740713498360,제 58 기,4231791398254,제 57 기,3473253746048,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,85308429010,제 58 기,64507327508,제 57 기,62899009458,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,3675405069350,제 58 기,3187284070746,제 57 기,2430354736590,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,980000000000,제 58 기,980000000000,제 57 기,980000000000,5,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,연결재무제표 [member],제 59 기,8457976844,제 58 기,1029863203,제 57 기,4576865327,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,8457976844,제 58 기,1029863203,제 57 기,4576865327,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,8457976844,제 58 기,1029863203,제 57 기,4576865327,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,6,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,-45035933673,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,-45035933673,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,자본 [구성요소]|비지배지분 [구성요소],제 59 기,26939676948,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,연결재무제표 [member],제 59 기,-18096256725,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 지분의 추가 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,7,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,자본 [구성요소]|비지배지분 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,연결재무제표 [member],제 59 기,36866993171,제 58 기,-19760070750,제 57 기,-147177454,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,36866993171,제 58 기,-19760070750,제 57 기,-147177454,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,36866993171,제 58 기,-19760070750,제 57 기,-147177454,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,파생상품평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,8,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 59 기,3388148416,제 58 기,-10640356247,제 57 기,52459780410,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-16243039414,제 58 기,-42680568068,제 57 기,-455713763,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,19631187830,제 58 기,32040211821,제 57 기,52915494173,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,19631187830,제 58 기,32040211821,제 57 기,52915494173,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,9,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 59 기,10329,제 58 기,-722391,제 57 기,-112805455,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,연결재무제표 [member],제 59 기,-13137035421,제 58 기,-43808678336,제 57 기,-30639452202,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,-13137045750,제 58 기,-43807955945,제 57 기,-30526646747,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,-13137045750,제 58 기,-43807955945,제 57 기,-30526646747,10,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,연결재무제표 [member],제 59 기,36891551400,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,36891551400,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,36891551400,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,11,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 59 기,648307939623,제 58 기,638672451980,제 57 기,695607943011,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,30826941019,제 58 기,-118256882176,제 57 기,-58210535382,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,617480998604,제 58 기,756929334156,제 57 기,753818478393,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,617480998604,제 58 기,756929334156,제 57 기,753818478393,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,12,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,연결재무제표 [member],제 59 기,-22873628320,제 58 기,32106269721,제 57 기,-560070073,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,자본 [구성요소]|비지배지분 [구성요소],제 59 기,0,제 58 기,0,제 57 기,0,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,-22873628320,제 58 기,32106269721,제 57 기,-560070073,13,KRW,,028050,삼성E&A,CFS
+20260311003927,11011,2025,00126308,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업 지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,-22873628320,제 58 기,32106269721,제 57 기,-560070073,13,KRW,,028050,삼성E&A,CFS

@@ -1,0 +1,176 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 70 기,343812153418,제 69 기,324630775655,제 68 기,315066449543,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 70 기,120020843504,제 69 기,100437085208,제 68 기,97699902685,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_AssetRecognisedForExpectedReimbursementOtherProvisions,반품환불자산,-,제 70 기,106807150,제 69 기,72384815,제 68 기,82457415,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 70 기,45957215363,제 69 기,35644524617,제 68 기,45301483383,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialAssets,유동파생상품자산,-,제 70 기,0,제 69 기,11533923,제 68 기,0,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentPrepaidExpenses,선급비용,-,제 70 기,101540436,제 69 기,92819224,제 68 기,87076062,12,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentPrepayments,선급금,-,제 70 기,1628342545,제 69 기,619451152,제 68 기,1968751180,13,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 70 기,39014280,제 69 기,151016610,제 68 기,129495450,14,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 70 기,26906467008,제 69 기,22896609116,제 68 기,19163096589,15,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 70 기,42593697318,제 69 기,38379139185,제 68 기,28591198632,16,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타수취채권,-,제 70 기,1589401439,제 69 기,1497225616,제 68 기,1336884757,17,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 70 기,1098357965,제 69 기,1072380950,제 68 기,1039459217,18,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 70 기,223791309914,제 69 기,224193690447,제 68 기,217366546858,19,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 70 기,20500000,제 69 기,20500000,제 68 기,20500000,20,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 70 기,7144740843,제 69 기,7148476616,제 68 기,7426701854,21,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자,-,제 70 기,114872050433,제 69 기,117302753322,제 68 기,109956584333,22,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 70 기,48609305577,제 69 기,47544496933,제 68 기,47733481848,23,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익-공정가치측정금융자산,-,제 70 기,118559026,제 69 기,118559026,제 68 기,118559026,24,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 70 기,2766298350,제 69 기,1455197460,제 68 기,1510345530,25,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타장기수취채권,-,제 70 기,503313192,제 69 기,503313192,제 68 기,273313192,26,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 70 기,49593701593,제 69 기,49890116889,제 68 기,50107732427,27,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 70 기,162840900,제 69 기,210277009,제 68 기,219328648,28,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 70 기,200734647553,제 69 기,202607556068,제 68 기,199949046412,30,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 70 기,198961872090,제 69 기,200891226994,제 68 기,198259497919,31,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 70 기,34306957926,제 69 기,34306957926,제 68 기,34306957926,32,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 70 기,19587767864,제 69 기,18710891377,제 68 기,18617825815,33,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,-표준계정코드 미사용-,납입자본,-,제 70 기,13650329809,제 69 기,13650329809,제 68 기,13650329809,34,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_IssuedCapital,보통주자본금,-,제 70 기,11068750000,제 69 기,11068750000,제 68 기,11068750000,35,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 70 기,2581579809,제 69 기,2581579809,제 68 기,2581579809,36,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 70 기,131416816491,제 69 기,134223047882,제 68 기,131684384369,37,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 70 기,1772775463,제 69 기,1716329074,제 68 기,1689548493,38,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 70 기,343812153418,제 69 기,324630775655,제 68 기,315066449543,39,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 70 기,71766908948,제 69 기,81120981563,제 68 기,73093990454,41,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_DeferredIncomeClassifiedAsCurrent,이연수익,-,제 70 기,102000,제 69 기,102000,제 68 기,102000,42,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_ShortTermGuaranteeDepositRent,기타지급채무,-,제 70 기,299626400,제 69 기,97450900,제 68 기,465192700,43,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 70 기,401626162,제 69 기,316134314,제 68 기,308918144,44,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_AccrualsClassifiedAsCurrent,미지급비용,-,제 70 기,2766161867,제 69 기,2429125035,제 68 기,2097809184,45,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentAdvances,선수금,-,제 70 기,1437775050,제 69 기,1347546274,제 68 기,2912979120,46,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,유동파생상품부채,-,제 70 기,35000000,제 69 기,5813868,제 68 기,0,47,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,-,제 70 기,77467331,제 69 기,64607110,제 68 기,52238713,48,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 70 기,0,제 69 기,15000000000,제 68 기,5000000000,49,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentRefundsProvision,반품환불부채,-,제 70 기,118573560,제 69 기,79223203,제 68 기,85187416,50,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 70 기,0,제 69 기,37676160,제 68 기,17782344,51,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_OtherCurrentPayables,미지급금,-,제 70 기,6668814827,제 69 기,5637595009,제 68 기,8421792502,52,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동성충당부채,-,제 70 기,179522261,제 69 기,171584865,제 68 기,116933493,53,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 70 기,50727415713,제 69 기,49438818909,제 68 기,34916057507,54,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 70 기,9054823777,제 69 기,6495303916,제 68 기,18698997331,55,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 70 기,143077505865,제 69 기,122023219587,제 68 기,115117403131,56,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 70 기,71310596917,제 69 기,40902238024,제 68 기,42023412677,57,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,dart_LongTermGuaranteeDepositRentNet,기타장기지급채무,-,제 70 기,1316142110,제 69 기,1019763801,제 68 기,772624000,58,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_AccrualsClassifiedAsNoncurrent,장기미지급비용,-,제 70 기,1629677382,제 69 기,1006966622,제 68 기,757425889,59,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 70 기,10521900181,제 69 기,10500114214,제 68 기,10248748560,60,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 70 기,39969058640,제 69 기,12000000000,제 68 기,15000000000,61,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 70 기,95154870,제 69 기,154722121,제 68 기,172087330,62,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 70 기,17778663734,제 69 기,16220671266,제 68 기,15072526898,63,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 70 기,1777567506,제 69 기,658491068,제 68 기,-7289718026,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 70 기,803241342,제 69 기,1369070979,제 68 기,794732046,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 70 기,437161927,제 69 기,188139463,제 68 기,294246934,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 70 기,16679429637,제 69 기,13947735278,제 68 기,12776470547,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 70 기,-1651533515,제 69 기,2879884656,제 68 기,-7701097420,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 70 기,56446389,제 69 기,26780581,제 68 기,55212012,12,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 70 기,-1707979904,제 69 기,2853104075,제 68 기,-7756309432,13,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 70 기,187213601294,제 69 기,162259586022,제 68 기,156606959548,14,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본 및 희석 주당순이익(손실),-,제 70 기,-78,제 69 기,149,제 68 기,-261,16,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 70 기,6530470818,제 69 기,8342787216,제 68 기,5267829185,17,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 70 기,4140040565,제 69 기,2049636875,제 68 기,2926056210,18,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 70 기,18456997143,제 69 기,14606226346,제 68 기,5486752521,19,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 70 기,16878,제 69 기,437722518,제 68 기,-1978038311,20,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 70 기,19176889,제 69 기,-456112258,제 68 기,-1968708931,21,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목,-,제 70 기,-147171187,제 69 기,136687685,제 68 기,-506174626,22,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 70 기,-147171187,제 69 기,136687685,제 68 기,-506174626,23,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 항목,-,제 70 기,166348076,제 69 기,-592799943,제 68 기,-1462534305,24,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 70 기,1024047674,제 69 기,-43622123,제 68 기,211340869,25,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 70 기,-804430113,제 69 기,-315634915,제 68 기,-923087046,26,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,-,제 70 기,-53269485,제 69 기,-233542905,제 68 기,-750788128,27,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 70 기,-1670710404,제 69 기,3335996914,제 68 기,-5732388489,28,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 70 기,56143437,제 69 기,27313978,제 68 기,55564403,30,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 70 기,-1726853841,제 69 기,3308682936,제 68 기,-5787952892,31,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 70 기,-1670693526,제 69 기,3773719432,제 68 기,-7710426800,32,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 70 기,205670598437,제 69 기,176865812368,제 68 기,162093712069,33,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod,관계기업투자이익(손실),-,제 70 기,-1423910194,제 69 기,8227447189,제 68 기,1420579089,34,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금,-,제 70 기,35644524617,제 69 기,45301483383,제 68 기,28188016696,2,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금,-,제 70 기,45957215363,제 69 기,35644524617,제 68 기,45301483383,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 70 기,14842884822,제 69 기,17421395951,제 68 기,-5989026947,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,기타채무의 감소,-,제 70 기,202175500,제 69 기,171943500,제 68 기,85311250,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,기타지급채무의 증가,-,제 70 기,700729309,제 69 기,51341501,제 68 기,0,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 원금상환,-,제 70 기,67069982,제 69 기,60265750,제 68 기,41012324,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 70 기,19957780000,제 69 기,0,제 68 기,0,12,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 70 기,15000000000,제 69 기,12000000000,제 68 기,0,13,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 70 기,85693097756,제 69 기,79802911286,제 68 기,66600448663,14,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 70 기,7000000000,제 69 기,0,제 68 기,0,15,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 70 기,84018101761,제 69 기,68979272586,제 68 기,67131089536,16,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 70 기,221375000,제 69 기,221375000,제 68 기,332062500,17,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_RepaymentsOfCurrentBorrowings,유동성장기차입금의 상환,-,제 70 기,15000000000,제 69 기,5000000000,제 68 기,5000000000,18,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 70 기,-3791260804,제 69 기,-2466180590,제 68 기,-3468611887,19,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,기타채권의 감소,-,제 70 기,0,제 69 기,190000000,제 68 기,0,20,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,기타채권의 증가,-,제 70 기,0,제 69 기,230000000,제 68 기,0,21,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,기타금융자산의 증가,-,제 70 기,300000000,제 69 기,0,제 68 기,0,22,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 70 기,25977015,제 69 기,32921733,제 68 기,33110504,23,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 70 기,145008000,제 69 기,417477000,제 68 기,1701602000,24,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 70 기,0,제 69 기,627272727,제 68 기,0,25,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 70 기,27124352,제 69 기,13623602,제 68 기,23137318,26,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 70 기,76888400,제 69 기,57876000,제 68 기,45796100,27,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 70 기,3560527741,제 69 기,3393756186,제 68 기,5114444601,28,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 70 기,-670602235,제 69 기,-24607765575,제 68 기,26649437696,29,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 70 기,1033286935,제 69 기,-22863960287,제 68 기,28244566048,30,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 70 기,1019691125,제 69 기,866752070,제 68 기,717707100,31,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 70 기,69256540,제 69 기,72546154,제 68 기,139136506,32,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 70 기,3762632773,제 69 기,3372592742,제 68 기,3039880217,33,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 70 기,1108309018,제 69 기,834581538,제 68 기,866181271,34,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 70 기,-68331037,제 69 기,-4408552,제 68 기,-78332175,35,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금의 증가(감소),-,제 70 기,10312690746,제 69 기,-9656958766,제 68 기,17113466687,36,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,13650329809,제 69 기,13650329809,제 68 기,13650329809,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,18710891377,제 69 기,18617825815,제 68 기,18912659572,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,34306957926,제 69 기,34306957926,제 68 기,34306957926,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 70 기,202607556068,제 69 기,199949046412,제 68 기,207982206332,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 70 기,1716329074,제 69 기,1689548493,제 68 기,1634336481,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,200891226994,제 69 기,198259497919,제 68 기,206347869851,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,134223047882,제 69 기,131684384369,제 68 기,139477922544,3,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,221375000,제 69 기,221375000,제 68 기,332062500,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 70 기,221375000,제 69 기,221375000,제 68 기,332062500,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,221375000,제 69 기,221375000,제 68 기,332062500,4,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 70 기,200734647553,제 69 기,202607556068,제 68 기,199949046412,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 70 기,1772775463,제 69 기,1716329074,제 68 기,1689548493,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,198961872090,제 69 기,200891226994,제 68 기,198259497919,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,34306957926,제 69 기,34306957926,제 68 기,34306957926,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,19587767864,제 69 기,18710891377,제 68 기,18617825815,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,13650329809,제 69 기,13650329809,제 68 기,13650329809,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,131416816491,제 69 기,134223047882,제 68 기,131684384369,5,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 70 기,19176889,제 69 기,-456112258,제 68 기,-1968708931,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 70 기,302952,제 69 기,-533397,제 68 기,-352391,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,18873937,제 69 기,-455578861,제 68 기,-1968356540,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,876876487,제 69 기,93065562,제 68 기,-294833757,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,-858002550,제 69 기,-548644423,제 68 기,-1673522783,6,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,1024047674,제 69 기,-43622123,제 68 기,211340869,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 70 기,1024047674,제 69 기,-43622123,제 68 기,211340869,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,1024047674,제 69 기,-43622123,제 68 기,211340869,7,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 70 기,-804430113,제 69 기,-315634915,제 68 기,-923087046,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-804430113,제 69 기,-315634915,제 68 기,-923087046,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,-804430113,제 69 기,-315634915,제 68 기,-923087046,8,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,-147171187,제 69 기,136687685,제 68 기,-506174626,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-147171187,제 69 기,136687685,제 68 기,-506174626,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 70 기,-147171187,제 69 기,136687685,제 68 기,-506174626,9,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,-53572437,제 69 기,-233009508,제 68 기,-750435737,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-53572437,제 69 기,-233009508,제 68 기,-750435737,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|비지배지분 [구성요소],제 70 기,302952,제 69 기,-533397,제 68 기,-352391,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,연결재무제표 [member],제 70 기,-53269485,제 69 기,-233542905,제 68 기,-750788128,10,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 70 기,-1670710404,제 69 기,3335996914,제 68 기,-5732388489,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 70 기,56143437,제 69 기,27313978,제 68 기,55564403,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-1726853841,제 69 기,3308682936,제 68 기,-5787952892,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|납입자본 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,001810,무림SP,CFS
+20260313001308,11011,2025,00121507,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,-1726853841,제 69 기,3308682936,제 68 기,-5787952892,11,KRW,,001810,무림SP,CFS

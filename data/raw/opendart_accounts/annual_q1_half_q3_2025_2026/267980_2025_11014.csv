@@ -1,0 +1,182 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 9 기 3분기말,1044399036299,제 8 기말,1026284198804,7,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 9 기 3분기말,691345712791,제 8 기말,650201938406,8,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 9 기 3분기말,213453717536,제 8 기말,199655661211,9,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialAssets,파생상품자산,-,제 9 기 3분기말,58759256,제 8 기말,0,10,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 9 기 3분기말,31137455294,제 8 기말,42837861792,11,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 9 기 3분기말,20487510,제 8 기말,51801240,12,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 9 기 3분기말,224462194769,제 8 기말,205712793584,13,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 9 기 3분기말,13930530067,제 8 기말,8236123688,14,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 9 기 3분기말,3000000000,제 8 기말,2000000000,15,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 9 기 3분기말,205282568359,제 8 기말,191707696891,16,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 9 기 3분기말,353053323508,제 8 기말,376082260398,17,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 9 기 3분기말,34646593414,제 8 기말,29587878809,18,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_LongtermDeposits,장기금융상품,-,제 9 기 3분기말,10006000000,제 8 기말,10006000000,19,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 9 기 3분기말,11270370042,제 8 기말,6590894388,20,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 9 기 3분기말,20531290290,제 8 기말,20537697870,21,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 9 기 3분기말,2494925064,제 8 기말,2494925064,22,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 9 기 3분기말,0,제 8 기말,13075426530,23,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 9 기 3분기말,6272095093,제 8 기말,6391061851,24,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타채권,-,제 9 기 3분기말,9175710913,제 8 기말,12821877129,25,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 9 기 3분기말,247113271237,제 8 기말,260319255810,26,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 9 기 3분기말,11543067455,제 8 기말,14257242947,27,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 9 기 3분기말,607643698077,제 8 기말,575240941477,29,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 9 기 3분기말,606825156322,제 8 기말,574497149212,30,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,-표준계정코드 미사용-,기타자본항목,-,제 9 기 3분기말,224175208143,제 8 기말,211940611175,31,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 9 기 3분기말,3921819000,제 8 기말,3921819000,32,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 9 기 3분기말,378728129179,제 8 기말,358634719037,33,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 9 기 3분기말,818541755,제 8 기말,743792265,34,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 9 기 3분기말,1044399036299,제 8 기말,1026284198804,35,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 9 기 3분기말,312140280160,제 8 기말,229273136636,37,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,-표준계정코드 미사용-,유동성사채,-,제 9 기 3분기말,99963510646,제 8 기말,0,38,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 9 기 3분기말,4463213772,제 8 기말,5106200007,39,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,유동성장기차입금,-,제 9 기 3분기말,0,제 8 기말,4404992363,40,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 9 기 3분기말,100768943,제 8 기말,97071234,41,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 9 기 3분기말,9345297210,제 8 기말,11514559746,42,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 9 기 3분기말,14411485475,제 8 기말,14286696489,43,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 9 기 3분기말,183856004114,제 8 기말,193863616797,44,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 9 기 3분기말,436755338222,제 8 기말,451043257327,45,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 9 기 3분기말,124615058062,제 8 기말,221770120691,46,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 9 기 3분기말,6641671422,제 8 기말,8527746039,47,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,사채,-,제 9 기 3분기말,99897192190,제 8 기말,199785093085,48,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 9 기 3분기말,820061437,제 8 기말,752832036,49,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 9 기 3분기말,2980785771,제 8 기말,0,50,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 9 기 3분기말,10089180617,제 8 기말,9198449531,51,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,BS,재무상태표,ifrs-full_OtherNoncurrentPayables,기타채무,-,제 9 기 3분기말,4186166625,제 8 기말,3506000000,52,KRW,,,,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_NonOperatingExpense,기타비용,-,제 9 기 3분기,1605683862,,,6,KRW,9925010779,제 8 기 3분기,2072344462,10341933011,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_NonOperatingIncome,기타수익,-,제 9 기 3분기,1997575587,,,7,KRW,7218905467,제 8 기 3분기,1031029312,5747637770,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 9 기 3분기,19894301608,,,8,KRW,45302229337,제 8 기 3분기,16053222226,53909165925,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,-표준계정코드 미사용-,관계기업투자손익,-,제 9 기 3분기,0,,,9,KRW,0,제 8 기 3분기,0,-1320146446,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod,지분법손익,-,제 9 기 3분기,0,,,10,KRW,0,제 8 기 3분기,0,-1320146446,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 9 기 3분기,344238576081,,,11,KRW,1007024490917,제 8 기 3분기,331500057123,970536601261,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 9 기 3분기,2183,,,13,KRW,5570,제 8 기 3분기,1323,5023,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 9 기 3분기,2183,,,14,KRW,5570,제 8 기 3분기,1323,5023,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 9 기 3분기,1074328153,,,15,KRW,4234991055,제 8 기 3분기,2784988603,8536798636,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_InterestExpenseFinanceExpense,이자비용,-,제 9 기 3분기,1286734259,,,16,KRW,3876971055,제 8 기 3분기,1343792985,3865738049,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_LossesOnTransactionOfDerivativeFinancialInstrumentsFinancialExpense,파생상품거래손실,-,제 9 기 3분기,-42980000,,,17,KRW,358020000,제 8 기 3분기,118000000,1280325489,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_LossesOnValuationOfDerivativeFinancialInstrumentsFinancialExpense,파생상품평가손실,-,제 9 기 3분기,-165344476,,,18,KRW,0,제 8 기 3분기,0,0,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_LossesOnValuationOfFairValueFinancialAssetFinancialExpense,당기손익-공정가치측정금융자산 평가손실,-,제 9 기 3분기,-4081630,,,19,KRW,0,제 8 기 3분기,1323195618,3390735098,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 9 기 3분기,2503510022,,,20,KRW,18088448377,제 8 기 3분기,2861348306,11410549405,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_DividendIncome,배당금수익,-,제 9 기 3분기,161394152,,,21,KRW,1257496301,제 8 기 3분기,110221486,1483432910,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_GainsOnDisposalsOfFairValueFinancialAssetFinancialIncome,당기손익-공정가치측정금융자산 처분이익,-,제 9 기 3분기,0,,,22,KRW,3747405180,제 8 기 3분기,3096458495,3943356299,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_GainsOnTransactionOfDerivativeFinancialInstrumentsFinancialIncome,파생상품거래이익,-,제 9 기 3분기,840000,,,23,KRW,803703000,제 8 기 3분기,720000000,825000000,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_GainsOnValuationOfDerivativeFinancialInstrumentsFinancialIncome,파생상품평가이익,-,제 9 기 3분기,58759256,,,24,KRW,58759256,제 8 기 3분기,0,0,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_GainsOnValuationOfFairValueFinancialAssetFinancialIncome,당기손익-공정가치측정금융자산 평가이익,-,제 9 기 3분기,921292929,,,25,KRW,8331505479,제 8 기 3분기,-2420440849,1246745760,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,dart_InterestIncomeFinanceIncome,이자수익,-,제 9 기 3분기,1361223685,,,26,KRW,3889579161,제 8 기 3분기,1355109174,3912014436,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 9 기 3분기,127336847086,,,27,KRW,381366029715,제 8 기 3분기,129635243994,380082188322,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 9 기 3분기,5707578242,,,28,KRW,15613021674,제 8 기 3분기,4899033165,14678693526,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_ProfitLoss,분기순이익,-,제 9 기 3분기,16007796960,,,29,KRW,40836559673,제 8 기 3분기,10189233614,36189781481,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 9 기 3분기,31656135,,,31,KRW,75001556,제 8 기 3분기,6752343,44914499,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 9 기 3분기,15976140825,,,32,KRW,40761558117,제 8 기 3분기,10182481271,36144866982,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 9 기 3분기,21715375202,,,33,KRW,56449581347,제 8 기 3분기,15088266779,50868475007,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_Revenue,매출액,-,제 9 기 3분기,471575423167,,,34,KRW,1388390520632,제 8 기 3분기,461135301117,1350618789583,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,IS,손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 9 기 3분기,107442545478,,,35,KRW,336063800378,제 8 기 3분기,113582021768,326173022397,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,분기총포괄이익,-,제 9 기 3분기,17104697762,,,6,KRW,40319304303,제 8 기 3분기,9486380879,36837368993,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 9 기 3분기,31548037,,,8,KRW,74749490,제 8 기 3분기,6747178,44903205,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 9 기 3분기,17073149725,,,9,KRW,40244554813,제 8 기 3분기,9479633701,36792465788,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 9 기 3분기,1096900802,,,10,KRW,-517255370,제 8 기 3분기,-702852735,647587512,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 항목,-,제 9 기 3분기,1307052311,,,11,KRW,324192955,제 8 기 3분기,-538954851,1345820516,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 9 기 3분기,1307052311,,,12,KRW,324192955,제 8 기 3분기,-538954851,1356471226,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,-,제 9 기 3분기,0,,,13,KRW,0,제 8 기 3분기,0,-10650710,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 9 기 3분기,-210151509,,,14,KRW,-841448325,제 8 기 3분기,-163897884,-698233004,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 9 기 3분기,-210151509,,,16,KRW,-841448325,제 8 기 3분기,-163897884,-698233004,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CIS,포괄손익계산서,ifrs-full_ProfitLoss,분기순이익,-,제 9 기 3분기,16007796960,,,17,KRW,40836559673,제 8 기 3분기,10189233614,36189781481,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,분기초의 현금및현금성자산,-,제 9 기 3분기,199655661211,,,2,KRW,,제 8 기 3분기,139407573021,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,분기말의 현금및현금성자산,-,제 9 기 3분기,213453717536,,,3,KRW,,제 8 기 3분기,170163498461,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 9 기 3분기,-20315490471,,,8,KRW,,제 8 기 3분기,-14212781823,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 9 기 3분기,1421421150,,,9,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,-,제 9 기 3분기,4430000000,,,10,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 9 기 3분기,9020865000,,,11,KRW,,제 8 기 3분기,8616543600,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 9 기 3분기,5443204321,,,12,KRW,,제 8 기 3분기,5596238223,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_ProceedsFromCurrentBorrowings,단기차입금의 차입,-,제 9 기 3분기,0,,,13,KRW,,제 8 기 3분기,3800000000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_RepaymentsOfCurrentBorrowings,단기차입금의 상환,-,제 9 기 3분기,0,,,14,KRW,,제 8 기 3분기,3800000000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 9 기 3분기,5500213807,,,15,KRW,,제 8 기 3분기,8253677174,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,리스채권의 감소,-,제 9 기 3분기,0,,,16,KRW,,제 8 기 3분기,41034794,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 9 기 3분기,4610114086,,,17,KRW,,제 8 기 3분기,1302948898,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 9 기 3분기,3249805,,,18,KRW,,제 8 기 3분기,34645971,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 9 기 3분기,673382043,,,19,KRW,,제 8 기 3분기,649154681,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 감소,-,제 9 기 3분기,25057452858,,,20,KRW,,제 8 기 3분기,25771935323,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiariesJointVenturesAndAssociates,종속기업 및 관계기업투자의 처분,-,제 9 기 3분기,0,,,21,KRW,,제 8 기 3분기,5600000000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 9 기 3분기,0,,,22,KRW,,제 8 기 3분기,17526064000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 증가,-,제 9 기 3분기,1271728121,,,23,KRW,,제 8 기 3분기,1775098000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 9 기 3분기,1000000000,,,24,KRW,,제 8 기 3분기,1006157049,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 현금유출,-,제 9 기 3분기,,,,25,KRW,,제 8 기 3분기,9746784985,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 9 기 3분기,718272727,,,26,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 9 기 3분기,36014363,,,27,KRW,,제 8 기 3분기,145610921,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 9 기 3분기,7897104293,,,28,KRW,,제 8 기 3분기,8784706493,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities,기타비유동자산의 증가,-,제 9 기 3분기,19000000,,,29,KRW,,제 8 기 3분기,767210500,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 9 기 3분기,14063675575,,,30,KRW,,제 8 기 3분기,19439451025,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 9 기 3분기,29070097703,,,31,KRW,,제 8 기 3분기,36530633472,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 9 기 3분기,50027800320,,,32,KRW,,제 8 기 3분기,55950212830,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 9 기 3분기,1181479976,,,33,KRW,,제 8 기 3분기,1483432910,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 납부,-,제 9 기 3분기,22166800459,,,34,KRW,,제 8 기 3분기,20810001779,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 9 기 3분기,3796217340,,,35,KRW,,제 8 기 3분기,3794073615,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 9 기 3분기,3823835206,,,36,KRW,,제 8 기 3분기,3701063126,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시 현금및현금성자산의 환율변동효과,-,제 9 기 3분기,-456764714,,,37,KRW,,제 8 기 3분기,184396617,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 9 기 3분기,13798056325,,,38,KRW,,제 8 기 3분기,30755925440,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 9 기 3분기,575240941477,,,3,KRW,,제 8 기 3분기,540085617857,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,743792265,,,3,KRW,,제 8 기 3분기,576552656,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,574497149212,,,3,KRW,,제 8 기 3분기,539509065201,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,211940611175,,,3,KRW,,제 8 기 3분기,213796077839,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,358634719037,,,3,KRW,,제 8 기 3분기,321791168362,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,3921819000,,,3,KRW,,제 8 기 3분기,3921819000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,1079308,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,-1079308,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,연결재무제표 [member],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,-표준계정코드 미사용-,관계기업투자주식 처분에 따른 이익잉여금 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,,,,4,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 9 기 3분기,9020865000,,,5,KRW,,제 8 기 3분기,8616543600,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,0,,,5,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,9020865000,,,5,KRW,,제 8 기 3분기,8616543600,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,0,,,5,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,9020865000,,,5,KRW,,제 8 기 3분기,8616543600,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,5,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 9 기 3분기,607643698077,,575240941477,6,KRW,,제 8 기 3분기,568357280601,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,818541755,,,6,KRW,,제 8 기 3분기,717192608,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,606825156322,,,6,KRW,,제 8 기 3분기,567640087993,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,224175208143,,,6,KRW,,제 8 기 3분기,214397697941,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,378728129179,,,6,KRW,,제 8 기 3분기,349320571052,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,3921819000,,,6,KRW,,제 8 기 3분기,3921819000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,-95736747,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,-95736747,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,95736747,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,연결재무제표 [member],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,,,,7,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,0,,,8,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,연결재무제표 [member],제 9 기 3분기,-2407840453,,,8,KRW,,제 8 기 3분기,-1422400000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,-2407840453,,,8,KRW,,제 8 기 3분기,-1422400000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,-2407840453,,,8,KRW,,제 8 기 3분기,-1422400000,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,0,,,8,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,8,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,연결재무제표 [member],제 9 기 3분기,3512157750,,,9,KRW,,제 8 기 3분기,1473237351,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,0,,,9,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,3512157750,,,9,KRW,,제 8 기 3분기,1473237351,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,15159440725,,,9,KRW,,제 8 기 3분기,1473237351,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,-11647282975,,,9,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,9,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,0,,,10,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 9 기 3분기,1307052311,,,10,KRW,,제 8 기 3분기,-538954851,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,324192955,,,10,KRW,,제 8 기 3분기,1356471226,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,10,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,0,,,10,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,324192955,,,10,KRW,,제 8 기 3분기,1356471226,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 9 기 3분기,-210151509,,,11,KRW,,제 8 기 3분기,-163897884,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,-252066,,,11,KRW,,제 8 기 3분기,-11294,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,-841196259,,,11,KRW,,제 8 기 3분기,-698221710,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,-841196259,,,11,KRW,,제 8 기 3분기,-698221710,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,0,,,11,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,11,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,연결재무제표 [member],제 9 기 3분기,16007796960,,,12,KRW,,제 8 기 3분기,10189233614,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,75001556,,,12,KRW,,제 8 기 3분기,44914499,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,40761558117,,,12,KRW,,제 8 기 3분기,36144866982,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,0,,,12,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,40761558117,,,12,KRW,,제 8 기 3분기,36144866982,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,0,,,12,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기 3분기,,,,13,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기 3분기,,,,13,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,연결재무제표 [member],제 9 기 3분기,0,,,13,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기 3분기,,,,13,KRW,,제 8 기 3분기,0,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기 3분기,,,,13,KRW,,제 8 기 3분기,-10650710,,267980,매일유업,CFS
+20251114001895,11014,2025,01234507,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타지분 [구성요소],제 9 기 3분기,,,,13,KRW,,제 8 기 3분기,-10650710,,267980,매일유업,CFS

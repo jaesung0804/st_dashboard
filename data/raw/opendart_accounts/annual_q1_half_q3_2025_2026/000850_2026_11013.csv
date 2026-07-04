@@ -1,0 +1,157 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 50 기 1분기말,439391206891,제 49 기말,420411492511,7,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 50 기 1분기말,182962290714,제 49 기말,165016428047,8,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 50 기 1분기말,26855345770,제 49 기말,18905281025,9,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 50 기 1분기말,200422487,제 49 기말,169308156,10,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권 및 기타유동채권,-,제 50 기 1분기말,37639131586,제 49 기말,35591492328,11,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 50 기 1분기말,60254122174,제 49 기말,51828345183,12,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 50 기 1분기말,3527205937,제 49 기말,2265655466,13,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 50 기 1분기말,54486062760,제 49 기말,56256345889,14,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 50 기 1분기말,256428916177,제 49 기말,255395064464,15,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 50 기 1분기말,1079032544,제 49 기말,847134732,16,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 50 기 1분기말,2294926132,제 49 기말,2327026187,17,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,"종속기업, 조인트벤처와 관계기업에 대한 투자자산",-,제 50 기 1분기말,97761679281,제 49 기말,97242675403,18,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 50 기 1분기말,612516621,제 49 기말,622279776,19,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 지정 금융자산,-,제 50 기 1분기말,1799975000,제 49 기말,1799975000,20,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 50 기 1분기말,66546638661,제 49 기말,66735963053,21,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 50 기 1분기말,7334471940,제 49 기말,6722206380,22,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 50 기 1분기말,13339726438,제 49 기말,13111576202,23,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 50 기 1분기말,65659949560,제 49 기말,65986227731,24,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 50 기 1분기말,342320585643,제 49 기말,339459975773,26,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 50 기 1분기말,342320585643,제 49 기말,339459975773,27,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 50 기 1분기말,51771920226,제 49 기말,50744858500,28,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 50 기 1분기말,11000000000,제 49 기말,11000000000,29,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 50 기 1분기말,275816806377,제 49 기말,273983258233,30,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 50 기 1분기말,3731859040,제 49 기말,3731859040,31,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 50 기 1분기말,0,제 49 기말,0,32,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 50 기 1분기말,439391206891,제 49 기말,420411492511,33,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 50 기 1분기말,68560537061,제 49 기말,53537577233,35,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 50 기 1분기말,2717105088,제 49 기말,2708437353,36,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 50 기 1분기말,2230583473,제 49 기말,1523970603,37,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 50 기 1분기말,12785681956,제 49 기말,10617808008,38,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 50 기 1분기말,10755607751,제 49 기말,7683250231,39,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동충당부채,-,제 50 기 1분기말,423838679,제 49 기말,413451729,40,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 50 기 1분기말,15066893314,제 49 기말,8644192606,41,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무 및 기타유동채무,-,제 50 기 1분기말,24580826800,제 49 기말,21946466703,42,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 50 기 1분기말,97070621248,제 49 기말,80951516738,43,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 50 기 1분기말,28510084187,제 49 기말,27413939505,44,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 50 기 1분기말,19195573327,제 49 기말,18478602627,45,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 50 기 1분기말,7561700446,제 49 기말,7589855014,46,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,퇴직급여채무,-,제 50 기 1분기말,528139422,제 49 기말,99112045,47,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 50 기 1분기말,1224670992,제 49 기말,1246369819,48,KRW,,,,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 50 기 1분기,1868771370,,,6,KRW,1868771370,제 49 기 1분기,142523362,142523362,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 50 기 1분기,3142083710,,,7,KRW,3142083710,제 49 기 1분기,1375715727,1375715727,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 50 기 1분기,127750867,,,8,KRW,127750867,제 49 기 1분기,487114789,487114789,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 50 기 1분기,8778535696,,,9,KRW,8778535696,제 49 기 1분기,8096577531,8096577531,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 50 기 1분기,5720609870,,,10,KRW,5720609870,제 49 기 1분기,1804266810,1804266810,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 포괄손익,-,제 50 기 1분기,0,,,12,KRW,0,제 49 기 1분기,0,0,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 포괄손익,-,제 50 기 1분기,5720609870,,,13,KRW,5720609870,제 49 기 1분기,1804266810,1804266810,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 50 기 1분기,44512743121,,,14,KRW,44512743121,제 49 기 1분기,38073581285,38073581285,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 50 기 1분기,2151,,,16,KRW,2151,제 49 기 1분기,706,706,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 50 기 1분기,111015047,,,17,KRW,111015047,제 49 기 1분기,78888796,78888796,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 50 기 1분기,461417019,,,18,KRW,461417019,제 49 기 1분기,798334554,798334554,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 50 기 1분기,10647307066,,,19,KRW,10647307066,제 49 기 1분기,8239100893,8239100893,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 50 기 1분기,1329162137,,,20,KRW,1329162137,제 49 기 1분기,-201093061,-201093061,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 50 기 1분기,987463432,,,21,KRW,987463432,제 49 기 1분기,250248663,250248663,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목,-,제 50 기 1분기,818684813,,,22,KRW,818684813,제 49 기 1분기,55281743,55281743,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,-,제 50 기 1분기,966270323,,,23,KRW,966270323,제 49 기 1분기,55281743,55281743,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,-,제 50 기 1분기,-147585510,,,24,KRW,-147585510,제 49 기 1분기,0,0,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 항목,-,제 50 기 1분기,168778619,,,25,KRW,168778619,제 49 기 1분기,194966920,194966920,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,-,제 50 기 1분기,-87516,,,26,KRW,-87516,제 49 기 1분기,190370151,190370151,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,-,제 50 기 1분기,-39598294,,,27,KRW,-39598294,제 49 기 1분기,-17617739,-17617739,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,-,제 50 기 1분기,208464429,,,28,KRW,208464429,제 49 기 1분기,22214508,22214508,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 50 기 1분기,4733146438,,,29,KRW,4733146438,제 49 기 1분기,1554018147,1554018147,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 50 기 1분기,0,,,31,KRW,0,제 49 기 1분기,0,0,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 50 기 1분기,4733146438,,,32,KRW,4733146438,제 49 기 1분기,1554018147,1554018147,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 50 기 1분기,6062308575,,,33,KRW,6062308575,제 49 기 1분기,1352925086,1352925086,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 50 기 1분기,55160050187,,,34,KRW,55160050187,제 49 기 1분기,46312682178,46312682178,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익,-,제 50 기 1분기,828802390,,,35,KRW,828802390,제 49 기 1분기,-397644972,-397644972,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 50 기 1분기,18905281025,,,2,KRW,,제 49 기 1분기,15427238336,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 50 기 1분기,26855345770,,,3,KRW,,제 49 기 1분기,17342412515,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 50 기 1분기,6228939502,,,8,KRW,,제 49 기 1분기,-5520424265,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 지급,-,제 50 기 1분기,153316930,,,9,KRW,,제 49 기 1분기,174623004,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 50 기 1분기,15066893314,,,10,KRW,,제 49 기 1분기,11152401842,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 50 기 1분기,8644192606,,,11,KRW,,제 49 기 1분기,16458102424,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,-,제 50 기 1분기,40444276,,,12,KRW,,제 49 기 1분기,40100679,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 50 기 1분기,1254389974,,,13,KRW,,제 49 기 1분기,-3864331867,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 50 기 1분기,20193181,,,14,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 50 기 1분기,241934864,,,15,KRW,,제 49 기 1분기,442509239,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 50 기 1분기,12664373504,,,16,KRW,,제 49 기 1분기,1038682000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 50 기 1분기,0,,,17,KRW,,제 49 기 1분기,629250,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 50 기 1분기,0,,,18,KRW,,제 49 기 1분기,300000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 50 기 1분기,10512964582,,,19,KRW,,제 49 기 1분기,4148763600,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 50 기 1분기,436700,,,20,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 50 기 1분기,0,,,21,KRW,,제 49 기 1분기,534600,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 50 기 1분기,674840565,,,22,KRW,,제 49 기 1분기,11835678,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 50 기 1분기,-771707242,,,23,KRW,,제 49 기 1분기,7767557162,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 50 기 1분기,-5040247473,,,24,KRW,,제 49 기 1분기,6413215801,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 50 기 1분기,-219421082,,,25,KRW,,제 49 기 1분기,724980018,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부,-,제 50 기 1분기,157478759,,,26,KRW,,제 49 기 1분기,922032873,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 50 기 1분기,185452480,,,27,KRW,,제 49 기 1분기,129725955,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 50 기 1분기,97746114,,,28,KRW,,제 49 기 1분기,127102024,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 50 기 1분기,4733146438,,,29,KRW,,제 49 기 1분기,1554018147,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 50 기 1분기,1238442511,,,30,KRW,,제 49 기 1분기,3532373149,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가,-,제 50 기 1분기,6711622234,,,31,KRW,,제 49 기 1분기,-1617198970,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,11000000000,,,3,KRW,,제 49 기 1분기,11000000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,273983258233,,,3,KRW,,제 49 기 1분기,265564577482,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,50744858500,,,3,KRW,,제 49 기 1분기,56972297901,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 50 기 1분기,339459975773,,,3,KRW,,제 49 기 1분기,337268734423,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,3,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,339459975773,,,3,KRW,,제 49 기 1분기,337268734423,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,3731859040,,,3,KRW,,제 49 기 1분기,3731859040,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,2860000000,,,4,KRW,,제 49 기 1분기,2310000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,2860000000,,,4,KRW,,제 49 기 1분기,2310000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,연결재무제표 [member],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,2310000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,4,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 50 기 1분기,342320585643,,339459975773,5,KRW,,제 49 기 1분기,336763001233,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,5,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,342320585643,,,5,KRW,,제 49 기 1분기,336763001233,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,51771920226,,,5,KRW,,제 49 기 1분기,57240164303,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,275816806377,,,5,KRW,,제 49 기 1분기,264790977890,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,11000000000,,,5,KRW,,제 49 기 1분기,11000000000,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,3731859040,,,5,KRW,,제 49 기 1분기,3731859040,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,연결재무제표 [member],제 50 기 1분기,966270323,,,6,KRW,,제 49 기 1분기,55281743,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,966270323,,,6,KRW,,제 49 기 1분기,55281743,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,966270323,,,6,KRW,,제 49 기 1분기,55281743,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,6,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,-147585510,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,연결재무제표 [member],제 50 기 1분기,-147585510,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,-147585510,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치 측정 채무상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,7,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,-87516,,,8,KRW,,제 49 기 1분기,190370151,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,-87516,,,8,KRW,,제 49 기 1분기,190370151,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,연결재무제표 [member],제 50 기 1분기,-87516,,,8,KRW,,제 49 기 1분기,190370151,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,8,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,-39598294,,,9,KRW,,제 49 기 1분기,-17617739,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,-39598294,,,9,KRW,,제 49 기 1분기,-17617739,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,연결재무제표 [member],제 50 기 1분기,-39598294,,,9,KRW,,제 49 기 1분기,-17617739,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,9,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 50 기 1분기,4733146438,,,10,KRW,,제 49 기 1분기,1554018147,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,10,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,4733146438,,,10,KRW,,제 49 기 1분기,1554018147,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,0,,,10,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,4733146438,,,10,KRW,,제 49 기 1분기,1554018147,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,10,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,10,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,연결재무제표 [member],제 50 기 1분기,208464429,,,11,KRW,,제 49 기 1분기,22214508,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|비지배지분 [구성요소],제 50 기 1분기,0,,,11,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 50 기 1분기,208464429,,,11,KRW,,제 49 기 1분기,22214508,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 50 기 1분기,0,,,11,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 50 기 1분기,0,,,11,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 50 기 1분기,208464429,,,11,KRW,,제 49 기 1분기,22214508,,000850,화천기공,CFS
+20260515002201,11013,2026,00166519,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업과 공동기업의 기타포괄손익에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 50 기 1분기,0,,,11,KRW,,제 49 기 1분기,0,,000850,화천기공,CFS

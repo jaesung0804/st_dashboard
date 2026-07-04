@@ -1,0 +1,186 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 26 기 반기말,762874155990,제 25 기말,806049636545,7,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 26 기 반기말,167688682061,제 25 기말,193261922927,8,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 26 기 반기말,11742548583,제 25 기말,72221485971,9,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentContractAssets,계약자산,-,제 26 기 반기말,7686013834,제 25 기말,7122844476,10,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,유동 당기손익인식금융자산,-,제 26 기 반기말,,제 25 기말,4595062517,11,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 26 기 반기말,42185280,제 25 기말,18576280,12,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 26 기 반기말,63072798793,제 25 기말,33488836831,13,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 26 기 반기말,13802859403,제 25 기말,8201600839,14,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 26 기 반기말,5419366932,제 25 기말,8066185827,15,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 26 기 반기말,65922909236,제 25 기말,59547330186,16,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 26 기 반기말,589510957089,제 25 기말,607113196778,17,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_NonCurrentFairValueFinancialAsset,비유동당기손익인식금융자산,-,제 26 기 반기말,1462314102,제 25 기말,1323923376,18,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 26 기 반기말,30785028071,제 25 기말,28361232272,19,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 26 기 반기말,12930882320,제 25 기말,14257186338,20,KRW,제 24 기,19976767282,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자주식,-,제 26 기 반기말,2294361044,제 25 기말,2405426984,21,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 26 기 반기말,1494675487,제 25 기말,1688552083,22,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 26 기 반기말,703088204,제 25 기말,7339220781,23,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 26 기 반기말,535900379127,제 25 기말,546662878923,24,KRW,제 24 기,510738952884,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 26 기 반기말,3940228734,제 25 기말,5074776021,25,KRW,제 24 기,6214841479,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산,-,제 26 기 반기말,5674516840,제 25 기말,5674516840,26,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 26 기 반기말,326137840588,제 25 기말,346236165510,28,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 26 기 반기말,322231233352,제 25 기말,230000423204,29,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 26 기 반기말,156139203286,제 25 기말,57405051138,30,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 26 기 반기말,-4602875153,제 25 기말,,31,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 26 기 반기말,2476542711,제 25 기말,2476542711,32,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 26 기 반기말,29041503000,제 25 기말,21892296000,33,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 26 기 반기말,139176859508,제 25 기말,148226533355,34,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 26 기 반기말,3906607236,제 25 기말,116235742306,35,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 26 기 반기말,762874155990,제 25 기말,806049636545,36,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 26 기 반기말,321386787262,제 25 기말,303283158752,38,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 26 기 반기말,11663932874,제 25 기말,,39,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 26 기 반기말,99735752447,제 25 기말,80169389175,40,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 26 기 반기말,1169360600,제 25 기말,1174457329,41,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 26 기 반기말,369302363,제 25 기말,1393545581,42,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 26 기 반기말,16452284169,제 25 기말,10420879234,43,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 26 기 반기말,1233271974,제 25 기말,1332804156,44,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 26 기 반기말,141439080000,제 25 기말,153559000000,45,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 26 기 반기말,49323802835,제 25 기말,55233083277,46,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 26 기 반기말,436736315402,제 25 기말,459813471035,47,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 26 기 반기말,115349528140,제 25 기말,156530312283,48,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,dart_PostemploymentBenefitObligations,순확정급여부채,-,제 26 기 반기말,6823898885,제 25 기말,5027515118,49,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_LongtermBorrowings,비유동차입금(사채 포함)의 비유동성 부분,-,제 26 기 반기말,106499230118,제 25 기말,148517871038,50,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기급여충당부채,-,제 26 기 반기말,1002270261,제 25 기말,972016229,51,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 26 기 반기말,1024128876,제 25 기말,2012909898,52,KRW,,,,,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 26 기 반기,125817913,,,6,KRW,,,111065940,제 25 기 반기,88754437,148963804,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 26 기 반기,-3306404461,,,7,KRW,,,-7316072068,제 25 기 반기,1257478395,-6218871575,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 26 기 반기,288338767,,,8,KRW,,,2130331421,제 25 기 반기,852332076,1051095702,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 26 기 반기,129765155,,,9,KRW,,,216350035,제 25 기 반기,313569674,646438327,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 26 기 반기,8339572362,,,11,KRW,,,17253610393,제 25 기 반기,9168942783,18194066026,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 26 기 반기,-10966423401,,,12,KRW,,,-13775518786,제 25 기 반기,-1092411681,-4018018927,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 26 기 반기,-258333129,,,14,KRW,,,197347061,제 25 기 반기,400922403,-904343724,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 26 기 반기,-10708090272,,,15,KRW,,,-13972865847,제 25 기 반기,-1493334084,-3113675203,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 26 기 반기,110654928240,,,16,KRW,,,222563000859,제 25 기 반기,112800084401,214074855974,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 26 기 반기,-189,,,18,KRW,,,-257,제 25 기 반기,-33,-70,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 26 기 반기,-189,,,19,KRW,,,-257,제 25 기 반기,-33,-70,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 26 기 반기,15095320060,,,20,KRW,,,23930065819,제 25 기 반기,8337006416,16964382043,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 26 기 반기,8053540534,,,21,KRW,,,13887961540,제 25 기 반기,6399711226,15915781250,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 26 기 반기,5033167901,,,22,KRW,,,9937538325,제 25 기 반기,10426421178,11975194451,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 26 기 반기,-635398938,,,23,KRW,,,1782390015,제 25 기 반기,-834075385,3021493637,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 26 기 반기,-15596175,,,24,KRW,,,-2647900,제 25 기 반기,-28527466,-27733767,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 26 기 반기,-15596175,,,25,KRW,,,-2647900,제 25 기 반기,-28527466,-27733767,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 26 기 반기,-15596175,,,27,KRW,,,-2647900,제 25 기 반기,-28527466,-27733767,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 26 기 반기,-10950827226,,,28,KRW,,,-13772870886,제 25 기 반기,-1063884215,-3990285160,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 26 기 반기,-258333129,,,30,KRW,,,197309432,제 25 기 반기,401262909,-904017321,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 26 기 반기,-10692494097,,,31,KRW,,,-13970180318,제 25 기 반기,-1465147124,-3086267839,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 26 기 반기,-10315428288,,,32,KRW,,,-15555260901,제 25 기 반기,-229808830,-7011778797,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 26 기 반기,115688096141,,,33,KRW,,,232500539184,제 25 기 반기,123226505579,226050050425,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 26 기 반기,72221485971,,,2,KRW,,,,제 25 기 반기,116028025905,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 26 기 반기,11742548583,,,3,KRW,,,,제 25 기 반기,38017780345,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 26 기 반기,-21084462528,,,8,KRW,,,,제 25 기 반기,20631306980,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 26 기 반기,6322806136,,,9,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInGuaranteeDepositRent,임대보증금의 증가(감소),-,제 26 기 반기,-2000000,,,10,KRW,,,,제 25 기 반기,2000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 26 기 반기,14500000000,,,11,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 26 기 반기,20492550000,,,12,KRW,,,,제 25 기 반기,51535153700,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromPaidinCapitalIncrease,유상증자,-,제 26 기 반기,,,,13,KRW,,,,제 25 기 반기,3200000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 26 기 반기,,,,14,KRW,,,,제 25 기 반기,12113800000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,유동성장기차입금의 상환,-,제 26 기 반기,37501497316,,,15,KRW,,,,제 25 기 반기,32869486248,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 26 기 반기,10580050000,,,16,KRW,,,,제 25 기 반기,11557320000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 26 기 반기,1670659076,,,19,KRW,,,,제 25 기 반기,1792840472,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 26 기 반기,-26273912472,,,20,KRW,,,,제 25 기 반기,-104158244414,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 26 기 반기,100000000,,,21,KRW,,,,제 25 기 반기,149000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 26 기 반기,26380000,,,22,KRW,,,,제 25 기 반기,92110000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 26 기 반기,,,,23,KRW,,,,제 25 기 반기,741000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 26 기 반기,6695000,,,24,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 26 기 반기,4603773961,,,25,KRW,,,,제 25 기 반기,200000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 처분,-,제 26 기 반기,169800000,,,26,KRW,,,,제 25 기 반기,5000000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 26 기 반기,,,,27,KRW,,,,제 25 기 반기,4500000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInsuranceContracts,보험예치금의 감소(증가),-,제 26 기 반기,-308030833,,,28,KRW,,,,제 25 기 반기,-30000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,파생상품계약에 따른 현금지급,-,제 26 기 반기,-4252256595,,,29,KRW,,,,제 25 기 반기,8628615,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,파생상품계약에 따른 현급유입,-,제 26 기 반기,-10908811,,,30,KRW,,,,제 25 기 반기,3361549469,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 26 기 반기,,,,31,KRW,,,,제 25 기 반기,600000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 26 기 반기,1448200000,,,32,KRW,,,,제 25 기 반기,904260000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 26 기 반기,10449900,,,33,KRW,,,,제 25 기 반기,2015246000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 26 기 반기,36538238484,,,34,KRW,,,,제 25 기 반기,107170289268,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 26 기 반기,-12914863454,,,35,KRW,,,,제 25 기 반기,5406146185,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 26 기 반기,-46022701887,,,36,KRW,,,,제 25 기 반기,-30120702713,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForProductWarranties,판매보증충당부채,-,제 26 기 반기,-333515201,,,37,KRW,,,,제 25 기 반기,-1675310144,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherFinancialLiabilities,기타금융부채의 증가(감소),-,제 26 기 반기,,,,38,KRW,,,,제 25 기 반기,7889455,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직연금운용자산의 증가,-,제 26 기 반기,,,,39,KRW,,,,제 25 기 반기,-700000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInTradeAndOtherCurrentPayables,기타채무,-,제 26 기 반기,-4984838940,,,40,KRW,,,,제 25 기 반기,1330167295,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 26 기 반기,-516840134,,,41,KRW,,,,제 25 기 반기,-187891151,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInContractAssets,계약자산의 감소(증가),-,제 26 기 반기,-563169358,,,42,KRW,,,,제 25 기 반기,384319176,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산,-,제 26 기 반기,-29500222887,,,43,KRW,,,,제 25 기 반기,-10298734005,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산의 감소(증가),-,제 26 기 반기,-5183575794,,,44,KRW,,,,제 25 기 반기,-1672141504,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권,-,제 26 기 반기,-5232173833,,,45,KRW,,,,제 25 기 반기,-26462422470,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables,기타채권,-,제 26 기 반기,1103632821,,,46,KRW,,,,제 25 기 반기,-3836191109,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채의 증가(감소),-,제 26 기 반기,65613264,,,47,KRW,,,,제 25 기 반기,1961252845,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무,-,제 26 기 반기,-877611825,,,48,KRW,,,,제 25 기 반기,11028358899,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 26 기 반기,57086369999,,,50,KRW,,,,제 25 기 반기,47674592596,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 26 기 반기,,,,51,KRW,,,,제 25 기 반기,172051757,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForDepreciationRightofuseAssets,사용권자산감가상각비,-,제 26 기 반기,1290742686,,,52,KRW,,,,제 25 기 반기,1453441130,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 26 기 반기,1446950250,,,53,KRW,,,,제 25 기 반기,701015875,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 26 기 반기,7376569142,,,54,KRW,,,,제 25 기 반기,772290718,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainsOnChangeInFairValueOfDerivatives,파생상품평가이익,-,제 26 기 반기,2592060062,,,55,KRW,,,,제 25 기 반기,10075880137,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익 조정,-,제 26 기 반기,,,,56,KRW,,,,제 25 기 반기,100000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가이익,-,제 26 기 반기,212309,,,57,KRW,,,,제 25 기 반기,56042105,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForGainsOnTransactionOfDerivativeFinancialInstrumentsFinancialIncome,파생상품거래이익,-,제 26 기 반기,1295150976,,,58,KRW,,,,제 25 기 반기,2233771521,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 26 기 반기,9232825783,,,59,KRW,,,,제 25 기 반기,9279854761,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 26 기 반기,111065940,,,60,KRW,,,,제 25 기 반기,148963804,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnAbandonmentOfPropertyPlantAndEquipment,유형자산폐기손실,-,제 26 기 반기,102398775,,,61,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnChangeInFairValueOfDerivatives,파생상품평가손실 조정,-,제 26 기 반기,10762885213,,,62,KRW,,,,제 25 기 반기,178984173,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 26 기 반기,58062296,,,63,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 26 기 반기,18000,,,64,KRW,,,,제 25 기 반기,271013767,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가손실,-,제 26 기 반기,21583,,,65,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 26 기 반기,1188208064,,,66,KRW,,,,제 25 기 반기,6214879068,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForLossesOnTransactionOfDerivativeFinancialInstrumentsFinancialExpense,파생상품거래손실 조정,-,제 26 기 반기,921352563,,,67,KRW,,,,제 25 기 반기,7735506,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForOtherGainsWithoutCashFlowIn,기타 현금의 유입 없는 수익등,-,제 26 기 반기,,,,68,KRW,,,,제 25 기 반기,338615,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForOtherLongtermEmployeeBenefits,기타장기종업원급여,-,제 26 기 반기,69754032,,,69,KRW,,,,제 25 기 반기,82646328,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForOtherLossesWithoutCashFlowOut,기타 현금의 유출 없는 비용등,-,제 26 기 반기,,,,70,KRW,,,,제 25 기 반기,23471986,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForProductWarrantyExpenses,판매보증비환입,-,제 26 기 반기,-328418472,,,71,KRW,,,,제 25 기 반기,591959958,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 26 기 반기,2308443455,,,73,KRW,,,,제 25 기 반기,1826066216,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForReversalAllowanceDoubtfulAccounts,대손충당금 환입,-,제 26 기 반기,487566807,,,74,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForReversalsOfInventories,재고자산평가손실환입 조정,-,제 26 기 반기,154814972,,,75,KRW,,,,제 25 기 반기,489420386,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실,-,제 26 기 반기,71075897,,,76,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,dart_GainsOnDisposalsOfFairValueFinancialAsset,당기손익인식금융자산처분이익,-,제 26 기 반기,8711444,,,77,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,-표준계정코드 미사용-,사용권자산처분손실,-,제 26 기 반기,1994900,,,78,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,-표준계정코드 미사용-,사용권자산처분이익 조정,-,제 26 기 반기,343562285,,,79,KRW,,,,제 25 기 반기,911115,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,-표준계정코드 미사용-,전환사채거래일이익 조정,-,제 26 기 반기,93418206,,,80,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 26 기 반기,1501748422,,,81,KRW,,,,제 25 기 반기,1556340235,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 26 기 반기,45244970749,,,82,KRW,,,,제 25 기 반기,45495092038,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익에 대한 조정,-,제 26 기 반기,3983719,,,83,KRW,,,,제 25 기 반기,12074240,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 26 기 반기,-1782390015,,,84,KRW,,,,제 25 기 반기,-3021493637,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 26 기 반기,522226644,,,85,KRW,,,,제 25 기 반기,980749866,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 26 기 반기,3983719,,,86,KRW,,,,제 25 기 반기,12074240,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),-,제 26 기 반기,1347578309,,,87,KRW,,,,제 25 기 반기,319653454,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 26 기 반기,9397447296,,,88,KRW,,,,제 25 기 반기,9187227959,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 26 기 반기,535381206,,,89,KRW,,,,제 25 기 반기,1337348635,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 26 기 반기,-10950827226,,,90,KRW,,,,제 25 기 반기,-1063884215,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 26 기 반기,-205698934,,,91,KRW,,,,제 25 기 반기,110545689,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 26 기 반기,-60273238454,,,92,KRW,,,,제 25 기 반기,-78120791249,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,21892296000,,,3,KRW,,,,제 25 기 반기,21892296000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,148226533355,,,3,KRW,,,,제 25 기 반기,170819718910,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,2476542711,,,3,KRW,,,,제 25 기 반기,2476542711,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,230000423204,,,3,KRW,,,,제 25 기 반기,252593608759,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,116235742306,,,3,KRW,,,,제 25 기 반기,113553902594,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 26 기 반기,346236165510,,,3,KRW,,,,제 25 기 반기,366147511353,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,57405051138,,,3,KRW,,,,제 25 기 반기,57405051138,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,-112526482131,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,112526482131,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기 반기,1785140500,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,4923192000,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,7149207000,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,98668942631,,,4,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,유상증자,연결재무제표 [member],제 26 기 반기,,,,6,KRW,,,,제 25 기 반기,3200000000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,유상증자,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,,,,6,KRW,,,,제 25 기 반기,3587095825,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,연결재무제표 [member],제 26 기 반기,-6322806136,,,7,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,-6322806136,,,7,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기 반기,6388015653,,,7,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,65209517,,,7,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 26 기 반기,326137840588,,346236165510,8,KRW,,,,제 25 기 반기,365716588251,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,3906607236,,,8,KRW,,,,제 25 기 반기,116236654695,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,156139203286,,,8,KRW,,,,제 25 기 반기,57405051138,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,29041503000,,,8,KRW,,,,제 25 기 반기,21892296000,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,139176859508,,,8,KRW,,,,제 25 기 반기,167706043707,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,2476542711,,,8,KRW,,,,제 25 기 반기,2476542711,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기 반기,4602875153,,,8,KRW,,,,제 25 기 반기,,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,322231233352,,,8,KRW,,,,제 25 기 반기,249479933556,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 26 기 반기,-15596175,,,9,KRW,,,,제 25 기 반기,-28527466,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,-2685529,,,9,KRW,,,,제 25 기 반기,-27407364,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,-2685529,,,9,KRW,,,,제 25 기 반기,-27407364,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,37629,,,9,KRW,,,,제 25 기 반기,-326403,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,-13970180318,,,10,KRW,,,,제 25 기 반기,-3086267839,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,197309432,,,10,KRW,,,,제 25 기 반기,-904017321,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 26 기 반기,-10950827226,,,10,KRW,,,,제 25 기 반기,-1063884215,,061970,LB세미콘,CFS
+20250814002274,11012,2025,00412348,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,-13970180318,,,10,KRW,,,,제 25 기 반기,-3086267839,,061970,LB세미콘,CFS

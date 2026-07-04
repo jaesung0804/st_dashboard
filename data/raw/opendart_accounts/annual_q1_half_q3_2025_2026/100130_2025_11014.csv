@@ -1,0 +1,201 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 25 기 3분기말,273836279411,제 24 기말,310764184164,7,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 25 기 3분기말,106289719760,제 24 기말,132918936259,8,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ReceivablesOnConstructionContracts,공사미수금,-,제 25 기 3분기말,1000283417,제 24 기말,2514956395,9,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermAccruedIncome,미수수익,-,제 25 기 3분기말,273809795,제 24 기말,41092049,10,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermAdvancePayments,선급금,-,제 25 기 3분기말,867112340,제 24 기말,17589199460,11,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWork,미청구공사,-,제 25 기 3분기말,2404056639,제 24 기말,1278927241,12,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermLoans,단기대여금,-,제 25 기 3분기말,350000000,제 24 기말,350000000,13,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermOtherReceivables,미수금,-,제 25 기 3분기말,2452991365,제 24 기말,3129601411,14,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,-,제 25 기 3분기말,243579864,제 24 기말,152943569,15,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 25 기 3분기말,9308780956,제 24 기말,44531602783,16,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,-표준계정코드 미사용-,선납관세,-,제 25 기 3분기말,916300029,제 24 기말,1321998010,17,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 25 기 3분기말,25621017231,제 24 기말,23533069946,18,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 25 기 3분기말,50414847,제 24 기말,744620666,19,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 25 기 3분기말,12801373277,제 24 기말,37730924729,20,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 25 기 3분기말,50000000000,제 24 기말,0,21,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 25 기 3분기말,167546559651,제 24 기말,177845247905,22,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_LongTermAccruedIncomeGross,장기미수수익,-,제 25 기 3분기말,31016856,제 24 기말,23995934,23,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 25 기 3분기말,6800000,제 24 기말,6800000,24,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_LongTermDepositsProvidedGross,장기보증금,-,제 25 기 3분기말,1567212599,제 24 기말,2064476529,25,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_LongTermLoansGross,장기대여금,-,제 25 기 3분기말,56401621059,제 24 기말,62857886574,26,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치 측정 금융자산,-,제 25 기 3분기말,3918306790,제 24 기말,3943609250,27,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_OtherIntangibleAssetsGross,무형자산,-,제 25 기 3분기말,143053891,제 24 기말,167099492,28,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 25 기 3분기말,1869471117,제 24 기말,2400041719,29,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 25 기 3분기말,1098696029,제 24 기말,515876757,30,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업에 대한 투자자산,-,제 25 기 3분기말,18026938867,제 24 기말,17702973010,31,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtAmortisedCost,상각후원가 측정 금융자산,-,제 25 기 3분기말,882281471,제 24 기말,866008737,32,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 25 기 3분기말,512233264,제 24 기말,512233264,33,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 25 기 3분기말,82884179013,제 24 기말,86487111544,34,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 25 기 3분기말,204748695,제 24 기말,297135095,35,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 25 기 3분기말,187604131978,제 24 기말,187429252894,37,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 25 기 3분기말,187604131978,제 24 기말,187429252894,38,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 25 기 3분기말,178934265403,제 24 기말,178934265403,39,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,자본조정,-,제 25 기 3분기말,-13131874478,제 24 기말,-13131874478,40,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 25 기 3분기말,6200363992,제 24 기말,6247261661,41,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 25 기 3분기말,28571500000,제 24 기말,28571500000,42,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 25 기 3분기말,-12970122939,제 24 기말,-13191899692,43,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 25 기 3분기말,0,제 24 기말,0,44,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 25 기 3분기말,273836279411,제 24 기말,310764184164,45,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 25 기 3분기말,86180437301,제 24 기말,123313484703,47,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생상품부채,-,제 25 기 3분기말,0,제 24 기말,1192055187,48,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_CurrentProvisionForConstructionLosses,공사손실충당부채,-,제 25 기 3분기말,0,제 24 기말,1425288314,49,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,-,제 25 기 3분기말,91328931,제 24 기말,173681368,50,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermAdvancesCustomers,선수금,-,제 25 기 3분기말,337864598,제 24 기말,314864600,51,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,초과청구공사,-,제 25 기 3분기말,6310159937,제 24 기말,23771069395,52,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermOtherPayables,미지급금,-,제 25 기 3분기말,12167165677,제 24 기말,12428147605,53,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 25 기 3분기말,3495128831,제 24 기말,10589787849,54,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 25 기 3분기말,122500690,제 24 기말,171466744,55,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 25 기 3분기말,22997526,제 24 기말,667709508,56,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기부채,-,제 25 기 3분기말,2320203044,제 24 기말,7890000000,57,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 25 기 3분기말,1038359561,제 24 기말,0,58,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 25 기 3분기말,59500000000,제 24 기말,63000000000,59,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_ShorttermMiscellaneousOtherProvisions,기타충당부채,-,제 25 기 3분기말,774728506,제 24 기말,1689414133,60,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 25 기 3분기말,86232147433,제 24 기말,123334931270,61,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 25 기 3분기말,51710132,제 24 기말,21446567,62,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,dart_LongTermOtherPayablesGross,장기미지급금,-,제 25 기 3분기말,1758248,제 24 기말,125320,63,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 25 기 3분기말,3591121,제 24 기말,21321247,64,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기종업원급여부채,-,제 25 기 3분기말,46360763,제 24 기말,0,65,KRW,,,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 25 기 3분기,-188145154,,,6,KRW,10162734526,제 24 기 3분기,3945187872,7440976914,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_OtherGains,기타영업외수익,-,제 25 기 3분기,714608040,,,7,KRW,1602849494,제 24 기 3분기,297699052,366929365,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_OtherLosses,기타영업외비용,-,제 25 기 3분기,81606243,,,8,KRW,8071641547,제 24 기 3분기,479069455,4143697093,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 25 기 3분기,1928968372,,,9,KRW,7055370700,제 24 기 3분기,2913459536,9086403110,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 25 기 3분기,1110685835,,,10,KRW,174879084,제 24 기 3분기,3189195445,2716337115,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 25 기 3분기,0,,,12,KRW,0,제 24 기 3분기,704311679,1118391157,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배지분,-,제 25 기 3분기,1110685835,,,13,KRW,174879084,제 24 기 3분기,2484883766,1597945958,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 25 기 3분기,30908541691,,,14,KRW,92950966298,제 24 기 3분기,42156579860,120146989876,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_CostOfSalesFromConstruction,공사매출원가,-,제 25 기 3분기,21719865433,,,15,KRW,34202208366,제 24 기 3분기,10919701820,43359933082,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsProduct,제품매출원가,-,제 25 기 3분기,9188676258,,,16,KRW,58748757932,제 24 기 3분기,31236878040,76787056794,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 25 기 3분기,19,,,18,KRW,4,제 24 기 3분기,25,-5,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 25 기 3분기,0,,,19,KRW,0,제 24 기 3분기,20,32,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 25 기 3분기,79310712,,,20,KRW,4651297797,제 24 기 3분기,2958016648,6971549510,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 25 기 3분기,677962208,,,21,KRW,2104478723,제 24 기 3분기,589106936,2099566008,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 25 기 3분기,1740823218,,,22,KRW,17218105226,제 24 기 3분기,6858647408,16527380024,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 25 기 3분기,-40001886,,,23,KRW,1639867088,제 24 기 3분기,11226430,-444077870,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 25 기 3분기,73673919,,,24,KRW,-52579761,제 24 기 3분기,-15789776,84486625,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익에 재분류되는 항목,-,제 25 기 3분기,76370743,,,25,KRW,-46897669,제 24 기 3분기,-14170816,87672864,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 자본 변동,-,제 25 기 3분기,76370743,,,26,KRW,-46897669,제 24 기 3분기,-14170816,87672864,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 25 기 3분기,-2696824,,,27,KRW,-5682092,제 24 기 3분기,-1618960,-3186239,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,-,제 25 기 3분기,-2696824,,,28,KRW,-5682092,제 24 기 3분기,-1618960,-3186239,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기 3분기,1037011916,,,29,KRW,227458845,제 24 기 3분기,3204985221,2631850490,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 25 기 3분기,0,,,31,KRW,0,제 24 기 3분기,704311679,1118391157,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배지분,-,제 25 기 3분기,1037011916,,,32,KRW,227458845,제 24 기 3분기,2500673542,1513459333,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 25 기 3분기,997010030,,,33,KRW,1867325933,제 24 기 3분기,1385374926,-719451076,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 25 기 3분기,1037011916,,,34,KRW,227458845,제 24 기 3분기,1374148496,-275373206,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 25 기 3분기,0,,,35,KRW,0,제 24 기 3분기,1830836725,2907223696,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 25 기 3분기,32649364909,,,36,KRW,110169071524,제 24 기 3분기,49015227268,136674369900,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_RevenueFromConstruction,공사매출액,-,제 25 기 3분기,22801466936,,,37,KRW,36400728812,제 24 기 3분기,11427722632,42873653586,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_RevenueFromRenderingOfServicesRental,임대료수입,-,제 25 기 3분기,21910400,,,38,KRW,122598402,제 24 기 3분기,32157999,96474001,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsProduct,제품매출액,-,제 25 기 3분기,9825987573,,,39,KRW,73645744310,제 24 기 3분기,37555346637,93704242313,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod,지분법 적용대상인 관계기업의 당기순손익에 대한 지분,-,제 25 기 3분기,-46498109,,,40,KRW,720202534,제 24 기 3분기,-9532831,488323240,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 25 기 3분기,23533069946,,,2,KRW,,제 24 기 3분기,7571444044,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 25 기 3분기,25621017231,,,3,KRW,,제 24 기 3분기,5254379348,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 25 기 3분기,-9363769327,,,8,KRW,,제 24 기 3분기,15338832153,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로부터의 현금유입,-,제 25 기 3분기,49500000000,,,9,KRW,,제 24 기 3분기,83551330557,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 25 기 3분기,49500000000,,,10,KRW,,제 24 기 3분기,83551330557,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로부터의 현금유출,-,제 25 기 3분기,58863769327,,,11,KRW,,제 24 기 3분기,68212498404,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 25 기 3분기,58569796956,,,12,KRW,,제 24 기 3분기,67928320192,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 25 기 3분기,293972371,,,13,KRW,,제 24 기 3분기,284178212,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 25 기 3분기,-50953972115,,,14,KRW,,제 24 기 3분기,17018410886,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유입,-,제 25 기 3분기,30634472708,,,15,KRW,,제 24 기 3분기,64094632145,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 25 기 3분기,598485290,,,16,KRW,,제 24 기 3분기,39115341920,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 처분,-,제 25 기 3분기,24689218,,,17,KRW,,제 24 기 3분기,4000000000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 25 기 3분기,30000000000,,,18,KRW,,제 24 기 3분기,20224529643,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 처분,-,제 25 기 3분기,0,,,19,KRW,,제 24 기 3분기,50000000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 25 기 3분기,11298200,,,20,KRW,,제 24 기 3분기,704760582,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유출,-,제 25 기 3분기,81588444823,,,21,KRW,,제 24 기 3분기,47076221259,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 25 기 3분기,121561360,,,22,KRW,,제 24 기 3분기,37163201438,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 25 기 3분기,0,,,23,KRW,,제 24 기 3분기,5000000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 취득,-,제 25 기 3분기,718866269,,,24,KRW,,제 24 기 3분기,0,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 25 기 3분기,80000000000,,,25,KRW,,제 24 기 3분기,8226321199,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 25 기 3분기,0,,,26,KRW,,제 24 기 3분기,9960000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 25 기 3분기,590781194,,,27,KRW,,제 24 기 3분기,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 25 기 3분기,157236000,,,28,KRW,,제 24 기 3분기,1671738622,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 25 기 3분기,62405688727,,,29,KRW,,제 24 기 3분기,-34670157503,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,영업으로부터 창출된 현금흐름,-,제 25 기 3분기,62935894403,,,30,KRW,,제 24 기 3분기,-28393874071,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 25 기 3분기,50148598504,,,31,KRW,,제 24 기 3분기,-48742315832,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품자산의 감소(증가),-,제 25 기 3분기,0,,,32,KRW,,제 24 기 3분기,142820000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDueFromCustomersForContractWork,미청구공사의 감소(증가),-,제 25 기 3분기,-1125129398,,,33,KRW,,제 24 기 3분기,1540218611,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 25 기 3분기,16722087120,,,34,KRW,,제 24 기 3분기,-955153879,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 25 기 3분기,93036088,,,35,KRW,,제 24 기 3분기,281432758,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 25 기 3분기,54584659,,,36,KRW,,제 24 기 3분기,-6756077899,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDerivativeLiabilities,파생상품부채의 증가(감소),-,제 25 기 3분기,-1192055187,,,37,KRW,,제 24 기 3분기,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDueToCustomersForContractWork,초과청구공사의 증가(감소),-,제 25 기 3분기,-17460909458,,,38,KRW,,제 24 기 3분기,-36471584,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForConstructionWarranties,하자보수충당부채의 증가(감소),-,제 25 기 3분기,0,,,39,KRW,,제 24 기 3분기,-639724652,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 25 기 3분기,-25635542,,,40,KRW,,제 24 기 3분기,-187739115,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 25 기 3분기,22999998,,,41,KRW,,제 24 기 3분기,-1407285549,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermOtherPayables,장기미지급금의 증가(감소),-,제 25 기 3분기,1632928,,,42,KRW,,제 24 기 3분기,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 25 기 3분기,75188072,,,43,KRW,,제 24 기 3분기,833904216,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPresentValueOfDefinedBenefitObligation,확정급여채무의현재가치의 증가(감소),-,제 25 기 3분기,0,,,44,KRW,,제 24 기 3분기,-8102261,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 25 기 3분기,-48966054,,,45,KRW,,제 24 기 3분기,-411988810,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 25 기 3분기,-286593055,,,46,KRW,,제 24 기 3분기,-478854140,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,선납관세의 감소(증가),-,제 25 기 3분기,405697981,,,47,KRW,,제 24 기 3분기,-519401730,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,선납법인세의 감소(증가),-,제 25 기 3분기,0,,,48,KRW,,제 24 기 3분기,20320560,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,공사미수금의 감소(증가),-,제 25 기 3분기,1514672978,,,49,KRW,,제 24 기 3분기,5425373975,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 25 기 3분기,23329853372,,,50,KRW,,제 24 기 3분기,-12680104167,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 25 기 3분기,-90636295,,,51,KRW,,제 24 기 3분기,-179632482,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 25 기 3분기,35243787425,,,52,KRW,,제 24 기 3분기,-21334538879,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities,종업원급여부채의 증가(감소),-,제 25 기 3분기,7178742,,,53,KRW,,제 24 기 3분기,,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 25 기 3분기,-7092195870,,,54,KRW,,제 24 기 3분기,-11391310805,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 25 기 3분기,12559837054,,,55,KRW,,제 24 기 3분기,17716591271,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 25 기 3분기,0,,,56,KRW,,제 24 기 3분기,22853738,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForExpenseOfOtherProvisions,기타충당부채전입액에 대한 조정,-,제 25 기 3분기,153681537,,,57,KRW,,제 24 기 3분기,3228553975,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익 조정,-,제 25 기 3분기,9848335,,,58,KRW,,제 24 기 3분기,329072641,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익 조정,-,제 25 기 3분기,372722836,,,59,KRW,,제 24 기 3분기,184921730,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainsOnChangeInFairValueOfDerivatives,파생상품평가이익 조정,-,제 25 기 3분기,0,,,60,KRW,,제 24 기 3분기,874854379,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가이익 조정,-,제 25 기 3분기,43373000,,,61,KRW,,제 24 기 3분기,1167800,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용 조정,-,제 25 기 3분기,2120769438,,,62,KRW,,제 24 기 3분기,6015346714,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryLiquidation,재고자산처분손실 조정,-,제 25 기 3분기,4509850,,,63,KRW,,제 24 기 3분기,140493,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실 조정,-,제 25 기 3분기,2115466,,,64,KRW,,제 24 기 3분기,885245,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnChangeInFairValueOfDerivatives,파생상품평가손실 조정,-,제 25 기 3분기,0,,,65,KRW,,제 24 기 3분기,7750358,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실 조정,-,제 25 기 3분기,33197300,,,66,KRW,,제 24 기 3분기,101910672,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가손실 조정,-,제 25 기 3분기,68675460,,,67,KRW,,제 24 기 3분기,1017137570,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실 조정,-,제 25 기 3분기,20464090,,,68,KRW,,제 24 기 3분기,2256859021,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비 조정,-,제 25 기 3분기,7800679230,,,69,KRW,,제 24 기 3분기,294843263,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForOtherReversalsOfProvisions,기타충당부채의 환입 조정,-,제 25 기 3분기,1068367164,,,70,KRW,,제 24 기 3분기,0,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익 조정,-,제 25 기 3분기,722318000,,,71,KRW,,제 24 기 3분기,488323240,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여 조정,-,제 25 기 3분기,298943367,,,72,KRW,,제 24 기 3분기,615153114,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForReversalOtherAllowanceAccountForCreditLosses,기타대손충당금 환입,-,제 25 기 3분기,28211277,,,73,KRW,,제 24 기 3분기,0,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForWarrantyExpenses,하자보수비 조정,-,제 25 기 3분기,0,,,74,KRW,,제 24 기 3분기,642125531,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실 조정,-,제 25 기 3분기,1595524770,,,75,KRW,,제 24 기 3분기,-210010389,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_ExpenseOfProvisionForConstructionLosses,공사손실충당부채전입액의 조정,-,제 25 기 3분기,-1425288314,,,76,KRW,,제 24 기 3분기,1075729087,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,dart_GainsOnDisposalsOfInventory,재고자산처분이익 조정,-,제 25 기 3분기,336540,,,77,KRW,,제 24 기 3분기,769708,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,-표준계정코드 미사용-,재고자산폐기손실 조정,-,제 25 기 3분기,0,,,78,KRW,,제 24 기 3분기,433227874,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비에 대한 조정,-,제 25 기 3분기,24045601,,,79,KRW,,제 24 기 3분기,73586315,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비에 대한 조정,-,제 25 기 3분기,3365013551,,,80,KRW,,제 24 기 3분기,4973241384,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익에 대한 조정,-,제 25 기 3분기,0,,,81,KRW,,제 24 기 3분기,22280000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 25 기 3분기,1639867088,,,82,KRW,,제 24 기 3분기,-349994565,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 25 기 3분기,897184228,,,83,KRW,,제 24 기 3분기,581358631,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기 3분기,1037011916,,,84,KRW,,제 24 기 3분기,3204985221,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 25 기 3분기,329764160,,,85,KRW,,제 24 기 3분기,802044160,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),-,제 25 기 3분기,-637161650,,,86,KRW,,제 24 기 3분기,1891121670,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 25 기 3분기,2138304312,,,87,KRW,,제 24 기 3분기,6016522200,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 25 기 3분기,641172826,,,88,KRW,,제 24 기 3분기,829316278,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 25 기 3분기,0,,,89,KRW,,제 24 기 3분기,-4150232,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 25 기 3분기,2087947285,,,90,KRW,,제 24 기 3분기,-2317064696,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기 3분기,187429252894,,,3,KRW,,제 24 기 3분기,227797153846,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기 3분기,-13131874478,,,3,KRW,,제 24 기 3분기,-13131874478,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 25 기 3분기,0,,,3,KRW,,제 24 기 3분기,21541845323,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 25 기 3분기,187429252894,,,3,KRW,,제 24 기 3분기,249338999169,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기 3분기,6247261661,,,3,KRW,,제 24 기 3분기,6033377622,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기 3분기,178934265403,,,3,KRW,,제 24 기 3분기,178934265403,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기 3분기,28571500000,,,3,KRW,,제 24 기 3분기,28571500000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기 3분기,-13191899692,,,3,KRW,,제 24 기 3분기,27389885299,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,연결재무제표 [member],제 25 기 3분기,-2696824,,,4,KRW,,제 24 기 3분기,-1618960,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기 3분기,-5682092,,,4,KRW,,제 24 기 3분기,-3186239,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기 3분기,-5682092,,,4,KRW,,제 24 기 3분기,-3186239,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 25 기 3분기,187604131978,,187429252894,5,KRW,,제 24 기 3분기,252055336284,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 25 기 3분기,178934265403,,,5,KRW,,제 24 기 3분기,178934265403,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 25 기 3분기,28571500000,,,5,KRW,,제 24 기 3분기,28571500000,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기 3분기,-12970122939,,,5,KRW,,제 24 기 3분기,28900158393,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기 3분기,6200363992,,,5,KRW,,제 24 기 3분기,6121050486,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 25 기 3분기,-13131874478,,,5,KRW,,제 24 기 3분기,-13131874478,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기 3분기,187604131978,,,5,KRW,,제 24 기 3분기,229395099804,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 25 기 3분기,0,,,5,KRW,,제 24 기 3분기,22660236480,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 25 기 3분기,227458845,,,6,KRW,,제 24 기 3분기,1513459333,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기 3분기,227458845,,,6,KRW,,제 24 기 3분기,1513459333,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 25 기 3분기,,,,6,KRW,,제 24 기 3분기,1118391157,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 25 기 3분기,1037011916,,,6,KRW,,제 24 기 3분기,3204985221,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 25 기 3분기,-46897669,,,7,KRW,,제 24 기 3분기,87672864,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 25 기 3분기,-46897669,,,7,KRW,,제 24 기 3분기,87672864,,100130,동국S&C,CFS
+20251113000407,11014,2025,00415594,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기 3분기,-46897669,,,7,KRW,,제 24 기 3분기,87672864,,100130,동국S&C,CFS

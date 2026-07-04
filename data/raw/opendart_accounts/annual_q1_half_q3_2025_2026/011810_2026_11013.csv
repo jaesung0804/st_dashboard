@@ -1,0 +1,194 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 51 기 1분기말,436611000000,제 50 기말,461095000000,7,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 51 기 1분기말,188990000000,제 50 기말,215093000000,8,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 51 기 1분기말,0,제 50 기말,57000000,9,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_ShortTermAdvancePayments,선급금,-,제 51 기 1분기말,28504000000,제 50 기말,47922000000,10,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 51 기 1분기말,38781000000,제 50 기말,48669000000,11,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,-표준계정코드 미사용-,단기비금융자산,-,제 51 기 1분기말,2333000000,제 50 기말,3926000000,12,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 51 기 1분기말,23900000000,제 50 기말,26577000000,13,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 51 기 1분기말,47334000000,제 50 기말,56853000000,14,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융자산,-,제 51 기 1분기말,13356000000,제 50 기말,7384000000,15,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,기타채권,-,제 51 기 1분기말,34782000000,제 50 기말,23705000000,16,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 51 기 1분기말,247621000000,제 50 기말,246002000000,17,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융자산,-,제 51 기 1분기말,40652000000,제 50 기말,40367000000,18,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,기타채권,-,제 51 기 1분기말,6600000000,제 50 기말,4468000000,19,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,-,제 51 기 1분기말,44000000,제 50 기말,65000000,20,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 51 기 1분기말,20000000,제 50 기말,19000000,21,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 51 기 1분기말,1535000000,제 50 기말,1543000000,22,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업 및 공동기업에 대한 지분,-,제 51 기 1분기말,2752000000,제 50 기말,3069000000,23,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 51 기 1분기말,196018000000,제 50 기말,196471000000,24,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 51 기 1분기말,-93807000000,제 50 기말,-49442000000,26,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 51 기 1분기말,-158263000000,제 50 기말,-114384000000,27,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 51 기 1분기말,407740000000,제 50 기말,407740000000,28,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본,-,제 51 기 1분기말,-275306000000,제 50 기말,-275554000000,29,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 51 기 1분기말,77545000000,제 50 기말,77545000000,30,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_RetainedEarnings,결손금,-,제 51 기 1분기말,-367036000000,제 50 기말,-322909000000,31,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_TreasuryShares,자기주식,-,제 51 기 1분기말,1206000000,제 50 기말,1206000000,32,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 51 기 1분기말,64456000000,제 50 기말,64942000000,33,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 51 기 1분기말,436611000000,제 50 기말,461095000000,34,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 51 기 1분기말,486815000000,제 50 기말,468553000000,36,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생상품부채,-,제 51 기 1분기말,46000000,제 50 기말,282000000,37,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 51 기 1분기말,28448000000,제 50 기말,25935000000,38,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 51 기 1분기말,88110000000,제 50 기말,88176000000,39,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,단기금융부채,-,제 51 기 1분기말,59536000000,제 50 기말,51197000000,40,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,단기비금융부채,-,제 51 기 1분기말,2280000000,제 50 기말,2448000000,41,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 51 기 1분기말,305180000000,제 50 기말,297358000000,42,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,유동성장기부채,-,제 51 기 1분기말,3215000000,제 50 기말,3157000000,43,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 51 기 1분기말,530418000000,제 50 기말,510537000000,44,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 51 기 1분기말,43603000000,제 50 기말,41984000000,45,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_LongTermBorrowingsGross,"장기차입금(사채 포함), 총액",-,제 51 기 1분기말,13385000000,제 50 기말,13960000000,46,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기금융부채,-,제 51 기 1분기말,4445000000,제 50 기말,4484000000,47,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,-,제 51 기 1분기말,2759000000,제 50 기말,531000000,48,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,-표준계정코드 미사용-,장기비금융부채,-,제 51 기 1분기말,453000000,제 50 기말,417000000,49,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 51 기 1분기말,14684000000,제 50 기말,14671000000,50,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,BS,재무상태표,ifrs-full_NoncurrentContractLiabilities,장기계약부채,-,제 51 기 1분기말,7877000000,제 50 기말,7921000000,51,KRW,,,,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업손실,-,제 51 기 1분기,-9865000000,,,6,KRW,-9865000000,제 50 기 1분기,-2925000000,-2925000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 51 기 1분기,347000000,,,7,KRW,347000000,제 50 기 1분기,309000000,309000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 51 기 1분기,25465000000,,,8,KRW,25465000000,제 50 기 1분기,834000000,834000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 51 기 1분기,12291000000,,,9,KRW,12291000000,제 50 기 1분기,7932000000,7932000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손실,-,제 51 기 1분기,-44365000000,,,10,KRW,-44365000000,제 50 기 1분기,-5714000000,-5714000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 51 기 1분기,-485000000,,,12,KRW,-485000000,제 50 기 1분기,-593000000,-593000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업주주지분,-,제 51 기 1분기,-43880000000,,,13,KRW,-43880000000,제 50 기 1분기,-5121000000,-5121000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 51 기 1분기,57547000000,,,14,KRW,57547000000,제 50 기 1분기,174744000000,174744000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당손실,-,제 51 기 1분기,-1424,,,16,KRW,-1424,제 50 기 1분기,-166,-166,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속사업기본주당손실,-,제 51 기 1분기,-1424,,,17,KRW,-1424,제 50 기 1분기,-166,-166,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실) - 보통주,-,제 51 기 1분기,0,,,18,KRW,0,제 50 기 1분기,0,0,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 51 기 1분기,21400000000,,,19,KRW,21400000000,제 50 기 1분기,11599000000,11599000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 51 기 1분기,11782000000,,,20,KRW,11782000000,제 50 기 1분기,9849000000,9849000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익(손실),-,제 51 기 1분기,2426000000,,,21,KRW,2426000000,제 50 기 1분기,5007000000,5007000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세수익(비용),-,제 51 기 1분기,11000000,,,22,KRW,11000000,제 50 기 1분기,11000000,11000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 51 기 1분기,247000000,,,23,KRW,247000000,제 50 기 1분기,-503000000,-503000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속기간에 당기손익으로 재분류되는 항목,-,제 51 기 1분기,247000000,,,24,KRW,247000000,제 50 기 1분기,-503000000,-503000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 51 기 1분기,199000000,,,25,KRW,199000000,제 50 기 1분기,-480000000,-480000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 51 기 1분기,48000000,,,26,KRW,48000000,제 50 기 1분기,-23000000,-23000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속기간에 당기손익으로 재분류되지 않는항목,-,제 51 기 1분기,0,,,27,KRW,0,제 50 기 1분기,0,0,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,-,제 51 기 1분기,0,,,28,KRW,0,제 50 기 1분기,0,0,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순손실,-,제 51 기 1분기,-44612000000,,,29,KRW,-44612000000,제 50 기 1분기,-5211000000,-5211000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 51 기 1분기,-486000000,,,31,KRW,-486000000,제 50 기 1분기,-242000000,-242000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업주주지분,-,제 51 기 1분기,-44126000000,,,32,KRW,-44126000000,제 50 기 1분기,-4969000000,-4969000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순손실,-,제 51 기 1분기,-44601000000,,,33,KRW,-44601000000,제 50 기 1분기,-5200000000,-5200000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속사업당기순손실,-,제 51 기 1분기,-44612000000,,,34,KRW,-44612000000,제 50 기 1분기,-5211000000,-5211000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단사업당기순이익(손실),-,제 51 기 1분기,0,,,35,KRW,0,제 50 기 1분기,0,0,011810,STX,CFS
+20260515001922,11013,2026,00138297,CIS,포괄손익계산서,ifrs-full_Revenue,매출,-,제 51 기 1분기,59973000000,,,36,KRW,59973000000,제 50 기 1분기,179751000000,179751000000,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 51 기 1분기,26577000000,,,2,KRW,,제 50 기 1분기,44975000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 51 기 1분기,23900000000,,,3,KRW,,제 50 기 1분기,60882000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 51 기 1분기,5341000000,,,8,KRW,,제 50 기 1분기,-19030000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_InterestPaidToHybridBond,신종자본증권 이자,-,제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,163000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스료의 지급,-,제 51 기 1분기,263000000,,,10,KRW,,제 50 기 1분기,253000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,14000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 순차입(상환),-,제 51 기 1분기,684000000,,,12,KRW,,제 50 기 1분기,-13359000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 51 기 1분기,0,,,13,KRW,,제 50 기 1분기,1000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 51 기 1분기,0,,,14,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_SubscriptionOnNewStocks,신주발행계약금의 증가,-,제 51 기 1분기,6800000000,,,15,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,-표준계정코드 미사용-,유동성장기부채의 상환,-,제 51 기 1분기,-287000000,,,16,KRW,,제 50 기 1분기,-411000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자의 지급,-,제 51 기 1분기,1593000000,,,17,KRW,,제 50 기 1분기,4857000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 51 기 1분기,-6622000000,,,18,KRW,,제 50 기 1분기,-15312000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromSalesOfLoansAndReceivables,기타채권의 감소,-,제 51 기 1분기,0,,,19,KRW,,제 50 기 1분기,6000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융자산의 감소,-,제 51 기 1분기,182000000,,,20,KRW,,제 50 기 1분기,1094000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융자산의 감소,-,제 51 기 1분기,1782000000,,,21,KRW,,제 50 기 1분기,217000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 51 기 1분기,8000000,,,22,KRW,,제 50 기 1분기,1009000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PurchaseOfLoansAndReceivables,기타채권의 증가,-,제 51 기 1분기,20000000,,,23,KRW,,제 50 기 1분기,534000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융자산의 증가,-,제 51 기 1분기,64000000,,,24,KRW,,제 50 기 1분기,979000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 51 기 1분기,0,,,25,KRW,,제 50 기 1분기,11000000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융자산의 증가,-,제 51 기 1분기,0,,,26,KRW,,제 50 기 1분기,2239000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 51 기 1분기,7743000000,,,27,KRW,,제 50 기 1분기,3150000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,-표준계정코드 미사용-,연결범위의 변동,-,제 51 기 1분기,0,,,28,KRW,,제 50 기 1분기,24000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 51 기 1분기,0,,,29,KRW,,제 50 기 1분기,350000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 51 기 1분기,11000000,,,30,KRW,,제 50 기 1분기,5000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 51 기 1분기,39000000,,,31,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 51 기 1분기,739000000,,,32,KRW,,제 50 기 1분기,115000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 51 기 1분기,-2086000000,,,33,KRW,,제 50 기 1분기,48777000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 51 기 1분기,-2332000000,,,34,KRW,,제 50 기 1분기,48064000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 51 기 1분기,0,,,35,KRW,,제 50 기 1분기,2000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 51 기 1분기,94000000,,,36,KRW,,제 50 기 1분기,209000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 51 기 1분기,340000000,,,37,KRW,,제 50 기 1분기,920000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 51 기 1분기,690000000,,,38,KRW,,제 50 기 1분기,1472000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가,-,제 51 기 1분기,-3367000000,,,39,KRW,,제 50 기 1분기,14435000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,77545000000,,,3,KRW,,제 50 기 1분기,77545000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,-1206000000,,,3,KRW,,제 50 기 1분기,-1206000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,-322909000000,,,3,KRW,,제 50 기 1분기,-155716000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,-275554000000,,,3,KRW,,제 50 기 1분기,-274489000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,-114384000000,,,3,KRW,,제 50 기 1분기,53874000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분,제 51 기 1분기,64942000000,,,3,KRW,,제 50 기 1분기,64783000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 51 기 1분기,-49442000000,,,3,KRW,,제 50 기 1분기,118657000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,407740000000,,,3,KRW,,제 50 기 1분기,407740000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,연결재무제표 [member],제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,-2340000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,-2340000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,-2340000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,-표준계정코드 미사용-,자본에 직접 인식된 주주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,4,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,연결재무제표 [member],제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,159000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,159000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,159000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,5,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,연결재무제표 [member],제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,6,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,-2181000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,-2181000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,연결재무제표 [member],제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,-2181000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,7,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,407740000000,,,8,KRW,,제 50 기 1분기,407740000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,77545000000,,,8,KRW,,제 50 기 1분기,77545000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,-1206000000,,,8,KRW,,제 50 기 1분기,-1206000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,-367035000000,,,8,KRW,,제 50 기 1분기,-163025000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,-275306000000,,,8,KRW,,제 50 기 1분기,-274640000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,-158263000000,,,8,KRW,,제 50 기 1분기,46414000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 51 기 1분기,-93807000000,,-49442000000,8,KRW,,제 50 기 1분기,110603000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분,제 51 기 1분기,64456000000,,,8,KRW,,제 50 기 1분기,64189000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 51 기 1분기,247000000,,,9,KRW,,제 50 기 1분기,-503000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,-352000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,247000000,,,9,KRW,,제 50 기 1분기,-151000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,247000000,,,9,KRW,,제 50 기 1분기,-151000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,9,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 51 기 1분기,199000000,,,10,KRW,,제 50 기 1분기,-480000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,10,KRW,,제 50 기 1분기,-352000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,199000000,,,10,KRW,,제 50 기 1분기,-128000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,199000000,,,10,KRW,,제 50 기 1분기,-128000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,10,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,10,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,10,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,10,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,연결재무제표 [member],제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,11,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 51 기 1분기,48000000,,,12,KRW,,제 50 기 1분기,-23000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분,제 51 기 1분기,0,,,12,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,12,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,12,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,12,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,0,,,12,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,48000000,,,12,KRW,,제 50 기 1분기,-23000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,48000000,,,12,KRW,,제 50 기 1분기,-23000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 51 기 1분기,0,,,13,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,연결재무제표 [member],제 51 기 1분기,-44612000000,,,13,KRW,,제 50 기 1분기,-5211000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|비지배지분,제 51 기 1분기,-486000000,,,13,KRW,,제 50 기 1분기,-242000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 51 기 1분기,-44126000000,,,13,KRW,,제 50 기 1분기,-4969000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본,제 51 기 1분기,0,,,13,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금(결손금),제 51 기 1분기,-44126000000,,,13,KRW,,제 50 기 1분기,-4969000000,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 51 기 1분기,0,,,13,KRW,,제 50 기 1분기,0,,011810,STX,CFS
+20260515001922,11013,2026,00138297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 51 기 1분기,0,,,13,KRW,,제 50 기 1분기,0,,011810,STX,CFS

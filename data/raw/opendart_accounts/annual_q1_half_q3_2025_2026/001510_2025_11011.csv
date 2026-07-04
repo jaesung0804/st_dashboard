@@ -1,0 +1,207 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_CashAndDuefromBanks,현금및예치금,-,제 72 기,610882415885,제 71 기,440425377099,제 70 기,426379899624,7,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_DebtSecuritiesAtAmortisedCost,상각후원가측정금융자산,-,제 72 기,2360000,제 71 기,2360000,제 70 기,19998210000,8,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_LoansAtAmortisedCost,대출채권,-,제 72 기,1134089784770,제 71 기,1168976010133,제 70 기,1208147072236,9,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 72 기,6859536112248,제 71 기,6109295395638,제 70 기,6449093771600,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 72 기,18267578798,제 71 기,17838357583,제 70 기,14701977643,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 72 기,3167451947,제 71 기,272194428,제 70 기,152341897,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_DerivativeFinancialAssetsHeldForTrading,파생상품자산,-,제 72 기,59110060386,제 71 기,155076269001,제 70 기,48160103782,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_FinanceLeaseReceivables,리스자산,-,제 72 기,18821460313,제 71 기,19136652740,제 70 기,20257321508,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 72 기,190645454367,제 71 기,161651670660,제 70 기,167240703818,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 72 기,3844078536436,제 71 기,3459908029995,제 70 기,3665816267309,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 72 기,28390837153,제 71 기,30400534910,제 70 기,39489957646,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자지분,-,제 72 기,204027960772,제 71 기,235393549508,제 70 기,232441824439,18,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 72 기,2791572903,제 71 기,2959881306,제 70 기,6800332150,19,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_OtherFinancialAssets,기타금융자산,-,제 72 기,619994726331,제 71 기,296902895046,제 70 기,468119012468,20,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_OtherNonfinancialAssets,기타비금융자산,-,제 72 기,26100494103,제 71 기,22392075939,제 70 기,23216386761,21,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 72 기,31533429871,제 71 기,31930418682,제 70 기,31578576120,22,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 72 기,67631988213,제 71 기,66029118608,제 70 기,76593784199,23,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 72 기,604618254601,제 71 기,559276595602,제 70 기,647238478234,26,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배주주지분,-,제 72 기,602394974044,제 71 기,550995937275,제 70 기,636324143459,27,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 72 기,70336007457,제 71 기,70336007457,제 70 기,70336007457,28,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 72 기,-35642923992,제 71 기,-35543028984,제 70 기,-35448808767,29,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 72 기,137811043329,제 71 기,114686961724,제 70 기,116429908383,30,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 72 기,238251342500,제 71 기,238251342500,제 70 기,238251342500,31,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 72 기,191639504750,제 71 기,163264654578,제 70 기,246755693886,32,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_RegulatoryReserveForCreditLoss,(대손준비금 적립액),-,제 72 기,35428914364,제 71 기,23420451968,제 70 기,8679921686,33,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,dart_RegulatoryReserveForCreditLossToBeAddedReversed,(대손준비금 전입(환입) 예정액),-,제 72 기,-14443859143,제 71 기,12008462396,제 70 기,14740530282,34,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 72 기,2223280557,제 71 기,8280658327,제 70 기,10914334775,35,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 72 기,6859536112248,제 71 기,6109295395638,제 70 기,6449093771600,36,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_Borrowings,차입부채,-,제 72 기,3261997445060,제 71 기,2951766924635,제 70 기,3111834437973,38,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 72 기,12926551021,제 71 기,1080515896,제 70 기,908648985,39,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 72 기,10116166983,제 71 기,2081570072,제 70 기,19682367999,40,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_DepositsFromCustomers,예수부채,-,제 72 기,1136859511660,제 71 기,852200701891,제 70 기,1037579483729,41,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_DerivativeFinancialLiabilities,파생상품부채,-,제 72 기,62345760806,제 71 기,159053730552,제 70 기,107907736938,42,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융부채,-,제 72 기,1027171698615,제 71 기,1199667581209,제 70 기,952836038800,43,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_LeaseLiabilities,리스부채,-,제 72 기,75970004262,제 71 기,73726969007,제 70 기,83751091598,44,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 72 기,6254917857647,제 71 기,5550018800036,제 70 기,5801855293366,45,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_OtherFinancialLiabilities,기타금융부채,-,제 72 기,589443479557,제 71 기,249397338066,제 70 기,424718990435,46,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_OtherNonfinancialLiabilities,기타비금융부채,-,제 72 기,69717429208,제 71 기,47036759384,제 70 기,52477397092,47,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_Provisions,충당부채,-,제 72 기,8369810475,제 71 기,9007565748,제 70 기,10159099817,48,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 72 기,0,제 71 기,4999143576,제 70 기,0,49,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_AdditionalImpairmentLossesOfFinancialAssets,신용손실충당금 전입액,-,제 72 기,107307925758,제 71 기,78747069930,제 70 기,38205824264,2,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_GainLossFromFinancialInstruments,금융상품관련순손익,-,제 72 기,91363055340,제 71 기,3730428569,제 70 기,84316291971,7,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_GainFromFinancialInstruments,금융상품관련수익,-,제 72 기,917322281816,제 71 기,692291303021,제 70 기,712219595827,8,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtAmortisedCost,상각후원가측정금융상품관련이익,-,제 72 기,10408991003,제 71 기,1495948318,제 70 기,2675625015,9,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융상품관련이익,-,제 72 기,906913290813,제 71 기,690795354703,제 70 기,709543970812,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_LossFromFinancialInstruments,금융상품관련비용,-,제 72 기,825959226476,제 71 기,688560874452,제 70 기,627903303856,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtAmortisedCost,상각후원가측정금융상품관련손실,-,제 72 기,635458393,제 71 기,5534035765,제 70 기,1007089191,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융상품관련손실,-,제 72 기,825323768083,제 71 기,683026838687,제 70 기,626896214665,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_NonOperatingExpense,영업외비용,-,제 72 기,14350532395,제 71 기,20956241685,제 70 기,36894656437,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_NonOperatingIncome,영업외수익,-,제 72 기,44970753078,제 71 기,29249585907,제 70 기,29678241191,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_ReversalsOfImpairmentLossesOfFinancialAssets,신용손실충당금 환입액,-,제 72 기,0,제 71 기,22434829,제 70 기,0,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,-표준계정코드 미사용-,순영업손익,-,제 72 기,305213473124,제 71 기,148295200230,제 70 기,262262474599,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 72 기,51826933276,제 71 기,-85013208442,제 70 기,7695979965,18,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분총포괄이익,-,제 72 기,-115918903,제 71 기,-723857354,제 70 기,636507609,19,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유지분총포괄이익,-,제 72 기,51942852179,제 71 기,-84289351088,제 70 기,7059472356,20,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 72 기,69.37,제 71 기,-199.49,제 70 기,6.07,22,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 72 기,69.37,제 71 기,-199.49,제 70 기,6.07,23,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionIncomeExpense,순수수료손익,-,제 72 기,232860989804,제 71 기,147121203255,제 70 기,172874210756,24,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionExpense,수수료비용,-,제 72 기,12580899492,제 71 기,8659336019,제 70 기,10925964928,25,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionIncome,수수료수익,-,제 72 기,245441889296,제 71 기,155780539274,제 70 기,183800175684,26,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 72 기,9703307587,제 71 기,-16312782580,제 70 기,2693655515,27,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_InterestRevenueExpense,순이자손익,-,제 72 기,60155716059,제 71 기,55504788427,제 70 기,37339328164,28,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_InterestExpense,이자비용,-,제 72 기,125474315049,제 71 기,154203483722,제 70 기,167530346944,29,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_RevenueFromInterest,이자수익,-,제 72 기,185630031108,제 71 기,209708272149,제 70 기,204869675108,30,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융자산 이자수익,-,제 72 기,86705077289,제 71 기,97112120798,제 70 기,83190531562,31,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_InterestRevenueCalculatedUsingEffectiveInterestMethod,유효이자율적용이자수익,-,제 72 기,98924953819,제 71 기,112596151351,제 70 기,121679143546,32,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 72 기,23124081605,제 71 기,-1742946659,제 70 기,4508193115,33,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,-,제 72 기,-254057990,제 71 기,796207675,제 70 기,252388190,35,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 72 기,-16944132,제 71 기,-119756509,제 70 기,354315799,36,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동,-,제 72 기,-587687197,제 71 기,3142493949,제 70 기,-665942698,38,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,-,제 72 기,20291365989,제 71 기,-4297966499,제 70 기,5815169326,39,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 72 기,3691404935,제 71 기,-1263925275,제 70 기,-1247737502,40,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_OtherOperatingIncomeExpense,기타영업손익,-,제 72 기,3759484404,제 71 기,2358007239,제 70 기,-8621528759,41,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_OtherOperatingExpense,기타영업비용,-,제 72 기,28136322644,제 71 기,23276510870,제 70 기,37654335030,42,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ForeignExchangeLoss,외화거래손실,-,제 72 기,27423957998,제 71 기,20561569295,제 70 기,24042575346,43,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_MiscellaneousOtherOperatingExpense,기타영업비용,-,제 72 기,712364646,제 71 기,2714941575,제 70 기,13611759684,44,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,dart_OtherOperatingIncome,기타영업수익,-,제 72 기,31895807048,제 71 기,25634518109,제 70 기,29032806271,45,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ForeignExchangeGain,외화거래이익,-,제 72 기,27263170905,제 71 기,17813253128,제 70 기,24005916690,46,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_MiscellaneousOtherOperatingIncome,기타영업수익,-,제 72 기,4632636143,제 71 기,7821264981,제 70 기,5026889581,47,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 72 기,28702851671,제 71 기,-83270261783,제 70 기,3187786850,48,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 72 기,-115918903,제 71 기,-723857354,제 70 기,636507609,49,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 72 기,28818770574,제 71 기,-82546404429,제 70 기,2551279241,50,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순이익,-,제 72 기,38406159258,제 71 기,-99583044363,제 70 기,5881442365,51,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_ProfitLossFromOperatingActivities,영업이익(손실),-,제 72 기,7785938575,제 71 기,-107876388585,제 70 기,13097857611,52,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_RevenueFromDividends,배당수익,-,제 72 기,24382153275,제 71 기,18305407841,제 70 기,14559996731,53,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 72 기,297427534549,제 71 기,256171588815,제 70 기,249164616988,54,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 72 기,226990185141,제 71 기,182814970715,제 70 기,235561865963,2,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_CashAndCashEquivalents,기말현금및현금성자산,-,제 72 기,209453750514,제 71 기,226990185141,제 70 기,182814970715,7,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동순현금흐름,-,제 72 기,303951081824,제 71 기,-174873737963,제 70 기,-268554974587,9,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 72 기,0,제 71 기,268449941,제 70 기,0,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,환매조건부매도 순증감,-,제 72 기,16006465178,제 71 기,13889594904,제 70 기,-238919556939,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 72 기,437373790,제 71 기,855253110,제 70 기,2108625130,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 72 기,6884522776,제 71 기,7111821477,제 70 기,7817549805,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 증가,-,제 72 기,2499990357205,제 71 기,2692920364184,제 70 기,3128328344632,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromIssueOfBondsNotesAndDebentures,사채발행,-,제 72 기,7000000000,제 71 기,25000000000,제 70 기,5000000000,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_RepaymentsOfBondsNotesAndDebentures,사채상환,-,제 72 기,2000000000,제 71 기,5000000000,제 70 기,7000000000,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 감소,-,제 72 기,2209723843993,제 71 기,2893985072405,제 70 기,3146037587345,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동순현금흐름,-,제 72 기,53004208394,제 71 기,1443324999,제 70 기,924528301,19,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 72 기,12184106906,제 71 기,3588350295,제 70 기,340387150,20,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_PaymentsForRestoration,복구비의지출,-,제 72 기,15060943,제 71 기,44646558,제 70 기,0,21,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,보증금의 회수,-,제 72 기,13353839771,제 71 기,6859417707,제 70 기,2531107944,22,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 72 기,0,제 71 기,517038000,제 70 기,3107330223,23,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업투자자산의 처분,-,제 72 기,70625963832,제 71 기,45066405578,제 70 기,36693610786,24,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 72 기,136802660,제 71 기,3786560153,제 70 기,0,25,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 72 기,93105700,제 71 기,6888300,제 70 기,0,26,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 72 기,3349654075,제 71 기,2230575373,제 70 기,6746932248,27,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자자산의 취득,-,제 72 기,11167450000,제 71 기,43926220505,제 70 기,32262549150,28,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 72 기,0,제 71 기,31069824,제 70 기,0,29,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 72 기,4489231645,제 71 기,4972122184,제 70 기,2057652104,30,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동순현금흐름,-,제 72 기,-374251666084,제 71 기,217222420553,제 70 기,215006997684,32,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 72 기,-461570929783,제 71 기,151237687774,제 70 기,164989862751,33,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 72 기,-498147528881,제 71 기,206377378605,제 70 기,212701942561,34,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDuefromBanks,예치금의 감소(증가),-,제 72 기,-187649681334,제 71 기,30378591854,제 70 기,49271429841,35,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtAmortisedCostClassifiedAsOperatingActivities,상각후원가측정금융자산의 감소(증가),-,제 72 기,0,제 71 기,19995850000,제 70 기,-19953780000,36,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융자산의 감소(증가),-,제 72 기,-280518161882,제 71 기,194856021794,제 70 기,164478302669,37,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInLoans,대출채권의 감소(증가),-,제 72 기,-25620804539,제 71 기,9959682864,제 70 기,-11850927190,38,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융부채의 증가(감소),-,제 72 기,-242070576114,제 71 기,243020696690,제 70 기,165362923462,39,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisions,충당부채의 증가(감소),-,제 72 기,347400056,제 71 기,0,제 70 기,-2000000000,40,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,리스자산의 감소(증가),-,제 72 기,-3950141384,제 71 기,-3474232817,제 70 기,-4494226167,41,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInDerivativeFinancialAssets,파생상품자산의 감소(증가),-,제 72 기,140975993675,제 71 기,11161352693,제 70 기,38036404503,42,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산의 감소(증가),-,제 72 기,-348103219865,제 71 기,176523179341,제 70 기,-184735985210,43,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers,예수부채의 증가(감소),-,제 72 기,285091599289,제 71 기,-185620241036,제 70 기,-69477806565,44,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDerivativeFinancialLiabilities,파생상품부채의 증가(감소),-,제 72 기,-151805373862,제 71 기,-59278059541,제 70 기,-40064593296,45,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities,순확정급여부채 증가(감소),-,제 72 기,-9057967566,제 71 기,-6027033283,제 70 기,-8520895723,46,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채의 증가(감소),-,제 72 기,324213404645,제 71 기,-225118429954,제 70 기,136651096237,47,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 72 기,24382153275,제 71 기,18305407841,제 70 기,14559996731,48,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 72 기,9703307587,제 71 기,-16312782580,제 70 기,2693655515,49,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForInterestExpense,이자비용,-,제 72 기,125474315049,제 71 기,154203483722,제 70 기,167530346944,50,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 72 기,185630031108,제 71 기,209708272149,제 70 기,204869675108,51,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감 합계,-,제 72 기,82708309174,제 71 기,118253549800,제 70 기,-1694197280,52,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 72 기,88062079304,제 71 기,78747069930,제 70 기,34191164087,53,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForGainLossOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분손익,-,제 72 기,1828351943,제 71 기,0,제 70 기,1752617767,54,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForGainLossOnDisposalsOfIntangibleAssets,무형자산처분손익,-,제 72 기,0,제 71 기,1278451795,제 70 기,998602486,55,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForGainLossOnDisposalsOfInvestmentProperty,투자부동산처분손익,-,제 72 기,-10267164,제 71 기,-137969377,제 70 기,0,56,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForGainLossOnForeignExchangeTranslations,외화환산손익,-,제 72 기,3341326851,제 71 기,1911560550,제 70 기,986294706,57,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타대손상각비,-,제 72 기,19245846454,제 71 기,0,제 70 기,4014660177,58,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForOtherOperatingIncomeExpense,기타,-,제 72 기,384602595,제 71 기,-97144906,제 70 기,1113250020,59,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 72 기,9971330017,제 71 기,9173590792,제 70 기,9903329932,60,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForReversalOtherAllowanceAccountForCreditLosses,기타대손충당금 환입,-,제 72 기,0,제 71 기,22434829,제 70 기,0,61,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,dart_AdjustmentsForReversalsOfImpairmentLossesOnAssociates,종속기업/관계기업/공동기업투자손상차손환입,-,제 72 기,142363701,제 71 기,1541571138,제 70 기,0,62,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,당기손익-공정가치측정금융자산평가손익,-,제 72 기,-102888920094,제 71 기,15093118945,제 70 기,-77052655345,63,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,탄소배출권평가손익,-,제 72 기,-1473431175,제 71 기,-490654303,제 70 기,-675030233,64,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,당기손익-공정가치측정금융부채평가손익,-,제 72 기,68856732250,제 71 기,7897313794,제 70 기,22117777971,65,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,대출채권평가손익,-,제 72 기,-3783792,제 71 기,-633502829,제 70 기,-1197274556,66,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,-표준계정코드 미사용-,리스처분손익,-,제 72 기,-102668112,제 71 기,-278872008,제 70 기,-33125237,67,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 72 기,5350047604,제 71 기,6281927676,제 70 기,6951080622,68,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 72 기,17117885521,제 71 기,18487635210,제 70 기,19021932350,69,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForGainLossOnDisposalOfInvestmentsInSubsidiariesJointVenturesAndAssociates,"종속기업, 공동기업, 및 관계기업에 대한 투자지분의 처분이익(손실)에 대한 조정",-,제 72 기,0,제 71 기,-835320463,제 70 기,0,70,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForGainLossOnDisposalsPropertyPlantAndEquipment,유형자산처분손익,-,제 72 기,-253197445,제 71 기,6888300,제 70 기,-184000,71,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForGainsLossesOnChangeInFairValueOfDerivatives,파생상품평가손익,-,제 72 기,-10087619056,제 71 기,7653464757,제 70 기,6811330856,72,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForProvisions,충당부채전입(환입)액,-,제 72 기,-356212659,제 71 기,-1767423351,제 70 기,5577020449,73,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,-,제 72 기,414503374,제 71 기,214633254,제 70 기,0,74,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod,지분법손익,-,제 72 기,26139538093,제 71 기,3407431687,제 70 기,13829480260,75,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ImpairmentLoss,손상차손,-,제 72 기,0,제 71 기,280081000,제 70 기,978314598,76,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 72 기,28702851671,제 71 기,-83270261783,제 70 기,3187786850,77,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 72 기,24347336680,제 71 기,18108128957,제 70 기,14586185866,78,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 72 기,2680373463,제 71 기,4564419465,제 70 기,-2483114421,79,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 72 기,123059651974,제 71 기,148945082125,제 70 기,168263813731,80,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 72 기,188711952456,제 71 기,201386105412,제 70 기,201211648377,81,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 72 기,-240058761,제 71 기,383206837,제 70 기,-123446646,83,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 72 기,-17296375866,제 71 기,43792007589,제 70 기,-52623448602,84,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,550995937275,제 71 기,636324143459,제 70 기,631126821432,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기,238251342500,제 71 기,238251342500,제 70 기,238251342500,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기,163264654578,제 71 기,246755693886,제 70 기,246094994310,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 72 기,559276595602,제 71 기,647238478234,제 70 기,641333326971,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 72 기,8280658327,제 71 기,10914334775,제 70 기,10206505539,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 72 기,70336007457,제 71 기,70336007457,제 70 기,70307527673,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기,-35543028984,제 71 기,-35448808767,제 70 기,-35448758319,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,114686961724,제 71 기,116429908383,제 70 기,111921715268,3,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기,437381287,제 71 기,855200004,제 70 기,2108656155,6,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,437381287,제 71 기,855200004,제 70 기,2108656155,6,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,연결재무제표 [member],제 72 기,437381287,제 71 기,855200004,제 70 기,2108656155,6,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의 변동,자본 [구성요소]|비지배지분 [구성요소],제 72 기,-5941458867,제 71 기,-1909819094,제 70 기,71321627,7,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의 변동,연결재무제표 [member],제 72 기,-5941458867,제 71 기,-1909819094,제 70 기,71321627,7,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,20291365989,제 71 기,-4297966499,제 70 기,5815169326,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,20291365989,제 71 기,-4297966499,제 70 기,5815169326,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 72 기,20291365989,제 71 기,-4297966499,제 70 기,5815169326,10,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치인식 지정 금융부채 신용위험변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,-587687197,제 71 기,3142493949,제 70 기,-665942698,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치인식 지정 금융부채 신용위험변동,연결재무제표 [member],제 72 기,-587687197,제 71 기,3142493949,제 70 기,-665942698,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치인식 지정 금융부채 신용위험변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,-587687197,제 71 기,3142493949,제 70 기,-665942698,11,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,-254057990,제 71 기,796207675,제 70 기,252388190,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,-254057990,제 71 기,796207675,제 70 기,252388190,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 72 기,-254057990,제 71 기,796207675,제 70 기,252388190,12,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 72 기,3691404935,제 71 기,-1263925275,제 70 기,-1247737502,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,3691404935,제 71 기,-1263925275,제 70 기,-1247737502,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,3691404935,제 71 기,-1263925275,제 70 기,-1247737502,13,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,-16944132,제 71 기,-119756509,제 70 기,354315799,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,-16944132,제 71 기,-119756509,제 70 기,354315799,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 72 기,-16944132,제 71 기,-119756509,제 70 기,354315799,14,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 72 기,-115918903,제 71 기,-723857354,제 70 기,636507609,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 72 기,28702851671,제 71 기,-83270261783,제 70 기,3187786850,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,28818770574,제 71 기,-82546404429,제 70 기,2551279241,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기,28818770574,제 71 기,-82546404429,제 70 기,2551279241,15,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,-106434123,제 71 기,-183655092,제 70 기,246505826,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기,-99895008,제 71 기,-94220217,제 70 기,-50448,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 72 기,,제 71 기,,제 70 기,28479784,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동,연결재무제표 [member],제 72 기,-106434123,제 71 기,-183655092,제 70 기,246505826,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기,-6539115,제 71 기,-89434875,제 70 기,218076490,16,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기,238251342500,제 71 기,238251342500,제 70 기,238251342500,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 72 기,604618254601,제 71 기,559276595602,제 70 기,647238478234,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 72 기,70336007457,제 71 기,70336007457,제 70 기,70336007457,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기,602394974044,제 71 기,550995937275,제 70 기,636324143459,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기,-35642923992,제 71 기,-35543028984,제 70 기,-35448808767,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 72 기,137811043329,제 71 기,114686961724,제 70 기,116429908383,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기,191639504750,제 71 기,163264654578,제 70 기,246755693886,17,KRW,,001510,SK증권,CFS
+20260316000883,11011,2025,00131850,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 72 기,2223280557,제 71 기,8280658327,제 70 기,10914334775,17,KRW,,001510,SK증권,CFS

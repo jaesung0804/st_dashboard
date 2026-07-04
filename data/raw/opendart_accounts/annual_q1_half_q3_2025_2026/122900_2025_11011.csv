@@ -1,0 +1,313 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 26 기,1364073064191,제 25 기,1279967962677,제 24 기,1373717052601,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 26 기,944919653367,제 25 기,898710532851,제 24 기,1012629090484,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 26 기,144380468867,제 25 기,122072469524,제 24 기,174413123306,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentFinanceLeaseReceivables,리스채권,-,제 26 기,5548376947,제 25 기,4999367286,제 24 기,2589545192,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentLoansAndReceivables,기타수취채권,-,제 26 기,5419574717,제 25 기,5202584786,제 24 기,6822969381,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 26 기,105437430,제 25 기,37826512,제 24 기,1895645883,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 26 기,633772227831,제 25 기,608168842586,제 24 기,650496767184,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 26 기,70784974744,제 25 기,59932367594,제 24 기,81908570214,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 26 기,17733336809,제 25 기,23840805340,제 24 기,23710687771,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 26 기,67175256022,제 25 기,74456269223,제 24 기,70791781553,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 26 기,419153410824,제 25 기,381257429826,제 24 기,361087962117,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 26 기,14773937759,제 25 기,2890809347,제 24 기,6307331328,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 26 기,103544761665,제 25 기,111958740103,제 24 기,118276267861,19,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 26 기,1371976698,제 25 기,123132148,제 24 기,7967997508,20,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 26 기,21129802574,제 25 기,6484958667,제 24 기,10657153165,21,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentFinanceLeaseReceivables,리스채권,-,제 26 기,6760188715,제 25 기,9788349704,제 24 기,4663149321,22,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentLoansAndReceivables,기타수취채권,-,제 26 기,6769102870,제 25 기,5165510858,제 24 기,4174579634,23,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 26 기,201026238,제 25 기,174724833,제 24 기,0,24,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 26 기,63943891747,제 25 기,81030156096,제 24 기,62385105311,25,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 26 기,194759559407,제 25 기,157798063301,제 24 기,140008939304,26,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 26 기,5899163151,제 25 기,5842984769,제 24 기,6647438685,27,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 26 기,422053619687,제 25 기,414701607307,제 24 기,400371903894,29,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배주주소유지분,-,제 26 기,369951614763,제 25 기,359899582784,제 24 기,343510445137,30,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 26 기,7084668174,제 25 기,7627561152,제 24 기,1406299200,31,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_AdditionalPaidinCapital,기타불입자본,-,제 26 기,108326124306,제 25 기,108115259631,제 24 기,106524077363,32,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 26 기,18166670000,제 25 기,18166670000,제 24 기,18166670000,33,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 26 기,236374152283,제 25 기,225990092001,제 24 기,217413398574,34,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 26 기,52102004924,제 25 기,54802024523,제 24 기,56861458757,35,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 26 기,1364073064191,제 25 기,1279967962677,제 24 기,1373717052601,36,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 26 기,863514371188,제 25 기,818354900186,제 24 기,895581133358,38,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,dart_CurrentNontradePayables,기타지급채무,-,제 26 기,19416543071,제 25 기,12522494807,제 24 기,16399987288,39,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,dart_CurrentPortionOfBonds,유동사채,-,제 26 기,0,제 25 기,22922542647,제 24 기,0,40,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 26 기,14558550161,제 25 기,13152291262,제 24 기,12342403058,41,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,단기차입금,-,제 26 기,103264148318,제 25 기,103178407604,제 24 기,82321775366,42,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 26 기,16591782928,제 25 기,11759786229,제 24 기,4409297953,43,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings,유동성 장기차입금,-,제 26 기,29120000,제 25 기,49920000,제 24 기,49920000,44,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타금융부채,-,제 26 기,1790670164,제 25 기,7326944960,제 24 기,60500571,45,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 26 기,12994127661,제 25 기,22237788077,제 24 기,16430660040,46,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 26 기,694869428885,제 25 기,625204724600,제 24 기,763566589082,47,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 26 기,942019444504,제 25 기,865266355370,제 24 기,973345148707,48,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 26 기,78505073316,제 25 기,46911455184,제 24 기,77764015349,49,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,dart_NoncurrentNontradePayables,기타비유동지급채무,-,제 26 기,732068817,제 25 기,694092856,제 24 기,2000000,50,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_BondsIssued,비유동사채,-,제 26 기,18187194429,제 25 기,0,제 24 기,21988211076,51,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 26 기,18967150179,제 25 기,20641118344,제 24 기,22836285200,52,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 26 기,34019755550,제 25 기,17864365637,제 24 기,22660056281,53,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_NoncurrentPortionOfOtherNoncurrentBorrowings,장기차입금,-,제 26 기,0,제 25 기,29120000,제 24 기,79040000,54,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 26 기,916110935,제 25 기,3623179957,제 24 기,6543724725,55,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 26 기,2407554432,제 25 기,1218582520,제 24 기,1282572078,56,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 26 기,3275238974,제 25 기,2840995870,제 24 기,2372125989,57,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 26 기,20319970689,제 25 기,44784623263,제 24 기,51107089826,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,dart_OtherGains,기타영업외수익,-,제 26 기,13270319590,제 25 기,12143063930,제 24 기,11522819280,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,dart_OtherLosses,기타영업외비용,-,제 26 기,13450582604,제 25 기,19170062544,제 24 기,12134368911,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 26 기,136321805908,제 25 기,113060484003,제 24 기,104991132651,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기총포괄이익,-,제 26 기,34251187388,제 25 기,41066496182,제 24 기,14872890734,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 26 기,8677850084,제 25 기,7389936803,제 24 기,9168931954,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유주지분,-,제 26 기,25573337304,제 25 기,33676559379,제 24 기,5703958780,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 26 기,2897781122913,제 25 기,3160490051888,제 24 기,3269497774886,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 26 기,666,제 25 기,857,제 24 기,481,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 26 기,643,제 25 기,828,제 24 기,476,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 26 기,7761107739,제 25 기,6743868386,제 24 기,19209489169,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 26 기,31149000198,제 25 기,29111127160,제 24 기,10164845202,19,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 26 기,156641776597,제 25 기,157845107266,제 24 기,156098222477,20,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 26 기,8287286281,제 25 기,16788312006,제 24 기,6187619359,21,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 26 기,4610418840,제 25 기,6752908657,제 24 기,-9427796160,22,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 26 기,-483594190,제 25 기,6404637846,제 24 기,-354152413,23,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,-,제 26 기,-483594190,제 25 기,6404637846,제 24 기,-354152413,24,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossBeforeTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 26 기,5094013030,제 25 기,348270811,제 24 기,-9073643747,25,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,-,제 26 기,8628492601,제 25 기,1345404486,제 24 기,-9030277636,26,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss,기타포괄손익의법인세효과,-,제 26 기,-1830961461,제 25 기,-136786856,제 24 기,2448321262,27,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 26 기,-1720062547,제 25 기,-803224693,제 24 기,-2483892899,28,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax,지분법자본변동,-,제 26 기,16544437,제 25 기,-57122126,제 24 기,-7794474,29,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 26 기,29640768548,제 25 기,34313587525,제 24 기,24300686894,30,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 26 기,8694933503,제 25 기,7358707983,제 24 기,9172817423,32,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,-,제 26 기,20945835045,제 25 기,26954879542,제 24 기,15127869471,33,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 26 기,37928054829,제 25 기,51101899531,제 24 기,30488306253,34,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_Revenue,매출,-,제 26 기,3054422899510,제 25 기,3318335159154,제 24 기,3425595997363,35,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자관련손익,-,제 26 기,-5599545305,제 25 기,-9022983892,제 24 기,-10962589975,36,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 26 기,122072469524,제 25 기,174413123306,제 24 기,132420105342,2,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 26 기,144380468867,제 25 기,122072469524,제 24 기,174413123306,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 26 기,-44434991790,제 25 기,-31719684355,제 24 기,28820997055,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 26 기,13878818644,제 25 기,14710100996,제 24 기,13051656087,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 26 기,18957425000,제 25 기,0,제 24 기,23269502500,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 26 기,113099181375,제 25 기,117012210219,제 24 기,158548488241,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 26 기,23269502500,제 25 기,0,제 24 기,0,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,유동성장기차입금의 상환,-,제 26 기,49920000,제 25 기,49920000,제 24 기,21040000,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 26 기,111338526061,제 25 기,105546815581,제 24 기,112764693599,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당의지급,-,제 26 기,24748170000,제 25 기,28335604000,제 24 기,27159604000,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분의 취득,-,제 26 기,3206660960,제 25 기,89453997,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 26 기,14359802302,제 25 기,-19977487591,제 24 기,-77066923153,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,기타지급채무의 증가,-,제 26 기,0,제 25 기,-124012666,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산의 처분,-,제 26 기,29913516411,제 25 기,12769988426,제 24 기,2141179999,19,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 26 기,20608464680,제 25 기,0,제 24 기,0,20,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsHeldToMaturity,상각후원가 측정 금융자산의 처분,-,제 26 기,0,제 25 기,0,제 24 기,195000,21,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,기타장기수취채권의 감소,-,제 26 기,508204207,제 25 기,203523727,제 24 기,139321114,22,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 감소,-,제 26 기,580984124587,제 25 기,864095794362,제 24 기,1091740008616,23,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,장기기타금융자산의 감소,-,제 26 기,0,제 25 기,912856414,제 24 기,5000000,24,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,기타수취채권의 감소,-,제 26 기,2206779169,제 25 기,125883611,제 24 기,17715304,25,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산의 취득,-,제 26 기,3298700000,제 25 기,15197958000,제 24 기,3226450000,26,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 취득,-,제 26 기,4116519330,제 25 기,0,제 24 기,1387272570,27,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfFinancialAssetsHeldToMaturity,상각후원가측정 금융자산의 취득,-,제 26 기,0,제 25 기,0,제 24 기,223490,28,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자의 취득,-,제 26 기,21585546484,제 25 기,4900000000,제 24 기,17498045684,29,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기기타수취채권의 증가,-,제 26 기,3014809477,제 25 기,967841425,제 24 기,193747256,30,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 취득,-,제 26 기,568260488774,제 25 기,864343669196,제 24 기,1075533118120,31,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,장기기타금융자산의 증가,-,제 26 기,22000000,제 25 기,116499500,제 24 기,100120421,32,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,기타수취채권의 증가,-,제 26 기,0,제 25 기,413000000,제 24 기,35000000,33,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 순현금유입(유출),-,제 26 기,0,제 25 기,0,제 24 기,-2744486777,34,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,국고보조금의 증가,-,제 26 기,632600000,제 25 기,2291000000,제 24 기,0,35,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 26 기,0,제 25 기,0,제 24 기,25000000,36,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업투자의 처분,-,제 26 기,0,제 25 기,1000,제 24 기,0,37,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 26 기,349087019,제 25 기,177443935,제 24 기,712628190,38,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 26 기,455873756,제 25 기,1276024604,제 24 기,847819940,39,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 26 기,20089035950,제 25 기,13462999007,제 24 기,75770660672,40,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 26 기,52574507815,제 25 기,-2404818275,제 24 기,90288757274,41,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 26 기,-2932338247,제 25 기,-67971686338,제 24 기,31533001927,42,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,리스채권의 감소(증가),-,제 26 기,5085043255,제 25 기,4265319660,제 24 기,3187817347,43,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의 감소(증가),-,제 26 기,-5423841792,제 25 기,-2336702598,제 24 기,-2665391936,44,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherFinancialAssets,기타금융자산의 감소(증가),-,제 26 기,126637430,제 25 기,1444043019,제 24 기,2090007717,45,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentNonFinancialAssets,기타비유동자산의 감소(증가),-,제 26 기,-12960224,제 25 기,0,제 24 기,0,46,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherNonCurrentLiabilities,기타비유동부채의 증가(감소),-,제 26 기,-6467735205,제 25 기,-64339391,제 24 기,-79547171,47,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherFinancialLiabilities,기타금융부채의 증가(감소),-,제 26 기,0,제 25 기,0,제 24 기,-417409659,48,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 26 기,569638379,제 25 기,627590273,제 24 기,781450475,49,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 26 기,-10865126859,제 25 기,22488093036,제 24 기,-10315565925,50,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가),-,제 26 기,40895780,제 25 기,196233217,제 24 기,-2937527376,51,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables,기타수취채권의 감소(증가),-,제 26 기,-2198200639,제 25 기,2374306454,제 24 기,-1518332709,52,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 26 기,-49168570202,제 25 기,45002261435,제 24 기,-41558239514,53,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 26 기,-3037955423,제 25 기,5245520209,제 24 기,7160040575,54,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherOperatingPayables,기타지급채무의 증가(감소),-,제 26 기,-1097622486,제 25 기,-4601058740,제 24 기,1452132005,55,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 26 기,70656736497,제 25 기,-141357772366,제 24 기,77916469048,56,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 26 기,41453880666,제 25 기,35434579410,제 24 기,51481452580,57,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 26 기,22029873243,제 25 기,1641999447,제 24 기,1334436168,58,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisions,충당부채전입액,-,제 26 기,52984497,제 25 기,24325588,제 24 기,12055325,59,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 26 기,69277442,제 25 기,1725970584,제 24 기,49375213,60,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 26 기,286899594,제 25 기,1703663592,제 24 기,66389152,61,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치 측정 금융자산 평가이익,-,제 26 기,24205438736,제 25 기,18540848239,제 24 기,1759689090,62,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 26 기,7180704,제 25 기,0,제 24 기,0,63,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 26 기,2968252185,제 25 기,2854717825,제 24 기,3073157510,64,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 26 기,7173115409,제 25 기,8965241878,제 24 기,11011480274,65,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 26 기,92295035,제 25 기,1000,제 24 기,719333,66,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsofInvestmentsInAssociates,관계기업투자처분손실,-,제 26 기,0,제 25 기,57742014,제 24 기,0,67,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 26 기,179830522,제 25 기,89221025,제 24 기,14534586,68,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치 측정 금융자산 평가손실,-,제 26 기,3754350924,제 25 기,2941668552,제 24 기,15049571079,69,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 26 기,1154794494,제 25 기,211424593,제 24 기,681378399,70,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의대손상각비,-,제 26 기,226112936,제 25 기,14260000,제 24 기,,71,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForOtherGainsWithoutCashFlowIn,기타수익,-,제 26 기,0,제 25 기,0,제 24 기,1478799520,72,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForOtherLossesWithoutCashFlowOut,기타비용,-,제 26 기,1107540159,제 25 기,87849406,제 24 기,0,73,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 26 기,1573570104,제 25 기,0,제 24 기,48890299,74,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 26 기,3530615588,제 25 기,3233274595,제 24 기,2774730177,75,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForReversalsOfBadDebtExpenses,기타의대손상각비환입,-,제 26 기,240000,제 25 기,175000,제 24 기,2194000,76,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_AdjustmentsForReversalsOfProvisions,충당부채환입액,-,제 26 기,145130200,제 25 기,23388048,제 24 기,0,77,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_GainsOnDisposalsOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산 처분이익,-,제 26 기,700114758,제 25 기,2694096793,제 24 기,420219697,78,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_GainsOnValuationOfDerivativeFinancialInstrument,옵션평가이익,-,제 26 기,3120646850,제 25 기,2689235303,제 24 기,1696773003,79,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_GainsOnValuationOfForeignExchangeForward,통화선도평가이익,-,제 26 기,694734487,제 25 기,126637430,제 24 기,1444043019,80,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_LossesOnValuationOfDerivativeFinancialInstrument,옵션평가손실,-,제 26 기,104492020,제 25 기,1423269555,제 24 기,1611811939,81,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,dart_LossesOnValuationOfForeignExchangeForward,통화선도평가손실,-,제 26 기,1790670164,제 25 기,6442878620,제 24 기,60500571,82,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 26 기,9028705292,제 25 기,9156874388,제 24 기,9317295018,83,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 26 기,15878739759,제 25 기,15280451901,제 24 기,13700941394,84,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 26 기,3150000,제 25 기,1485000,제 24 기,900000,85,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 26 기,8287286281,제 25 기,16788312006,제 24 기,6187619359,86,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 26 기,5113756375,제 25 기,6272120368,제 24 기,6381534049,87,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_GainsArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost,상각후원가 측정 금융자산 처분이익,-,제 26 기,0,제 25 기,5100748,제 24 기,0,88,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_LossesArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost,상각후원가 측정 금융자산 처분손실,-,제 26 기,0,제 25 기,3788122,제 24 기,28490,89,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 26 기,1525062351,제 25 기,1485000,제 24 기,900000,90,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 26 기,19294983958,제 25 기,6609531763,제 24 기,17383717475,91,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 26 기,3245020289,제 25 기,3220063681,제 24 기,3172430445,92,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 26 기,5427138744,제 25 기,5646811572,제 24 기,3528863793,93,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 26 기,29640768548,제 25 기,34313587525,제 24 기,24300686894,94,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시 현금성자산의 환율변동효과,-,제 26 기,-191318984,제 25 기,1761336439,제 24 기,-49813212,95,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증감,-,제 26 기,22499318327,제 25 기,-54101990221,제 24 기,42042831176,96,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 26 기,0,제 25 기,0,제 24 기,5442486555,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,5442486555,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,3,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,연결재무제표 [member],제 26 기,891445310,제 25 기,0,제 24 기,1856434905,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,891445310,제 25 기,0,제 24 기,1856434905,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,891445310,제 25 기,0,제 24 기,1856434905,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,교환사채의발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,4,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 26 기,414701607307,제 25 기,400371903894,제 24 기,410174013772,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 26 기,54802024523,제 25 기,56861458757,제 24 기,52225452538,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,359899582784,제 25 기,343510445137,제 24 기,357948561234,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,7627561152,제 25 기,1406299200,제 24 기,1880438076,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,225990092001,제 25 기,217413398574,제 24 기,230113904918,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,-24075885710,제 25 기,-24075885710,제 24 기,-24075885710,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,18166670000,제 25 기,18166670000,제 24 기,18166670000,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,-2461408684,제 25 기,-4052590952,제 24 기,-2789120075,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,134652554025,제 25 기,134652554025,제 24 기,134652554025,5,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,연결재무제표 [member],제 26 기,0,제 25 기,1680352708,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,0,제 25 기,1680352708,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,1680352708,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,6,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,연결재무제표 [member],제 26 기,6388168508,제 25 기,1053476088,제 24 기,-7056932789,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기,-3863532,제 25 기,-754741,제 24 기,-1190354,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,6392032040,제 25 기,1054230829,제 24 기,-7055742435,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,6392032040,제 25 기,1054230829,제 24 기,-7055742435,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 공정가치 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,7,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,연결재무제표 [member],제 26 기,164210642,제 25 기,7912520,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,164210642,제 25 기,7912520,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,164210642,제 25 기,7912520,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,8,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,연결재무제표 [member],제 26 기,-3206660960,제 25 기,-89453997,제 24 기,-1303532789,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|비지배지분 [구성요소],제 26 기,-2332941349,제 25 기,23630489,제 24 기,-1346458300,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,-873719611,제 25 기,-113084486,제 24 기,42925511,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,-873719611,제 25 기,-113084486,제 24 기,42925511,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,-표준계정코드 미사용-,비지배주주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,9,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 26 기,9016000000,제 25 기,9457000000,제 24 기,8281000000,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,4719651000,제 25 기,4719651000,제 24 기,4719651000,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,4719651000,제 25 기,4719651000,제 24 기,4719651000,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 26 기,13735651000,제 25 기,14176651000,제 24 기,13000651000,10,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,연결재무제표 [member],제 26 기,11012519000,제 25 기,14158953000,제 24 기,14158953000,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,11012519000,제 25 기,14158953000,제 24 기,14158953000,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,11012519000,제 25 기,14158953000,제 24 기,14158953000,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,분기배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,11,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 26 기,422053619687,제 25 기,414701607307,제 24 기,400371903894,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 26 기,52102004924,제 25 기,54802024523,제 24 기,56861458757,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,369951614763,제 25 기,359899582784,제 24 기,343510445137,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,7084668174,제 25 기,7627561152,제 24 기,1406299200,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,236374152283,제 25 기,225990092001,제 24 기,217413398574,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,-24075885710,제 25 기,-24075885710,제 24 기,-24075885710,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,18166670000,제 25 기,18166670000,제 24 기,18166670000,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,-2250544009,제 25 기,-2461408684,제 24 기,-4052590952,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,134652554025,제 25 기,134652554025,제 24 기,134652554025,12,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 26 기,75843225,제 25 기,126253768,제 24 기,112191989,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,-559437415,제 25 기,6278384078,제 24 기,-466344402,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,-559437415,제 25 기,6278384078,제 24 기,-466344402,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax,해외사업환산손익,연결재무제표 [member],제 26 기,-483594190,제 25 기,6404637846,제 24 기,-354152413,13,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,연결재무제표 [member],제 26 기,0,제 25 기,0,제 24 기,-3510785283,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,-3510785283,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분 풋옵션 인식,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,-3510785283,14,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,28928334,제 25 기,16001526,제 24 기,347953990,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|비지배지분 [구성요소],제 26 기,-28928334,제 25 기,-16001526,제 24 기,-347953990,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,28928334,제 25 기,16001526,제 24 기,347953990,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업주식선택권의 소멸,연결재무제표 [member],제 26 기,0,제 25 기,0,제 24 기,0,15,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,-1221636803,제 25 기,-553812944,제 24 기,-1894029380,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,-1221636803,제 25 기,-553812944,제 24 기,-1894029380,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 26 기,-1310699915,제 25 기,-648083151,제 24 기,-2008916484,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 26 기,-89063112,제 25 기,-94270207,제 24 기,-114887104,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,16,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,20945835045,제 25 기,26954879542,제 24 기,15127869471,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 26 기,8694933503,제 25 기,7358707983,제 24 기,9172817423,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,20945835045,제 25 기,26954879542,제 24 기,15127869471,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 26 기,29640768548,제 25 기,34313587525,제 24 기,24300686894,17,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 26 기,16544437,제 25 기,-57122126,제 24 기,-7794474,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 26 기,16544437,제 25 기,-57122126,제 24 기,-7794474,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기,0,제 25 기,0,제 24 기,0,18,KRW,,122900,아이마켓코리아,CFS
+20260319000859,11011,2025,00360142,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기,16544437,제 25 기,-57122126,제 24 기,-7794474,18,KRW,,122900,아이마켓코리아,CFS

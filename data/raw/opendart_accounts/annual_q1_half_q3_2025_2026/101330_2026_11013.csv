@@ -1,0 +1,206 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 28 기 1분기말,1121815463507,제 27 기말,1083137810538,7,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 28 기 1분기말,619512356631,제 27 기말,588637901130,8,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 28 기 1분기말,43534497758,제 27 기말,73026710258,9,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,유동 당기손익인식금융자산,-,제 28 기 1분기말,30111529721,제 27 기말,,10,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 28 기 1분기말,1227978568,제 27 기말,1835713104,11,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 28 기 1분기말,299294080980,제 27 기말,258275165606,12,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 28 기 1분기말,194623216100,제 27 기말,188702975986,13,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정으로 분류된 비유동자산이나 처분자산집단,-,제 28 기 1분기말,,제 27 기말,24689299013,14,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 28 기 1분기말,18987537038,제 27 기말,16605506599,15,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 28 기 1분기말,31733516466,제 27 기말,25502530564,16,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 28 기 1분기말,502303106876,제 27 기말,494499909408,17,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치축정 금융자산,-,제 28 기 1분기말,6290000,제 27 기말,6290000,18,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 28 기 1분기말,21240659655,제 27 기말,20435452020,19,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 28 기 1분기말,27602971530,제 27 기말,26376112305,20,KRW,제 26 기,23610200045,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자,-,제 28 기 1분기말,6307374617,제 27 기말,5670210749,21,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 28 기 1분기말,37232071419,제 27 기말,36760437833,22,KRW,제 26 기,35884028238,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,장기매출채권,-,제 28 기 1분기말,856190989,제 27 기말,801617133,23,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 28 기 1분기말,16603724069,제 27 기말,18329472334,24,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 28 기 1분기말,5462306551,제 27 기말,5548630099,25,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 28 기 1분기말,386991518046,제 27 기말,380571686935,26,KRW,제 26 기,406813466874,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 28 기 1분기말,487164316299,제 27 기말,464752868592,28,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 지분,-,제 28 기 1분기말,361859831621,제 27 기말,345514687733,29,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 28 기 1분기말,13682589272,제 27 기말,13682589272,30,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 28 기 1분기말,-5559259990,제 27 기말,-5559259990,31,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누적액,-,제 28 기 1분기말,15811878203,제 27 기말,9804581388,32,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 28 기 1분기말,11979094000,제 27 기말,11979094000,33,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 28 기 1분기말,325945530136,제 27 기말,315607683063,34,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 28 기 1분기말,125304484678,제 27 기말,119238180859,35,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채 및 자본총계,-,제 28 기 1분기말,1121815463507,제 27 기말,1083137810538,36,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 28 기 1분기말,535508336886,제 27 기말,506618936848,38,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,-표준계정코드 미사용-,단기차입금,-,제 28 기 1분기말,190972586482,제 27 기말,169309531257,39,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 28 기 1분기말,37775000000,제 27 기말,37775000000,40,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued,유동성사채,-,제 28 기 1분기말,,제 27 기말,0,41,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 28 기 1분기말,2214565593,제 27 기말,2561900993,42,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 28 기 1분기말,7902125116,제 27 기말,6289876048,43,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale,매각예정으로 분류된 처분자산집단에 포함된 부채,-,제 28 기 1분기말,,제 27 기말,24803205433,44,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 28 기 1분기말,61365155852,제 27 기말,58677226160,45,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 28 기 1분기말,10948358333,제 27 기말,10732739601,46,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 28 기 1분기말,224330545510,제 27 기말,196469457356,47,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 28 기 1분기말,634651147208,제 27 기말,618384941946,48,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 28 기 1분기말,99142810322,제 27 기말,111766005098,49,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,-표준계정코드 미사용-,장기차입금,-,제 28 기 1분기말,15947778200,제 27 기말,32096492501,50,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 28 기 1분기말,3828172033,제 27 기말,1840022223,51,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 28 기 1분기말,2822911884,제 27 기말,2989084698,52,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,사채,-,제 28 기 1분기말,,제 27 기말,0,53,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 28 기 1분기말,9417888628,제 27 기말,8613224687,54,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 28 기 1분기말,56767906570,제 27 기말,55765605526,55,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 28 기 1분기말,6139635072,제 27 기말,6070479727,56,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 28 기 1분기말,4218517935,제 27 기말,4391095736,57,KRW,,,,,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 28 기 1분기,9950395014,,,6,KRW,,,9950395014,제 27 기 1분기,8345941914,8345941914,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 28 기 1분기,23882138325,,,7,KRW,,,23882138325,제 27 기 1분기,8358237503,8358237503,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 28 기 1분기,11324652826,,,8,KRW,,,11324652826,제 27 기 1분기,6399813203,6399813203,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 28 기 1분기,242996014,,,9,KRW,,,242996014,제 27 기 1분기,178297096,178297096,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 28 기 1분기,25804099925,,,10,KRW,,,25804099925,제 27 기 1분기,28015420408,28015420408,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 28 기 1분기,24480398750,,,11,KRW,,,24480398750,제 27 기 1분기,6878255881,6878255881,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 28 기 1분기,5135245962,,,12,KRW,,,5135245962,제 27 기 1분기,3473638646,3473638646,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 28 기 1분기,19345152788,,,13,KRW,,,19345152788,제 27 기 1분기,3404617235,3404617235,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 28 기 1분기,295350049895,,,14,KRW,,,295350049895,제 27 기 1분기,313884785147,313884785147,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,보통주기본주당이익(손실),-,제 28 기 1분기,615,,,16,KRW,,,615,제 27 기 1분기,149,149,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 28 기 1분기,7131693288,,,18,KRW,,,7131693288,제 27 기 1분기,8965155447,8965155447,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 28 기 1분기,4122935308,,,19,KRW,,,4122935308,제 27 기 1분기,6435931914,6435931914,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 28 기 1분기,35754494939,,,20,KRW,,,35754494939,제 27 기 1분기,36361362322,36361362322,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 28 기 1분기,3889006739,,,21,KRW,,,3889006739,제 27 기 1분기,1565438683,1565438683,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 28 기 1분기,8627286942,,,22,KRW,,,8627286942,제 27 기 1분기,490254787,490254787,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 세후기타포괄손익,-,제 28 기 1분기,8477571882,,,23,KRW,,,8477571882,제 27 기 1분기,490254787,490254787,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 28 기 1분기,8083404028,,,24,KRW,,,8083404028,제 27 기 1분기,477790246,477790246,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,-,제 28 기 1분기,394167854,,,25,KRW,,,394167854,제 27 기 1분기,12464541,12464541,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류 되지않는 세후기타포괄손익,-,제 28 기 1분기,149715060,,,26,KRW,,,149715060,제 27 기 1분기,0,0,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 28 기 1분기,149715060,,,27,KRW,,,149715060,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 28 기 1분기,15853111808,,,28,KRW,,,15853111808,제 27 기 1분기,6388001094,6388001094,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 28 기 1분기,2664970895,,,29,KRW,,,2664970895,제 27 기 1분기,2953227941,2953227941,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 28 기 1분기,13188140913,,,30,KRW,,,13188140913,제 27 기 1분기,3434773153,3434773153,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 28 기 1분기,19742118547,,,31,KRW,,,19742118547,제 27 기 1분기,7953439777,7953439777,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 28 기 1분기,331104544834,,,32,KRW,,,331104544834,제 27 기 1분기,350246147469,350246147469,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 28 기 1분기,73026710258,,,2,KRW,,,,제 27 기 1분기,57250927446,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 28 기 1분기,43534497758,,,3,KRW,,,,제 27 기 1분기,51374480027,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 28 기 1분기,3866511494,,,8,KRW,,,,제 27 기 1분기,8107205926,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,1573737930,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherNonCurrentFinancialLiabilities,기타비유동금융부채의 증가(감소),-,제 28 기 1분기,-191401432,,,10,KRW,,,,제 27 기 1분기,9917386561,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 28 기 1분기,747678925,,,11,KRW,,,,제 27 기 1분기,842188802,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromLeaseLiabilitiesClassifiedAsFinancingActivities,재무활동으로 분류된 리스부채의 증가,-,제 28 기 1분기,,,,12,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,245833348,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 28 기 1분기,13197857035,,,14,KRW,,,,제 27 기 1분기,8408253089,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 28 기 1분기,0,,,15,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 28 기 1분기,745800490,,,16,KRW,,,,제 27 기 1분기,2134949469,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 28 기 1분기,4425178925,,,17,KRW,,,,제 27 기 1분기,2181550633,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,재무활동으로 분류된 배당금 지급,-,제 28 기 1분기,334343800,,,18,KRW,,,,제 27 기 1분기,199330000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,재무활동으로 분류된 이자지급,-,제 28 기 1분기,2886941969,,,19,KRW,,,,제 27 기 1분기,3652510238,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동으로 인한 지급,-,제 28 기 1분기,0,,,20,KRW,,,,제 27 기 1분기,-120000000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 28 기 1분기,-46544040185,,,21,KRW,,,,제 27 기 1분기,-16027472604,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromDisposalOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 처분,-,제 28 기 1분기,0,,,22,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromSalesOfFinanceLeaseAssets,금융리스자산의 처분,-,제 28 기 1분기,,,,23,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정으로 분류된 비유동자산이나 처분자산집단의 처분,-,제 28 기 1분기,0,,,24,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 감소,-,제 28 기 1분기,11235169181,,,25,KRW,,,,제 27 기 1분기,10856943448,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 처분,-,제 28 기 1분기,3967884,,,26,KRW,,,,제 27 기 1분기,61403504,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,유동당기손익인식금융자산의 취득,-,제 28 기 1분기,30000000000,,,27,KRW,,,,제 27 기 1분기,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 28 기 1분기,10601176502,,,28,KRW,,,,제 27 기 1분기,14758791456,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 증가,-,제 28 기 1분기,24988848,,,29,KRW,,,,제 27 기 1분기,1077530782,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업과 기타 사업의 지배력 상실에 따른 현금흐름,-,제 28 기 1분기,750000000,,,30,KRW,,,,제 27 기 1분기,,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위의 변동,-,제 28 기 1분기,220361451,,,31,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsInvestingActivities,투자활동으로 분류된 배당금 수취,-,제 28 기 1분기,0,,,32,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsInvestingActivities,투자활동으로 분류된 이자수취,-,제 28 기 1분기,275146809,,,33,KRW,,,,제 27 기 1분기,508510998,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,투자활동으로 분류된 무형자산의 처분,-,제 28 기 1분기,8000000,,,34,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,투자활동으로 분류된 유형자산의 처분으로 인한 현금유입,-,제 28 기 1분기,1176636040,,,35,KRW,,,,제 27 기 1분기,313866944,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,투자활동으로 분류된 무형자산의 취득,-,제 28 기 1분기,3151714790,,,36,KRW,,,,제 27 기 1분기,283820039,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 28 기 1분기,60388100,,,37,KRW,,,,제 27 기 1분기,1519840,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,투자활동으로 분류된 유형자산의 취득,-,제 28 기 1분기,15934330408,,,38,KRW,,,,제 27 기 1분기,11646535381,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 28 기 1분기,12365043897,,,39,KRW,,,,제 27 기 1분기,3073302041,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 창출된 현금,-,제 28 기 1분기,12800603750,,,40,KRW,,,,제 27 기 1분기,9105156866,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 28 기 1분기,-15981768879,,,41,KRW,,,,제 27 기 1분기,-19004337068,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 28 기 1분기,12929260821,,,42,KRW,,,,제 27 기 1분기,21721492840,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 28 기 1분기,15853111808,,,43,KRW,,,,제 27 기 1분기,6388001094,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,영업활동으로 분류된 법인세납부(환급),-,제 28 기 1분기,435559853,,,44,KRW,,,,제 27 기 1분기,6031854825,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 28 기 1분기,820272294,,,45,KRW,,,,제 27 기 1분기,-1029482782,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 28 기 1분기,-29492212500,,,46,KRW,,,,제 27 기 1분기,-5876447419,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,2477525457,,,3,KRW,,,,제 27 기 1분기,120000000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 28 기 1분기,2477525457,,,3,KRW,,,,제 27 기 1분기,120000000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,3,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,119238180859,,,4,KRW,,,,제 27 기 1분기,109330319628,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 28 기 1분기,464752868592,,,4,KRW,,,,제 27 기 1분기,452374050053,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,345514687733,,,4,KRW,,,,제 27 기 1분기,343043730425,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,13682589272,,,4,KRW,,,,제 27 기 1분기,13104178627,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,11979094000,,,4,KRW,,,,제 27 기 1분기,11979094000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,315607683063,,,4,KRW,,,,제 27 기 1분기,303396991754,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,9804581388,,,4,KRW,,,,제 27 기 1분기,14563466044,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,-5559259990,,,4,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,,,,5,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,,,,5,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,,,,5,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,,,,5,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,,,,5,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,-3000008900,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,-3000008900,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,-1546467600,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,연결재무제표 [member],제 28 기 1분기,-4546476500,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_DividendsPaid,배당지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,6,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,325945530136,,,7,KRW,,,,제 27 기 1분기,306831764907,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,15811878203,,,7,KRW,,,,제 27 기 1분기,14533310126,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,-5559259990,,,7,KRW,,,,제 27 기 1분기,-1573737930,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,361859831621,,,7,KRW,,,,제 27 기 1분기,344874609730,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,125304484678,,,7,KRW,,,,제 27 기 1분기,112923958274,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 28 기 1분기,487164316299,,464752868592,7,KRW,,,,제 27 기 1분기,457798568004,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,11979094000,,,7,KRW,,,,제 27 기 1분기,11979094000,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,13682589272,,,7,KRW,,,,제 27 기 1분기,13104178627,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,0,,,8,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,5822803771,,,8,KRW,,,,제 27 기 1분기,-35977143,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,8,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,5822803771,,,8,KRW,,,,제 27 기 1분기,-35977143,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,2260600257,,,8,KRW,,,,제 27 기 1분기,513767389,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 28 기 1분기,8083404028,,,8,KRW,,,,제 27 기 1분기,477790246,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,8,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,8,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",연결재무제표 [member],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,"지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,9,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,,,,10,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,,,,10,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,,,,10,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,,,,10,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,,,,10,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 28 기 1분기,149715060,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,149715060,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,149715060,,,11,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,13188140913,,,12,KRW,,,,제 27 기 1분기,3434773153,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,2664970895,,,12,KRW,,,,제 27 기 1분기,2953227941,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 28 기 1분기,15853111808,,,12,KRW,,,,제 27 기 1분기,6388001094,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,12,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,12,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,13188140913,,,12,KRW,,,,제 27 기 1분기,3434773153,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,12,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,12,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,-1573737930,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,-1573737930,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,-1573737930,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,0,,,13,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,연결재무제표 [member],제 28 기 1분기,394167854,,,14,KRW,,,,제 27 기 1분기,12464541,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|비지배지분 [구성요소],제 28 기 1분기,209674810,,,14,KRW,,,,제 27 기 1분기,6643316,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 28 기 1분기,184493044,,,14,KRW,,,,제 27 기 1분기,5821225,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 28 기 1분기,0,,,14,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 28 기 1분기,0,,,14,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 28 기 1분기,184493044,,,14,KRW,,,,제 27 기 1분기,5821225,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소,제 28 기 1분기,0,,,14,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS
+20260515000009,11013,2026,00498001,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금,제 28 기 1분기,0,,,14,KRW,,,,제 27 기 1분기,0,,101330,모베이스,CFS

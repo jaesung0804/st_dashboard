@@ -1,0 +1,191 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 68 기 1분기말,498338449392,제 67 기말,502781287038,7,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 68 기 1분기말,128871853074,제 67 기말,133411086490,8,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 68 기 1분기말,64232000,제 67 기말,1754389902,9,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWork,미청구공사,-,제 68 기 1분기말,8538918014,제 67 기말,14030944314,10,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 68 기 1분기말,50040683743,제 67 기말,49035232026,11,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,-표준계정코드 미사용-,기타수취채권,-,제 68 기 1분기말,287456592,제 67 기말,140491980,12,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 68 기 1분기말,34817592451,제 67 기말,38158293717,13,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 68 기 1분기말,29262720720,제 67 기말,26012605575,14,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 68 기 1분기말,4298389211,제 67 기말,3783318431,15,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타단기금융자산,-,제 68 기 1분기말,1561860343,제 67 기말,495810545,16,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 68 기 1분기말,369466596318,제 67 기말,369370200548,17,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 68 기 1분기말,3175429104,제 67 기말,2799762067,18,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 68 기 1분기말,4347306595,제 67 기말,4368185869,19,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업투자,-,제 68 기 1분기말,952675633,제 67 기말,965174663,20,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 68 기 1분기말,1254039727,제 67 기말,1209844125,21,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타장기금융자산,-,제 68 기 1분기말,7182240116,제 67 기말,7296835087,22,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 68 기 1분기말,351408364386,제 67 기말,351470498451,23,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 68 기 1분기말,1146540757,제 67 기말,1259900286,24,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 68 기 1분기말,221343794823,제 67 기말,225090675243,26,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 68 기 1분기말,219251199985,제 67 기말,222758292318,27,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 68 기 1분기말,114201964647,제 67 기말,114201964647,28,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 68 기 1분기말,172507059427,제 67 기말,174385269050,29,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 68 기 1분기말,12607989000,제 67 기말,12607989000,30,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 68 기 1분기말,-80065813089,제 67 기말,-78436930379,31,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 68 기 1분기말,2092594838,제 67 기말,2332382925,32,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 68 기 1분기말,498338449392,제 67 기말,502781287038,33,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 68 기 1분기말,258767502602,제 67 기말,248998953121,35,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생상품부채,-,제 68 기 1분기말,93490807,제 67 기말,118865559,36,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,초과청구공사,-,제 68 기 1분기말,3240203494,제 67 기말,2062227511,37,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 68 기 1분기말,38055959606,제 67 기말,35809755126,38,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,-표준계정코드 미사용-,기타채무,-,제 68 기 1분기말,6731830526,제 67 기말,12159865291,39,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 68 기 1분기말,1430727797,제 67 기말,3158734796,40,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 68 기 1분기말,13760270280,제 67 기말,13237871426,41,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 68 기 1분기말,195455020092,제 67 기말,182451633412,42,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 68 기 1분기말,276994654569,제 67 기말,277690611795,43,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 68 기 1분기말,18227151967,제 67 기말,28691658674,44,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 68 기 1분기말,946023500,제 67 기말,12498751500,45,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,dart_PostemploymentBenefitObligations,확정급여부채,-,제 68 기 1분기말,4093048124,제 67 기말,3322229310,46,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 68 기 1분기말,9289917291,제 67 기말,10219298075,47,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타장기금융부채,-,제 68 기 1분기말,2248536184,제 67 기말,1033402990,48,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 68 기 1분기말,1649626868,제 67 기말,1617976799,49,KRW,,,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 68 기 1분기,-2004504351,,,6,KRW,-2004504351,제 67 기 1분기,-1505046241,-1505046241,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 68 기 1분기,279560634,,,7,KRW,279560634,제 67 기 1분기,258843498,258843498,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 68 기 1분기,210301112,,,8,KRW,210301112,제 67 기 1분기,257519217,257519217,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 68 기 1분기,10233797910,,,9,KRW,10233797910,제 67 기 1분기,10374766426,10374766426,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기총포괄손익,-,제 68 기 1분기,-3752231777,,,10,KRW,-3752231777,제 67 기 1분기,-3610478081,-3610478081,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분포괄손익,-,제 68 기 1분기,-245139444,,,12,KRW,-245139444,제 67 기 1분기,-311292221,-311292221,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배지분포괄손익,-,제 68 기 1분기,-3507092333,,,13,KRW,-3507092333,제 67 기 1분기,-3299185860,-3299185860,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 68 기 1분기,62741554248,,,14,KRW,62741554248,제 67 기 1분기,78340133392,78340133392,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본 및 희석주당손익,-,제 68 기 1분기,-289,,,16,KRW,-289,제 67 기 1분기,-289,-289,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 68 기 1분기,-289,,,17,KRW,-289,제 67 기 1분기,-288,-288,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 68 기 1분기,,,,18,KRW,,제 67 기 1분기,-1,-1,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 68 기 1분기,3238620460,,,19,KRW,3238620460,제 67 기 1분기,5926649743,5926649743,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 68 기 1분기,672672917,,,20,KRW,672672917,제 67 기 1분기,2676213596,2676213596,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 68 기 1분기,8229293559,,,21,KRW,8229293559,제 67 기 1분기,8869720185,8869720185,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 68 기 1분기,-764332516,,,22,KRW,-764332516,제 67 기 1분기,-1180100567,-1180100567,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 68 기 1분기,-15371921,,,23,KRW,-15371921,제 67 기 1분기,-12754068,-12754068,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 기타포괄손익,-,제 68 기 1분기,40867579,,,24,KRW,40867579,제 67 기 1분기,15854991,15854991,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 68 기 1분기,37494997,,,25,KRW,37494997,제 67 기 1분기,33425571,33425571,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업투자자본변동,-,제 68 기 1분기,3372582,,,26,KRW,3372582,제 67 기 1분기,-17570580,-17570580,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 기타포괄손익,-,제 68 기 1분기,-56239500,,,27,KRW,-56239500,제 67 기 1분기,-28609059,-28609059,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 금융자산 평가손익,-,제 68 기 1분기,-56239500,,,28,KRW,-56239500,제 67 기 1분기,-28609059,-28609059,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 1분기,-3736859856,,,29,KRW,-3736859856,제 67 기 1분기,-3597724013,-3597724013,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분순이익(손실),-,제 68 기 1분기,-244952378,,,31,KRW,-244952378,제 67 기 1분기,-115286389,-115286389,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배지분순이익(손실),-,제 68 기 1분기,-3491907478,,,32,KRW,-3491907478,제 67 기 1분기,-3482437624,-3482437624,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 68 기 1분기,-4501192372,,,33,KRW,-4501192372,제 67 기 1분기,-4754158107,-4754158107,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 68 기 1분기,-3736859856,,,34,KRW,-3736859856,제 67 기 1분기,-3574057540,-3574057540,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 68 기 1분기,,,,35,KRW,,제 67 기 1분기,-23666473,-23666473,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 68 기 1분기,70970847807,,,36,KRW,70970847807,제 67 기 1분기,87209853577,87209853577,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 68 기 1분기,38158293717,,,2,KRW,,제 67 기 1분기,47517367204,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 68 기 1분기,34817592451,,,3,KRW,,제 67 기 1분기,55348299276,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 68 기 1분기,673358726,,,8,KRW,,제 67 기 1분기,-54395753659,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 68 기 1분기,197699177,,,9,KRW,,제 67 기 1분기,265599882,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 68 기 1분기,,,,10,KRW,,제 67 기 1분기,-100000000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 68 기 1분기,22356813719,,,11,KRW,,제 67 기 1분기,27555035888,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 68 기 1분기,,,,12,KRW,,제 67 기 1분기,4410000000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 68 기 1분기,21175575816,,,13,KRW,,제 67 기 1분기,74582275484,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기부채의 상환,-,제 68 기 1분기,310180000,,,14,KRW,,제 67 기 1분기,2592914181,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 68 기 1분기,-1969799025,,,15,KRW,,제 67 기 1분기,62518845832,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 68 기 1분기,242213672,,,16,KRW,,제 67 기 1분기,107929550,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 68 기 1분기,262765000,,,17,KRW,,제 67 기 1분기,38815000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_IncreaseInLoans,단기대여금의 증가,-,제 68 기 1분기,154039500,,,18,KRW,,제 67 기 1분기,328290690,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 68 기 1분기,42293786,,,19,KRW,,제 67 기 1분기,23615753,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 68 기 1분기,,,,20,KRW,,제 67 기 1분기,5062866571,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 68 기 1분기,579834000,,,21,KRW,,제 67 기 1분기,1740690,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 68 기 1분기,29957826,,,22,KRW,,제 67 기 1분기,29949648,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 68 기 1분기,1055000000,,,23,KRW,,제 67 기 1분기,1422863104,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,임대보증금의 감소,-,제 68 기 1분기,-48415009,,,24,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,리스채권의 감소,-,제 68 기 1분기,225885828,,,25,KRW,,제 67 기 1분기,135382016,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,리스채권의 증가,-,제 68 기 1분기,,,,26,KRW,,제 67 기 1분기,-232000000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 68 기 1분기,288156232,,,27,KRW,,제 67 기 1분기,62005737669,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_PurchaseOfBiologicalAssets,생물자산의 취득,-,제 68 기 1분기,618810,,,28,KRW,,제 67 기 1분기,2321296500,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 68 기 1분기,421768182,,,29,KRW,,제 67 기 1분기,129047450,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 68 기 1분기,,,,30,KRW,,제 67 기 1분기,3993000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 68 기 1분기,1375618216,,,31,KRW,,제 67 기 1분기,312171025,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 68 기 1분기,-2024755196,,,32,KRW,,제 67 기 1분기,-498410580,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 68 기 1분기,2231384536,,,33,KRW,,제 67 기 1분기,4093797264,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품자산의 감소(증가),-,제 68 기 1분기,1754389902,,,34,KRW,,제 67 기 1분기,218610306,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDueFromCustomersForContractWork,미청구공사의 감소(증가),-,제 68 기 1분기,5492026300,,,35,KRW,,제 67 기 1분기,3602307666,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInValueAddedTaxReceivables,부가세대급금의 감소(증가),-,제 68 기 1분기,212950782,,,36,KRW,,제 67 기 1분기,561520380,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAccruedIncome,미수수익의 감소(증가),-,제 68 기 1분기,-405995418,,,37,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 68 기 1분기,-769366414,,,38,KRW,,제 67 기 1분기,-607651826,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermPrepaidExpenses,장기선급비용의 감소(증가),-,제 68 기 1분기,-43865780,,,39,KRW,,제 67 기 1분기,-58257366,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 68 기 1분기,192262910,,,40,KRW,,제 67 기 1분기,-785941649,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInCurrentValueAddedTaxPayables,부가세예수금의 증가(감소),-,제 68 기 1분기,-410878955,,,41,KRW,,제 67 기 1분기,175523948,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDueToCustomersForContractWork,초과청구공사의 증가(감소),-,제 68 기 1분기,1177975983,,,42,KRW,,제 67 기 1분기,2427613542,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForConstructionWarranties,하자보수충당부채의 증가(감소),-,제 68 기 1분기,-360171722,,,43,KRW,,제 67 기 1분기,-357885781,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 68 기 1분기,-413416806,,,44,KRW,,제 67 기 1분기,-33676465,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 68 기 1분기,2671169267,,,45,KRW,,제 67 기 1분기,-103891175,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInDeferredTaxLiabilities,미수법인세환급액의 감소(증가),-,제 68 기 1분기,-79818827,,,46,KRW,,제 67 기 1분기,-72829092,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInGuaranteeDepositRent,임대보증금의 증가(감소),-,제 68 기 1분기,-125000000,,,47,KRW,,제 67 기 1분기,92601465,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermAccruedExpenses,장기미지급비용의 증가(감소),-,제 68 기 1분기,60009108,,,48,KRW,,제 67 기 1분기,41412199,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermOtherPayables,장기미지급금의 증가(감소),-,제 68 기 1분기,-11645192,,,49,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 68 기 1분기,-4367774900,,,50,KRW,,제 67 기 1분기,-7575891950,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPaymentsOfIncomeTaxesPayable,미지급법인세의 증가(감소),-,제 68 기 1분기,122413400,,,51,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직보험예치금의 감소(증가),-,제 68 기 1분기,756499210,,,52,KRW,,제 67 기 1분기,7729343537,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisionsForEmployeeBenefits,장기종업원급여충당부채의 증가(감소),-,제 68 기 1분기,,,,53,KRW,,제 67 기 1분기,2394449,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInRestructuringProvision,구조조정충당부채의 증가(감소),-,제 68 기 1분기,-57713480,,,54,KRW,,제 67 기 1분기,-4004985449,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 68 기 1분기,-699034890,,,55,KRW,,제 67 기 1분기,10309304,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,퇴직금의 지급,-,제 68 기 1분기,-443157887,,,56,KRW,,제 67 기 1분기,-10257806812,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,국민연금전환금의 감소(증가),-,제 68 기 1분기,1775100,,,57,KRW,,제 67 기 1분기,551900,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 68 기 1분기,-3063760512,,,58,KRW,,제 67 기 1분기,11862014956,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소(증가),-,제 68 기 1분기,-183769654,,,59,KRW,,제 67 기 1분기,1907119127,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 68 기 1분기,-1018592019,,,60,KRW,,제 67 기 1분기,10363190294,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 68 기 1분기,2243875030,,,61,KRW,,제 67 기 1분기,-11041898244,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,법인세의 납부,-,제 68 기 1분기,-1774202630,,,62,KRW,,제 67 기 1분기,-562654584,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 68 기 1분기,3991846485,,,63,KRW,,제 67 기 1분기,2758718338,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 68 기 1분기,45312928,,,64,KRW,,제 67 기 1분기,-127371099,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 68 기 1분기,209270896,,,65,KRW,,제 67 기 1분기,8255989,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 68 기 1분기,116147047,,,66,KRW,,제 67 기 1분기,513116790,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment,유형자산손상차손,-,제 68 기 1분기,2415000,,,67,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 68 기 1분기,2800543737,,,68,KRW,,제 67 기 1분기,3474834671,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 68 기 1분기,16762724,,,69,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfInvestments,투자자산처분손실,-,제 68 기 1분기,,,,70,KRW,,제 67 기 1분기,113675000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 68 기 1분기,13122378,,,71,KRW,,제 67 기 1분기,15461,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생상품평가손실,-,제 68 기 1분기,,,,72,KRW,,제 67 기 1분기,79272000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 68 기 1분기,159854208,,,73,KRW,,제 67 기 1분기,1608393546,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익,-,제 68 기 1분기,1836962,,,74,KRW,,제 67 기 1분기,3345379,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForMiscellaneousLosses,잡손실,-,제 68 기 1분기,20002980,,,75,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForOtherReversalsOfProvisions,장기종업원충당부채전입액,-,제 68 기 1분기,-3302555,,,76,KRW,,제 67 기 1분기,-2050412,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 68 기 1분기,,,,77,KRW,,제 67 기 1분기,15754431,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 68 기 1분기,455702391,,,78,KRW,,제 67 기 1분기,472599504,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForReversalsOfInventories,재고자산평가손실환입,-,제 68 기 1분기,217821876,,,79,KRW,,제 67 기 1분기,1268638730,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,dart_AdjustmentsForWarrantyExpenses,하자보수충당부채전입액,-,제 68 기 1분기,464999312,,,80,KRW,,제 67 기 1분기,354454491,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,공사손실충당부채전입액,-,제 68 기 1분기,150000000,,,81,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,파생상품평가이익,-,제 68 기 1분기,-89606752,,,82,KRW,,제 67 기 1분기,-1303287382,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,-표준계정코드 미사용-,공사손실충당부채환입,-,제 68 기 1분기,,,,83,KRW,,제 67 기 1분기,-80000000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 68 기 1분기,42745793,,,84,KRW,,제 67 기 1분기,20048233,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 68 기 1분기,1402824393,,,85,KRW,,제 67 기 1분기,1376022993,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 68 기 1분기,-764332516,,,86,KRW,,제 67 기 1분기,-1180100567,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 68 기 1분기,186725865,,,87,KRW,,제 67 기 1분기,242777606,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 68 기 1분기,,,,88,KRW,,제 67 기 1분기,11277000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급,-,제 68 기 1분기,-37875960,,,89,KRW,,제 67 기 1분기,-29468280,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 68 기 1분기,3131435914,,,90,KRW,,제 67 기 1분기,3402804666,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 68 기 1분기,356636223,,,91,KRW,,제 67 기 1분기,171511801,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 1분기,-3736859856,,,92,KRW,,제 67 기 1분기,-3597724013,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 68 기 1분기,-19505771,,,93,KRW,,제 67 기 1분기,206250479,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 68 기 1분기,-3340701266,,,94,KRW,,제 67 기 1분기,7830932072,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,연결재무제표 [member],제 68 기 1분기,-56239500,,,3,KRW,,제 67 기 1분기,-28609059,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,-56239500,,,3,KRW,,제 67 기 1분기,-28609059,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,-56239500,,,3,KRW,,제 67 기 1분기,-28609059,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,174385269050,,,4,KRW,,제 67 기 1분기,236238038343,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,222758292318,,,4,KRW,,제 67 기 1분기,236282822980,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 68 기 1분기,2332382925,,,4,KRW,,제 67 기 1분기,-4893881753,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 68 기 1분기,225090675243,,,4,KRW,,제 67 기 1분기,231388941227,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 1분기,-78436930379,,,4,KRW,,제 67 기 1분기,-129751536316,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 1분기,114201964647,,,4,KRW,,제 67 기 1분기,117188331953,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 1분기,12607989000,,,4,KRW,,제 67 기 1분기,12607989000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업투자자본변동,연결재무제표 [member],제 68 기 1분기,3372582,,,5,KRW,,제 67 기 1분기,-17570580,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업투자자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,3372582,,,5,KRW,,제 67 기 1분기,-17570580,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업투자자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,3372582,,,5,KRW,,제 67 기 1분기,-17570580,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_ReclassificationAdjustments,종속기업처분 계정 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,-1863024768,,,6,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,dart_ReclassificationAdjustments,종속기업처분 계정 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 1분기,1863024768,,,6,KRW,,제 67 기 1분기,,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,비지배지분부채 대체,연결재무제표 [member],제 68 기 1분기,5351357,,,7,KRW,,제 67 기 1분기,44732198,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,비지배지분부채 대체,자본 [구성요소]|비지배지분 [구성요소],제 68 기 1분기,5351357,,,7,KRW,,제 67 기 1분기,44732198,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,37682063,,,8,KRW,,제 67 기 1분기,229431403,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 68 기 1분기,-187066,,,8,KRW,,제 67 기 1분기,-196005832,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,해외사업환산손익,연결재무제표 [member],제 68 기 1분기,37494997,,,8,KRW,,제 67 기 1분기,33425571,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,-표준계정코드 미사용-,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,37682063,,,8,KRW,,제 67 기 1분기,229431403,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,219251199985,,,9,KRW,,제 67 기 1분기,232983637120,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 68 기 1분기,2092594838,,,9,KRW,,제 67 기 1분기,-5160441776,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 68 기 1분기,221343794823,,225090675243,9,KRW,,제 67 기 1분기,227823195344,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 1분기,172507059427,,,9,KRW,,제 67 기 1분기,236421290107,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 1분기,114201964647,,,9,KRW,,제 67 기 1분기,117188331953,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 1분기,12607989000,,,9,KRW,,제 67 기 1분기,12607989000,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 1분기,-80065813089,,,9,KRW,,제 67 기 1분기,-133233973940,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 1분기,-3491907478,,,10,KRW,,제 67 기 1분기,-3482437624,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 68 기 1분기,-244952378,,,10,KRW,,제 67 기 1분기,-115286389,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 68 기 1분기,-3736859856,,,10,KRW,,제 67 기 1분기,-3597724013,,002820,SUN&L,CFS
+20250515001742,11013,2025,00132211,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 1분기,-3491907478,,,10,KRW,,제 67 기 1분기,-3482437624,,002820,SUN&L,CFS

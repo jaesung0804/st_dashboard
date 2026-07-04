@@ -1,0 +1,175 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 66 기,1149029457149,제 65 기,1143580683305,제 64 기,1078782998517,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 66 기,565829115239,제 65 기,950335008957,제 64 기,903271178469,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,dart_CurrentFinancialAssetsHeldToMaturity,유동성장기금융상품,-,제 66 기,0,제 65 기,30000000000,제 64 기,134596338834,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 66 기,155287147072,제 65 기,92027841823,제 64 기,96326445266,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정 금융자산,-,제 66 기,995308289,제 65 기,306395824,제 64 기,341044275,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 66 기,80143712,제 65 기,118379213,제 64 기,103406668,12,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 66 기,63533483370,제 65 기,65400819961,제 64 기,57639303457,13,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 66 기,2438480695,제 65 기,2437320295,제 64 기,1909761286,14,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 66 기,9639029507,제 65 기,13410221003,제 64 기,16738138755,15,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 66 기,301239884197,제 65 기,714346340000,제 64 기,560620370914,16,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_TradeReceivables,매출채권,-,제 66 기,32615638397,제 65 기,32287690838,제 64 기,34996369014,17,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 66 기,583200341910,제 65 기,193245674348,제 64 기,175511820048,18,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,dart_NonCurrentFinancialAssetsHeldToMaturity,장기금융상품,-,제 66 기,88114586524,제 65 기,50020810315,제 64 기,33083230856,19,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 66 기,116494267,제 65 기,144747593,제 64 기,146449248,20,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 66 기,103196790,제 65 기,170549915,제 64 기,240517049,21,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 66 기,384901691389,제 65 기,42000935601,제 64 기,42957570552,22,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_NoncurrentInvestmentsInEquityInstrumentsDesignatedAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산,-,제 66 기,10310207109,제 65 기,6097810343,제 64 기,7176911687,23,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 66 기,98740408,제 65 기,272870276,제 64 기,80040925,24,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 66 기,895250633,제 65 기,2053807940,제 64 기,1055111103,25,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 66 기,87754886371,제 65 기,81168042819,제 64 기,77574232615,26,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 66 기,3933020078,제 65 기,2885077862,제 64 기,3690603762,27,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 66 기,6972268341,제 65 기,8431021684,제 64 기,9507152251,28,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 66 기,1067863151088,제 65 기,1064287620242,제 64 기,991227588174,30,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 66 기,1067863151088,제 65 기,1064287620242,제 64 기,991227588174,31,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 66 기,-35244451481,제 65 기,-32148193331,제 64 기,-32148193331,32,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 66 기,21825908134,제 65 기,22288756314,제 64 기,12695330648,33,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 66 기,50400145000,제 65 기,50400145000,제 64 기,50400145000,34,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 66 기,933948694435,제 65 기,926814057259,제 64 기,863347450857,35,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 66 기,96932855000,제 65 기,96932855000,제 64 기,96932855000,36,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 66 기,0,제 65 기,0,제 64 기,0,37,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 66 기,1149029457149,제 65 기,1143580683305,제 64 기,1078782998517,38,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 66 기,67536753671,제 65 기,70476669537,제 64 기,71806841263,40,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,-,제 66 기,1216119531,제 65 기,1720073228,제 64 기,1552651059,41,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 66 기,1108184511,제 65 기,1145963758,제 64 기,1113951650,42,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,유동당기법인세부채,-,제 66 기,3778346155,제 65 기,13676015329,제 64 기,8415802486,43,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 66 기,7023964305,제 65 기,10134877380,제 64 기,5340130875,44,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 66 기,15173581329,제 65 기,9109315423,제 64 기,18219663477,45,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 66 기,6112464167,제 65 기,8629254858,제 64 기,10545748986,46,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_TradeAndOtherPayablesToTradeSuppliers,매입채무,-,제 66 기,33124093673,제 65 기,26061169561,제 64 기,26618892730,47,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 66 기,81166306061,제 65 기,79293063063,제 64 기,87555410343,48,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 66 기,13629552390,제 65 기,8816393526,제 64 기,15748569080,49,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,-표준계정코드 미사용-,비유동당기법인세부채,-,제 66 기,0,제 65 기,0,제 64 기,1144671656,50,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 66 기,2195847445,제 65 기,2584917063,제 64 기,2866491882,51,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동리스부채,-,제 66 기,3512877780,제 65 기,4186409298,제 64 기,5544027748,52,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 66 기,5448905655,제 65 기,430190500,제 64 기,4617708100,53,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동 부채,-,제 66 기,2471921510,제 65 기,1614876665,제 64 기,1575669694,54,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 66 기,6247695108,제 65 기,20156744960,제 64 기,30109355962,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 66 기,3076632496,제 65 기,4028560746,제 64 기,3813091236,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 66 기,1956729961,제 65 기,2106482992,제 64 기,1826885039,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 66 기,70381412579,제 65 기,70339080457,제 64 기,69661578837,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 66 기,19605957496,제 65 기,85994200568,제 64 기,52190128514,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 66 기,0,제 65 기,0,제 64 기,0,12,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 66 기,19605957496,제 65 기,85994200568,제 64 기,52190128514,13,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 66 기,240698775732,제 65 기,250499057086,제 64 기,302782095099,14,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본 및 희석주당이익,-,제 66 기,2330,제 65 기,8489,제 64 기,6371,16,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 66 기,18408670436,제 65 기,8646951056,제 64 기,21874399021,17,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 66 기,36206320633,제 65 기,79615692167,제 64 기,61250935649,18,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 66 기,76629107687,제 65 기,90495825417,제 64 기,99770934799,19,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 66 기,5096442164,제 65 기,19852957428,제 64 기,16487869916,20,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 66 기,-462848180,제 65 기,12799594171,제 64 기,-2794100357,21,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 66 기,-2924118167,제 65 기,10054046504,제 64 기,-709995329,23,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,-,제 66 기,3146301047,제 65 기,3446922180,제 64 기,941622408,25,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 66 기,-685031060,제 65 기,-701374513,제 64 기,-3025727436,26,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 66 기,20068805676,제 65 기,73194606397,제 64 기,54984228871,27,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 66 기,0,제 65 기,0,제 64 기,0,29,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실)(A) (단위 : 원),-,제 66 기,20068805676,제 65 기,73194606397,제 64 기,54984228871,30,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순이익,-,제 66 기,25165247840,제 65 기,93047563825,제 64 기,71472098787,31,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 66 기,317327883419,제 65 기,340994882503,제 64 기,402553029898,32,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 66 기,92027841823,제 65 기,96326445266,제 64 기,124815386129,2,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 66 기,155287147072,제 65 기,92027841823,제 64 기,96326445266,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동 현금흐름,-,제 66 기,-18338851393,제 65 기,-16755235772,제 64 기,-15838502187,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 66 기,3096258150,제 65 기,0,제 64 기,1657303500,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 66 기,4215200000,제 65 기,420000000,제 64 기,10000000,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 66 기,5814069233,제 65 기,208000000,제 64 기,20000000,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 원금상환,-,제 66 기,1390503285,제 65 기,1692573144,제 64 기,1653836145,12,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 66 기,49366616283,제 65 기,50117175544,제 64 기,59856438135,13,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 66 기,51883406974,제 65 기,52033669672,제 64 기,59382782677,14,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 66 기,12934168500,제 65 기,12934168500,제 64 기,13011018000,15,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동 현금흐름,-,제 66 기,32102131801,제 65 기,-44431405559,제 64 기,-97037137927,16,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 66 기,0,제 65 기,65839556,제 64 기,0,17,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 66 기,50000000000,제 65 기,500000,제 64 기,0,18,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 66 기,65410682,제 65 기,0,제 64 기,0,19,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAvailableForSaleFinancialAssets,기타포괄손익-공정가치측정 금융자산의 처분,-,제 66 기,0,제 65 기,5561444881,제 64 기,0,20,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,유동성장기금융상품의 감소,-,제 66 기,30000000000,제 65 기,135684338834,제 64 기,0,21,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 66 기,918620545803,제 65 기,609613572621,제 64 기,563983332597,22,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 66 기,654103138,제 65 기,0,제 64 기,340256048,23,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 66 기,88874000000,제 65 기,50000000000,제 64 기,33096000000,24,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 66 기,507960180000,제 65 기,730913258039,제 64 기,614174655694,25,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 66 기,526000,제 65 기,0,제 64 기,484000,26,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 66 기,0,제 65 기,1331960000,제 64 기,0,27,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 66 기,58231557,제 65 기,541289434,제 64 기,99423949,28,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 66 기,0,제 65 기,15000000,제 64 기,108000000,29,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 66 기,346484351275,제 65 기,0,제 64 기,-1361780000,30,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 66 기,22669947828,제 65 기,16302092846,제 64 기,14763246731,31,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동 현금흐름,-,제 66 기,52078719058,제 65 기,51674489861,제 64 기,84037397763,32,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 66 기,37517046155,제 65 기,29316960738,제 64 기,63418082221,33,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 66 기,300259092,제 65 기,296578767,제 64 기,354066063,34,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 납부,-,제 66 기,16308910102,제 65 기,16947396485,제 64 기,8529625697,35,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 66 기,289916001,제 65 기,376904860,제 64 기,420929199,36,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 66 기,30860239914,제 65 기,39385251701,제 64 기,29215804375,37,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 66 기,-2582694217,제 65 기,5213548027,제 64 기,349301488,38,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증감,-,제 66 기,65841999466,제 65 기,-9512151470,제 64 기,-28838242351,39,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,연결재무제표 [member],제 66 기,3146301047,제 65 기,3446922180,제 64 기,941622408,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,3146301047,제 65 기,3446922180,제 64 기,941622408,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,3146301047,제 65 기,3446922180,제 64 기,941622408,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,3,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,1064287620242,제 65 기,991227588174,제 64 기,953705781160,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 66 기,1064287620242,제 65 기,991227588174,제 64 기,953705781160,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,-32148193331,제 65 기,-32148193331,제 64 기,-30490889831,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,96932855000,제 65 기,96932855000,제 64 기,96932855000,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,50400145000,제 65 기,50400145000,제 64 기,50400145000,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,926814057259,제 65 기,863347450857,제 64 기,821374239986,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,22288756314,제 65 기,12695330648,제 64 기,15489431005,4,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,연결재무제표 [member],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,0,제 65 기,3206168505,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,0,제 65 기,-3206168505,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,5,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,-3096258150,제 65 기,0,제 64 기,-1657303500,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,연결재무제표 [member],제 66 기,-3096258150,제 65 기,0,제 64 기,-1657303500,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,-3096258150,제 65 기,0,제 64 기,-1657303500,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,6,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,12934168500,제 65 기,12934168500,제 64 기,13011018000,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 66 기,12934168500,제 65 기,12934168500,제 64 기,13011018000,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,12934168500,제 65 기,12934168500,제 64 기,13011018000,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,7,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,1067863151088,제 65 기,1064287620242,제 64 기,991227588174,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 66 기,1067863151088,제 65 기,1064287620242,제 64 기,991227588174,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,-35244451481,제 65 기,-32148193331,제 64 기,-32148193331,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,96932855000,제 65 기,96932855000,제 64 기,96932855000,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,50400145000,제 65 기,50400145000,제 64 기,50400145000,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,933948694435,제 65 기,926814057259,제 64 기,863347450857,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,21825908134,제 65 기,22288756314,제 64 기,12695330648,8,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 66 기,-2924118167,제 65 기,10054046504,제 64 기,-709995329,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,-2924118167,제 65 기,10054046504,제 64 기,-709995329,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,-2924118167,제 65 기,10054046504,제 64 기,-709995329,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,9,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 66 기,-685031060,제 65 기,-701374513,제 64 기,-3025727436,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,-685031060,제 65 기,-701374513,제 64 기,-3025727436,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,-685031060,제 65 기,-701374513,제 64 기,-3025727436,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,10,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 66 기,20068805676,제 65 기,73194606397,제 64 기,54984228871,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 66 기,20068805676,제 65 기,73194606397,제 64 기,54984228871,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 66 기,20068805676,제 65 기,73194606397,제 64 기,54984228871,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,11,KRW,,029530,신도리코,CFS
+20260311003722,11011,2025,00135795,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 66 기,0,제 65 기,0,제 64 기,0,11,KRW,,029530,신도리코,CFS

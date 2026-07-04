@@ -1,0 +1,311 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_Assets,자 산 총 계,-,제 81 기,14410299000000,제 80 기,15541478000000,제 79 기,14912417000000,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 81 기,885823000000,제 80 기,800910000000,제 79 기,1314074000000,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 81 기,39157000000,제 80 기,28909000000,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 81 기,211200000000,제 80 기,135114000000,제 79 기,0,10,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DerivativeFinancialAssets,파생상품자산,-,제 81 기,32394000000,제 80 기,217137000000,제 79 기,100966000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DerivativeFinancialAssetsHeldForHedging,위험회피목적 파생상품자산,-,제 81 기,32394000000,제 80 기,217137000000,제 79 기,100966000000,12,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_FinancialAssetsAtAmortisedCost,상각후원가측정금융자산,-,제 81 기,2726719000000,제 80 기,2500707000000,제 79 기,2374823000000,13,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_LoansAtAmortisedCost,상각후원가측정대출채권,-,제 81 기,1922908000000,제 80 기,1642908000000,제 79 기,1587667000000,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_OtherFinancialAssetsAtAmortisedCost,상각후원가측정기타금융자산,-,제 81 기,368415000000,제 80 기,364181000000,제 79 기,328961000000,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_SecuritiesAtAmortisedCost,상각후원가측정유가증권,-,제 81 기,435396000000,제 80 기,493618000000,제 79 기,458195000000,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 81 기,6092887000000,제 80 기,6593341000000,제 79 기,5662563000000,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 81 기,3856009000000,제 80 기,4679994000000,제 79 기,4867629000000,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_InsuranceContractsIssuedThatAreAssets,보험계약자산,-,제 81 기,159634000000,제 80 기,146609000000,제 79 기,89519000000,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,-표준계정코드 미사용-,배당요소가 있는 보험계약자산,-,제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,-표준계정코드 미사용-,배당요소가 없는 보험계약자산,-,제 81 기,159634000000,제 80 기,146609000000,제 79 기,89519000000,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 81 기,48181000000,제 80 기,53282000000,제 79 기,58987000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자자산,-,제 81 기,8804000000,제 80 기,9354000000,제 79 기,9915000000,23,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 81 기,451000000,제 80 기,459000000,제 79 기,467000000,24,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_OtherNonfinancialAssets,기타자산,-,제 81 기,4272000000,제 80 기,2882000000,제 79 기,4233000000,25,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 81 기,19586000000,제 80 기,20821000000,제 79 기,21955000000,26,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 81 기,4888000000,제 80 기,4223000000,제 79 기,7540000000,27,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_ReinsuranceContractsHeldThatAreAssets,재보험계약자산,-,제 81 기,285353000000,제 80 기,306128000000,제 79 기,356816000000,28,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 81 기,34941000000,제 80 기,41608000000,제 79 기,42930000000,29,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_CapitalAdjustments,자본조정,-,제 81 기,-720000000,제 80 기,-720000000,제 79 기,-855000000,32,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 81 기,379817000000,제 80 기,379817000000,제 79 기,379817000000,33,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_HybridBonds,신종자본증권,-,제 81 기,45370000000,제 80 기,45370000000,제 79 기,45370000000,34,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 81 기,-543150000000,제 80 기,-313725000000,제 79 기,215704000000,35,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_Equity,자 본 총 계,-,제 81 기,613504000000,제 80 기,794239000000,제 79 기,1301660000000,36,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 81 기,310336000000,제 80 기,310336000000,제 79 기,310336000000,37,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 81 기,421851000000,제 80 기,373161000000,제 79 기,351288000000,38,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_CatastropheReserveToBeAdded,비상위험준비금 적립(환입)예정액,-,제 81 기,989000000,제 80 기,0,제 79 기,-29255000000,39,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_RegulatoryReserveForCreditLoss,대손준비금 기적립액,-,제 81 기,0,제 80 기,0,제 79 기,12048000000,40,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_RegulatoryReserveForCreditLossToBeAddedReversed,대손준비금 적립(환입)예정액,-,제 81 기,0,제 80 기,0,제 79 기,-12048000000,41,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_SurrenderValueReserve,해약환급금준비금 기적립액,-,제 81 기,296760000000,제 80 기,304013000000,제 79 기,0,42,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,dart_SurrenderValueReserveToBeAdded,해약환급금준비금 적립(환입)예정액,-,제 81 기,47701000000,제 80 기,-7253000000,제 79 기,304012000000,43,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_ReserveForCatastrophe,비상위험준비금 기적립액,-,제 81 기,75041000000,제 80 기,75041000000,제 79 기,104296000000,44,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_EquityAndLiabilities,부 채 및 자 본 총 계,-,제 81 기,14410299000000,제 80 기,15541478000000,제 79 기,14912417000000,45,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_Borrowings,차입부채,-,제 81 기,806732000000,제 80 기,806275000000,제 79 기,1007583000000,47,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 81 기,0,제 80 기,0,제 79 기,397000000,48,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 81 기,0,제 80 기,0,제 79 기,25243000000,49,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DerivativeFinancialLiabilities,파생상품부채,-,제 81 기,330148000000,제 80 기,240679000000,제 79 기,76041000000,50,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DerivativeFinancialLiabilitiesHeldForHedging,위험회피목적 파생상품부채,-,제 81 기,317983000000,제 80 기,206528000000,제 79 기,58860000000,51,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_DerivativeFinancialLiabilitiesHeldForTrading,매매목적 파생상품부채,-,제 81 기,12165000000,제 80 기,34151000000,제 79 기,17181000000,52,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_InsuranceContractsIssuedThatAreLiabilities,보험계약부채,-,제 81 기,5996541000000,제 80 기,6022371000000,제 79 기,5116014000000,53,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,-표준계정코드 미사용-,배당요소가 있는 보험계약부채,-,제 81 기,589548000000,제 80 기,627048000000,제 79 기,639779000000,54,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,-표준계정코드 미사용-,배당요소가 없는 보험계약부채,-,제 81 기,5406993000000,제 80 기,5395323000000,제 79 기,4476235000000,55,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_InvestmentContractsLiabilities,투자계약부채,-,제 81 기,6528284000000,제 80 기,7528290000000,제 79 기,7221049000000,56,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_LeaseLiabilities,리스부채,-,제 81 기,44188000000,제 80 기,50713000000,제 79 기,51766000000,57,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_Liabilities,부 채 총 계,-,제 81 기,13796795000000,제 80 기,14747239000000,제 79 기,13610757000000,58,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_OtherFinancialLiabilities,기타금융부채,-,제 81 기,79067000000,제 80 기,80867000000,제 79 기,97303000000,59,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_OtherNonfinancialLiabilities,기타부채,-,제 81 기,10778000000,제 80 기,16698000000,제 79 기,13955000000,60,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_Provisions,충당부채,-,제 81 기,1057000000,제 80 기,1015000000,제 79 기,1016000000,61,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,BS,재무상태표,ifrs-full_ReinsuranceContractsHeldThatAreLiabilities,재보험계약부채,-,제 81 기,0,제 80 기,331000000,제 79 기,390000000,62,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_AdjustedProfitLossNetOfCapastropheReserve,비상위험준비금 반영후 조정손익,-,제 81 기,47701000000,제 80 기,21094000000,제 79 기,311707000000,2,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_AdjustedProfitLossNetOfRegulatoryReserveForCreditLoss,대손준비금 반영후 조정손익,-,제 81 기,48690000000,제 80 기,21094000000,제 79 기,294500000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_AdjustedProfitLossNetOfSurrenderValueReserve,해약환급금준비금 반영후 조정손익,-,제 81 기,989000000,제 80 기,28347000000,제 79 기,-21560000000,4,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_InvestmentIncomeExpenses,투자손익,-,제 81 기,37725000000,제 80 기,-146784000000,제 79 기,-86105000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OperatingExpenseInvestment,투자영업비용,-,제 81 기,951150000000,제 80 기,1273990000000,제 79 기,1018861000000,10,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_AdditionalImpairmentLossesOfFinancialAssets,신용손실충당금 전입액,-,제 81 기,3907000000,제 80 기,20698000000,제 79 기,20678000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_FinanceExpensesFromReinsuranceContractsHeldRecognisedInProfitOrLoss,재보험금융비용,-,제 81 기,2904000000,제 80 기,3644000000,제 79 기,4643000000,12,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_InsuranceFinanceExpensesFromInsuranceContractsIssuedRecognisedInProfitOrLoss,보험금융비용,-,제 81 기,177319000000,제 80 기,187805000000,제 79 기,191080000000,13,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_LossArisingFromDerecognitionOfFinancialInstrumentsMeasuredAtAmortisedCost,상각후원가측정금융상품 처분손실,-,제 81 기,0,제 80 기,0,제 79 기,794000000,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산관련 손실,-,제 81 기,15083000000,제 80 기,334000000,제 79 기,16293000000,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융자산관련 손실,-,제 81 기,158678000000,제 80 기,296311000000,제 79 기,201372000000,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_LossesFromDerivatives,파생상품관련비용,-,제 81 기,195845000000,제 80 기,370614000000,제 79 기,185942000000,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OtherOperatingExpenseInvestment,기타투자비용,-,제 81 기,33530000000,제 80 기,29468000000,제 79 기,32412000000,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ForeignExchangeLoss,외화거래손실,-,제 81 기,58068000000,제 80 기,6008000000,제 79 기,8043000000,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InterestExpense,이자비용,-,제 81 기,296560000000,제 80 기,350330000000,제 79 기,349868000000,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,재산관리비,-,제 81 기,9256000000,제 80 기,8778000000,제 79 기,7736000000,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InvestmentIncome,투자영업수익,-,제 81 기,988875000000,제 80 기,1127206000000,제 79 기,932756000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_FinanceIncomeFromReinsuranceContractsHeldRecognisedInProfitOrLoss,재보험금융수익,-,제 81 기,7952000000,제 80 기,10697000000,제 79 기,12109000000,23,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_GainFromDerivatives,파생상품관련수익,-,제 81 기,127483000000,제 80 기,49463000000,제 79 기,93923000000,24,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융상품관련 이익,-,제 81 기,80529000000,제 80 기,81114000000,제 79 기,5000000,25,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융자산관련 이익,-,제 81 기,256687000000,제 80 기,319495000000,제 79 기,390854000000,26,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_InsuranceFinanceIncomeFromInsuranceContractsIssuedRecognisedInProfitOrLoss,보험금융수익,-,제 81 기,16603000000,제 80 기,13150000000,제 79 기,7250000000,27,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OtherOperatingIncomeInvestment,기타투자수익,-,제 81 기,2043000000,제 80 기,3916000000,제 79 기,4107000000,28,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ForeignExchangeGain,외화거래이익,-,제 81 기,108719000000,제 80 기,272397000000,제 79 기,78275000000,29,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_RevenueFromDividends,배당금수익,-,제 81 기,1754000000,제 80 기,2531000000,제 79 기,3694000000,30,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_RevenueFromInterest,이자수익,-,제 81 기,387105000000,제 80 기,374443000000,제 79 기,342539000000,31,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_InterestRevenueOnFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융자산 이자수익,-,제 81 기,36972000000,제 80 기,36328000000,제 79 기,44117000000,32,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InterestRevenueCalculatedUsingEffectiveInterestMethod,유효이자율법 적용 이자수익,-,제 81 기,350133000000,제 80 기,338115000000,제 79 기,298422000000,33,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_NonOperatingProfitLoss,영업외손익,-,제 81 기,-947000000,제 80 기,2269000000,제 79 기,-1952000000,34,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_NonOperatingExpense,영업외비용,-,제 81 기,3751000000,제 80 기,3351000000,제 79 기,6801000000,35,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_NonOperatingIncome,영업외수익,-,제 81 기,3331000000,제 80 기,6158000000,제 79 기,5390000000,36,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자자산 평가손익,-,제 81 기,-527000000,제 80 기,-538000000,제 79 기,-541000000,37,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,당기 총포괄손익,-,제 81 기,-178094000000,제 80 기,-504428000000,제 79 기,131139000000,38,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 81 기,158,제 80 기,68,제 79 기,914,40,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 81 기,158,제 80 기,68,제 79 기,914,41,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 81 기,12458000000,제 80 기,9108000000,제 79 기,87903000000,42,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InsuranceServiceResult,보험손익,-,제 81 기,27011000000,제 80 기,177845000000,제 79 기,461540000000,43,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OperatingExpenseInsurance,보험영업비용,-,제 81 기,2204785000000,제 80 기,1846466000000,제 79 기,1164798000000,44,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OtherOperatingExpenseInsurance,기타사업비용,-,제 81 기,38023000000,제 80 기,31223000000,제 79 기,31810000000,45,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ExpensesFromAllocationOfPremiumsPaidToReinsurer,재보험비용,-,제 81 기,137631000000,제 80 기,136274000000,제 79 기,139464000000,46,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InsuranceServiceExpensesFromInsuranceContractsIssued,보험비용,-,제 81 기,2029131000000,제 80 기,1678969000000,제 79 기,993524000000,47,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OperatingIncomeInsurance,보험영업수익,-,제 81 기,2231796000000,제 80 기,2024311000000,제 79 기,1626338000000,48,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_IncomeFromAmountsRecoveredFromReinsurer,재보험수익,-,제 81 기,102230000000,제 80 기,47094000000,제 79 기,-19376000000,49,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_InsuranceRevenue,보험수익,-,제 81 기,2129566000000,제 80 기,1977217000000,제 79 기,1645714000000,50,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 81 기,-229425000000,제 80 기,-528650000000,제 79 기,-154441000000,51,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 세후기타포괄손익의 구성요소,-,제 81 기,-225843000000,제 80 기,-527623000000,제 79 기,-153835000000,52,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxCreditLossesOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 채무증권 신용손실,-,제 81 기,66000000,제 80 기,-216000000,제 79 기,165000000,53,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,-,제 81 기,-260064000000,제 80 기,89235000000,제 79 기,81673000000,54,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,-,제 81 기,3142000000,제 80 기,9423000000,제 79 기,4825000000,55,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 채무증권 평가손익,-,제 81 기,-210635000000,제 80 기,-10632000000,제 79 기,255922000000,56,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,-,제 81 기,241648000000,제 80 기,-615433000000,제 79 기,-496420000000,57,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 세후기타포괄손익의 구성요소,-,제 81 기,-3582000000,제 80 기,-1027000000,제 79 기,-606000000,58,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 지분증권 평가손익,-,제 81 기,-1262000000,제 80 기,628000000,제 79 기,2987000000,59,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,-,제 81 기,-2318000000,제 80 기,-1655000000,제 79 기,-3593000000,60,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가손익,-,제 81 기,-2000000,제 80 기,0,제 79 기,0,61,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 81 기,51331000000,제 80 기,24222000000,제 79 기,285580000000,62,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 81 기,63789000000,제 80 기,33330000000,제 79 기,373483000000,63,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CIS,포괄손익계산서,ifrs-full_ProfitLossFromOperatingActivities,영업이익(손실),-,제 81 기,64736000000,제 80 기,31061000000,제 79 기,375435000000,64,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 81 기,800910000000,제 80 기,1314073000000,제 79 기,919291000000,2,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 81 기,885823000000,제 80 기,800910000000,제 79 기,1314074000000,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동순현금흐름,-,제 81 기,-17691000000,제 80 기,-220029000000,제 79 기,-2292776000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_DecreaseInRepurchaseAgreements,환매조건부채권매도의 감소,-,제 81 기,0,제 80 기,550000000000,제 79 기,2365000000000,10,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_DividendsPaidToHybridBond,신종자본증권의 배당,-,제 81 기,2641000000,제 80 기,3128000000,제 79 기,3128000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 81 기,15050000000,제 80 기,15069000000,제 79 기,13960000000,12,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_ProceedsFromIssueOfSubordinatedLiabilities,후순위부채의 발행,-,제 81 기,0,제 80 기,428168000000,제 79 기,149312000000,13,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_RepaymentsOfSubordinatedLiabilities,후순위부채의 상환,-,제 81 기,0,제 80 기,80000000000,제 79 기,60000000000,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동순현금흐름,-,제 81 기,825489000000,제 80 기,-89265000000,제 79 기,559106000000,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_ProceedsFromDisposalOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 처분,-,제 81 기,700813000000,제 80 기,967327000000,제 79 기,1258646000000,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의 처분,-,제 81 기,73491000000,제 80 기,0,제 79 기,10000000000,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의 처분,-,제 81 기,4821244000000,제 80 기,3004926000000,제 79 기,1628580000000,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의 취득,-,제 81 기,4473402000000,제 80 기,3668888000000,제 79 기,2013474000000,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 취득,-,제 81 기,158146000000,제 80 기,228973000000,제 79 기,259338000000,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,위험회피활동으로 인한 현금유출,-,제 81 기,206251000000,제 80 기,205375000000,제 79 기,155300000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,위험회피활동으로 인한 현금유입,-,제 81 기,85184000000,제 80 기,58203000000,제 79 기,116626000000,23,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 81 기,870000000,제 80 기,280000000,제 79 기,0,24,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 81 기,5055000000,제 80 기,2662000000,제 79 기,1524000000,25,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자자산의 취득,-,제 81 기,0,제 80 기,0,제 79 기,4055000000,26,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 81 기,13259000000,제 80 기,14103000000,제 79 기,21055000000,27,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동순현금흐름,-,제 81 기,-722054000000,제 80 기,-207039000000,제 79 기,2126461000000,29,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 81 기,-1005819000000,제 80 기,-437172000000,제 79 기,1908519000000,30,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 81 기,368092000000,제 80 기,807661000000,제 79 기,2908359000000,31,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융자산의 감소(증가),-,제 81 기,245830000000,제 80 기,-592061000000,제 79 기,478925000000,32,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInLoans,상각후원가측정대출채권의 감소(증가),-,제 81 기,-280131000000,제 80 기,-67312000000,제 79 기,464271000000,33,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherFinancialAssets,상각후원가측정기타금융자산의 감소(증가),-,제 81 기,1345000000,제 80 기,-7388000000,제 79 기,-2170000000,34,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherFinancialLiabilities,기타금융부채의 증가(감소),-,제 81 기,-1800000000,제 80 기,-16435000000,제 79 기,14196000000,35,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_IncreaseDecreaseInDirectInsuranceContractsLiabilityAsset,보험계약부채의 증가(감소),-,제 81 기,-1699191000000,제 80 기,-1511299000000,제 79 기,-1032792000000,36,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_IncreaseDecreaseInReInsuranceContractsLiabilityAsset,재보험계약자산의 감소(증가),-,제 81 기,33962000000,제 80 기,26751000000,제 79 기,-184967000000,37,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산의 감소(증가),-,제 81 기,-1317000000,제 80 기,1114000000,제 79 기,-900000000,38,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDerivativeFinancialLiabilities,파생상품부채의 증가(감소),-,제 81 기,-4461000000,제 80 기,0,제 79 기,0,39,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities,확정급여제도의 증가(감소),-,제 81 기,-10460000000,제 80 기,-5025000000,제 79 기,-7868000000,40,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInInsuranceReinsuranceAndInvestmentContractLiabilities,투자계약부채의 증가(감소),-,제 81 기,-1240071000000,제 80 기,7703000000,제 79 기,745042000000,41,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채의 증가(감소),-,제 81 기,-6072000000,제 80 기,2517000000,제 79 기,-896000000,42,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감 합계,-,제 81 기,-1425242000000,제 80 기,-1269055000000,제 79 기,-1285420000000,43,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,신용손실충당금 전입액,-,제 81 기,3907000000,제 80 기,20698000000,제 79 기,20678000000,44,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForGainLossOnDisposalsOfIntangibleAssets,무형자산처분손익,-,제 81 기,274000000,제 80 기,25000000,제 79 기,0,45,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForGainLossOnForeignExchangeTranslations,외화환산손익,-,제 81 기,56071000000,제 80 기,265717000000,제 79 기,68484000000,46,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForGainsLossesOnTransactionOfDerivativeFinancialInstruments,파생상품거래손익,-,제 81 기,9625000000,제 80 기,-110432000000,제 79 기,-47013000000,47,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForOtherOperatingIncomeExpense,기타영업손익,-,제 81 기,-209000000,제 80 기,-429000000,제 79 기,-180000000,48,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여 조정,-,제 81 기,6501000000,제 80 기,6105000000,제 79 기,5350000000,49,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_DirectInsuranceServiceResult,보험계약손익,-,제 81 기,1578333000000,제 80 기,1636990000000,제 79 기,1827646000000,50,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_GainsLossesOnChangeInFairValueOfFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산 평가손익,-,제 81 기,-60454000000,제 80 기,-106159000000,제 79 기,-15528000000,51,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_GainsLossesOnDisposalsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산 처분손익,-,제 81 기,65445000000,제 80 기,80780000000,제 79 기,-16289000000,52,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,dart_GainsLossesOnDisposalsOfFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산 처분손익,-,제 81 기,32984000000,제 80 기,14961000000,제 79 기,39750000000,53,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationAndAmortisationExpense,감가상각비와 상각비의 조정,-,제 81 기,36931000000,제 80 기,36841000000,제 79 기,40288000000,54,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익에 대한 조정,-,제 81 기,1754000000,제 80 기,2531000000,제 79 기,3694000000,55,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForGainsLossesOnChangeInFairValueOfDerivatives,파생상품평가손익,-,제 81 기,-69578000000,제 80 기,-201246000000,제 79 기,-37218000000,56,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 81 기,12458000000,제 80 기,9108000000,제 79 기,87903000000,57,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForInterestExpense,이자비용에 대한 조정,-,제 81 기,296560000000,제 80 기,350330000000,제 79 기,349868000000,58,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 81 기,387105000000,제 80 기,374443000000,제 79 기,342539000000,59,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForProvisions,충당부채의 조정,-,제 81 기,-21000000,제 80 기,82000000,제 79 기,-341000000,60,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,-,제 81 기,0,제 80 기,135000000,제 79 기,136000000,61,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod,관계기업투자자산 평가손익,-,제 81 기,-527000000,제 80 기,-538000000,제 79 기,-541000000,62,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_IncomeExpensesFromReinsuranceContractsHeldOtherThanFinanceIncomeExpenses,재보험계약손익,-,제 81 기,-63577000000,제 80 기,-96687000000,제 79 기,-199678000000,63,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_InsuranceFinanceIncomeExpenses,보험금융손익,-,제 81 기,-155668000000,제 80 기,-167602000000,제 79 기,-176364000000,64,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 81 기,51331000000,제 80 기,24222000000,제 79 기,285580000000,65,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 81 기,1754000000,제 80 기,2531000000,제 79 기,3694000000,66,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 81 기,19603000000,제 80 기,39948000000,제 79 기,14490000000,67,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자비용 지급,-,제 81 기,53893000000,제 80 기,48071000000,제 79 기,61471000000,68,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수익 수취,-,제 81 기,355507000000,제 80 기,315621000000,제 79 기,290209000000,69,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 81 기,-831000000,제 80 기,3170000000,제 79 기,1992000000,70,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 81 기,84913000000,제 80 기,-513163000000,제 79 기,394783000000,71,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 81 기,85744000000,제 80 기,-516333000000,제 79 기,392791000000,72,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,별도재무제표 [member],제 81 기,794239000000,제 80 기,1301660000000,제 79 기,1173513000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-313725000000,제 80 기,215704000000,제 79 기,370145000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,45370000000,제 80 기,45370000000,제 79 기,45370000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,373161000000,제 80 기,351288000000,제 79 기,68836000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|자본금 [구성요소],제 81 기,310336000000,제 80 기,310336000000,제 79 기,310336000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,379817000000,제 80 기,379817000000,제 79 기,379817000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,51142000000,제 80 기,51142000000,제 79 기,51142000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,328675000000,제 80 기,328675000000,제 79 기,328675000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|자본조정 [구성요소],제 81 기,-720000000,제 80 기,-855000000,제 79 기,-991000000,3,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,별도재무제표 [member],제 81 기,2641000000,제 80 기,3128000000,제 79 기,3128000000,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,2641000000,제 80 기,3128000000,제 79 기,3128000000,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권배당,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,6,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,135000000,제 79 기,136000000,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래에 따른 증가(감소),별도재무제표 [member],제 81 기,0,제 80 기,135000000,제 79 기,136000000,7,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,별도재무제표 [member],제 81 기,-2641000000,제 80 기,-2993000000,제 79 기,-2992000000,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,-2641000000,제 80 기,-3128000000,제 79 기,-3128000000,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,135000000,제 79 기,136000000,8,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,별도재무제표 [member],제 81 기,-180735000000,제 80 기,-507421000000,제 79 기,128147000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-229425000000,제 80 기,-529429000000,제 79 기,-154441000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,48690000000,제 80 기,21873000000,제 79 기,282452000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,135000000,제 79 기,136000000,9,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,별도재무제표 [member],제 81 기,-178094000000,제 80 기,-504428000000,제 79 기,131139000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-229425000000,제 80 기,-529429000000,제 79 기,-154441000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,51331000000,제 80 기,25001000000,제 79 기,285580000000,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ComprehensiveIncome,당기 총포괄손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,11,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,별도재무제표 [member],제 81 기,-211831000000,제 80 기,-10220000000,제 79 기,259074000000,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-211831000000,제 80 기,-10999000000,제 79 기,259074000000,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,779000000,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeTotal,기타포괄손익-공정가치측정금융자산관련손익 총손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,14,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,별도재무제표 [member],제 81 기,-2000000,제 80 기,,제 79 기,,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-2000000,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluationOfPropertyPlandAndEquipment,자산재평가손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,15,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,별도재무제표 [member],제 81 기,-229425000000,제 80 기,-528650000000,제 79 기,-154441000000,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-229425000000,제 80 기,-529429000000,제 79 기,-154441000000,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,779000000,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,16,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,별도재무제표 [member],제 81 기,-260064000000,제 80 기,89235000000,제 79 기,81673000000,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-260064000000,제 80 기,89235000000,제 79 기,81673000000,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,위험회피목적 파생상품 평가손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,17,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,별도재무제표 [member],제 81 기,3142000000,제 80 기,9423000000,제 79 기,4825000000,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,3142000000,제 80 기,9423000000,제 79 기,4825000000,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,18,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,별도재무제표 [member],제 81 기,-2318000000,제 80 기,-1655000000,제 79 기,-3593000000,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-2318000000,제 80 기,-1655000000,제 79 기,-3593000000,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,19,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,별도재무제표 [member],제 81 기,241648000000,제 80 기,-615433000000,제 79 기,-496420000000,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,241648000000,제 80 기,-615433000000,제 79 기,-496420000000,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약자산(부채) 순금융손익,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,20,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본조정 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본잉여금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본금 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|신종자본증권 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|이익잉여금 [구성요소],제 81 기,51331000000,제 80 기,24222000000,제 79 기,285580000000,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,0,제 80 기,0,제 79 기,0,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),별도재무제표 [member],제 81 기,51331000000,제 80 기,24222000000,제 79 기,285580000000,21,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,별도재무제표 [member],제 81 기,613504000000,제 80 기,794239000000,제 79 기,1301660000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|기타포괄손익누적액 [구성요소],제 81 기,-543150000000,제 80 기,-313725000000,제 79 기,215704000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|신종자본증권 [구성요소],제 81 기,45370000000,제 80 기,45370000000,제 79 기,45370000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|이익잉여금 [구성요소],제 81 기,421851000000,제 80 기,373161000000,제 79 기,351288000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|자본조정 [구성요소],제 81 기,-720000000,제 80 기,-720000000,제 79 기,-855000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|자본잉여금 [구성요소],제 81 기,379817000000,제 80 기,379817000000,제 79 기,379817000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|자본잉여금 [구성요소]|주식발행초과금 [구성요소],제 81 기,328675000000,제 80 기,328675000000,제 79 기,328675000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|자본잉여금 [구성요소]|기타자본잉여금 [구성요소],제 81 기,51142000000,제 80 기,51142000000,제 79 기,51142000000,22,KRW,,000400,롯데손해보험,OFS
+20260331004266,11011,2025,00113562,SCE,자본변동표,ifrs-full_Equity,자 본 총 계,자본 [구성요소]|자본금 [구성요소],제 81 기,310336000000,제 80 기,310336000000,제 79 기,310336000000,22,KRW,,000400,롯데손해보험,OFS

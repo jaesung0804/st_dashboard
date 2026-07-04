@@ -1,0 +1,231 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 30 기,272554219719,제 29 기,237801884923,제 28 기,225534081771,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 30 기,175151337465,제 29 기,124029203202,제 28 기,151082012591,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_ReceivablesAgentNet,대행미수금,-,제 30 기,9341897966,제 29 기,10220885010,제 28 기,4266647464,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 30 기,16875512718,제 29 기,14481688432,제 28 기,12848177583,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentPrepayments,선급금,-,제 30 기,2277334247,제 29 기,882585024,제 28 기,496889554,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 30 기,37590798636,제 29 기,34078328980,제 28 기,35914783208,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 30 기,10210258996,제 29 기,5342803953,제 28 기,6508725217,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 30 기,746809741,제 29 기,819908346,제 28 기,790212236,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 30 기,1066531153,제 29 기,360824092,제 28 기,673718317,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융자산,-,제 30 기,97042194008,제 29 기,57842179365,제 28 기,89582859012,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 30 기,97402882254,제 29 기,113772681721,제 28 기,74452069180,17,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융자산,-,제 30 기,61745987809,제 29 기,75188860652,제 28 기,41991395059,18,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 30 기,6941639643,제 29 기,4586332561,제 28 기,4789194059,19,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 30 기,6001461007,제 29 기,3609386607,제 28 기,4361176004,20,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업투자주식,-,제 30 기,15793157541,제 29 기,16450102833,제 28 기,16464475423,21,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 30 기,1825517131,제 29 기,1484927882,제 28 기,2024337805,22,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 30 기,5095119123,제 29 기,12453071186,제 28 기,4821490830,23,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 30 기,193698898860,제 29 기,169246537581,제 28 기,166900530960,25,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배주주지분,-,제 30 기,188619048109,제 29 기,164603398462,제 28 기,162632438288,26,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 30 기,100996211072,제 29 기,98387361531,제 28 기,98387361531,27,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_OtherCapitalAdjustments,자본조정,-,제 30 기,1619780913,제 29 기,2326790118,제 28 기,1994041942,28,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 30 기,-604973652,제 29 기,-3372767000,제 28 기,-3492934075,29,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 30 기,32456555000,제 29 기,32339705000,제 28 기,32339705000,30,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 30 기,54151474776,제 29 기,34922308813,제 28 기,33404263890,31,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 30 기,5079850751,제 29 기,4643139119,제 28 기,4268092672,32,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 30 기,272554219719,제 29 기,237801884923,제 28 기,225534081771,33,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 30 기,68941009870,제 29 기,56072334740,제 28 기,51317677328,35,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,dart_ShortTermIncomeReceivedInAdvance,선수수익,-,제 30 기,117826279,제 29 기,60392058,제 28 기,57197629,36,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentAdvances,선수금,-,제 30 기,1978690223,제 29 기,1416593988,제 28 기,1452773661,37,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,단기리스부채,-,제 30 기,3505242825,제 29 기,3785862778,제 28 기,1547865501,38,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 30 기,5890699083,제 29 기,335724093,제 28 기,1507307586,39,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 30 기,4607745058,제 29 기,1188863017,제 28 기,3042017144,40,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타금융부채,-,제 30 기,52840806402,제 29 기,49284898806,제 28 기,43710515807,41,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 30 기,78855320859,제 29 기,68555347342,제 28 기,58633550811,42,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 30 기,9914310989,제 29 기,12483012602,제 28 기,7315873483,43,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,장기리스부채,-,제 30 기,938616703,제 29 기,4381631294,제 28 기,1939312502,44,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 30 기,6900794086,제 29 기,7089898442,제 28 기,4081379092,45,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 30 기,2074900200,제 29 기,1011482866,제 28 기,1295181889,46,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 30 기,32334952815,제 29 기,-732390107,제 28 기,21247899838,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 30 기,6120964503,제 29 기,2810273881,제 28 기,4713657303,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 30 기,9279918008,제 29 기,2989080688,제 28 기,3583711466,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_OtherOperatingExpense,기타영업비용,-,제 30 기,2458295981,제 29 기,7703027031,제 28 기,4891367509,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_OtherOperatingIncome,기타영업수익,-,제 30 기,21581857083,제 29 기,5710426910,제 28 기,12236135446,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 30 기,43245390874,제 29 기,30357237344,제 28 기,30908495746,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 30 기,23201252617,제 29 기,2116808184,제 28 기,20831886455,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,1204293306,제 29 기,808408022,제 28 기,733194208,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배주주지분,-,제 30 기,21996959311,제 29 기,1308400162,제 28 기,20098692247,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 30 기,179590622522,제 29 기,153285446693,제 28 기,178825489596,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업 기본주당이익,-,제 30 기,353,제 29 기,19,제 28 기,346,19,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업 기본주당손실,-,제 30 기,0,제 29 기,0,제 28 기,-6,20,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업 희석주당이익,-,제 30 기,353,제 29 기,19,제 28 기,346,22,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업 희석주당손실,-,제 30 기,0,제 29 기,0,제 28 기,-6,23,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 30 기,4659727465,제 29 기,942411881,제 28 기,4077431249,24,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 30 기,4423554876,제 29 기,6002362029,제 28 기,6742256086,25,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 30 기,56456782587,제 29 기,31617447358,제 28 기,44811627647,26,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 30 기,5323319683,제 29 기,2152112125,제 28 기,2024385735,27,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 30 기,-415254421,제 29 기,120167075,제 28 기,-1443104097,28,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 30 기,-425547902,제 29 기,120167075,제 28 기,-699501393,29,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 30 기,-425547902,제 29 기,120167075,제 28 기,-699501393,30,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 없는 항목,-,제 30 기,10293481,제 29 기,0,제 28 기,-743602704,31,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,-,제 30 기,10293481,제 29 기,0,제 28 기,-743602704,32,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 30 기,23616507038,제 29 기,1996641109,제 28 기,22274990552,33,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,1204293306,제 29 기,808408022,제 28 기,733194208,35,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests,계속영업이익,-,제 30 기,1204293306,제 29 기,808408022,제 28 기,1065720861,36,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests,중단영업손실,-,제 30 기,0,제 29 기,0,제 28 기,-332526653,37,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배주주지분,-,제 30 기,22412213732,제 29 기,1188233087,제 28 기,21541796344,38,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,계속영업이익,-,제 30 기,22412213732,제 29 기,1188233087,제 28 기,21952563916,39,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_IncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,중단영업손실,-,제 30 기,0,제 29 기,0,제 28 기,-410767572,40,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 30 기,28939826721,제 29 기,4148753234,제 28 기,25042670512,41,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 30 기,23616507038,제 29 기,1996641109,제 28 기,23018284777,42,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 30 기,0,제 29 기,0,제 28 기,-743294225,43,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 30 기,236047405109,제 29 기,184902894051,제 28 기,223637117243,44,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 30 기,14481688432,제 29 기,12848177583,제 28 기,8817996292,2,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 30 기,16875512718,제 29 기,14481688432,제 28 기,12848177583,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,매각예정처분자산집단의 기말현금및현금성자산,-,제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,매각예정처분자산집단의 기초현금및현금성자산,-,제 30 기,0,제 29 기,0,제 28 기,-702121729,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,기말 재무상태표상 현금및현금성자산,-,제 30 기,16875512718,제 29 기,14481688432,제 28 기,12848177583,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,기초 재무상태표상 현금및현금성자산,-,제 30 기,14481688432,제 29 기,12848177583,제 28 기,8115874563,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 30 기,-4559244039,제 29 기,-3660222929,제 28 기,1071224044,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_AdjustmentsForDecreaseInFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLossClassifiedAsFinancingActivities,당기손익-공정가치측정금융부채의 상환,-,제 30 기,584240500,제 29 기,0,제 28 기,0,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_AdjustmentsForIncreaseInFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLossClassifiedAsFinancingActivities,당기손익-공정가치측정금융부채의 발행,-,제 30 기,0,제 29 기,0,제 28 기,1068757500,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채상환액,-,제 30 기,4108049306,제 29 기,3061861354,제 28 기,1634039146,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권의 행사,-,제 30 기,1736586267,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,비지배주주 부채의 감소,-,제 30 기,1266300000,제 29 기,165000000,제 28 기,0,17,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivitiesDiscontinuedOperations,중단영업의 순재무활동현금흐름,-,제 30 기,0,제 29 기,0,제 28 기,-399143104,18,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 30 기,0,제 29 기,433361575,제 28 기,0,19,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업 지분변동,-,제 30 기,337240500,제 29 기,0,제 28 기,-2035648794,20,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 30 기,-20402736780,제 29 기,-4550322076,제 28 기,-15860357020,21,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 30 기,300000,제 29 기,352432000,제 28 기,97560000,22,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 30 기,180000000,제 29 기,438965537,제 28 기,245647352,23,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 30 기,391512000,제 29 기,71588000,제 28 기,54612000,24,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 30 기,170000000,제 29 기,250000000,제 28 기,180000000,25,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자주식의 처분,-,제 30 기,6337283784,제 29 기,7854804666,제 28 기,3505344109,26,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융자산의 감소,-,제 30 기,31267700673,제 29 기,8994202995,제 28 기,21383042961,27,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산의 처분,-,제 30 기,0,제 29 기,0,제 28 기,11580624635,28,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융자산의 감소,-,제 30 기,665978574902,제 29 기,808757784901,제 28 기,688181556328,29,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자주식의 취득,-,제 30 기,5210000000,제 29 기,6760000000,제 28 기,2150000000,30,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 30 기,27251191023,제 29 기,48669998616,제 28 기,22233455872,31,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 30 기,685688787962,제 29 기,772275040340,제 28 기,719719981262,32,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,-표준계정코드 미사용-,사업의매각,-,제 30 기,0,제 29 기,0,제 28 기,2000000000,33,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위의 변동,-,제 30 기,-3551045327,제 29 기,1513101743,제 28 기,239925649,34,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivitiesDiscontinuedOperations,중단영업의 순투자활동현금흐름,-,제 30 기,0,제 29 기,0,제 28 기,3456694382,35,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 30 기,264702509,제 29 기,52640656,제 28 기,1396354813,36,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 30 기,0,제 29 기,45850559,제 28 기,113989091,37,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 30 기,1348909606,제 29 기,649008437,제 28 기,3557295280,38,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 30 기,819852730,제 29 기,3884469740,제 28 기,165751926,39,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 30 기,27361290362,제 29 기,9842694636,제 28 기,18813807549,40,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 30 기,26190198037,제 29 기,9578509770,제 28 기,14676955984,41,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 30 기,-3026334502,제 29 기,145268499,제 28 기,-6823903290,42,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,비현금항목의조정,-,제 30 기,5600025501,제 29 기,7436600162,제 28 기,-1517425503,43,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 30 기,23616507038,제 29 기,1996641109,제 28 기,23018284777,44,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivitiesDiscontinuedOperations,중단영업으로 인한 순현금흐름,-,제 30 기,0,제 29 기,0,제 28 기,1053152371,45,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 30 기,465906475,제 29 기,29345000,제 28 기,199813075,46,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 30 기,1903107735,제 29 기,3223512436,제 28 기,1286834939,47,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 30 기,0,제 29 기,131813425,제 28 기,0,48,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 30 기,2608293585,제 29 기,3590165727,제 28 기,4170721058,49,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 30 기,-5485257,제 29 기,1361218,제 28 기,5506718,50,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순감소,-,제 30 기,2399309543,제 29 기,1632149631,제 28 기,4024674573,51,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 30 기,169246537581,제 29 기,166900530960,제 28 기,159425169127,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 30 기,4643139119,제 29 기,4268092672,제 28 기,16835078634,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,164603398462,제 29 기,162632438288,제 28 기,142590090493,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,2326790118,제 29 기,1994041942,제 28 기,1278018987,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,-3372767000,제 29 기,-3492934075,제 28 기,-1983057475,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,34922308813,제 29 기,33404263890,제 28 기,12568062450,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,32339705000,제 29 기,32339705000,제 28 기,32339705000,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,98387361531,제 29 기,98387361531,제 28 기,98387361531,3,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 30 기,23201252617,제 29 기,2116808184,제 28 기,20831886455,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,1204293306,제 29 기,808408022,제 28 기,733194208,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,21996959311,제 29 기,1308400162,제 28 기,20098692247,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,-415254421,제 29 기,120167075,제 28 기,-1443104097,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,22412213732,제 29 기,1188233087,제 28 기,21541796344,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,4,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,연결재무제표 [member],제 30 기,10293481,제 29 기,0,제 28 기,-743602704,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,10293481,제 29 기,0,제 28 기,-743602704,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,10293481,제 29 기,0,제 28 기,-743602704,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 30 기,23616507038,제 29 기,1996641109,제 28 기,22274990552,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 30 기,1204293306,제 29 기,808408022,제 28 기,733194208,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,22412213732,제 29 기,1188233087,제 28 기,21541796344,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,22412213732,제 29 기,1188233087,제 28 기,21541796344,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,연결재무제표 [member],제 30 기,-425547902,제 29 기,120167075,제 28 기,-699501393,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-425547902,제 29 기,120167075,제 28 기,-699501393,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,-425547902,제 29 기,120167075,제 28 기,-699501393,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 30 기,193698898860,제 29 기,169246537581,제 28 기,166900530960,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 30 기,5079850751,제 29 기,4643139119,제 28 기,4268092672,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,188619048109,제 29 기,164603398462,제 28 기,162632438288,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,1619780913,제 29 기,2326790118,제 28 기,1994041942,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,-604973652,제 29 기,-3372767000,제 28 기,-3492934075,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,54151474776,제 29 기,34922308813,제 28 기,33404263890,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,32456555000,제 29 기,32339705000,제 28 기,32339705000,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,100996211072,제 29 기,98387361531,제 28 기,98387361531,8,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,연결재무제표 [member],제 30 기,1251108662,제 29 기,229198437,제 28 기,-13356524622,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-767581674,제 29 기,-433361575,제 28 기,-13300180170,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,2018690336,제 29 기,662560012,제 28 기,-56344452,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-707009205,제 29 기,332748176,제 28 기,716022955,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,3183047769,제 29 기,0,제 28 기,-66772503,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,-3183047769,제 29 기,329811836,제 28 기,-705594904,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,116850000,제 29 기,0,제 28 기,0,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,2608849541,제 29 기,0,제 28 기,0,9,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 30 기,0,제 29 기,329811836,제 28 기,-16342049880,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,-15552489954,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,329811836,제 28 기,-789559926,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,329811836,제 28 기,-789559926,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,3183047769,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,-3183047769,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,17192519,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,17192519,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,-66772503,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,83965022,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,-표준계정코드 미사용-,지분법자본변동의 이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,연결재무제표 [member],제 30 기,0,제 29 기,433361575,제 28 기,0,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,433361575,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_DividendsPaid,배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,,13,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,연결재무제표 [member],제 30 기,-584240500,제 29 기,0,제 28 기,2035648794,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-767581674,제 29 기,0,제 28 기,2252309784,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,183341174,제 29 기,0,제 28 기,-216660990,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,-216660990,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,183341174,제 29 기,0,제 28 기,0,14,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,연결재무제표 [member],제 30 기,1736586267,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,2425508367,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,116850000,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-805772100,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권의 행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,1736586267,제 29 기,0,제 28 기,0,15,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,연결재무제표 [member],제 30 기,98762895,제 29 기,332748176,제 28 기,932683945,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,98762895,제 29 기,332748176,제 28 기,932683945,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,98762895,제 29 기,332748176,제 28 기,932683945,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS
+20260319000816,11011,2025,00249247,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,16,KRW,,037270,YG PLUS,CFS

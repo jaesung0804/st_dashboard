@@ -1,0 +1,356 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 9 기,549237107801,제 8 기,512101745784,제 7 기,461187881064,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 9 기,351357296318,제 8 기,339277775188,제 7 기,285140082282,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_CurrentFinancialAssetDesignationAsAtFairValueThroughProfitOrLoss,당기손익인식금융자산,-,제 9 기,0,제 8 기,0,제 7 기,282482440,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 9 기,58959811112,제 8 기,68625722759,제 7 기,99334809610,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 9 기,103076452695,제 8 기,116355089232,제 7 기,97559618801,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedImpairmentLossFinishedGoodsGross,평가충당금(제품),-,제 9 기,1394449739,제 8 기,806081059,제 7 기,494835237,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedImpairmentLossRawMaterialsGross,평가충당금(원재료),-,제 9 기,396350824,제 8 기,123096487,제 7 기,125207395,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_FinishedGoodsGross,제품,-,제 9 기,74132407541,제 8 기,81387140168,제 7 기,65756209954,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_GoodsInTransitGross,미착품,-,제 9 기,4206000276,제 8 기,8176374676,제 7 기,7161069959,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_RawMaterialsGross,원재료,-,제 9 기,25082693118,제 8 기,26329954520,제 7 기,23889735790,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_SuppliesGross,저장품,-,제 9 기,1446152323,제 8 기,1390797414,제 7 기,1372645730,17,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 9 기,1551763715,제 8 기,1839021691,제 7 기,1876602856,18,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentPrepaidExpenses,선급비용,-,제 9 기,1546845130,제 8 기,1500835197,제 7 기,1523989190,19,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentPrepayments,선급금,-,제 9 기,4918585,제 8 기,338186494,제 7 기,352613666,20,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융자산,-,제 9 기,74000000000,제 8 기,50000000000,제 7 기,0,21,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타수취채권,-,제 9 기,113769268796,제 8 기,102457941506,제 7 기,86086568575,22,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AllowanceForDoubtfulAcccountShortTermTradeReceivable,대손충당금(매출채권),-,제 9 기,158905505,제 8 기,935552032,제 7 기,794309459,23,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermAccruedIncome,미수수익,-,제 9 기,523792867,제 8 기,630377595,제 7 기,182354125,24,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermLoans,단기대여금,-,제 9 기,940338226,제 8 기,1148795098,제 7 기,2504526660,25,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermOtherReceivables,미수금,-,제 9 기,8681994393,제 8 기,8604489329,제 7 기,6490664933,26,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 9 기,103782048815,제 8 기,93009831516,제 7 기,77703332316,27,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 9 기,197879811483,제 8 기,172823970596,제 7 기,176047798782,28,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타비유동채권,-,제 9 기,3137077306,제 8 기,2406133173,제 7 기,3357233240,29,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermDepositsProvidedGross,장기금융상품,-,제 9 기,2000000,제 8 기,2000000,제 7 기,2000000,30,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermLeaseholdDeposits,보증금,-,제 9 기,739536045,제 8 기,132794216,제 7 기,315472806,31,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermLoansGross,장기대여금,-,제 9 기,2641133413,제 8 기,2582467712,제 7 기,3497913780,32,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_PresentValueDiscountsLongTermLoansGross,장기대여금및수취채권현재가치할인차금,-,제 9 기,245592152,제 8 기,311128755,제 7 기,458153346,33,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 9 기,11520756201,제 8 기,6437754957,제 7 기,3658654163,34,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 9 기,1399203808,제 8 기,1400172427,제 7 기,1397129133,35,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsGross,산업재산권,-,제 9 기,3761840,제 8 기,4730459,제 7 기,6334663,36,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_OtherIntangibleAssetsGross,기타무형자산,-,제 9 기,1395441968,제 8 기,1395441968,제 7 기,1390794470,37,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 9 기,599812511,제 8 기,0,제 7 기,0,38,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타포괄손익-공정가치측정금융자산,-,제 9 기,8182097738,제 8 기,7184469633,제 7 기,8269777750,39,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 비유동금융자산,-,제 9 기,8182097738,제 8 기,7184469633,제 7 기,8269777750,40,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 9 기,173040863919,제 8 기,155395440406,제 7 기,159365004496,41,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedDepreciationBuildingsGross,감가상각누계액(건물),-,제 9 기,24278004410,제 8 기,21502343953,제 7 기,18651387163,42,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedDepreciationMachineryGross,감가상각누계액(기계장치),-,제 9 기,190912492099,제 8 기,172266577268,제 7 기,151991504267,43,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedDepreciationStructureGross,감가상각누계액(구축물),-,제 9 기,17002312602,제 8 기,15100299281,제 7 기,12966126935,44,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedDepreciationToolsAndEquipmentGross,감가상각누계액(공기구비품),-,제 9 기,9271970718,제 8 기,8263264427,제 7 기,7607526244,45,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_AccumulatedDepreciationVehiclesGross,감가상각누계액(차량운반구),-,제 9 기,2240738719,제 8 기,1997667151,제 7 기,1751597417,46,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_BuildingsGross,건물,-,제 9 기,56836218048,제 8 기,55168068830,제 7 기,50977467678,47,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ConstructionInProgressGross,건설중인자산,-,제 9 기,44898984181,제 8 기,9190511261,제 7 기,7949620013,48,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_GovernmentGrantsConstructionInProgressGross,정부보조금(건설중인자산),-,제 9 기,30825000,제 8 기,0,제 7 기,1046500000,49,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_GovernmentGrantsLandGross,정부보조금(토지),-,제 9 기,1575120033,제 8 기,0,제 7 기,0,50,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_GovernmentGrantsMachineryGross,정부보조금(기계장치),-,제 9 기,1187225294,제 8 기,1520857670,제 7 기,93460570,51,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LandGross,토지,-,제 9 기,35266465131,제 8 기,35680057460,제 7 기,35347316093,52,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_MachineryGross,기계장치,-,제 9 기,244236479797,제 8 기,238629189467,제 7 기,224562332886,53,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_StructureGross,구축물,-,제 9 기,24032299196,제 8 기,24146640406,제 7 기,22375385446,54,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ToolsAndEquipmentGross,공기구비품,-,제 9 기,10866356702,제 8 기,10589518501,제 7 기,9078753807,55,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_VehiclesGross,차량운반구,-,제 9 기,2711292993,제 8 기,2642464231,제 7 기,2494236231,56,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 9 기,691456746,제 8 기,0,제 7 기,687994938,57,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 9 기,448498102489,제 8 기,406341856929,제 7 기,373055947068,59,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 9 기,448498102489,제 8 기,406341856929,제 7 기,373055947068,60,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 9 기,170690206699,제 8 기,170690206699,제 7 기,170690206699,61,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 9 기,170690206699,제 8 기,170690206699,제 7 기,170690206699,62,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 9 기,-24898973440,제 8 기,-18449757680,제 7 기,-11129783510,63,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LossesSaleTreasuryStock,자기주식처분손실,-,제 9 기,118668869,제 8 기,118668869,제 7 기,118668869,64,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_TreasuryShares,자기주식,-,제 9 기,24780304571,제 8 기,18331088811,제 7 기,11011114641,65,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 9 기,55311327,제 8 기,-1188280365,제 7 기,-1061329802,66,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_GainsCumulativeEffectForeignCurrencyTranslation,해외사업환산손익,-,제 9 기,1942543682,제 8 기,2098392923,제 7 기,-2083898746,67,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ReserveOfGainsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,-,제 9 기,-1887232355,제 8 기,-3286673288,제 7 기,1022568944,68,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_IssuedCapital,납입자본,-,제 9 기,2633945500,제 8 기,2633945500,제 7 기,2633945500,69,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_IssuedCapitalOfCommonStock,자본금,-,제 9 기,2633945500,제 8 기,2633945500,제 7 기,2633945500,70,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 9 기,300017612403,제 8 기,252655742775,제 7 기,211922908181,71,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LegalReserve,이익준비금,-,제 9 기,1781050140,제 8 기,1781050140,제 7 기,1781050140,72,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_RetainedEarningsBeforeAppropriationsAccumulatedDeficitBeforeDisposition,미처분이익잉여금(미처리결손금),-,제 9 기,298236562263,제 8 기,250874692635,제 7 기,210141858041,73,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 9 기,549237107801,제 8 기,512101745784,제 7 기,461187881064,74,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 9 기,72259981866,제 8 기,82491706756,제 7 기,71025568789,76,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_CurentPortionOfFinanceLeaseLiabilities,유동성리스부채,-,제 9 기,704964869,제 8 기,0,제 7 기,698808025,77,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentProvisions,유동성충당부채,-,제 9 기,2577599075,제 8 기,3409199059,제 7 기,510349842,78,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 9 기,9043307242,제 8 기,15759473742,제 7 기,5484572683,79,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 9 기,1763731410,제 8 기,1975788587,제 7 기,1978040269,80,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermAdvancesCustomers,선수금,-,제 9 기,899435830,제 8 기,1197135137,제 7 기,1093395009,81,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermWithholdings,예수금,-,제 9 기,864295580,제 8 기,778653450,제 7 기,884645260,82,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 9 기,34836825379,제 8 기,34817792548,제 7 기,32072118002,83,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 9 기,23333553891,제 8 기,26529452820,제 7 기,30281679968,84,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,-,제 9 기,7793494802,제 8 기,7839003429,제 7 기,6803064421,85,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermOtherPayables,미지급금,-,제 9 기,5780616776,제 8 기,4784109338,제 7 기,6052154916,86,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 9 기,9759442313,제 8 기,13906340053,제 7 기,17426460631,87,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 9 기,100739005312,제 8 기,105759888855,제 7 기,88131933996,88,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 9 기,28479023446,제 8 기,23268182099,제 7 기,17106365207,89,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타채무,-,제 9 기,600000000,제 8 기,684437791,제 7 기,685613791,90,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermGuaranteeDepositRentGross,예수보증금,-,제 9 기,600000000,제 8 기,600000000,제 7 기,600000000,91,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_LongTermOtherPayablesGross,장기미지급금,-,제 9 기,0,제 8 기,84437791,제 7 기,85613791,92,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_PostemploymentBenefitObligations,확정급여부채,-,제 9 기,26450899432,제 8 기,22583744308,제 7 기,16420751416,93,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_FairValueOfPlanAssets,사외적립자산의공정가치,-,제 9 기,44168400,제 8 기,25113560,제 7 기,5716800,94,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,dart_PresentValueOfDefinedBenefitObligation,확정급여채무,-,제 9 기,26495067832,제 8 기,22608857868,제 7 기,16426468216,95,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_LongtermProvisionForDecommissioningRestorationAndRehabilitationCosts,장기충당부채,-,제 9 기,148337000,제 8 기,0,제 7 기,0,96,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 9 기,0,제 8 기,0,제 7 기,0,97,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,비유동종업원급여충당부채,-,제 9 기,1279787014,제 8 기,0,제 7 기,0,98,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 9 기,65482438995,제 8 기,58767118333,제 7 기,22527162446,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 9 기,8501159553,제 8 기,7286128867,제 7 기,6364429745,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_GainsFromGovernmentGrants,정부보조금수익,-,제 9 기,165416341,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_GainsOnDisposalsOfIntangibleAssets,무형자산처분이익,-,제 9 기,0,제 8 기,7520819,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LentIncome,수입임대료,-,제 9 기,6359294297,제 8 기,6076270233,제 7 기,5728216248,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_MiscellaneousIncome,잡이익,-,제 9 기,1013969570,제 8 기,747986581,제 7 기,448545143,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_GainsOnDisposalsOfPropertyPlantAndEquipment,유형자산처분이익,-,제 9 기,962479345,제 8 기,454351234,제 7 기,187668354,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 9 기,5568868119,제 8 기,5802178234,제 7 기,5443360037,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_Donations,기부금,-,제 9 기,101300000,제 8 기,96729700,제 7 기,41709948,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_ExpensesOfProvisionsForRestoration,환경복구비,-,제 9 기,122520425,제 8 기,501295745,제 7 기,451813653,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_MiscellaneousLosses,잡손실,-,제 9 기,29087688,제 8 기,29500347,제 7 기,54093684,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RentalPropertyAdministrationExpense,임대비용,-,제 9 기,5315807393,제 8 기,5174641442,제 7 기,4895738752,17,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_LossesOnDisposalsOfPropertyPlantAndEquipment,유형자산처분손실,-,제 9 기,152613,제 8 기,11000,제 7 기,4000,18,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 9 기,47533961555,제 8 기,44236057155,제 7 기,31582824269,19,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_AdvertisingExpensesSellingGeneralAdministrativeExpenses,광고선전비,-,제 9 기,6730000,제 8 기,6110000,제 7 기,23720000,20,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_AmortisationExpenseSellingGeneralAdministrativeExpenses,무형자산상각비,-,제 9 기,968619,제 8 기,1604204,제 7 기,68001204,21,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_BadDebtExpensesSellingGeneralAdministrativeExpenses,대손상각비(대손충당금환입),-,제 9 기,-776646527,제 8 기,136765364,제 7 기,-412536081,22,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_CommissionsSellingGeneralAdministrativeExpenses,지급수수료,-,제 9 기,5763684119,제 8 기,3598524630,제 7 기,3225602846,23,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_CommunicationExpensesSellingGeneralAdministrativeExpenses,통신비,-,제 9 기,77546966,제 8 기,70110804,제 7 기,72073823,24,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_DepreciationExpenseSellingGeneralAdministrativeExpenses,감가상각비,-,제 9 기,1106859938,제 8 기,1046342955,제 7 기,837951184,25,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_ElectricPowerExpenseSellingGeneralAdministrativeExpenses,전력비,-,제 9 기,41521555,제 8 기,29923294,제 7 기,34894782,26,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_EmployeeBenefitsSellingGeneralAdministrativeExpenses,복리후생비,-,제 9 기,947767234,제 8 기,719061543,제 7 기,770149947,27,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_EntertainmentExpensesSellingGeneralAdministrativeExpenses,접대비,-,제 9 기,101419086,제 8 기,113702651,제 7 기,87080226,28,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_ExportOverallExpenseSellingGeneralAdministrativeExpenses,수출비용,-,제 9 기,19283019056,제 8 기,20674225850,제 7 기,11890261050,29,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_FreightExpensesSellingGeneralAdministrativeExpenses,운반비,-,제 9 기,1475302965,제 8 기,1392349875,제 7 기,1295800500,30,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_InsurancePremiumsSellingGeneralAdministrativeExpenses,보험료,-,제 9 기,36110769,제 8 기,35581825,제 7 기,35377876,31,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OrdinaryDevelopmentExpenseSellingGeneralAdministrativeExpenses,경상개발비,-,제 9 기,6076354224,제 8 기,4850313659,제 7 기,4439206961,32,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_PackingExpensesSellingGeneralAdministrativeExpenses,포장비,-,제 9 기,2266509569,제 8 기,2007634245,제 7 기,1764897159,33,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_ProvisionForSeveranceIndemnities,퇴직급여,-,제 9 기,779644358,제 8 기,565201650,제 7 기,472901202,34,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_PublicationExpensesSellingGeneralAdministrativeExpenses,도서인쇄비,-,제 9 기,16639731,제 8 기,15207378,제 7 기,41575923,35,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RentalExpensesSellingGeneralAdministrativeExpenses,임차료,-,제 9 기,94780000,제 8 기,9783832,제 7 기,116825664,36,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RepairExpensesSellingGeneralAdministrativeExpenses,수선비,-,제 9 기,25630005,제 8 기,85881686,제 7 기,27851954,37,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_SalariesWages,급여,-,제 9 기,7886745897,제 8 기,6913934440,제 7 기,5211068847,38,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_SamplesExpensesSellingGeneralAdministrativeExpenses,견본비,-,제 9 기,427732360,제 8 기,627864414,제 7 기,358429866,39,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_SupplyExpensesSellingGeneralAdministrativeExpenses,소모품비,-,제 9 기,97058406,제 8 기,119443657,제 7 기,93752667,40,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_TaxesDuesSellingGeneralAdministrativeExpenses,세금과공과,-,제 9 기,221248031,제 8 기,242473876,제 7 기,211440991,41,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_TrainingExpensesSellingGeneralAdministrativeExpenses,교육훈련비,-,제 9 기,51942530,제 8 기,33709500,제 7 기,45300116,42,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_TravelExpensesSellingGeneralAdministrativeExpenses,여비교통비,-,제 9 기,447699397,제 8 기,548990663,제 7 기,437377271,43,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_UtilityExpensesSellingGeneralAdministrativeExpenses,수도광열비,-,제 9 기,20582951,제 8 기,15043756,제 7 기,19703078,44,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_VehicleMaintenanceExpensesSellingGeneralAdministrativeExpenses,차량유지비,-,제 9 기,151749621,제 8 기,121048614,제 7 기,115171191,45,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_WarehouseExpensesSellingGeneralAdministrativeExpenses,보관료,-,제 9 기,905360695,제 8 기,255222790,제 7 기,298944022,46,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 9 기,62211113920,제 8 기,50916412931,제 7 기,16532129783,47,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 9 기,419106113590,제 8 기,406264045001,제 7 기,383562931606,48,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsProduct,제품매출원가,-,제 9 기,409270157660,제 8 기,395329379577,제 7 기,376017735947,49,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsRawMaterial,원재료매출원가,-,제 9 기,4464653902,제 8 기,4766843859,제 7 기,4662547559,50,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_CostOfSalesFromServices,용역매출원가,-,제 9 기,5371302028,제 8 기,6167821565,제 7 기,2882648100,51,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 9 기,12662,제 8 기,11164,제 7 기,3758,53,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 9 기,12662,제 8 기,11164,제 7 기,3758,54,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 9 기,9546994038,제 8 기,6136761460,제 7 기,11986767503,55,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_InterestExpenseFinanceExpense,이자비용,-,제 9 기,1913640216,제 8 기,2141139857,제 7 기,2233690558,56,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnDisposalsOfAvailableForSaleFinancialAssetsFinancialExpense,매도가능금융자산처분손실,-,제 9 기,0,제 8 기,0,제 7 기,12095865,57,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnDispositionOfReceivablesFinancialExpense,매출채권처분손실,-,제 9 기,48441177,제 8 기,57018165,제 7 기,66608179,58,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnForeignCurrencyTransactionsFiancialExpense,외환차손,-,제 9 기,5944483640,제 8 기,3351866024,제 7 기,7614708684,59,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnForeignExchangeTranslationsFinancialExpense,외화환산손실,-,제 9 기,1640429005,제 8 기,72754974,제 7 기,1749564217,60,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnTransactionOfDerivativeFinancialInstrumentsFinancialExpense,파생상품거래손실,-,제 9 기,0,제 8 기,513982440,제 7 기,310100000,61,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_LossesOnValuationOfDerivativeFinancialInstrumentsFinancialExpense,파생상품평가손실,-,제 9 기,0,제 8 기,0,제 7 기,0,62,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 9 기,13493044820,제 8 기,17855745377,제 7 기,15551573198,63,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_DividendIncome,배당금수익,-,제 9 기,354418342,제 8 기,317643800,제 7 기,340674150,64,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_GainsOnForeignCurrencyTransactionsFiancialIncome,외환차익,-,제 9 기,7903829267,제 8 기,8779215046,제 7 기,12143643079,65,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_GainsOnForeignExchangeTranslationsFinancialIncome,외화환산이익,-,제 9 기,1794849184,제 8 기,4905322640,제 7 기,753241028,66,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_GainsOnValuationOfDerivativeFinancialInstrumentsFinancialIncome,파생상품평가이익,-,제 9 기,0,제 8 기,0,제 7 기,282482440,67,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_InterestIncomeFinanceIncome,이자수익,-,제 9 기,3439948027,제 8 기,3853563891,제 7 기,2031532501,68,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 9 기,113016400550,제 8 기,103003175488,제 7 기,54109986715,69,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 9 기,11058030159,제 8 기,17403198695,제 7 기,8408397205,70,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 9 기,908362868,제 8 기,-3650441257,제 7 기,-2072510861,71,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 세후기타포괄손익,-,제 9 기,-155849241,제 8 기,1075823979,제 7 기,144632816,72,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 9 기,-155849241,제 8 기,1075823979,제 7 기,144632816,73,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류 되지않는 세후기타포괄손익,-,제 9 기,1064212109,제 8 기,-4726265236,제 7 기,-2217143677,74,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,-,제 9 기,1399440933,제 8 기,-1202774542,제 7 기,-465951011,75,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,-,제 9 기,65708558,제 8 기,0,제 7 기,0,76,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,-,제 9 기,-400937382,제 8 기,-3523490694,제 7 기,-1751192666,77,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 9 기,61302751052,제 8 기,54566854188,제 7 기,18604640644,78,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 9 기,72360781211,제 8 기,71970052883,제 7 기,27013037849,79,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 9 기,532122514140,제 8 기,509267220489,제 7 기,437672918321,80,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsProduct,제품매출액,-,제 9 기,520556813434,제 8 기,496826256571,제 7 기,428496519464,81,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsRawMaterial,원재료매출액,-,제 9 기,6194398678,제 8 기,6273142353,제 7 기,5936291768,82,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CIS,포괄손익계산서,dart_RevenueFromServices,용역매출액,-,제 9 기,5371302028,제 8 기,6167821565,제 7 기,3240107089,83,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 9 기,68625722759,제 8 기,99334809610,제 7 기,42052741907,2,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 9 기,58959811112,제 8 기,68625722759,제 7 기,99334809610,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 9 기,-19926491146,제 8 기,-19634494549,제 7 기,-27809878932,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 9 기,6449215760,제 8 기,7319974170,제 7 기,12790746220,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,예수보증금의 증가,-,제 9 기,0,제 8 기,-698808025,제 7 기,200000000,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 9 기,677948617,제 8 기,0,제 7 기,687938594,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 증가,-,제 9 기,0,제 8 기,0,제 7 기,0,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 9 기,10295592513,제 8 기,10343651789,제 7 기,13219314273,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 9 기,9489266682,제 8 기,11648835243,제 7 기,18186822101,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 9 기,13605652600,제 8 기,10310528900,제 7 기,10484621700,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_ProceedsFromSaleOrIssueOfTreasuryShares,자기주식의 처분,-,제 9 기,0,제 8 기,0,제 7 기,920935410,17,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 9 기,-65672158019,제 8 기,-66639444105,제 7 기,-24206210489,18,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 9 기,0,제 8 기,182877998,제 7 기,160000000,19,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 9 기,606750000,제 8 기,0,제 7 기,303899,20,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromSalesOfAvailableForSaleFinancialAssets,기타포괄손익-공정가치측정금융자산의 감소,-,제 9 기,874268704,제 8 기,0,제 7 기,86600000,21,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 감소,-,제 9 기,0,제 8 기,-231500000,제 7 기,0,22,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 9 기,2015919802,제 8 기,3146692078,제 7 기,1800346869,23,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융자산의 감소,-,제 9 기,110000000000,제 8 기,0,제 7 기,0,24,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 9 기,3091236620,제 8 기,4160807250,제 7 기,4247873425,25,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 증가,-,제 9 기,0,제 8 기,0,제 7 기,310100000,26,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 9 기,2106913147,제 8 기,2095854660,제 7 기,3081340000,27,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융자산의 증가,-,제 9 기,134000000000,제 8 기,50000000000,제 7 기,0,28,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 9 기,2841176104,제 8 기,2940467038,제 7 기,2836678292,29,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_RepaymentOfGovernmentGrantsClassifiedAsInvestingActivities,"정부보조금의 상환, 투자활동",-,제 9 기,64431000,제 8 기,0,제 7 기,0,30,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 9 기,1344342000,제 8 기,448500000,제 7 기,1091150920,31,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 9 기,0,제 8 기,38020819,제 7 기,0,32,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 9 기,1741669091,제 8 기,856897000,제 7 기,268800000,33,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_PurchaseOfAvailableforsaleFinancialAssets,기타포괄손익-공정가치측정금융자산의 증가,-,제 9 기,0,제 8 기,472419490,제 7 기,285108108,34,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 9 기,0,제 8 기,35147498,제 7 기,0,35,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 9 기,45120323985,제 8 기,19697850564,제 7 기,25347451404,36,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 9 기,76518495728,제 8 기,53958881515,제 7 기,109523630735,37,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 9 기,-2639630895,제 8 기,-36707880667,제 7 기,64257321316,38,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품의 감소(증가),-,제 9 기,0,제 8 기,0,제 7 기,0,39,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 9 기,333267909,제 8 기,14427172,제 7 기,-242332646,40,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,퇴직보험예치금의 감소(증가),-,제 9 기,-19054840,제 8 기,-19396760,제 7 기,-5716800,41,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 9 기,-78227390,제 8 기,-2108640040,제 7 기,1652226367,42,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 9 기,114638411,제 8 기,-1197352719,제 7 기,-136016624,43,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 9 기,-297699307,제 8 기,103740128,제 7 기,28667977,44,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermOtherPayables,장기미지급금의 증가(감소),-,제 9 기,-84437791,제 8 기,-1176000,제 7 기,-4508000,45,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherLongTermProvisions,기타장기충당부채의 증가(감소),-,제 9 기,0,제 8 기,0,제 7 기,-449106623,46,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 9 기,400153625,제 8 기,-1558352924,제 7 기,634621189,47,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherProvisions,기타충당부채의 증가(감소),-,제 9 기,-805783409,제 8 기,3088921288,제 7 기,371854064,48,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 9 기,85642130,제 8 기,-105991810,제 7 기,-1413515640,49,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 9 기,1033622570,제 8 기,1622573513,제 7 기,1384139810,50,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 9 기,12797151679,제 8 기,-17356197227,제 7 기,29835329402,51,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 9 기,140501186,제 8 기,-426337598,제 7 기,-131239349,52,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 9 기,-10317478975,제 8 기,-11094103016,제 7 기,37939089911,53,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 9 기,-3874681553,제 8 기,-4424847648,제 7 기,-2437892102,54,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 9 기,39000645932,제 8 기,41238066089,제 7 기,40201468321,55,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비(환입),-,제 9 기,-776646527,제 8 기,136765364,제 7 기,-412536081,56,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisionForDecommissioningRestorationAndRehabilitationCosts,환경복구비,-,제 9 기,122520425,제 8 기,501295745,제 7 기,451813653,57,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 9 기,962479345,제 8 기,454351234,제 7 기,187668354,58,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 9 기,1794849184,제 8 기,4905322640,제 7 기,753241028,59,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익,-,제 9 기,0,제 8 기,7520819,제 7 기,0,60,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialAssets,파생금융자산평가이익,-,제 9 기,0,제 8 기,0,제 7 기,282482440,61,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 9 기,1913640216,제 8 기,2141139857,제 7 기,2233690558,62,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 9 기,152613,제 8 기,11000,제 7 기,4000,63,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생상품평가손실,-,제 9 기,0,제 8 기,0,제 7 기,0,64,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 9 기,1640429005,제 8 기,72754974,제 7 기,1749564217,65,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForLossesOnTransactionOfDerivativeFinancialAssets,파생상품거래손실,-,제 9 기,0,제 8 기,513982440,제 7 기,310100000,66,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익 조정,-,제 9 기,89010392,제 8 기,0,제 7 기,0,67,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 9 기,5770349217,제 8 기,3353881060,제 7 기,2841640866,68,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,dart_DividendIncomeNonOperating,배당금수익,-,제 9 기,354418342,제 8 기,317643800,제 7 기,340674150,69,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 9 기,968619,제 8 기,1604204,제 7 기,68001204,70,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 9 기,25911907495,제 8 기,26651835134,제 7 기,28146391172,71,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 9 기,11058030159,제 8 기,17403198695,제 7 기,8408397205,72,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 9 기,3439948027,제 8 기,3853563891,제 7 기,2031532501,73,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 9 기,354418342,제 8 기,317643800,제 7 기,324285650,74,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 9 기,22710013052,제 8 기,8477780950,제 7 기,12982162420,75,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 9 기,2054506066,제 8 기,-4240959,제 7 기,2943519346,76,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 9 기,3264830415,제 8 기,3017738096,제 7 기,2061596570,77,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 9 기,61302751052,제 8 기,54566854188,제 7 기,18604640644,78,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 9 기,-585758210,제 8 기,1605970288,제 7 기,-225473611,79,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가,-,제 9 기,-9665911647,제 8 기,-30709086851,제 7 기,57282067703,80,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 9 기,-9080153437,제 8 기,-32315057139,제 7 기,57507541314,81,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,406341856929,제 8 기,373055947068,제 7 기,378855818934,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,-18449757680,제 8 기,-11129783510,제 7 기,-13908946891,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,-1188280365,제 8 기,-1061329802,제 7 기,-740011607,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,252655742775,제 8 기,211922908181,제 7 기,220180625233,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,2633945500,제 8 기,2633945500,제 7 기,2633945500,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,170690206699,제 8 기,170690206699,제 7 기,170690206699,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 9 기,406341856929,제 8 기,373055947068,제 7 기,378855818934,3,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,연결재무제표 [member],제 9 기,42156245560,제 8 기,33285909861,제 7 기,-5799871866,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,42156245560,제 8 기,33285909861,제 7 기,-5799871866,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,-6449215760,제 8 기,-7319974170,제 7 기,2779163381,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,1243591692,제 8 기,-126950563,제 7 기,-321318195,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,47361869628,제 8 기,40732834594,제 7 기,-8257717052,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,4,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,60967522228,제 8 기,51043363494,제 7 기,16853447978,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,1243591692,제 8 기,-126950563,제 7 기,-321318195,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,62211113920,제 8 기,50916412931,제 7 기,16532129783,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 9 기,62211113920,제 8 기,50916412931,제 7 기,16532129783,5,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,1399440933,제 8 기,-1202774542,제 7 기,-465951011,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,1399440933,제 8 기,-1202774542,제 7 기,-465951011,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 9 기,1399440933,제 8 기,-1202774542,제 7 기,-465951011,6,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,65708558,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,65708558,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,연결재무제표 [member],제 9 기,65708558,제 8 기,0,제 7 기,0,7,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,-155849241,제 8 기,1075823979,제 7 기,144632816,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,-155849241,제 8 기,1075823979,제 7 기,144632816,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,기타포괄손익-해외사업환산손익,연결재무제표 [member],제 9 기,-155849241,제 8 기,1075823979,제 7 기,144632816,8,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,연결재무제표 [member],제 9 기,-400937382,제 8 기,-3523490694,제 7 기,-1751192666,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,-400937382,제 8 기,-3523490694,제 7 기,-1751192666,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,-400937382,제 8 기,-3523490694,제 7 기,-1751192666,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 보험수리적손익의 세후기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,9,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,61302751052,제 8 기,54566854188,제 7 기,18604640644,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,61302751052,제 8 기,54566854188,제 7 기,18604640644,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 9 기,61302751052,제 8 기,54566854188,제 7 기,18604640644,10,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 9 기,448498102489,제 8 기,406341856929,제 7 기,373055947068,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,448498102489,제 8 기,406341856929,제 7 기,373055947068,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,-24898973440,제 8 기,-18449757680,제 7 기,-11129783510,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,55311327,제 8 기,-1188280365,제 7 기,-1061329802,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,300017612403,제 8 기,252655742775,제 7 기,211922908181,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,2633945500,제 8 기,2633945500,제 7 기,2633945500,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,170690206699,제 8 기,170690206699,제 7 기,170690206699,11,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,연결재무제표 [member],제 9 기,-20054868360,제 8 기,-17630503070,제 7 기,-22332001649,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,-20054868360,제 8 기,-17630503070,제 7 기,-22332001649,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,-6449215760,제 8 기,-7319974170,제 7 기,2779163381,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,-13605652600,제 8 기,-10310528900,제 7 기,-25111165030,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,12,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,943366271,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,943366271,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 9 기,0,제 8 기,0,제 7 기,943366271,13,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,-14626543330,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,14626543330,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,연결재무제표 [member],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,14,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,-13605652600,제 8 기,-10310528900,제 7 기,-10484621700,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,-13605652600,제 8 기,-10310528900,제 7 기,-10484621700,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,연결재무제표 [member],제 9 기,-13605652600,제 8 기,-10310528900,제 7 기,-10484621700,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_DividendsPaidOrdinaryShares,배당금지급,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,15,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 9 기,-6449215760,제 8 기,-7319974170,제 7 기,-12790746220,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 9 기,-6449215760,제 8 기,-7319974170,제 7 기,-12790746220,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 9 기,0,제 8 기,0,제 7 기,0,16,KRW,,268280,미원에스씨,CFS
+20260311003661,11011,2025,01234297,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 9 기,-6449215760,제 8 기,-7319974170,제 7 기,-12790746220,16,KRW,,268280,미원에스씨,CFS

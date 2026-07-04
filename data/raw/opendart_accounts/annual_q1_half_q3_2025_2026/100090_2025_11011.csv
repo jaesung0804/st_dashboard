@@ -1,0 +1,185 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 30 기,1148241651965,제 29 기,1421941567198,제 28 기,1431906666880,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 30 기,233077822286,제 29 기,588057571898,제 28 기,754790512544,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_CurrentFirmCommitmentAsset,유동확정계약자산,-,제 30 기,7324910588,제 29 기,18669031348,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 30 기,22994705376,제 29 기,70888490576,제 28 기,44777856653,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentContractAssets,계약자산,-,제 30 기,78892742099,제 29 기,56757512927,제 28 기,206934876757,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 30 기,49278412727,제 29 기,10046763894,제 28 기,6504355622,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 30 기,4289092270,제 29 기,9144684648,제 28 기,2562756118,13,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 30 기,63942841704,제 29 기,389226342093,제 28 기,406872172493,14,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 30 기,864530866,제 29 기,30684150000,제 28 기,81958256896,15,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타유동수취채권,-,제 30 기,5490586656,제 29 기,2640596412,제 28 기,5180238005,16,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 30 기,915163829679,제 29 기,833883995300,제 28 기,677116154336,17,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_NonCurrentFirmCommitmentAsset,비유동확정계약자산,-,제 30 기,0,제 29 기,11836561015,제 28 기,0,18,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 30 기,2316659005,제 29 기,2472603680,제 28 기,1109317123,19,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 30 기,2473355547,제 29 기,3205517885,제 28 기,5353560945,20,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 30 기,21144131212,제 29 기,13916959168,제 28 기,13781887556,21,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타비유동수취채권,-,제 30 기,1052447279,제 29 기,3115126729,제 28 기,1035509380,22,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 30 기,888177236636,제 29 기,799337226823,제 28 기,655835879332,23,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 30 기,814544413186,제 29 기,713505699944,제 28 기,698841961592,25,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 30 기,814544413186,제 29 기,708802695144,제 28 기,694620505339,26,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 30 기,590490197367,제 29 기,538209898862,제 28 기,538209898862,27,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 30 기,917231943,제 29 기,9533663206,제 28 기,9389605162,28,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 30 기,64101291060,제 29 기,39996393589,제 28 기,39992778572,29,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 30 기,31239064500,제 29 기,29597784000,제 28 기,29597784000,30,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 30 기,127796628316,제 29 기,91464955487,제 28 기,77430438743,31,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 30 기,0,제 29 기,4703004800,제 28 기,4221456253,32,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 30 기,1148241651965,제 29 기,1421941567198,제 28 기,1431906666880,33,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 30 기,224776166876,제 29 기,618812439102,제 28 기,687194081824,35,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_CurrentNontradePayables,기타지급채무,-,제 30 기,41191385103,제 29 기,37496914853,제 28 기,28258860048,36,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 30 기,0,제 29 기,38360724147,제 28 기,34721462458,37,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 30 기,8943180533,제 29 기,368982319424,제 28 기,415978960452,38,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,-,제 30 기,6225484943,제 29 기,5600328795,제 28 기,17457583401,39,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,단기차입금,-,제 30 기,108676232000,제 29 기,107670400000,제 28 기,124474115152,40,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 30 기,6086603535,제 29 기,100340786,제 28 기,12196480817,41,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 30 기,13293611685,제 29 기,20961729368,제 28 기,9450342515,42,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 30 기,1009612745,제 29 기,497473566,제 28 기,1241968030,43,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동성충당부채,-,제 30 기,6046170138,제 29 기,4255351442,제 28 기,3978339652,44,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 30 기,33303886194,제 29 기,34886856721,제 28 기,39435969299,45,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 30 기,333697238779,제 29 기,708435867254,제 28 기,733064705288,46,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 30 기,108921071903,제 29 기,89623428152,제 28 기,45870623464,47,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 30 기,3655268601,제 29 기,0,제 28 기,0,48,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동리스부채,-,제 30 기,2138415066,제 29 기,4175971550,제 28 기,9187450919,49,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 30 기,98628000000,제 29 기,65304232000,제 28 기,32866632000,50,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 30 기,4433730546,제 29 기,5171376235,제 28 기,2091430021,51,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 30 기,2823166,제 29 기,14909380754,제 28 기,0,52,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 30 기,62834524,제 29 기,62467613,제 28 기,1725110524,53,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 30 기,59509493978,제 29 기,41797283162,제 28 기,75604296314,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 30 기,6848677226,제 29 기,34685747555,제 28 기,5479777175,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 30 기,15652484508,제 29 기,4664658579,제 28 기,4401115964,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 30 기,32046239749,제 29 기,31012188692,제 28 기,29407128984,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 30 기,60151308277,제 29 기,14519680308,제 28 기,55322913038,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,-285262023,제 29 기,481548546,제 28 기,73305921,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 30 기,60436570300,제 29 기,14038131762,제 28 기,55249607117,13,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 30 기,873832697036,제 29 기,589806254937,제 28 기,820824250548,14,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 30 기,625,제 29 기,277,제 28 기,1041,16,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 30 기,625,제 29 기,277,제 28 기,1038,17,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 30 기,19243358274,제 29 기,63539619133,제 28 기,29224101552,18,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 30 기,14472885809,제 29 기,9369595465,제 28 기,15640063971,19,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 30 기,91555733727,제 29 기,72809471854,제 28 기,105011425298,20,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 30 기,8424371165,제 29 기,776889321,제 28 기,5550150708,21,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 30 기,22640465211,제 29 기,-2351778841,제 28 기,-2225856198,22,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 30 기,22640465211,제 29 기,-2351778841,제 28 기,-2225856198,23,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 30 기,-4191298,제 29 기,3615017,제 28 기,0,24,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 30 기,-1464432260,제 29 기,-2355393858,제 28 기,-2225856198,25,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,-,제 30 기,24109088769,제 29 기,0,제 28 기,0,26,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 30 기,37510843066,제 29 기,16871459149,제 28 기,57548769236,27,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 30 기,-285262023,제 29 기,481548546,제 28 기,73305921,29,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 30 기,37796105089,제 29 기,16389910603,제 28 기,57475463315,30,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 30 기,45935214231,제 29 기,17648348470,제 28 기,63098919944,31,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 30 기,965388430763,제 29 기,662615726791,제 28 기,925835675846,32,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초 현금및현금성자산,-,제 30 기,70888490576,제 29 기,44777856653,제 28 기,86209562699,2,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 30 기,22994705376,제 29 기,70888490576,제 28 기,44777856653,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 30 기,27677242111,제 29 기,-1526091065,제 28 기,70316709872,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유입액,-,제 30 기,71400000000,제 29 기,192112474543,제 28 기,200831560573,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 증가,-,제 30 기,71400000000,제 29 기,192112474543,제 28 기,200817013603,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자로 인한 자본증가,-,제 30 기,0,제 29 기,0,제 28 기,14546970,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유출액,-,제 30 기,43722757889,제 29 기,193638565608,제 28 기,130514850701,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_PaymentForConsolidatedCapitalTransactions,연결자본거래로 인한 현금유출,-,제 30 기,4587596267,제 29 기,0,제 28 기,1084872226,13,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 30 기,2031746934,제 29 기,17159975913,제 28 기,6923710753,14,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_RepaymentsOfBonds,회사채의 상환,-,제 30 기,0,제 29 기,0,제 28 기,5062542191,15,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,-표준계정코드 미사용-,공급자금융약정 차입금의 상환,-,제 30 기,0,제 29 기,6234515152,제 28 기,0,16,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_PaymentsForShareIssueCosts,전환사채의 전환에 따른 신주발행비,-,제 30 기,33014688,제 29 기,0,제 28 기,37633470,17,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 30 기,37070400000,제 29 기,170244074543,제 28 기,117406092061,18,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 30 기,-35784728953,제 29 기,-107875794214,제 28 기,26739732981,19,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유입액,-,제 30 기,135320649854,제 29 기,78893256716,제 28 기,203810485562,20,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 감소,-,제 30 기,134065838456,제 29 기,76847720798,제 28 기,188904558532,21,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,기타수취채권의 감소,-,제 30 기,169040550,제 29 기,50305516,제 28 기,11728709601,22,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,통화선도의 정산,-,제 30 기,0,제 29 기,112347538,제 28 기,1042916975,23,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,자산관련정부보조금의 수령,-,제 30 기,0,제 29 기,0,제 28 기,194105802,24,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 30 기,827973636,제 29 기,1536454545,제 28 기,587609091,25,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 30 기,257797212,제 29 기,346428319,제 28 기,1352585561,26,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유출액,-,제 30 기,171105378807,제 29 기,186769050930,제 28 기,177070752581,27,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_PurchaseOfLoansAndReceivables,기타수취채권의 증가,-,제 30 기,21988400,제 29 기,170136300,제 28 기,2310490349,28,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 증가,-,제 30 기,111511867961,제 29 기,29271999669,제 28 기,60931586718,29,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,통화선도의 정산,-,제 30 기,0,제 29 기,5681489038,제 28 기,1505896975,30,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 30 기,916393090,제 29 기,242130000,제 28 기,1497593560,31,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 30 기,58655129356,제 29 기,151403295923,제 28 기,110825184979,32,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 30 기,-39768234445,제 29 기,135367332623,제 28 기,-138203118639,33,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금,-,제 30 기,-26130260519,제 29 기,154580278802,제 28 기,-134980933270,34,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 30 기,9900000,제 29 기,8167500,제 28 기,4950000,35,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 30 기,6314787930,제 29 기,13735116006,제 28 기,-457416162,36,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 30 기,10596716334,제 29 기,10849960842,제 28 기,8559327273,37,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 30 기,3263630338,제 29 기,5363963169,제 28 기,4874775742,38,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 30 기,-18063913,제 29 기,145186579,제 28 기,-285030260,39,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 30 기,-47893785200,제 29 기,26110633923,제 28 기,-41431706046,40,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 30 기,713505699944,제 29 기,698841961592,제 28 기,525957499199,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 30 기,4703004800,제 29 기,4221456253,제 28 기,5185187915,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,708802695144,제 29 기,694620505339,제 28 기,520772311284,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,9533663206,제 29 기,9389605162,제 28 기,15781379911,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,39996393589,제 29 기,39992778572,제 28 기,39992778572,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,91464955487,제 29 기,77430438743,제 28 기,22180831626,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,29597784000,제 29 기,29597784000,제 28 기,26617506000,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,538209898862,제 29 기,538209898862,제 28 기,416199815175,3,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,814544413186,제 29 기,708802695144,제 28 기,694620505339,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,4703004800,제 28 기,4221456253,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 30 기,814544413186,제 29 기,713505699944,제 28 기,698841961592,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,917231943,제 29 기,9533663206,제 28 기,9389605162,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,590490197367,제 29 기,538209898862,제 28 기,538209898862,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,31239064500,제 29 기,29597784000,제 28 기,29597784000,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,127796628316,제 29 기,91464955487,제 28 기,77430438743,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,64101291060,제 29 기,39996393589,제 28 기,39992778572,4,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 30 기,-4191298,제 29 기,3615017,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-4191298,제 29 기,3615017,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,-4191298,제 29 기,3615017,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,5,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-169853490,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-4417742777,제 29 기,0,제 28 기,-1037037583,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,연결재무제표 [member],제 30 기,-4587596267,제 29 기,0,제 28 기,-1037037583,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-169853490,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,비지배지분의변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,6,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,45411976695,제 29 기,0,제 28 기,118538378048,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,연결재무제표 [member],제 30 기,45411976695,제 29 기,0,제 28 기,118538378048,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,-8509602310,제 29 기,0,제 28 기,-6451983639,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,1641280500,제 29 기,0,제 28 기,2980278000,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환권행사,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,52280298505,제 29 기,0,제 28 기,122010083687,7,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,63024537,제 29 기,144058044,제 28 기,108043533,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,연결재무제표 [member],제 30 기,63024537,제 29 기,144058044,제 28 기,108043533,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,63024537,제 29 기,144058044,제 28 기,108043533,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,8,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,연결재무제표 [member],제 30 기,0,제 29 기,0,제 28 기,-47834643,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,-47834643,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,-47834643,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,9,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 30 기,-1464432260,제 29 기,-2355393858,제 28 기,-2225856198,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,-1464432260,제 29 기,-2355393858,제 28 기,-2225856198,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,-1464432260,제 29 기,-2355393858,제 28 기,-2225856198,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,10,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,연결재무제표 [member],제 30 기,24109088769,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|비지배지분 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,24109088769,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가잉여금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,24109088769,제 29 기,0,제 28 기,0,11,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 30 기,37510843066,제 29 기,16871459149,제 28 기,57548769236,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 30 기,37796105089,제 29 기,16389910602,제 28 기,57475463315,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 30 기,37796105089,제 29 기,16389910602,제 28 기,57475463315,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 30 기,-285262023,제 29 기,481548547,제 28 기,73305921,12,KRW,,100090,SK오션플랜트,CFS
+20260323000486,11011,2025,00480367,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 30 기,0,제 29 기,0,제 28 기,0,12,KRW,,100090,SK오션플랜트,CFS

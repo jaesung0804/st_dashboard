@@ -1,0 +1,330 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 72 기 1분기말,7943970725812,제 71 기말,7446985208816,7,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 72 기 1분기말,2195991534868,제 71 기말,2047329863874,8,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 72 기 1분기말,12723799887,제 71 기말,8640053836,9,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 72 기 1분기말,478637464775,제 71 기말,398949079985,10,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 72 기 1분기말,339491613,제 71 기말,2820399841,11,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 72 기 1분기말,295101314904,제 71 기말,279340671815,12,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 72 기 1분기말,386252262163,제 71 기말,325987886209,13,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정자산,-,제 72 기 1분기말,0,제 71 기말,0,14,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타자산,-,제 72 기 1분기말,209232519941,제 71 기말,174799253965,15,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,금융자산,-,제 72 기 1분기말,42401876277,제 71 기말,29623638106,16,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타채권,-,제 72 기 1분기말,771302805308,제 71 기말,827168880117,17,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 72 기 1분기말,5747979190944,제 71 기말,5399655344942,18,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,-표준계정코드 미사용-,종업원급여자산,-,제 72 기 1분기말,1074541593,제 71 기말,1376363850,19,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_Goodwill,영업권,-,제 72 기 1분기말,227449765925,제 71 기말,216787007433,20,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 72 기 1분기말,1076518937520,제 71 기말,996954144716,21,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업및공동기업투자자산,-,제 72 기 1분기말,1588324544746,제 71 기말,1435835462624,22,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 72 기 1분기말,366327492188,제 71 기말,330018771988,23,KRW,제 70 기,668635533000,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 72 기 1분기말,306414096699,제 71 기말,298846608171,24,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialAssets,파생상품자산,-,제 72 기 1분기말,18052740644,제 71 기말,6334878762,25,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,매출채권,-,제 72 기 1분기말,9562656074,제 71 기말,18475440227,26,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타자산,-,제 72 기 1분기말,64284208611,제 71 기말,59888886553,27,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,금융자산,-,제 72 기 1분기말,178715473969,제 71 기말,134103476458,28,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타채권,-,제 72 기 1분기말,225791334809,제 71 기말,188022900406,29,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 72 기 1분기말,1522087629199,제 71 기말,1524370362341,30,KRW,제 70 기,823657970000,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 72 기 1분기말,163375768967,제 71 기말,188641041413,31,KRW,제 70 기,219098761000,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 72 기 1분기말,2611812731557,제 71 기말,2423307276517,33,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업소유주지분,-,제 72 기 1분기말,1990934448769,제 71 기말,1862590524430,34,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 72 기 1분기말,952603168462,제 71 기말,825292003234,35,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_HybridBonds,신종자본증권,-,제 72 기 1분기말,99219652055,제 71 기말,99219652055,36,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 72 기 1분기말,70340585000,제 71 기말,70340585000,37,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 72 기 1분기말,785375055726,제 71 기말,784342296615,38,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 72 기 1분기말,83395987526,제 71 기말,83395987526,39,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 72 기 1분기말,620878282788,제 71 기말,560716752087,40,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 72 기 1분기말,7943970725812,제 71 기말,7446985208816,41,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 72 기 1분기말,3646736465217,제 71 기말,3671484867472,43,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생상품부채,-,제 72 기 1분기말,293120513693,제 71 기말,257908895229,44,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_CurrentNontradePayables,기타채무,-,제 72 기 1분기말,387118490811,제 71 기말,363844268342,45,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 72 기 1분기말,53028018177,제 71 기말,59800955986,46,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 72 기 1분기말,37351891649,제 71 기말,49631830410,47,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 72 기 1분기말,9758179163,제 71 기말,3300682956,48,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,금융부채,-,제 72 기 1분기말,1654304110124,제 71 기말,1845548485680,49,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타부채,-,제 72 기 1분기말,539236783895,제 71 기말,521428298916,50,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 72 기 1분기말,672818477705,제 71 기말,570021449953,51,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 72 기 1분기말,5332157994255,제 71 기말,5023677932299,52,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 72 기 1분기말,1685421529038,제 71 기말,1352193064827,53,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,파생상품부채,-,제 72 기 1분기말,5785140405,제 71 기말,761461231,54,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,dart_NoncurrentNontradePayables,기타채무,-,제 72 기 1분기말,39460277559,제 71 기말,34687261342,55,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 72 기 1분기말,455423769017,제 71 기말,424760976017,56,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 72 기 1분기말,115952077736,제 71 기말,137813762183,57,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 72 기 1분기말,93244683302,제 71 기말,94223278558,58,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,종업원급여부채,-,제 72 기 1분기말,31766494607,제 71 기말,27972112348,59,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,금융부채,-,제 72 기 1분기말,893881557542,제 71 기말,583441014400,60,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타부채,-,제 72 기 1분기말,49907528870,제 71 기말,48533198748,61,KRW,,,,,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 72 기 1분기,98778356533,,,6,KRW,,,98778356533,제 71 기 1분기,38241611468,38241611468,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 72 기 1분기,29237076960,,,7,KRW,,,29237076960,제 71 기 1분기,30285452411,30285452411,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 72 기 1분기,25386006151,,,8,KRW,,,25386006151,제 71 기 1분기,55971377154,55971377154,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 72 기 1분기,101157082389,,,9,KRW,,,101157082389,제 71 기 1분기,99319902042,99319902042,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 72 기 1분기,101977324681,,,10,KRW,,,101977324681,제 71 기 1분기,15120054881,15120054881,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 72 기 1분기,-38667875935,,,12,KRW,,,-38667875935,제 71 기 1분기,-16606703472,-16606703472,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유주지분,-,제 72 기 1분기,140645200616,,,13,KRW,,,140645200616,제 71 기 1분기,31726758353,31726758353,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 72 기 1분기,1318839786502,,,14,KRW,,,1318839786502,제 71 기 1분기,1272362994322,1272362994322,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_CostOfSalesFromConstruction,공사원가,-,제 72 기 1분기,459854979965,,,15,KRW,,,459854979965,제 71 기 1분기,485103732384,485103732384,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_CostOfSalesFromRenderingOfServicesRental,임대원가,-,제 72 기 1분기,497048411,,,16,KRW,,,497048411,제 71 기 1분기,566428603,566428603,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsProduct,제품매출원가,-,제 72 기 1분기,22319199725,,,17,KRW,,,22319199725,제 71 기 1분기,20177799791,20177799791,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_CostOfSalesFromServices,용역원가,-,제 72 기 1분기,170089194127,,,18,KRW,,,170089194127,제 71 기 1분기,173649174940,173649174940,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 72 기 1분기,769406004,,,19,KRW,,,769406004,제 71 기 1분기,839176952,839176952,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_OtherCostOfSales,기타매출원가,-,제 72 기 1분기,1902780,,,20,KRW,,,1902780,제 71 기 1분기,5093802839,5093802839,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_CostOfMerchandiseSold,상품매출원가,-,제 72 기 1분기,665308055490,,,21,KRW,,,665308055490,제 71 기 1분기,586932878813,586932878813,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_BasicEarningsLossPerSharePreferredStock,기본주당순이익(손실) - 우선주,-,제 72 기 1분기,904,,,23,KRW,,,904,제 71 기 1분기,-1159,-1159,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_BasicEarningsLossPerSharePreferredStockFromContinuingOperations,기본주당계속영업이익(손실) - 우선주,-,제 72 기 1분기,904,,,24,KRW,,,904,제 71 기 1분기,-1145,-1145,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_BasicEarningsLossPerSharePreferredStockFromDiscontinuedOperations,기본주당중단영업이익(손실) - 우선주,-,제 72 기 1분기,0,,,25,KRW,,,0,제 71 기 1분기,-14,-14,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_DilutedEarningsLossPerSharePreferredStock,희석주당순이익(손실) - 우선주,-,제 72 기 1분기,882,,,26,KRW,,,882,제 71 기 1분기,-1155,-1155,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_DilutedEarningsLossPerSharePreferredStockFromContinuingOperations,희석주당계속영업이익(손실) - 우선주,-,제 72 기 1분기,882,,,27,KRW,,,882,제 71 기 1분기,-1141,-1141,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_DilutedEarningsLossPerSharePreferredStockFromDiscontinuedOperations,희석주당중단영업이익(손실) - 우선주,-,제 72 기 1분기,0,,,28,KRW,,,0,제 71 기 1분기,-14,-14,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순이익(손실) - 보통주,-,제 72 기 1분기,892,,,29,KRW,,,892,제 71 기 1분기,-1171,-1171,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,기본주당계속영업이익(손실) - 보통주,-,제 72 기 1분기,892,,,30,KRW,,,892,제 71 기 1분기,-1157,-1157,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,기본주당중단영업이익(손실) - 보통주,-,제 72 기 1분기,0,,,31,KRW,,,0,제 71 기 1분기,-14,-14,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당순이익(손실) - 보통주,-,제 72 기 1분기,870,,,32,KRW,,,870,제 71 기 1분기,-1167,-1167,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,희석주당계속영업이익(손실) - 보통주,-,제 72 기 1분기,870,,,33,KRW,,,870,제 71 기 1분기,-1153,-1153,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,희석주당중단영업이익(손실) - 보통주,-,제 72 기 1분기,0,,,34,KRW,,,0,제 71 기 1분기,-14,-14,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 72 기 1분기,142686942089,,,35,KRW,,,142686942089,제 71 기 1분기,69649637630,69649637630,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 72 기 1분기,26327546863,,,36,KRW,,,26327546863,제 71 기 1분기,16057077884,16057077884,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 72 기 1분기,199935438922,,,37,KRW,,,199935438922,제 71 기 1분기,137561513510,137561513510,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 72 기 1분기,30941453298,,,38,KRW,,,30941453298,제 71 기 1분기,-11530542100,-11530542100,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 72 기 1분기,146650990632,,,39,KRW,,,146650990632,제 71 기 1분기,44882174542,44882174542,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 72 기 1분기,42383315136,,,40,KRW,,,42383315136,제 71 기 1분기,-6757468740,-6757468740,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,-,제 72 기 1분기,1432517793,,,41,KRW,,,1432517793,제 71 기 1분기,-1192901990,-1192901990,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 72 기 1분기,41051739644,,,42,KRW,,,41051739644,제 71 기 1분기,-3021852815,-3021852815,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치측정금융자산평가손익,-,제 72 기 1분기,-150550342,,,43,KRW,,,-150550342,제 71 기 1분기,0,0,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법평가,-,제 72 기 1분기,49608041,,,44,KRW,,,49608041,제 71 기 1분기,-2542713935,-2542713935,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 72 기 1분기,104267675496,,,45,KRW,,,104267675496,제 71 기 1분기,51639643282,51639643282,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 72 기 1분기,0,,,46,KRW,,,0,제 71 기 1분기,-1450480254,-1450480254,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 72 기 1분기,20237184,,,47,KRW,,,20237184,제 71 기 1분기,-1190786318,-1190786318,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산재평가이익,-,제 72 기 1분기,0,,,48,KRW,,,0,제 71 기 1분기,0,0,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법평가,-,제 72 기 1분기,104247438312,,,49,KRW,,,104247438312,제 71 기 1분기,54280909854,54280909854,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 72 기 1분기,-44673665951,,,50,KRW,,,-44673665951,제 71 기 1분기,-29762119661,-29762119661,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 72 기 1분기,-58286071127,,,52,KRW,,,-58286071127,제 71 기 1분기,-13728796209,-13728796209,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,-,제 72 기 1분기,13612405176,,,53,KRW,,,13612405176,제 71 기 1분기,-16033323452,-16033323452,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 72 기 1분기,-13729967884,,,54,KRW,,,-13729967884,제 71 기 1분기,-41036873021,-41036873021,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 72 기 1분기,-44671421182,,,55,KRW,,,-44671421182,제 71 기 1분기,-29506330921,-29506330921,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 72 기 1분기,-2244769,,,56,KRW,,,-2244769,제 71 기 1분기,-255788740,-255788740,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 72 기 1분기,1518775225424,,,57,KRW,,,1518775225424,제 71 기 1분기,1409924507832,1409924507832,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 72 기 1분기,54948448534,,,58,KRW,,,54948448534,제 71 기 1분기,27665576888,27665576888,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_RevenueFromConstruction,공사수익,-,제 72 기 1분기,514318027499,,,59,KRW,,,514318027499,제 71 기 1분기,526490954097,526490954097,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_RevenueFromRenderingOfServicesRental,임대수익,-,제 72 기 1분기,4678587107,,,60,KRW,,,4678587107,제 71 기 1분기,5228089924,5228089924,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsMerchandise,상품매출액,-,제 72 기 1분기,734892716694,,,61,KRW,,,734892716694,제 71 기 1분기,641771060079,641771060079,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsProduct,제품매출액,-,제 72 기 1분기,24690871660,,,62,KRW,,,24690871660,제 71 기 1분기,20053957948,20053957948,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,dart_RevenueFromServices,용역수익,-,제 72 기 1분기,179212689033,,,63,KRW,,,179212689033,제 71 기 1분기,177291081601,177291081601,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_OtherRevenue,기타매출,-,제 72 기 1분기,390448947,,,64,KRW,,,390448947,제 71 기 1분기,5514576276,5514576276,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CIS,포괄손익계산서,ifrs-full_RevenueFromRoyalties,수입수수료,-,제 72 기 1분기,5643435950,,,65,KRW,,,5643435950,제 71 기 1분기,5909211019,5909211019,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 72 기 1분기,398949079985,,,2,KRW,,,,제 71 기 1분기,348162603251,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 72 기 1분기,478637464775,,,3,KRW,,,,제 71 기 1분기,608250739871,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 72 기 1분기,104977565001,,,8,KRW,,,,제 71 기 1분기,150594175938,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,종속기업의 자기주식취득,-,제 72 기 1분기,4852008,,,9,KRW,,,,제 71 기 1분기,1985452,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsFinancingActivities,파생상품의 정산에 따른 현금지급,-,제 72 기 1분기,24568768,,,10,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsFinancingActivities,파생상품의 정산에 따른 현금수취,-,제 72 기 1분기,,,,11,KRW,,,,제 71 기 1분기,20000001312,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 72 기 1분기,297981936,,,12,KRW,,,,제 71 기 1분기,229450974,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 72 기 1분기,257631123,,,13,KRW,,,,제 71 기 1분기,1437902474,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_InterestPaidToHybridBond,신종자본증권 이자,-,제 72 기 1분기,1075000000,,,14,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 72 기 1분기,68702656868,,,15,KRW,,,,제 71 기 1분기,72491330000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 72 기 1분기,0,,,16,KRW,,,,제 71 기 1분기,57334646226,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 72 기 1분기,34805000000,,,17,KRW,,,,제 71 기 1분기,10580000000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 72 기 1분기,785204989209,,,18,KRW,,,,제 71 기 1분기,475433456963,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 72 기 1분기,95960000000,,,19,KRW,,,,제 71 기 1분기,88000000000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 72 기 1분기,28570880000,,,20,KRW,,,,제 71 기 1분기,49214980000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 72 기 1분기,644711035602,,,21,KRW,,,,제 71 기 1분기,336219464308,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities,재무활동으로 분류된 기타의 현금유입(유출),-,제 72 기 1분기,-52413992,,,22,KRW,,,,제 71 기 1분기,-10794006,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 72 기 1분기,13295979893,,,23,KRW,,,,제 71 기 1분기,13006486297,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 72 기 1분기,-111365435965,,,24,KRW,,,,제 71 기 1분기,9353068785,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 72 기 1분기,921484111,,,25,KRW,,,,제 71 기 1분기,7937340498,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 72 기 1분기,4581854432,,,26,KRW,,,,제 71 기 1분기,7149349645,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 처분,-,제 72 기 1분기,2271617558,,,27,KRW,,,,제 71 기 1분기,157057984450,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의 감소,-,제 72 기 1분기,371706409047,,,28,KRW,,,,제 71 기 1분기,257205451929,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무상품의 처분,-,제 72 기 1분기,1644832392,,,29,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자의 처분,-,제 72 기 1분기,6650000000,,,30,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 72 기 1분기,8012256005,,,31,KRW,,,,제 71 기 1분기,30529073434,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 72 기 1분기,1219579513,,,32,KRW,,,,제 71 기 1분기,7816050137,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 취득,-,제 72 기 1분기,45432350000,,,33,KRW,,,,제 71 기 1분기,35361800000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의 증가,-,제 72 기 1분기,383662699548,,,34,KRW,,,,제 71 기 1분기,255004731397,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무상품의 취득,-,제 72 기 1분기,1887965000,,,35,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자의 취득,-,제 72 기 1분기,2320000000,,,36,KRW,,,,제 71 기 1분기,1531500000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 72 기 1분기,7617241651,,,37,KRW,,,,제 71 기 1분기,106678325376,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 72 기 1분기,868666996,,,38,KRW,,,,제 71 기 1분기,665342437,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,사용권자산의 취득,-,제 72 기 1분기,125817419,,,39,KRW,,,,제 71 기 1분기,71760398,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업에 대한 지배력 상실로 인한 순현금유입,-,제 72 기 1분기,297082889,,,40,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,파생상품의 정산에 따른 현금지급,-,제 72 기 1분기,,,,41,KRW,,,,제 71 기 1분기,1297649717,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,파생상품의 정산에 따른 현금수취,-,제 72 기 1분기,2986908615,,,42,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities,투자활동으로 분류된 기타의 현금유입(유출),-,제 72 기 1분기,0,,,43,KRW,,,,제 71 기 1분기,453495,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 72 기 1분기,5417394305,,,44,KRW,,,,제 71 기 1분기,3538102067,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 72 기 1분기,19617376841,,,45,KRW,,,,제 71 기 1분기,30335710105,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 72 기 1분기,26894500980,,,46,KRW,,,,제 71 기 1분기,1066746370,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 72 기 1분기,19484527533,,,47,KRW,,,,제 71 기 1분기,15568471780,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 72 기 1분기,81549276082,,,48,KRW,,,,제 71 기 1분기,100572005764,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 72 기 1분기,106499550912,,,49,KRW,,,,제 71 기 1분기,147871629528,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 72 기 1분기,24890267274,,,50,KRW,,,,제 71 기 1분기,100453187040,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의 감소(증가),-,제 72 기 1분기,5815569491,,,51,KRW,,,,제 71 기 1분기,3443525519,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisions,충당부채의 증가(감소),-,제 72 기 1분기,-13694822971,,,52,KRW,,,,제 71 기 1분기,3277958434,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금지급액,-,제 72 기 1분기,7701158525,,,53,KRW,,,,제 71 기 1분기,5942520543,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,파생상품의 정산,-,제 72 기 1분기,303640259,,,54,KRW,,,,제 71 기 1분기,180751896,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,관계사전출입에 따른 퇴직금승계액,-,제 72 기 1분기,-376106562,,,55,KRW,,,,제 71 기 1분기,1074741172,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 72 기 1분기,-71566453588,,,56,KRW,,,,제 71 기 1분기,18854064706,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산의 감소(증가),-,제 72 기 1분기,-38302160254,,,57,KRW,,,,제 71 기 1분기,-52477471874,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 72 기 1분기,-15674655872,,,58,KRW,,,,제 71 기 1분기,19624068485,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables,기타채권의 감소(증가),-,제 72 기 1분기,-136806390272,,,59,KRW,,,,제 71 기 1분기,-29599203597,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채의 증가(감소),-,제 72 기 1분기,197093072421,,,60,KRW,,,,제 71 기 1분기,167298638179,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 72 기 1분기,120771177310,,,61,KRW,,,,제 71 기 1분기,6446485213,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables,기타채무의 증가(감소),-,제 72 기 1분기,-14971444163,,,62,KRW,,,,제 71 기 1분기,-31727850550,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 72 기 1분기,126282949589,,,63,KRW,,,,제 71 기 1분기,77180562149,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 72 기 1분기,5848387406,,,64,KRW,,,,제 71 기 1분기,34554570023,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForDepreciationRightofuseAssets,사용권자산감가상각비,-,제 72 기 1분기,14011859802,,,65,KRW,,,,제 71 기 1분기,14090481181,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForGainOnDisposalOfInvestmentsInAssociates,관계기업투자처분이익,-,제 72 기 1분기,3605339780,,,66,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 72 기 1분기,448866984,,,67,KRW,,,,제 71 기 1분기,488474836,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 72 기 1분기,12596630857,,,68,KRW,,,,제 71 기 1분기,10196837109,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForLossOnDisposalOfInvestmentsInAssociates,관계기업투자처분손실,-,제 72 기 1분기,204873682,,,69,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 72 기 1분기,769406004,,,70,KRW,,,,제 71 기 1분기,839176952,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 72 기 1분기,3331937,,,71,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 72 기 1분기,104342664,,,72,KRW,,,,제 71 기 1분기,258877351,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 72 기 1분기,7825051705,,,73,KRW,,,,제 71 기 1분기,8233227963,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForOtherLongtermEmployeeBenefits,장기종업원급여,-,제 72 기 1분기,153707847,,,74,KRW,,,,제 71 기 1분기,151005125,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 72 기 1분기,54948448534,,,75,KRW,,,,제 71 기 1분기,27665576888,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 72 기 1분기,9898796317,,,76,KRW,,,,제 71 기 1분기,9082650842,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForReversalAllowanceDoubtfulAccounts,대손충당금환입,-,제 72 기 1분기,66991430,,,77,KRW,,,,제 71 기 1분기,2456210,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,dart_AdjustmentsForShareBasedPayment,주식보상비용,-,제 72 기 1분기,403647943,,,78,KRW,,,,제 71 기 1분기,-194969510,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,사용권자산처분이익,-,제 72 기 1분기,736053230,,,79,KRW,,,,제 71 기 1분기,491679261,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,금융보증수익,-,제 72 기 1분기,2733000877,,,80,KRW,,,,제 71 기 1분기,4768690512,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,리스부채이자비용,-,제 72 기 1분기,2211267924,,,81,KRW,,,,제 71 기 1분기,2937740000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,금융보증비용,-,제 72 기 1분기,2733000877,,,82,KRW,,,,제 71 기 1분기,4768690512,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,-표준계정코드 미사용-,사용권자산처분손실,-,제 72 기 1분기,422624926,,,83,KRW,,,,제 71 기 1분기,587602,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 72 기 1분기,1721217018,,,84,KRW,,,,제 71 기 1분기,928136855,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 72 기 1분기,10602256435,,,85,KRW,,,,제 71 기 1분기,7594726498,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForFinanceCosts,금융비용,-,제 72 기 1분기,140475674165,,,86,KRW,,,,제 71 기 1분기,66756797294,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForFinanceIncome,금융수익,-,제 72 기 1분기,26327562307,,,87,KRW,,,,제 71 기 1분기,15990913885,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 72 기 1분기,30941453298,,,88,KRW,,,,제 71 기 1분기,-11530542101,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_OtherAdjustmentsToReconcileProfitLoss,기타의현금유출입없는항목,-,제 72 기 1분기,-585056362,,,89,KRW,,,,제 71 기 1분기,-1685965737,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 72 기 1분기,-44673665951,,,90,KRW,,,,제 71 기 1분기,-29762119661,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 72 기 1분기,3759566727,,,91,KRW,,,,제 71 기 1분기,2321370908,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 72 기 1분기,-904049260,,,92,KRW,,,,제 71 기 1분기,31201816946,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 72 기 1분기,33417251222,,,93,KRW,,,,제 71 기 1분기,39349550107,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 72 기 1분기,3803360405,,,94,KRW,,,,제 71 기 1분기,20930372381,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,환율변동효과,-,제 72 기 1분기,4526979672,,,95,KRW,,,,제 71 기 1분기,-431113867,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 72 기 1분기,75161405118,,,96,KRW,,,,제 71 기 1분기,260519250487,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,연결재무제표 [member],제 72 기 1분기,613575656,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,610003646,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,3572010,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,3572010,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위 변동 등,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,3,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,265868,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,-150816210,,,4,KRW,,,,제 71 기 1분기,-1450480254,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,연결재무제표 [member],제 72 기 1분기,-150550342,,,4,KRW,,,,제 71 기 1분기,-1450480254,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,265868,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정 금융자산평가손익 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,4,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,연결재무제표 [member],제 72 기 1분기,4762397256,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,0,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,4762397256,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,4762397256,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,0,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,5,KRW,,,,제 71 기 1분기,,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,1862590524430,,,6,KRW,,,,제 71 기 1분기,1691732886689,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,560716752087,,,6,KRW,,,,제 71 기 1분기,655259601372,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 72 기 1분기,2423307276517,,,6,KRW,,,,제 71 기 1분기,2346992488061,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,825292003234,,,6,KRW,,,,제 71 기 1분기,676241511738,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,83395987526,,,6,KRW,,,,제 71 기 1분기,113713220196,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,70340585000,,,6,KRW,,,,제 71 기 1분기,68514080000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,784342296615,,,6,KRW,,,,제 71 기 1분기,833264074755,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,99219652055,,,6,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,연결재무제표 [member],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,45000000000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,dart_TransferFromSharePremiumToAccumulatedDeficit,자본전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,,,,7,KRW,,,,제 71 기 1분기,-45000000000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,140645200616,,,8,KRW,,,,제 71 기 1분기,31726758353,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,-38667875935,,,8,KRW,,,,제 71 기 1분기,-16606703472,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 72 기 1분기,101977324681,,,8,KRW,,,,제 71 기 1분기,15120054881,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,127060835699,,,8,KRW,,,,제 71 기 1분기,51700459811,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,8,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,8,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,13584364917,,,8,KRW,,,,제 71 기 1분기,-19973701458,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,8,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,연결재무제표 [member],제 72 기 1분기,9880842150,,,9,KRW,,,,제 71 기 1분기,9688861570,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,2091633600,,,9,KRW,,,,제 71 기 1분기,2098493270,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,7789208550,,,9,KRW,,,,제 71 기 1분기,7590368300,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,0,,,9,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,9,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,7789208550,,,9,KRW,,,,제 71 기 1분기,7590368300,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,9,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_DividendsPaid,배당금의 지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,9,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 72 기 1분기,2611812731557,,2423307276517,10,KRW,,,,제 71 기 1분기,2378083334169,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,620878282788,,,10,KRW,,,,제 71 기 1분기,668880488509,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,1990934448769,,,10,KRW,,,,제 71 기 1분기,1709202845660,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,952603168462,,,10,KRW,,,,제 71 기 1분기,721275540467,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,99219652055,,,10,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,785375055726,,,10,KRW,,,,제 71 기 1분기,850700004997,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,70340585000,,,10,KRW,,,,제 71 기 1분기,68514080000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,83395987526,,,10,KRW,,,,제 71 기 1분기,68713220196,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,11,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,11,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,11,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,1432517793,,,11,KRW,,,,제 71 기 1분기,-930400411,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,1432517793,,,11,KRW,,,,제 71 기 1분기,-930400411,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,0,,,11,KRW,,,,제 71 기 1분기,-262501579,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,연결재무제표 [member],제 72 기 1분기,1432517793,,,11,KRW,,,,제 71 기 1분기,-1192901990,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax,파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,11,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,21380613726,,,12,KRW,,,,제 71 기 1분기,-1600820485,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,19671125918,,,12,KRW,,,,제 71 기 1분기,-1421032330,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 72 기 1분기,41051739644,,,12,KRW,,,,제 71 기 1분기,-3021852815,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,21380613726,,,12,KRW,,,,제 71 기 1분기,-1600820485,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,12,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,12,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,12,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,12,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,연결재무제표 [member],제 72 기 1분기,100156758559,,,13,KRW,,,,제 71 기 1분기,25842365597,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,100303212916,,,13,KRW,,,,제 71 기 1분기,32369836813,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,-146454357,,,13,KRW,,,,제 71 기 1분기,-6527471216,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,13,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,13,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,13,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,-146454357,,,13,KRW,,,,제 71 기 1분기,-6527471216,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업에대한지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,13,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,14,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,0,,,14,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,14,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,393211876,,,14,KRW,,,,제 71 기 1분기,-138959866,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,393211876,,,14,KRW,,,,제 71 기 1분기,-138959866,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,7823674,,,14,KRW,,,,제 71 기 1분기,-43752934,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,연결재무제표 [member],제 72 기 1분기,401035550,,,14,KRW,,,,제 71 기 1분기,-182712800,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권의 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,14,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,15,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,-12551605806,,,15,KRW,,,,제 71 기 1분기,37409631700,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,15,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,250329529,,,15,KRW,,,,제 71 기 1분기,-6666431082,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,-12301276277,,,15,KRW,,,,제 71 기 1분기,-14256799382,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,98829406636,,,15,KRW,,,,제 71 기 1분기,30227590609,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,연결재무제표 [member],제 72 기 1분기,86528130359,,,15,KRW,,,,제 71 기 1분기,15970791227,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 인식된 주주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,15,KRW,,,,제 71 기 1분기,-45000000000,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,16,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,8055356,,,16,KRW,,,,제 71 기 1분기,-1397587362,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,16,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,0,,,16,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,8055356,,,16,KRW,,,,제 71 기 1분기,-1397587362,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,12181828,,,16,KRW,,,,제 71 기 1분기,206801044,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 72 기 1분기,20237184,,,16,KRW,,,,제 71 기 1분기,-1190786318,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,16,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 72 기 1분기,-44673665951,,,17,KRW,,,,제 71 기 1분기,-29762119661,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,-58286071127,,,17,KRW,,,,제 71 기 1분기,-13728796211,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,17,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,17,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,13612405176,,,17,KRW,,,,제 71 기 1분기,-16033323450,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,17,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,0,,,17,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,13612405176,,,17,KRW,,,,제 71 기 1분기,-16033323450,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,연결재무제표 [member],제 72 기 1분기,104297046353,,,18,KRW,,,,제 71 기 1분기,51738195919,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 72 기 1분기,0,,,18,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 72 기 1분기,-36095615,,,18,KRW,,,,제 71 기 1분기,-2542790646,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 72 기 1분기,0,,,18,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 72 기 1분기,104247438312,,,18,KRW,,,,제 71 기 1분기,54231680707,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 72 기 1분기,104211342697,,,18,KRW,,,,제 71 기 1분기,51688890061,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|비지배지분 [구성요소],제 72 기 1분기,85703656,,,18,KRW,,,,제 71 기 1분기,49305858,,002020,코오롱,CFS
+20260515002605,11013,2026,00152862,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 72 기 1분기,0,,,18,KRW,,,,제 71 기 1분기,0,,002020,코오롱,CFS

@@ -1,0 +1,307 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 39 기 1분기말,488105459235,제 38 기말,496363938917,7,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 39 기 1분기말,131403139225,제 38 기말,135639915524,8,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 39 기 1분기말,2119894037,제 38 기말,15443286262,9,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentContractAssets,계약자산,-,제 39 기 1분기말,6760565965,제 38 기말,5732277362,10,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치금융자산,-,제 39 기 1분기말,0,제 38 기말,0,11,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 39 기 1분기말,1404682414,제 38 기말,1369050841,12,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 39 기 1분기말,20153101557,제 38 기말,21581988006,13,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 39 기 1분기말,23458721422,제 38 기말,21935718361,14,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 39 기 1분기말,2055381994,제 38 기말,1628889704,15,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타수취채권,-,제 39 기 1분기말,69890791836,제 38 기말,65748704988,16,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 39 기 1분기말,5560000000,제 38 기말,2200000000,17,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 39 기 1분기말,356702320010,제 38 기말,360724023393,18,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 39 기 1분기말,1593221011,제 38 기말,2432777643,19,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 39 기 1분기말,5213041848,제 38 기말,2991041591,20,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 39 기 1분기말,19132912805,제 38 기말,20258236368,21,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 39 기 1분기말,18437124547,제 38 기말,19434348005,22,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_InvestmentsInAssociatesAccountedForUsingEquityMethod,관계기업투자주식,-,제 39 기 1분기말,677200745,제 38 기말,677200745,23,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentBiologicalAssets,기타투자자산,-,제 39 기 1분기말,737390000,제 38 기말,737390000,24,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialAssets,비유동파생상품자산,-,제 39 기 1분기말,466361000,제 38 기말,149060000,25,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄-공정가치금융자산,-,제 39 기 1분기말,2270218641,제 38 기말,2945154733,26,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치금융자산,-,제 39 기 1분기말,33608040595,제 38 기말,33528371400,27,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,장기매출채권,-,제 39 기 1분기말,4041032,제 38 기말,4041032,28,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 39 기 1분기말,564682432,제 38 기말,830596924,29,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 39 기 1분기말,1577276231,제 38 기말,1627071128,30,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타비유동수취채권,-,제 39 기 1분기말,22554940000,제 38 기말,22938730000,31,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 39 기 1분기말,249865869123,제 38 기말,252170003824,32,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 39 기 1분기말,198862181054,제 38 기말,207195553840,34,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업소유주지분,-,제 39 기 1분기말,137383499939,제 38 기말,141359823502,35,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_CapitalSurplus,연결자본잉여금,-,제 39 기 1분기말,19199702607,제 38 기말,17285851197,36,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,연결기타자본구성요소,-,제 39 기 1분기말,1512215463,제 38 기말,2044910455,37,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 39 기 1분기말,12766952500,제 38 기말,12766952500,38,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_RetainedEarnings,연결이익잉여금,-,제 39 기 1분기말,103904629369,제 38 기말,109262109350,39,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 39 기 1분기말,61478681115,제 38 기말,65835730338,40,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 39 기 1분기말,488105459235,제 38 기말,496363938917,41,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 39 기 1분기말,204447381875,제 38 기말,191868524567,43,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,금융보증부채,-,제 39 기 1분기말,1775342,제 38 기말,82724647,44,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_CurrentPortionOfBonds,유동성회사채,-,제 39 기 1분기말,0,제 38 기말,0,45,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 39 기 1분기말,7099506636,제 38 기말,19624448642,46,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,-표준계정코드 미사용-,단기차입금,-,제 39 기 1분기말,103489246867,제 38 기말,101880846764,47,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 39 기 1분기말,58133933396,제 38 기말,35683933396,48,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 39 기 1분기말,2487497462,제 38 기말,2770824216,49,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동성리스부채,-,제 39 기 1분기말,6396778586,제 38 기말,6649449539,50,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 39 기 1분기말,65273612,제 38 기말,123848184,51,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 39 기 1분기말,2707063000,제 38 기말,2650493000,52,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 39 기 1분기말,2017850001,제 38 기말,2848275033,53,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherCurrentPayables,기타지급채무,-,제 39 기 1분기말,12850548878,제 38 기말,10009096001,54,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherShorttermProvisions,기타유동충당부채,-,제 39 기 1분기말,1500000000,제 38 기말,1500000000,55,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 39 기 1분기말,7697908095,제 38 기말,8044585145,56,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 39 기 1분기말,289243278181,제 38 기말,289168385077,57,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 39 기 1분기말,84795896306,제 38 기말,97299860510,58,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,dart_ConvertibleBondsNet,전환사채,-,제 39 기 1분기말,0,제 38 기말,0,59,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,-표준계정코드 미사용-,회사채,-,제 39 기 1분기말,0,제 38 기말,0,60,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 39 기 1분기말,14382248932,제 38 기말,13028578338,61,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentContractLiabilities,장기계약부채,-,제 39 기 1분기말,2461950001,제 38 기말,2863762056,62,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialLiabilities,비유동 파생상품 금융부채,-,제 39 기 1분기말,1527337000,제 38 기말,0,63,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 39 기 1분기말,3157835183,제 38 기말,4344536940,64,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 39 기 1분기말,33557666688,제 38 기말,47275733352,65,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 39 기 1분기말,6995086670,제 38 기말,6687843057,66,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherLongtermProvisions,기타충당부채,-,제 39 기 1분기말,21615771832,제 38 기말,21947906767,67,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 39 기 1분기말,1098000000,제 38 기말,1151500000,68,KRW,,,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 39 기 1분기,-5918295676,,,6,KRW,-5918295676,제 38 기 1분기,-4975726528,-4975726528,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 39 기 1분기,757264531,,,7,KRW,757264531,제 38 기 1분기,6645567933,6645567933,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 39 기 1분기,136972712,,,8,KRW,136972712,제 38 기 1분기,318606059,318606059,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 39 기 1분기,7011422973,,,9,KRW,7011422973,제 38 기 1분기,6354115563,6354115563,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 39 기 1분기,-5987296456,,,10,KRW,-5987296456,제 38 기 1분기,2082616199,2082616199,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분포괄이익(손실),-,제 39 기 1분기,-1366521563,,,12,KRW,-1366521563,제 38 기 1분기,-1494360646,-1494360646,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배회사지분포괄이익(손실),-,제 39 기 1분기,-4620774893,,,13,KRW,-4620774893,제 38 기 1분기,3576976845,3576976845,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 39 기 1분기,67225513089,,,14,KRW,67225513089,제 38 기 1분기,67789221767,67789221767,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 39 기 1분기,-32,,,16,KRW,-32,제 38 기 1분기,19,19,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 39 기 1분기,-32,,,17,KRW,-32,제 38 기 1분기,19,19,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 39 기 1분기,2773226246,,,18,KRW,2773226246,제 38 기 1분기,2605154502,2605154502,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 39 기 1분기,1966691334,,,19,KRW,1966691334,제 38 기 1분기,1428959453,1428959453,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 39 기 1분기,1093127297,,,20,KRW,1093127297,제 38 기 1분기,1378389035,1378389035,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 39 기 1분기,-643692465,,,21,KRW,-643692465,제 38 기 1분기,-763564788,-763564788,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 39 기 1분기,-526450152,,,22,KRW,-526450152,제 38 기 1분기,1144011114,1144011114,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax,후속적으로 당기손익으로 재분류되는 포괄손익,-,제 39 기 1분기,0,,,23,KRW,0,제 38 기 1분기,0,0,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossBeforeTax,후속적으로 당기손익으로 재분류되지 않는 포괄손익,-,제 39 기 1분기,-526450152,,,24,KRW,-526450152,제 38 기 1분기,1144011114,1144011114,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToInvestmentsInEquityInstrumentsOfOtherComprehensiveIncome,법인세효과,-,제 39 기 1분기,-148485940,,,25,KRW,-148485940,제 38 기 1분기,302273478,302273478,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome,법인세효과,-,제 39 기 1분기,0,,,26,KRW,0,제 38 기 1분기,0,0,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄-공정가치금융자산평가손익,-,제 39 기 1분기,-674936092,,,27,KRW,-674936092,제 38 기 1분기,1446284592,1446284592,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,-,제 39 기 1분기,0,,,28,KRW,0,제 38 기 1분기,0,0,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 39 기 1분기,-5460846304,,,29,KRW,-5460846304,제 38 기 1분기,938605085,938605085,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분순이익(손실),-,제 39 기 1분기,-1372766403,,,31,KRW,-1372766403,제 38 기 1분기,-1481407666,-1481407666,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배회사지분순이익(손실),-,제 39 기 1분기,-4088079901,,,32,KRW,-4088079901,제 38 기 1분기,2420012751,2420012751,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 39 기 1분기,-6104538769,,,33,KRW,-6104538769,제 38 기 1분기,175040297,175040297,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 39 기 1분기,68318640386,,,34,KRW,68318640386,제 38 기 1분기,69167610802,69167610802,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익,-,제 39 기 1분기,0,,,35,KRW,0,제 38 기 1분기,0,0,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 39 기 1분기,15443286262,,,2,KRW,,제 38 기 1분기,13942690143,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 39 기 1분기,2119894037,,,3,KRW,,제 38 기 1분기,32422512714,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 39 기 1분기,-2576011845,,,8,KRW,,제 38 기 1분기,29239253375,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유입액,-,제 39 기 1분기,55641103955,,,9,KRW,,제 38 기 1분기,64687600881,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromBonds,회사채의 발행,-,제 39 기 1분기,0,,,10,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 39 기 1분기,7000000000,,,11,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 39 기 1분기,10000000000,,,12,KRW,,제 38 기 1분기,27400000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 39 기 1분기,38588333955,,,13,KRW,,제 38 기 1분기,36551200881,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,기타유동금융부채(보증금)의 증가,-,제 39 기 1분기,270000,,,14,KRW,,제 38 기 1분기,400000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,기타비유동금융부채(보증금)의 증가,-,제 39 기 1분기,52500000,,,15,KRW,,제 38 기 1분기,736000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,배당금의 반환,-,제 39 기 1분기,0,,,16,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유출액,-,제 39 기 1분기,58217115800,,,17,KRW,,제 38 기 1분기,35448347506,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_RepaymentsOfBonds,회사채의 상환,-,제 39 기 1분기,0,,,18,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_RepaymentsOfConvertibleBonds,전환사채의 상환,-,제 39 기 1분기,18900000000,,,19,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 39 기 1분기,0,,,20,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 39 기 1분기,36979933852,,,21,KRW,,제 38 기 1분기,35392140394,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,기타유동금융부채(보증금)의 감소,-,제 39 기 1분기,23700000,,,22,KRW,,제 38 기 1분기,105260000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,기타비유동금융부채(보증금)의 감소,-,제 39 기 1분기,6000000,,,23,KRW,,제 38 기 1분기,10000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 39 기 1분기,-740251300,,,24,KRW,,제 38 기 1분기,-2220753900,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분의 취득,-,제 39 기 1분기,0,,,25,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 39 기 1분기,1779666584,,,26,KRW,,제 38 기 1분기,1911701012,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기차입금의 상환,-,제 39 기 1분기,1268066664,,,27,KRW,,제 38 기 1분기,250000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 39 기 1분기,-5087362951,,,28,KRW,,제 38 기 1분기,-11771228364,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유입액,-,제 39 기 1분기,9413546821,,,29,KRW,,제 38 기 1분기,14918358515,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치금융자산의 처분,-,제 39 기 1분기,325030200,,,30,KRW,,제 38 기 1분기,6173059583,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄-공정가치금융자산의 처분,-,제 39 기 1분기,0,,,31,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 39 기 1분기,1102016433,,,32,KRW,,제 38 기 1분기,11808630,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 39 기 1분기,1366000000,,,33,KRW,,제 38 기 1분기,156000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산(보증금)의 감소,-,제 39 기 1분기,77393010,,,34,KRW,,제 38 기 1분기,7332000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 39 기 1분기,103512000,,,35,KRW,,제 38 기 1분기,1239768,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 39 기 1분기,6424958814,,,36,KRW,,제 38 기 1분기,8265938572,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,매도가능금융자산의 처분,-,제 39 기 1분기,13000000,,,37,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령(투자),-,제 39 기 1분기,0,,,38,KRW,,제 38 기 1분기,30000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 39 기 1분기,0,,,39,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 39 기 1분기,0,,,40,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 39 기 1분기,1636364,,,41,KRW,,제 38 기 1분기,272979962,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유출액,-,제 39 기 1분기,14500909772,,,42,KRW,,제 38 기 1분기,26689586879,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치금융자산의 취득,-,제 39 기 1분기,339171075,,,43,KRW,,제 38 기 1분기,4046958058,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의 취득,-,제 39 기 1분기,0,,,44,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄-공정가치측정금융자산의 취득,-,제 39 기 1분기,0,,,45,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업투자주식의 취득,-,제 39 기 1분기,0,,,46,KRW,,제 38 기 1분기,4534129831,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 39 기 1분기,457898783,,,47,KRW,,제 38 기 1분기,226671341,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 39 기 1분기,843000000,,,48,KRW,,제 38 기 1분기,305000000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산(보증금)의 증가,-,제 39 기 1분기,13557090,,,49,KRW,,제 38 기 1분기,104570000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 39 기 1분기,3300000000,,,50,KRW,,제 38 기 1분기,601340000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 39 기 1분기,8052840874,,,51,KRW,,제 38 기 1분기,12708123222,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,선급리스료의 지급,-,제 39 기 1분기,0,,,52,KRW,,제 38 기 1분기,43200000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 39 기 1분기,2340124,,,53,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod,관계기업투자주식의 취득,-,제 39 기 1분기,0,,,54,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 39 기 1분기,0,,,55,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 39 기 1분기,1492101826,,,56,KRW,,제 38 기 1분기,4119594427,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 39 기 1분기,-5660469344,,,57,KRW,,제 38 기 1분기,1014902405,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 39 기 1분기,-4094826683,,,58,KRW,,제 38 기 1분기,2418256526,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 39 기 1분기,-3463469690,,,59,KRW,,제 38 기 1분기,1714556535,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInMiscellaneousReceivables,기타수취채권의 감소(증가),-,제 39 기 1분기,-236198934,,,60,KRW,,제 38 기 1분기,-586709695,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentNonFinancialAssets,기타비유동자산의 감소(증가),-,제 39 기 1분기,-45935508,,,61,KRW,,제 38 기 1분기,3029637,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForConstructionWarranties,하자보수충당부채의 증가(감소),-,제 39 기 1분기,-96624648,,,62,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,확정급여부채의 증가(감소),-,제 39 기 1분기,-100689299,,,63,KRW,,제 38 기 1분기,-706727134,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisionForDecommissioningRestorationAndRehabilitationCosts,복구충당부채의 증가(감소),-,제 39 기 1분기,0,,,64,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInTradeAndOtherCurrentPayables,기타지급채무의 증가(감소),-,제 39 기 1분기,482332618,,,65,KRW,,제 38 기 1분기,214285634,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,장기계약부채의 증가(감소),-,제 39 기 1분기,-401812055,,,66,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInContractAssets,계약자산의 감소(증가),-,제 39 기 1분기,1038529962,,,67,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 39 기 1분기,-1295285510,,,68,KRW,,제 38 기 1분기,-497499323,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가),-,제 39 기 1분기,-309711961,,,69,KRW,,제 38 기 1분기,-220834942,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 39 기 1분기,-297394219,,,70,KRW,,제 38 기 1분기,5446007572,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInContractLiabilities,계약부채의 증가(감소),-,제 39 기 1분기,-84137078,,,71,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 39 기 1분기,-1769866008,,,72,KRW,,제 38 기 1분기,-1318674881,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 39 기 1분기,-346677050,,,73,KRW,,제 38 기 1분기,-618320333,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,제 39 기 1분기,4829489311,,,74,KRW,,제 38 기 1분기,-234905094,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 39 기 1분기,135665202,,,75,KRW,,제 38 기 1분기,470778673,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForBargainPurchaseGains,염가매수차익,-,제 39 기 1분기,0,,,76,KRW,,제 38 기 1분기,6443762519,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 39 기 1분기,485091437,,,77,KRW,,제 38 기 1분기,27594850,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 39 기 1분기,475166,,,78,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익,-,제 39 기 1분기,0,,,79,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialAssets,파생상품평가이익,-,제 39 기 1분기,0,,,80,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가이익,-,제 39 기 1분기,384774086,,,81,KRW,,제 38 기 1분기,108642078,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfInvestmentProperty,투자부동산평가이익,-,제 39 기 1분기,4960299,,,82,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfInvestments,기타투자자산평가이익,-,제 39 기 1분기,102518028,,,83,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 39 기 1분기,0,,,84,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 39 기 1분기,2216472609,,,85,KRW,,제 38 기 1분기,2115226445,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesFromRedemptionOfBorrowings,사채상환손실,-,제 39 기 1분기,0,,,86,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실(이익),-,제 39 기 1분기,0,,,87,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 39 기 1분기,33043332,,,88,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfInvestmentProperty,투자부동산처분손실,-,제 39 기 1분기,2183757,,,89,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 39 기 1분기,60734348,,,90,KRW,,제 38 기 1분기,4277264,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생상품평가손실,-,제 39 기 1분기,149060000,,,91,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가손실,-,제 39 기 1분기,375762455,,,92,KRW,,제 38 기 1분기,438332487,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfInvestmentProperty,투자부동산평가손실,-,제 39 기 1분기,0,,,93,KRW,,제 38 기 1분기,45695472,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 39 기 1분기,23251,,,94,KRW,,제 38 기 1분기,3104845,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의대손상각비,-,제 39 기 1분기,0,,,95,KRW,,제 38 기 1분기,44590000,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 39 기 1분기,407932912,,,96,KRW,,제 38 기 1분기,389510522,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForWarrantyExpenses,하자보수비,-,제 39 기 1분기,0,,,97,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실,-,제 39 기 1분기,-227717551,,,98,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_GainsOnDisposalsOfFairValueFinancialAsset,당기손익-공정가치금융자산처분이익,-,제 39 기 1분기,56520889,,,99,KRW,,제 38 기 1분기,255166071,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_ImpairmentLossOfFinancialAssetsAtAmortisedCost,상각후원가측정금융자산손상차손,-,제 39 기 1분기,0,,,100,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,dart_LossesOnDisposalOfFairValueFinancialAsset,당기손익-공정가치금융자산처분손실,-,제 39 기 1분기,4200,,,101,KRW,,제 38 기 1분기,51495338,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,금융보증비용,-,제 39 기 1분기,0,,,102,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,금융보증수익,-,제 39 기 1분기,80949305,,,103,KRW,,제 38 기 1분기,1972603,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,장기금융상품처분이익,-,제 39 기 1분기,0,,,104,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,장기금융상품평가이익,-,제 39 기 1분기,0,,,105,KRW,,제 38 기 1분기,9868848,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,단기금융상품처분손실,-,제 39 기 1분기,16488000,,,106,KRW,,제 38 기 1분기,100232,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,-표준계정코드 미사용-,장기금융상품평가손실,-,제 39 기 1분기,15438982,,,107,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 39 기 1분기,1094620355,,,108,KRW,,제 38 기 1분기,1094391956,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 39 기 1분기,3753206188,,,109,KRW,,제 38 기 1분기,3771473282,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 39 기 1분기,6130497,,,110,KRW,,제 38 기 1분기,287427,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 39 기 1분기,-643692465,,,111,KRW,,제 38 기 1분기,-763564788,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 39 기 1분기,1438316557,,,112,KRW,,제 38 기 1분기,1053022426,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 39 기 1분기,-5460846304,,,113,KRW,,제 38 기 1분기,938605085,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 39 기 1분기,6130497,,,114,KRW,,제 38 기 1분기,287427,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 39 기 1분기,170357403,,,115,KRW,,제 38 기 1분기,799320333,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 39 기 1분기,1821846095,,,116,KRW,,제 38 기 1분기,1582645288,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 39 기 1분기,420430340,,,117,KRW,,제 38 기 1분기,978324073,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시 현금및현금성자산의 환율변동효과,-,제 39 기 1분기,451915,,,118,KRW,,제 38 기 1분기,-3104845,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가(감소),-,제 39 기 1분기,-13323844140,,,119,KRW,,제 38 기 1분기,18482927416,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 39 기 1분기,207195553840,,,3,KRW,,제 38 기 1분기,240399458701,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,65835730338,,,3,KRW,,제 38 기 1분기,72499493155,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,12766952500,,,3,KRW,,제 38 기 1분기,12766952500,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,141359823502,,,3,KRW,,제 38 기 1분기,167899965546,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,2044910455,,,3,KRW,,제 38 기 1분기,4242790880,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,109262109350,,,3,KRW,,제 38 기 1분기,133604476017,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,17285851197,,,3,KRW,,제 38 기 1분기,17285746149,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 39 기 1분기,-5987296456,,,4,KRW,,제 38 기 1분기,2082616199,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,-1366521563,,,4,KRW,,제 38 기 1분기,-1494360646,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,-532694992,,,4,KRW,,제 38 기 1분기,1156964094,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,-4088079901,,,4,KRW,,제 38 기 1분기,2420012751,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,4,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,4,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,-4620774893,,,4,KRW,,제 38 기 1분기,3576976845,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,연결재무제표 [member],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익 처분대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,5,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,6,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,6,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,6,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,-532694992,,,6,KRW,,제 38 기 1분기,1156964094,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,-532694992,,,6,KRW,,제 38 기 1분기,1156964094,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,연결재무제표 [member],제 39 기 1분기,-526450152,,,6,KRW,,제 38 기 1분기,1144011114,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,6244840,,,6,KRW,,제 38 기 1분기,-12952980,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,연결재무제표 [member],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,7,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,8,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 39 기 1분기,-5460846304,,,8,KRW,,제 38 기 1분기,938605085,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,-1372766403,,,8,KRW,,제 38 기 1분기,-1481407666,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,-4088079901,,,8,KRW,,제 38 기 1분기,2420012751,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,8,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,-4088079901,,,8,KRW,,제 38 기 1분기,2420012751,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,8,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,61478681115,,,9,KRW,,제 38 기 1분기,67774998710,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,137383499939,,,9,KRW,,제 38 기 1분기,167668847199,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,1512215463,,,9,KRW,,제 38 기 1분기,5399754974,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,103904629369,,,9,KRW,,제 38 기 1분기,132216288528,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,19199702607,,,9,KRW,,제 38 기 1분기,17285851197,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,12766952500,,,9,KRW,,제 38 기 1분기,12766952500,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 39 기 1분기,198862181054,,207195553840,9,KRW,,제 38 기 1분기,235443845909,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,연결재무제표 [member],제 39 기 1분기,-2346076330,,,10,KRW,,제 38 기 1분기,-7038288991,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,-2990527660,,,10,KRW,,제 38 기 1분기,-7038228991,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,644451330,,,10,KRW,,제 38 기 1분기,-308095192,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,10,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,-1269400080,,,10,KRW,,제 38 기 1분기,-3808200240,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,1913851410,,,10,KRW,,제 38 기 1분기,105048,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,자본에 직접 반영된 소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,10,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,11,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,35016,,,11,KRW,,제 38 기 1분기,105048,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,11,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,11,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,35016,,,11,KRW,,제 38 기 1분기,105048,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,-35016,,,11,KRW,,제 38 기 1분기,-105048,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결실체 자본거래,연결재무제표 [member],제 39 기 1분기,0,,,11,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,dart_StockRedemptionWithoutRefund,무상감자,연결재무제표 [member],제 39 기 1분기,0,,,12,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,1913816394,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,-1913816394,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,종속기업 전환권대가,연결재무제표 [member],제 39 기 1분기,0,,,13,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,-표준계정코드 미사용-,자본잉여금의 이익잉여금 전입,연결재무제표 [member],제 39 기 1분기,0,,,14,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,연결재무제표 [member],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 이익소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,15,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,16,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,16,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,1269400080,,,16,KRW,,제 38 기 1분기,3808200240,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,16,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,1269400080,,,16,KRW,,제 38 기 1분기,3808200240,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,연결재무제표 [member],제 39 기 1분기,2346076330,,,16,KRW,,제 38 기 1분기,7038228991,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,1076676250,,,16,KRW,,제 38 기 1분기,3230028751,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,연결재무제표 [member],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|비지배지분 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결기타자본구성요소 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결이익잉여금 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|연결자본잉여금 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS
+20260515002344,11013,2026,00288495,SCE,자본변동표,ifrs-full_IssueOfConvertibleInstruments,전환가능상품의 발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 39 기 1분기,0,,,17,KRW,,제 38 기 1분기,0,,060560,HC홈센타,CFS

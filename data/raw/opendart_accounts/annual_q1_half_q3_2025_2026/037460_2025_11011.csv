@@ -1,0 +1,224 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 45 기,1825577701009,제 44 기,1201881762849,제 43 기,1015542680922,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 45 기,1531819853187,제 44 기,935677556618,제 43 기,770775496504,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 45 기,159266738331,제 44 기,158761716754,제 43 기,137112208976,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtAmortisedCost,상각후원가 측정 금융자산(유동),-,제 45 기,0,제 44 기,0,제 43 기,5557853031,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치금융자산(유동),-,제 45 기,25647722249,제 44 기,2596944458,제 43 기,3129917717,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산(유동),-,제 45 기,0,제 44 기,0,제 43 기,17514290402,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 45 기,728122798,제 44 기,47738806,제 43 기,1768713835,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 45 기,700713782431,제 44 기,337685666478,제 43 기,231144580893,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 45 기,61261415873,제 44 기,30089918298,제 43 기,19380960426,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 45 기,4500634549,제 44 기,5022971971,제 43 기,4942592564,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타유동수취채권,-,제 45 기,579701436956,제 44 기,401472599853,제 43 기,350224378660,17,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 45 기,293757847822,제 44 기,266204206231,제 43 기,244767184418,18,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,dart_NoncurrentNontradeReceivables,장기매출채권및기타비유동수취채권,-,제 45 기,5889085,제 44 기,0,제 43 기,5738083,19,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 45 기,22005101251,제 44 기,21957099960,제 43 기,22239634540,20,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업및공동기업투자,-,제 45 기,1528214462,제 44 기,1587294995,제 43 기,1428252250,21,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 45 기,57432023139,제 44 기,60251028821,제 43 기,58428157984,22,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,순이연법인세자산,-,제 45 기,0,제 44 기,70089600,제 43 기,0,23,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치금융자산(비유동),-,제 45 기,15844351973,제 44 기,18907990349,제 43 기,9774408856,24,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산(비유동),-,제 45 기,16104040253,제 44 기,10277080045,제 43 기,12767054979,25,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 45 기,1897051354,제 44 기,1121306377,제 43 기,2718440857,26,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 45 기,485525787,제 44 기,575404377,제 43 기,684138739,27,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 45 기,1812722567,제 44 기,1662773291,제 43 기,1610397403,28,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 45 기,174643377887,제 44 기,147138835411,제 43 기,132805485333,29,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 45 기,1999550064,제 44 기,2655303005,제 43 기,2305475394,30,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 45 기,744671855207,제 44 기,640230666587,제 43 기,546576467385,32,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 45 기,484385699965,제 44 기,411345976972,제 43 기,347730681507,33,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 45 기,3302243430,제 44 기,50914049566,제 43 기,51008110632,34,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 45 기,56440828684,제 44 기,48730889387,제 43 기,38792433282,35,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 45 기,8309261000,제 44 기,8309261000,제 43 기,8309261000,36,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 45 기,416333366851,제 44 기,303391777019,제 43 기,249620876593,37,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 45 기,260286155242,제 44 기,228884689615,제 43 기,198845785878,38,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 45 기,1825577701009,제 44 기,1201881762849,제 43 기,1015542680922,39,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 45 기,1052761112122,제 44 기,512391956807,제 43 기,449010085635,41,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,유동성파생상품금융부채,-,제 45 기,1403368378,제 44 기,5729586596,제 43 기,338228051,42,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기부채,-,제 45 기,33170000000,제 44 기,2910000000,제 43 기,5290000000,43,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 45 기,20079649235,제 44 기,13752842431,제 43 기,14011221510,44,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 45 기,1782761830,제 44 기,2317980738,제 43 기,2035692199,45,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 45 기,28612617612,제 44 기,11172143853,제 43 기,7316152804,46,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 45 기,499293932641,제 44 기,305958530405,제 43 기,163884687787,47,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타유동채무,-,제 45 기,468418782426,제 44 기,170550872784,제 43 기,256134103284,48,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 45 기,1080905845802,제 44 기,561651096262,제 43 기,468966213537,49,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 45 기,28144733680,제 44 기,49259139455,제 43 기,19956127902,50,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 45 기,46225117,제 44 기,74554549,제 43 기,0,51,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 45 기,3700000000,제 44 기,30300000000,제 43 기,2910000000,52,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NetDeferredTaxLiabilities,순이연법인세부채,-,제 45 기,22358167655,제 44 기,16601646012,제 43 기,14868949244,53,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 45 기,0,제 44 기,25039327,제 43 기,84907468,54,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 45 기,1272547902,제 44 기,1604880818,제 43 기,1626397711,55,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 45 기,767793006,제 44 기,653018749,제 43 기,465873479,56,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 45 기,162447915281,제 44 기,115613198250,제 43 기,78343445249,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 45 기,4515671514,제 44 기,2842243408,제 43 기,6019055384,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 45 기,1413953615,제 44 기,348782682,제 43 기,2691314608,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자손익,-,제 45 기,154716267,제 44 기,372839545,제 43 기,239952885,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 45 기,75876295182,제 44 기,73809566284,제 43 기,56783102165,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 45 기,126945414824,제 44 기,113089764681,제 43 기,66677709483,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 45 기,42314931827,제 44 기,42472047750,제 43 기,22397079766,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 45 기,84630482997,제 44 기,70617716931,제 43 기,44280629717,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 45 기,4052772347136,제 44 기,3170258456403,제 43 기,2391081380504,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 45 기,5030,제 44 기,4009,제 43 기,2061,17,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익,-,제 45 기,5030,제 44 기,4009,제 43 기,2103,18,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 45 기,0,제 44 기,0,제 43 기,-42,19,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 45 기,5030,제 44 기,4009,제 43 기,2061,20,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익,-,제 45 기,5030,제 44 기,4009,제 43 기,2103,21,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 45 기,0,제 44 기,0,제 43 기,-42,22,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 45 기,51159517650,제 44 기,51068536234,제 43 기,41429498491,23,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 45 기,35268626458,제 44 기,33220781669,제 43 기,25130024456,24,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 45 기,238324210463,제 44 기,189422764534,제 43 기,135126547414,25,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 45 기,31464362389,제 44 기,6530497724,제 43 기,13710355487,26,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 45 기,8596318958,제 44 기,18988518449,제 43 기,15415221326,27,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 45 기,-3448656263,제 44 기,19462917510,제 43 기,1659265371,28,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이,-,제 45 기,-3448656263,제 44 기,19702594640,제 43 기,1659265371,29,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산평가손익,-,제 45 기,0,제 44 기,-239677130,제 43 기,0,30,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 45 기,12044975221,제 44 기,-474399061,제 43 기,13755955955,31,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산평가손익,-,제 45 기,7637156941,제 44 기,-2315102733,제 43 기,8385996845,32,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,-,제 45 기,-427147109,제 44 기,-1891769617,제 43 기,-19286330,33,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,자산재평가손익,-,제 45 기,4834965389,제 44 기,3732473289,제 43 기,5389245440,34,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 45 기,118349095866,제 44 기,94101246232,제 43 기,51262488157,35,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 45 기,42688819718,제 44 기,32564959220,제 43 기,19616114184,37,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 45 기,75660276148,제 44 기,61536287012,제 43 기,31646373973,38,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 45 기,149813458255,제 44 기,100631743956,제 43 기,65611664875,39,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업당기순이익,-,제 45 기,118349095866,제 44 기,94101246232,제 43 기,51901309388,40,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업당기순이익(손실),-,제 45 기,0,제 44 기,0,제 43 기,-638821231,41,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 45 기,4291096557599,제 44 기,3359681220937,제 43 기,2526207927918,42,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 45 기,158761716754,제 44 기,137112208976,제 43 기,71187623753,2,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 45 기,159266738331,제 44 기,158761716754,제 43 기,137112208976,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,-표준계정코드 미사용-,해외종속회사 환율변동효과,-,제 45 기,-453958,제 44 기,111077413,제 43 기,25644644,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 45 기,172648782134,제 44 기,127752497310,제 43 기,-96009441523,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 45 기,4694918765,제 44 기,297229290,제 43 기,0,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PaymentForConsolidatedCapitalTransactions,연결자본거래로 인한 현금유출,-,제 45 기,0,제 44 기,1458312017,제 43 기,0,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,유동리스부채의 감소,-,제 45 기,1968542737,제 44 기,2008457871,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 45 기,3700000000,제 44 기,30300000000,제 43 기,0,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 45 기,2669043704637,제 44 기,1413158586227,제 43 기,807817970324,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 45 기,2475370568051,제 44 기,1293849762653,제 43 기,880031574803,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,-표준계정코드 미사용-,임대보증금의 감소,-,제 45 기,210000000,제 44 기,119178486,제 43 기,1494676514,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,-표준계정코드 미사용-,유동성장기부채의 상환,-,제 45 기,40000000,제 44 기,290000000,제 43 기,3744997200,17,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 45 기,17810892950,제 44 기,17683148600,제 43 기,18556163330,18,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 45 기,-31369974020,제 44 기,686028150,제 43 기,-22293843824,19,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 45 기,18606690142,제 44 기,1299031699,제 43 기,6354407885,20,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의처분 - 투자활동,-,제 45 기,0,제 44 기,5578603000,제 43 기,1204605245,21,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 45 기,4952674250,제 44 기,26357608232,제 43 기,12123781187,22,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 처분,-,제 45 기,1847234900,제 44 기,483806580,제 43 기,14470152,23,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 처분,-,제 45 기,42377959,제 44 기,2057988032,제 43 기,1800608661,24,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 45 기,36074647305,제 44 기,12020849906,제 43 기,1000000000,25,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의취득 - 투자활동,-,제 45 기,0,제 44 기,0,제 43 기,3745902538,26,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 45 기,1026731255,제 44 기,8865746685,제 43 기,20059571332,27,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 45 기,0,제 44 기,0,제 43 기,800000000,28,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 45 기,100000000,제 44 기,2504476929,제 43 기,2737856834,29,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 취득,-,제 45 기,1494662941,제 44 기,16798879,제 43 기,43704046,30,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,-표준계정코드 미사용-,기타유동자산의 증가,-,제 45 기,0,제 44 기,0,제 43 기,460536285,31,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_AdditionsToRightofuseAssets,사용권자산의 추가,-,제 45 기,23099850,제 44 기,3299000,제 43 기,23919109,32,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,투자활동으로 분류된 종속기업과 기타 사업의 지배력 상실에 따른 현금흐름,-,제 45 기,0,제 44 기,-7111,제 43 기,-142989,33,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,"선물계약, 선도계약, 옵션계약, 스왑계약에 따른 현금수취, 투자활동",-,제 45 기,0,제 44 기,341027800,제 43 기,0,34,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 45 기,35140000,제 44 기,0,제 43 기,130050910,35,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 45 기,77386362,제 44 기,450740860,제 43 기,2326531666,36,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 45 기,759608074,제 44 기,612210200,제 43 기,3529631463,37,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 45 기,17452728208,제 44 기,11859389343,제 43 기,13847034934,38,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 45 기,-140763325922,제 44 기,-109951615123,제 43 기,184508891719,39,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 45 기,-274793127546,제 44 기,-215825010976,제 43 기,125940727588,40,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 45 기,54420429085,제 44 기,23900816872,제 43 기,32588600213,41,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 45 기,549323800,제 44 기,410860075,제 43 기,406089132,42,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 45 기,24293939854,제 44 기,3185571710,제 43 기,17083908637,43,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 45 기,17074790984,제 44 기,12979157815,제 43 기,11319471810,44,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 45 기,2079683711,제 44 기,3625202199,제 43 기,2714367076,45,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 45 기,118349095866,제 44 기,94101246232,제 43 기,51262488157,46,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금성자산에 대한 환율변동효과,-,제 45 기,-10006657,제 44 기,3051520028,제 43 기,-306665793,47,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 45 기,515482192,제 44 기,18486910337,제 43 기,66205606372,48,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,3496758602,제 44 기,2608908491,제 43 기,3606917446,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,연결재무제표 [member],제 45 기,4834965389,제 44 기,3732473289,제 43 기,5389245440,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|비지배지분 [구성요소],제 45 기,1338206787,제 44 기,1123564798,제 43 기,1782327994,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,3496758602,제 44 기,2608908491,제 43 기,3606917446,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AdjustmentsForGainsOnRevaluationOfPropertyPlantAndEquipment,유형자산평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,3,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,42918472882,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,연결재무제표 [member],제 45 기,0,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,-42918472882,제 44 기,0,제 43 기,0,4,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 45 기,0,제 44 기,0,제 43 기,438362856,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,78213047,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,360149809,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,360149809,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,5,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 45 기,640230666587,제 44 기,546576467385,제 43 기,498033577306,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 45 기,228884689615,제 44 기,198845785878,제 43 기,187895116781,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,411345976972,제 44 기,347730681507,제 43 기,310138460525,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,48730889387,제 44 기,38792433282,제 43 기,28898331478,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,303391777019,제 44 기,249620876593,제 43 기,221905738485,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,8309261000,제 44 기,8309261000,제 43 기,8309261000,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,50914049566,제 44 기,51008110632,제 43 기,51025129562,6,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,7637156941,제 44 기,-2554779863,제 43 기,8385996845,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 45 기,7637156941,제 44 기,-2554779863,제 43 기,8385996845,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,7637156941,제 44 기,-2554779863,제 43 기,8385996845,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,7,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,1637692915,제 44 기,241988665,제 43 기,2935989169,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,-1637692915,제 44 기,-241988665,제 43 기,-2935989169,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,연결재무제표 [member],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산의 처분으로 인한 재분류,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,8,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,4694918765,제 44 기,297229290,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,연결재무제표 [member],제 45 기,4694918765,제 44 기,297229290,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,4694918765,제 44 기,297229290,제 43 기,0,9,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,연결재무제표 [member],제 45 기,17810892950,제 44 기,17683148600,제 43 기,18556163330,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|비지배지분 [구성요소],제 45 기,10913466200,제 44 기,10774788200,제 43 기,11647802930,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,6897426750,제 44 기,6908360400,제 43 기,6908360400,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,6897426750,제 44 기,6908360400,제 43 기,6908360400,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_DividendsPaid,배당금지급,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,10,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 45 기,744671855207,제 44 기,640230666587,제 43 기,546576467385,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 45 기,260286155242,제 44 기,228884689615,제 43 기,198845785878,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,484385699965,제 44 기,411345976972,제 43 기,347730681507,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,8309261000,제 44 기,8309261000,제 43 기,8309261000,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,416333366851,제 44 기,303391777019,제 43 기,249620876593,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,56440828684,제 44 기,48730889387,제 43 기,38792433282,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,3302243430,제 44 기,50914049566,제 43 기,51008110632,11,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,-1658355813,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,0,제 44 기,200043796,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,200043796,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangeInEquityOfSubsidiaries,종속기업의 자기주식 취득,연결재무제표 [member],제 45 기,0,제 44 기,-1458312017,제 43 기,0,12,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,1585511,제 44 기,3124428,제 43 기,-17018930,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|비지배지분 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,연결재무제표 [member],제 45 기,1585511,제 44 기,3124428,제 43 기,-17018930,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,1585511,제 44 기,3124428,제 43 기,-17018930,13,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,-1786283331,제 44 기,10126316142,제 43 기,837176682,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,-1786283331,제 44 기,10126316142,제 43 기,837176682,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 45 기,-1662372932,제 44 기,9576278498,제 43 기,822088689,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 45 기,-3448656263,제 44 기,19702594640,제 43 기,1659265371,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,14,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,연결재무제표 [member],제 45 기,-427147109,제 44 기,-1891769617,제 43 기,-19286330,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|비지배지분 [구성요소],제 45 기,-49721746,제 44 기,-792754766,제 43 기,299728113,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,-377425363,제 44 기,-1099014851,제 43 기,-319014443,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,-377425363,제 44 기,-1099014851,제 43 기,-319014443,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,15,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 45 기,118349095866,제 44 기,94101246232,제 43 기,51262488157,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 45 기,42688819718,제 44 기,32564959220,제 43 기,19616114184,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 45 기,75660276148,제 44 기,61536287012,제 43 기,31646373973,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 45 기,75660276148,제 44 기,61536287012,제 43 기,31646373973,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,16,KRW,,037460,삼지전자,CFS
+20260317000862,11011,2025,00128315,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 45 기,0,제 44 기,0,제 43 기,0,16,KRW,,037460,삼지전자,CFS

@@ -1,0 +1,188 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 31 기 반기말,34509552673,제 30 기말,36458146420,7,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 31 기 반기말,7599377344,제 30 기말,6937385689,8,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_CurrentDerivativeAsset,파생금융자산,-,제 31 기 반기말,,제 30 기말,3606000,9,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 31 기 반기말,3803000691,제 30 기말,3864060420,10,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 31 기 반기말,3945700,제 30 기말,55098110,11,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 31 기 반기말,787882886,제 30 기말,1632944571,12,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 31 기 반기말,96194075,제 30 기말,398079051,13,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 31 기 반기말,2146641763,제 30 기말,193430194,14,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 31 기 반기말,761712229,제 30 기말,790167343,15,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 31 기 반기말,26910175329,제 30 기말,29520760731,16,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,매출채권 및 기타채권,-,제 31 기 반기말,1916606498,제 30 기말,1916606498,17,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 31 기 반기말,91707786,제 30 기말,221154712,18,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 31 기 반기말,209935000,제 30 기말,209935000,19,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 31 기 반기말,13196741361,제 30 기말,6346486134,20,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익-공정가치금융자산,-,제 31 기 반기말,3280357280,제 30 기말,3262440160,21,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄-공정가치금융자산,-,제 31 기 반기말,1614945934,제 30 기말,4275499015,22,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 31 기 반기말,2000000000,제 30 기말,8513190000,23,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 31 기 반기말,747440780,제 30 기말,646057814,24,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 31 기 반기말,3852440690,제 30 기말,4129391398,25,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 31 기 반기말,93582411331,제 30 기말,102523588651,27,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,-표준계정코드 미사용-,자기주식,-,제 31 기 반기말,-9351192,제 30 기말,-1693244,28,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,-표준계정코드 미사용-,기타자본,-,제 31 기 반기말,928745792,제 30 기말,-14098801339,29,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,-표준계정코드 미사용-,적립금,-,제 31 기 반기말,1014000000,제 30 기말,1014000000,30,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 31 기 반기말,22493700911,제 30 기말,24268209604,31,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 31 기 반기말,22476561637,제 30 기말,24246652983,32,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 31 기 반기말,13341512500,제 30 기말,4448527500,33,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 31 기 반기말,17139274,제 30 기말,21556621,34,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_RetainedEarnings,결손금,-,제 31 기 반기말,86380756794,제 30 기말,69638968585,35,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채 및 자본총계,-,제 31 기 반기말,34509552673,제 30 기말,36458146420,36,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 31 기 반기말,10624230000,제 30 기말,6628855630,38,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 31 기 반기말,3059070014,제 30 기말,1409329500,39,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 31 기 반기말,3120108733,제 30 기말,2874648893,40,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 31 기 반기말,1300000000,제 30 기말,,41,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 31 기 반기말,1517078963,제 30 기말,444143411,42,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 31 기 반기말,27720757,제 30 기말,89060721,43,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 31 기 반기말,1000000000,제 30 기말,1000000000,44,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 31 기 반기말,600251533,제 30 기말,811673105,45,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 31 기 반기말,12015851762,제 30 기말,12189936816,46,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 31 기 반기말,1391621762,제 30 기말,5561081186,47,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 31 기 반기말,,제 30 기말,1300000000,48,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,비유동파생상품부채,-,제 31 기 반기말,,제 30 기말,1849314514,49,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,dart_PostemploymentBenefitObligations,확정급여부채,-,제 31 기 반기말,700300817,제 30 기말,609934748,50,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 31 기 반기말,178117500,제 30 기말,202801356,51,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 31 기 반기말,513203445,제 30 기말,1599030568,52,KRW,,,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 31 기 반기,-573611972,,,6,KRW,-1178772814,제 30 기 반기,-545169945,-1526488611,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 31 기 반기,73478558,,,7,KRW,83010994,제 30 기 반기,32889461,70331156,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 31 기 반기,46809489,,,8,KRW,48799863,제 30 기 반기,138232154,138556270,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 31 기 반기,1714675836,,,9,KRW,4218116129,제 30 기 반기,1759917528,5058409826,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,-표준계정코드 미사용-,투자비용,-,제 31 기 반기,172292376,,,10,KRW,463030773,제 30 기 반기,300370330,554764179,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익(손실),-,제 31 기 반기,-584320540,,,11,KRW,-1720812494,제 30 기 반기,-1809233977,-2205642294,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 31 기 반기,-1542202,,,13,KRW,-4417347,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업소유주지분,-,제 31 기 반기,-582778338,,,14,KRW,-1716395147,제 30 기 반기,-1809233977,-2205642294,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 31 기 반기,661235065,,,15,KRW,1749061928,제 30 기 반기,290711473,1431656416,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 31 기 반기,-32,,,17,KRW,-71,제 30 기 반기,-22,-70,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 31 기 반기,-32,,,18,KRW,-71,제 30 기 반기,-22,-70,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 31 기 반기,498279550,,,19,KRW,741157593,제 30 기 반기,232472479,479745666,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 31 기 반기,353576816,,,20,KRW,407352335,제 30 기 반기,581669632,736560805,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 31 기 반기,1141063864,,,21,KRW,3039343315,제 30 기 반기,1214747583,3531921215,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 31 기 반기,12337002,,,22,KRW,24678930,제 30 기 반기,11771172,21641718,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 31 기 반기,267280471,,,23,KRW,195906290,제 30 기 반기,-1219319334,-334621247,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 31 기 반기,-1175649,,,25,KRW,-1493829,제 30 기 반기,278374,1097092,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,-표준계정코드 미사용-,기타포괄손익-공정가치금융자산평가손익,-,제 31 기 반기,268456120,,,27,KRW,197400119,제 30 기 반기,-1217410527,-332684510,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 31 기 반기,,,,28,KRW,,제 30 기 반기,-2187181,-3033829,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 31 기 반기,-851601011,,,29,KRW,-1916718784,제 30 기 반기,-589914643,-1871021047,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 31 기 반기,-6296091,,,31,KRW,-10382989,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소우쥬지분,-,제 31 기 반기,-845304920,,,32,KRW,-1906335795,제 30 기 반기,-589914643,-1871021047,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 31 기 반기,-863938013,,,33,KRW,-1941397714,제 30 기 반기,-601685815,-1892662765,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 31 기 반기,1802298929,,,34,KRW,4788405243,제 30 기 반기,1505459056,4963577631,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 31 기 반기,3864060420,,,2,KRW,,제 30 기 반기,10607342399,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 31 기 반기,3803000691,,,3,KRW,,제 30 기 반기,4747591480,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,-표준계정코드 미사용-,현금및현금성자산에 대한 환율변동효과,-,제 31 기 반기,-70065867,,,8,KRW,,제 30 기 반기,2657789,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 31 기 반기,-191612725,,,9,KRW,,제 30 기 반기,1807332338,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForOtherExpenseByFunction,증자비용,-,제 31 기 반기,-48192320,,,10,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 31 기 반기,68800000,,,11,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 31 기 반기,204562457,,,12,KRW,,제 30 기 반기,192724662,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업의 유상증자,-,제 31 기 반기,,,,13,KRW,,제 30 기 반기,2000057000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,-,제 31 기 반기,-7657948,,,14,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 31 기 반기,46355864,,,15,KRW,,제 30 기 반기,-6321338444,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,리스채권의 회수,-,제 31 기 반기,70982801,,,16,KRW,,제 30 기 반기,10150601,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherFinancialLiabilities,기타금융부채의 증가(감소),-,제 31 기 반기,,,,17,KRW,,제 30 기 반기,60200000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치금융자산의처분,-,제 31 기 반기,,,,18,KRW,,제 30 기 반기,6650679452,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 31 기 반기,2858553200,,,19,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타유동금융자산의 감소,-,제 31 기 반기,,,,20,KRW,,제 30 기 반기,2900000000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 감소,-,제 31 기 반기,32585000,,,21,KRW,,제 30 기 반기,235176000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 31 기 반기,600000,,,22,KRW,,제 30 기 반기,2520501690,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자주식의 취득,-,제 31 기 반기,800096000,,,23,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타유동금융자산의 증가,-,제 31 기 반기,2025756455,,,24,KRW,,제 30 기 반기,363150000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 증가,-,제 31 기 반기,83000000,,,25,KRW,,제 30 기 반기,11263944347,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities,기타채무의 감소,-,제 31 기 반기,,,,26,KRW,,제 30 기 반기,-874000000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 31 기 반기,6312682,,,27,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 31 기 반기,,,,28,KRW,,제 30 기 반기,1155948460,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 31 기 반기,154262999,,,29,KRW,,제 30 기 반기,-1348402602,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,운전자산조정합계,-,제 31 기 반기,825174368,,,30,KRW,,제 30 기 반기,-122643829,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherCurrentFinancialAssets,기타유동금융자산의 감소(증가),-,제 31 기 반기,,,,31,KRW,,제 30 기 반기,-3000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherCurrentFinancialLiabilities,기타유동금융부채의 증가(감소),-,제 31 기 반기,,,,32,KRW,,제 30 기 반기,-23563719,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,사외적립자산의 감소,-,제 31 기 반기,-18151047,,,33,KRW,,제 30 기 반기,-102927531,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 31 기 반기,816749707,,,34,KRW,,제 30 기 반기,1109677939,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소,-,제 31 기 반기,301359240,,,35,KRW,,제 30 기 반기,103510726,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 31 기 반기,18218880,,,36,KRW,,제 30 기 반기,-835833990,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables,기타채권의 감소(증가),-,제 31 기 반기,-20311076,,,37,KRW,,제 30 기 반기,-47591208,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 31 기 반기,-61764764,,,38,KRW,,제 30 기 반기,-97926904,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 31 기 반기,-130335631,,,39,KRW,,제 30 기 반기,-858975837,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables,기타채무의 증가(감소),-,제 31 기 반기,-80590941,,,40,KRW,,제 30 기 반기,630989695,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,비현금항목의 조정,-,제 31 기 반기,1309885597,,,41,KRW,,제 30 기 반기,693755574,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비(환입),-,제 31 기 반기,20624742,,,42,KRW,,제 30 기 반기,79587892,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 31 기 반기,32355789,,,43,KRW,,제 30 기 반기,38010757,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 31 기 반기,1106866,,,44,KRW,,제 30 기 반기,5875141,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialAssets,파생상품평가이익,-,제 31 기 반기,199574000,,,45,KRW,,제 30 기 반기,333195384,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가이익,-,제 31 기 반기,22754820,,,46,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForGainsOnTransactionOfDerivativeFinancialAssets,파생금융자산거래이익,-,제 31 기 반기,,,,47,KRW,,제 30 기 반기,211346415,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 31 기 반기,489957933,,,48,KRW,,제 30 기 반기,346756716,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 31 기 반기,463030773,,,49,KRW,,제 30 기 반기,392264179,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 31 기 반기,,,,50,KRW,,제 30 기 반기,2513196,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생상품평가손실,-,제 31 기 반기,3606000,,,51,KRW,,제 30 기 반기,115971500,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치금융자산평가손실,-,제 31 기 반기,4837700,,,52,KRW,,제 30 기 반기,17015200,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 31 기 반기,233824272,,,53,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비,-,제 31 기 반기,2676455,,,54,KRW,,제 30 기 반기,62605701,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 31 기 반기,108517116,,,55,KRW,,제 30 기 반기,131595546,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForReversalsOfInventories,재고자산평가손실환입,-,제 31 기 반기,56047231,,,56,KRW,,제 30 기 반기,264687692,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForShareBasedPayment,주식보상비용,-,제 31 기 반기,2154069,,,57,KRW,,제 30 기 반기,-7494766,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실,-,제 31 기 반기,84389945,,,58,KRW,,제 30 기 반기,1441355,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,dart_LossesOnDisposalOfFairValueFinancialAsset,당기손익-공정가치금융자산처분손실,-,제 31 기 반기,,,,59,KRW,,제 30 기 반기,162500000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 31 기 반기,135759608,,,60,KRW,,제 30 기 반기,146475645,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 31 기 반기,205938186,,,61,KRW,,제 30 기 반기,303064497,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세수익,-,제 31 기 반기,-24678930,,,62,KRW,,제 30 기 반기,-21641718,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 31 기 반기,108246866,,,63,KRW,,제 30 기 반기,185117280,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_RevenueFromDividends,배당금수익,-,제 31 기 반기,666700,,,64,KRW,,제 30 기 반기,666700,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 31 기 반기,666700,,,65,KRW,,제 30 기 반기,666700,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 지급,-,제 31 기 반기,-51147484,,,66,KRW,,제 30 기 반기,-10164710,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 31 기 반기,171607572,,,67,KRW,,제 30 기 반기,141372710,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 31 기 반기,55715206,,,68,KRW,,제 30 기 반기,82048000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 31 기 반기,-851601011,,,69,KRW,,제 30 기 반기,-589914643,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 31 기 반기,9006138,,,70,KRW,,제 30 기 반기,-5862408708,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_BonusIssue,무상증자,연결재무제표 [member],제 31 기 반기,-48192320,,,3,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_BonusIssue,무상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 31 기 반기,-8941177320,,,3,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_BonusIssue,무상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 31 기 반기,8892985000,,,3,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_BonusIssue,무상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,-48192320,,,3,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,-69638968585,,,4,KRW,,제 30 기 반기,103997053379,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,-14098801339,,,4,KRW,,제 30 기 반기,11256803529,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,24246652983,,,4,KRW,,제 30 기 반기,31419009374,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,21556621,,,4,KRW,,제 30 기 반기,380352108,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 31 기 반기,24268209604,,,4,KRW,,제 30 기 반기,31799361482,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식,제 31 기 반기,-1693244,,,4,KRW,,제 30 기 반기,1693244,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|적립금,제 31 기 반기,1014000000,,,4,KRW,,제 30 기 반기,1014000000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 31 기 반기,102523588651,,,4,KRW,,제 30 기 반기,101175280026,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 31 기 반기,4448527500,,,4,KRW,,제 30 기 반기,44485279500,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,종속기업의 유상증자,연결재무제표 [member],제 31 기 반기,,,,5,KRW,,제 30 기 반기,1000040000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,,,,5,KRW,,제 30 기 반기,1078590959,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,종속기업의 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 31 기 반기,,,,5,KRW,,제 30 기 반기,1078590959,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_ProceedsFromPaidinCapitalIncrease,종속기업의 유상증자,자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,,,,5,KRW,,제 30 기 반기,-78550959,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄-공정가치 금융자산 평가손실 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,-14835452414,,,6,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄-공정가치 금융자산 평가손실 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,14835452414,,,6,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,928745792,,,8,KRW,,제 30 기 반기,-11614510874,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|적립금,제 31 기 반기,1014000000,,,8,KRW,,제 30 기 반기,1014000000,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 31 기 반기,93582411331,,,8,KRW,,제 30 기 반기,102272496146,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 31 기 반기,13341512500,,,8,KRW,,제 30 기 반기,44485279500,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식,제 31 기 반기,-9351192,,,8,KRW,,제 30 기 반기,-1693244,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,-86380756794,,,8,KRW,,제 30 기 반기,-105871108255,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,22476561637,,,8,KRW,,제 30 기 반기,30284463273,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,17139274,,,8,KRW,,제 30 기 반기,301801149,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 31 기 반기,22493700911,,24268209604,8,KRW,,제 30 기 반기,30586264422,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,연결재무제표 [member],제 31 기 반기,2154069,,,9,KRW,,제 30 기 반기,-7494766,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 31 기 반기,,,,9,KRW,,제 30 기 반기,18625161,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,2154069,,,9,KRW,,제 30 기 반기,-26119927,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,2154069,,,9,KRW,,제 30 기 반기,-7494766,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 31 기 반기,267280471,,,10,KRW,,제 30 기 반기,-1219319334,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,5965642,,,10,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,189940648,,,10,KRW,,제 30 기 반기,-334621247,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,189940648,,,10,KRW,,제 30 기 반기,-331587418,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,,,,10,KRW,,제 30 기 반기,-3033829,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,191434477,,,11,KRW,,제 30 기 반기,-332684510,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,191434477,,,11,KRW,,제 30 기 반기,-332684510,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,5965642,,,11,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 31 기 반기,197400119,,,11,KRW,,제 30 기 반기,-332684510,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,-1493829,,,12,KRW,,제 30 기 반기,1097092,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 31 기 반기,-1493829,,,12,KRW,,제 30 기 반기,1097092,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 31 기 반기,-1493829,,,12,KRW,,제 30 기 반기,1097092,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,,,,13,KRW,,제 30 기 반기,-3033829,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 31 기 반기,,,,13,KRW,,제 30 기 반기,-2187181,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,,,,13,KRW,,제 30 기 반기,-3033829,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 31 기 반기,-10382989,,,14,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 31 기 반기,-851601011,,,14,KRW,,제 30 기 반기,-589914643,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 31 기 반기,-1906335795,,,14,KRW,,제 30 기 반기,-1871021047,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,-1906335795,,,14,KRW,,제 30 기 반기,-1871021047,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 31 기 반기,-7657948,,,15,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자기주식,제 31 기 반기,-7657948,,,15,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS
+20250814004167,11012,2025,00384717,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 31 기 반기,-7657948,,,15,KRW,,제 30 기 반기,,,065170,비엘팜텍,CFS

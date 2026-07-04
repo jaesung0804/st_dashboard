@@ -1,0 +1,215 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 36 기 반기말,701593718205,제 35 기말,710112535938,7,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 36 기 반기말,180661638908,제 35 기말,151479352999,8,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 36 기 반기말,57907215672,제 35 기말,63987263135,9,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 36 기 반기말,25553542877,제 35 기말,22684710722,10,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 36 기 반기말,7952796943,제 35 기말,6006667388,11,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 36 기 반기말,25859375626,제 35 기말,3005383296,12,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 36 기 반기말,63388707790,제 35 기말,55795328458,13,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 36 기 반기말,520932079297,제 35 기말,558633182939,14,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타비유동채권,-,제 36 기 반기말,2717563310,제 35 기말,2356497179,15,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 36 기 반기말,41110760763,제 35 기말,34340288608,16,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 36 기 반기말,8092633727,제 35 기말,8822761358,17,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 36 기 반기말,902639239,제 35 기말,908165149,18,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업주식,-,제 36 기 반기말,2484474272,제 35 기말,11681036359,19,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 36 기 반기말,44183455,제 35 기말,2712102054,20,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 36 기 반기말,205604324,제 35 기말,205604324,21,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 36 기 반기말,459905768458,제 35 기말,492161849800,22,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 36 기 반기말,5468451749,제 35 기말,5444878108,23,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 36 기 반기말,241589953369,제 35 기말,207236457987,25,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 36 기 반기말,122529521358,제 35 기말,110150849019,26,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 36 기 반기말,173042401635,제 35 기말,177919808585,27,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 36 기 반기말,-1632013377,제 35 기말,-1632013377,28,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 36 기 반기말,24455040965,제 35 기말,23123921512,29,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 36 기 반기말,11629601000,제 35 기말,11629601000,30,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 36 기 반기말,-84965508865,제 35 기말,-100890468701,31,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 36 기 반기말,119060432011,제 35 기말,97085608968,32,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 36 기 반기말,701593718205,제 35 기말,710112535938,33,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 36 기 반기말,266290483409,제 35 기말,305587528081,35,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_CurrentPortionOfBonds,유동성사채,-,제 36 기 반기말,39988397500,제 35 기말,39965192500,36,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 36 기 반기말,,제 35 기말,35937338401,37,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_PaymentsOfIncomeTaxesPayable,미지급법인세,-,제 36 기 반기말,3910876748,제 35 기말,3762226409,38,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 36 기 반기말,1308467999,제 35 기말,811698465,39,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 36 기 반기말,25891847501,제 35 기말,59084173989,40,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 36 기 반기말,936852235,제 35 기말,1266263153,41,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 36 기 반기말,14834362223,제 35 기말,5941415012,42,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 36 기 반기말,123380000000,제 35 기말,106580000000,43,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 36 기 반기말,56039679203,제 35 기말,52239220152,44,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 36 기 반기말,460003764836,제 35 기말,502876077951,45,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 36 기 반기말,193713281427,제 35 기말,197288549870,46,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_BondsIssuedNominalValue,사채,-,제 36 기 반기말,47471659375,제 35 기말,47460323125,47,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 36 기 반기말,104695485959,제 35 기말,116668102357,48,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 36 기 반기말,7060208982,제 35 기말,1061544000,49,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,-,제 36 기 반기말,28207151212,제 35 기말,24837590135,50,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 36 기 반기말,3612057922,제 35 기말,4010426318,51,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 36 기 반기말,2666717977,제 35 기말,3250563935,52,KRW,,,,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 36 기 반기,7999469438,,,6,KRW,11634983727,제 35 기 반기,10557951858,16998365243,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 36 기 반기,3764256958,,,7,KRW,7087060203,제 35 기 반기,1281834793,3408678957,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 36 기 반기,3241028824,,,8,KRW,4236738521,제 35 기 반기,10748745819,11552311289,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 36 기 반기,18190288948,,,9,KRW,34869732735,제 35 기 반기,16228836992,32509547063,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 36 기 반기,14631871615,,,10,KRW,17979354102,제 35 기 반기,-35225516138,-46348607326,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 36 기 반기,1105445615,,,12,KRW,723274813,제 35 기 반기,-7917476904,-7005783159,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 36 기 반기,13526426000,,,13,KRW,17256079289,제 35 기 반기,-27308039234,-39342824167,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 36 기 반기,104719528156,,,14,KRW,213774269860,제 35 기 반기,101721358062,200306643786,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 36 기 반기,527,,,16,KRW,690,제 35 기 반기,-1243,-1829,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 36 기 반기,714,,,17,KRW,1124,제 35 기 반기,-92,0,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 36 기 반기,-187,,,18,KRW,-434,제 35 기 반기,-1151,-1829,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 36 기 반기,527,,,19,KRW,690,제 35 기 반기,-1243,-1829,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 36 기 반기,714,,,20,KRW,1124,제 35 기 반기,-92,0,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 36 기 반기,-187,,,21,KRW,-434,제 35 기 반기,-1151,-1829,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 36 기 반기,3951211066,,,22,KRW,8161902399,제 35 기 반기,11917027644,17128119832,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 36 기 반기,304539048,,,23,KRW,11781708356,제 35 기 반기,592386419,4035100681,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 36 기 반기,26189758386,,,24,KRW,46504716462,제 35 기 반기,26786788850,49507912306,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 36 기 반기,-6517754421,,,25,KRW,-2572159417,제 35 기 반기,-1970056894,38478834,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 36 기 반기,1388646684,,,26,KRW,1380823524,제 35 기 반기,1013175520,2298830577,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 36 기 반기,1388646684,,,27,KRW,1380823524,제 35 기 반기,856985089,2142640146,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 36 기 반기,1652652573,,,28,KRW,1632126657,제 35 기 반기,808571354,2032217338,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 36 기 반기,-264005889,,,29,KRW,-251303133,제 35 기 반기,48413735,110422808,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류 되지않는 세후기타포괄손익,-,제 36 기 반기,0,,,30,KRW,0,제 35 기 반기,156190431,156190431,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,"재무적 가정의 변동에서 생기는 세후 보험수리적이익(손실), 확정급여제도",-,제 36 기 반기,0,,,31,KRW,0,제 35 기 반기,156190431,156190431,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 36 기 반기,13243224931,,,32,KRW,16598530578,제 35 기 반기,-36238691658,-48647437903,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 36 기 반기,1072093812,,,34,KRW,673570742,제 35 기 반기,-7979717662,-7060766176,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests,비지배지분에 귀속될 계속영업이익(손실),-,제 36 기 반기,1948702160,,,35,KRW,2207611595,제 35 기 반기,-6055804967,-4063865511,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests,비지배지분에 귀속될 중단영업이익(손실),-,제 36 기 반기,-876608348,,,36,KRW,-1534040853,제 35 기 반기,-1923912695,-2996900665,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 36 기 반기,12171131119,,,37,KRW,15924959836,제 35 기 반기,-28258973996,-41586671727,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 계속영업손익,-,제 36 기 반기,16478575573,,,38,KRW,25929451565,제 35 기 반기,-2086800764,-6785776,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_IncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 중단영업손익,-,제 36 기 반기,-4307444454,,,39,KRW,-10004491729,제 35 기 반기,-26172173232,-41579885951,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 36 기 반기,11909523312,,,40,KRW,25564903743,제 35 기 반기,-10112662625,-4032172453,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 36 기 반기,18427277733,,,41,KRW,28137063160,제 35 기 반기,-8142605731,-4070651287,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 36 기 반기,-5184052802,,,42,KRW,-11538532582,제 35 기 반기,-28096085927,-44576786616,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 36 기 반기,130909286542,,,43,KRW,260278986322,제 35 기 반기,128508146912,249814556092,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업등투자손익,-,제 36 기 반기,7033497758,,,44,KRW,7459792377,제 35 기 반기,120937768,206113787,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 36 기 반기,63987263135,,,2,KRW,,제 35 기 반기,94958406466,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 36 기 반기,57907215672,,,3,KRW,,제 35 기 반기,131215961035,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,처분집단으로 분류된 현금및현금성자산,-,제 36 기 반기,57907215672,,,8,KRW,,제 35 기 반기,131215961035,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,기말 재무상태표상 현금및현금성자산,-,제 36 기 반기,57907215672,,,9,KRW,,제 35 기 반기,131215961035,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 36 기 반기,-28664765830,,,10,KRW,,제 35 기 반기,-16907274637,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_InterestPaidToHybridBond,신종자본증권 이자지급,-,제 36 기 반기,0,,,11,KRW,,제 35 기 반기,149589038,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 36 기 반기,0,,,12,KRW,,제 35 기 반기,34000000000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 처분,-,제 36 기 반기,0,,,13,KRW,,제 35 기 반기,18292230037,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 36 기 반기,43000000000,,,14,KRW,,제 35 기 반기,56200000000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_RepaymentForGovernmentGrantsClassifiedAsFinancingActivities,정부보조금의 상환,-,제 36 기 반기,0,,,15,KRW,,제 35 기 반기,559353311,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 36 기 반기,0,,,16,KRW,,제 35 기 반기,27691000067,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 36 기 반기,26200000000,,,17,KRW,,제 35 기 반기,50800000000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,유동리스부채의 상환,-,제 36 기 반기,-536937785,,,18,KRW,,제 35 기 반기,-1028752410,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsFinancingActivities,정부보조금의 수취,-,제 36 기 반기,263811951,,,19,KRW,,제 35 기 반기,593516770,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_RepaymentsOfCurrentBorrowings,유동차입금의 상환,-,제 36 기 반기,45191639996,,,20,KRW,,제 35 기 반기,45764326618,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 36 기 반기,-37843084360,,,21,KRW,,제 35 기 반기,-10677842046,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInShortTermAdvancePayments,단기선급금의 감소(증가),-,제 36 기 반기,-152250000,,,22,KRW,,제 35 기 반기,-2081718380,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,-,제 36 기 반기,-1008286844,,,23,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 36 기 반기,37000000,,,24,KRW,,제 35 기 반기,160420000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_DividendIncomeNonOperating,배당금수익,-,제 36 기 반기,0,,,25,KRW,,제 35 기 반기,-6960000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 36 기 반기,174000000,,,26,KRW,,제 35 기 반기,232210000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 36 기 반기,2627523940,,,27,KRW,,제 35 기 반기,42672714,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 36 기 반기,0,,,28,KRW,,제 35 기 반기,35570000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 36 기 반기,20000000000,,,29,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,미지급금의 증가(감소),-,제 36 기 반기,785259110,,,30,KRW,,제 35 기 반기,-2397476953,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 36 기 반기,21530440,,,31,KRW,,제 35 기 반기,1316540857,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 36 기 반기,70500000,,,32,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 36 기 반기,2920163000,,,33,KRW,,제 35 기 반기,6422864720,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 36 기 반기,259117701,,,34,KRW,,제 35 기 반기,62814502,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자자산의 취득,-,제 36 기 반기,40000000,,,35,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 36 기 반기,24687979993,,,36,KRW,,제 35 기 반기,13888650502,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 36 기 반기,60864592433,,,37,KRW,,제 35 기 반기,63696420892,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 36 기 반기,-1901278341,,,38,KRW,,제 35 기 반기,230261569,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInValueAddedTaxReceivables,부가가치세 선급금의 감소(증가),-,제 36 기 반기,-1482842487,,,39,KRW,,제 35 기 반기,-726068114,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAccruedIncome,미수수익의 감소(증가),-,제 36 기 반기,61738068,,,40,KRW,,제 35 기 반기,-1522028306,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 36 기 반기,-783417045,,,41,KRW,,제 35 기 반기,-17233402,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInDepositsProvided,보증금의 감소(증가),-,제 36 기 반기,-17071397,,,42,KRW,,제 35 기 반기,1470971387,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의공정가치의 감소(증가),-,제 36 기 반기,1309736967,,,43,KRW,,제 35 기 반기,1325690162,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 36 기 반기,-1948083620,,,44,KRW,,제 35 기 반기,-1377173482,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInCurrentValueAddedTaxPayables,부가가치세 예수금의 증가(감소),-,제 36 기 반기,17411004,,,45,KRW,,제 35 기 반기,13217820,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInIncomeReceivedInAdvance,선수수익의 증가(감소),-,제 36 기 반기,-566604326,,,46,KRW,,제 35 기 반기,275641532,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherNonCurrentLiabilities,기타비유동부채의 증가(감소),-,제 36 기 반기,-43593592,,,47,KRW,,제 35 기 반기,-14103861,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 36 기 반기,-299937159,,,48,KRW,,제 35 기 반기,1553711238,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 36 기 반기,8012184472,,,49,KRW,,제 35 기 반기,-12479129,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInCurrentProvisions,유동충당부채의 증가(감소),-,제 36 기 반기,-71381495,,,50,KRW,,제 35 기 반기,30081751,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 36 기 반기,5621307317,,,51,KRW,,제 35 기 반기,-70796030,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직급여채무의 증가(감소),-,제 36 기 반기,-3548809726,,,52,KRW,,제 35 기 반기,-2750572728,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 36 기 반기,65074186,,,53,KRW,,제 35 기 반기,-139676569,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,정부보조금의 증가(감소),-,제 36 기 반기,10728122,,,54,KRW,,제 35 기 반기,245944717,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInContractAssets,계약자산의 감소(증가),-,제 36 기 반기,-248930340,,,55,KRW,,제 35 기 반기,616144927,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 36 기 반기,-1576286669,,,56,KRW,,제 35 기 반기,-548813403,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타의유동자산의 감소(증가),-,제 36 기 반기,46230560,,,57,KRW,,제 35 기 반기,-45243636,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 36 기 반기,430874639,,,58,KRW,,제 35 기 반기,177652463,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 36 기 반기,-7323772451,,,59,KRW,,제 35 기 반기,-1596348661,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 36 기 반기,150820990,,,60,KRW,,제 35 기 반기,95131800,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 36 기 반기,283345641,,,61,KRW,,제 35 기 반기,3246611093,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 36 기 반기,56826691907,,,62,KRW,,제 35 기 반기,122956182769,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 36 기 반기,98955922,,,63,KRW,,제 35 기 반기,-720255825,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisions,충당부채전입액,-,제 36 기 반기,-336236552,,,64,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForGainFromLeaseContractChange,리스변경이익,-,제 36 기 반기,84208796,,,65,KRW,,제 35 기 반기,57506295,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForGainOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분이익,-,제 36 기 반기,6271933706,,,66,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 36 기 반기,2430508706,,,67,KRW,,제 35 기 반기,1406178237,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 36 기 반기,273407840,,,68,KRW,,제 35 기 반기,506694186,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익,-,제 36 기 반기,58136909,,,69,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 36 기 반기,7488391799,,,70,KRW,,제 35 기 반기,12174963044,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForLossFromLeaseContractChange,리스변경손실,-,제 36 기 반기,78294934,,,71,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryShrinkage,재고자산폐기손실,-,제 36 기 반기,1606594474,,,72,KRW,,제 35 기 반기,841456781,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 36 기 반기,12663331,,,73,KRW,,제 35 기 반기,63126907,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 36 기 반기,152102242,,,74,KRW,,제 35 기 반기,230774482,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 36 기 반기,824607025,,,75,KRW,,제 35 기 반기,159783962,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비,-,제 36 기 반기,0,,,76,KRW,,제 35 기 반기,561160463,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForOtherGainsWithoutCashFlowIn,기타 현금의 유입 없는 수익등,-,제 36 기 반기,14823614,,,77,KRW,,제 35 기 반기,52390296,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 36 기 반기,1200522002,,,78,KRW,,제 35 기 반기,269240694,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 36 기 반기,5781993200,,,79,KRW,,제 35 기 반기,6966784762,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForReversalAllowanceDoubtfulAccounts,대손충당금 환입,-,제 36 기 반기,57936000,,,80,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실,-,제 36 기 반기,437248594,,,81,KRW,,제 35 기 반기,269120096,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_AmortizationOnNegativeGoodwill,염가매수차익,-,제 36 기 반기,125932110,,,82,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_GainsOnDisposalsOfFairValueFinancialLiabilities,당기손익-공정가치측정금융부채처분이익,-,제 36 기 반기,11110505811,,,83,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_GainsOnValuationOfFairValueFinancialAsset,당기손익-공정가치측정금융자산평가이익,-,제 36 기 반기,0,,,84,KRW,,제 35 기 반기,913736722,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ImpairmentLossesOnIntangibleAssets,무형자산손상차손,-,제 36 기 반기,0,,,85,KRW,,제 35 기 반기,941266473,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_LossesOnChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치인식지정금융부채평가손실,-,제 36 기 반기,0,,,86,KRW,,제 35 기 반기,6886639545,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ReversalOfImpairmentLossesOnIntangibleAssets,무형자산손상차손환입,-,제 36 기 반기,79427735,,,87,KRW,,제 35 기 반기,0,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_ReversalsOfPropertyPlantAndEquipment,유형자산손상차손환입,-,제 36 기 반기,4511000,,,88,KRW,,제 35 기 반기,29378384,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,dart_WritedownsOfPropertyPlantAndEquipment,유형자산손상차손,-,제 36 기 반기,0,,,89,KRW,,제 35 기 반기,24679614567,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,-표준계정코드 미사용-,상각후원가측정금융부채평가이익,-,제 36 기 반기,0,,,90,KRW,,제 35 기 반기,5014835,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 36 기 반기,1394657143,,,91,KRW,,제 35 기 반기,1757750586,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 36 기 반기,64203335572,,,92,KRW,,제 35 기 반기,74469035172,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 36 기 반기,-2579313990,,,93,KRW,,제 35 기 반기,38478834,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 36 기 반기,671286150,,,94,KRW,,제 35 기 반기,3139257055,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_OtherLongtermBenefits,장기종업원급여,-,제 36 기 반기,46538592,,,95,KRW,,제 35 기 반기,15879624,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 36 기 반기,3331687208,,,96,KRW,,제 35 기 반기,715885853,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 36 기 반기,8223425699,,,97,KRW,,제 35 기 반기,13268513210,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 36 기 반기,895761196,,,98,KRW,,제 35 기 반기,3141813520,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 36 기 반기,13243224931,,,99,KRW,,제 35 기 반기,-36238691658,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 36 기 반기,-436789706,,,100,KRW,,제 35 기 반기,146250360,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 36 기 반기,-6080047463,,,101,KRW,,제 35 기 반기,36257554569,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 36 기 반기,-5643257757,,,102,KRW,,제 35 기 반기,36111304209,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외산업환산차,자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,49704071,,,3,KRW,,제 35 기 반기,-6047535,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외산업환산차,연결재무제표 [member],제 36 기 반기,1632126657,,,3,KRW,,제 35 기 반기,2032217338,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외산업환산차,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,1582422586,,,3,KRW,,제 35 기 반기,2038264873,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_ChangesInForeignExchangeRates,해외산업환산차,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 36 기 반기,1582422586,,,3,KRW,,제 35 기 반기,2038264873,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_CompoundFinancialInstrumentDividendInterest,신종자본증권의 이자,연결재무제표 [member],제 36 기 반기,0,,,4,KRW,,제 35 기 반기,-118324929,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_CompoundFinancialInstrumentDividendInterest,신종자본증권의 이자,자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,,,,4,KRW,,제 35 기 반기,-118324929,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,97085608968,,,5,KRW,,제 35 기 반기,135131103231,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 36 기 반기,207236457987,,,5,KRW,,제 35 기 반기,283166320172,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,110150849019,,,5,KRW,,제 35 기 반기,148035216941,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 36 기 반기,177919808585,,,5,KRW,,제 35 기 반기,174852398814,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 36 기 반기,11629601000,,,5,KRW,,제 35 기 반기,11629601000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 36 기 반기,-100890468701,,,5,KRW,,제 35 기 반기,-34903321356,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 36 기 반기,-1632013377,,,5,KRW,,제 35 기 반기,-9028489040,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 36 기 반기,23123921512,,,5,KRW,,제 35 기 반기,5485027523,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,"재무적 가정의 변동에서 생기는 세후 보험수리적이익(손실), 확정급여제도",연결재무제표 [member],제 36 기 반기,0,,,6,KRW,,제 35 기 반기,156190431,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,"재무적 가정의 변동에서 생기는 세후 보험수리적이익(손실), 확정급여제도",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,,,,6,KRW,,제 35 기 반기,95159879,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,"재무적 가정의 변동에서 생기는 세후 보험수리적이익(손실), 확정급여제도",자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,,,,6,KRW,,제 35 기 반기,61030552,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ActuarialGainsLossesArisingFromChangesInFinancialAssumptionsNetOfTaxDefinedBenefitPlans,"재무적 가정의 변동에서 생기는 세후 보험수리적이익(손실), 확정급여제도",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 36 기 반기,,,,6,KRW,,제 35 기 반기,95159879,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 36 기 반기,241589953369,,207236457987,7,KRW,,제 35 기 반기,254991617954,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 36 기 반기,173042401635,,,7,KRW,,제 35 기 반기,182028051209,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 36 기 반기,11629601000,,,7,KRW,,제 35 기 반기,11629601000,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 36 기 반기,-84965508865,,,7,KRW,,제 35 기 반기,-76394833204,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 36 기 반기,24455040965,,,7,KRW,,제 35 기 반기,7633715204,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 36 기 반기,-1632013377,,,7,KRW,,제 35 기 반기,-9028489040,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,122529521358,,,7,KRW,,제 35 기 반기,115868045169,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,119060432011,,,7,KRW,,제 35 기 반기,139123572785,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속회사의 지분변동,연결재무제표 [member],제 36 기 반기,16374141280,,,8,KRW,,제 35 기 반기,18292230037,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속회사의 지분변동,자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,21251548230,,,8,KRW,,제 35 기 반기,11116577642,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속회사의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,-4877406950,,,8,KRW,,제 35 기 반기,7175652395,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속회사의 지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 36 기 반기,-4877406950,,,8,KRW,,제 35 기 반기,7175652395,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 36 기 반기,15924959836,,,9,KRW,,제 35 기 반기,-41586671727,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 36 기 반기,13243224931,,,9,KRW,,제 35 기 반기,-36238691658,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 36 기 반기,673570742,,,9,KRW,,제 35 기 반기,-7060766176,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,15924959836,,,9,KRW,,제 35 기 반기,-41586671727,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 36 기 반기,-251303133,,,10,KRW,,제 35 기 반기,110422808,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 36 기 반기,-251303133,,,10,KRW,,제 35 기 반기,110422808,,033640,네패스,CFS
+20250814004201,11012,2025,00227333,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 36 기 반기,-251303133,,,10,KRW,,제 35 기 반기,110422808,,033640,네패스,CFS

@@ -1,0 +1,163 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 54 기 1분기말,1331576404620,제 53 기말,1333843317612,7,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 54 기 1분기말,696442992232,제 53 기말,684662520372,8,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 54 기 1분기말,195023225385,제 53 기말,191369576856,9,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 54 기 1분기말,166452552,제 53 기말,28997274,10,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 54 기 1분기말,320459103246,제 53 기말,324894896405,11,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정 또는 소유주에 대한 분배예정으로 분류된 비유동자산이나 처분자산집단,-,제 54 기 1분기말,8452691211,제 53 기말,0,12,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 54 기 1분기말,17483944753,제 53 기말,27807282667,13,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 54 기 1분기말,24038713854,제 53 기말,16980178467,14,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 54 기 1분기말,6612876219,제 53 기말,2167036142,15,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_CurrentFinancialAssetsHeldToMaturity,유동만기보유금융자산,-,제 54 기 1분기말,8000673455,제 53 기말,5387978145,16,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,"유동 당기손익인식금융자산, 의무적으로 측정된 공정가치",-,제 54 기 1분기말,9425164180,제 53 기말,9425164180,17,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 54 기 1분기말,587499000,제 53 기말,587499000,18,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 54 기 1분기말,130231362231,제 53 기말,122994089703,19,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 54 기 1분기말,635133412388,제 53 기말,649180797240,20,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 54 기 1분기말,2996784674,제 53 기말,2996784674,21,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 54 기 1분기말,103322546,제 53 기말,1279957,22,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 54 기 1분기말,48266171566,제 53 기말,48734784825,23,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 54 기 1분기말,84405261363,제 53 기말,84542650562,24,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,"종속기업, 공동기업과 관계기업에 대한 투자자산",-,제 54 기 1분기말,29341545262,제 53 기말,30394529447,25,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,비유동매출채권,-,제 54 기 1분기말,5725853393,제 53 기말,5790777061,26,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherFinancialAssets,기타금융자산,-,제 54 기 1분기말,2985650651,제 53 기말,3248189061,27,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 54 기 1분기말,178712298,제 53 기말,172085217,28,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 54 기 1분기말,51515219496,제 53 기말,52589144300,29,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,"비유동 당기손익인식금융자산, 의무적으로 측정된 공정가치",-,제 54 기 1분기말,47660369146,제 53 기말,49036597250,30,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 비유동금융자산,-,제 54 기 1분기말,3854850350,제 53 기말,3552547050,31,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 54 기 1분기말,409614891139,제 53 기말,420710572136,32,KRW,제 52 기,378244059000,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 54 기 1분기말,656469458172,제 53 기말,670338559572,34,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 54 기 1분기말,656624231737,제 53 기말,670337385920,35,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 54 기 1분기말,3981290341,제 53 기말,3084300518,36,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_AdditionalPaidinCapital,기타불입자본,-,제 54 기 1분기말,221097727480,제 53 기말,221235770621,37,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 54 기 1분기말,32685484000,제 53 기말,32685484000,38,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 54 기 1분기말,398859729916,제 53 기말,413331830781,39,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 54 기 1분기말,-154773565,제 53 기말,1173652,40,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 54 기 1분기말,1331576404620,제 53 기말,1333843317612,41,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 54 기 1분기말,643772285295,제 53 기말,632273203258,43,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,유동 파생상품 금융부채,-,제 54 기 1분기말,18577691042,제 53 기말,17153729745,44,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 54 기 1분기말,1751313674,제 53 기말,1717806268,45,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 54 기 1분기말,1318109835,제 53 기말,2830793833,46,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 54 기 1분기말,66004575915,제 53 기말,75122512929,47,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 54 기 1분기말,556120594829,제 53 기말,535448360483,48,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 54 기 1분기말,76685764559,제 53 기말,63472591409,49,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 54 기 1분기말,1103854536,제 53 기말,1790713650,50,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings,유동성 기타 차입금(사채 제외),-,제 54 기 1분기말,10000000000,제 53 기말,13000000000,51,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_ShorttermBorrowings,유동 차입금(사채 포함),-,제 54 기 1분기말,468330975734,제 53 기말,457185055424,52,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 54 기 1분기말,675106946448,제 53 기말,663504758040,53,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 54 기 1분기말,31334661153,제 53 기말,31231554782,54,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 54 기 1분기말,1797734405,제 53 기말,3996972377,55,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_AccrualsClassifiedAsNoncurrent,비유동으로 분류되는 미지급비용,-,제 54 기 1분기말,134767800,제 53 기말,96569463,56,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 54 기 1분기말,1662966605,제 53 기말,3900402914,57,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,-표준계정코드 미사용-,기타비유동부채,-,제 54 기 1분기말,2473209571,제 53 기말,2473209571,58,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 54 기 1분기말,20531392043,제 53 기말,18790303589,59,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialLiabilities,비유동 파생상품 금융부채,-,제 54 기 1분기말,67767242,제 53 기말,0,60,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,비유동 순확정급여부채,-,제 54 기 1분기말,900172151,제 53 기말,403314611,61,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 54 기 1분기말,5564385741,제 53 기말,5567754634,62,KRW,,,,,,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 54 기 1분기,346046536,,,6,KRW,,,346046536,제 53 기 1분기,11299568,11299568,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 54 기 1분기,21629622216,,,7,KRW,,,21629622216,제 53 기 1분기,13101330413,13101330413,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 54 기 1분기,235971046,,,8,KRW,,,235971046,제 53 기 1분기,106552625,106552625,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 54 기 1분기,179146449,,,9,KRW,,,179146449,제 53 기 1분기,190612287,190612287,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 54 기 1분기,0,,,10,KRW,,,0,제 53 기 1분기,0,0,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 54 기 1분기,18026844700,,,11,KRW,,,18026844700,제 53 기 1분기,16602185248,16602185248,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 54 기 1분기,2642261100,,,12,KRW,,,2642261100,제 53 기 1분기,7483739845,7483739845,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 54 기 1분기,-155947217,,,14,KRW,,,-155947217,제 53 기 1분기,1388174516,1388174516,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 54 기 1분기,2798208317,,,15,KRW,,,2798208317,제 53 기 1분기,6095565329,6095565329,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 54 기 1분기,275688685264,,,16,KRW,,,275688685264,제 53 기 1분기,210474946137,210474946137,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 54 기 1분기,35,,,18,KRW,,,35,제 53 기 1분기,187,187,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 54 기 1분기,36689279796,,,19,KRW,,,36689279796,제 53 기 1분기,12515651535,12515651535,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 54 기 1분기,18592247270,,,20,KRW,,,18592247270,제 53 기 1분기,6536617647,6536617647,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 54 기 1분기,39656466916,,,21,KRW,,,39656466916,제 53 기 1분기,29703515661,29703515661,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 54 기 1분기,1498096474,,,22,KRW,,,1498096474,제 53 기 1분기,-781735201,-781735201,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 54 기 1분기,896989823,,,23,KRW,,,896989823,제 53 기 1분기,-324932651,-324932651,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 54 기 1분기,710373263,,,24,KRW,,,710373263,제 53 기 1분기,-311544986,-311544986,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 54 기 1분기,719469378,,,25,KRW,,,719469378,제 53 기 1분기,-23177939,-23177939,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 54 기 1분기,-9096115,,,26,KRW,,,-9096115,제 53 기 1분기,-288367047,-288367047,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 54 기 1분기,186616560,,,27,KRW,,,186616560,제 53 기 1분기,-13387665,-13387665,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,"세후기타포괄손익, 지분상품에 대한 투자자산",-,제 54 기 1분기,186616560,,,28,KRW,,,186616560,제 53 기 1분기,43332562,43332562,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,"세후기타포괄손익, 확정급여제도의 재측정손익",-,제 54 기 1분기,0,,,29,KRW,,,0,제 53 기 1분기,-56720227,-56720227,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 54 기 1분기,1745271277,,,30,KRW,,,1745271277,제 53 기 1분기,7808672496,7808672496,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 54 기 1분기,-155947217,,,32,KRW,,,-155947217,제 53 기 1분기,1396831745,1396831745,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 54 기 1분기,1901218494,,,33,KRW,,,1901218494,제 53 기 1분기,6411840751,6411840751,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 54 기 1분기,3243367751,,,34,KRW,,,3243367751,제 53 기 1분기,7026937295,7026937295,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 54 기 1분기,315345152180,,,35,KRW,,,315345152180,제 53 기 1분기,240178461798,240178461798,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 54 기 1분기,191369576856,,,2,KRW,,,,제 53 기 1분기,137852397122,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 54 기 1분기,195023225385,,,3,KRW,,,,제 53 기 1분기,186588748596,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 54 기 1분기,7468145008,,,8,KRW,,,,제 53 기 1분기,57320258048,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 증가,-,제 54 기 1분기,-867420819,,,9,KRW,,,,제 53 기 1분기,-464259131,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 54 기 1분기,400000000,,,10,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 54 기 1분기,166244155556,,,11,KRW,,,,제 53 기 1분기,292425225649,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 54 기 1분기,0,,,12,KRW,,,,제 53 기 1분기,750000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 54 기 1분기,158308589729,,,13,KRW,,,,제 53 기 1분기,233890708470,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 54 기 1분기,-5050711911,,,14,KRW,,,,제 53 기 1분기,11455630141,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 54 기 1분기,350000000,,,15,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금및수취채권의 처분,-,제 54 기 1분기,120171482,,,16,KRW,,,,제 53 기 1분기,863904291,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 처분,-,제 54 기 1분기,257280270,,,17,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 54 기 1분기,532866093,,,18,KRW,,,,제 53 기 1분기,15035702691,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 취득,-,제 54 기 1분기,221071174,,,19,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 54 기 1분기,350000000,,,20,KRW,,,,제 53 기 1분기,199530000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 54 기 1분기,448333320,,,21,KRW,,,,제 53 기 1분기,86666640,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfNonCurrentFairValueFinancialAsset,비유동당기손익인식금융자산의 취득,-,제 54 기 1분기,8649610,,,22,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 54 기 1분기,2475229186,,,23,KRW,,,,제 53 기 1분기,439717834,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금및수취채권의 취득,-,제 54 기 1분기,-221971371,,,24,KRW,,,,제 53 기 1분기,43333360,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 54 기 1분기,71413979,,,25,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업투자자산의 처분,-,제 54 기 1분기,442791470,,,26,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 54 기 1분기,8000000,,,27,KRW,,,,제 53 기 1분기,34412122,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 54 기 1분기,271920000,,,28,KRW,,,,제 53 기 1분기,5060000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 54 기 1분기,3280003286,,,29,KRW,,,,제 53 기 1분기,3704081129,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 54 기 1분기,570865193,,,30,KRW,,,,제 53 기 1분기,-19990195441,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 54 기 1분기,4437433651,,,31,KRW,,,,제 53 기 1분기,-11310570654,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 54 기 1분기,484150064,,,32,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 54 기 1분기,1414010911,,,33,KRW,,,,제 53 기 1분기,5271952134,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 54 기 1분기,4309704182,,,34,KRW,,,,제 53 기 1분기,4045662412,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 54 기 1분기,1372996571,,,35,KRW,,,,제 53 기 1분기,637989759,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 54 기 1분기,665350239,,,36,KRW,,,,제 53 기 1분기,-49341274,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 54 기 1분기,2988298290,,,37,KRW,,,,제 53 기 1분기,48785692748,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 54 기 1분기,670338559572,,,3,KRW,,,,제 53 기 1분기,649918058490,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,1173652,,,3,KRW,,,,제 53 기 1분기,234456566496,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,670337385920,,,3,KRW,,,,제 53 기 1분기,415461491994,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,221235770621,,,3,KRW,,,,제 53 기 1분기,13577384329,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,3084300518,,,3,KRW,,,,제 53 기 1분기,1687297607,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,413331830781,,,3,KRW,,,,제 53 기 1분기,395196810058,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,32685484000,,,3,KRW,,,,제 53 기 1분기,5000000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,0,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,0,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,연결재무제표 [member],제 54 기 1분기,0,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,-138043141,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,0,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,138043141,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,0,,,4,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 54 기 1분기,16511362500,,,5,KRW,,,,제 53 기 1분기,6399745000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,0,,,5,KRW,,,,제 53 기 1분기,3999745000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,16511362500,,,5,KRW,,,,제 53 기 1분기,2400000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,16511362500,,,5,KRW,,,,제 53 기 1분기,2400000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,0,,,5,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,0,,,5,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,0,,,5,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,656624231737,,,6,KRW,,,,제 53 기 1분기,419157057323,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,-154773565,,,6,KRW,,,,제 53 기 1분기,231844996012,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 54 기 1분기,656469458172,,670338559572,6,KRW,,,,제 53 기 1분기,651002053335,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,221097727480,,,6,KRW,,,,제 53 기 1분기,11977384329,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,32685484000,,,6,KRW,,,,제 53 기 1분기,5000000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,398859729916,,,6,KRW,,,,제 53 기 1분기,400684020226,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,3981290341,,,6,KRW,,,,제 53 기 1분기,1495652768,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",연결재무제표 [member],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,-1600000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,1600000000,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,0,,,7,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,896989823,,,8,KRW,,,,제 53 기 1분기,-316275422,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,0,,,8,KRW,,,,제 53 기 1분기,-8657229,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 54 기 1분기,896989823,,,8,KRW,,,,제 53 기 1분기,-324932651,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,0,,,8,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,0,,,8,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,0,,,8,KRW,,,,제 53 기 1분기,-124630583,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,896989823,,,8,KRW,,,,제 53 기 1분기,-191644839,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 54 기 1분기,1745271277,,,9,KRW,,,,제 53 기 1분기,7808672496,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 54 기 1분기,-155947217,,,9,KRW,,,,제 53 기 1분기,1396831745,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 54 기 1분기,1901218494,,,9,KRW,,,,제 53 기 1분기,6411840751,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타불입자본 [구성요소],제 54 기 1분기,0,,,9,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 54 기 1분기,0,,,9,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 54 기 1분기,1901218494,,,9,KRW,,,,제 53 기 1분기,6411840751,,009160,SIMPAC,CFS
+20260515002780,11013,2026,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 54 기 1분기,0,,,9,KRW,,,,제 53 기 1분기,0,,009160,SIMPAC,CFS

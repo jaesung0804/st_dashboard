@@ -1,0 +1,280 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 35 기 3분기말,160069467910,제 34 기말,156190302303,7,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 35 기 3분기말,112053195169,제 34 기말,103354168576,8,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 35 기 3분기말,22372230480,제 34 기말,25558806850,9,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 35 기 3분기말,664910,제 34 기말,12760437,10,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 35 기 3분기말,39960416406,제 34 기말,31403671937,11,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 35 기 3분기말,2531250140,제 34 기말,2263767345,12,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 35 기 3분기말,4222626248,제 34 기말,1944122269,13,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_CurrentDerivativeAsset,통화선도자산,-,제 35 기 3분기말,0,제 34 기말,0,14,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_CurrentFinancialAssetHeldForTrading,유동단기매매금융자산,-,제 35 기 3분기말,0,제 34 기말,0,15,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_CurrentFinancialAssetsHeldToMaturity,유동만기보유금융자산,-,제 35 기 3분기말,0,제 34 기말,0,16,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtAmortisedCost,상각후원가로 측정하는 유동 금융자산,-,제 35 기 3분기말,137165000,제 34 기말,5875000,17,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,최초인식시점 또는 그 이후에 지정된 유동 당기손익인식금융자산,-,제 35 기 3분기말,4085461248,제 34 기말,1938247269,18,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 35 기 3분기말,10000000000,제 34 기말,6000000000,19,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 35 기 3분기말,32966006985,제 34 기말,36171039738,20,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 35 기 3분기말,48016272741,제 34 기말,52836133727,21,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 35 기 3분기말,0,제 34 기말,0,22,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,"장기매출채권 및 기타비유동채권, 총액",-,제 35 기 3분기말,4138486304,제 34 기말,8458386914,23,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 35 기 3분기말,2835750393,제 34 기말,2736914350,24,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 35 기 3분기말,618473808,제 34 기말,618346582,25,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 35 기 3분기말,19111510867,제 34 기말,18445492894,26,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,"종속기업, 공동기업과 관계기업에 대한 투자자산",-,제 35 기 3분기말,768738633,제 34 기말,708732194,27,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업에 대한 투자자산,-,제 35 기 3분기말,768738633,제 34 기말,708732194,28,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 35 기 3분기말,1023310102,제 34 기말,393700543,29,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 35 기 3분기말,3654729384,제 34 기말,4951962094,30,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_NonCurrentAvailableForSaleFinancialAssets,비유동매도가능금융자산,-,제 35 기 3분기말,0,제 34 기말,0,31,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_NonCurrentFinancialAssetsHeldToMaturity,비유동만기보유금융자산,-,제 35 기 3분기말,0,제 34 기말,0,32,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtAmortisedCost,상각후원가로 측정하는 비유동 금융자산,-,제 35 기 3분기말,219290000,제 34 기말,356455000,33,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,최초인식시점 또는 그 이후에 지정된 비유동 당기손익인식금융자산,-,제 35 기 3분기말,3435439384,제 34 기말,4595507094,34,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 35 기 3분기말,15865273250,제 34 기말,16522598156,35,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 35 기 3분기말,118071707208,제 34 기말,111629256770,37,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 35 기 3분기말,113288044193,제 34 기말,107176789680,38,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 35 기 3분기말,37588257780,제 34 기말,37588257780,39,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 35 기 3분기말,-620098335,제 34 기말,-620098335,40,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 35 기 3분기말,9557216000,제 34 기말,9557216000,41,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 35 기 3분기말,66762668748,제 34 기말,60651414235,42,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 35 기 3분기말,4783663015,제 34 기말,4452467090,43,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 35 기 3분기말,160069467910,제 34 기말,156190302303,44,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 35 기 3분기말,37543096150,제 34 기말,39148782673,46,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 35 기 3분기말,1401529462,제 34 기말,409749798,47,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,통화선도부채,-,제 35 기 3분기말,0,제 34 기말,0,48,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 35 기 3분기말,1837784343,제 34 기말,1340063625,49,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 35 기 3분기말,34303782345,제 34 기말,37398969250,50,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_ShortTermAccruedExpenses,단기미지급비용,-,제 35 기 3분기말,851773870,제 34 기말,617789637,51,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_ShortTermGuaranteeDepositRent,단기임대보증금,-,제 35 기 3분기말,679000000,제 34 기말,941000000,52,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_ShortTermOtherPayables,단기미지급금,-,제 35 기 3분기말,1443829550,제 34 기말,1458451080,53,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 35 기 3분기말,26547547210,제 34 기말,27899381560,54,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 35 기 3분기말,410789535,제 34 기말,167415882,55,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기부채,-,제 35 기 3분기말,0,제 34 기말,0,56,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_DividendsPayable,"배당금, 비현금성 자산의 배분",-,제 35 기 3분기말,0,제 34 기말,0,57,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_ShorttermBorrowings,유동 차입금(사채 포함),-,제 35 기 3분기말,4370842180,제 34 기말,6314931091,58,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 35 기 3분기말,41997760702,제 34 기말,44561045533,59,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 35 기 3분기말,4454664552,제 34 기말,5412262860,60,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 35 기 3분기말,3272421382,제 34 기말,3996992707,61,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermAccruedExpensesGross,"장기미지급비용, 총액",-,제 35 기 3분기말,0,제 34 기말,0,62,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermBorrowingsGross,"장기차입금(사채 포함), 총액",-,제 35 기 3분기말,2504797898,제 34 기말,3790027706,63,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermGuaranteeDepositRentGross,"장기임대보증금, 총액",-,제 35 기 3분기말,277000000,제 34 기말,37000000,64,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,dart_LongTermGuaranteeDepositWithholdings,"장기예수보증금, 총액",-,제 35 기 3분기말,112568201,제 34 기말,150135001,65,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 35 기 3분기말,378055283,제 34 기말,19830000,66,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 35 기 3분기말,279636307,제 34 기말,277733583,67,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 35 기 3분기말,902606863,제 34 기말,1137536570,68,KRW,,,,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 35 기 3분기,841495444,,,6,KRW,5040437827,제 34 기 3분기,80720090,2745441651,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 35 기 3분기,312010228,,,7,KRW,888922757,제 34 기 3분기,65798488,265739079,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 35 기 3분기,164405254,,,8,KRW,253910125,제 34 기 3분기,36058394,48674803,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 35 기 3분기,4274974841,,,9,KRW,13000929515,제 34 기 3분기,4133092933,13501633377,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 35 기 3분기,462033697,,,10,KRW,6442450438,제 34 기 3분기,815611397,2895448900,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 35 기 3분기,46178022,,,12,KRW,331195925,제 34 기 3분기,71361142,134921576,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 35 기 3분기,415855675,,,13,KRW,6111254513,제 34 기 3분기,744250255,2760527324,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 35 기 3분기,75373447830,,,14,KRW,203541154418,제 34 기 3분기,56666639951,174216233945,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 35 기 3분기,22,,,16,KRW,323,제 34 기 3분기,39,146,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 35 기 3분기,22,,,17,KRW,323,제 34 기 3분기,39,146,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 35 기 3분기,0,,,18,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 35 기 3분기,22,,,19,KRW,323,제 34 기 3분기,39,146,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 35 기 3분기,22,,,20,KRW,323,제 34 기 3분기,39,146,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 35 기 3분기,0,,,21,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 35 기 3분기,766355258,,,22,KRW,1643767405,제 34 기 3분기,327620728,2229628871,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 35 기 3분기,456505646,,,23,KRW,3867235125,제 34 기 3분기,1324872285,2793835037,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_GainsLossesOnNetMonetaryPosition,관계기업등 투자손익,-,제 35 기 3분기,5993922,,,24,KRW,60006439,제 34 기 3분기,45682234,51163663,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 35 기 3분기,5116470285,,,25,KRW,18041367342,제 34 기 3분기,4213813023,16247075028,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 35 기 3분기,223211031,,,26,KRW,1516474180,제 34 기 3분기,337782578,682426856,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 35 기 3분기,0,,,27,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 35 기 3분기,0,,,28,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 35 기 3분기,0,,,29,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 35 기 3분기,462033697,,,30,KRW,6442450438,제 34 기 3분기,815611397,2895448900,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 35 기 3분기,46178022,,,32,KRW,331195925,제 34 기 3분기,71361142,134921576,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 35 기 3분기,415855675,,,33,KRW,6111254513,제 34 기 3분기,744250255,2760527324,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 35 기 3분기,685244728,,,34,KRW,7958924618,제 34 기 3분기,1153393975,3577875756,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 35 기 3분기,462033697,,,35,KRW,6442450438,제 34 기 3분기,815611397,2895448900,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 35 기 3분기,0,,,36,KRW,0,제 34 기 3분기,0,0,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 35 기 3분기,80489918115,,,37,KRW,221582521760,제 34 기 3분기,60880452974,190463308973,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 35 기 3분기,25558806850,,,2,KRW,,제 34 기 3분기,9409451897,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 35 기 3분기,22372230480,,,3,KRW,,제 34 기 3분기,19937355607,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,연결실체의 변동,-,제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,23711994,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 35 기 3분기,-3671918719,,,9,KRW,,제 34 기 3분기,-2127527323,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 35 기 3분기,33000000,,,11,KRW,,제 34 기 3분기,50000000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_DispositionOfTreasuryShares,자기주식의 처분,-,제 35 기 3분기,0,,,12,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 35 기 3분기,17000000,,,13,KRW,,제 34 기 3분기,20000000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,유동성리스부채의 상환,-,제 35 기 3분기,426600000,,,14,KRW,,제 34 기 3분기,434160000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사로 인한 현금유입,-,제 35 기 3분기,0,,,15,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 35 기 3분기,1445756655,,,16,KRW,,제 34 기 3분기,2787801582,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 35 기 3분기,853081586,,,17,KRW,,제 34 기 3분기,3502087934,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 35 기 3분기,0,,,18,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 35 기 3분기,5528156960,,,19,KRW,,제 34 기 3분기,7958256839,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,장기보증금의 감소(증가),-,제 35 기 3분기,0,,,20,KRW,,제 34 기 3분기,5000000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 35 기 3분기,0,,,21,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업주식의 추가 취득,-,제 35 기 3분기,0,,,22,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,-,제 35 기 3분기,0,,,23,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기부채의 상환,-,제 35 기 3분기,0,,,24,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 35 기 3분기,-5083750078,,,25,KRW,,제 34 기 3분기,-341042546,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 35 기 3분기,0,,,26,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 35 기 3분기,0,,,27,KRW,,제 34 기 3분기,10000000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익인식금융자산의 처분,-,제 35 기 3분기,525097766,,,28,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsHeldToMaturity,만기보유금융자산의 처분,-,제 35 기 3분기,0,,,29,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업에 대한 투자자산의 처분,-,제 35 기 3분기,0,,,30,KRW,,제 34 기 3분기,18,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 35 기 3분기,0,,,31,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금및수취채권의 처분,-,제 35 기 3분기,8024000,,,32,KRW,,제 34 기 3분기,17997000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,상각후원가측정금융자산의 처분,-,제 35 기 3분기,5875000,,,33,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 35 기 3분기,7000000000,,,34,KRW,,제 34 기 3분기,500000000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 35 기 3분기,43673000,,,35,KRW,,제 34 기 3분기,15518000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,유동당기손익인식금융자산의 취득,-,제 35 기 3분기,0,,,36,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 35 기 3분기,1028710069,,,37,KRW,,제 34 기 3분기,657995451,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfFinancialAssetsHeldToMaturity,만기보유금융자산의 취득,-,제 35 기 3분기,0,,,38,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업에 대한 투자자산의 취득,-,제 35 기 3분기,0,,,39,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 취득,-,제 35 기 3분기,0,,,40,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 35 기 3분기,0,,,41,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 35 기 3분기,0,,,42,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 취득,-,제 35 기 3분기,0,,,43,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 35 기 3분기,11000000000,,,44,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금및수취채권의 취득,-,제 35 기 3분기,0,,,45,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities,기타예치보증금의 회수,-,제 35 기 3분기,81259220,,,46,KRW,,제 34 기 3분기,17504299,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 35 기 3분기,0,,,47,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 35 기 3분기,213925000,,,48,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 35 기 3분기,268225455,,,49,KRW,,제 34 기 3분기,9968182,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfAvailableforsaleFinancialAssets,매도가능금융자산의 취득,-,제 35 기 3분기,0,,,50,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 35 기 3분기,8426938,,,51,KRW,,제 34 기 3분기,869393,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod,지분법적용 투자지분의 취득,-,제 35 기 3분기,0,,,52,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 35 기 3분기,555582149,,,53,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities,기타예치보증금의 증가,-,제 35 기 3분기,40156009,,,54,KRW,,제 34 기 3분기,64622661,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 35 기 3분기,596954354,,,55,KRW,,제 34 기 3분기,168542540,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 35 기 3분기,5504606221,,,56,KRW,,제 34 기 3분기,12968926037,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 35 기 3분기,-2578643942,,,57,KRW,,제 34 기 3분기,8285630645,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품자산의 감소(증가),-,제 35 기 3분기,32300000,,,58,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAccruedIncome,미수수익의 감소(증가),-,제 35 기 3분기,0,,,59,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 감소(증가),-,제 35 기 3분기,573939058,,,60,KRW,,제 34 기 3분기,-649236484,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInCurrentTaxAssets,당기법인세자산의 감소(증가),-,제 35 기 3분기,0,,,61,KRW,,제 34 기 3분기,22462033,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermAccruedIncome,장기미수수익의 감소(증가),-,제 35 기 3분기,3656644,,,62,KRW,,제 34 기 3분기,-2211146,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermAdvancePayments,장기선급금의 감소(증가),-,제 35 기 3분기,-19000000,,,63,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermPrepaidExpenses,장기선급비용의 감소(증가),-,제 35 기 3분기,-18000000,,,64,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermTradeReceivable,장기매출채권의 감소(증가),-,제 35 기 3분기,3956905977,,,65,KRW,,제 34 기 3분기,7194377753,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherCurrentFinancialAssets,단기매매금융자산의 감소(증가),-,제 35 기 3분기,0,,,66,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 감소(증가),-,제 35 기 3분기,-175377825,,,67,KRW,,제 34 기 3분기,-227998435,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDerivativeLiabilities,파생상품부채의 증가(감소),-,제 35 기 3분기,-94710000,,,68,KRW,,제 34 기 3분기,-14460000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증가(감소),-,제 35 기 3분기,233984233,,,69,KRW,,제 34 기 3분기,149439494,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증가(감소),-,제 35 기 3분기,277250646,,,70,KRW,,제 34 기 3분기,51480738,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInDeferredTaxLiabilities,이연법인세부채의 증가(감소),-,제 35 기 3분기,0,,,71,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증가(감소),-,제 35 기 3분기,-14621530,,,72,KRW,,제 34 기 3분기,-20661181,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증가(감소),-,제 35 기 3분기,-22358089,,,73,KRW,,제 34 기 3분기,8287235,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 35 기 3분기,-8503810428,,,74,KRW,,제 34 기 3분기,-7123233420,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,환불자산의 감소(증가),-,제 35 기 3분기,-7750273,,,75,KRW,,제 34 기 3분기,-33828274,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 감소 (증가),-,제 35 기 3분기,-833671580,,,76,KRW,,제 34 기 3분기,-16537818,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 감소(증가),-,제 35 기 3분기,3694872369,,,77,KRW,,제 34 기 3분기,5989587014,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,환불부채의 증가(감소),-,제 35 기 3분기,7898454,,,78,KRW,,제 34 기 3분기,31142593,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증가(감소),-,제 35 기 3분기,-1670151598,,,79,KRW,,제 34 기 3분기,2927020543,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 35 기 3분기,1405503589,,,80,KRW,,제 34 기 3분기,1343860405,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 35 기 3분기,-42337167,,,81,KRW,,제 34 기 3분기,278493937,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익 조정,-,제 35 기 3분기,2671177,,,82,KRW,,제 34 기 3분기,315361,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익 조정,-,제 35 기 3분기,143400027,,,83,KRW,,제 34 기 3분기,299607036,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfFinancialAssets,금융자산처분이익,-,제 35 기 3분기,0,,,84,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익 조정,-,제 35 기 3분기,0,,,85,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfInvestmentProperty,투자부동산처분이익 조정,-,제 35 기 3분기,176537110,,,86,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfInvestmentsInAssociates,종속기업/관계기업/공동기업투자처분이익,-,제 35 기 3분기,0,,,87,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfReceivables,매출채권처분이익 조정,-,제 35 기 3분기,5000000,,,88,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfDerivativeFinancialAssets,파생금융자산평가이익 조정,-,제 35 기 3분기,0,,,89,KRW,,제 34 기 3분기,873277,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가이익 조정,-,제 35 기 3분기,509082773,,,90,KRW,,제 34 기 3분기,147750371,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForGainsOnTransactionOfDerivativeFinancialAssets,파생금융자산거래이익,-,제 35 기 3분기,32300000,,,91,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손 조정,-,제 35 기 3분기,0,,,92,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment,유형자산손상차손 조정,-,제 35 기 3분기,0,,,93,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOnAvailableForSaleFinancialAssets,매도가능금융자산손상차손 조정,-,제 35 기 3분기,0,,,94,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOnInvestmentsInAssociates,종속기업/관계기업/공동기업투자손상차손,-,제 35 기 3분기,0,,,95,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용 조정,-,제 35 기 3분기,21547175,,,96,KRW,,제 34 기 3분기,28643236,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryLiquidation,재고자산폐기손실,-,제 35 기 3분기,0,,,97,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryShrinkage,재고자산감모손실 조정,-,제 35 기 3분기,0,,,98,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실 조정,-,제 35 기 3분기,0,,,99,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnAbandonmentOfPropertyPlantAndEquipment,유형자산폐기손실 조정,-,제 35 기 3분기,0,,,100,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실 조정,-,제 35 기 3분기,0,,,101,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsofInvestmentsInAssociates,종속기업/관계기업/공동기업투자처분손실,-,제 35 기 3분기,0,,,102,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실 조정,-,제 35 기 3분기,151457918,,,103,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfDerivativeFinancialAssets,파생금융자산평가손실,-,제 35 기 3분기,0,,,104,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익인식금융자산평가손실 조정,-,제 35 기 3분기,30880769,,,105,KRW,,제 34 기 3분기,168182155,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실 조정,-,제 35 기 3분기,360346734,,,106,KRW,,제 34 기 3분기,92011440,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForLossesOnTransactionOfDerivativeFinancialAssets,파생금융자산거래손실,-,제 35 기 3분기,94710000,,,107,KRW,,제 34 기 3분기,14460000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익 조정,-,제 35 기 3분기,0,,,108,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForMiscellaneousLosses,잡손실 조정,-,제 35 기 3분기,0,,,109,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비 조정,-,제 35 기 3분기,0,,,110,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForOtherLossesWithoutCashFlowOut,사용권자산상각비,-,제 35 기 3분기,424141908,,,111,KRW,,제 34 기 3분기,413696759,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익 조정,-,제 35 기 3분기,60006439,,,112,KRW,,제 34 기 3분기,51163663,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForReversalsOfBadDebtExpenses,기타의 대손충당금환입,-,제 35 기 3분기,0,,,113,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForReversalsOfImpairmentLossesOnIntangibleAssets,무형자산손상차손환입 조정,-,제 35 기 3분기,0,,,114,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForReversalsOfInventories,재고자산평가손실환입 조정,-,제 35 기 3분기,981866825,,,115,KRW,,제 34 기 3분기,496898783,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForShareBasedPayment,주식보상비용(환입) 조정,-,제 35 기 3분기,0,,,116,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실 조정,-,제 35 기 3분기,928932784,,,117,KRW,,제 34 기 3분기,965537661,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,배당수익에 대한 조정,-,제 35 기 3분기,56945180,,,118,KRW,,제 34 기 3분기,51364100,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,급여,-,제 35 기 3분기,0,,,119,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,당기손익인식금융자산의처분,-,제 35 기 3분기,5331962,,,120,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,-표준계정코드 미사용-,무형자산폐기손실,-,제 35 기 3분기,0,,,121,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비에 대한 조정,-,제 35 기 3분기,8299712,,,122,KRW,,제 34 기 3분기,23424407,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비에 대한 조정,-,제 35 기 3분기,689443350,,,123,KRW,,제 34 기 3분기,769607804,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 35 기 3분기,1516474180,,,124,KRW,,제 34 기 3분기,682426856,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 35 기 3분기,805252281,,,125,KRW,,제 34 기 3분기,1044651259,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 35 기 3분기,56945180,,,126,KRW,,제 34 기 3분기,51364100,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 35 기 3분기,609532308,,,127,KRW,,제 34 기 3분기,650574783,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 35 기 3분기,2204886,,,128,KRW,,제 34 기 3분기,84933668,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 35 기 3분기,790088150,,,129,KRW,,제 34 기 3분기,1128130438,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 35 기 3분기,462033697,,,130,KRW,,제 34 기 3분기,815611397,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 35 기 3분기,64486206,,,131,KRW,,제 34 기 3분기,3835548,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 35 기 3분기,-3186576370,,,132,KRW,,제 34 기 3분기,10504191716,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,9557216000,,,3,KRW,,제 34 기 3분기,9557216000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,60651414235,,,3,KRW,,제 34 기 3분기,58795870149,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,-620098335,,,3,KRW,,제 34 기 3분기,-620098335,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 35 기 3분기,111629256770,,,3,KRW,,제 34 기 3분기,109553640016,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,4452467090,,,3,KRW,,제 34 기 3분기,4263191643,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,107176789680,,,3,KRW,,제 34 기 3분기,105290448373,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,37588257780,,,3,KRW,,제 34 기 3분기,37557460559,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),연결재무제표 [member],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_IncreaseDecreaseThroughChangesInAccountingPolicies,회계정책변경에 따른 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,4,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,연결재무제표 [member],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,5,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,6,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,113288044193,,,7,KRW,,제 34 기 3분기,107992516122,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,4783663015,,,7,KRW,,제 34 기 3분기,4410802635,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 35 기 3분기,118071707208,,111629256770,7,KRW,,제 34 기 3분기,112403318757,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,-620098335,,,7,KRW,,제 34 기 3분기,-620098335,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,37588257780,,,7,KRW,,제 34 기 3분기,37499000984,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,9557216000,,,7,KRW,,제 34 기 3분기,9557216000,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,66762668748,,,7,KRW,,제 34 기 3분기,61556397473,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",연결재무제표 [member],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,8,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,-58489575,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,12689416,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",연결재무제표 [member],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,-45770158,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,9,KRW,,제 34 기 3분기,-58459575,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,10,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 35 기 3분기,462033697,,,11,KRW,,제 34 기 3분기,815611397,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 35 기 3분기,331195925,,,11,KRW,,제 34 기 3분기,134921576,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 35 기 3분기,6111254513,,,11,KRW,,제 34 기 3분기,2760527324,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 35 기 3분기,0,,,11,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 35 기 3분기,6111254513,,,11,KRW,,제 34 기 3분기,2760527324,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 35 기 3분기,0,,,11,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS
+20251114000249,11014,2025,00223513,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 35 기 3분기,0,,,11,KRW,,제 34 기 3분기,0,,033320,제이씨현시스템,CFS

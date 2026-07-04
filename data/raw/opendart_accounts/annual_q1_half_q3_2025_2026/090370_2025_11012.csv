@@ -1,0 +1,209 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 26 기 반기말,259725934227,제 25 기말,133243438025,7,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 26 기 반기말,34769777385,제 25 기말,9490356663,8,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 26 기 반기말,125105472,제 25 기말,603104963,9,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 26 기 반기말,13961194999,제 25 기말,4269275896,10,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,-표준계정코드 미사용-,반품재고회수권,-,제 26 기 반기말,49174165,제 25 기말,39934858,11,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 26 기 반기말,9954799149,제 25 기말,1701296679,12,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 26 기 반기말,98270480,제 25 기말,117499630,13,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 26 기 반기말,3333674346,제 25 기말,1131054678,14,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 26 기 반기말,2092476398,제 25 기말,975186573,15,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 26 기 반기말,5055017006,제 25 기말,653003386,16,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 26 기 반기말,100065370,제 25 기말,0,17,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 26 기 반기말,224956156842,제 25 기말,123753081362,18,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 26 기 반기말,9000000,제 25 기말,3000000,19,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,-,제 26 기 반기말,1089000000,제 25 기말,3884100000,20,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 26 기 반기말,165750329,제 25 기말,174930640,21,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 26 기 반기말,19740428411,제 25 기말,9743691699,22,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 26 기 반기말,99102840735,제 25 기말,38120640750,23,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업에 대한 투자자산,-,제 26 기 반기말,58790051370,제 25 기말,51628973728,24,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,비유동 당기손익-공정가치의무측정금융자산,-,제 26 기 반기말,22309945866,제 25 기말,11132857505,25,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 비유동금융자산,-,제 26 기 반기말,0,제 25 기말,4997536823,26,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 26 기 반기말,2130326238,제 25 기말,1687291521,27,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 26 기 반기말,19767945900,제 25 기말,832416243,28,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 26 기 반기말,24949652,제 25 기말,47143995,29,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 26 기 반기말,1825918341,제 25 기말,1500498458,30,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 26 기 반기말,145529773470,제 25 기말,79454060439,32,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 26 기 반기말,73074379770,제 25 기말,78144367302,33,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 26 기 반기말,13137202558,제 25 기말,11409731753,34,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ConsiderationConversionRightsCapitalSurplus,사채전환권대가,-,제 26 기 반기말,3440791993,제 25 기말,3440791993,35,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ConsiderationStockWarrantsCapitalSurplus,신주인수권대가,-,제 26 기 반기말,747971789,제 25 기말,747971789,36,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_GainsSaleTreasuryStock,자기주식처분이익,-,제 26 기 반기말,663756050,제 25 기말,663756050,37,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_OtherCapitalSurplus,기타자본잉여금,-,제 26 기 반기말,2582496849,제 25 기말,855026044,38,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 26 기 반기말,5702185877,제 25 기말,5702185877,39,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_OtherCapitalAdjustments,기타자본조정,-,제 26 기 반기말,329140816,제 25 기말,1186303116,40,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 26 기 반기말,-149757140,제 25 기말,1715664838,41,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ComprehensiveIncomeGainsLossesEquityMethodSecurities,지분법기타포괄손익변동,-,제 26 기 반기말,252379154,제 25 기말,108470252,42,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ReserveOfGainsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산 평가손익,-,제 26 기 반기말,-402136294,제 25 기말,1607194586,43,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 26 기 반기말,62261722500,제 25 기말,62261722500,44,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_IssuedCapitalOfCommonStock,보통주자본금,-,제 26 기 반기말,62261722500,제 25 기말,62261722500,45,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 26 기 반기말,-2503928964,제 25 기말,1570945095,46,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 26 기 반기말,72455393700,제 25 기말,1309693137,47,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 26 기 반기말,259725934227,제 25 기말,133243438025,48,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 26 기 반기말,43954860509,제 25 기말,35550473537,50,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 26 기 반기말,4340143944,제 25 기말,4608852265,51,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 26 기 반기말,13057161755,제 25 기말,12075210823,52,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 26 기 반기말,3680449327,제 25 기말,121013944,53,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,-표준계정코드 미사용-,환불부채,-,제 26 기 반기말,213962810,제 25 기말,55592337,54,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,-표준계정코드 미사용-,유동성장기부채,-,제 26 기 반기말,12624033501,제 25 기말,12484753752,55,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentContractLiabilities,유동계약부채,-,제 26 기 반기말,0,제 25 기말,874226,56,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 26 기 반기말,1006913794,제 25 기말,913440933,57,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 26 기 반기말,5082534,제 25 기말,4818025,58,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 26 기 반기말,6220171851,제 25 기말,2906192020,59,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 26 기 반기말,627951691,제 25 기말,379725212,60,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_ShorttermBorrowings,유동 차입금(사채 포함),-,제 26 기 반기말,2178989302,제 25 기말,2000000000,61,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 26 기 반기말,114196160757,제 25 기말,53789377586,62,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 26 기 반기말,70241300248,제 25 기말,18238904049,63,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,dart_LongTermBorrowingsGross,"장기차입금(사채 포함), 총액",-,제 26 기 반기말,64369898274,제 25 기말,14446800001,64,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 26 기 반기말,553979243,제 25 기말,590779487,65,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 26 기 반기말,881373425,제 25 기말,692103358,66,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 26 기 반기말,214598070,제 25 기말,151642785,67,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 26 기 반기말,4197906795,제 25 기말,2333853231,68,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 26 기 반기말,23544441,제 25 기말,23725187,69,KRW,,,,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,dart_BadDebtExpensesSellingGeneralAdministrativeExpenses,"대손상각비(대손충당금환입), 판관비",-,제 26 기 반기,2796661776,,,2,KRW,2791378881,제 25 기 반기,50255761,74709835,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 26 기 반기,-5121723491,,,7,KRW,-5919932738,제 25 기 반기,-556931011,-1068414204,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 26 기 반기,-1169251912,,,8,KRW,597710546,제 25 기 반기,312136068,398142724,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 26 기 반기,606869880,,,9,KRW,630932993,제 25 기 반기,264426228,913286617,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 26 기 반기,2874513114,,,10,KRW,5369418246,제 25 기 반기,3707509619,6345012344,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod,지분법손익,-,제 26 기 반기,793970604,,,11,KRW,519821630,제 25 기 반기,103397993,-31314532,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 26 기 반기,-6703109216,,,12,KRW,-6760210325,제 25 기 반기,-747145283,-2283210045,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 26 기 반기,-798208206,,,14,KRW,-819914288,제 25 기 반기,-38745788,-129885528,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 26 기 반기,-5904901010,,,15,KRW,-5940296037,제 25 기 반기,-708399495,-2153324517,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 26 기 반기,11237471828,,,16,KRW,17992293147,제 25 기 반기,7597269419,13994318881,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 26 기 반기,-274.41,,,18,KRW,-277.31,제 25 기 반기,-29,-87,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 26 기 반기,-274.41,,,19,KRW,-277.31,제 25 기 반기,-29,-87,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 26 기 반기,-274.41,,,20,KRW,-277.31,제 25 기 반기,-29,-87,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 26 기 반기,-274.41,,,21,KRW,-277.31,제 25 기 반기,-29,-87,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 26 기 반기,833035438,,,22,KRW,1664660617,제 25 기 반기,449843411,904558749,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 26 기 반기,81261825,,,23,KRW,153910381,제 25 기 반기,72400238,161368210,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 26 기 반기,549451399,,,24,KRW,2240864389,제 25 기 반기,3200834369,5351307975,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 26 기 반기,-22303714,,,25,KRW,-38539404,제 25 기 반기,-31939696,-63879393,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 26 기 반기,130235362,,,26,KRW,145334062,제 25 기 반기,4181372,10973730,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 26 기 반기,129425803,,,27,KRW,143908902,제 25 기 반기,4181372,10973730,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLoss,지분법자본변동,-,제 26 기 반기,129425803,,,28,KRW,143908902,제 25 기 반기,4181372,10973730,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 26 기 반기,809559,,,29,KRW,1425160,제 25 기 반기,0,0,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금,-,제 26 기 반기,809559,,,30,KRW,1425160,제 25 기 반기,0,0,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 26 기 반기,-6833344578,,,31,KRW,-6905544387,제 25 기 반기,-751326655,-2294183775,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 26 기 반기,-798208206,,,33,KRW,-819914288,제 25 기 반기,-38745788,-129885528,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 26 기 반기,-6035136372,,,34,KRW,-6085630099,제 25 기 반기,-712580867,-2164298247,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 26 기 반기,-6855648292,,,35,KRW,-6944083791,제 25 기 반기,-783266351,-2358063168,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 26 기 반기,-6833344578,,,36,KRW,-6905544387,제 25 기 반기,-751326655,-2294183775,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 26 기 반기,11786923227,,,37,KRW,20233157536,제 25 기 반기,10798103788,19345626856,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 26 기 반기,1701296679,,,2,KRW,,제 25 기 반기,1669135949,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 26 기 반기,9954799149,,,3,KRW,,제 25 기 반기,526033865,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 26 기 반기,4856007827,,,8,KRW,,제 25 기 반기,648384386,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 26 기 반기,421340000,,,9,KRW,,제 25 기 반기,216665000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 26 기 반기,476000000,,,10,KRW,,제 25 기 반기,260320000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 26 기 반기,590600497,,,11,KRW,,제 25 기 반기,520216717,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 26 기 반기,278989302,,,12,KRW,,제 25 기 반기,2092283792,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 26 기 반기,100000000,,,13,KRW,,제 25 기 반기,615007987,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,-표준계정코드 미사용-,유동성장기부채의상환,-,제 26 기 반기,587621978,,,14,KRW,,제 25 기 반기,442329702,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업에 대한 소유지분의 변동으로 인한 현금유입,-,제 26 기 반기,5800581000,,,15,KRW,,제 25 기 반기,90000000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 26 기 반기,6225859327,,,16,KRW,,제 25 기 반기,-141430981,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 26 기 반기,28441000,,,17,KRW,,제 25 기 반기,1066988130,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 26 기 반기,189290000,,,18,KRW,,제 25 기 반기,79282000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_ProceedsFromSalesOfFinanceLeaseAssets,리스채권의 회수,-,제 26 기 반기,31854211,,,19,KRW,,제 25 기 반기,120573077,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업에 대한 투자자산의 취득,-,제 26 기 반기,3500000000,,,20,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 26 기 반기,0,,,21,KRW,,제 25 기 반기,50000000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금및수취채권의 취득,-,제 26 기 반기,990000000,,,22,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위변동으로 인한 순현금 유입액,-,제 26 기 반기,7818423039,,,23,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,주식양수 계약금의 지급,-,제 26 기 반기,0,,,24,KRW,,제 25 기 반기,1000000000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 26 기 반기,4066210018,,,25,KRW,,제 25 기 반기,49626177,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 26 기 반기,22437366,,,26,KRW,,제 25 기 반기,13087536,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 26 기 반기,420308902,,,27,KRW,,제 25 기 반기,6959200,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 26 기 반기,641907405,,,28,KRW,,제 25 기 반기,255464701,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 26 기 반기,-2828364684,,,29,KRW,,제 25 기 반기,-1650055489,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 26 기 반기,-2352207068,,,30,KRW,,제 25 기 반기,-1144426420,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 26 기 반기,-90958960,,,31,KRW,,제 25 기 반기,-152289610,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 26 기 반기,687312963,,,32,KRW,,제 25 기 반기,760407479,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 26 기 반기,120196387,,,33,KRW,,제 25 기 반기,102488800,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 26 기 반기,0,,,34,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 26 기 반기,8253502470,,,35,KRW,,제 25 기 반기,-1143102084,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 26 기 반기,72835923356,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,71965614851,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,870308505,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,870308505,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,3,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,78144367302,,,4,KRW,,제 25 기 반기,71842010036,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,1309693137,,,4,KRW,,제 25 기 반기,1560377279,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 26 기 반기,79454060439,,,4,KRW,,제 25 기 반기,73402387315,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,1715664838,,,4,KRW,,제 25 기 반기,155904828,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,1186303116,,,4,KRW,,제 25 기 반기,1218703116,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,11409731753,,,4,KRW,,제 25 기 반기,12706372003,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,62261722500,,,4,KRW,,제 25 기 반기,62261722500,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,1570945095,,,4,KRW,,제 25 기 반기,-4500692411,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,연결재무제표 [member],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,10973730,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,10973730,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,10973730,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_PurchaseDispostionOfAssociatesOrJointVenture,관계기업 및 공동기업 주식 취득 및 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,5,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,연결재무제표 [member],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,-5553319032,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ReclassificationAdjustments,결손보전,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,0,,,6,KRW,,제 25 기 반기,5553319032,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,1425160,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,연결재무제표 [member],제 26 기 반기,1425160,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,1425160,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_ShareOfRetainedEarningsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법 이익잉여금 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,7,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,연결재무제표 [member],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,-2009330880,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,2009330880,,,8,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 26 기 반기,145529773470,,79454060439,9,KRW,,제 25 기 반기,71209177270,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,72455393700,,,9,KRW,,제 25 기 반기,1520491751,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,73074379770,,,9,KRW,,제 25 기 반기,69688685519,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,-149757140,,,9,KRW,,제 25 기 반기,166878558,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,-2503928964,,,9,KRW,,제 25 기 반기,-1111671626,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,62261722500,,,9,KRW,,제 25 기 반기,62261722500,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,13137202558,,,9,KRW,,제 25 기 반기,7153052971,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,329140816,,,9,KRW,,제 25 기 반기,1218703116,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,연결재무제표 [member],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,857162300,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,-857162300,,,10,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,90000000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,연결재무제표 [member],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,90000000,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,11,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,-6085630099,,,12,KRW,,제 25 기 반기,-2164298247,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,-819914288,,,12,KRW,,제 25 기 반기,-129885528,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 26 기 반기,-6833344578,,,12,KRW,,제 25 기 반기,-751326655,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,0,,,12,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,12,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,12,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,12,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,-6085630099,,,12,KRW,,제 25 기 반기,-2164298247,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 26 기 반기,143908902,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 26 기 반기,0,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 26 기 반기,143908902,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 26 기 반기,0,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 26 기 반기,0,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 26 기 반기,0,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 26 기 반기,143908902,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS
+20250814003701,11012,2025,00442835,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 26 기 반기,0,,,13,KRW,,제 25 기 반기,0,,090370,메타랩스,CFS

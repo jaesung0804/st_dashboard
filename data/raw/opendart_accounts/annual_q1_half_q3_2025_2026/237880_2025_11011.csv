@@ -1,0 +1,177 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 29 기,299252972651,제 28 기,295426371283,제 27 기,279567882691,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 29 기,198008145808,제 28 기,186896152222,제 27 기,170734836445,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 29 기,99476896555,제 28 기,110965112234,제 27 기,41665820809,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentFinancialAssets,단기금융자산,-,제 29 기,40423067174,제 28 기,19985050000,제 27 기,82252178630,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 29 기,21313595757,제 28 기,17921292301,제 27 기,15647192154,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 29 기,31159156268,제 28 기,29482961589,제 27 기,22748100253,12,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 29 기,1518475401,제 28 기,3849157785,제 27 기,3136282562,13,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타유동금융자산,-,제 29 기,4116954653,제 28 기,4692578313,제 27 기,5285262037,14,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 29 기,101244826843,제 28 기,108530219061,제 27 기,108833046246,15,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 29 기,8988956075,제 28 기,6770157838,제 27 기,4764851422,16,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 29 기,1409577145,제 28 기,1746625655,제 27 기,1471311995,17,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업 및 공동기업투자,-,제 29 기,0,제 28 기,0,제 27 기,0,18,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 29 기,12315782475,제 28 기,13854692044,제 27 기,13904675418,19,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentFinancialAssets,장기금융자산,-,제 29 기,17351587146,제 28 기,25213373861,제 27 기,26620819672,20,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타비유동금융자산,-,제 29 기,362100985,제 28 기,145011249,제 27 기,364235989,21,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 29 기,59077702907,제 28 기,59636280319,제 27 기,59942131605,22,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_RightofuseAssets,리스사용권자산,-,제 29 기,1739120110,제 28 기,1164078095,제 27 기,1765020145,23,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 29 기,240875374419,제 28 기,233892856254,제 27 기,213698489596,25,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유지분,-,제 29 기,242965456302,제 28 기,234680354873,제 27 기,213777308592,26,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 29 기,92592779643,제 28 기,91633536309,제 27 기,91481430969,27,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본,-,제 29 기,-10660881137,제 28 기,-10663953012,제 27 기,-10964607672,28,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 29 기,243570037,제 28 기,151038818,제 27 기,69027249,29,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 29 기,9035676500,제 28 기,9035676500,제 27 기,9035676500,30,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 29 기,151754311259,제 28 기,144524056258,제 27 기,124155781546,31,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 29 기,-2090081883,제 28 기,-787498619,제 27 기,-78818996,32,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채 및 자본총계,-,제 29 기,299252972651,제 28 기,295426371283,제 27 기,279567882691,33,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 29 기,45177343754,제 28 기,46505968880,제 27 기,54104818129,35,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,dart_CurrentPortionOfBonds,사채,-,제 29 기,0,제 28 기,93648000,제 27 기,0,36,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 29 기,13534141,제 28 기,11204654,제 27 기,13468402,37,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,-,제 29 기,1249693670,제 28 기,626826593,제 27 기,1192023488,38,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,단기차입금,-,제 29 기,284465300,제 28 기,104436250,제 27 기,0,39,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 29 기,1270793165,제 28 기,3565316443,제 27 기,6626765663,40,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 29 기,7850342071,제 28 기,9300865407,제 27 기,10190004411,41,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 29 기,5582188565,제 28 기,5662064676,제 27 기,5453915046,42,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동충당부채,-,제 29 기,2077765237,제 28 기,1825881423,제 27 기,520357065,43,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 29 기,26848561605,제 28 기,25315725434,제 27 기,30108284054,44,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 29 기,58377598232,제 28 기,61533515029,제 27 기,65869393095,45,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 29 기,13200254478,제 28 기,15027546149,제 27 기,11764574966,46,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동리스부채,-,제 29 기,466897114,제 28 기,508799188,제 27 기,574421850,47,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 29 기,0,제 28 기,987049920,제 27 기,0,48,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 29 기,12097651510,제 28 기,13122197514,제 27 기,10788962127,49,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherLongtermProvisions,비유동충당부채,-,제 29 기,35081307,제 28 기,43275228,제 27 기,0,50,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 29 기,600624547,제 28 기,366224299,제 27 기,401190989,51,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 29 기,16435917068,제 28 기,24602690232,제 27 기,33809871290,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 29 기,986859563,제 28 기,1405769918,제 27 기,452988027,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 29 기,1934386722,제 28 기,208680889,제 27 기,163755324,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 29 기,144928993453,제 28 기,146692212986,제 27 기,132290892192,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 29 기,13992367365,제 28 기,26745575858,제 27 기,26529124214,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 29 기,-340268055,제 28 기,-708679623,제 27 기,-376975871,12,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 29 기,14332635420,제 28 기,27454255481,제 27 기,26906100085,13,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 29 기,167538560277,제 28 기,180070918131,제 27 기,164483733731,14,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 29 기,755,제 28 기,1550,제 27 기,1560,16,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 29 기,755,제 28 기,1550,제 27 기,1560,17,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 29 기,4784430039,제 28 기,1754456190,제 27 기,6987667845,18,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 29 기,4942361740,제 28 기,8285191617,제 27 기,8963783338,19,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 29 기,161364910521,제 28 기,171294903218,제 27 기,166100763482,20,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 29 기,2423675247,제 28 기,5174543360,제 27 기,8756183977,21,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,세후기타포괄이익,-,제 29 기,769721002,제 28 기,-410395470,제 27 기,-789911295,22,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 29 기,-86575916,제 28 기,-262287972,제 27 기,55561624,23,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 29 기,-86575916,제 28 기,-262287972,제 27 기,55561624,24,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 29 기,856296918,제 28 기,-148107498,제 27 기,-845472919,25,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,-,제 29 기,179107135,제 28 기,344299541,제 27 기,217359223,26,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,-,제 29 기,677189783,제 28 기,-492407039,제 27 기,-1062832142,27,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 29 기,13222646363,제 28 기,27155971328,제 27 기,27319035509,28,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 29 기,-340268055,제 28 기,-708679623,제 27 기,-376975871,30,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 29 기,13562914418,제 28 기,27864650951,제 27 기,27696011380,31,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순손익,-,제 29 기,15646321610,제 28 기,32330514688,제 27 기,36075219486,32,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 29 기,328903470798,제 28 기,351365821349,제 27 기,330584497213,33,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 29 기,110965112234,제 28 기,41665820809,제 27 기,44121340676,2,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 29 기,99476896555,제 28 기,110965112234,제 27 기,41665820809,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 29 기,-9198263244,제 28 기,-8983272508,제 27 기,-4331694762,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 29 기,0,제 28 기,0,제 27 기,10000000,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 29 기,9620625,제 28 기,14162500,제 27 기,3250000,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 29 기,1289535808,제 28 기,1308611394,제 27 기,1118045162,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 감소,-,제 29 기,95079000,제 28 기,90714000,제 27 기,0,12,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 29 기,707387760,제 28 기,412458415,제 27 기,0,13,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 29 기,106032101,제 28 기,181681999,제 27 기,0,14,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 29 기,7009849200,제 28 기,7003969200,제 27 기,3501984600,15,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업 유상증자,-,제 29 기,0,제 28 기,0,제 27 기,295085000,16,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 29 기,-14996396639,제 28 기,60255922618,제 27 기,-33208210810,17,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 29 기,10194488,제 28 기,500000,제 27 기,214721202,18,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_DecreaseInLoans,단기대여금의 감소,-,제 29 기,130419641,제 28 기,1250903232,제 27 기,639086358,19,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 29 기,23158100,제 28 기,0,제 27 기,303111000,20,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_IncreaseInLoans,단기대여금의 증가,-,제 29 기,0,제 28 기,0,제 27 기,3000000000,21,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_ProceedsFromSalesOfCurrentFairValueFinancialAsset,단기당기손익공정가치측정금융자산의 감소,-,제 29 기,5681248381,제 28 기,24342369529,제 27 기,20110026020,22,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,단기상각후원가측정금융자산의 감소,-,제 29 기,0,제 28 기,61000000000,제 27 기,18000000000,23,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentFairValueFinancialAsset,장기당기손익공정가치측정금융자산의 감소,-,제 29 기,0,제 28 기,6305739971,제 27 기,0,24,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,단기당기손익공정가치측정금융자산의 증가,-,제 29 기,29050000,제 28 기,0,제 27 기,0,25,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,단기상각후원가측정금융자산의 증가,-,제 29 기,20000000000,제 28 기,11000000000,제 27 기,59000000000,26,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,dart_PurchaseOfNonCurrentFairValueFinancialAsset,장기당기손익공정가치측정금융자산의 증가,-,제 29 기,0,제 28 기,17049799537,제 27 기,8999999556,27,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,-표준계정코드 미사용-,기타보증금의 감소,-,제 29 기,5609661,제 28 기,0,제 27 기,298640,28,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,-표준계정코드 미사용-,기타보증금의 증가,-,제 29 기,0,제 28 기,9707570,제 27 기,0,29,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업투자의 취득,-,제 29 기,0,제 28 기,3868959014,제 27 기,0,30,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 29 기,0,제 28 기,3641400,제 27 기,0,31,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 29 기,111369480,제 28 기,47500000,제 27 기,279187246,32,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 29 기,660291230,제 28 기,671265393,제 27 기,590045228,33,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 29 기,13245150540,제 28 기,17306037025,제 27 기,35725453818,34,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 29 기,17315337964,제 28 기,22915315199,제 27 기,38240850961,35,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금 수입,-,제 29 기,0,제 28 기,0,제 27 기,73157895,36,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 29 기,6565527351,제 28 기,9350501293,제 27 기,6059492373,37,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 29 기,4360898,제 28 기,-177625601,제 27 기,105195068,38,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 29 기,2499700825,제 28 기,3563597518,제 27 기,3576132403,39,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 29 기,-538706336,제 28 기,720604290,제 27 기,-641068113,40,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금의 증가(감소),-,제 29 기,-10949509343,제 28 기,68578687135,제 27 기,-1814451754,41,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 29 기,233892856254,제 28 기,213698489596,제 27 기,190376264982,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 29 기,-787498619,제 28 기,-78818996,제 27 기,0,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,234680354873,제 28 기,213777308592,제 27 기,190376264982,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,-10663953012,제 28 기,-10964607672,제 27 기,-10961535797,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,151038818,제 28 기,69027249,제 27 기,-203893598,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,144524056258,제 28 기,124155781546,제 27 기,101024586908,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,9035676500,제 28 기,9035676500,제 27 기,9035676500,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,91633536309,제 28 기,91481430969,제 27 기,91481430969,3,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,7009849200,제 28 기,7003969200,제 27 기,3501984600,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,연결재무제표 [member],제 29 기,7009849200,제 28 기,7003969200,제 27 기,3501984600,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,7009849200,제 28 기,7003969200,제 27 기,3501984600,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,4,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 29 기,240875374419,제 28 기,233892856254,제 27 기,213698489596,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 29 기,-2090081883,제 28 기,-787498619,제 27 기,-78818996,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,242965456302,제 28 기,234680354873,제 27 기,213777308592,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,9035676500,제 28 기,9035676500,제 27 기,9035676500,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,151754311259,제 28 기,144524056258,제 27 기,124155781546,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,243570037,제 28 기,151038818,제 27 기,69027249,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,-10660881137,제 28 기,-10663953012,제 27 기,-10964607672,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,92592779643,제 28 기,91633536309,제 27 기,91481430969,5,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,-86575916,제 28 기,-262287972,제 27 기,55561624,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 29 기,-86575916,제 28 기,-262287972,제 27 기,55561624,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,-86575916,제 28 기,-262287972,제 27 기,55561624,6,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,0,제 28 기,452760000,제 27 기,-3071875,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,298156875,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,연결재무제표 [member],제 29 기,0,제 28 기,452760000,제 27 기,295085000,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,300654660,제 27 기,-3071875,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업 유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,152105340,제 27 기,0,7,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,962315209,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|비지배지분 [구성요소],제 29 기,-962315209,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,연결재무제표 [member],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,3071875,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,959243334,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,연결재무제표 [member],제 29 기,179107135,제 28 기,344299541,제 27 기,217359223,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,179107135,제 28 기,344299541,제 27 기,217359223,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,179107135,제 28 기,344299541,제 27 기,217359223,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,연결재무제표 [member],제 29 기,677189783,제 28 기,-492407039,제 27 기,-1062832142,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,677189783,제 28 기,-492407039,제 27 기,-1062832142,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,677189783,제 28 기,-492407039,제 27 기,-1062832142,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 29 기,13222646363,제 28 기,27155971328,제 27 기,27319035509,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 29 기,-340268055,제 28 기,-708679623,제 27 기,-376975871,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,13562914418,제 28 기,27864650951,제 27 기,27696011380,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,13562914418,제 28 기,27864650951,제 27 기,27696011380,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,237880,클리오,CFS
+20260323001466,11011,2025,00957735,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,237880,클리오,CFS

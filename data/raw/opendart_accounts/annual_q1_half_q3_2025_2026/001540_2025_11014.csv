@@ -1,0 +1,176 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 68 기 3분기말,303423475722,제 67 기말,302535318896,7,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 68 기 3분기말,134335376329,제 67 기말,134772259823,8,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 68 기 3분기말,33585712165,제 67 기말,58722087230,9,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 68 기 3분기말,43372276858,제 67 기말,15844347267,10,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익공정가치측정금융자산,-,제 68 기 3분기말,7503790901,제 67 기말,11594028788,11,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 68 기 3분기말,45651915702,제 67 기말,44671989792,12,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 68 기 3분기말,1671853451,제 67 기말,1346540659,13,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 68 기 3분기말,249827252,제 67 기말,293266087,14,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 68 기 3분기말,2300000000,제 67 기말,2300000000,15,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 68 기 3분기말,169088099393,제 67 기말,167763059073,16,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 68 기 3분기말,976031490,제 67 기말,379031490,17,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 68 기 3분기말,2731613057,제 67 기말,2085777580,18,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 68 기 3분기말,3702342095,제 67 기말,3901374716,19,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 68 기 3분기말,12775293210,제 67 기말,12942395273,20,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 68 기 3분기말,13294160249,제 67 기말,13135432885,21,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익공정가치측정금융자산,-,제 68 기 3분기말,4911811100,제 67 기말,4112716000,22,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산,-,제 68 기 3분기말,9983114899,제 67 기말,10415547096,23,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 68 기 3분기말,162597233,제 67 기말,170808639,24,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 68 기 3분기말,952790997,제 67 기말,550529591,25,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 68 기 3분기말,119598345063,제 67 기말,120069445803,26,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 68 기 3분기말,167292012795,제 67 기말,164743443563,28,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 68 기 3분기말,168350880415,제 67 기말,165675787274,29,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 68 기 3분기말,-784823274,제 67 기말,-784823274,30,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 68 기 3분기말,1059020122,제 67 기말,3494132697,31,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 68 기 3분기말,6521210000,제 67 기말,6521210000,32,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 68 기 3분기말,150180222221,제 67 기말,145070016505,33,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 68 기 3분기말,11375251346,제 67 기말,11375251346,34,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 68 기 3분기말,-1058867620,제 67 기말,-932343711,35,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와 자본총계,-,제 68 기 3분기말,303423475722,제 67 기말,302535318896,36,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 68 기 3분기말,74976225631,제 67 기말,77059152882,38,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 68 기 3분기말,13099693572,제 67 기말,10264943976,39,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 68 기 3분기말,4350235148,제 67 기말,4461288880,40,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 68 기 3분기말,1550649069,제 67 기말,3651920558,41,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타금융부채,-,제 68 기 3분기말,32317396999,제 67 기말,29334962378,42,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 68 기 3분기말,1358250843,제 67 기말,2046037090,43,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입부채,-,제 68 기 3분기말,22300000000,제 67 기말,27300000000,44,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 68 기 3분기말,136131462927,제 67 기말,137791875333,45,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 68 기 3분기말,61155237296,제 67 기말,60732722451,46,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,dart_PostemploymentBenefitObligations,순확정급여부채,-,제 68 기 3분기말,8636923827,제 67 기말,9022863131,47,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,-표준계정코드 미사용-,장기차입부채,-,제 68 기 3분기말,50000000000,제 67 기말,50000000000,48,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타금융부채,-,제 68 기 3분기말,2381926138,제 67 기말,1590017940,49,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 68 기 3분기말,136387331,제 67 기말,119841380,50,KRW,,,,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 68 기 3분기,4884070059,,,6,KRW,15705743448,제 67 기 3분기,707596347,5457532027,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 68 기 3분기,8220404,,,7,KRW,144909117,제 67 기 3분기,481093157,16091912601,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 68 기 3분기,2517228,,,8,KRW,810756193,제 67 기 3분기,120382997,757298200,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 68 기 3분기,41941014159,,,9,KRW,119424356654,제 67 기 3분기,37587461814,108449183720,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,-표준계정코드 미사용-,관계기업에 대한 지분법손익,-,제 68 기 3분기,-86821731,,,10,KRW,-191272636,제 67 기 3분기,-872355571,2764159847,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,-표준계정코드 미사용-,경상연구개발비,-,제 68 기 3분기,4679910926,,,11,KRW,14234902045,제 67 기 3분기,3097348935,8580813235,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 68 기 3분기,3289869097,,,12,KRW,7547628261,제 67 기 3분기,-562233222,16386532258,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 68 기 3분기,-6780066,,,14,KRW,-126523909,제 67 기 3분기,37757563,-27620228,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 68 기 3분기,3296649163,,,15,KRW,7674152170,제 67 기 3분기,-599990785,16414152486,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 68 기 3분기,26185496674,,,16,KRW,80900168173,제 67 기 3분기,26115119373,77935859223,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순손익,-,제 68 기 3분기,296,,,18,KRW,885,제 67 기 3분기,-36,1498,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당순손익,-,제 68 기 3분기,296,,,19,KRW,885,제 67 기 3분기,-36,1498,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 68 기 3분기,639371865,,,20,KRW,2276117614,제 67 기 3분기,857022516,2406039054,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 68 기 3분기,263453601,,,21,KRW,667818263,제 67 기 3분기,248903050,812929086,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 68 기 3분기,51504995144,,,22,KRW,149365002147,제 67 기 3분기,41392407096,122487528982,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 68 기 3분기,1069237226,,,23,KRW,3307507646,제 67 기 3분기,-39772039,4963294551,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 68 기 3분기,-67926917,,,24,KRW,-2385188478,제 67 기 3분기,-189836731,-613369498,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 항목,-,제 68 기 3분기,-67926917,,,25,KRW,-2385188478,제 67 기 3분기,-189836731,-613369498,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,-표준계정코드 미사용-,기타포괄손익공정가치평가손익,-,제 68 기 3분기,-66068966,,,26,KRW,-2378229423,제 67 기 3분기,-189797874,-613149884,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 68 기 3분기,-1857951,,,27,KRW,-6959055,제 67 기 3분기,-38857,-931438,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 68 기 3분기,0,,,28,KRW,0,제 67 기 3분기,0,711824,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ProfitLoss,분기순이익(손실),-,제 68 기 3분기,3357796014,,,29,KRW,9932816739,제 67 기 3분기,-372396491,16999901756,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 68 기 3분기,-7617203,,,31,KRW,-128225480,제 67 기 3분기,37757563,-27620228,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 68 기 3분기,3365413217,,,32,KRW,10061042219,제 67 기 3분기,-410154054,17027521984,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 68 기 3분기,4427033240,,,33,KRW,13240324385,제 67 기 3분기,-412168530,21963196307,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 68 기 3분기,77690491818,,,34,KRW,230265170320,제 67 기 3분기,67507526469,200423388205,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 68 기 3분기,15844347267,,,2,KRW,,제 67 기 3분기,28991325759,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 68 기 3분기,43372276858,,,3,KRW,,제 67 기 3분기,21719231496,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 68 기 3분기,-10175802832,,,8,KRW,,제 67 기 3분기,57247363398,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 68 기 3분기,175042232,,,9,KRW,,제 67 기 3분기,252256302,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 68 기 3분기,5000760600,,,10,KRW,,제 67 기 3분기,2500380300,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 증가,-,제 68 기 3분기,0,,,11,KRW,,제 67 기 3분기,60000000000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 68 기 3분기,5000000000,,,12,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 68 기 3분기,-5717815728,,,13,KRW,,제 67 기 3분기,-69640846335,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_ProceedsFromSalesOfCurrentFairValueFinancialAsset,당기손익공정가치측정금융자산의 처분,-,제 68 기 3분기,21241501283,,,14,KRW,,제 67 기 3분기,3884366934,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 회수,-,제 68 기 3분기,3000000,,,15,KRW,,제 67 기 3분기,13614540,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의 처분,-,제 68 기 3분기,4736415032,,,16,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 처분,-,제 68 기 3분기,30418000,,,17,KRW,,제 67 기 3분기,43490800,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 68 기 3분기,2376323105,,,18,KRW,,제 67 기 3분기,8774354507,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_PurchaseOfCurrentFairValueFinancialAsset,당기손익공정가치측정금융자산의 취득,-,제 68 기 3분기,17756643047,,,19,KRW,,제 67 기 3분기,11761729038,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_PurchaseOfNonCurrentAvailableForSaleFinancialAssets,기타포괄손익공정가치측정금융자산의 취득,-,제 68 기 3분기,7325623798,,,20,KRW,,제 67 기 3분기,597717774,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_PurchaseOfOtherFinancialAssets,기타금융자산의 취득,-,제 68 기 3분기,424468000,,,21,KRW,,제 67 기 3분기,20700000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 68 기 3분기,2300000000,,,22,KRW,,제 67 기 3분기,5900000000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,-표준계정코드 미사용-,장기금융상품의 취득,-,제 68 기 3분기,-600000000,,,23,KRW,,제 67 기 3분기,-300127820,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 68 기 3분기,51958000,,,24,KRW,,제 67 기 3분기,18000000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 68 기 3분기,0,,,25,KRW,,제 67 기 3분기,530026806,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 68 기 3분기,0,,,26,KRW,,제 67 기 3분기,11270791377,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 68 기 3분기,87500000,,,27,KRW,,제 67 기 3분기,363554000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자주식의 취득,-,제 68 기 3분기,350000000,,,28,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 68 기 3분기,5313196303,,,29,KRW,,제 67 기 3분기,75231662667,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 68 기 3분기,43454879918,,,30,KRW,,제 67 기 3분기,5093598207,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 68 기 3분기,50766579915,,,31,KRW,,제 67 기 3분기,7040610242,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,-표준계정코드 미사용-,분기순이익(손실),-,제 68 기 3분기,9932816739,,,32,KRW,,제 67 기 3분기,16999901756,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,-표준계정코드 미사용-,분기순이익(손실)조정을 위한 가감,-,제 68 기 3분기,16210775351,,,33,KRW,,제 67 기 3분기,-250616496,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,-표준계정코드 미사용-,영업활동으로 인한 자산 부채의 변동,-,제 68 기 3분기,24622987825,,,34,KRW,,제 67 기 3분기,-9708675018,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 68 기 3분기,63028514,,,35,KRW,,제 67 기 3분기,25628784,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 68 기 3분기,5410983344,,,36,KRW,,제 67 기 3분기,484851434,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 68 기 3분기,2162555653,,,37,KRW,,제 67 기 3분기,1850676239,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 68 기 3분기,198810486,,,38,KRW,,제 67 기 3분기,362886854,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 68 기 3분기,-33331767,,,39,KRW,,제 67 기 3분기,27790467,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증감,-,제 68 기 3분기,27561261358,,,40,KRW,,제 67 기 3분기,-7299884730,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,연결재무제표 [member],제 68 기 3분기,-2378229423,,,3,KRW,,제 67 기 3분기,-613149884,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,3,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-2378229423,,,3,KRW,,제 67 기 3분기,-613149884,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,3,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,-2378229423,,,3,KRW,,제 67 기 3분기,-613149884,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,3,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,3,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_ChangesInReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,3,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,165675787274,,,4,KRW,,제 67 기 3분기,152086315469,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,-932343711,,,4,KRW,,제 67 기 3분기,-420652918,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 68 기 3분기,164743443563,,,4,KRW,,제 67 기 3분기,151665662551,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-784823274,,,4,KRW,,제 67 기 3분기,-784823274,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,11375251346,,,4,KRW,,제 67 기 3분기,11375251346,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,6521210000,,,4,KRW,,제 67 기 3분기,6521210000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,145070016505,,,4,KRW,,제 67 기 3분기,131553064445,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,3494132697,,,4,KRW,,제 67 기 3분기,3421612952,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,연결재무제표 [member],제 68 기 3분기,-6959055,,,5,KRW,,제 67 기 3분기,-931438,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,5,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-6959055,,,5,KRW,,제 67 기 3분기,-931438,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,5,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,-6959055,,,5,KRW,,제 67 기 3분기,-931438,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,5,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,5,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_OtherTransactions,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,5,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,연결재무제표 [member],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,56883152,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익공정가치측정 처분으로 인한 대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,-56883152,,,6,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,5000760600,,,7,KRW,,제 67 기 3분기,2500380300,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,연결재무제표 [member],제 68 기 3분기,5000760600,,,7,KRW,,제 67 기 3분기,2500380300,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,5000760600,,,7,KRW,,제 67 기 3분기,2500380300,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,7,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,168350880415,,,8,KRW,,제 67 기 3분기,166000087655,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,-1058867620,,,8,KRW,,제 67 기 3분기,-448273146,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 68 기 3분기,167292012795,,164743443563,8,KRW,,제 67 기 3분기,165551814509,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-784823274,,,8,KRW,,제 67 기 3분기,-784823274,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,11375251346,,,8,KRW,,제 67 기 3분기,11375251346,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,6521210000,,,8,KRW,,제 67 기 3분기,6521210000,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,150180222221,,,8,KRW,,제 67 기 3분기,146079274691,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,1059020122,,,8,KRW,,제 67 기 3분기,2809174892,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,연결재무제표 [member],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,711824,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,711824,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,711824,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,9,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,연결재무제표 [member],제 68 기 3분기,1701571,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,1701571,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,10,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),연결재무제표 [member],제 68 기 3분기,3357796014,,,11,KRW,,제 67 기 3분기,-372396491,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,-128225480,,,11,KRW,,제 67 기 3분기,-27620228,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,10061042219,,,11,KRW,,제 67 기 3분기,17027521984,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,11,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,11,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,10061042219,,,11,KRW,,제 67 기 3분기,17027521984,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,11,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS
+20251114000985,11014,2025,00139205,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,11,KRW,,제 67 기 3분기,0,,001540,안국약품,CFS

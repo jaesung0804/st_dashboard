@@ -1,0 +1,143 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 12 기,73997083543,제 11 기,33801389808,제 10 기,39583356773,7,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 12 기,22520967187,제 11 기,17479567881,제 10 기,18534589708,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 12 기,,제 11 기,1356367078,제 10 기,,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 12 기,16609904590,제 11 기,461682515,제 10 기,226594324,10,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,-표준계정코드 미사용-,기타수취채권,-,제 12 기,1609337125,제 11 기,1237082278,제 10 기,196550726,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 12 기,3027893286,제 11 기,13035919889,제 10 기,17742054559,12,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CurrentFinanceLeaseReceivables,유동성금융리스채권,-,제 12 기,24897807,제 11 기,,제 10 기,,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정 금융자산,-,제 12 기,,제 11 기,1021636793,제 10 기,,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 12 기,68481550,제 11 기,68756010,제 10 기,108257610,15,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 12 기,1180452829,제 11 기,298123318,제 10 기,261132489,16,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 12 기,51476116356,제 11 기,16321821927,제 10 기,21048767065,17,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 12 기,240000000,제 11 기,,제 10 기,,18,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,-표준계정코드 미사용-,기타장기수취채권,-,제 12 기,4254827851,제 11 기,754620568,제 10 기,1793570095,19,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_FinanceLeaseReceivables,금융리스채권,-,제 12 기,54395156,제 11 기,,제 10 기,,20,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 12 기,19149329259,제 11 기,1897923305,제 10 기,1946043425,21,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 12 기,,제 11 기,38705797,제 10 기,,22,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialAssets,파생상품자산,-,제 12 기,502501268,제 11 기,,제 10 기,,23,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정 금융자산,-,제 12 기,8955120901,제 11 기,3616128880,제 10 기,2038421873,24,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산,-,제 12 기,10047963951,제 11 기,4855200000,제 10 기,9174765465,25,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 12 기,,제 11 기,3891906,제 10 기,9729738,26,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 12 기,8271977970,제 11 기,5155351471,제 10 기,6086236469,27,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CapitalAdjustments,자본조정,-,제 12 기,13132470277,제 11 기,7698010721,제 10 기,6441262875,29,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 12 기,82654119064,제 11 기,77308485559,제 10 기,73452979892,30,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 12 기,-5687322837,제 11 기,-1356423406,제 10 기,2460580404,31,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 12 기,30098074615,제 11 기,25845114675,제 10 기,29345121319,32,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 12 기,29862096500,제 11 기,28732609500,제 10 기,25310650500,33,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_RetainedEarnings,결손금,-,제 12 기,-89863288389,제 11 기,-86537567699,제 10 기,-78320352352,34,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 12 기,73997083543,제 11 기,33801389808,제 10 기,39583356773,35,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 12 기,10122299149,제 11 기,5717340058,제 10 기,3558746584,37,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CurentPortionOfFinanceLeaseLiabilities,유동성금융리스부채,-,제 12 기,2195232445,제 11 기,1101712429,제 10 기,946162529,38,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생상품부채,-,제 12 기,802117984,제 11 기,1307841723,제 10 기,190253080,39,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,전환사채,-,제 12 기,1332015207,제 11 기,2169822844,제 10 기,703825541,40,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 12 기,671001868,제 11 기,308713441,제 10 기,526736135,41,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,기타채무,-,제 12 기,5121931645,제 11 기,829249621,제 10 기,1191769299,42,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 12 기,43899008928,제 11 기,7956275133,제 10 기,10238235454,43,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 12 기,33776709779,제 11 기,2238935075,제 10 기,6679488870,44,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_ConvertibleBonds,전환사채,-,제 12 기,24311701841,제 11 기,,제 10 기,,45,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,기타장기채무,-,제 12 기,26953451,제 11 기,,제 10 기,,46,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,파생상품부채,-,제 12 기,3812157502,제 11 기,,제 10 기,,47,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,dart_NonCurrentFinanceLeaseLiabilities,금융리스부채,-,제 12 기,4922560417,제 11 기,823316941,제 10 기,1808650117,48,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 12 기,66427170,제 11 기,,제 10 기,,49,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 12 기,381909398,제 11 기,119771966,제 10 기,113308992,50,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타금융부채,-,제 12 기,255000000,제 11 기,,제 10 기,,51,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 12 기,,제 11 기,1295846168,제 10 기,4757529761,52,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 12 기,1392536492,제 11 기,-8937199488,제 10 기,-16159833315,6,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,-표준계정코드 미사용-,영업외손익,-,제 12 기,-4812742957,제 11 기,1062700188,제 10 기,3851399477,7,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 12 기,1629995292,제 11 기,27454235,제 10 기,3516482818,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 12 기,1415552812,제 11 기,23813035,제 10 기,446656346,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익,-,제 12 기,-36398998,제 11 기,-245059668,제 10 기,-272663213,10,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 12 기,5882507121,제 11 기,384887522,제 10 기,211469063,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 12 기,891720682,제 11 기,1689006178,제 10 기,1265705281,12,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익(손실),-,제 12 기,-7656620121,제 11 기,-12034219157,제 10 기,-9487812752,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주 지분,-,제 12 기,-7656620121,제 11 기,-12034219157,제 10 기,-9487812752,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 12 기,-56,제 11 기,-158,제 10 기,-258,16,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 12 기,-56,제 11 기,-158,제 10 기,-258,17,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 12 기,-94485775,제 11 기,342716047,제 10 기,-270756839,18,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_OperatingExpense,영업비용,-,제 12 기,35329869619,제 11 기,16488239907,제 10 기,21620094230,19,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 12 기,-4330899431,제 11 기,-3817003810,제 10 기,2549864247,20,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 포괄손익,-,제 12 기,416645,제 11 기,30986990,제 10 기,-8683906,21,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 12 기,416645,제 11 기,30986990,제 10 기,-15439676,22,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,관계기업의 기타포괄손익에 대한 지분,-,제 12 기,,제 11 기,,제 10 기,6755770,23,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 포괄손익,-,제 12 기,-4331316076,제 11 기,-3847990800,제 10 기,2558548153,24,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 평가이익,-,제 12 기,-4331316076,제 11 기,-3847990800,제 10 기,2476020080,25,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업의 기타포괄손익에 대한 지분,-,제 12 기,,제 11 기,,제 10 기,82528073,26,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 12 기,-3325720690,제 11 기,-8217215347,제 10 기,-12037676999,27,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주 지분,-,제 12 기,-3325720690,제 11 기,-8217215347,제 10 기,-12037676999,28,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 12 기,-3420206465,제 11 기,-7874499300,제 10 기,-12308433838,29,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CIS,포괄손익계산서,ifrs-full_Revenue,영업수익,-,제 12 기,36722406111,제 11 기,7551040419,제 10 기,5460260915,30,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 12 기,13035919889,제 11 기,17742054559,제 10 기,27857843674,2,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 12 기,3027893286,제 11 기,13035919889,제 10 기,17742054559,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 12 기,31942131901,제 11 기,9354850968,제 10 기,4937269795,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유입액,-,제 12 기,33092969490,제 11 기,10277464667,제 10 기,6613741015,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 12 기,34582000,제 11 기,,제 10 기,,10,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 12 기,30000000000,제 11 기,3000000000,제 10 기,,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식매수선택권의 행사,-,제 12 기,1358390000,제 11 기,,제 10 기,129223000,12,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_ProceedsFromPaidinCapitalIncrease,유상증자,-,제 12 기,1699997490,제 11 기,7277464667,제 10 기,6484518015,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로 인한 현금유출액,-,제 12 기,-1150837589,제 11 기,-922613699,제 10 기,-1676471220,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_PaymentsForShareIssueCosts,주식발행비용,-,제 12 기,-28514000,제 11 기,,제 10 기,,15,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 12 기,-1122323589,제 11 기,-922613699,제 10 기,-1676471220,16,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 12 기,-33176024077,제 11 기,-2923655955,제 10 기,-1373029790,17,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로 인한 현금유입액,-,제 12 기,29755327088,제 11 기,5034596345,제 10 기,62000000,18,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInDepositsProvided,보증금의 감소,-,제 12 기,10118731,제 11 기,1094055,제 10 기,,19,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherFinancialAssets,기타금융자산의 감소,-,제 12 기,691653670,제 11 기,,제 10 기,50000000,20,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 12 기,2056027093,제 11 기,10000000,제 10 기,12000000,21,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_ProceedsFromDisposalOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치금융자산의 감소,-,제 12 기,4981633135,제 11 기,5023502290,제 10 기,,22,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업투자의 처분,-,제 12 기,61129268,제 11 기,,제 10 기,,23,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 12 기,17917937265,제 11 기,,제 10 기,,24,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 12 기,4036827926,제 11 기,,제 10 기,,25,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유출액,-,제 12 기,-62931351165,제 11 기,-7958252300,제 10 기,-1435029790,26,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 증가,-,제 12 기,-6883998,제 11 기,,제 10 기,,27,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 12 기,-5218951033,제 11 기,,제 10 기,-220000000,28,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산의 증가,-,제 12 기,-9999996000,제 11 기,,제 10 기,,29,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정 금융자산의 증가,-,제 12 기,-9221464701,제 11 기,-7599031400,제 10 기,-1049031400,30,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업에 대한 투자자산의 취득,-,제 12 기,,제 11 기,-235000000,제 10 기,,31,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 12 기,-240000000,제 11 기,,제 10 기,,32,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,-표준계정코드 미사용-,보증금의 증가,-,제 12 기,,제 11 기,-10017422,제 10 기,,33,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,-표준계정코드 미사용-,기타금융자산의 증가,-,제 12 기,-1992647008,제 11 기,,제 10 기,,34,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,-표준계정코드 미사용-,기타보증금의 증가,-,제 12 기,,제 11 기,,제 10 기,-1289224,35,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업취득으로 인한 순현금유출액,-,제 12 기,-2788868176,제 11 기,,제 10 기,,36,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 12 기,-32708391420,제 11 기,-8270000,제 10 기,-51325000,37,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 12 기,-754148829,제 11 기,-105933478,제 10 기,-113384166,38,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 12 기,-8786888817,제 11 기,-11178805139,제 10 기,-13662293596,39,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 사용된 현금,-,제 12 기,-8881660759,제 11 기,-11531508748,제 10 기,-14150404193,40,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급,-,제 12 기,323870,제 11 기,39501600,제 10 기,-87233812,41,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 12 기,-277532109,제 11 기,-88346200,제 10 기,-119008513,42,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 12 기,371980181,제 11 기,401548209,제 10 기,694352922,43,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시현금 및 현금성자산의 환율변동,-,제 12 기,12754390,제 11 기,41475456,제 10 기,-17735524,44,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금 및 현금성자산의 감소,-,제 12 기,-10020780993,제 11 기,-4747610126,제 10 기,-10098053591,45,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 12 기,-1356423406,제 11 기,2460580404,제 10 기,31061269,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|자본금 [구성요소],제 12 기,28732609500,제 11 기,25310650500,제 10 기,23228029000,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|이익잉여금 [구성요소],제 12 기,-86537567699,제 11 기,-78320352352,제 10 기,66401164558,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,85006496280,제 11 기,79894242767,제 10 기,73851879784,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 12 기,25845114675,제 11 기,29345121319,제 10 기,30709805495,3,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,전환사채의 발행,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,6336686507,제 11 기,803549648,제 10 기,,4,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_CompoundFinancialInstrumentIssue,전환사채의 발행,연결재무제표 [member],제 12 기,6336686507,제 11 기,803549648,제 10 기,,4,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 평가이익,연결재무제표 [member],제 12 기,-4331316076,제 11 기,-3847990800,제 10 기,2476020080,5,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융자산 평가이익,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 12 기,-4331316076,제 11 기,-3847990800,제 10 기,2476020080,5,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_RepaymentOfConvertibleInstruments,전환사채의 상환,연결재무제표 [member],제 12 기,,제 11 기,,제 10 기,-215556754,6,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,dart_RepaymentOfConvertibleInstruments,전환사채의 상환,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,,제 11 기,,제 10 기,-215556754,6,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 12 기,416645,제 11 기,30986990,제 10 기,-15439676,7,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 12 기,416645,제 11 기,30986990,제 10 기,-15439676,7,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환사채의 보통주 전환,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,508725052,제 11 기,,제 10 기,-2833900,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환사채의 보통주 전환,자본 [구성요소]|자본금 [구성요소],제 12 기,444406500,제 11 기,,제 10 기,,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환사채의 보통주 전환,연결재무제표 [member],제 12 기,953131552,제 11 기,,제 10 기,-2833900,8,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,주식선택권의 행사,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,929777840,제 11 기,,제 10 기,84223000,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,주식선택권의 행사,자본 [구성요소]|자본금 [구성요소],제 12 기,410000000,제 11 기,,제 10 기,45000000,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,주식선택권의 행사,연결재무제표 [member],제 12 기,1339777840,제 11 기,,제 10 기,129223000,9,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,연결재무제표 [member],제 12 기,1583389052,제 11 기,453198198,제 10 기,1729634122,10,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식보상비용,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,1583389052,제 11 기,453198198,제 10 기,1729634122,10,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ProceedsFromIssuingShares,유상증자,자본 [구성요소]|자본금 [구성요소],제 12 기,275080500,제 11 기,3421959000,제 10 기,2037621500,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ProceedsFromIssuingShares,유상증자,연결재무제표 [member],제 12 기,1696595110,제 11 기,7277464667,제 10 기,6484518015,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ProceedsFromIssuingShares,유상증자,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,1421514610,제 11 기,3855505667,제 10 기,4446896515,11,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|이익잉여금 [구성요소],제 12 기,-3325720690,제 11 기,-8217215347,제 10 기,-12037676999,12,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 12 기,-3325720690,제 11 기,-8217215347,제 10 기,-12037676999,12,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법기타포괄손익,연결재무제표 [member],제 12 기,,제 11 기,,제 10 기,87427936,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법기타포괄손익,자본 [구성요소]|이익잉여금 [구성요소],제 12 기,,제 11 기,,제 10 기,118489205,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법기타포괄손익,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 12 기,,제 11 기,,제 10 기,-31061269,13,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|이익잉여금 [구성요소],제 12 기,-89863288389,제 11 기,-86537567699,제 10 기,-78320352352,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|자본금 [구성요소],제 12 기,29862096500,제 11 기,28732609500,제 10 기,25310650500,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 12 기,-5687322837,제 11 기,-1356423406,제 10 기,2460580404,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|기타자본구성요소 [구성요소],제 12 기,95786589341,제 11 기,85006496280,제 10 기,79894242767,14,KRW,,205500,넥써쓰,CFS
+20260318001674,11011,2025,01042429,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 12 기,30098074615,제 11 기,25845114675,제 10 기,29345121319,14,KRW,,205500,넥써쓰,CFS

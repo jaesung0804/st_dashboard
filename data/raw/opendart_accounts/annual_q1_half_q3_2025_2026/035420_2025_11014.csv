@@ -1,0 +1,230 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 27 기 3분기말,40767072747396,제 26 기말,38167876036020,7,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 27 기 3분기말,10852084739864,제 26 기말,9374912034828,8,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_CurrentFinancialAssetDesignationAsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융자산,-,제 27 기 3분기말,522403761611,제 26 기말,412653427012,9,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 27 기 3분기말,5025261208303,제 26 기말,4195524637851,10,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 27 기 3분기말,31116558241,제 26 기말,15246426142,11,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 27 기 3분기말,21784759972,제 26 기말,21743796031,12,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 27 기 3분기말,285004634384,제 26 기말,214754613981,13,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 27 기 3분기말,3066529131137,제 26 기말,2859768247306,14,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 27 기 3분기말,1899984686216,제 26 기말,1655220886505,15,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 27 기 3분기말,29914988007532,제 26 기말,28792964001192,16,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 27 기 3분기말,97554676635,제 26 기말,71155872000,17,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치 측정 금융자산,-,제 27 기 3분기말,2202589336759,제 26 기말,2124997152940,18,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 27 기 3분기말,304287346703,제 26 기말,473629416181,19,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 27 기 3분기말,3609688308994,제 26 기말,3657186453124,20,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업 및 공동기업 투자,-,제 27 기 3분기말,16980936033754,제 26 기말,17406149463680,21,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 27 기 3분기말,97126726397,제 26 기말,97070332897,22,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 27 기 3분기말,2090236275087,제 26 기말,1218556164988,23,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentReceivables,매출채권및기타채권,-,제 27 기 3분기말,462469028459,제 26 기말,452109661559,24,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 27 기 3분기말,82022545960,제 26 기말,64979255449,25,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 27 기 3분기말,3241481035277,제 26 기말,2909592132861,26,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 27 기 3분기말,746596693507,제 26 기말,317538095513,27,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 27 기 3분기말,28791370363141,제 26 기말,27000911848337,29,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업 소유주지분,-,제 27 기 3분기말,27230128303365,제 26 기말,25459903574291,30,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 27 기 3분기말,1506820481093,제 26 기말,1422685316697,31,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 27 기 3분기말,-1508093755323,제 26 기말,-1944224642757,32,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 27 기 3분기말,16481339500,제 26 기말,16481339500,33,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 27 기 3분기말,27214920238095,제 26 기말,25964961560851,34,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 27 기 3분기말,1561242059776,제 26 기말,1541008274046,35,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본및부채총계,-,제 27 기 3분기말,40767072747396,제 26 기말,38167876036020,36,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 27 기 3분기말,8075522173112,제 26 기말,6092160669672,38,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_CurrentFinancialLiabilitiesDesignationAsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융부채,-,제 27 기 3분기말,576429217445,제 26 기말,561037204645,39,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentBondsIssuedAndCurrentPortionOfNoncurrentBondsIssued,유동성사채,-,제 27 기 3분기말,1570242331806,제 26 기말,0,40,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 27 기 3분기말,224521174573,제 26 기말,208497038211,41,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,유동성장기차입금,-,제 27 기 3분기말,0,제 26 기말,200000000000,42,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 27 기 3분기말,4799089917,제 26 기말,4186275528,43,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 27 기 3분기말,227276339134,제 26 기말,377616038486,44,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 27 기 3분기말,3729285539632,제 26 기말,3046601701872,45,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 27 기 3분기말,132887085153,제 26 기말,135389909719,46,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 27 기 3분기말,1610081395452,제 26 기말,1558832501211,47,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 27 기 3분기말,11975702384255,제 26 기말,11166964187683,48,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 27 기 3분기말,3900180211143,제 26 기말,5074803518011,49,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,매입채무및기타채무,-,제 27 기 3분기말,90109295467,제 26 기말,91281385940,50,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 27 기 3분기말,887771224259,제 26 기말,927727840271,51,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentFinancialLiabilitiesAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융부채,-,제 27 기 3분기말,0,제 26 기말,15392012800,52,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 27 기 3분기말,790611167552,제 26 기말,387635118602,53,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentBondsIssued,사채,-,제 27 기 3분기말,387263148632,제 26 기말,2007288715797,54,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 27 기 3분기말,796130628001,제 26 기말,863059968000,55,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 27 기 3분기말,19968163743,제 26 기말,19283443136,56,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 27 기 3분기말,928122752172,제 26 기말,762686537059,57,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동부채,-,제 27 기 3분기말,203831317,제 26 기말,448496406,58,KRW,,,,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 27 기 3분기,570646831171,,,6,KRW,1597501912182,제 26 기 3분기,525269664443,1437247915601,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 27 기 3분기,-28971402337,,,7,KRW,101068320098,제 26 기 3분기,17647045874,534671886371,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 27 기 3분기,26682414906,,,8,KRW,96939117353,제 26 기 3분기,-51460580892,167151032372,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익,-,제 27 기 3분기,276163321669,,,9,KRW,434692278228,제 26 기 3분기,73601059478,77491488079,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 27 기 3분기,792679233758,,,10,KRW,1828028096293,제 26 기 3분기,1002135340738,1411019579667,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 27 기 3분기,27198728599,,,12,KRW,-9454667976,제 26 기 3분기,1440992997,49378509283,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 27 기 3분기,765480505159,,,13,KRW,1837482764269,제 26 기 3분기,1000694347741,1361641070384,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순이익,-,제 27 기 3분기,4843,,,15,KRW,10934,제 26 기 3분기,3423,9016,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당순이익,-,제 27 기 3분기,4807,,,16,KRW,10833,제 26 기 3분기,3389,8908,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 27 기 3분기,57456960587,,,17,KRW,344468414786,제 26 기 3분기,82376398409,420106294393,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 27 기 3분기,69979388306,,,18,KRW,262835726513,제 26 기 3분기,19611490195,200330182533,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 27 기 3분기,122172045155,,,19,KRW,464878322524,제 26 기 3분기,123204440265,362869888874,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OperatingExpense,영업비용,-,제 27 기 3분기,2567407738330,,,20,KRW,7242421065439,제 26 기 3분기,2190287497113,6414850582023,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 27 기 3분기,57955512533,,,21,KRW,172284741518,제 26 기 3분기,472057561504,-6918037077,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 항목,-,제 27 기 3분기,96086150894,,,22,KRW,-372049389447,제 26 기 3분기,430262422180,143311897653,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 27 기 3분기,123971806278,,,23,KRW,-131596564350,제 26 기 3분기,-197618795552,48225098429,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 27 기 3분기,27885655384,,,24,KRW,240452825097,제 26 기 3분기,-627881217732,-95086799224,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 27 기 3분기,-38130638361,,,25,KRW,544334130965,제 26 기 3분기,41795139324,-150229934730,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,-,제 27 기 3분기,-30523813898,,,26,KRW,615701715240,제 26 기 3분기,40193224036,-102873123033,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,-,제 27 기 3분기,-129297071,,,27,KRW,-11478671662,제 26 기 3분기,-4909351504,-4620502324,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,-,제 27 기 3분기,230462417,,,28,KRW,230462417,제 26 기 3분기,0,0,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 27 기 3분기,0,,,29,KRW,-67180216417,제 26 기 3분기,0,-1189666250,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,-,제 27 기 3분기,0,,,30,KRW,-25971689,제 26 기 3분기,0,0,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 27 기 3분기,-7707989809,,,31,KRW,7086813076,제 26 기 3분기,6511266792,-41546643123,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ProfitLoss,분기순이익,-,제 27 기 3분기,734723721225,,,32,KRW,1655743354775,제 26 기 3분기,530077779234,1417937616744,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 27 기 3분기,8349322336,,,34,KRW,15745986086,제 26 기 3분기,9707938576,48603127720,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 27 기 3분기,726374398889,,,35,KRW,1639997368689,제 26 기 3분기,520369840658,1369334489024,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 27 기 3분기,856895766380,,,36,KRW,2120621677299,제 26 기 3분기,653282219499,1780807505618,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_Revenue,영업수익,-,제 27 기 3분기,3138054569501,,,37,KRW,8839922977621,제 26 기 3분기,2715557161556,7852098497624,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CIS,포괄손익계산서,ifrs-full_RevenueFromInterest,이자수익,-,제 27 기 3분기,53217003064,,,38,KRW,165930972417,제 26 기 3분기,48068777026,118323359799,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 27 기 3분기,4195524637851,,,2,KRW,,제 26 기 3분기,3576456533329,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,분기말현금및현금성자산,-,제 27 기 3분기,5025261208303,,,3,KRW,,제 26 기 3분기,4638685571277,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 27 기 3분기,-573200909584,,,8,KRW,,제 26 기 3분기,-40658534221,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_AdjustmentsForIncreaseInFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLossClassifiedAsFinancingActivities,당기손익-공정가치 측정 금융부채의 증가,-,제 27 기 3분기,0,,,9,KRW,,제 26 기 3분기,19199160694,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PaymentForConsolidatedCapitalTransactions,비지배지분과의 거래로 인한 현금유출,-,제 27 기 3분기,636075927,,,10,KRW,,제 26 기 3분기,96117423449,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 27 기 3분기,166411211853,,,11,KRW,,제 26 기 3분기,168716203499,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 27 기 3분기,0,,,12,KRW,,제 26 기 3분기,199320560000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromConsolidatedCapitalTransactions,비지배지분과의 거래로 인한 현금유입,-,제 27 기 3분기,2651683213,,,13,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식기준보상관련 현금유입,-,제 27 기 3분기,32133543258,,,14,KRW,,제 26 기 3분기,7420740739,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,비유동차입금의 차입,-,제 27 기 3분기,0,,,15,KRW,,제 26 기 3분기,185000000000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,유동차입금의 차입,-,제 27 기 3분기,1431175000,,,16,KRW,,제 26 기 3분기,68740215933,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 27 기 3분기,0,,,17,KRW,,제 26 기 3분기,250000000000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,비유동차입금의 상환,-,제 27 기 3분기,74421100000,,,18,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,유동차입금의 상환,-,제 27 기 3분기,200000000000,,,19,KRW,,제 26 기 3분기,319097998563,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,기타재무활동으로 인한 현금유입액,-,제 27 기 3분기,491858901,,,20,KRW,,제 26 기 3분기,7788970470,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,기타재무활동으로 인한 현금유출액,-,제 27 기 3분기,5339840,,,21,KRW,,제 26 기 3분기,442135846,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,종속회사 유상증자,-,제 27 기 3분기,1224274,,,22,KRW,,제 26 기 3분기,425230435480,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 27 기 3분기,168436666610,,,23,KRW,,제 26 기 3분기,118984856180,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 27 기 3분기,-724393440624,,,24,KRW,,제 26 기 3분기,-674274300964,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산의 처분,-,제 27 기 3분기,464341628881,,,25,KRW,,제 26 기 3분기,1989247607314,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 처분,-,제 27 기 3분기,11321418402,,,26,KRW,,제 26 기 3분기,1373894101,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업및공동기업투자주식의 처분,-,제 27 기 3분기,634593340756,,,27,KRW,,제 26 기 3분기,951342975988,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 27 기 3분기,67160000000,,,28,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 27 기 3분기,262781600,,,29,KRW,,제 26 기 3분기,99193600,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 27 기 3분기,3652159948233,,,30,KRW,,제 26 기 3분기,2884459864354,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 27 기 3분기,1210000000,,,31,KRW,,제 26 기 3분기,501633700,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산의 취득,-,제 27 기 3분기,680731775164,,,32,KRW,,제 26 기 3분기,1756250910617,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산의 취득,-,제 27 기 3분기,48993388741,,,33,KRW,,제 26 기 3분기,1019700000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업및공동기업투자주식의 취득,-,제 27 기 3분기,30333063106,,,34,KRW,,제 26 기 3분기,54348968351,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 27 기 3분기,93618805265,,,35,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 27 기 3분기,40600000000,,,36,KRW,,제 26 기 3분기,1100000000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 27 기 3분기,3858832698920,,,37,KRW,,제 26 기 3분기,4322942124424,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 27 기 3분기,760000000,,,38,KRW,,제 26 기 3분기,140000000,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,기타투자활동으로 인한 현금유입액,-,제 27 기 3분기,3218278419,,,39,KRW,,제 26 기 3분기,4374172869,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,기타투자활동으로 인한 현금유출액,-,제 27 기 3분기,5934581390,,,40,KRW,,제 26 기 3분기,2108603280,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,-표준계정코드 미사용-,리스채권의 회수,-,제 27 기 3분기,27966694606,,,41,KRW,,제 26 기 3분기,3978165433,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업의 처분,-,제 27 기 3분기,0,,,42,KRW,,제 26 기 3분기,-30528059560,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 현금의 순증감,-,제 27 기 3분기,88072262676,,,43,KRW,,제 26 기 3분기,49636133077,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 27 기 3분기,312417467,,,44,KRW,,제 26 기 3분기,1866689564,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 27 기 3분기,13706307098,,,45,KRW,,제 26 기 3분기,8132157717,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 27 기 3분기,27274651533,,,46,KRW,,제 26 기 3분기,16798264393,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 27 기 3분기,56393500,,,47,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 27 기 3분기,725438635791,,,48,KRW,,제 26 기 3분기,345834011022,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 27 기 3분기,2151290046352,,,49,KRW,,제 26 기 3분기,1721321875866,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 27 기 3분기,2608138506811,,,50,KRW,,제 26 기 3분기,2125270731916,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 27 기 3분기,21389660982,,,51,KRW,,제 26 기 3분기,54565270271,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,제 27 기 3분기,564875043129,,,52,KRW,,제 26 기 3분기,489338514309,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 27 기 3분기,75551186841,,,53,KRW,,제 26 기 3분기,76046064030,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수입,-,제 27 기 3분기,162188108529,,,54,KRW,,제 26 기 3분기,106870452018,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 27 기 3분기,-23959125692,,,55,KRW,,제 26 기 3분기,55839997267,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증감,-,제 27 기 3분기,829736570452,,,56,KRW,,제 26 기 3분기,1062229037948,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,16481339500,,,3,KRW,,제 26 기 3분기,16481339500,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,25964961560851,,,3,KRW,,제 26 기 3분기,24544359050688,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-1944224642757,,,3,KRW,,제 26 기 3분기,-2597430397696,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,연결재무제표 [member],제 27 기 3분기,27000911848337,,,3,KRW,,제 26 기 3분기,24237998815553,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,1541008274046,,,3,KRW,,제 26 기 3분기,1031956574557,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,25459903574291,,,3,KRW,,제 26 기 3분기,23206042240996,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,1422685316697,,,3,KRW,,제 26 기 3분기,1242632248504,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,4,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,-11557654888,,,4,KRW,,제 26 기 3분기,-4761647490,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,0,,,4,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,-11557654888,,,4,KRW,,제 26 기 3분기,-4761647490,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,78983226,,,4,KRW,,제 26 기 3분기,141145166,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,연결재무제표 [member],제 27 기 3분기,-129297071,,,4,KRW,,제 26 기 3분기,-4909351504,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,4,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,연결재무제표 [member],제 27 기 3분기,0,,,5,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,0,,,5,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,0,,,5,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,145915381815,,,5,KRW,,제 26 기 3분기,117402201099,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,-145915381815,,,5,KRW,,제 26 기 3분기,-117402201099,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,5,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,5,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,연결재무제표 [member],제 27 기 3분기,7218986553,,,6,KRW,,제 26 기 3분기,475932813425,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,-28474080283,,,6,KRW,,제 26 기 3분기,365022877599,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,35693066836,,,6,KRW,,제 26 기 3분기,110909935826,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-1112003228,,,6,KRW,,제 26 기 3분기,-3336401046,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,6,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,6,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,-표준계정코드 미사용-,비지배지분과의 거래 및 연결범위변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,36805070064,,,6,KRW,,제 26 기 3분기,114246336872,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,168436666610,,,7,KRW,,제 26 기 3분기,118984856180,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,0,,,7,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,연결재무제표 [member],제 27 기 3분기,168436666610,,,7,KRW,,제 26 기 3분기,118984856180,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,0,,,7,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,7,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,7,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_DividendsPaid,현금배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,168436666610,,,7,KRW,,제 26 기 3분기,118984856180,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,16481339500,,,8,KRW,,제 26 기 3분기,16481339500,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,27214920238095,,,8,KRW,,제 26 기 3분기,25671353787669,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-1508093755323,,,8,KRW,,제 26 기 3분기,-2452724714252,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,27230128303365,,,8,KRW,,제 26 기 3분기,24651072274921,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,1561242059776,,,8,KRW,,제 26 기 3분기,1504150558730,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 27 기 3분기,28791370363141,,27000911848337,8,KRW,,제 26 기 3분기,26155222833651,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,1506820481093,,,8,KRW,,제 26 기 3분기,1415961862004,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,9,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,9,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-107617708326,,,9,KRW,,제 26 기 3분기,49791660670,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,-107617708326,,,9,KRW,,제 26 기 3분기,49791660670,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,-23978856024,,,9,KRW,,제 26 기 3분기,-1566562241,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 27 기 3분기,123971806278,,,9,KRW,,제 26 기 3분기,-197618795552,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,9,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,연결재무제표 [member],제 27 기 3분기,123648098568,,,10,KRW,,제 26 기 3분기,149256481186,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,58162533989,,,10,KRW,,제 26 기 3분기,57792597291,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,65485564579,,,10,KRW,,제 26 기 3분기,91463883895,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,18155470247,,,10,KRW,,제 26 기 3분기,32380607267,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,10,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,10,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식기준보상거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,47330094332,,,10,KRW,,제 26 기 3분기,59083276628,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,연결재무제표 [member],제 27 기 3분기,230462417,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,0,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,230462417,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,230462417,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피 파생상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,11,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,1459156654,,,12,KRW,,제 26 기 3분기,-1349422977,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,614242558586,,,12,KRW,,제 26 기 3분기,-101523700056,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,614242558586,,,12,KRW,,제 26 기 3분기,-101523700056,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,12,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,12,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,12,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치 측정 지분상품 평가손익,연결재무제표 [member],제 27 기 3분기,615701715240,,,12,KRW,,제 26 기 3분기,-102873123033,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,13,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,-64128988132,,,13,KRW,,제 26 기 3분기,-1191047274,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,0,,,13,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,-64128988132,,,13,KRW,,제 26 기 3분기,-1191047274,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,-3051228285,,,13,KRW,,제 26 기 3분기,1381024,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 27 기 3분기,0,,,13,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,13,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-25971689,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,-25971689,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,0,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,연결재무제표 [member],제 27 기 3분기,0,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,14,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,연결재무제표 [member],제 27 기 3분기,734723721225,,,15,KRW,,제 26 기 3분기,530077779234,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,15745986086,,,15,KRW,,제 26 기 3분기,48603127720,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,1639997368689,,,15,KRW,,제 26 기 3분기,1369334489024,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,0,,,15,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,1639997368689,,,15,KRW,,제 26 기 3분기,1369334489024,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,15,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ProfitLoss,분기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,15,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 27 기 3분기,-233366012021,,,16,KRW,,제 26 기 3분기,53540156101,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 27 기 3분기,291290367,,,16,KRW,,제 26 기 3분기,3548840591,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기 3분기,-233657302388,,,16,KRW,,제 26 기 3분기,49991315510,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기 3분기,-233657302388,,,16,KRW,,제 26 기 3분기,49991315510,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기 3분기,0,,,16,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기 3분기,0,,,16,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS
+20251114001436,11014,2025,00266961,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기 3분기,0,,,16,KRW,,제 26 기 3분기,0,,035420,NAVER,CFS

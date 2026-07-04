@@ -1,0 +1,164 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 25 기,67455823286,제 24 기,54032055903,제 23 기,41023572287,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 25 기,35109135727,제 24 기,19878391669,제 23 기,15983457002,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 25 기,5021305918,제 24 기,13876743710,제 23 기,11057209997,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_ContractAssets,계약자산,-,제 25 기,3903339354,제 24 기,3512185347,제 23 기,1644451947,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 25 기,21605150,제 24 기,0,제 23 기,114790,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 25 기,3215435611,제 24 기,598441435,제 23 기,701330424,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 25 기,20098690329,제 24 기,30000000,제 23 기,0,13,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타 유동채권,-,제 25 기,447446223,제 24 기,462013447,제 23 기,466019225,14,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_TradeReceivables,매출채권,-,제 25 기,2401313142,제 24 기,1399007730,제 23 기,2114330619,15,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 25 기,32346687559,제 24 기,34153664234,제 23 기,25040115285,16,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 25 기,3927311578,제 24 기,1611665135,제 23 기,178542338,17,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 25 기,1129554677,제 24 기,1120456887,제 23 기,860519817,18,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 25 기,3220621725,제 24 기,4797029874,제 23 기,1815181656,19,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 25 기,1128584550,제 24 기,1141753355,제 23 기,642454194,20,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타 비유동채권,-,제 25 기,362380596,제 24 기,626109522,제 23 기,220041555,21,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 25 기,20580874552,제 24 기,22318511496,제 23 기,21218999438,22,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 25 기,1997359881,제 24 기,2538137965,제 23 기,104376287,23,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 25 기,38267529019,제 24 기,16118368182,제 23 기,3199735835,25,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 25 기,516287967,제 24 기,698688959,제 23 기,609674132,26,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 25 기,5143206445,제 24 기,5287347891,제 23 기,5287347891,27,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 25 기,48927876186,제 24 기,31702224943,제 23 기,15441982818,28,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 25 기,976916100,제 24 기,800642000,제 23 기,686364000,29,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 25 기,4023936655,제 24 기,8797177911,제 23 기,5658860960,30,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 25 기,67455823286,제 24 기,54032055903,제 23 기,41023572287,31,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 25 기,2409909586,제 24 기,2429156633,제 23 기,1427977136,33,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 25 기,598132413,제 24 기,644118728,제 23 기,67258642,34,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 25 기,10609240123,제 24 기,12895360850,제 23 기,10025971531,35,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentLoansReceivedAndCurrentPortionOfNoncurrentLoansReceived,단기차입금,-,제 25 기,1000000000,제 24 기,1000000000,제 23 기,3200000000,36,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 25 기,0,제 24 기,0,제 23 기,23328612,37,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 25 기,0,제 24 기,43705702,제 23 기,49626841,38,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 25 기,18527947100,제 24 기,22329830960,제 23 기,25581589469,39,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 25 기,7918706977,제 24 기,9434470110,제 23 기,15555617938,40,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,dart_ConvertibleRedeemablePreferredStockLiabilitiesNet,비유동우선주부채,-,제 25 기,0,제 24 기,0,제 23 기,6023266759,41,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,비유동파생상품부채,-,제 25 기,0,제 24 기,,제 23 기,1197721015,42,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_LoansReceived,장기차입금,-,제 25 기,5616190000,제 24 기,6749350000,제 23 기,7582510000,43,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 25 기,1402145191,제 24 기,1835854547,제 23 기,19057820,44,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 25 기,0,제 24 기,29228989,제 23 기,5796895,45,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 25 기,195941900,제 24 기,217816400,제 23 기,152816400,46,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 25 기,97206105,제 24 기,70503643,제 23 기,54322902,47,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 25 기,607223781,제 24 기,531716531,제 23 기,520126147,48,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,유동성장기부채,-,제 25 기,1133160000,제 24 기,3333160000,제 23 기,1833160000,49,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 25 기,3739389643,제 24 기,3871253331,제 23 기,1916027808,50,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 25 기,1728648481,제 24 기,1573966456,제 23 기,1508592492,51,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 25 기,-6798876860,제 24 기,2387692657,제 23 기,3004525128,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 25 기,120624067,제 24 기,44877913,제 23 기,74590043,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 25 기,6911445752,제 24 기,5164487501,제 23 기,5431773431,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 25 기,-4917382702,제 24 기,3138316951,제 23 기,3353233336,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 25 기,21137547535,제 24 기,22723445267,제 23 기,12969759064,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 25 기,-591,제 24 기,446,제 23 기,494,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 25 기,-591,제 24 기,444,제 23 기,494,13,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 25 기,422330855,제 24 기,1261873054,제 23 기,662943818,14,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 25 기,198799696,제 24 기,597662878,제 23 기,75708615,15,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 25 기,112568892,제 24 기,7552180158,제 23 기,8436298559,16,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 25 기,-2379480169,제 24 기,-1380089980,제 23 기,-965351536,17,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 25 기,-109699102,제 24 기,12707448,제 23 기,-38785070,18,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로당기손익으로재분류되지않는항목,-,제 25 기,-109699102,제 24 기,12707448,제 23 기,-38785070,19,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 25 기,34442344,제 24 기,12707448,제 23 기,-38785070,20,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,-,제 25 기,-144141446,제 24 기,0,제 23 기,0,21,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_OtherExpenseByNature,기타비용,-,제 25 기,-285379817,제 24 기,-22840871,제 23 기,-65213098,22,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기,-4807683600,제 24 기,3125609503,제 23 기,3392018406,23,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 25 기,-7187163769,제 24 기,1745519523,제 23 기,2426666870,24,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 25 기,21250116427,제 24 기,30275625425,제 23 기,21406057623,25,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 25 기,13876743710,제 24 기,11057209997,제 23 기,6908330356,2,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 25 기,5021305918,제 24 기,13876743710,제 23 기,11057209997,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 25 기,18360715199,제 24 기,4227686693,제 23 기,8279989062,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDerivativeLiabilities,파생상품부채의 증가(감소),-,제 25 기,0,제 24 기,1002164428,제 23 기,1246169640,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권 행사,-,제 25 기,424650260,제 24 기,0,제 23 기,0,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromIssuingConvertibleBonds,우선주부채의 증가,-,제 25 기,0,제 24 기,4381839972,제 23 기,6005429960,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 25 기,0,제 24 기,2500000000,제 23 기,2200000000,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 25 기,500000000,제 24 기,1000000000,제 23 기,3200000000,13,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 감소,-,제 25 기,500000000,제 24 기,3200000000,제 23 기,4809158000,14,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings,유동성장기차입금의 감소,-,제 25 기,-3333160000,제 24 기,-1833160000,제 23 기,-284330000,15,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_CashOutflowForLeases,리스부채의 감소,-,제 25 기,667513761,제 24 기,227271747,제 23 기,78122538,16,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_IncreaseDecreaseThroughConversionOfConvertibleInstruments,전환상환우선주의 전환,-,제 25 기,0,제 24 기,468480,제 23 기,0,17,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,-,제 25 기,0,제 24 기,417480,제 23 기,0,18,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_IssueOfEquity,유상증자,-,제 25 기,-21715138700,제 24 기,0,제 23 기,-800000000,19,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsFinancingActivities,정부보조금의 수령,-,제 25 기,221600000,제 24 기,605000000,제 23 기,0,20,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 25 기,-17893842498,제 24 기,-5172707619,제 23 기,-4154820902,21,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInDepositsProvided,보증금(비유등)의 감소,-,제 25 기,0,제 24 기,0,제 23 기,6705660,22,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInShortTermDepositsProvided,보증금(비유등)의 증가,-,제 25 기,0,제 24 기,-2204580,제 23 기,-3454000,23,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 25 기,45000000,제 24 기,315300000,제 23 기,41449000,24,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 25 기,27000000,제 24 기,297000000,제 23 기,601872225,25,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 25 기,0,제 24 기,0,제 23 기,500000000,26,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익공정가치측정금융자산의 처분,-,제 25 기,0,제 24 기,128185930,제 23 기,57718930,27,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가 측정금융자산의 감소,-,제 25 기,0,제 24 기,6900000,제 23 기,0,28,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialInstruments,정기예적금 감소,-,제 25 기,1000000000,제 24 기,9051567000,제 23 기,0,29,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익공정가치측정금융자산의 취득,-,제 25 기,19042159,제 24 기,651452100,제 23 기,283479092,30,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가 측정금융자산의 증가,-,제 25 기,0,제 24 기,5900000,제 23 기,0,31,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_PurchaseOfFinancialInstruments,정기예적금의 증가,-,제 25 기,21000000000,제 24 기,9051567000,제 23 기,0,32,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiariesJointVenturesAndAssociates,종속기업투자주식의 취득,-,제 25 기,0,제 24 기,0,제 23 기,800000000,33,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 25 기,0,제 24 기,0,제 23 기,9600000,34,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 25 기,2934944500,제 24 기,0,제 23 기,0,35,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 25 기,28532609,제 24 기,276727530,제 23 기,66047000,36,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 25 기,799212230,제 24 기,4389809339,제 23 기,1996242175,37,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 25 기,-9322250453,제 24 기,3764325156,제 23 기,23744573,38,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 25 기,4110628061,제 24 기,-635501574,제 23 기,3663825031,39,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 25 기,161207785,제 24 기,-380839025,제 23 기,-921613479,40,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),-,제 25 기,65474733,제 24 기,62196760,제 23 기,-716890,41,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 25 기,317974873,제 24 기,459308101,제 23 기,630738530,42,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 25 기,-140718599,제 24 기,-143879915,제 23 기,-3959359,43,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 25 기,-4807683600,제 24 기,3125609503,제 23 기,3392018406,44,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 25 기,-60040,제 24 기,229483,제 23 기,-33092,45,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 25 기,-8855377752,제 24 기,2819304230,제 23 기,4148912733,46,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,별도재무제표 [member],제 25 기,31702224943,제 24 기,15441982818,제 23 기,11743789209,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,698688959,제 24 기,609674132,제 23 기,264713859,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,5287347891,제 24 기,5287347891,제 23 기,5287347891,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,8797177911,제 24 기,5658860960,제 23 기,2305627624,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|자본금 [구성요소],제 25 기,800642000,제 24 기,686364000,제 23 기,686364000,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,16118368182,제 24 기,3199735835,제 23 기,3199735835,3,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,3244985,제 24 기,89014827,제 23 기,344960273,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,별도재무제표 [member],제 25 기,3244985,제 24 기,89014827,제 23 기,0,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,4,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,별도재무제표 [member],제 25 기,48927876186,제 24 기,31702224943,제 23 기,15441982818,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,516287967,제 24 기,698688959,제 23 기,609674132,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,5143206445,제 24 기,5287347891,제 23 기,5287347891,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,4023936655,제 24 기,8797177911,제 23 기,5658860960,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|자본금 [구성요소],제 25 기,976916100,제 24 기,800642000,제 23 기,686364000,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,38267529019,제 24 기,16118368182,제 23 기,3199735835,5,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,별도재무제표 [member],제 25 기,0,제 24 기,13033327827,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,114278000,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfOptions,상황전환우선주 전환,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,12919049827,제 23 기,0,6,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,자본 [구성요소]|자본금 [구성요소],제 25 기,21774100,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,-185645977,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,별도재무제표 [member],제 25 기,424650260,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughExerciseOfWarrantsEquity,주식선택권 행사,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,588522137,제 24 기,0,제 23 기,0,7,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,별도재무제표 [member],제 25 기,0,제 24 기,417480,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,액면분할,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,-417480,제 23 기,0,8,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,별도재무제표 [member],제 25 기,-21715138700,제 24 기,0,제 23 기,-800000000,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|자본금 [구성요소],제 25 기,154500000,제 24 기,0,제 23 기,0,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,21560638700,제 24 기,0,제 23 기,0,9,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,별도재무제표 [member],제 25 기,34442344,제 24 기,12707448,제 23 기,-38785070,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,34442344,제 24 기,12707448,제 23 기,-38785070,10,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,별도재무제표 [member],제 25 기,-144141446,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,-144141446,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,자본 [구성요소]|이익잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,재평가차익,자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,11,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),별도재무제표 [member],제 25 기,-4807683600,제 24 기,3125609503,제 23 기,3392018406,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|기타자본구성요소 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|이익잉여금 [구성요소],제 25 기,-4807683600,제 24 기,3125609503,제 23 기,3392018406,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|기타포괄손익누계액 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,12,KRW,,261520,이지스,OFS
+20260320000003,11011,2025,01211889,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|자본잉여금 [구성요소],제 25 기,0,제 24 기,0,제 23 기,0,12,KRW,,261520,이지스,OFS

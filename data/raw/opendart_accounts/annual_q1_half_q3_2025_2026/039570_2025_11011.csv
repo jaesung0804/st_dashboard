@@ -1,0 +1,150 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 27 기,441412758024,제 26 기,438161253186,제 25 기,383332487352,7,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 27 기,279279225102,제 26 기,293294214752,제 25 기,301271355046,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 27 기,43955055506,제 26 기,40865076087,제 25 기,25287355323,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentContractAssets,계약자산,-,제 27 기,16730971610,제 26 기,32456199889,제 25 기,26866319999,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융자산,-,제 27 기,0,제 26 기,2502225000,제 25 기,2580275000,11,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 27 기,0,제 26 기,2654000000,제 25 기,2626000000,12,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 27 기,0,제 26 기,3391281,제 25 기,3126796,13,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 27 기,97026981785,제 26 기,122572048248,제 25 기,112666103636,14,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 27 기,7086585735,제 26 기,8284612316,제 25 기,9179065540,15,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 27 기,5647065492,제 26 기,4483255404,제 25 기,3456612707,16,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타수취채권,-,제 27 기,7004962498,제 26 기,10319943510,제 25 기,10658120045,17,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 27 기,101827602476,제 26 기,69153463017,제 25 기,107948376000,18,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 27 기,162133532922,제 26 기,144867038434,제 25 기,82061132306,19,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 27 기,8000000,제 26 기,8000000,제 25 기,8000000,20,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_Goodwill,영업권,-,제 27 기,7976016308,제 26 기,7976016308,제 25 기,9264082007,21,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산,-,제 27 기,13194478159,제 26 기,12203709151,제 25 기,14447524926,22,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자,-,제 27 기,0,제 26 기,0,제 25 기,8149492601,23,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 27 기,5031494106,제 26 기,5126191951,제 25 기,5220889796,24,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 27 기,0,제 26 기,0,제 25 기,874411286,25,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentContractAssets,계약자산,-,제 27 기,1888947129,제 26 기,1919874816,제 25 기,1882148399,26,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융자산,-,제 27 기,21875433945,제 26 기,8629744880,제 25 기,7129593188,27,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융자산,-,제 27 기,9484298659,제 26 기,4182379199,제 25 기,4712795008,28,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentReceivables,기타비유동수취채권,-,제 27 기,4003970000,제 26 기,3796759892,제 25 기,8549619396,29,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 27 기,3643238508,제 26 기,5268157526,제 25 기,4977302550,30,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 27 기,93314560014,제 26 기,94217084521,제 25 기,9612034732,31,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 27 기,1713096094,제 26 기,1539120190,제 25 기,7233238417,32,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 27 기,266867252376,제 26 기,267505128726,제 25 기,258521102495,34,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 27 기,266867252376,제 26 기,266183274250,제 25 기,258521102495,35,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 27 기,183195725891,제 26 기,183195725891,제 25 기,183195725891,36,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 27 기,-28004091163,제 26 기,-28004091163,제 25 기,-28003178993,37,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 27 기,2447705980,제 26 기,399792243,제 25 기,796137611,38,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 27 기,12978800500,제 26 기,12978800500,제 25 기,12978800500,39,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 27 기,96249111168,제 26 기,97613046779,제 25 기,89553617486,40,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 27 기,0,제 26 기,1321854476,제 25 기,0,41,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 27 기,441412758024,제 26 기,438161253186,제 25 기,383332487352,42,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 27 기,168579301625,제 26 기,163834649872,제 25 기,113187483781,44,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_CurrentNontradePayables,기타지급채무,-,제 27 기,34430059977,제 26 기,31330664038,제 25 기,27952942135,45,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,-,제 27 기,25574325643,제 26 기,15588324825,제 25 기,10178982793,46,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 27 기,548775130,제 26 기,662075103,제 25 기,3346237049,47,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 27 기,50000000000,제 26 기,50041691895,제 25 기,59319994,48,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 27 기,1561147926,제 26 기,1267760940,제 25 기,2379321227,49,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 27 기,10230196145,제 26 기,9913214184,제 25 기,9054430228,50,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_ShorttermOnerousContractsProvision,공사손실충당부채,-,제 27 기,192280115,제 26 기,170157670,제 25 기,67842016,51,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_ShorttermWarrantyProvision,하자보수충당부채,-,제 27 기,3123714285,제 26 기,2204444703,제 25 기,2985933599,52,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 27 기,42918802404,제 26 기,52656316514,제 25 기,57162474740,53,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 27 기,174545505648,제 26 기,170656124460,제 25 기,124811384857,54,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 27 기,5966204023,제 26 기,6821474588,제 25 기,11623901076,55,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_NonCurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 27 기,2438561390,제 26 기,4568147434,제 25 기,4022880072,56,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,dart_NoncurrentNontradePayables,기타지급채무,-,제 27 기,2240787644,제 26 기,1163867342,제 25 기,1756864178,57,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 27 기,0,제 26 기,0,제 25 기,41338887,58,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NetDeferredTaxLiabilities,이연법인세부채,-,제 27 기,73019903,제 26 기,359705523,제 25 기,0,59,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 27 기,1213835086,제 26 기,729754289,제 25 기,5802817939,60,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,dart_NonOperatingExpense,기타비용,-,제 27 기,1728895730,제 26 기,2598664303,제 25 기,1249746614,6,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,dart_NonOperatingIncome,기타이익,-,제 27 기,5379980478,제 26 기,15510034406,제 25 기,2972866978,7,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 27 기,10637118275,제 26 기,6401720348,제 25 기,10513214237,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 27 기,47332153416,제 26 기,48995716393,제 25 기,43096354315,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 27 기,11022436976,제 26 기,18001580125,제 25 기,8342873690,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 27 기,11022436976,제 26 기,18001580125,제 25 기,8342873690,12,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 27 기,587758814185,제 26 기,573410340240,제 25 기,552672320745,13,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 27 기,534,제 26 기,826,제 25 기,573,15,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 27 기,534,제 26 기,826,제 25 기,573,16,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 27 기,2196703815,제 26 기,361507581,제 25 기,395599578,17,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 27 기,5131073808,제 26 기,6152299892,제 25 기,5564101418,18,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 27 기,57969271691,제 26 기,55397436741,제 25 기,53609568552,19,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 27 기,4959643015,제 26 기,5717270933,제 25 기,3958786199,20,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 27 기,-1240493025,제 26 기,-973954938,제 25 기,-4820424694,21,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLoss,당기손익으로 재분류될 기타포괄손익의 각 구성요소와 관련된 법인세,-,제 27 기,25017,제 26 기,281540,제 25 기,29191,23,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation,"세전기타포괄손익, 외화환산외환차이",-,제 27 기,-198781,제 26 기,1347078,제 25 기,377828,24,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss,당기손익으로 재분류되지는 않을 기타포괄손익의 각 구성요소와 관련된 법인세,-,제 27 기,400303736,제 26 기,257622350,제 25 기,1284034323,26,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesFromInvestmentsInEquityInstruments,"세전기타포괄손익, 지분상품에 대한 투자자산",-,제 27 기,2647919460,제 26 기,-502415810,제 25 기,-522799621,27,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,"세전기타포괄손익, 확정급여제도의 재측정차익(차손)",-,제 27 기,-4288492423,제 26 기,-730227016,제 25 기,-5582008033,28,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 27 기,12262930001,제 26 기,18975535063,제 25 기,13163298384,29,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 27 기,12262930001,제 26 기,18975535063,제 25 기,13163298384,31,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 27 기,17222573016,제 26 기,24692805996,제 25 기,17122084583,32,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 27 기,645728085876,제 26 기,628807776981,제 25 기,606281889297,33,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod,지분법이익,-,제 27 기,0,제 26 기,-411076766,제 25 기,-282751858,34,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초의 현금및현금성자산,-,제 27 기,40865076087,제 26 기,25287355323,제 25 기,42213568902,2,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말의 현금및현금성자산,-,제 27 기,43955055506,제 26 기,40865076087,제 25 기,25287355323,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 27 기,-11149277934,제 26 기,-13882872822,제 25 기,-13835816661,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 27 기,0,제 26 기,912170,제 25 기,0,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 27 기,0,제 26 기,200000000,제 25 기,0,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 27 기,0,제 26 기,90000000,제 25 기,10000000,11,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 원금 지급,-,제 27 기,879240427,제 26 기,3512776166,제 25 기,3588229865,12,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 27 기,10228345612,제 26 기,10200217500,제 25 기,10200217500,13,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기차입금의 상환,-,제 27 기,41691895,제 26 기,58966986,제 25 기,57369296,14,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 27 기,-42312895359,제 26 기,22859765440,제 25 기,-26392021539,15,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,리스채권의 감소,-,제 27 기,172980945,제 26 기,351776068,제 25 기,448466581,16,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 27 기,4725356288,제 26 기,2552179200,제 25 기,3127500000,17,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 27 기,1953356288,제 26 기,2652000000,제 25 기,4002950000,18,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산 처분,-,제 27 기,290675419,제 26 기,145232128,제 25 기,77225000,19,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 27 기,294889447534,제 26 기,390464843871,제 25 기,371490332913,20,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 27 기,36500000,제 26 기,15000000,제 25 기,20500000000,21,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 측정 금융자산 취득,-,제 27 기,10000000000,제 26 기,1000000000,제 25 기,0,22,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업투자주식의 취득,-,제 27 기,0,제 26 기,13261929337,제 25 기,0,23,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 27 기,0,제 26 기,55000000,제 25 기,0,24,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 27 기,327563586993,제 26 기,351669930888,제 25 기,414026000000,25,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,영업양수도로 인한 현금유출,-,제 27 기,691088665,제 26 기,0,제 25 기,0,26,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 27 기,13679300,제 26 기,59000000,제 25 기,0,27,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 27 기,26640219,제 26 기,13772727,제 25 기,41594154,28,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 27 기,803864230,제 26 기,1143778500,제 25 기,2788401870,29,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 27 기,1456278888,제 26 기,959399829,제 25 기,1259788317,30,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 27 기,56552244199,제 26 기,6600157419,제 25 기,23301293882,31,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 27 기,54850270456,제 26 기,3641964374,제 25 기,18445239183,32,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 27 기,3353380331,제 26 기,2805358930,제 25 기,3020446652,33,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 27 기,4552662930,제 26 기,5337373602,제 25 기,3435279770,34,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 27 기,2146474531,제 26 기,267681639,제 25 기,343842843,35,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 27 기,5047730873,제 26 기,5757889356,제 25 기,5614730660,36,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산의 환율변동효과,-,제 27 기,-91487,제 26 기,670727,제 25 기,330739,37,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가,-,제 27 기,3090070906,제 26 기,15577050037,제 25 기,-16926544318,38,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 27 기,399792243,제 26 기,796137611,제 25 기,1206731018,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,266183274250,제 26 기,258521102495,제 25 기,260516725005,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기,-28004091163,제 26 기,-28003178993,제 25 기,-28003178993,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 27 기,1321854476,제 26 기,0,제 25 기,,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 27 기,267505128726,제 26 기,258521102495,제 25 기,260516725005,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,97613046779,제 26 기,89553617486,제 25 기,91138646589,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기,12978800500,제 26 기,12978800500,제 25 기,12978800500,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기,183195725891,제 26 기,183195725891,제 25 기,183195725891,3,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,11022436976,제 26 기,18001580125,제 25 기,8342873690,4,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 27 기,11022436976,제 26 기,18001580125,제 25 기,8342873690,4,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 27 기,2047913737,제 26 기,-396345368,제 25 기,-410593407,4,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,8974523239,제 26 기,18397925493,제 25 기,8753467097,4,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치로 측정되는 금융자산의 세후차손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,2048137535,제 26 기,-397410906,제 25 기,-410942044,5,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치로 측정되는 금융자산의 세후차손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 27 기,2048137535,제 26 기,-397410906,제 25 기,-410942044,5,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax,기타포괄손익-공정가치로 측정되는 금융자산의 세후차손익,연결재무제표 [member],제 27 기,2048137535,제 26 기,-397410906,제 25 기,-410942044,5,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,-223798,제 26 기,1065538,제 25 기,348637,6,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 27 기,-223798,제 26 기,1065538,제 25 기,348637,6,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 27 기,-223798,제 26 기,1065538,제 25 기,348637,6,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 27 기,-3288406762,제 26 기,-577609570,제 25 기,-4409831287,7,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,-3288406762,제 26 기,-577609570,제 25 기,-4409831287,7,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,-3288406762,제 26 기,-577609570,제 25 기,-4409831287,7,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 27 기,12262930001,제 26 기,18975535063,제 25 기,13163298384,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,12262930001,제 26 기,18975535063,제 25 기,13163298384,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,12262930001,제 26 기,18975535063,제 25 기,13163298384,8,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,-10338458850,제 26 기,-10338496200,제 25 기,-10338496200,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,-10338458850,제 26 기,-10338496200,제 25 기,-10338496200,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 27 기,-10338458850,제 26 기,-10338496200,제 25 기,-10338496200,9,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 27 기,183195725891,제 26 기,183195725891,제 25 기,183195725891,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 27 기,12978800500,제 26 기,12978800500,제 25 기,12978800500,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 27 기,96249111168,제 26 기,97613046779,제 25 기,89553617486,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기,-28004091163,제 26 기,-28004091163,제 25 기,-28003178993,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,266867252376,제 26 기,266183274250,제 25 기,258521102495,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 27 기,,제 26 기,1321854476,제 25 기,0,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 27 기,266867252376,제 26 기,267505128726,제 25 기,258521102495,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 27 기,2447705980,제 26 기,399792243,제 25 기,796137611,10,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,연결대상범위의 변동,연결재무제표 [member],제 27 기,-1321854476,제 26 기,1321854476,제 25 기,,11,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 27 기,-1321854476,제 26 기,1321854476,제 25 기,,11,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 27 기,,제 26 기,-912170,제 25 기,,12,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 27 기,,제 26 기,-912170,제 25 기,,12,KRW,,039570,HDC랩스,CFS
+20260318001288,11011,2025,00350312,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 27 기,,제 26 기,-912170,제 25 기,,12,KRW,,039570,HDC랩스,CFS

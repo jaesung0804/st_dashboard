@@ -1,0 +1,252 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 70 기,263595796874,제 69 기,287854045821,제 68 기,277915943029,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 70 기,115584346803,제 69 기,134528768016,제 68 기,126594975013,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 70 기,25145977328,제 69 기,18386407647,제 68 기,22007520228,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentBiologicalAssets,소비용생물자산,-,제 70 기,2518596833,제 69 기,7999109740,제 68 기,11123751222,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 70 기,32100142951,제 69 기,47204609359,제 68 기,42503993351,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산,-,제 70 기,0,제 69 기,0,제 68 기,93589774,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정처분자산집단,-,제 70 기,0,제 69 기,0,제 68 기,1976817554,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 70 기,1394243173,제 69 기,600312919,제 68 기,259584443,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,유동금융자산,-,제 70 기,650000000,제 69 기,600000000,제 68 기,1950000000,15,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 70 기,53775386518,제 69 기,59738328351,제 68 기,46679718441,16,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 70 기,148011450071,제 69 기,153325277805,제 68 기,151320968016,17,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 70 기,5532608439,제 69 기,3061248649,제 68 기,2618131989,18,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업및공동기업투자,-,제 70 기,21089036765,제 69 기,20126420582,제 68 기,18820980753,19,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 70 기,31924365836,제 69 기,31202979038,제 68 기,30104744365,20,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentBiologicalAssets,생산용생물자산,-,제 70 기,379615643,제 69 기,372905617,제 68 기,234619259,21,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentReceivables,장기매출채권 및 기타채권,-,제 70 기,5811414696,제 69 기,18411894131,제 68 기,19229023573,22,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 70 기,345303699,제 69 기,0,제 68 기,706962960,23,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,비유동금융자산,-,제 70 기,18214005886,제 69 기,12371097136,제 68 기,11180810683,24,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 70 기,64715099107,제 69 기,67778732652,제 68 기,68425694434,25,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 70 기,119699006890,제 69 기,108440741213,제 68 기,106925910946,27,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 70 기,120144481298,제 69 기,108900296207,제 68 기,107259320354,28,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,dart_CapitalSurplus,기타불입자본,-,제 70 기,2907590609,제 69 기,2569910609,제 68 기,2279464212,29,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 70 기,233297540,제 69 기,-1739767727,제 68 기,-392677807,30,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 70 기,24939425000,제 69 기,24939425000,제 68 기,24939425000,31,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 70 기,92064168149,제 69 기,83130728325,제 68 기,80433108949,32,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 70 기,-445474408,제 69 기,-459554994,제 68 기,-333409408,33,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 70 기,263595796874,제 69 기,287854045821,제 68 기,277915943029,34,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 70 기,124355068629,제 69 기,156602956296,제 68 기,148107726201,36,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,유동금융보증부채,-,제 70 기,413624729,제 69 기,299087570,제 68 기,270695987,37,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,유동 차입금,-,제 70 기,87641698056,제 69 기,117140256040,제 68 기,101916476984,38,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 70 기,797436735,제 69 기,895887698,제 68 기,780508200,39,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 70 기,2163533971,제 69 기,1028890505,제 68 기,1175340736,40,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale,매각예정처분부채집단,-,제 70 기,0,제 69 기,0,제 68 기,219573249,41,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 70 기,17983409357,제 69 기,15246956630,제 68 기,14668593101,42,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 70 기,15355365781,제 69 기,21991877853,제 68 기,29076537944,43,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 70 기,143896789984,제 69 기,179413304608,제 68 기,170990032083,44,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 70 기,19541721355,제 69 기,22810348312,제 68 기,22882305882,45,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 70 기,5672359532,제 69 기,4934643357,제 68 기,4936002624,46,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_LongtermBorrowings,비유동차입금,-,제 70 기,12582130000,제 69 기,15233420000,제 68 기,16360710000,47,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 70 기,607231823,제 69 기,1170491191,제 68 기,955593258,48,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 70 기,0,제 69 기,871793764,제 68 기,0,49,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 70 기,680000000,제 69 기,600000000,제 68 기,630000000,50,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 70 기,13748324066,제 69 기,14269657884,제 68 기,7989269786,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 70 기,4619161666,제 69 기,2415291466,제 68 기,6138720457,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 70 기,2604994388,제 69 기,6656028660,제 68 기,5022842049,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 70 기,11940437129,제 69 기,1841169370,제 68 기,1889201368,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 70 기,14080586,제 69 기,-126145586,제 68 기,-249641304,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 70 기,11926356543,제 69 기,1967314956,제 68 기,2138842672,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 70 기,242183425641,제 69 기,257433879191,제 68 기,276451688945,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_DistributionAndAdministrativeExpense,물류비,-,제 70 기,10260271791,제 69 기,10611406482,제 68 기,8810589997,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,계속영업기본주당이익(손실),-,제 70 기,391,제 69 기,163,제 68 기,134,16,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,중단영업기본주당이익(손실),-,제 70 기,0,제 69 기,0,제 68 기,3,17,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,계속영업희석주당이익(손실),-,제 70 기,391,제 69 기,163,제 68 기,134,18,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,중단영업희석주당이익(손실),-,제 70 기,0,제 69 기,0,제 68 기,3,19,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 70 기,5476190034,제 69 기,7112960100,제 68 기,6451741242,20,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 70 기,1401925443,제 69 기,1498117447,제 68 기,1552485774,21,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 70 기,55138865411,제 69 기,50222499485,제 68 기,42606929709,22,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 70 기,3034217247,제 69 기,2333577231,제 68 기,1461238724,23,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 70 기,2268914552,제 69 기,-2051867237,제 68 기,-1246695599,24,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 70 기,-135650235,제 69 기,414039990,제 68 기,-840299030,25,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 70 기,,제 69 기,-130668159,제 68 기,-99245614,26,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 70 기,-135650235,제 69 기,544708149,제 68 기,-741053416,27,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 70 기,2404564787,제 69 기,-2465907227,제 68 기,-406396569,28,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 70 기,2108715502,제 69 기,-1761129910,제 68 기,-65564351,29,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 70 기,248126538,제 69 기,-624015668,제 68 기,-171884163,30,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 70 기,47722747,제 69 기,-80761649,제 68 기,-168948055,31,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 70 기,9671522577,제 69 기,3893036607,제 68 기,3135896967,32,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 70 기,14080586,제 69 기,-126145586,제 68 기,-249641304,34,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 70 기,9657441991,제 69 기,4019182193,제 68 기,3385538271,35,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 계속영업손익,-,제 70 기,9657441991,제 69 기,4019182193,제 68 기,3318179527,36,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_IncomeFromDiscontinuedOperationsAttributableToOwnersOfParent,지배기업의 소유주에게 귀속될 중단영업손익,-,제 70 기,0,제 69 기,,제 68 기,67358744,37,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 70 기,12705739824,제 69 기,6226613838,제 68 기,4529776947,38,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 70 기,9671522577,제 69 기,3893036607,제 68 기,3068538223,39,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 70 기,0,제 69 기,,제 68 기,67358744,40,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 70 기,297322291052,제 69 기,307656378676,제 68 기,319058618654,41,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 70 기,31130269554,제 69 기,25341435119,제 68 기,25807069926,42,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법투자손익,-,제 70 기,1017513071,제 69 기,1812535801,제 68 기,323884221,43,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 70 기,18386407647,제 69 기,22007520228,제 68 기,22420306463,2,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 70 기,25145977328,제 69 기,18386407647,제 68 기,22007520228,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,매각예정처분자산집단으로의 대체,-,제 70 기,0,제 69 기,0,제 68 기,-1975753554,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 70 기,-33775785509,제 69 기,11956980900,제 68 기,-7562065525,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 70 기,3600000000,제 69 기,8612000000,제 68 기,10762000000,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 70 기,13078680730,제 69 기,19393559524,제 68 기,5000000000,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 70 기,0,제 69 기,0,제 68 기,1247000000,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 70 기,26808680730,제 69 기,11033559524,제 68 기,1750000000,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,유동성장기부채의 상환,-,제 70 기,5639290000,제 69 기,4416290000,제 68 기,3749990000,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,공급자금융약정으로 차입,-,제 70 기,209712644261,제 69 기,250458511872,제 68 기,248208703706,15,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,공급자금융약정으로 상환,-,제 70 기,225930027653,제 69 기,249429178028,제 68 기,263172417738,16,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금 지급,-,제 70 기,740142600,제 69 기,616785500,제 68 기,616785500,17,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 70 기,1048969517,제 69 기,1011277444,제 68 기,996575993,18,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 70 기,8239069807,제 69 기,-4724560170,제 68 기,-10779442513,19,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 70 기,0,제 69 기,11285000,제 68 기,10000000,20,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfCurrentFinancialAssetsHeldToMaturity,상각후원가측정금융자산(유동)의 처분,-,제 70 기,600000000,제 69 기,0,제 68 기,187010000,21,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 처분,-,제 70 기,0,제 69 기,1785385288,제 68 기,0,22,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 회수,-,제 70 기,16051367319,제 69 기,4549600321,제 68 기,14492238296,23,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAvailableForSaleFinancialAssets,기타포괄손익-공정가치측정금융자산(비유동)의 처분,-,제 70 기,120291148,제 69 기,0,제 68 기,0,24,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentBiologicalAssets,생산용생물자산의 처분,-,제 70 기,56632331,제 69 기,91630524,제 68 기,35336161,25,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentFairValueFinancialAsset,당기손익-공정가치측청금융자산(비유동)의 처분,-,제 70 기,0,제 69 기,1907001762,제 68 기,245756308,26,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 회수,-,제 70 기,1000000000,제 69 기,0,제 68 기,0,27,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfCurrentFinancialAssetsHeldToMaturity,상각후원가측정금융자산(유동)의 취득,-,제 70 기,650000000,제 69 기,1848426106,제 68 기,50000000,28,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 취득,-,제 70 기,0,제 69 기,1112000000,제 68 기,0,29,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 대여,-,제 70 기,3824000000,제 69 기,3740524590,제 68 기,11385985987,30,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfNonCurrentAvailableForSaleFinancialAssets,기타포괄손익-공정가치측정금융자산(비유동)의 취득,-,제 70 기,0,제 69 기,4935256050,제 68 기,0,31,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfNonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산(비유동)의 취득,-,제 70 기,1038849856,제 69 기,1894564603,제 68 기,914750803,32,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfNonCurrentFinancialAssetsHeldToMaturity,상각후원가측정금융자산(비유동)의 취득,-,제 70 기,0,제 69 기,-5398426106,제 68 기,0,33,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 70 기,0,제 69 기,0,제 68 기,900000000,34,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 대여,-,제 70 기,0,제 69 기,1000000000,제 68 기,0,35,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,사업결합으로 인한 현금유입(유출),-,제 70 기,0,제 69 기,28583873,제 68 기,0,36,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 70 기,22700000,제 69 기,0,제 68 기,0,37,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 70 기,0,제 69 기,0,제 68 기,43100000,38,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 70 기,0,제 69 기,14804979,제 68 기,0,39,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 70 기,88218009,제 69 기,194625793,제 68 기,4015875654,40,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 70 기,2356359790,제 69 기,449500000,제 68 기,0,41,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 70 기,823900000,제 69 기,725125559,제 68 기,157814940,42,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 70 기,1007029354,제 69 기,2977936908,제 68 기,16380207202,43,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 70 기,32417536241,제 69 기,-10855346656,제 68 기,18088642647,44,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 70 기,14048423013,제 69 기,-21697148932,제 68 기,8327315645,45,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산의 감소(증가),-,제 70 기,-1899924614,제 69 기,402424130,제 68 기,-743182832,46,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInTradeAndOtherCurrentPayables,매입채무 및 기타유동채무의 증가(감소),-,제 70 기,-13213275945,제 69 기,-10244614821,제 68 기,2207564614,47,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 70 기,580930856,제 69 기,1157258490,제 68 기,860595940,48,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,소비용생물자산의 감소(증가),-,제 70 기,6284223062,제 69 기,4080723683,제 68 기,1448105166,49,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 70 기,15104466408,제 69 기,-4700616008,제 68 기,8374106271,50,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가) 조정,-,제 70 기,-802925280,제 69 기,-236705132,제 68 기,-104681128,51,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables,매출채권 및 기타채권의 감소(증가),-,제 70 기,6420337511,제 69 기,-10419465823,제 68 기,-8819800279,52,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 70 기,2736452727,제 69 기,578363529,제 68 기,6825799773,53,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 70 기,14357643354,제 69 기,14355506396,제 68 기,13023536154,54,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비(환입),-,제 70 기,5324365748,제 69 기,1289931582,제 68 기,3598008445,55,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForBargainPurchaseGains,염가매수차익,-,제 70 기,0,제 69 기,5246211,제 68 기,0,56,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 70 기,76077591,제 69 기,95756606,제 68 기,721581338,57,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 70 기,221792048,제 69 기,3518138,제 68 기,559463766,58,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정비유동자산처분이익,-,제 70 기,0,제 69 기,586410226,제 68 기,0,59,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfBiologicalAssets,생물자산평가이익,-,제 70 기,44669000,제 69 기,15467000,제 68 기,18468000,60,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치측정금융자산평가이익,-,제 70 기,2597140409,제 69 기,687979865,제 68 기,727454151,61,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 70 기,0,제 69 기,0,제 68 기,948200,62,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment,유형자산손상차손,-,제 70 기,0,제 69 기,0,제 68 기,1168307620,63,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForLossOnDisposalOfInvestmentsInSubsidiaries,종속기업투자자산처분손실,-,제 70 기,0,제 69 기,113702246,제 68 기,0,64,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 70 기,101000,제 69 기,23647524,제 68 기,19748268,65,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치측정금융자산평가손실,-,제 70 기,62356080,제 69 기,2159404792,제 68 기,1215901712,66,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 70 기,121250858,제 69 기,721279723,제 68 기,27264716,67,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForMiscellaneousIncome,잡이익,-,제 70 기,1013880,제 69 기,4185330,제 68 기,12993410,68,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForMiscellaneousLosses,잡손실,-,제 70 기,30000,제 69 기,14910971,제 68 기,48168074,69,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비,-,제 70 기,415718819,제 69 기,57392780,제 68 기,0,70,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법투자이익,-,제 70 기,1017513071,제 69 기,1812535801,제 68 기,323884221,71,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 70 기,1574152182,제 69 기,1544696433,제 68 기,1274490465,72,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_AdjustmentsForReversalsOfBadDebtExpenses,기타의 대손충당금환입,-,제 70 기,0,제 69 기,0,제 68 기,963594997,73,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_GainsOnDisposalsOfFairValueFinancialAsset,당기손익-공정가치측정금융자산처분이익,-,제 70 기,0,제 69 기,0,제 68 기,2822810,74,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,dart_LossesOnDisposalOfFairValueFinancialAsset,당기손익-공정가치측정금융자산처분손실,-,제 70 기,0,제 69 기,34662275,제 68 기,0,75,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,금융보증부채 환입액,-,제 70 기,0,제 69 기,0,제 68 기,1120351672,76,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,생물자산감가상각비,-,제 70 기,116337784,제 69 기,85065029,제 68 기,76324728,77,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,기부금,-,제 70 기,337680000,제 69 기,0,제 68 기,0,78,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,소비용생물자산평가이익의 조정,-,제 70 기,898270909,제 69 기,1222859390,제 68 기,-194212677,79,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,지급수수료,-,제 70 기,0,제 69 기,680000000,제 68 기,0,80,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,-표준계정코드 미사용-,금융보증부채전입액,-,제 70 기,114537159,제 69 기,28391583,제 68 기,0,81,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 70 기,20000000,제 69 기,6383340,제 68 기,6975000,82,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 70 기,4306514850,제 69 기,4232382278,제 68 기,3631085879,83,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금수익,-,제 70 기,287406056,제 69 기,150805477,제 68 기,147779457,84,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForFinanceCosts,금융원가,-,제 70 기,5476190034,제 69 기,7112960100,제 68 기,6451741242,85,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 70 기,3034217247,제 69 기,2333577231,제 68 기,1461238724,86,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,금융수익,-,제 70 기,1401925443,제 69 기,1498117447,제 68 기,1552485774,87,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 70 기,38077588944,제 69 기,-3448605929,제 68 기,24486748766,88,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 70 기,287406056,제 69 기,150790649,제 68 기,190182333,89,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 70 기,1816712812,제 69 기,1981396318,제 68 기,1627028302,90,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 70 기,5490351240,제 69 기,7080970172,제 68 기,6383850548,91,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 70 기,1359605293,제 69 기,1504835114,제 68 기,1422590398,92,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 70 기,9671522577,제 69 기,3893036607,제 68 기,3135896967,93,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 70 기,-121250858,제 69 기,1813345,제 68 기,-27264716,94,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 70 기,6880820539,제 69 기,-3622925926,제 68 기,1590232035,95,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsDiscontinuedOperations,중단영업현금흐름,-,제 70 기,0,제 69 기,0,제 68 기,1843097426,96,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,,제 69 기,0,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,,제 69 기,0,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,,제 69 기,0,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 70 기,,제 69 기,290446397,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 70 기,,제 69 기,0,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,,제 69 기,290446397,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,,제 69 기,290446397,제 68 기,,3,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,24939425000,제 69 기,24939425000,제 68 기,24939425000,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,83130728325,제 69 기,80433108949,제 68 기,78005188396,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,-1739767727,제 69 기,-392677807,제 68 기,513185574,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,108900296207,제 69 기,107259320354,제 68 기,105737263182,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 70 기,-459554994,제 69 기,-333409408,제 68 기,83768104,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 70 기,108440741213,제 69 기,106925910946,제 68 기,105653495078,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,2569910609,제 69 기,2279464212,제 68 기,2279464212,4,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,연결재무제표 [member],제 70 기,-279708852,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-279708852,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,-279708852,제 69 기,0,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,dart_TransferOfAmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToDisposalOfInvestmentsInEquityInstruments,기타포괄손익지분증권처분이익잉여금대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,,제 68 기,,5,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 70 기,740142600,제 69 기,616785500,제 68 기,616785500,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,740142600,제 69 기,616785500,제 68 기,616785500,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,740142600,제 69 기,616785500,제 68 기,616785500,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,6,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,120144481298,제 69 기,108900296207,제 68 기,107259320354,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 70 기,-445474408,제 69 기,-459554994,제 68 기,-333409408,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 70 기,119699006890,제 69 기,108440741213,제 68 기,106925910946,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,233297540,제 69 기,-1739767727,제 68 기,-392677807,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,2907590609,제 69 기,2569910609,제 68 기,2279464212,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,24939425000,제 69 기,24939425000,제 68 기,24939425000,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,92064168149,제 69 기,83130728325,제 68 기,80433108949,7,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,,제 69 기,0,제 68 기,0,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,,제 69 기,0,제 68 기,0,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,-130668159,제 68 기,-99245614,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,,제 69 기,-130668159,제 68 기,-99245614,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 70 기,,제 69 기,0,제 68 기,0,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),연결재무제표 [member],제 70 기,,제 69 기,-130668159,제 68 기,-99245614,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,,제 69 기,0,제 68 기,0,8,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,2108715502,제 69 기,-1761129910,제 68 기,-65564351,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,2108715502,제 69 기,-1761129910,제 68 기,-65564351,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 70 기,2108715502,제 69 기,-1761129910,제 68 기,-65564351,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,9,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 70 기,248126538,제 69 기,-624015668,제 68 기,-171884163,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,248126538,제 69 기,-624015668,제 68 기,-171884163,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,248126538,제 69 기,-624015668,제 68 기,-171884163,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,10,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 70 기,9671522577,제 69 기,3893036607,제 68 기,3135896967,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 70 기,14080586,제 69 기,-126145586,제 68 기,249641304,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,9657441991,제 69 기,4019182193,제 68 기,3385538271,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,9657441991,제 69 기,4019182193,제 68 기,3385538271,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,11,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,337680000,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,0,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,337680000,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_SaleOrIssueOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 70 기,337680000,제 69 기,,제 68 기,,12,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),연결재무제표 [member],제 70 기,-135650235,제 69 기,544708149,제 68 기,-741053416,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,-135650235,제 69 기,544708149,제 68 기,-741053416,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,-135650235,제 69 기,544708149,제 68 기,-741053416,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,13,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),연결재무제표 [member],제 70 기,47722747,제 69 기,-80761649,제 68 기,-168948055,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 70 기,47722747,제 69 기,-80761649,제 68 기,-168948055,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 70 기,47722747,제 69 기,-80761649,제 68 기,-168948055,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,14,KRW,,002140,고려산업,CFS
+20260311003408,11011,2025,00102751,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 70 기,0,제 69 기,0,제 68 기,0,14,KRW,,002140,고려산업,CFS

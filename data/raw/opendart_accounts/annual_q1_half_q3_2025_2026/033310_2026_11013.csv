@@ -1,0 +1,167 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 61 기 1분기말,194081138131,제 60 기말,191792668993,7,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 61 기 1분기말,43934438834,제 60 기말,41023580506,8,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 61 기 1분기말,13264693720,제 60 기말,10506595813,9,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 61 기 1분기말,1604467807,제 60 기말,2505317503,10,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정금융자산,-,제 61 기 1분기말,1103224469,제 60 기말,1027347304,11,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentPrepaymentsAndOtherCurrentAssets,기타유동자산,-,제 61 기 1분기말,1470320480,제 60 기말,435122023,12,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 61 기 1분기말,222981036,제 60 기말,184927061,13,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 61 기 1분기말,15313445039,제 60 기말,15141274643,14,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동금융자산,-,제 61 기 1분기말,955306283,제 60 기말,11222996159,15,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 61 기 1분기말,10000000000,제 60 기말,,16,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 61 기 1분기말,150146699297,제 60 기말,150769088487,17,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 61 기 1분기말,483010516,제 60 기말,483010516,18,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 61 기 1분기말,1210285917,제 60 기말,1187515751,19,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자주식,-,제 61 기 1분기말,114447394235,제 60 기말,115377139311,20,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 61 기 1분기말,2514758528,제 60 기말,2514758528,21,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 61 기 1분기말,204558338,제 60 기말,203353230,22,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 61 기 1분기말,30818041316,제 60 기말,30492416365,23,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 61 기 1분기말,468650447,제 60 기말,510894786,24,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 61 기 1분기말,144496183753,제 60 기말,144064847339,26,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 61 기 1분기말,144513788022,제 60 기말,144082183563,27,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 61 기 1분기말,43723009298,제 60 기말,43723009298,28,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,자본조정,-,제 61 기 1분기말,-13395846534,제 60 기말,-16908132173,29,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 61 기 1분기말,-6787992079,제 60 기말,-7138475594,30,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 61 기 1분기말,20171115500,제 60 기말,20171115500,31,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 61 기 1분기말,100803501837,제 60 기말,104234666532,32,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 61 기 1분기말,-17604269,제 60 기말,-17336224,33,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 61 기 1분기말,194081138131,제 60 기말,191792668993,34,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 61 기 1분기말,30593338408,제 60 기말,28877243760,36,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_ConvertibleRedeemablePreferredStockLiabilitiesNet,유동상환전환우선주,-,제 61 기 1분기말,10620030392,제 60 기말,10211994863,37,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 61 기 1분기말,8043290,제 60 기말,8043290,38,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_ShortTermTradePayables,매입채무,-,제 61 기 1분기말,8224654251,제 60 기말,6676188852,39,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동성리스부채,-,제 61 기 1분기말,119012070,제 60 기말,181643973,40,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 61 기 1분기말,20935097,제 60 기말,,41,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 61 기 1분기말,2981117701,제 60 기말,2507887847,42,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 61 기 1분기말,147547595,제 60 기말,340665716,43,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_Provisions,유동복구충당부채,-,제 61 기 1분기말,36472276,제 60 기말,36472276,44,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 61 기 1분기말,8435525736,제 60 기말,8914346943,45,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 61 기 1분기말,49584954378,제 60 기말,47727821654,46,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 61 기 1분기말,18991615970,제 60 기말,18850577894,47,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 61 기 1분기말,10000000000,제 60 기말,10000000000,48,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,dart_PresentValueOfDefinedBenefitObligation,순확정급여부채,-,제 61 기 1분기말,1119930625,제 60 기말,954979860,49,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 61 기 1분기말,7257825446,제 60 기말,7283539134,50,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,장기리스부채,-,제 61 기 1분기말,372691294,제 60 기말,368718794,51,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타비유동금융부채,-,제 61 기 1분기말,241168605,제 60 기말,243340106,52,KRW,,,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 61 기 1분기,709144883,,,6,KRW,709144883,제 60 기 1분기,768437072,768437072,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 61 기 1분기,36623079,,,7,KRW,36623079,제 60 기 1분기,38747210,38747210,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 61 기 1분기,4279536,,,8,KRW,4279536,제 60 기 1분기,33826620,33826620,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익(손실),-,제 61 기 1분기,-341527893,,,9,KRW,-341527893,제 60 기 1분기,-1693560545,-1693560545,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 61 기 1분기,1783866329,,,10,KRW,1783866329,제 60 기 1분기,1734934529,1734934529,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 61 기 1분기,431336414,,,11,KRW,431336414,제 60 기 1분기,-1925424421,-1925424421,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_IncomeFromContinuingOperationsAttributableToOwnersOfParent,지배기업소유주지분,-,제 61 기 1분기,431604459,,,13,KRW,431604459,제 60 기 1분기,-1925156950,-1925156950,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests,비지배지분,-,제 61 기 1분기,-268045,,,14,KRW,-268045,제 60 기 1분기,-267471,-267471,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 61 기 1분기,19442026005,,,15,KRW,19442026005,제 60 기 1분기,19073631887,19073631887,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,dart_BasicEarningsLossPerSharePreferredStock,계속영업주당순이익,-,제 61 기 1분기,2,,,17,KRW,2,제 60 기 1분기,-41,-41,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당순이익(손실),-,제 61 기 1분기,2,,,18,KRW,2,제 60 기 1분기,-41,-41,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당순이익(손실),-,제 61 기 1분기,2,,,19,KRW,2,제 60 기 1분기,-41,-41,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 61 기 1분기,600350377,,,20,KRW,600350377,제 60 기 1분기,710124308,710124308,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 61 기 1분기,265987223,,,21,KRW,265987223,제 60 기 1분기,42498715,42498715,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 61 기 1분기,2493011212,,,22,KRW,2493011212,제 60 기 1분기,2503371601,2503371601,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 61 기 1분기,-15255520,,,23,KRW,-15255520,제 60 기 1분기,15974493,15974493,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 61 기 1분기,350483515,,,24,KRW,350483515,제 60 기 1분기,-321621452,-321621452,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되는 항목,-,제 61 기 1분기,341726714,,,25,KRW,341726714,제 60 기 1분기,-175238924,-175238924,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 61 기 1분기,291183248,,,26,KRW,291183248,제 60 기 1분기,-175744017,-175744017,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 61 기 1분기,50543466,,,27,KRW,50543466,제 60 기 1분기,505093,505093,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목,-,제 61 기 1분기,8756801,,,28,KRW,8756801,제 60 기 1분기,-146382528,-146382528,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 61 기 1분기,8756801,,,29,KRW,8756801,제 60 기 1분기,-146382528,-146382528,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 61 기 1분기,80852899,,,30,KRW,80852899,제 60 기 1분기,-1603802969,-1603802969,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 61 기 1분기,-268045,,,32,KRW,-268045,제 60 기 1분기,-267471,-267471,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 61 기 1분기,81120944,,,33,KRW,81120944,제 60 기 1분기,-1603535498,-1603535498,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 61 기 1분기,65597379,,,34,KRW,65597379,제 60 기 1분기,-1587828476,-1587828476,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 61 기 1분기,80852899,,,35,KRW,80852899,제 60 기 1분기,-1603802969,-1603802969,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 61 기 1분기,21935037217,,,36,KRW,21935037217,제 60 기 1분기,21577003488,21577003488,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 61 기 1분기,2505317503,,,2,KRW,,제 60 기 1분기,1616683628,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 61 기 1분기,1604467807,,,3,KRW,,제 60 기 1분기,2409214836,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 61 기 1분기,-607601520,,,8,KRW,,제 60 기 1분기,919883711,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 61 기 1분기,66750633,,,9,KRW,,제 60 기 1분기,49972717,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 61 기 1분기,22799295102,,,10,KRW,,제 60 기 1분기,16087014012,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 61 기 1분기,23340145989,,,11,KRW,,제 60 기 1분기,15117157584,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 61 기 1분기,-846877208,,,12,KRW,,제 60 기 1분기,-363845353,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 61 기 1분기,18601977611,,,13,KRW,,제 60 기 1분기,9408468497,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 상환,-,제 61 기 1분기,2114566,,,14,KRW,,제 60 기 1분기,1555750,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 61 기 1분기,18601977611,,,15,KRW,,제 60 기 1분기,9408468497,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 대여,-,제 61 기 1분기,1651100,,,16,KRW,,제 60 기 1분기,4183812,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 61 기 1분기,,,,17,KRW,,제 60 기 1분기,2880000,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 61 기 1분기,,,,18,KRW,,제 60 기 1분기,78679968,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 61 기 1분기,22770166,,,19,KRW,,제 60 기 1분기,37710128,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 61 기 1분기,824570508,,,20,KRW,,제 60 기 1분기,405067131,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 61 기 1분기,502977307,,,21,KRW,,제 60 기 1분기,238052665,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 61 기 1분기,-1725113145,,,22,KRW,,제 60 기 1분기,-995284994,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInAdvancePayments,선급금의 증감,-,제 61 기 1분기,-295513742,,,23,KRW,,제 60 기 1분기,59979857,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,퇴직연금운용자산의 증감,-,제 61 기 1분기,138086019,,,24,KRW,,제 60 기 1분기,180338019,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherReceivables,미수금의 증감,-,제 61 기 1분기,-414007848,,,25,KRW,,제 60 기 1분기,279254366,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAccruedExpenses,미지급비용의 증감,-,제 61 기 1분기,36905892,,,26,KRW,,제 60 기 1분기,-42831650,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInAdvancesCustomers,선수금의 증감,-,제 61 기 1분기,9763400,,,27,KRW,,제 60 기 1분기,10000,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermAccruedExpenses,장기미지급비용의 증감,-,제 61 기 1분기,-2171501,,,28,KRW,,제 60 기 1분기,-16735001,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherPayables,미지급금의 증감,-,제 61 기 1분기,452909673,,,29,KRW,,제 60 기 1분기,806544946,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInWithholdingsBanks,예수금의 증감,-,제 61 기 1분기,-203092645,,,30,KRW,,제 60 기 1분기,-300505957,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 61 기 1분기,-178550943,,,31,KRW,,제 60 기 1분기,-240503357,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 증감,-,제 61 기 1분기,-85943361,,,32,KRW,,제 60 기 1분기,119564829,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInPrepaidExpenses,선급비용의 증감,-,제 61 기 1분기,897526,,,33,KRW,,제 60 기 1분기,-78452239,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권의 증감,-,제 61 기 1분기,-2716020255,,,34,KRW,,제 60 기 1분기,-2373882509,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무의 증감,-,제 61 기 1분기,1531624640,,,35,KRW,,제 60 기 1분기,611933702,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 61 기 1분기,1559513550,,,36,KRW,,제 60 기 1분기,3172402005,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비(환입),-,제 61 기 1분기,2347538,,,37,KRW,,제 60 기 1분기,-15008976,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 61 기 1분기,,,,38,KRW,,제 60 기 1분기,7668317,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 61 기 1분기,12728996,,,39,KRW,,제 60 기 1분기,4536448,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 61 기 1분기,572400750,,,40,KRW,,제 60 기 1분기,495940596,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 61 기 1분기,769879368,,,41,KRW,,제 60 기 1분기,1693560545,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 61 기 1분기,1000,,,42,KRW,,제 60 기 1분기,27753000,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 61 기 1분기,4462845,,,43,KRW,,제 60 기 1분기,1593483,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 61 기 1분기,428351475,,,44,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 61 기 1분기,205415689,,,45,KRW,,제 60 기 1분기,219622383,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_AdjustmentsForReversalsOfProvisions,충당부채의 환입,-,제 61 기 1분기,,,,46,KRW,,제 60 기 1분기,3464698,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_LossesOnValuationOfFairValueFinancialAsset,당기손익-공정가치금융자산평가손실,-,제 61 기 1분기,,,,47,KRW,,제 60 기 1분기,188354046,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_ReversalsOfInventories,재고자산평가손실환입,-,제 61 기 1분기,11524683,,,48,KRW,,제 60 기 1분기,27242593,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,dart_WritedownsOfInventories,재고자산평가손실,-,제 61 기 1분기,21375819,,,49,KRW,,제 60 기 1분기,57307285,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 61 기 1분기,637414328,,,50,KRW,,제 60 기 1분기,539984145,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 61 기 1분기,-15255520,,,51,KRW,,제 60 기 1분기,15974493,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 61 기 1분기,166876795,,,52,KRW,,제 60 기 1분기,9766939,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_ChangesInFairValueOfFinancialAssetsAttributableToChangesInCreditRiskOfFinancialAssets,당기손익-공정가치금융자산평가이익,-,제 61 기 1분기,-19046318,,,53,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 61 기 1분기,647517450,,,54,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부액(환급액),-,제 61 기 1분기,60150353,,,55,KRW,,제 60 기 1분기,228397290,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 61 기 1분기,184602080,,,56,KRW,,제 60 기 1분기,112056026,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의수취,-,제 61 기 1분기,184958986,,,57,KRW,,제 60 기 1분기,5191939,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 61 기 1분기,80852899,,,58,KRW,,제 60 기 1분기,-1603802969,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,환율변동효과,-,제 61 기 1분기,50651725,,,59,KRW,,제 60 기 1분기,-1559815,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금의증가,-,제 61 기 1분기,-951501421,,,60,KRW,,제 60 기 1분기,794091023,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 61 기 1분기,144064847339,,,3,KRW,,제 60 기 1분기,145007320232,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분,제 61 기 1분기,-17336224,,,3,KRW,,제 60 기 1분기,-14555000,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,144082183563,,,3,KRW,,제 60 기 1분기,145021875232,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분|기타포괄손익누계액 [구성요소],제 61 기 1분기,-7138475594,,,3,KRW,,제 60 기 1분기,-6454877351,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,104234666532,,,3,KRW,,제 60 기 1분기,24392013945,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분|자본금 [구성요소],제 61 기 1분기,20171115500,,,3,KRW,,제 60 기 1분기,20171115500,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분|자본잉여금 [구성요소],제 61 기 1분기,43723009298,,,3,KRW,,제 60 기 1분기,123821755311,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업 소유주 지분|자본조정,제 61 기 1분기,-16908132173,,,3,KRW,,제 60 기 1분기,-16908132173,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,81120944,,,4,KRW,,제 60 기 1분기,-1603535498,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업 소유주 지분|기타포괄손익누계액 [구성요소],제 61 기 1분기,350483515,,,4,KRW,,제 60 기 1분기,-321621452,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 61 기 1분기,431336414,,,4,KRW,,제 60 기 1분기,-1925424421,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분,제 61 기 1분기,-268045,,,4,KRW,,제 60 기 1분기,-267471,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,431604459,,,4,KRW,,제 60 기 1분기,-1925156950,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,291183248,,,5,KRW,,제 60 기 1분기,-175744017,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 61 기 1분기,291183248,,,5,KRW,,제 60 기 1분기,-175744017,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업 소유주 지분|기타포괄손익누계액 [구성요소],제 61 기 1분기,291183248,,,5,KRW,,제 60 기 1분기,-175744017,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 61 기 1분기,80852899,,,6,KRW,,제 60 기 1분기,-1603802969,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분,제 61 기 1분기,-268045,,,6,KRW,,제 60 기 1분기,-267471,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,81120944,,,6,KRW,,제 60 기 1분기,-1603535498,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,81120944,,,6,KRW,,제 60 기 1분기,-1603535498,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,59300267,,,7,KRW,,제 60 기 1분기,-145877435,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업 소유주 지분|기타포괄손익누계액 [구성요소],제 61 기 1분기,59300267,,,7,KRW,,제 60 기 1분기,-145877435,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 61 기 1분기,59300267,,,7,KRW,,제 60 기 1분기,-145877435,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,100803501837,,,8,KRW,,제 60 기 1분기,22788478447,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분|자본금 [구성요소],제 61 기 1분기,20171115500,,,8,KRW,,제 60 기 1분기,20171115500,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분,제 61 기 1분기,144513788022,,,8,KRW,,제 60 기 1분기,143096718282,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분|기타포괄손익누계액 [구성요소],제 61 기 1분기,-6787992079,,,8,KRW,,제 60 기 1분기,-6776498803,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분|자본잉여금 [구성요소],제 61 기 1분기,43723009298,,,8,KRW,,제 60 기 1분기,123821755311,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업 소유주 지분|자본조정,제 61 기 1분기,-13395846534,,,8,KRW,,제 60 기 1분기,-16908132173,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 61 기 1분기,144496183753,,144064847339,8,KRW,,제 60 기 1분기,143075329786,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분,제 61 기 1분기,-17604269,,,8,KRW,,제 60 기 1분기,-21388496,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업 소유주 지분|자본조정,제 61 기 1분기,3512285639,,,9,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,-3512285639,,,9,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|비지배지분,제 61 기 1분기,,,,9,KRW,,제 60 기 1분기,-6566025,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,연결재무제표 [member],제 61 기 1분기,,,,9,KRW,,제 60 기 1분기,-6566025,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업 소유주 지분|자본조정,제 61 기 1분기,3512285639,,,10,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업 소유주 지분|이익잉여금,제 61 기 1분기,-3512285639,,,10,KRW,,제 60 기 1분기,,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_NetMovementInRegulatoryDeferralAccountBalancesRelatedToProfitOrLossAttributableToNoncontrollingInterests,비지배지분보유지분변동,자본 [구성요소]|비지배지분,제 61 기 1분기,,,,11,KRW,,제 60 기 1분기,-6566025,,033310,엠투엔,CFS
+20260515000797,11013,2026,00143226,SCE,자본변동표,ifrs-full_NetMovementInRegulatoryDeferralAccountBalancesRelatedToProfitOrLossAttributableToNoncontrollingInterests,비지배지분보유지분변동,연결재무제표 [member],제 61 기 1분기,,,,11,KRW,,제 60 기 1분기,-6566025,,033310,엠투엔,CFS

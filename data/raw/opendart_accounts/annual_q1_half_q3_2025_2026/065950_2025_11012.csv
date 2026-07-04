@@ -1,0 +1,174 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 34 기 반기말,348109283350,제 33 기말,382066204999,7,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 34 기 반기말,134679223781,제 33 기말,156327870538,8,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 34 기 반기말,11604735301,제 33 기말,27975532545,9,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 34 기 반기말,21407552949,제 33 기말,19446982386,10,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 34 기 반기말,8239794915,제 33 기말,15768383684,11,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 34 기 반기말,2373266423,제 33 기말,3375096114,12,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 34 기 반기말,91053874193,제 33 기말,89761875809,13,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 34 기 반기말,213430059569,제 33 기말,225738334461,14,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_GoodwillGross,영업권,-,제 34 기 반기말,576327287,제 33 기말,576327287,15,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,장기매출채권 및 기타비유동채권,-,제 34 기 반기말,11979266717,제 33 기말,3895265397,16,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 34 기 반기말,3066010952,제 33 기말,3710635449,17,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산,-,제 34 기 반기말,3580671091,제 33 기말,3696401974,18,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 34 기 반기말,14808187655,제 33 기말,14858763565,19,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자주식,-,제 34 기 반기말,4295075265,제 33 기말,4804402788,20,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 34 기 반기말,444376851,제 33 기말,548898730,21,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 34 기 반기말,5693106963,제 33 기말,5454508824,22,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 34 기 반기말,167281908117,제 33 기말,186468391914,23,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 34 기 반기말,1705128671,제 33 기말,1724738533,24,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 34 기 반기말,103229795879,제 33 기말,111140749464,26,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 34 기 반기말,58794476896,제 33 기말,60287564994,27,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 34 기 반기말,41554948588,제 33 기말,41554948588,28,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 34 기 반기말,-11220336118,제 33 기말,-11233307402,29,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 34 기 반기말,12913123897,제 33 기말,12590778947,30,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 34 기 반기말,14115651000,제 33 기말,14115651000,31,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 34 기 반기말,1431089529,제 33 기말,3259493861,32,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 34 기 반기말,44435318983,제 33 기말,50853184470,33,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 34 기 반기말,348109283350,제 33 기말,382066204999,34,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 34 기 반기말,147404056796,제 33 기말,172613336861,36,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 34 기 반기말,0,제 33 기말,0,37,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 34 기 반기말,627969838,제 33 기말,523535632,38,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,비유동차입금(사채 포함)의 유동성 대체 부분,-,제 34 기 반기말,10288896000,제 33 기말,10191854000,39,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 34 기 반기말,10420418812,제 33 기말,7440290488,40,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 34 기 반기말,865385167,제 33 기말,1607594099,41,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 34 기 반기말,13044608,제 33 기말,408959239,42,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 34 기 반기말,20140343253,제 33 기말,27343825558,43,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_ShorttermBorrowings,유동 차입금(사채 포함),-,제 34 기 반기말,72524142249,제 33 기말,72667246116,44,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 34 기 반기말,32523856869,제 33 기말,52430031729,45,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 34 기 반기말,244879487471,제 33 기말,270925455535,46,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 34 기 반기말,97475430675,제 33 기말,98312118674,47,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_LongTermBorrowingsGross,"장기차입금(사채 포함), 총액",-,제 34 기 반기말,90948036000,제 33 기말,92179300000,48,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,기타비유동채무,-,제 34 기 반기말,2009639417,제 33 기말,1361411835,49,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 34 기 반기말,968928061,제 33 기말,1110462985,50,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 34 기 반기말,1294924533,제 33 기말,1500415395,51,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,비유동 순확정급여부채,-,제 34 기 반기말,0,제 33 기말,0,52,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 34 기 반기말,2253902664,제 33 기말,2160528459,53,KRW,,,,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 34 기 반기,845521360,,,6,KRW,-118498304,제 33 기 반기,-2385205929,-294134630,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,dart_OtherGains,기타영업외수익,-,제 34 기 반기,1498441423,,,7,KRW,1996439209,제 33 기 반기,1263606165,1717882756,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,dart_OtherLosses,기타영업외비용,-,제 34 기 반기,5919562455,,,8,KRW,6834873663,제 33 기 반기,2134574353,2944118855,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 34 기 반기,12058047124,,,9,KRW,25692961997,제 33 기 반기,12884617157,23866688083,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,반기총포괄손익,-,제 34 기 반기,-5224833027,,,10,KRW,-7934892549,제 33 기 반기,-3468405570,-2714140662,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 34 기 반기,-5817912150,,,12,KRW,-6428833167,제 33 기 반기,-4728703933,-4169551214,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 34 기 반기,593079123,,,13,KRW,-1506059382,제 33 기 반기,1260298363,1455410552,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 34 기 반기,51096103179,,,14,KRW,112751036575,제 33 기 반기,72817498067,157349489187,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 34 기 반기,10,,,16,KRW,-67,제 33 기 반기,48,51,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 34 기 반기,10,,,17,KRW,-67,제 33 기 반기,27,26,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 34 기 반기,1802680529,,,18,KRW,3562974763,제 33 기 반기,714049393,1511805264,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 34 기 반기,175655811,,,19,KRW,783161858,제 33 기 반기,979803717,1651364457,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 34 기 반기,12903568484,,,20,KRW,25574463693,제 33 기 반기,10499411228,23572553453,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 34 기 반기,376547908,,,21,KRW,539461857,제 33 기 반기,418326514,1355631200,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 34 기 반기,354339271,,,22,KRW,341314971,제 33 기 반기,-59659263,22302074,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 34 기 반기,141619675,,,23,KRW,185684484,제 33 기 반기,16952901,45347272,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 34 기 반기,130447592,,,24,KRW,147609691,제 33 기 반기,-8118736,-4796004,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 34 기 반기,11172083,,,25,KRW,38074793,제 33 기 반기,25071637,50143276,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 34 기 반기,212719596,,,26,KRW,155630487,제 33 기 반기,-76612164,-23045198,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,-,제 34 기 반기,212719596,,,27,KRW,155630487,제 33 기 반기,-76612164,-23045198,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLoss,반기순이익(손실),-,제 34 기 반기,-5579172298,,,28,KRW,-8276207520,제 33 기 반기,-3408746307,-2736442736,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 34 기 반기,-5857573708,,,30,KRW,-6477803188,제 33 기 반기,-4715122949,-4138712764,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,-,제 34 기 반기,278401410,,,31,KRW,-1828404332,제 33 기 반기,1306376642,1402270028,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 34 기 반기,-5202624390,,,32,KRW,-7736745663,제 33 기 반기,-2990419793,-1380811536,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 34 기 반기,-5579172298,,,33,KRW,-8276207520,제 33 기 반기,-3408746307,-2736442736,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업이익(손실),-,제 34 기 반기,0,,,34,KRW,0,제 33 기 반기,0,0,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 34 기 반기,63999671663,,,35,KRW,138325500268,제 33 기 반기,83316909295,180922042640,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 34 기 반기,27975532545,,,2,KRW,,제 33 기 반기,15991883799,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 34 기 반기,11604735301,,,3,KRW,,제 33 기 반기,32363716325,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,-표준계정코드 미사용-,연결실체의 변동으로 인한 현금의 변동,-,제 34 기 반기,0,,,8,KRW,,제 33 기 반기,-1249399,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 34 기 반기,-294765660,,,9,KRW,,제 33 기 반기,35186344538,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 34 기 반기,665098800,,,10,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 지급,-,제 34 기 반기,583038118,,,11,KRW,,제 33 기 반기,681486535,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 34 기 반기,20000000,,,12,KRW,,제 33 기 반기,15716000000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 34 기 반기,28520403834,,,13,KRW,,제 33 기 반기,57749968326,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 34 기 반기,20000000,,,14,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 34 기 반기,27763008176,,,15,KRW,,제 33 기 반기,36356765253,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,유동성장기차입금의 감소,-,제 34 기 반기,1134222000,,,16,KRW,,제 33 기 반기,1241372000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 34 기 반기,-4503326408,,,17,KRW,,제 33 기 반기,-12646824809,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 34 기 반기,143580000,,,18,KRW,,제 33 기 반기,-5000000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 34 기 반기,202765000,,,19,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 34 기 반기,18181818,,,20,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 처분,-,제 34 기 반기,1007604613,,,21,KRW,,제 33 기 반기,14084846765,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 처분,-,제 34 기 반기,49422,,,22,KRW,,제 33 기 반기,7375763,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 34 기 반기,224545310,,,23,KRW,,제 33 기 반기,3668131751,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 34 기 반기,615000000,,,24,KRW,,제 33 기 반기,21413190,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 34 기 반기,42230827,,,25,KRW,,제 33 기 반기,11103208382,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 취득,-,제 34 기 반기,91233645,,,26,KRW,,제 33 기 반기,99204787,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 34 기 반기,1020000000,,,27,KRW,,제 33 기 반기,3324164681,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 34 기 반기,0,,,28,KRW,,제 33 기 반기,350000000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 34 기 반기,0,,,29,KRW,,제 33 기 반기,847940749,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 34 기 반기,13809090,,,30,KRW,,제 33 기 반기,108820000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 34 기 반기,113632021,,,31,KRW,,제 33 기 반기,54197000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 34 기 반기,3826235168,,,32,KRW,,제 33 기 반기,17106751797,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 34 기 반기,-11448577846,,,33,KRW,,제 33 기 반기,-6271644392,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 34 기 반기,-14917794344,,,34,KRW,,제 33 기 반기,-5939444352,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,-표준계정코드 미사용-,배당금수취,-,제 34 기 반기,17829382,,,35,KRW,,제 33 기 반기,14501092,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,제 34 기 반기,15387583599,,,36,KRW,,제 33 기 반기,4198593230,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부,-,제 34 기 반기,727955385,,,37,KRW,,제 33 기 반기,1133318252,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 34 기 반기,3207460779,,,38,KRW,,제 33 기 반기,884851552,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 34 기 반기,275427201,,,39,KRW,,제 33 기 반기,209318178,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_ProfitLossFromContinuingOperations,계속영업이익(손실),-,제 34 기 반기,-5579172298,,,40,KRW,,제 33 기 반기,-3408746307,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 34 기 반기,-124127330,,,41,KRW,,제 33 기 반기,105206588,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 34 기 반기,-16370797244,,,42,KRW,,제 33 기 반기,16371832526,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,12590778947,,,3,KRW,,제 33 기 반기,12589972361,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,3259493861,,,3,KRW,,제 33 기 반기,7965128300,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,14115651000,,,3,KRW,,제 33 기 반기,14115651000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,-11233307402,,,3,KRW,,제 33 기 반기,-6170471853,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,60287564994,,,3,KRW,,제 33 기 반기,70055228396,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,50853184470,,,3,KRW,,제 33 기 반기,52748725513,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 34 기 반기,111140749464,,,3,KRW,,제 33 기 반기,122803953909,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,41554948588,,,3,KRW,,제 33 기 반기,41554948588,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,58794476896,,,4,KRW,,제 33 기 반기,71310601696,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,44435318983,,,4,KRW,,제 33 기 반기,48791181033,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 34 기 반기,103229795879,,111140749464,4,KRW,,제 33 기 반기,120101782729,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,-11220336118,,,4,KRW,,제 33 기 반기,-6370509105,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,41554948588,,,4,KRW,,제 33 기 반기,41554948588,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,14115651000,,,4,KRW,,제 33 기 반기,14115651000,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,1431089529,,,4,KRW,,제 33 기 반기,9367398328,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,12913123897,,,4,KRW,,제 33 기 반기,12643112885,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,연결재무제표 [member],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,200037252,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,-200037252,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,-200037252,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,종속기업지분변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,5,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,0,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,0,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,12971284,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,12971284,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,10967680,,,6,KRW,,제 33 기 반기,11969482,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,연결재무제표 [member],제 34 기 반기,23938964,,,6,KRW,,제 33 기 반기,11969482,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,종속기업의 주식선택권 부여,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,6,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,7,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,0,,,7,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,161787726,,,7,KRW,,제 33 기 반기,-19647183,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,0,,,7,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,161787726,,,7,KRW,,제 33 기 반기,-19647183,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,-14178035,,,7,KRW,,제 33 기 반기,14851179,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,연결재무제표 [member],제 34 기 반기,147609691,,,7,KRW,,제 33 기 반기,-4796004,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,7,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,8,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,0,,,8,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,150507431,,,8,KRW,,제 33 기 반기,59552453,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,0,,,8,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,150507431,,,8,KRW,,제 33 기 반기,59552453,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,5123056,,,8,KRW,,제 33 기 반기,-82597651,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,연결재무제표 [member],제 34 기 반기,212719596,,,8,KRW,,제 33 기 반기,-76612164,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,보험수리적손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,8,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),연결재무제표 [member],제 34 기 반기,-5579172298,,,9,KRW,,제 33 기 반기,-3408746307,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,-6447803188,,,9,KRW,,제 33 기 반기,-4138712764,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,9,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,9,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,-1828404332,,,9,KRW,,제 33 기 반기,1402270028,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,0,,,9,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,0,,,9,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,-1828404332,,,9,KRW,,제 33 기 반기,1402270028,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 34 기 반기,38074793,,,10,KRW,,제 33 기 반기,50143276,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 34 기 반기,0,,,10,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 34 기 반기,0,,,10,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 34 기 반기,10049793,,,10,KRW,,제 33 기 반기,13235254,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 34 기 반기,0,,,10,KRW,,제 33 기 반기,0,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 34 기 반기,10049793,,,10,KRW,,제 33 기 반기,13235254,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 34 기 반기,28025000,,,10,KRW,,제 33 기 반기,36908022,,065950,웰크론,CFS
+20250814003651,11012,2025,00362159,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 34 기 반기,0,,,10,KRW,,제 33 기 반기,0,,065950,웰크론,CFS

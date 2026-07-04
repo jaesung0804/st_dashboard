@@ -1,0 +1,262 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 16 기 1분기말,125496764558,제 15 기말,126277188188,7,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 16 기 1분기말,95605189347,제 15 기말,99867263902,8,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsCashAndCashEquivalentsGross,"정부보조금, 현금및현금성자산",-,제 16 기 1분기말,0,제 15 기말,0,9,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 16 기 1분기말,29424970977,제 15 기말,16181449905,10,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CashEquivalents,현금성자산,-,제 16 기 1분기말,29424970977,제 15 기말,16181449905,11,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 16 기 1분기말,411733741,제 15 기말,221332421,12,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 16 기 1분기말,18694154551,제 15 기말,16486278400,13,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedImpairmentLossFinishedGoodsGross,"평가충당금, 제품",-,제 16 기 1분기말,20196718,제 15 기말,20196718,14,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedImpairmentLossMerchandiseGross,"평가충당금, 상품",-,제 16 기 1분기말,848274150,제 15 기말,848274150,15,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedImpairmentLossRawMaterialsGross,"평가충당금, 원재료",-,제 16 기 1분기말,923228752,제 15 기말,923228752,16,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedImpairmentLossWorkInProgressGross,"평가충당금, 재공품",-,제 16 기 1분기말,0,제 15 기말,0,17,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_FinishedGoodsGross,"제품, 총액",-,제 16 기 1분기말,20196718,제 15 기말,20196718,18,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GoodsInTransitGross,"미착품, 총액",-,제 16 기 1분기말,0,제 15 기말,0,19,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_MerchandiseGross,"상품, 총액",-,제 16 기 1분기말,848274150,제 15 기말,848274150,20,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_RawMaterialsGross,"원재료, 총액",-,제 16 기 1분기말,17312584578,제 15 기말,15917386365,21,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_WorkInProgressGross,"재공품, 총액",-,제 16 기 1분기말,2304798725,제 15 기말,1492120787,22,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 16 기 1분기말,39090804000,제 15 기말,53955894000,23,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 16 기 1분기말,7983526078,제 15 기말,13022309176,24,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AllowanceForDoubtfulAcccountShortTermDueFromCustomersForContractWork,"대손충당금, 단기미청구공사",-,제 16 기 1분기말,0,제 15 기말,0,25,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AllowanceForDoubtfulAcccountShortTermOtherReceivables,"대손충당금, 단기미수금",-,제 16 기 1분기말,0,제 15 기말,0,26,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AllowanceForDoubtfulAcccountShortTermTradeReceivable,"대손충당금, 매출채권",-,제 16 기 1분기말,1271811691,제 15 기말,1229586352,27,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LeaseholdDeposits,"단기임차보증금, 총액",-,제 16 기 1분기말,20000000,제 15 기말,20000000,28,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermAccruedIncome,"단기미수수익, 총액",-,제 16 기 1분기말,406658109,제 15 기말,1216114436,29,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermAdvancePayments,"단기선급금, 총액",-,제 16 기 1분기말,445517376,제 15 기말,637530050,30,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWork,"단기미청구공사, 총액",-,제 16 기 1분기말,4708701609,제 15 기말,4646950116,31,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermLoans,"단기대여금, 총액",-,제 16 기 1분기말,926000000,제 15 기말,874200000,32,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermOtherReceivables,"단기미수금, 총액",-,제 16 기 1분기말,628353634,제 15 기말,234126298,33,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermPrepaidExpenses,"단기선급비용, 총액",-,제 16 기 1분기말,24452440,제 15 기말,56949068,34,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermTradeReceivable,매출채권,-,제 16 기 1분기말,2095654601,제 15 기말,6566025560,35,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentValueAddedTaxReceivables,부가가치세대급금,-,제 16 기 1분기말,0,제 15 기말,0,36,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 16 기 1분기말,29891575211,제 15 기말,26409924286,37,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GoodwillGross,"영업권, 총액",-,제 16 기 1분기말,0,제 15 기말,0,38,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 16 기 1분기말,530522409,제 15 기말,499340284,39,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,"장기매출채권 및 기타비유동채권, 총액",-,제 16 기 1분기말,274578013,제 15 기말,332932290,40,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermDepositsProvidedGross,장기보증금자산,-,제 16 기 1분기말,279030000,제 15 기말,279030000,41,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermLoansGross,"장기대여금, 총액",-,제 16 기 1분기말,0,제 15 기말,59300000,42,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_PresentValueDiscountsLongTermDepositsProvidedGross,"현재가치할인차금, 장기보증금자산",-,제 16 기 1분기말,4451987,제 15 기말,5397710,43,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 16 기 1분기말,564003292,제 15 기말,261430471,44,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산,-,제 16 기 1분기말,56849158,제 15 기말,61078852,45,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ComputerSoftwareGross,"컴퓨터소프트웨어, 총액",-,제 16 기 1분기말,54931533,제 15 기말,58253253,46,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsGross,"저작권, 특허권, 기타 산업재산권, 용역운영권, 총액",-,제 16 기 1분기말,18784292,제 15 기말,20906555,47,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsComputerSoftwareGross,"정부보조금, 컴퓨터소프트웨어",-,제 16 기 1분기말,16866667,제 15 기말,18016667,48,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsCopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsGross,"정부보조금, 저작권, 특허권, 기타 산업재산권, 용역운영권",-,제 16 기 1분기말,0,제 15 기말,64289,49,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_IntangibleAssetsUnderDevelopmentGross,"개발 중인 무형자산, 총액",-,제 16 기 1분기말,0,제 15 기말,0,50,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,지분법적용 투자지분,-,제 16 기 1분기말,1243978163,제 15 기말,1243978163,51,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 16 기 1분기말,4857693371,제 15 기말,4857693371,52,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 16 기 1분기말,0,제 15 기말,0,53,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 16 기 1분기말,1158788353,제 15 기말,114590190,54,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_NonCurrentAvailableForSaleFinancialAssets,비유동매도가능금융자산,-,제 16 기 1분기말,540031000,제 15 기말,114590190,55,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_NonCurrentFairValueFinancialAsset,비유동당기손익인식금융자산,-,제 16 기 1분기말,618757353,제 15 기말,,56,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 16 기 1분기말,21205162452,제 15 기말,19038880665,57,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationBuildingsGross,"감가상각누계액, 건물",-,제 16 기 1분기말,2727905525,제 15 기말,2680783478,58,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationFixturesAndFittingsGross,"감가상각누계액, 집기",-,제 16 기 1분기말,1834088472,제 15 기말,1745598605,59,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationMachineryGross,"감가상각누계액, 기계장치",-,제 16 기 1분기말,575376192,제 15 기말,525734958,60,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationOtherPropertyPlantAndEquipmentGross,"감가상각누계액, 기타유형자산",-,제 16 기 1분기말,3129416015,제 15 기말,3097063477,61,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationRentalAssetGross,"감가상각누계액, 렌탈자산",-,제 16 기 1분기말,274026993,제 15 기말,251929576,62,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AccumulatedDepreciationVehiclesGross,"감가상각누계액, 차량운반구",-,제 16 기 1분기말,32972479,제 15 기말,29628214,63,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_BuildingsGross,"건물, 총액",-,제 16 기 1분기말,3769763517,제 15 기말,3769763517,64,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ConstructionInProgressGross,"건설중인자산, 총액",-,제 16 기 1분기말,8211061222,제 15 기말,8420426222,65,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_FixturesAndFittingsGross,"집기, 총액",-,제 16 기 1분기말,3193237460,제 15 기말,3025259074,66,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsFixturesAndFittingsGross,"정부보조금, 집기",-,제 16 기 1분기말,185210815,제 15 기말,149881659,67,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsMachineryGross,"정부보조금, 기계장치",-,제 16 기 1분기말,12915000,제 15 기말,14670000,68,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GovernmentGrantsOtherPropertyPlantAndEquipmentGross,"정부보조금, 기타유형자산",-,제 16 기 1분기말,0,제 15 기말,0,69,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LandGross,"토지, 총액",-,제 16 기 1분기말,7645871439,제 15 기말,7645871439,70,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_MachineryGross,"기계장치, 총액",-,제 16 기 1분기말,2758760075,제 15 기말,569595075,71,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_OtherPropertyPlantAndEquipmentGross,"기타유형자산, 총액",-,제 16 기 1분기말,3675568924,제 15 기말,3497218924,72,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_VehiclesGross,"차량운반구, 총액",-,제 16 기 1분기말,135949651,제 15 기말,55720717,73,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 16 기 1분기말,586861655,제 15 기말,550315664,74,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 16 기 1분기말,61080588673,제 15 기말,61080588673,76,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GainsSaleTreasuryStock,자기주식처분이익,-,제 16 기 1분기말,0,제 15 기말,0,77,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_OtherCapitalSurplus,기타자본잉여금,-,제 16 기 1분기말,48610440,제 15 기말,48610440,78,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 16 기 1분기말,61031978233,제 15 기말,61031978233,79,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 16 기 1분기말,-3673796503,제 15 기말,-4102054830,80,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LossesSaleTreasuryStock,자기주식처분손실,-,제 16 기 1분기말,432031122,제 15 기말,432031122,81,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_StockOptions,주식선택권,-,제 16 기 1분기말,3770993463,제 15 기말,3342735136,82,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_TreasuryShares,자기주식,-,제 16 기 1분기말,7012758844,제 15 기말,7012758844,83,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 16 기 1분기말,-9261684,제 15 기말,-9261684,84,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ComprehensiveIncomeGainsLossesEquityMethodSecurities,지분법기타포괄손익변동,-,제 16 기 1분기말,-9261684,제 15 기말,-9261684,85,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_GainsValuationAvailableForSaleFinancialAssets,매도가능금융자산평가이익,-,제 16 기 1분기말,0,제 15 기말,0,86,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 16 기 1분기말,102982551073,제 15 기말,103864391012,87,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 16 기 1분기말,7541152000,제 15 기말,7541152000,88,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_IssuedCapitalOfCommonStock,보통주자본금,-,제 16 기 1분기말,7541152000,제 15 기말,7541152000,89,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_IssuedCapitalOfPreferredStock,우선주자본금,-,제 16 기 1분기말,0,제 15 기말,0,90,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 16 기 1분기말,38043868587,제 15 기말,39353966853,91,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_AppropriatedRetainedEarningsOtherLegalReserves,기타법정적립금,-,제 16 기 1분기말,2671892212,제 15 기말,2671892212,92,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LegalReserve,이익준비금,-,제 16 기 1분기말,471105180,제 15 기말,471105180,93,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_RetainedEarningsBeforeAppropriationsAccumulatedDeficitBeforeDisposition,미처분이익잉여금(미처리결손금),-,제 16 기 1분기말,37348696533,제 15 기말,38638731457,94,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,-표준계정코드 미사용-,보험수리적손익,-,제 16 기 1분기말,-2447825338,제 15 기말,-2427761996,95,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 16 기 1분기말,125496764558,제 15 기말,126277188188,96,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 16 기 1분기말,21115858096,제 15 기말,21241727608,98,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_PaymentsOfIncomeTaxesPayable,미지급법인세,-,제 16 기 1분기말,0,제 15 기말,0,99,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 16 기 1분기말,403535514,제 15 기말,403535514,100,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_CurrentProvisionForConstructionLosses,유동공사손실충당부채,-,제 16 기 1분기말,403535514,제 15 기말,403535514,101,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_CurrentProvisionsForConstructionWarranties,유동하자보수충당부채,-,제 16 기 1분기말,0,제 15 기말,0,102,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 16 기 1분기말,0,제 15 기말,0,103,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 16 기 1분기말,20712322582,제 15 기말,20838192094,104,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermAccruedExpenses,단기미지급비용,-,제 16 기 1분기말,569733045,제 15 기말,442638615,105,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermAdvancesCustomers,단기선수금,-,제 16 기 1분기말,1726126641,제 15 기말,1418879942,106,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,단기초과청구공사,-,제 16 기 1분기말,13577687911,제 15 기말,14521407447,107,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermOtherPayables,단기미지급금,-,제 16 기 1분기말,2961833326,제 15 기말,3125706700,108,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 16 기 1분기말,1682227328,제 15 기말,1034333084,109,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_ShortTermWithholdings,단기예수금,-,제 16 기 1분기말,15543136,제 15 기말,124363471,110,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 16 기 1분기말,179171195,제 15 기말,170862835,111,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_DividendsPayable,"배당금, 비현금성 자산의 배분",-,제 16 기 1분기말,0,제 15 기말,0,112,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 16 기 1분기말,22514213485,제 15 기말,22412797176,113,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 16 기 1분기말,1398355389,제 15 기말,1171069568,114,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 16 기 1분기말,891998521,제 15 기말,848237016,115,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_LongTermOtherPayablesGross,"장기미지급금, 총액",-,제 16 기 1분기말,746500864,제 15 기말,712163469,116,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 16 기 1분기말,145497657,제 15 기말,136073547,117,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,-,제 16 기 1분기말,-295672929,제 15 기말,-449062905,118,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_FairValueOfPlanAssets,사외적립자산의공정가치,-,제 16 기 1분기말,10174152354,제 15 기말,9949059501,119,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,dart_PresentValueOfDefinedBenefitObligation,확정급여채무의현재가치,-,제 16 기 1분기말,9878479425,제 15 기말,9499996596,120,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 16 기 1분기말,0,제 15 기말,0,121,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,-,제 16 기 1분기말,802029797,제 15 기말,771895457,122,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,비유동종업원급여충당부채,-,제 16 기 1분기말,802029797,제 15 기말,771895457,123,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 16 기 1분기말,0,제 15 기말,0,124,KRW,,,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 16 기 1분기,-2555002810,,,6,KRW,-2555002810,제 15 기 1분기,-779128423,-779128423,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 16 기 1분기,15209779,,,7,KRW,15209779,제 15 기 1분기,35083547,35083547,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_GainsOnDisposalsOfInventory,재고자산처분이익,-,제 16 기 1분기,0,,,8,KRW,0,제 15 기 1분기,31147451,31147451,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_MiscellaneousIncome,잡이익,-,제 16 기 1분기,14829057,,,9,KRW,14829057,제 15 기 1분기,995938,995938,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_GainsOnDisposalsOfPropertyPlantAndEquipment,유형자산처분이익,-,제 16 기 1분기,380722,,,10,KRW,380722,제 15 기 1분기,2940158,2940158,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 16 기 1분기,15888008,,,11,KRW,15888008,제 15 기 1분기,5000,5000,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_Donations,기부금,-,제 16 기 1분기,15888000,,,12,KRW,15888000,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_ImpairmentLossesOnIntangibleAssets,무형자산손상차손,-,제 16 기 1분기,0,,,13,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 16 기 1분기,0,,,14,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_MiscellaneousLosses,잡손실,-,제 16 기 1분기,8,,,15,KRW,8,제 15 기 1분기,5000,5000,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,-표준계정코드 미사용-,재고자산 폐기손실,-,제 16 기 1분기,0,,,16,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 16 기 1분기,2124366564,,,17,KRW,2124366564,제 15 기 1분기,2147180014,2147180014,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_AdvertisingExpensesSellingGeneralAdministrativeExpenses,"광고선전비, 판관비",-,제 16 기 1분기,10000000,,,18,KRW,10000000,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_AmortisationExpenseSellingGeneralAdministrativeExpenses,"무형자산상각비, 판관비",-,제 16 기 1분기,4229694,,,19,KRW,4229694,제 15 기 1분기,5799445,5799445,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_BadDebtExpensesSellingGeneralAdministrativeExpenses,"대손상각비(대손충당금환입), 판관비",-,제 16 기 1분기,42225339,,,20,KRW,42225339,제 15 기 1분기,22400738,22400738,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_BonusSellingGeneralAdministrativeExpenses,"상여, 판관비",-,제 16 기 1분기,0,,,21,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CommissionsSellingGeneralAdministrativeExpenses,"지급수수료, 판관비",-,제 16 기 1분기,321379997,,,22,KRW,321379997,제 15 기 1분기,289134212,289134212,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CommunicationExpensesSellingGeneralAdministrativeExpenses,"통신비, 판관비",-,제 16 기 1분기,1043761,,,23,KRW,1043761,제 15 기 1분기,1513757,1513757,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_DepreciationExpenseSellingGeneralAdministrativeExpenses,"감가상각비, 판관비",-,제 16 기 1분기,91054403,,,24,KRW,91054403,제 15 기 1분기,67925522,67925522,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_EmployeeBenefitsSellingGeneralAdministrativeExpenses,"복리후생비, 판관비",-,제 16 기 1분기,105528700,,,25,KRW,105528700,제 15 기 1분기,59582218,59582218,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_EntertainmentExpensesSellingGeneralAdministrativeExpenses,"접대비, 판관비",-,제 16 기 1분기,13534100,,,26,KRW,13534100,제 15 기 1분기,7445410,7445410,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_ExpenseFromSharebasedPaymentTransactionsWithEmployeesSellingGeneralAdministrativeExpenses,"주식보상비용(환입), 판관비",-,제 16 기 1분기,70765737,,,27,KRW,70765737,제 15 기 1분기,394484757,394484757,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_FreightExpensesSellingGeneralAdministrativeExpenses,"운반비, 판관비",-,제 16 기 1분기,19738542,,,28,KRW,19738542,제 15 기 1분기,27182262,27182262,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_InsurancePremiumsSellingGeneralAdministrativeExpenses,"보험료, 판관비",-,제 16 기 1분기,15778144,,,29,KRW,15778144,제 15 기 1분기,10890789,10890789,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_OrdinaryDevelopmentExpenseSellingGeneralAdministrativeExpenses,"경상개발비, 판관비",-,제 16 기 1분기,597498604,,,30,KRW,597498604,제 15 기 1분기,419411069,419411069,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_PersonalExpenseSellingGeneralAdministrativeExpenses,"인건비, 판관비",-,제 16 기 1분기,0,,,31,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_ProvisionForSeveranceIndemnities,"퇴직급여, 판관비",-,제 16 기 1분기,49877555,,,32,KRW,49877555,제 15 기 1분기,39949815,39949815,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_PublicationExpensesSellingGeneralAdministrativeExpenses,"도서인쇄비, 판관비",-,제 16 기 1분기,1011185,,,33,KRW,1011185,제 15 기 1분기,3456200,3456200,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_RentalExpensesSellingGeneralAdministrativeExpenses,"임차료, 판관비",-,제 16 기 1분기,546590,,,34,KRW,546590,제 15 기 1분기,11850533,11850533,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_RepairExpensesSellingGeneralAdministrativeExpenses,"수선비, 판관비",-,제 16 기 1분기,0,,,35,KRW,0,제 15 기 1분기,250000,250000,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_SalariesWages,"급여, 판관비",-,제 16 기 1분기,578368496,,,36,KRW,578368496,제 15 기 1분기,514848010,514848010,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_SupplyExpensesSellingGeneralAdministrativeExpenses,"소모품비, 판관비",-,제 16 기 1분기,37039717,,,37,KRW,37039717,제 15 기 1분기,78664207,78664207,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_TaxesDuesSellingGeneralAdministrativeExpenses,"세금과공과, 판관비",-,제 16 기 1분기,80584760,,,38,KRW,80584760,제 15 기 1분기,56044220,56044220,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_TrainingExpensesSellingGeneralAdministrativeExpenses,"교육훈련비, 판관비",-,제 16 기 1분기,8026688,,,39,KRW,8026688,제 15 기 1분기,4615000,4615000,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_TravelExpensesSellingGeneralAdministrativeExpenses,"여비교통비, 판관비",-,제 16 기 1분기,74614552,,,40,KRW,74614552,제 15 기 1분기,130427050,130427050,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_VehicleMaintenanceExpensesSellingGeneralAdministrativeExpenses,"차량유지비, 판관비",-,제 16 기 1분기,1520000,,,41,KRW,1520000,제 15 기 1분기,1304800,1304800,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 16 기 1분기,-1310098266,,,42,KRW,-1310098266,제 15 기 1분기,-141837168,-141837168,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 16 기 1분기,4497918466,,,43,KRW,4497918466,제 15 기 1분기,8846533188,8846533188,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CostOfSalesFromRenderingOfServices,용역의 제공으로 인한 수익(매출액)에 대한 매출원가,-,제 16 기 1분기,4168255827,,,44,KRW,4168255827,제 15 기 1분기,4242857503,4242857503,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CostOfSalesFromServices,용역매출원가,-,제 16 기 1분기,4168255827,,,45,KRW,4168255827,제 15 기 1분기,4242857503,4242857503,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoods,재화의 판매로 인한 수익(매출액)에 대한 매출원가,-,제 16 기 1분기,329662639,,,46,KRW,329662639,제 15 기 1분기,4603675685,4603675685,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_CostOfSalesFromSaleOfGoodsProduct,제품매출원가,-,제 16 기 1분기,329662639,,,47,KRW,329662639,제 15 기 1분기,4604636445,4604636445,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_CostOfMerchandiseSold,상품매출원가,-,제 16 기 1분기,0,,,48,KRW,0,제 15 기 1분기,-960760,-960760,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 16 기 1분기,-91,,,50,KRW,-91,제 15 기 1분기,-10,-10,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 16 기 1분기,-91,,,51,KRW,-91,제 15 기 1분기,-10,-10,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 16 기 1분기,152832472,,,52,KRW,152832472,제 15 기 1분기,114487339,114487339,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_InterestExpenseFinanceExpense,이자비용(금융원가),-,제 16 기 1분기,3396561,,,53,KRW,3396561,제 15 기 1분기,3752628,3752628,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_LossesOnForeignCurrencyTransactionsFiancialExpense,외환차손(금융원가),-,제 16 기 1분기,33460300,,,54,KRW,33460300,제 15 기 1분기,72548902,72548902,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_LossesOnForeignExchangeTranslationsFinancialExpense,외화환산손실(금융원가),-,제 16 기 1분기,115975611,,,55,KRW,115975611,제 15 기 1분기,38185809,38185809,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 16 기 1분기,1121564657,,,56,KRW,1121564657,제 15 기 1분기,720219614,720219614,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_GainsOnForeignCurrencyTransactionsFiancialIncome,외환차익(금융수익),-,제 16 기 1분기,32549763,,,57,KRW,32549763,제 15 기 1분기,49226793,49226793,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_GainsOnForeignExchangeTranslationsFinancialIncome,외화환산이익(금융수익),-,제 16 기 1분기,657536754,,,58,KRW,657536754,제 15 기 1분기,122164608,122164608,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_GainsOnValuationOfFairValueFinancialAssetFinancialIncome,당기손익인식금융자산평가이익(금융수익),-,제 16 기 1분기,4167163,,,59,KRW,4167163,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_InterestIncomeFinanceIncome,이자수익(금융수익),-,제 16 기 1분기,427310977,,,60,KRW,427310977,제 15 기 1분기,548828213,548828213,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 16 기 1분기,-430636246,,,61,KRW,-430636246,제 15 기 1분기,1368051591,1368051591,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 16 기 1분기,296913930,,,62,KRW,296913930,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 16 기 1분기,-20063342,,,63,KRW,-20063342,제 15 기 1분기,-3519567,-3519567,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 16 기 1분기,-20063342,,,64,KRW,-20063342,제 15 기 1분기,-3519567,-3519567,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,-표준계정코드 미사용-,매도가능증권 평가이익,-,제 16 기 1분기,0,,,65,KRW,0,제 15 기 1분기,3765047,3765047,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 16 기 1분기,-20063342,,,66,KRW,-20063342,제 15 기 1분기,-7284614,-7284614,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 16 기 1분기,-1290034924,,,67,KRW,-1290034924,제 15 기 1분기,-138317601,-138317601,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 16 기 1분기,-1586948854,,,68,KRW,-1586948854,제 15 기 1분기,-138317601,-138317601,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 16 기 1분기,4067282220,,,69,KRW,4067282220,제 15 기 1분기,10214584779,10214584779,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_RevenueFromRenderingOfServices,용역의 제공으로 인한 수익(매출액),-,제 16 기 1분기,3765126814,,,70,KRW,3765126814,제 15 기 1분기,4364557964,4364557964,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_RevenueFromServices,용역매출액,-,제 16 기 1분기,3765126814,,,71,KRW,3765126814,제 15 기 1분기,4364557964,4364557964,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,ifrs-full_RevenueFromSaleOfGoods,재화의 판매로 인한 수익(매출액),-,제 16 기 1분기,302155406,,,72,KRW,302155406,제 15 기 1분기,5850026815,5850026815,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsMerchandise,상품매출액,-,제 16 기 1분기,0,,,73,KRW,0,제 15 기 1분기,0,0,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CIS,포괄손익계산서,dart_RevenueFromSaleOfGoodsProduct,제품매출액,-,제 16 기 1분기,302155406,,,74,KRW,302155406,제 15 기 1분기,5850026815,5850026815,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 16 기 1분기,16181449905,,,2,KRW,,제 15 기 1분기,82614079146,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 16 기 1분기,29424970977,,,3,KRW,,제 15 기 1분기,75313825042,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 16 기 1분기,-48995000,,,8,KRW,,제 15 기 1분기,-40741000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_DispositionOfTreasuryShares,자기주식의 처분,-,제 16 기 1분기,,,,9,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 지급,-,제 16 기 1분기,48995000,,,10,KRW,,제 15 기 1분기,40741000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 16 기 1분기,,,,11,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_ProceedsFromIssuingShares,주식의 발행,-,제 16 기 1분기,,,,12,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 16 기 1분기,11438012392,,,13,KRW,,제 15 기 1분기,-322143991,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 16 기 1분기,,,,14,KRW,,제 15 기 1분기,20000000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_DecreaseInLoans,대여금의 감소,-,제 16 기 1분기,7500000,,,15,KRW,,제 15 기 1분기,20000000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 16 기 1분기,,,,16,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_ProceedsFromSalesOfLand,토지의 처분,-,제 16 기 1분기,,,,17,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 16 기 1분기,484340284,,,18,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_ProceedsFromSalesOfOtherFinancialAssets,기타금융자산의 처분,-,제 16 기 1분기,,,,19,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 16 기 1분기,41869800000,,,20,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_ProceedsFromSalesOfVehicles,차량운반구의 처분,-,제 16 기 1분기,,,,21,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfComputerSoftware,컴퓨터소프트웨어의 취득,-,제 16 기 1분기,,,,22,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfConstructionInProgress,건설중인자산의 취득,-,제 16 기 1분기,1167820000,,,23,KRW,,제 15 기 1분기,78150000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,-,제 16 기 1분기,504167163,,,24,KRW,,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfFixturesAndFittings,집기의 취득,-,제 16 기 1분기,125528386,,,25,KRW,,제 15 기 1분기,281093991,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfIntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산의 취득,-,제 16 기 1분기,,,,26,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfLand,토지의 취득,-,제 16 기 1분기,,,,27,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 16 기 1분기,515522409,,,28,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfMachinery,기계장치의 취득,-,제 16 기 1분기,811980000,,,29,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfOtherPropertyPlantAndEquipment,기타유형자산의 취득,-,제 16 기 1분기,178350000,,,30,KRW,,제 15 기 1분기,2900000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 16 기 1분기,27000000000,,,31,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_PurchaseOfVehicles,차량운반구의 취득,-,제 16 기 1분기,80228934,,,32,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_PurchaseOfAvailableforsaleFinancialAssets,매도가능금융자산의 취득,-,제 16 기 1분기,540031000,,,33,KRW,,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInInvestmentsAccountedForUsingEquityMethod,지분법적용 투자지분의 취득,-,제 16 기 1분기,,,,34,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 16 기 1분기,1246530759,,,35,KRW,,제 15 기 1분기,-6960662953,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 16 기 1분기,1697427308,,,36,KRW,,제 15 기 1분기,-7149820293,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherFinancialAssets,기타금융자산의 감소(증가),-,제 16 기 1분기,0,,,37,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInTradeAndOtherCurrentReceivables,매출채권 및 기타유동채권의 감소(증가),-,제 16 기 1분기,4120997456,,,38,KRW,,제 15 기 1분기,-4676907364,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermMiscellaneousOtherProvisions,그 밖의 기타장기충당부채의 증가(감소),-,제 16 기 1분기,0,,,39,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermOtherPayables,장기미지급금의 증가(감소),-,제 16 기 1분기,34337395,,,40,KRW,,제 15 기 1분기,28165030,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직급여채무의 증가(감소),-,제 16 기 1분기,-163308504,,,41,KRW,,제 15 기 1분기,-154998162,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInTradeAndOtherCurrentPayables,매입채무 및 기타유동채무의 증가(감소),-,제 16 기 1분기,495139689,,,42,KRW,,제 15 기 1분기,168403299,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 16 기 1분기,-2207876151,,,43,KRW,,제 15 기 1분기,-2173415237,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가) 조정,-,제 16 기 1분기,163430595,,,44,KRW,,제 15 기 1분기,-232334619,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 16 기 1분기,-745293172,,,45,KRW,,제 15 기 1분기,-108733240,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,-,제 16 기 1분기,-205404735,,,46,KRW,,제 15 기 1분기,158063075,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비 조정,-,제 16 기 1분기,42225339,,,47,KRW,,제 15 기 1분기,22400738,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익 조정,-,제 16 기 1분기,380722,,,48,KRW,,제 15 기 1분기,2940158,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익 조정,-,제 16 기 1분기,657536754,,,49,KRW,,제 15 기 1분기,122164608,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손 조정,-,제 16 기 1분기,,,,50,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용 조정,-,제 16 기 1분기,3396561,,,51,KRW,,제 15 기 1분기,3752628,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForLossesFromInventoryLiquidation,재고자산처분손실 조정,-,제 16 기 1분기,,,,52,KRW,,제 15 기 1분기,-31147451,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실 조정,-,제 16 기 1분기,115975611,,,53,KRW,,제 15 기 1분기,38185809,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의 대손상각비 조정,-,제 16 기 1분기,,,,54,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여 조정,-,제 16 기 1분기,290976247,,,55,KRW,,제 15 기 1분기,233830113,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForShareBasedPayment,주식보상비용(환입) 조정,-,제 16 기 1분기,428258327,,,56,KRW,,제 15 기 1분기,394484757,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,dart_AdjustmentsForWritedownsOfInventories,재고자산평가손실 조정,-,제 16 기 1분기,,,,57,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,-표준계정코드 미사용-,기타장기종업원급여 조정,-,제 16 기 1분기,30134340,,,58,KRW,,제 15 기 1분기,4098507,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비에 대한 조정,-,제 16 기 1분기,4229694,,,59,KRW,,제 15 기 1분기,5799445,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비에 대한 조정,-,제 16 기 1분기,261541529,,,60,KRW,,제 15 기 1분기,160591508,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용 조정,-,제 16 기 1분기,-296913930,,,61,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익에 대한 조정,-,제 16 기 1분기,427310977,,,62,KRW,,제 15 기 1분기,548828213,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 16 기 1분기,190401320,,,63,KRW,,제 15 기 1분기,1646040222,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 16 기 1분기,877151,,,64,KRW,,제 15 기 1분기,0,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 16 기 1분기,1235821581,,,65,KRW,,제 15 기 1분기,1815452088,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 16 기 1분기,-1290034924,,,66,KRW,,제 15 기 1분기,-138317601,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 16 기 1분기,607972921,,,67,KRW,,제 15 기 1분기,23293840,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|이익잉여금 [구성요소],제 16 기 1분기,-20063342,,,3,KRW,,제 15 기 1분기,-7284614,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,dart_OtherTransactions,기타거래,별도재무제표 [member],제 16 기 1분기,-20063342,,,3,KRW,,제 15 기 1분기,-7284614,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,별도재무제표 [member],제 16 기 1분기,,,,4,KRW,,제 15 기 1분기,394484757,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|기타자본구성요소 [구성요소],제 16 기 1분기,,,,4,KRW,,제 15 기 1분기,394484757,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|이익잉여금 [구성요소],제 16 기 1분기,38043868587,,,6,KRW,,제 15 기 1분기,42502592573,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|기타자본구성요소 [구성요소],제 16 기 1분기,-3634447747,,,6,KRW,,제 15 기 1분기,-5456761766,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_Equity,자본총계,별도재무제표 [member],제 16 기 1분기,102982551073,,103864391012,6,KRW,,제 15 기 1분기,105220711236,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|자본금 [구성요소],제 16 기 1분기,7541152000,,,6,KRW,,제 15 기 1분기,7541152000,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|자본잉여금 [구성요소],제 16 기 1분기,61031978233,,,6,KRW,,제 15 기 1분기,61031978233,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",별도재무제표 [member],제 16 기 1분기,428258327,,,7,KRW,,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,"주식기준보상거래에 따른 증가(감소), 지분",자본 [구성요소]|기타자본구성요소 [구성요소],제 16 기 1분기,428258327,,,7,KRW,,제 15 기 1분기,,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,별도재무제표 [member],제 16 기 1분기,-20063342,,,9,KRW,,제 15 기 1분기,-3519567,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|기타자본구성요소 [구성요소],제 16 기 1분기,,,,9,KRW,,제 15 기 1분기,3765047,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),별도재무제표 [member],제 16 기 1분기,-1290034924,,,10,KRW,,제 15 기 1분기,-138317601,,211270,AP위성,OFS
+20260514000567,11013,2026,00874803,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|이익잉여금 [구성요소],제 16 기 1분기,-1290034924,,,10,KRW,,제 15 기 1분기,-138317601,,211270,AP위성,OFS

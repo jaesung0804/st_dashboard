@@ -1,0 +1,254 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 44 기 1분기말,11159429255007,제 43 기말,10670641837509,7,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 44 기 1분기말,560504823466,제 43 기말,653088730552,8,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 44 기 1분기말,16837466488,제 43 기말,14308582473,9,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 44 기 1분기말,132498673,제 43 기말,119887945,10,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_FinancialAssetsAtAmortisedCost,상각후원가측정금융자산,-,제 44 기 1분기말,4615803100804,제 43 기말,4245401171891,11,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 44 기 1분기말,656236423577,제 43 기말,584822895312,12,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 44 기 1분기말,4937677578233,제 43 기말,4804192483049,13,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 44 기 1분기말,33564204557,제 43 기말,32945317352,14,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자자산,-,제 44 기 1분기말,6083205691,제 43 기말,6035615122,15,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 44 기 1분기말,44245528462,제 43 기말,43576348295,16,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정자산,-,제 44 기 1분기말,6949161415,제 43 기말,6949161415,17,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_OtherNonfinancialAssets,기타자산,-,제 44 기 1분기말,15004579902,제 43 기말,11353992449,18,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 44 기 1분기말,255809986100,제 43 기말,255531130453,19,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,순확정급여자산,-,제 44 기 1분기말,408010385,제 43 기말,1237458115,20,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 44 기 1분기말,10172687254,제 43 기말,11079063086,21,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 44 기 1분기말,1179635489107,제 43 기말,1174049116712,24,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 44 기 1분기말,1029564365344,제 43 기말,1026044871102,25,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,dart_CapitalAdjustments,자본조정,-,제 44 기 1분기말,-12732514610,제 43 기말,-15419958860,26,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 44 기 1분기말,108316644207,제 43 기말,108538020079,27,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 44 기 1분기말,202236236745,제 43 기말,203613256571,28,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 44 기 1분기말,212231945000,제 43 기말,212231945000,29,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 44 기 1분기말,519512054002,제 43 기말,517081608312,30,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,dart_RegulatoryReserveForCreditLoss,대손준비금 적립액,-,제 44 기 1분기말,26391192,제 43 기말,14365163,31,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,dart_RegulatoryReserveForCreditLossToBeAddedReversed,대손준비금 적립 예정금액,-,제 44 기 1분기말,-26391191,제 43 기말,12026029,32,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 44 기 1분기말,150071123763,제 43 기말,148004245610,33,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 44 기 1분기말,11159429255007,제 43 기말,10670641837509,34,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_BondsIssued,발행사채,-,제 44 기 1분기말,761491676712,제 43 기말,659152254710,36,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 44 기 1분기말,1187204658,제 43 기말,147135761,37,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 44 기 1분기말,77178970995,제 43 기말,76528842723,38,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_DepositsFromCustomers,예수부채,-,제 44 기 1분기말,3022642341465,제 43 기말,3350189481591,39,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융부채,-,제 44 기 1분기말,1472424131598,제 43 기말,1376167739280,40,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 44 기 1분기말,9979793765900,제 43 기말,9496592720797,41,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_OtherBorrowings,차입부채,-,제 44 기 1분기말,3863047582732,제 43 기말,3665250851658,42,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_OtherFinancialLiabilities,기타금융부채,-,제 44 기 1분기말,714843424535,제 43 기말,288575963921,43,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_OtherNonfinancialLiabilities,기타부채,-,제 44 기 1분기말,63819202881,제 43 기말,77562038545,44,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_Provisions,충당부채,-,제 44 기 1분기말,3063340773,제 43 기말,3018412608,45,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 44 기 1분기말,95889551,제 43 기말,0,46,KRW,,,,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_NonOperatingExpense,영업외비용,-,제 44 기 1분기,158214427,,,6,KRW,158214427,제 43 기 1분기,200841793,200841793,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_NonOperatingIncome,영업외수익,-,제 44 기 1분기,948625526,,,7,KRW,948625526,제 43 기 1분기,799754253,799754253,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,-표준계정코드 미사용-,대손준비금 반영후 조정이익(손실),-,제 44 기 1분기,18508392483,,,8,KRW,18508392483,제 43 기 1분기,23227494015,23227494015,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 44 기 1분기,19174272041,,,9,KRW,19174272041,제 43 기 1분기,25146907237,25146907237,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분에 귀속되는 총포괄손익,-,제 44 기 1분기,2069290575,,,10,KRW,2069290575,제 43 기 1분기,-1539299702,-1539299702,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 총포괄손익,-,제 44 기 1분기,17104981466,,,11,KRW,17104981466,제 43 기 1분기,26686206939,26686206939,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 44 기 1분기,459,,,13,KRW,459,제 43 기 1분기,570,570,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 44 기 1분기,459,,,14,KRW,459,제 43 기 1분기,570,570,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 44 기 1분기,4434747077,,,15,KRW,4434747077,제 43 기 1분기,4545436454,4545436454,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_OperatingExpense,영업비용,-,제 44 기 1분기,413071231221,,,16,KRW,413071231221,제 43 기 1분기,339696295800,339696295800,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtAmortisedCost,상각후원가측정금융상품관련손실,-,제 44 기 1분기,6330535403,,,17,KRW,6330535403,제 43 기 1분기,21671233055,21671233055,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_LossFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융상품관련손실,-,제 44 기 1분기,242652098631,,,18,KRW,242652098631,제 43 기 1분기,160580372565,160580372565,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_OtherOperatingExpense,기타의영업비용,-,제 44 기 1분기,4404106131,,,19,KRW,4404106131,제 43 기 1분기,3632165653,3632165653,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 44 기 1분기,79878564568,,,20,KRW,79878564568,제 43 기 1분기,70262465733,70262465733,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionExpense,수수료비용,-,제 44 기 1분기,13909491887,,,21,KRW,13909491887,제 43 기 1분기,10076405499,10076405499,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ForeignExchangeLoss,외환거래손실,-,제 44 기 1분기,8389642213,,,22,KRW,8389642213,제 43 기 1분기,7069273583,7069273583,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_InterestExpense,이자비용,-,제 44 기 1분기,57506792388,,,23,KRW,57506792388,제 43 기 1분기,66404379712,66404379712,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 44 기 1분기,-1387151927,,,24,KRW,-1387151927,제 43 기 1분기,3322461905,3322461905,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,-,제 44 기 1분기,1433827720,,,26,KRW,1433827720,제 43 기 1분기,517461719,517461719,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,-,제 44 기 1분기,-229793554,,,28,KRW,-229793554,제 43 기 1분기,-46084105,-46084105,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,-,제 44 기 1분기,-2591186093,,,29,KRW,-2591186093,제 43 기 1분기,2851084291,2851084291,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 44 기 1분기,20561423968,,,30,KRW,20561423968,제 43 기 1분기,21824445332,21824445332,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 44 기 1분기,2079422676,,,31,KRW,2079422676,제 43 기 1분기,-1410910226,-1410910226,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 44 기 1분기,18482001292,,,32,KRW,18482001292,제 43 기 1분기,23235355558,23235355558,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순이익,-,제 44 기 1분기,24996171045,,,33,KRW,24996171045,제 43 기 1분기,26369881786,26369881786,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ProfitLossFromOperatingActivities,영업이익(손실),-,제 44 기 1분기,24205759946,,,34,KRW,24205759946,제 43 기 1분기,25770969326,25770969326,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_Revenue,영업수익,-,제 44 기 1분기,437276991167,,,35,KRW,437276991167,제 43 기 1분기,365467265126,365467265126,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtAmortisedCost,상각후원가측정금융상품관련이익,-,제 44 기 1분기,920504824,,,36,KRW,920504824,제 43 기 1분기,401186825,401186825,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_GainFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융상품관련이익,-,제 44 기 1분기,253508910817,,,37,KRW,253508910817,제 43 기 1분기,181564685768,181564685768,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,dart_OtherOperatingIncome,기타의영업수익,-,제 44 기 1분기,8084816243,,,38,KRW,8084816243,제 43 기 1분기,6895180716,6895180716,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionIncome,수수료수익,-,제 44 기 1분기,61124498314,,,39,KRW,61124498314,제 43 기 1분기,61170790973,61170790973,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_ForeignExchangeGain,외환거래이익,-,제 44 기 1분기,8443208594,,,40,KRW,8443208594,제 43 기 1분기,6549476679,6549476679,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CIS,포괄손익계산서,ifrs-full_RevenueFromInterest,이자수익,-,제 44 기 1분기,105195052375,,,41,KRW,105195052375,제 43 기 1분기,108885944165,108885944165,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 44 기 1분기,653088730552,,,2,KRW,,제 43 기 1분기,704628328648,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 44 기 1분기,560504823466,,,7,KRW,,제 43 기 1분기,712628484340,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동순현금흐름,-,제 44 기 1분기,318686186829,,,9,KRW,,제 43 기 1분기,148100902759,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 44 기 1분기,49818500,,,10,KRW,,제 43 기 1분기,52316000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_IncreaseInNoncontrollingInterests,비지배지분의 순증감,-,제 44 기 1분기,923871887,,,11,KRW,,제 43 기 1분기,7187366,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_IncreaseInRepurchaseAgreements,환매조건부채권매도의 순증감,-,제 44 기 1분기,24467807402,,,12,KRW,,제 43 기 1분기,85016170594,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 44 기 1분기,953495097,,,13,KRW,,제 43 기 1분기,869617910,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 순증감,-,제 44 기 1분기,171398184137,,,14,KRW,,제 43 기 1분기,121494846709,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProceedsFromIssueOfBondsNotesAndDebentures,발행사채의 증가,-,제 44 기 1분기,4715950000000,,,15,KRW,,제 43 기 1분기,2372900000000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_RepaymentsOfBondsNotesAndDebentures,발행사채의 감소,-,제 44 기 1분기,4593150000000,,,16,KRW,,제 43 기 1분기,2430500000000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동순현금흐름,-,제 44 기 1분기,-79245425905,,,18,KRW,,제 43 기 1분기,-181140326261,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 44 기 1분기,152269500,,,19,KRW,,제 43 기 1분기,25000000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 44 기 1분기,421283392,,,20,KRW,,제 43 기 1분기,325194519,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 44 기 1분기,14102200000,,,21,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 44 기 1분기,87105185001,,,22,KRW,,제 43 기 1분기,179999900550,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,-표준계정코드 미사용-,연결범위변동 등으로 인한 현금 유출입,-,제 44 기 1분기,-2029493096,,,23,KRW,,제 43 기 1분기,-221702202,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 44 기 1분기,300000000,,,24,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,지분법적용투자주식의 처분,-,제 44 기 1분기,0,,,25,KRW,,제 43 기 1분기,100000000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 44 기 1분기,56527584,,,26,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 44 기 1분기,2701673200,,,27,KRW,,제 43 기 1분기,213180000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,지분법적용투자주식의 취득,-,제 44 기 1분기,0,,,28,KRW,,제 43 기 1분기,40000000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 44 기 1분기,1598788300,,,29,KRW,,제 43 기 1분기,465348990,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동순현금흐름,-,제 44 기 1분기,-332052491830,,,31,KRW,,제 43 기 1분기,40884648965,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 44 기 1분기,-382017661663,,,32,KRW,,제 43 기 1분기,15232099935,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 44 기 1분기,-364601282709,,,33,KRW,,제 43 기 1분기,13906969791,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtAmortisedCostClassifiedAsOperatingActivities,상각후원가측정금융자산,-,제 44 기 1분기,-395047742021,,,34,KRW,,제 43 기 1분기,-620049685502,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융자산,-,제 44 기 1분기,-142681775415,,,35,KRW,,제 43 기 1분기,304503018634,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,사외적립자산,-,제 44 기 1분기,718219123,,,36,KRW,,제 43 기 1분기,1601973042,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융부채,-,제 44 기 1분기,112090403770,,,37,KRW,,제 43 기 1분기,66012424267,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherFinancialLiabilities,기타금융부채,-,제 44 기 1분기,405156481697,,,38,KRW,,제 43 기 1분기,100498277161,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInPostemploymentBenefitObligations,퇴직금의 지급,-,제 44 기 1분기,-737862349,,,39,KRW,,제 43 기 1분기,-1618384674,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisions,충당부채,-,제 44 기 1분기,0,,,40,KRW,,제 43 기 1분기,3716,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산,-,제 44 기 1분기,-3837115054,,,41,KRW,,제 43 기 1분기,-3475894659,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers,예수부채,-,제 44 기 1분기,-328015488858,,,42,KRW,,제 43 기 1분기,170158908538,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채,-,제 44 기 1분기,-12246403602,,,43,KRW,,제 43 기 1분기,-3723670732,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감 합계,-,제 44 기 1분기,-37977802922,,,44,KRW,,제 43 기 1분기,-20499315188,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,신용손실충당금전입,-,제 44 기 1분기,5846298821,,,45,KRW,,제 43 기 1분기,21472870249,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForDepreciationInvestmentProperty,투자부동산감가상각비,-,제 44 기 1분기,73324853,,,46,KRW,,제 43 기 1분기,73324852,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForDepreciationRightofuseAssets,사용권자산감가상각비,-,제 44 기 1분기,1374703036,,,47,KRW,,제 43 기 1분기,1148707447,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForExpenseOfOtherProvisions,기타충당부채전입,-,제 44 기 1분기,3242040917,,,48,KRW,,제 43 기 1분기,58875618,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisionForDecommissioningRestorationAndRehabilitationCosts,복구충당부채전입,-,제 44 기 1분기,23168321,,,49,KRW,,제 43 기 1분기,25147629,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForGainFromLeaseContractChange,리스해지이익,-,제 44 기 1분기,0,,,50,KRW,,제 43 기 1분기,26108,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 44 기 1분기,1769297484,,,51,KRW,,제 43 기 1분기,2285133918,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForGainsOnChangeInFairValueOfDerivatives,파생상품평가이익,-,제 44 기 1분기,37513188960,,,52,KRW,,제 43 기 1분기,34366110118,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 44 기 1분기,0,,,53,KRW,,제 43 기 1분기,1250000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 44 기 1분기,0,,,54,KRW,,제 43 기 1분기,119483542,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForLossesOnChangeInFairValueOfDerivatives,파생상품평가손실,-,제 44 기 1분기,50515407518,,,55,KRW,,제 43 기 1분기,22244538835,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets,무형자산처분손실,-,제 44 기 1분기,6600000,,,56,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfPropertyPlantAndEquipment,유형자산처분손실,-,제 44 기 1분기,13800311,,,57,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 44 기 1분기,2845310342,,,58,KRW,,제 43 기 1분기,3710113426,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForOtherBadDebtExpenses,기타의신용손실충당금전입,-,제 44 기 1분기,669733405,,,59,KRW,,제 43 기 1분기,1052859812,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForOtherOperatingExpense,기타의영업비용,-,제 44 기 1분기,390426277,,,60,KRW,,제 43 기 1분기,2485848594,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForOtherReversalsOfProvisions,기타충당부채환입액,-,제 44 기 1분기,3220281073,,,61,KRW,,제 43 기 1분기,69273370,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 44 기 1분기,47590569,,,62,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 44 기 1분기,1063721313,,,63,KRW,,제 43 기 1분기,918976523,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_AdjustmentsForReversalOtherAllowanceAccountForCreditLosses,기타의신용손실충당금환입,-,제 44 기 1분기,103220139,,,64,KRW,,제 43 기 1분기,5578851,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_GainsOnChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치측정지정금융부채평가및Day1이익,-,제 44 기 1분기,24323435,,,65,KRW,,제 43 기 1분기,592389510,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_GainsOnValuationOfFairValueFinancialAsset,당기손익-공정가치측정금융자산평가및Day1이익,-,제 44 기 1분기,23637473359,,,66,KRW,,제 43 기 1분기,45102569389,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_GainsOnValuationOfFairValueFinancialLiabilities,당기손익-공정가치측정금융부채평가이익,-,제 44 기 1분기,35000138088,,,67,KRW,,제 43 기 1분기,6222068587,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_ImpairmentLossOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산 신용위험평가손실,-,제 44 기 1분기,86529211,,,68,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_LossesOnChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치측정지정금융부채평가및Day1손실,-,제 44 기 1분기,8919310383,,,69,KRW,,제 43 기 1분기,12394666674,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_LossesOnValuationOfFairValueFinancialAsset,당기손익-공정가치측정금융자산평가및Day1손실,-,제 44 기 1분기,21592787229,,,70,KRW,,제 43 기 1분기,16810346198,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,dart_LossesOnValuationOfFairValueFinancialLiabilities,당기손익-공정가치측정금융부채평가손실,-,제 44 기 1분기,9972318421,,,71,KRW,,제 43 기 1분기,28819775214,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,-표준계정코드 미사용-,투자부동산취득이익,-,제 44 기 1분기,160000000,,,72,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 44 기 1분기,1852855995,,,73,KRW,,제 43 기 1분기,1655591493,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,유형자산 감가상각비,-,제 44 기 1분기,1263405069,,,74,KRW,,제 43 기 1분기,1176525281,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당금및분배금수익,-,제 44 기 1분기,4818480419,,,75,KRW,,제 43 기 1분기,6833682796,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 44 기 1분기,4434747077,,,76,KRW,,제 43 기 1분기,4545436454,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForInterestExpense,이자비용,-,제 44 기 1분기,57506792388,,,77,KRW,,제 43 기 1분기,66404379712,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 44 기 1분기,105195052375,,,78,KRW,,제 43 기 1분기,108885944165,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_AdjustmentsForSharebasedPayments,주식기준보상비용,-,제 44 기 1분기,2493463500,,,79,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_OtherFeeAndCommissionIncome,기타수입수수료,-,제 44 기 1분기,675501408,,,80,KRW,,제 43 기 1분기,1255255929,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 44 기 1분기,20561423968,,,81,KRW,,제 43 기 1분기,21824445332,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당수익의 수취,-,제 44 기 1분기,1710473859,,,82,KRW,,제 43 기 1분기,1316511350,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 44 기 1분기,4970345006,,,83,KRW,,제 43 기 1분기,6099435330,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자비용의 지급,-,제 44 기 1분기,54611360868,,,84,KRW,,제 43 기 1분기,68423024051,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수익의 수취,-,제 44 기 1분기,107836401848,,,85,KRW,,제 43 기 1분기,98858497061,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 44 기 1분기,27823820,,,87,KRW,,제 43 기 1분기,154930229,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증가,-,제 44 기 1분기,-92611730906,,,88,KRW,,제 43 기 1분기,7845225463,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,108538020079,,,3,KRW,,제 43 기 1분기,118030876364,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,212231945000,,,3,KRW,,제 43 기 1분기,212231945000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,517081608311,,,3,KRW,,제 43 기 1분기,475132088107,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,203613256571,,,3,KRW,,제 43 기 1분기,208025037356,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,1026044871101,,,3,KRW,,제 43 기 1분기,1001577864517,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,148004245611,,,3,KRW,,제 43 기 1분기,172307400112,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 44 기 1분기,1174049116712,,,3,KRW,,제 43 기 1분기,1173885264629,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,-15419958860,,,3,KRW,,제 43 기 1분기,-11842082310,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,6,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,6,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,6,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,16051555600,,,6,KRW,,제 43 기 1분기,8155777800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,0,,,6,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,16051555600,,,6,KRW,,제 43 기 1분기,8155777800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,연결재무제표 [member],제 44 기 1분기,16051555600,,,6,KRW,,제 43 기 1분기,8557807800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,0,,,6,KRW,,제 43 기 1분기,402030000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,연결재무제표 [member],제 44 기 1분기,2493463500,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,0,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,2493463500,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,0,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,-193980750,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,2687444250,,,8,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,연결재무제표 [member],제 44 기 1분기,-13558092100,,,9,KRW,,제 43 기 1분기,-8557807800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,0,,,9,KRW,,제 43 기 1분기,-402030000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,-13558092100,,,9,KRW,,제 43 기 1분기,-8155777800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,0,,,9,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,-16051555600,,,9,KRW,,제 43 기 1분기,-8155777800,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,9,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,-193980750,,,9,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,2687444250,,,9,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,연결재무제표 [member],제 44 기 1분기,-29807546,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,-2412424,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,-27395122,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,0,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,-27395122,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타변동 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,11,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,연결재무제표 [member],제 44 기 1분기,5586372395,,,12,KRW,,제 43 기 1분기,16589099437,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,2066878152,,,12,KRW,,제 43 기 1분기,-1941329702,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,3519494243,,,12,KRW,,제 43 기 1분기,18530429139,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,-1377019826,,,12,KRW,,제 43 기 1분기,3450851381,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,2430445691,,,12,KRW,,제 43 기 1분기,15079577758,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,12,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,-221375872,,,12,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ChangesInEquity,자본 증가(감소) 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,2687444250,,,12,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 44 기 1분기,19174272041,,,14,KRW,,제 43 기 1분기,25146907237,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,2069290576,,,14,KRW,,제 43 기 1분기,-1539299702,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,17104981465,,,14,KRW,,제 43 기 1분기,26686206939,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,-1377019826,,,14,KRW,,제 43 기 1분기,3450851381,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,18482001291,,,14,KRW,,제 43 기 1분기,23235355558,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,14,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,14,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,14,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,연결재무제표 [member],제 44 기 1분기,-229793554,,,17,KRW,,제 43 기 1분기,-46084105,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,0,,,17,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,-229793554,,,17,KRW,,제 43 기 1분기,-46084105,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,-229793554,,,17,KRW,,제 43 기 1분기,-46084105,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,17,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,17,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,17,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability,당기손익-공정가치측정지정금융부채 신용위험변동효과,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,17,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,연결재무제표 [member],제 44 기 1분기,1433827720,,,19,KRW,,제 43 기 1분기,517461719,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,0,,,19,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,1433827720,,,19,KRW,,제 43 기 1분기,517461719,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,1433827720,,,19,KRW,,제 43 기 1분기,517461719,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,19,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,19,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,19,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무증권평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,19,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 44 기 1분기,-2591186093,,,21,KRW,,제 43 기 1분기,2851084291,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,-10132101,,,21,KRW,,제 43 기 1분기,-128389476,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,-2581053992,,,21,KRW,,제 43 기 1분기,2979473767,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,-2581053992,,,21,KRW,,제 43 기 1분기,2979473767,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,21,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,21,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,21,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,21,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 44 기 1분기,-1387151927,,,22,KRW,,제 43 기 1분기,3322461905,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,-10132101,,,22,KRW,,제 43 기 1분기,-128389476,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,-1377019826,,,22,KRW,,제 43 기 1분기,3450851381,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,-1377019826,,,22,KRW,,제 43 기 1분기,3450851381,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,0,,,22,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,22,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,22,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,22,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 44 기 1분기,20561423968,,,23,KRW,,제 43 기 1분기,21824445332,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,2079422677,,,23,KRW,,제 43 기 1분기,-1410910226,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,18482001291,,,23,KRW,,제 43 기 1분기,23235355558,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,0,,,23,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,18482001291,,,23,KRW,,제 43 기 1분기,23235355558,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,0,,,23,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,0,,,23,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,0,,,23,KRW,,제 43 기 1분기,0,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 44 기 1분기,1179635489107,,1174049116712,24,KRW,,제 43 기 1분기,1190474364066,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 44 기 1분기,150071123763,,,24,KRW,,제 43 기 1분기,170366070410,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 44 기 1분기,1029564365344,,,24,KRW,,제 43 기 1분기,1020108293656,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 44 기 1분기,202236236745,,,24,KRW,,제 43 기 1분기,211475888737,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 44 기 1분기,519512054002,,,24,KRW,,제 43 기 1분기,490211665865,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 44 기 1분기,212231945000,,,24,KRW,,제 43 기 1분기,212231945000,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 44 기 1분기,108316644207,,,24,KRW,,제 43 기 1분기,118030876364,,016610,DB증권,CFS
+20250515000699,11013,2025,00115694,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 44 기 1분기,-12732514610,,,24,KRW,,제 43 기 1분기,-11842082310,,016610,DB증권,CFS

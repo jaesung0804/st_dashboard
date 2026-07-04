@@ -1,0 +1,158 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 13 기 반기말,103006789069,제 12 기말,103611572099,7,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 13 기 반기말,21766944219,제 12 기말,22940789827,8,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 13 기 반기말,358818907,제 12 기말,195335917,9,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 13 기 반기말,12677677676,제 12 기말,11673012674,10,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익-공정가치측정금융자산,-,제 13 기 반기말,727623837,제 12 기말,460610920,11,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 13 기 반기말,0,제 12 기말,75140278,12,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 13 기 반기말,316555972,제 12 기말,300975821,13,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 13 기 반기말,824575922,제 12 기말,514858369,14,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 13 기 반기말,55845480,제 12 기말,137932709,15,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 13 기 반기말,6805846425,제 12 기말,9582923139,16,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 13 기 반기말,81239844850,제 12 기말,80670782272,17,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentReceivablesGross,매출채권및기타채권,-,제 13 기 반기말,1031047256,제 12 기말,1019192627,18,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 13 기 반기말,1631805863,제 12 기말,1414566064,19,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 13 기 반기말,23599838835,제 12 기말,23753706159,20,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 13 기 반기말,21025807277,제 12 기말,20824794727,21,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자주식,-,제 13 기 반기말,7988466403,제 12 기말,8247385939,22,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtAmortisedCost,상각후원가측정 금융자산,-,제 13 기 반기말,1690000000,제 12 기말,1250000000,23,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition,당기손익-공정가치 금융자산,-,제 13 기 반기말,9574163662,제 12 기말,8641228622,24,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산,-,제 13 기 반기말,659606960,제 12 기말,659606960,25,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타금융자산,-,제 13 기 반기말,434128572,제 12 기말,422638528,26,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 13 기 반기말,13106707986,제 12 기말,13346753092,27,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 13 기 반기말,498272036,제 12 기말,1090909554,28,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 13 기 반기말,49522408403,제 12 기말,50181252648,30,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 13 기 반기말,43226815881,제 12 기말,42840539702,31,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 13 기 반기말,22879383468,제 12 기말,29095692072,32,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본항목,-,제 13 기 반기말,-352815032,제 12 기말,-475632011,33,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 13 기 반기말,-358152480,제 12 기말,-358152480,34,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 13 기 반기말,7782376000,제 12 기말,6259916100,35,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 13 기 반기말,13276023925,제 12 기말,8318716021,36,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 13 기 반기말,6295592522,제 12 기말,7340712946,37,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 13 기 반기말,103006789069,제 12 기말,103611572099,38,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 13 기 반기말,29418145223,제 12 기말,27007498750,40,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_CurrentDerivativeLiabilities,유동파생상품부채,-,제 13 기 반기말,5515292010,제 12 기말,4118570413,41,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 13 기 반기말,9078390359,제 12 기말,8272784283,42,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 13 기 반기말,305971349,제 12 기말,419617963,43,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 13 기 반기말,0,제 12 기말,145869966,44,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings,유동성장기차입금,-,제 13 기 반기말,1964500000,제 12 기말,120000000,45,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 13 기 반기말,1958805222,제 12 기말,2723415908,46,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 13 기 반기말,6170000000,제 12 기말,5188000000,47,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타채무,-,제 13 기 반기말,4425186283,제 12 기말,6019240217,48,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 13 기 반기말,53484380666,제 12 기말,53430319451,49,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 13 기 반기말,24066235443,제 12 기말,26422820701,50,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_LongTermBorrowingsGross,장기차입금,-,제 13 기 반기말,21360000000,제 12 기말,23264500000,51,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,매입채무및기타채무,-,제 13 기 반기말,215700000,제 12 기말,44000000,52,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 13 기 반기말,1769481135,제 12 기말,1866183661,53,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 13 기 반기말,157002862,제 12 기말,684085594,54,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기종업원급여부채,-,제 13 기 반기말,564051446,제 12 기말,564051446,55,KRW,,,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 13 기 반기,-573264632,,,6,KRW,-2860443732,제 12 기 반기,-646188566,-3934137912,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 13 기 반기,64472772,,,7,KRW,171905971,제 12 기 반기,25658239,43431577,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,dart_OtherLosses,기타비용,-,제 13 기 반기,18522610,,,8,KRW,19055991,제 12 기 반기,1683221,2496242,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손익(손실),-,제 13 기 반기,-228314119,,,9,KRW,-536278791,제 12 기 반기,-232237187,-411265915,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 13 기 반기,5706719958,,,10,KRW,11939570622,제 12 기 반기,5156702951,12314446331,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 13 기 반기,-2392361041,,,11,KRW,-5310016632,제 12 기 반기,-103691113,-4300772658,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 13 기 반기,-168902130,,,13,KRW,-561371297,제 12 기 반기,63159018,-231063723,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업 소유주지분,-,제 13 기 반기,-2223458911,,,14,KRW,-4748645335,제 12 기 반기,-166850131,-4069708935,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 13 기 반기,5174148423,,,15,KRW,9266257374,제 12 기 반기,4837522743,9225445350,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromContinuingOperations,기본주당순이익(손실),-,제 13 기 반기,-33,,,18,KRW,-73,제 12 기 반기,-1,-64,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShareFromDiscontinuedOperations,희석주당순이익(손실),-,제 13 기 반기,-33,,,19,KRW,-73,제 12 기 반기,-14,-64,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromContinuingOperations,기본주당순손익,-,제 13 기 반기,,,,21,KRW,,제 12 기 반기,-2,-5,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShareFromDiscontinuedOperations,희석주당순손익,-,제 13 기 반기,,,,22,KRW,,제 12 기 반기,0,-5,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 13 기 반기,2126970106,,,23,KRW,2965137207,제 12 기 반기,1051921152,2098594218,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 13 기 반기,224546335,,,24,KRW,602709976,제 12 기 반기,1447230510,1860396336,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 13 기 반기,5133455326,,,25,KRW,9079126890,제 12 기 반기,4510514385,8380308419,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 13 기 반기,-265691319,,,26,KRW,-314042582,제 12 기 반기,-480001939,-530675430,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 13 기 반기,0,,,27,KRW,-17759440,제 12 기 반기,0,-116180,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 포괄손익,-,제 13 기 반기,0,,,28,KRW,-17759440,제 12 기 반기,0,-116180,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 13 기 반기,0,,,29,KRW,-17759440,제 12 기 반기,0,-116180,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLoss,반기순이익(손실),-,제 13 기 반기,-2392361041,,,30,KRW,-5292257192,제 12 기 반기,-103691113,-4300656478,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 13 기 반기,-168902130,,,32,KRW,-561371297,제 12 기 반기,63159018,-231063723,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업 소유주지분,-,제 13 기 반기,-2223458911,,,33,KRW,-4730885895,제 12 기 반기,-166850131,-4069592755,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전계속사업이익(손실),-,제 13 기 반기,-2658052360,,,34,KRW,-5606299774,제 12 기 반기,-459141377,-4542666374,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLossFromContinuingOperations,계속영업반기순이익(손실),-,제 13 기 반기,-2392361041,,,35,KRW,-5292257192,제 12 기 반기,20860562,-4011990944,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_ProfitLossFromDiscontinuedOperations,중단영업반기순이익(손실),-,제 13 기 반기,0,,,36,KRW,0,제 12 기 반기,-124551675,-288665534,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 13 기 반기,10307603749,,,37,KRW,18345384264,제 12 기 반기,9348037128,17605753769,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 13 기 반기,11673012674,,,2,KRW,,제 12 기 반기,15381476512,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 13 기 반기,12677677676,,,3,KRW,,제 12 기 반기,14567808296,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 13 기 반기,5408260639,,,8,KRW,,제 12 기 반기,1084496004,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 13 기 반기,0,,,9,KRW,,제 12 기 반기,2702002,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 13 기 반기,171700000,,,10,KRW,,제 12 기 반기,0,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 13 기 반기,184923702,,,11,KRW,,제 12 기 반기,577520029,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 13 기 반기,0,,,12,KRW,,제 12 기 반기,10000000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 13 기 반기,0,,,13,KRW,,제 12 기 반기,2190000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 13 기 반기,982000000,,,14,KRW,,제 12 기 반기,3200000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_RepaymentsOfConvertibleBonds,전환사채의 상환,-,제 13 기 반기,0,,,15,KRW,,제 12 기 반기,15706549740,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 13 기 반기,60000000,,,16,KRW,,제 12 기 반기,1000000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 13 기 반기,0,,,17,KRW,,제 12 기 반기,757150000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_DividendsPaidToNoncontrollingInterestsClassifiedAsFinancingActivities,배당금의 지급,-,제 13 기 반기,494860755,,,18,KRW,,제 12 기 반기,256123175,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,-,제 13 기 반기,4994345096,,,19,KRW,,제 12 기 반기,3994540950,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 13 기 반기,-1657187081,,,20,KRW,,제 12 기 반기,-4621462829,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInDepositsProvided,기타보증금의 감소,-,제 13 기 반기,300000,,,21,KRW,,제 12 기 반기,0,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 13 기 반기,119260000,,,22,KRW,,제 12 기 반기,5000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 13 기 반기,20000000,,,23,KRW,,제 12 기 반기,11175000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_IncreaseInLoans,단기대여금의 증가,-,제 13 기 반기,1180499688,,,24,KRW,,제 12 기 반기,818553499,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의감소,-,제 13 기 반기,64736542,,,25,KRW,,제 12 기 반기,62161403,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 13 기 반기,0,,,26,KRW,,제 12 기 반기,4000000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의회수,-,제 13 기 반기,298847856,,,27,KRW,,제 12 기 반기,823876555,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자주식의 취득,-,제 13 기 반기,0,,,28,KRW,,제 12 기 반기,700188500,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 13 기 반기,76166978,,,29,KRW,,제 12 기 반기,8126700,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 13 기 반기,0,,,30,KRW,,제 12 기 반기,4000000000,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 13 기 반기,85000000,,,31,KRW,,제 12 기 반기,0,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 13 기 반기,744659290,,,32,KRW,,제 12 기 반기,205303835,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 13 기 반기,201012550,,,33,KRW,,제 12 기 반기,0,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 13 기 반기,2992973,,,34,KRW,,제 12 기 반기,3769153253,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 13 기 반기,-2746578091,,,35,KRW,,제 12 기 반기,2723289776,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업으로부터 창출된 현금흐름,-,제 13 기 반기,-2269033728,,,36,KRW,,제 12 기 반기,2958093334,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 13 기 반기,77757588,,,37,KRW,,제 12 기 반기,45158343,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세(납부)환급,-,제 13 기 반기,98605939,,,38,KRW,,제 12 기 반기,309306144,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 13 기 반기,593892109,,,39,KRW,,제 12 기 반기,163846877,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 13 기 반기,137196097,,,40,KRW,,제 12 기 반기,193191120,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 13 기 반기,169535,,,41,KRW,,제 12 기 반기,8833,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증가(감소),-,제 13 기 반기,1004495467,,,42,KRW,,제 12 기 반기,-813677049,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익준비금,자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,,,,3,KRW,,제 12 기 반기,25612371,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_AppropriationTransferReservationOfRetainedEarnings,이익준비금,연결재무제표 [member],제 13 기 반기,,,,3,KRW,,제 12 기 반기,25612371,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,42840539701,,,4,KRW,,제 12 기 반기,48805438494,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 13 기 반기,-475632011,,,4,KRW,,제 12 기 반기,-574695127,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 13 기 반기,-358152480,,,4,KRW,,제 12 기 반기,-143358514,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 13 기 반기,8318716020,,,4,KRW,,제 12 기 반기,17874279682,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 13 기 반기,6259916100,,,4,KRW,,제 12 기 반기,5418722400,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,7340712946,,,4,KRW,,제 12 기 반기,8264502868,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 13 기 반기,50181252647,,,4,KRW,,제 12 기 반기,57069941362,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 13 기 반기,29095692072,,,4,KRW,,제 12 기 반기,26230490053,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_StockDividends,주식배당,연결재무제표 [member],제 13 기 반기,,,,5,KRW,,제 12 기 반기,-2702075,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_StockDividends,주식배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,,,,5,KRW,,제 12 기 반기,-2702075,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_StockDividends,주식배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 13 기 반기,,,,5,KRW,,제 12 기 반기,267063200,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_StockDividends,주식배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 13 기 반기,-311806200,,,5,KRW,,제 12 기 반기,-269765275,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_StockDividends,주식배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 13 기 반기,311806200,,,5,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,연결재무제표 [member],제 13 기 반기,-2128955,,,6,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,-2128955,,,6,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 13 기 반기,-2128955,,,6,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_DividendsPaidToNoncontrollingInterests,현금배당,연결재무제표 [member],제 13 기 반기,-492728765,,,7,KRW,,제 12 기 반기,-281735546,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_DividendsPaidToNoncontrollingInterests,현금배당,자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,-492728765,,,7,KRW,,제 12 기 반기,-281735546,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,6295592522,,,8,KRW,,제 12 기 반기,7714156952,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 13 기 반기,49522408403,,50181252648,8,KRW,,제 12 기 반기,56608575517,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,43226815881,,,8,KRW,,제 12 기 반기,48894418565,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 13 기 반기,22879383468,,,8,KRW,,제 12 기 반기,29677984654,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 13 기 반기,7782376000,,,8,KRW,,제 12 기 반기,5990150900,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 13 기 반기,13276023925,,,8,KRW,,제 12 기 반기,13701771783,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 13 기 반기,-358152480,,,8,KRW,,제 12 기 반기,-143474694,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 13 기 반기,-352815032,,,8,KRW,,제 12 기 반기,-332014078,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,연결재무제표 [member],제 13 기 반기,,,,9,KRW,,제 12 기 반기,-116180,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,,,,9,KRW,,제 12 기 반기,-116180,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 13 기 반기,,,,9,KRW,,제 12 기 반기,-116180,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,연결재무제표 [member],제 13 기 반기,133925572,,,10,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,8979638,,,10,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,124945934,,,10,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 13 기 반기,124945934,,,10,KRW,,제 12 기 반기,-24382151,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 13 기 반기,,,,10,KRW,,제 12 기 반기,24382151,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 13 기 반기,10000000000,,,11,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,주식발행초과금의 이익잉여금 전입,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 13 기 반기,-10000000000,,,11,KRW,,제 12 기 반기,,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,연결재무제표 [member],제 13 기 반기,4994345096,,,12,KRW,,제 12 기 반기,3994540950,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,4994345096,,,12,KRW,,제 12 기 반기,3994540950,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 13 기 반기,3783691396,,,12,KRW,,제 12 기 반기,3423112450,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_IssueOfEquity,유상증자,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 13 기 반기,1210653700,,,12,KRW,,제 12 기 반기,571428500,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 13 기 반기,-4730885895,,,13,KRW,,제 12 기 반기,-3902742624,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 13 기 반기,-561371297,,,13,KRW,,제 12 기 반기,-294222741,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),연결재무제표 [member],제 13 기 반기,-2392361041,,,13,KRW,,제 12 기 반기,-103691113,,184230,SGA솔루션즈,CFS
+20250814003573,11012,2025,00988364,SCE,자본변동표,ifrs-full_ProfitLoss,반기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 13 기 반기,-4730885895,,,13,KRW,,제 12 기 반기,-3902742624,,184230,SGA솔루션즈,CFS

@@ -1,0 +1,228 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 74 기 1분기말,3048295513792,제 73 기말,2992581747645,7,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 74 기 1분기말,1335770443808,제 73 기말,1435680643640,8,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 74 기 1분기말,205840269618,제 73 기말,323054472680,9,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentContractAssets,미청구공사,-,제 74 기 1분기말,101194991705,제 73 기말,106807652290,10,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 74 기 1분기말,521918546,제 73 기말,368880150,11,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 74 기 1분기말,153563942313,제 73 기말,135007514954,12,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 74 기 1분기말,92114631324,제 73 기말,97482503602,13,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 74 기 1분기말,36499113450,제 73 기말,26347617242,14,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타금융자산,-,제 74 기 1분기말,597241400424,제 73 기말,606912647425,15,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherCurrentReceivables,기타채권,-,제 74 기 1분기말,6844460755,제 73 기말,6890515916,16,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 74 기 1분기말,141949715673,제 73 기말,132808839381,17,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 74 기 1분기말,1712525069984,제 73 기말,1556901104005,18,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융자산,-,제 74 기 1분기말,1060521551,제 73 기말,1060521551,19,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,-표준계정코드 미사용-,당기법인세자산,-,제 74 기 1분기말,554661550,제 73 기말,938281160,20,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 74 기 1분기말,19269872022,제 73 기말,14504700595,21,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,영업권 이외의 무형자산,-,제 74 기 1분기말,82237124036,제 73 기말,79562869996,22,KRW,제 72 기,24840000000,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,종속기업및관계기업투자,-,제 74 기 1분기말,275746640845,제 73 기말,140547716127,23,KRW,제 72 기,3589000000,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 74 기 1분기말,17144503071,제 73 기말,17124616637,24,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_NoncurrentInvestmentsInEquityInstrumentsDesignatedAtFairValueThroughOtherComprehensiveIncome,기타포괄손익 공정가치 측정 금융자산,-,제 74 기 1분기말,61860671173,제 73 기말,51552312303,25,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 74 기 1분기말,2047517055,제 73 기말,1952247763,26,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 74 기 1분기말,18080494505,제 73 기말,11070963540,27,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,장기기타채권,-,제 74 기 1분기말,9865143918,제 73 기말,9989424529,28,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 74 기 1분기말,1224657920258,제 73 기말,1228597449804,29,KRW,제 72 기,1135410000000,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 74 기 1분기말,2364218945779,제 73 기말,2243995457046,31,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 74 기 1분기말,2277434110699,제 73 기말,2142364349472,32,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 74 기 1분기말,-52832923067,제 73 기말,-133939404667,33,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 74 기 1분기말,222555835000,제 73 기말,222555835000,34,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 74 기 1분기말,1980382922472,제 73 기말,1926419642845,35,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 74 기 1분기말,127328276294,제 73 기말,127328276294,36,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 74 기 1분기말,86784835080,제 73 기말,101631107574,37,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 74 기 1분기말,3048295513792,제 73 기말,2992581747645,38,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 74 기 1분기말,569084789866,제 73 기말,579178189189,40,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_CurrentNontradePayables,기타지급채무,-,제 74 기 1분기말,125382793288,제 73 기말,125584983723,41,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 74 기 1분기말,47880050210,제 73 기말,85435063233,42,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 74 기 1분기말,21777603353,제 73 기말,21636275167,43,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 74 기 1분기말,2308563462,제 73 기말,2604958214,44,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 74 기 1분기말,49259464337,제 73 기말,44411842978,45,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타금융부채,-,제 74 기 1분기말,7068812108,제 73 기말,7080653516,46,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 74 기 1분기말,82567225428,제 73 기말,60745886975,47,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 74 기 1분기말,232840277680,제 73 기말,231678525383,48,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 74 기 1분기말,684076568013,제 73 기말,748586290599,49,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 74 기 1분기말,114991778147,제 73 기말,169408101410,50,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_NoncurrentNontradePayables,장기기타지급채무,-,제 74 기 1분기말,15033588669,제 73 기말,14168833381,51,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,dart_PostemploymentBenefitObligations,순확정급여부채,-,제 74 기 1분기말,17253097260,제 73 기말,12697917330,52,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,-표준계정코드 미사용-,기타장기종업원급여부채,-,제 74 기 1분기말,6422252807,제 73 기말,7526331267,53,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 74 기 1분기말,9273753811,제 73 기말,10289095710,54,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 74 기 1분기말,47414121618,제 73 기말,102572732928,55,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_NoncurrentProvisions,장기충당부채,-,제 74 기 1분기말,1032527391,제 73 기말,1033662974,56,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,장기기타금융부채,-,제 74 기 1분기말,18562436591,제 73 기말,21119527820,57,KRW,,,,,,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업/공동기업투자처분이익,-,제 74 기 1분기,976391890,,,6,KRW,,,976391890,제 73 기 1분기,0,0,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 74 기 1분기,63718313002,,,7,KRW,,,63718313002,제 73 기 1분기,52501423092,52501423092,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_OtherGains,기타이익,-,제 74 기 1분기,20490466842,,,8,KRW,,,20490466842,제 73 기 1분기,4433987961,4433987961,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_OtherLosses,기타손실,-,제 74 기 1분기,5372744102,,,9,KRW,,,5372744102,제 73 기 1분기,5824502715,5824502715,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 74 기 1분기,7862578489,,,10,KRW,,,7862578489,제 73 기 1분기,12942,12942,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 74 기 1분기,62162041400,,,11,KRW,,,62162041400,제 73 기 1분기,51999655809,51999655809,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 74 기 1분기,248749005828,,,12,KRW,,,248749005828,제 73 기 1분기,192879523025,192879523025,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 74 기 1분기,2087,,,14,KRW,,,2087,제 73 기 1분기,1132,1132,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 74 기 1분기,2040,,,15,KRW,,,2040,제 73 기 1분기,1132,1132,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 74 기 1분기,19290729890,,,16,KRW,,,19290729890,제 73 기 1분기,6381527952,6381527952,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 74 기 1분기,28512058284,,,17,KRW,,,28512058284,제 73 기 1분기,12873797418,12873797418,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 74 기 1분기,125880354402,,,18,KRW,,,125880354402,제 73 기 1분기,104501078901,104501078901,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 74 기 1분기,10028206416,,,19,KRW,,,10028206416,제 73 기 1분기,11702987315,11702987315,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 74 기 1분기,86868128099,,,20,KRW,,,86868128099,제 73 기 1분기,45900203431,45900203431,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 74 기 1분기,-439890592,,,22,KRW,,,-439890592,제 73 기 1분기,-224809582,-224809582,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 74 기 1분기,87308018691,,,23,KRW,,,87308018691,제 73 기 1분기,46125013013,46125013013,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 74 기 1분기,96896334515,,,24,KRW,,,96896334515,제 73 기 1분기,57603190746,57603190746,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,IS,손익계산서,ifrs-full_Revenue,수익(매출액),-,제 74 기 1분기,374629360230,,,25,KRW,,,374629360230,제 73 기 1분기,297380601926,297380601926,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 74 기 1분기,95668006192,,,6,KRW,,,95668006192,제 73 기 1분기,46015805616,46015805616,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 74 기 1분기,-550318034,,,8,KRW,,,-550318034,제 73 기 1분기,-224809582,-224809582,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 74 기 1분기,96218324226,,,9,KRW,,,96218324226,제 73 기 1분기,46240615198,46240615198,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 74 기 1분기,8799878093,,,10,KRW,,,8799878093,제 73 기 1분기,115602185,115602185,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 74 기 1분기,156717431,,,11,KRW,,,156717431,제 73 기 1분기,-21594888,-21594888,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 74 기 1분기,156717431,,,12,KRW,,,156717431,제 73 기 1분기,-6084789,-6084789,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 74 기 1분기,0,,,13,KRW,,,0,제 73 기 1분기,-15510099,-15510099,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 74 기 1분기,8643160662,,,14,KRW,,,8643160662,제 73 기 1분기,137197073,137197073,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",-,제 74 기 1분기,8755114040,,,15,KRW,,,8755114040,제 73 기 1분기,,0,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 74 기 1분기,-111953378,,,16,KRW,,,-111953378,제 73 기 1분기,121686974,121686974,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 74 기 1분기,0,,,17,KRW,,,0,제 73 기 1분기,15510099,15510099,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 74 기 1분기,86868128099,,,18,KRW,,,86868128099,제 73 기 1분기,45900203431,45900203431,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 74 기 1분기,323054472680,,,2,KRW,,,,제 73 기 1분기,297054100758,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 74 기 1분기,205840269618,,,3,KRW,,,,제 73 기 1분기,162805198967,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 74 기 1분기,8322491444,,,8,KRW,,,,제 73 기 1분기,-27173957496,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 74 기 1분기,1859200,,,9,KRW,,,,제 73 기 1분기,28454833825,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 74 기 1분기,16200000,,,10,KRW,,,,제 73 기 1분기,22200000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 74 기 1분기,21800000,,,11,KRW,,,,제 73 기 1분기,600000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 74 기 1분기,26448940224,,,12,KRW,,,,제 73 기 1분기,17825244957,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 74 기 1분기,-1954948589,,,13,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 74 기 1분기,27743404188,,,14,KRW,,,,제 73 기 1분기,7251964217,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,-,제 74 기 1분기,2783310000,,,15,KRW,,,,제 73 기 1분기,7666660000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,-표준계정코드 미사용-,비지배주주와의 거래,-,제 74 기 1분기,12038979317,,,16,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 74 기 1분기,1708183586,,,17,KRW,,,,제 73 기 1분기,1613871945,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,지배력을 상실하지 않는 종속기업에 대한 소유지분의 변동으로 인한 현금유입,-,제 74 기 1분기,0,,,18,KRW,,,,제 73 기 1분기,7315048,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsFinancingActivities,정부보조금의 수취,-,제 74 기 1분기,110780288,,,19,KRW,,,,제 73 기 1분기,2412486,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 74 기 1분기,-199354403600,,,20,KRW,,,,제 73 기 1분기,-171236098139,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermAdvancePayments,장기선급금의 증가,-,제 74 기 1분기,-23382210,,,21,KRW,,,,제 73 기 1분기,-15247423,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherFinancialAssets,기타금융자산의 감소(증가),-,제 74 기 1분기,-41018062148,,,22,KRW,,,,제 73 기 1분기,-121862979807,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentFinancialAssets,기타비유동금융자산의 감소(증가),-,제 74 기 1분기,-7007933744,,,23,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 74 기 1분기,20000325,,,24,KRW,,,,제 73 기 1분기,52271100,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 74 기 1분기,531693105,,,25,KRW,,,,제 73 기 1분기,6441650,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 74 기 1분기,1238954002,,,26,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInSubsidiariesJointVenturesAndAssociates,종속기업및관계기업투자의 처분,-,제 74 기 1분기,24143631188,,,27,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금및수취채권의 처분,-,제 74 기 1분기,156200000,,,28,KRW,,,,제 73 기 1분기,61250007,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 74 기 1분기,109597454783,,,29,KRW,,,,제 73 기 1분기,225277755936,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 74 기 1분기,72050007,,,30,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 74 기 1분기,0,,,31,KRW,,,,제 73 기 1분기,100000000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업의 취득,-,제 74 기 1분기,123389691472,,,32,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 74 기 1분기,0,,,33,KRW,,,,제 73 기 1분기,100000000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 74 기 1분기,120923163937,,,34,KRW,,,,제 73 기 1분기,234091178446,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities,투자활동으로 분류된 기타의 현금유입(유출),-,제 74 기 1분기,-92239957,,,35,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 74 기 1분기,166170433,,,36,KRW,,,,제 73 기 1분기,3618728,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 74 기 1분기,0,,,37,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 74 기 1분기,1237219700,,,38,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 74 기 1분기,2897611433,,,39,KRW,,,,제 73 기 1분기,1801157234,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 74 기 1분기,40102306032,,,40,KRW,,,,제 73 기 1분기,38653989350,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 74 기 1분기,70000366490,,,41,KRW,,,,제 73 기 1분기,66391365313,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 창출된 현금,-,제 74 기 1분기,82760443405,,,42,KRW,,,,제 73 기 1분기,74532767185,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 74 기 1분기,2649048973,,,43,KRW,,,,제 73 기 1분기,596882855,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 74 기 1분기,17249230607,,,44,KRW,,,,제 73 기 1분기,11407929402,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 74 기 1분기,2220474193,,,45,KRW,,,,제 73 기 1분기,817096283,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 74 기 1분기,4060578912,,,46,KRW,,,,제 73 기 1분기,3486740958,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 74 기 1분기,3817342604,,,47,KRW,,,,제 73 기 1분기,-2230211469,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 74 기 1분기,-121031545666,,,48,KRW,,,,제 73 기 1분기,-132018690322,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,222555835000,,,3,KRW,,,,제 73 기 1분기,222555835000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,1926419642845,,,3,KRW,,,,제 73 기 1분기,1763434867503,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,-133939404667,,,3,KRW,,,,제 73 기 1분기,-163336720157,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 74 기 1분기,2243995457046,,,3,KRW,,,,제 73 기 1분기,2000688804317,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,101631107574,,,3,KRW,,,,제 73 기 1분기,50706545677,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,2142364349472,,,3,KRW,,,,제 73 기 1분기,1949982258640,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,127328276294,,,3,KRW,,,,제 73 기 1분기,127328276294,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,52869891824,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,52869891824,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,0,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,연결재무제표 [member],제 74 기 1분기,52869891824,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,dart_RepaymentsOfExchangeableBond,교환사채의 감소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,4,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,연결재무제표 [member],제 74 기 1분기,-1859200,,,5,KRW,,,,제 73 기 1분기,-28454833825,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,0,,,5,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,-1859200,,,5,KRW,,,,제 73 기 1분기,-28454833825,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,-1859200,,,5,KRW,,,,제 73 기 1분기,-28454833825,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,5,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,5,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,5,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,연결재무제표 [member],제 74 기 1분기,23797953778,,,6,KRW,,,,제 73 기 1분기,2404536289,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,0,,,6,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,23797953778,,,6,KRW,,,,제 73 기 1분기,2404536289,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,23797953778,,,6,KRW,,,,제 73 기 1분기,2404536289,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,6,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,6,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,-표준계정코드 미사용-,자기주식 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,6,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,96218324226,,,7,KRW,,,,제 73 기 1분기,46240615198,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-550318034,,,7,KRW,,,,제 73 기 1분기,-224809582,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 74 기 1분기,95668006192,,,7,KRW,,,,제 73 기 1분기,46015805616,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,8069169799,,,7,KRW,,,,제 73 기 1분기,-21594888,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,7,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,7,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,88149154427,,,7,KRW,,,,제 73 기 1분기,46262210086,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,8,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,-34185874800,,,8,KRW,,,,제 73 기 1분기,-50540816400,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,0,,,8,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,-34185874800,,,8,KRW,,,,제 73 기 1분기,-50540816400,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,0,,,8,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 74 기 1분기,-34185874800,,,8,KRW,,,,제 73 기 1분기,-50540816400,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,8,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,222555835000,,,9,KRW,,,,제 73 기 1분기,222555835000,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,1980382922472,,,9,KRW,,,,제 73 기 1분기,1759156261189,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,-52832923067,,,9,KRW,,,,제 73 기 1분기,-189408612581,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,2277434110699,,,9,KRW,,,,제 73 기 1분기,1919631759902,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,86784835080,,,9,KRW,,,,제 73 기 1분기,50481736095,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 74 기 1분기,2364218945779,,2243995457046,9,KRW,,,,제 73 기 1분기,1970113495997,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,127328276294,,,9,KRW,,,,제 73 기 1분기,127328276294,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,연결재무제표 [member],제 74 기 1분기,-17924629061,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-14295954460,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,-3628674601,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,-3628674601,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControlEquityAttributableToOwnersOfParent,비지배지분과의 거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,10,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,연결재무제표 [member],제 74 기 1분기,24555482541,,,11,KRW,,,,제 73 기 1분기,-76591113936,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-14295954460,,,11,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,38851437001,,,11,KRW,,,,제 73 기 1분기,-76591113936,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,11,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,-34185874800,,,11,KRW,,,,제 73 기 1분기,-50540816400,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,73037311801,,,11,KRW,,,,제 73 기 1분기,-26050297536,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,11,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-110427442,,,12,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,8910305535,,,12,KRW,,,,제 73 기 1분기,115602185,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,8069169799,,,12,KRW,,,,제 73 기 1분기,-21594888,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,841135736,,,12,KRW,,,,제 73 기 1분기,137197073,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,12,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,12,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 74 기 1분기,8799878093,,,12,KRW,,,,제 73 기 1분기,115602185,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,282935736,,,13,KRW,,,,제 73 기 1분기,-6084789,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-126218305,,,13,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,연결재무제표 [member],제 74 기 1분기,156717431,,,13,KRW,,,,제 73 기 1분기,-6084789,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,282935736,,,13,KRW,,,,제 73 기 1분기,-6084789,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,13,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,13,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationOfForeignOperationsAndHedgesOfNetInvestmentsInForeignOperations,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,13,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",연결재무제표 [member],제 74 기 1분기,8755114040,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,19638651,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,8735475389,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,7786234063,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,949241326,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,"세후기타포괄손익, 기타포괄손익-공정가치로 측정되는 금융자산",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,14,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,-108105590,,,15,KRW,,,,제 73 기 1분기,121686974,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-3847788,,,15,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 74 기 1분기,-111953378,,,15,KRW,,,,제 73 기 1분기,121686974,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,0,,,15,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,15,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,15,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,-108105590,,,15,KRW,,,,제 73 기 1분기,121686974,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 74 기 1분기,86868128099,,,16,KRW,,,,제 73 기 1분기,45900203431,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,-439890592,,,16,KRW,,,,제 73 기 1분기,-224809582,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,87308018691,,,16,KRW,,,,제 73 기 1분기,46125013013,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,0,,,16,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,87308018691,,,16,KRW,,,,제 73 기 1분기,46125013013,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,16,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,16,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,연결재무제표 [member],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|비지배지분 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,15510099,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,-15510099,,000990,DB하이텍,CFS
+20260515001650,11013,2026,00160843,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업투자 평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 74 기 1분기,0,,,17,KRW,,,,제 73 기 1분기,0,,000990,DB하이텍,CFS

@@ -1,0 +1,173 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 12 기 1분기말,656272009731,제 11 기말,607188961441,7,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 12 기 1분기말,314081514019,제 11 기말,277312384937,8,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 12 기 1분기말,71161431091,제 11 기말,98230426967,9,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,유동 당기손익인식금융자산,-,제 12 기 1분기말,1972985320,제 11 기말,1411314940,10,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 12 기 1분기말,102821870,제 11 기말,2143851503,11,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentTradeReceivables,유동매출채권,-,제 12 기 1분기말,12343288921,제 11 기말,13094819960,12,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 12 기 1분기말,139268214243,제 11 기말,83880343465,13,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 12 기 1분기말,7304900487,제 11 기말,1006746887,14,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 12 기 1분기말,81927872087,제 11 기말,77544881215,15,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 12 기 1분기말,342190495712,제 11 기말,329876576504,16,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산과 영업권 합계,-,제 12 기 1분기말,24086510152,제 11 기말,24200224931,17,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,지분법적용 투자지분,-,제 12 기 1분기말,33102654132,제 11 기말,31568386199,18,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 12 기 1분기말,1080066152,제 11 기말,1089858704,19,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NetDeferredTaxAssets,이연법인세자산,-,제 12 기 1분기말,5842455866,제 11 기말,8026698616,20,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,비유동 기타포괄손익인식금융자산,-,제 12 기 1분기말,41376790280,제 11 기말,30190780890,21,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익인식금융자산,-,제 12 기 1분기말,5023661742,제 11 기말,5013194578,22,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,비유동 순확정급여자산,-,제 12 기 1분기말,2671324660,제 11 기말,3294193753,23,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 12 기 1분기말,5852032,제 11 기말,3019379,24,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 12 기 1분기말,3656801902,제 11 기말,3639455999,25,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 12 기 1분기말,225344378794,제 11 기말,222850763455,26,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 12 기 1분기말,502023260211,제 11 기말,476196299410,28,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 12 기 1분기말,379858185339,제 11 기말,367974785326,29,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,-표준계정코드 미사용-,기타지분,-,제 12 기 1분기말,50864886210,제 11 기말,48905545157,30,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 12 기 1분기말,8544725097,제 11 기말,-184928139,31,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 12 기 1분기말,8204535000,제 11 기말,8204535000,32,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 12 기 1분기말,200183933586,제 11 기말,198989527862,33,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 12 기 1분기말,112060105446,제 11 기말,112060105446,34,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 12 기 1분기말,122165074872,제 11 기말,108221514084,35,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 12 기 1분기말,656272009731,제 11 기말,607188961441,36,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 12 기 1분기말,99454025345,제 11 기말,74123874809,38,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,dart_CurrentPortionOfConvertibleBonds,유동성전환사채,-,제 12 기 1분기말,0,제 11 기말,9687580243,39,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,-표준계정코드 미사용-,단기차입금,-,제 12 기 1분기말,47300000000,제 11 기말,36000000000,40,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,-표준계정코드 미사용-,유동성장기차입금,-,제 12 기 1분기말,8087120000,제 11 기말,8087120000,41,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 12 기 1분기말,1140851944,제 11 기말,457973146,42,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 12 기 1분기말,9243042465,제 11 기말,9504070727,43,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 12 기 1분기말,1102229961,제 11 기말,2921413159,44,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_ShorttermWarrantyProvision,유동 제품보증충당부채,-,제 12 기 1분기말,195328839,제 11 기말,307597091,45,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,유동매입채무,-,제 12 기 1분기말,32385452136,제 11 기말,7158120443,46,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 12 기 1분기말,154248749520,제 11 기말,130992662031,47,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 12 기 1분기말,54794724175,제 11 기말,56868787222,48,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NetDeferredTaxLiabilities,이연법인세부채,-,제 12 기 1분기말,887326666,제 11 기말,658958766,49,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentPortionOfNoncurrentLoansReceived,장기차입금,-,제 12 기 1분기말,50457380000,제 11 기말,52479160000,50,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,비유동종업원급여충당부채,-,제 12 기 1분기말,413590028,제 11 기말,407959430,51,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 12 기 1분기말,3004964842,제 11 기말,3291660557,52,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,BS,재무상태표,ifrs-full_OtherNoncurrentLiabilities,기타 비유동 부채,-,제 12 기 1분기말,31462639,제 11 기말,31048469,53,KRW,,,,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,dart_NonOperatingExpense,기타비용,-,제 12 기 1분기,999910522,,,6,KRW,999910522,제 11 기 1분기,828877790,828877790,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,dart_NonOperatingIncome,기타수익,-,제 12 기 1분기,1911994035,,,7,KRW,1911994035,제 11 기 1분기,698132086,698132086,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 12 기 1분기,3994377388,,,8,KRW,3994377388,제 11 기 1분기,-1505413084,-1505413084,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 12 기 1분기,15909603806,,,9,KRW,15909603806,제 11 기 1분기,-277412259,-277412259,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 12 기 1분기,5656394354,,,11,KRW,5656394354,제 11 기 1분기,960828883,960828883,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 12 기 1분기,10253209452,,,12,KRW,10253209452,제 11 기 1분기,-1238241142,-1238241142,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 12 기 1분기,14606341898,,,13,KRW,14606341898,제 11 기 1분기,25344668344,25344668344,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 12 기 1분기,15,,,15,KRW,15,제 11 기 1분기,20,20,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 12 기 1분기,15,,,16,KRW,15,제 11 기 1분기,20,20,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 12 기 1분기,1413582164,,,17,KRW,1413582164,제 11 기 1분기,2725389905,2725389905,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 12 기 1분기,3154046831,,,18,KRW,3154046831,제 11 기 1분기,3698456761,3698456761,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 12 기 1분기,18706108516,,,19,KRW,18706108516,제 11 기 1분기,13616379700,13616379700,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 12 기 1분기,139124035,,,20,KRW,139124035,제 11 기 1분기,44875221,44875221,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 12 기 1분기,9447876301,,,21,KRW,9447876301,제 11 기 1분기,429971597,429971597,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 12 기 1분기,824095759,,,22,KRW,824095759,제 11 기 1분기,295610250,295610250,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,-,제 12 기 1분기,296182142,,,23,KRW,296182142,제 11 기 1분기,319670212,319670212,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동 - 후속적으로 재분류 되는 항목,-,제 12 기 1분기,527913617,,,24,KRW,527913617,제 11 기 1분기,-24059962,-24059962,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 12 기 1분기,8623780542,,,25,KRW,8623780542,제 11 기 1분기,134361347,134361347,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,-,제 12 기 1분기,8991369846,,,26,KRW,8991369846,제 11 기 1분기,100591051,100591051,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),-,제 12 기 1분기,-36861360,,,27,KRW,-36861360,제 11 기 1분기,48704355,48704355,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동 - 후속적으로 재분류 되지 않는 항목,-,제 12 기 1분기,-330727944,,,28,KRW,-330727944,제 11 기 1분기,-14934059,-14934059,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 12 기 1분기,6461727505,,,29,KRW,6461727505,제 11 기 1분기,-707383856,-707383856,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 12 기 1분기,5222239987,,,31,KRW,5222239987,제 11 기 1분기,929030878,929030878,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 12 기 1분기,1239487518,,,32,KRW,1239487518,제 11 기 1분기,-1636414734,-1636414734,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 12 기 1분기,6600851540,,,33,KRW,6600851540,제 11 기 1분기,-662508635,-662508635,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 12 기 1분기,33312450414,,,34,KRW,33312450414,제 11 기 1분기,38961048044,38961048044,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,판매비와관리비,-,제 12 기 1분기,14711731128,,,35,KRW,14711731128,제 11 기 1분기,15121792784,15121792784,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CIS,포괄손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법투자주식평가이익(손실),-,제 12 기 1분기,-46074028,,,36,KRW,-46074028,제 11 기 1분기,583297,583297,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 12 기 1분기,98230426967,,,2,KRW,,제 11 기 1분기,18823578025,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 12 기 1분기,71161431091,,,3,KRW,,제 11 기 1분기,18510061171,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 12 기 1분기,8756248692,,,8,KRW,,제 11 기 1분기,10836204672,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로부터의 현금유입,-,제 12 기 1분기,15300000000,,,9,KRW,,제 11 기 1분기,24834287606,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,-표준계정코드 미사용-,기타비유동부채의 증가,-,제 12 기 1분기,0,,,10,KRW,,제 11 기 1분기,34287606,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금에 따른 유입,-,제 12 기 1분기,15300000000,,,11,KRW,,제 11 기 1분기,24800000000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,-표준계정코드 미사용-,재무활동으로부터의 현금유출,-,제 12 기 1분기,6543751308,,,12,KRW,,제 11 기 1분기,13998082934,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 12 기 1분기,521971308,,,13,KRW,,제 11 기 1분기,476302934,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 12 기 1분기,6021780000,,,14,KRW,,제 11 기 1분기,13521780000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 12 기 1분기,-8489782264,,,15,KRW,,제 11 기 1분기,20987587586,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_InflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유입,-,제 12 기 1분기,119232800000,,,16,KRW,,제 11 기 1분기,61353956338,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 12 기 1분기,119227800000,,,17,KRW,,제 11 기 1분기,60839456338,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,-표준계정코드 미사용-,기타비유동금융자산의 감소,-,제 12 기 1분기,5000000,,,18,KRW,,제 11 기 1분기,57000000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,-표준계정코드 미사용-,기타유동금융자산의 감소,-,제 12 기 1분기,0,,,19,KRW,,제 11 기 1분기,457500000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_OutflowsOfCashFromInvestingActivities,투자활동으로부터의 현금유출,-,제 12 기 1분기,127722582264,,,20,KRW,,제 11 기 1분기,40366368752,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치측정금융자산의 취득,-,제 12 기 1분기,0,,,21,KRW,,제 11 기 1분기,490500000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 12 기 1분기,122664836024,,,22,KRW,,제 11 기 1분기,36000000000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 12 기 1분기,202921950,,,23,KRW,,제 11 기 1분기,240000000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 12 기 1분기,4854824290,,,24,KRW,,제 11 기 1분기,3635868752,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 12 기 1분기,-27511809517,,,25,KRW,,제 11 기 1분기,-32252985933,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 12 기 1분기,-30796925171,,,26,KRW,,제 11 기 1분기,-32430719647,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 12 기 1분기,101080700,,,27,KRW,,제 11 기 1분기,101080700,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),-,제 12 기 1분기,-2652895753,,,28,KRW,,제 11 기 1분기,602762026,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 12 기 1분기,818318804,,,29,KRW,,제 11 기 1분기,972855665,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 12 기 1분기,1349458005,,,30,KRW,,제 11 기 1분기,1652270705,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 12 기 1분기,176347213,,,31,KRW,,제 11 기 1분기,115676821,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 순증감,-,제 12 기 1분기,-27245343089,,,32,KRW,,제 11 기 1분기,-429193675,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,연결재무제표 [member],제 12 기 1분기,9701215095,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,8066167195,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,1635047900,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,1635047900,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,0,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,0,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_CompoundFinancialInstrumentConversion,복합금융상품 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,3,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,367974785326,,,4,KRW,,제 11 기 1분기,325417559640,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,108221514084,,,4,KRW,,제 11 기 1분기,92794735870,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 12 기 1분기,476196299410,,,4,KRW,,제 11 기 1분기,418212295510,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,48905545157,,,4,KRW,,제 11 기 1분기,32266373177,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,112060105446,,,4,KRW,,제 11 기 1분기,112060105446,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,8204535000,,,4,KRW,,제 11 기 1분기,8204535000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,198989527862,,,4,KRW,,제 11 기 1분기,179491195668,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,-184928139,,,4,KRW,,제 11 기 1분기,-6604649651,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 12 기 1분기,502023260211,,476196299410,5,KRW,,제 11 기 1분기,418145940351,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,122165074872,,,5,KRW,,제 11 기 1분기,93927478395,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,379858185339,,,5,KRW,,제 11 기 1분기,324218461956,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,8204535000,,,5,KRW,,제 11 기 1분기,8204535000,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,200183933586,,,5,KRW,,제 11 기 1분기,177893264581,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,8544725097,,,5,KRW,,제 11 기 1분기,-6208161347,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,50864886210,,,5,KRW,,제 11 기 1분기,32268718276,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,112060105446,,,5,KRW,,제 11 기 1분기,112060105446,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,246102563,,,6,KRW,,제 11 기 1분기,254869308,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,50079579,,,6,KRW,,제 11 기 1분기,64800904,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,연결재무제표 [member],제 12 기 1분기,296182142,,,6,KRW,,제 11 기 1분기,319670212,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,0,,,6,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,6,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,6,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,0,,,6,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,246102563,,,6,KRW,,제 11 기 1분기,254869308,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,80210259,,,7,KRW,,제 11 기 1분기,82417797,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,135931641,,,7,KRW,,제 11 기 1분기,128639302,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),연결재무제표 [member],제 12 기 1분기,216141900,,,7,KRW,,제 11 기 1분기,211057099,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,80210259,,,7,KRW,,제 11 기 1분기,82417797,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,0,,,7,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,0,,,7,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,7,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTreasuryShareTransactions,자기주식의 증가(감소),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,7,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,8483550673,,,8,KRW,,제 11 기 1분기,141618995,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,507819173,,,8,KRW,,제 11 기 1분기,-41027944,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,연결재무제표 [member],제 12 기 1분기,8991369846,,,8,KRW,,제 11 기 1분기,100591051,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,0,,,8,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,8,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,8,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,0,,,8,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,8483550673,,,8,KRW,,제 11 기 1분기,141618995,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),연결재무제표 [member],제 12 기 1분기,-36861360,,,9,KRW,,제 11 기 1분기,48704355,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,8220434,,,9,KRW,,제 11 기 1분기,10220708,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,-45081794,,,9,KRW,,제 11 기 1분기,38483647,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,0,,,9,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,0,,,9,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,-45081794,,,9,KRW,,제 11 기 1분기,38483647,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,9,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,9,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 12 기 1분기,6461727505,,,10,KRW,,제 11 기 1분기,-707383856,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,5222239987,,,10,KRW,,제 11 기 1분기,929030878,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,1239487518,,,10,KRW,,제 11 기 1분기,-1636414734,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,0,,,10,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,0,,,10,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,1239487518,,,10,KRW,,제 11 기 1분기,-1636414734,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,10,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,10,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,연결재무제표 [member],제 12 기 1분기,197185673,,,11,KRW,,제 11 기 1분기,-38994021,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 12 기 1분기,-46897221,,,11,KRW,,제 11 기 1분기,41078677,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 12 기 1분기,244082894,,,11,KRW,,제 11 기 1분기,-80072698,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 12 기 1분기,0,,,11,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 12 기 1분기,0,,,11,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 12 기 1분기,0,,,11,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 12 기 1분기,0,,,11,KRW,,제 11 기 1분기,0,,232140,와이씨,CFS
+20260515001819,11013,2026,01109539,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 12 기 1분기,244082894,,,11,KRW,,제 11 기 1분기,-80072698,,232140,와이씨,CFS

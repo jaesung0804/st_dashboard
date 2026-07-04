@@ -1,0 +1,176 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 46 기,253883692901,제 45 기,262223701831,제 44 기,258462819217,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 46 기,163608039162,제 45 기,174977165967,제 44 기,179899408957,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 46 기,11925414939,제 45 기,5925187482,제 44 기,5742558272,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 46 기,0,제 45 기,3176413279,제 44 기,472639542,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 46 기,34009892,제 45 기,602371916,제 44 기,0,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 46 기,79349515728,제 45 기,85630608034,제 44 기,77127428703,12,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 46 기,111618367,제 45 기,105342241,제 44 기,127019722,13,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 46 기,72187480236,제 45 기,79537243015,제 44 기,96429762718,14,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 46 기,90275653739,제 45 기,87246535864,제 44 기,78563410260,15,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 46 기,359158878,제 45 기,212116588,제 44 기,98060157,16,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 46 기,1311075929,제 45 기,1279824202,제 44 기,1013356480,17,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 46 기,15532594753,제 45 기,13088923509,제 44 기,10414413670,18,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_InvestmentsInAssociates,관계기업투자,-,제 46 기,811730336,제 45 기,892269063,제 44 기,1663320788,19,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 46 기,2463816460,제 45 기,2063495070,제 44 기,1813308950,20,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NoncurrentReceivables,장기매출채권및기타채권,-,제 46 기,7534553275,제 45 기,6026934613,제 44 기,301046869,21,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 46 기,61883764748,제 45 기,63464966776,제 44 기,63026974824,22,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 46 기,378959360,제 45 기,218006043,제 44 기,232928522,23,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 46 기,149292697908,제 45 기,149468828236,제 44 기,151785446944,25,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 46 기,149292697908,제 45 기,149468828236,제 44 기,151785446944,26,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 46 기,-1131726633,제 45 기,-1256257987,제 44 기,-1314839734,27,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 46 기,10554621500,제 45 기,10554621500,제 44 기,10554621500,28,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 46 기,125665572933,제 45 기,125966234615,제 44 기,128341435070,29,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 46 기,14204230108,제 45 기,14204230108,제 44 기,14204230108,30,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 46 기,253883692901,제 45 기,262223701831,제 44 기,258462819217,31,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 46 기,94985604531,제 45 기,103300575988,제 44 기,95118902587,33,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동성리스부채,-,제 46 기,149920188,제 45 기,132153874,제 44 기,116338602,34,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 46 기,4637342295,제 45 기,5833399992,제 44 기,1999999992,35,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 46 기,,제 45 기,,제 44 기,195022687,36,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타유동부채,-,제 46 기,1182204486,제 45 기,1371098909,제 44 기,1758353782,37,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 46 기,49068628594,제 45 기,57544462997,제 44 기,49799671264,38,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 46 기,39947508968,제 45 기,38419460216,제 44 기,41249516260,39,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 46 기,104590994993,제 45 기,112754873595,제 44 기,106677372273,40,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 46 기,9605390462,제 45 기,9454297607,제 44 기,11558469686,41,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무및기타채무,-,제 46 기,1677000000,제 45 기,1627500000,제 44 기,1099000000,42,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 46 기,4804287817,제 45 기,5333266686,제 44 기,8166666678,43,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NetDeferredTaxLiabilities,이연법인세부채,-,제 46 기,2878332919,제 45 기,2389685941,제 44 기,2163560011,44,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,장기리스부채,-,제 46 기,245769726,제 45 기,103844980,제 44 기,129242997,45,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,관계기업투자주식처분이익,-,제 46 기,,제 45 기,,제 44 기,161948166,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 46 기,3355298284,제 45 기,2965845039,제 44 기,5729081726,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_OtherGains,기타수익,-,제 46 기,2960979498,제 45 기,3033312999,제 44 기,1801071931,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_OtherLosses,기타비용,-,제 46 기,1375855848,제 45 기,1890849715,제 44 기,2305976910,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 46 기,12603901290,제 45 기,12130976187,제 44 기,12359940314,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 46 기,382614992125,제 45 기,387352544383,제 44 기,401664111693,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_CostOfSalesFromSaleOfGoodsProduct,제품매출원가,-,제 46 기,307443661967,제 45 기,305530736660,제 44 기,313805462207,12,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_CostOfSalesFromSaleOfGoodsRealEstate,분양원가,-,제 46 기,0,제 45 기,1942477649,제 44 기,1424699099,13,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_OtherCostOfSales,기타매출원가,-,제 46 기,499903211,제 45 기,489531801,제 44 기,674400681,14,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_CostOfMerchandiseSold,상품매출원가,-,제 46 기,74671426947,제 45 기,79389798273,제 44 기,85759549706,15,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 46 기,135,제 45 기,36,제 44 기,122,17,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 46 기,3056940164,제 45 기,3244579748,제 44 기,3892704739,18,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 46 기,1041371771,제 45 기,1866103966,제 44 기,1829875555,19,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 46 기,15959199574,제 45 기,15096821226,제 44 기,18089022040,20,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 46 기,-1044815024,제 45 기,1086677272,제 44 기,633378085,21,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 46 기,2856401397,제 45 기,763448315,제 44 기,2110280841,22,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 46 기,,제 45 기,,제 44 기,-465215784,24,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 46 기,2856401397,제 45 기,763448315,제 44 기,2575496625,25,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 46 기,1811586373,제 45 기,1850125587,제 44 기,2743658926,26,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_Revenue,매출액,-,제 46 기,398574191699,제 45 기,402449365609,제 44 기,419753133733,27,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_RevenueFromSaleOfGoodsMerchandise,상품매출액,-,제 46 기,77190255038,제 45 기,82050836916,제 44 기,89021970503,28,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_RevenueFromSaleOfGoodsProduct,제품매출액,-,제 46 기,318330767261,제 45 기,315852656785,제 44 기,327549620447,29,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,dart_RevenueFromSaleOfGoodsRealEstate,분양수익,-,제 46 기,0,제 45 기,1887000000,제 44 기,636000000,30,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_OtherRevenue,기타매출액,-,제 46 기,3053169400,제 45 기,2658871908,제 44 기,2545542783,31,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,IS,손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익(손실),-,제 46 기,-1113267168,제 45 기,-879706954,제 44 기,-579636803,32,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 46 기,2990045072,제 45 기,849556692,제 44 기,2166992700,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 46 기,,제 45 기,,제 44 기,-465215784,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 46 기,2990045072,제 45 기,849556692,제 44 기,2632208484,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 46 기,133643675,제 45 기,86108377,제 44 기,56711859,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,12,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는 항목,-,제 46 기,9112321,제 45 기,27526630,제 44 기,,13,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,-,제 46 기,9112321,제 45 기,27526630,제 44 기,0,14,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 46 기,2856401397,제 45 기,763448315,제 44 기,2110280841,15,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 46 기,5925187482,제 45 기,5742558272,제 44 기,13297322393,2,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 46 기,11925414939,제 45 기,5925187482,제 44 기,5742558272,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 46 기,-13530517200,제 45 기,6015566998,제 44 기,25642703331,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 46 기,6000000000,제 45 기,3000000000,제 44 기,8000000000,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 46 기,280453636338,제 45 기,277792899466,제 44 기,247224187431,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 46 기,7725036566,제 45 기,1999999992,제 44 기,833333330,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 46 기,288929470741,제 45 기,270048107733,제 44 기,211335874226,12,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,-표준계정코드 미사용-,예수보증금의 감소,-,제 46 기,130000000,제 45 기,10000000,제 44 기,0,13,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,-표준계정코드 미사용-,예수보증금의 증가,-,제 46 기,131000000,제 45 기,622000000,제 44 기,20000000,14,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금의 지급,-,제 46 기,3166175400,제 45 기,3166175400,제 44 기,3166175400,15,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries,종속기업에 대한 소유지분의 변동으로 인한 지급,-,제 46 기,,제 45 기,,제 44 기,14103828200,16,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 46 기,164470831,제 45 기,175049343,제 44 기,162272944,17,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 46 기,663210202,제 45 기,-4212505061,제 44 기,-11912343216,18,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,임차보증금의 감소,-,제 46 기,0,제 45 기,27464000,제 44 기,6000000,19,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,임차보증금의 증가,-,제 46 기,8000000,제 45 기,3000000,제 44 기,266000000,20,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치 금융자산의 처분,-,제 46 기,92855388097,제 45 기,26552796454,제 44 기,0,21,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfIntangibleAssetsOtherThanGoodwill,무형자산의 처분,-,제 46 기,23490000,제 45 기,0,제 44 기,,22,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 감소,-,제 46 기,,제 45 기,,제 44 기,61198649,23,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 46 기,0,제 45 기,240888493,제 44 기,349477085,24,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 46 기,,제 45 기,,제 44 기,7841493845,25,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 46 기,105151047,제 45 기,693063467,제 44 기,1123679591,26,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치 금융자산의 취득,-,제 46 기,89699067519,제 45 기,28588611751,제 44 기,1250000000,27,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfIntangibleAssetsOtherThanGoodwill,무형자산의 취득,-,제 46 기,45000000,제 45 기,6204000,제 44 기,22000000,28,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자의 취득,-,제 46 기,1019830000,제 45 기,0,제 44 기,,29,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 46 기,147042290,제 45 기,114056431,제 44 기,77778278,30,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 46 기,500000000,제 45 기,0,제 44 기,,31,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 46 기,,제 45 기,,제 44 기,7841493845,32,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 46 기,138382000,제 45 기,24070000,제 44 기,2757800000,33,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,-표준계정코드 미사용-,기타보증금의 감소,-,제 46 기,,제 45 기,,제 44 기,100000000,34,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수령,-,제 46 기,11200000,제 45 기,0,제 44 기,275800000,35,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 46 기,263000000,제 45 기,0,제 44 기,,36,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 46 기,10381817,제 45 기,46363636,제 44 기,75909091,37,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 46 기,1048078950,제 45 기,3037138929,제 44 기,9530829354,38,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 46 기,18798832515,제 45 기,-1607198643,제 44 기,-21186667427,39,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업으로부터 창출된 현금,-,제 46 기,19162981416,제 45 기,2366329979,제 44 기,-6439665953,40,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금의 수취,-,제 46 기,1800000,제 45 기,1485000,제 44 기,900000,41,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 환급(납부),-,제 46 기,-2222569260,제 45 기,1680492797,제 44 기,12544386687,42,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 46 기,3052618216,제 45 기,2644451221,제 44 기,2690336386,43,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 46 기,464100055,제 45 기,349930396,제 44 기,486821599,44,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 46 기,68701940,제 45 기,-13234084,제 44 기,-98456809,45,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 46 기,5931525517,제 45 기,195863294,제 44 기,-7456307312,46,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,10554621500,제 45 기,10554621500,제 44 기,10554621500,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,125966234615,제 45 기,128341435070,제 44 기,128932113846,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,-1256257987,제 45 기,-1314839734,제 44 기,-265518520,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 46 기,149468828236,제 45 기,151785446944,제 44 기,166888457845,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,13463010911,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,149468828236,제 45 기,151785446944,제 44 기,153425446934,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,14204230108,제 45 기,14204230108,제 44 기,14204230108,3,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,2865513718,제 45 기,790974945,제 44 기,2575496625,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,2990045072,제 45 기,849556692,제 44 기,2632208484,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,-465215784,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,연결재무제표 [member],제 46 기,2990045072,제 45 기,849556692,제 44 기,2166992700,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,4,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 46 기,3166175400,제 45 기,3166175400,제 44 기,3166175400,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,3166175400,제 45 기,3166175400,제 44 기,3166175400,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,3166175400,제 45 기,3166175400,제 44 기,3166175400,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,5,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 46 기,149292697908,제 45 기,149468828236,제 44 기,151785446944,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,149292697908,제 45 기,149468828236,제 44 기,151785446944,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,-1131726633,제 45 기,-1256257987,제 44 기,-1314839734,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,125665572933,제 45 기,125966234615,제 44 기,128341435070,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,10554621500,제 45 기,10554621500,제 44 기,10554621500,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,14204230108,제 45 기,14204230108,제 44 기,14204230108,6,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,,제 45 기,,제 44 기,1106033073,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|비지배지분 [구성요소],제 46 기,,제 45 기,,제 44 기,12997795127,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,연결재무제표 [member],제 46 기,,제 45 기,,제 44 기,14103828200,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,,제 45 기,,제 44 기,1106033073,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,,제 45 기,,제 44 기,0,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,,제 45 기,,제 44 기,0,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,종속기업의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,,제 45 기,,제 44 기,0,7,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,-3166175400,제 45 기,-3166175400,제 44 기,-3166175400,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,0,제 45 기,0,제 44 기,-1106033073,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,-3166175400,제 45 기,-3166175400,제 44 기,-4272208473,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,-12997795127,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,연결재무제표 [member],제 46 기,-3166175400,제 45 기,-3166175400,제 44 기,-17270003600,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransactionsWithOwners,소유주와의 거래 합계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,8,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,2856401397,제 45 기,763448315,제 44 기,2575496625,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,2856401397,제 45 기,763448315,제 44 기,2575496625,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,-465215784,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 46 기,2856401397,제 45 기,763448315,제 44 기,2110280841,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,9,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,124531354,제 45 기,58581747,제 44 기,56711859,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,0,10,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,연결재무제표 [member],제 46 기,9112321,제 45 기,27526630,제 44 기,0,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|비지배지분 [구성요소],제 46 기,0,제 45 기,,제 44 기,,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 46 기,9112321,제 45 기,27526630,제 44 기,,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 46 기,9112321,제 45 기,27526630,제 44 기,,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 46 기,0,제 45 기,0,제 44 기,,11,KRW,,140520,대창스틸,CFS
+20260323000588,11011,2025,00112721,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법이익잉여금변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|주식발행초과금 [구성요소],제 46 기,0,제 45 기,0,제 44 기,,11,KRW,,140520,대창스틸,CFS

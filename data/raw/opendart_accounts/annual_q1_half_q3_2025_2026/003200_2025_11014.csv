@@ -1,0 +1,175 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,bfefrmtrm_nm,bfefrmtrm_amount,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 68 기 3분기말,1094994969563,제 67 기말,1115758897982,7,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 68 기 3분기말,394544211473,제 67 기말,390199501402,8,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 68 기 3분기말,28344928699,제 67 기말,64739942120,9,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 68 기 3분기말,139572487801,제 67 기말,138152910820,10,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 68 기 3분기말,92056130140,제 67 기말,67398702328,11,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 68 기 3분기말,54773430243,제 67 기말,32011330464,12,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권및기타채권,-,제 68 기 3분기말,79797234590,제 67 기말,87896615670,13,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 68 기 3분기말,700450758090,제 67 기말,725559396580,14,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 68 기 3분기말,3003000000,제 67 기말,26003000000,15,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,-,제 68 기 3분기말,4492036147,제 67 기말,4801157887,16,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 68 기 3분기말,273660397807,제 67 기말,278433994724,17,KRW,제 66 기,283694256000,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,관계기업및공동기업투자,-,제 68 기 3분기말,91376153751,제 67 기말,101694319826,18,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 68 기 3분기말,171206725214,제 67 기말,99700441507,19,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_OtherNoncurrentReceivables,기타 비유동채권,-,제 68 기 3분기말,6921197550,제 67 기말,61249570154,20,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 68 기 3분기말,149791247621,제 67 기말,153676912482,21,KRW,제 66 기,136532968000,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 68 기 3분기말,925749318906,제 67 기말,907619445584,23,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 68 기 3분기말,901713362773,제 67 기말,883877045844,24,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 68 기 3분기말,13739830180,제 67 기말,13739830180,25,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 68 기 3분기말,-21984085761,제 67 기말,-21119939221,26,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,-,제 68 기 3분기말,3115594165,제 67 기말,1271441537,27,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 68 기 3분기말,12000000000,제 67 기말,12000000000,28,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 68 기 3분기말,894842024189,제 67 기말,877985713348,29,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 68 기 3분기말,24035956133,제 67 기말,23742399740,30,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 68 기 3분기말,1094994969563,제 67 기말,1115758897982,31,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 68 기 3분기말,107293899742,제 67 기말,148536835401,33,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings,단기차입금,-,제 68 기 3분기말,71702763274,제 67 기말,103313236051,34,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 68 기 3분기말,339617462,제 67 기말,1461669007,35,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_OtherShorttermProvisions,유동충당부채,-,제 68 기 3분기말,249497813,제 67 기말,220113789,36,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 68 기 3분기말,35002021193,제 67 기말,43541816554,37,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 68 기 3분기말,169245650657,제 67 기말,208139452398,38,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 68 기 3분기말,61951750915,제 67 기말,59602616997,39,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,-,제 68 기 3분기말,394112180,제 67 기말,31301199,40,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 68 기 3분기말,38830156002,제 67 기말,36020010968,41,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_NoncurrentPayables,기타비유동채무,-,제 68 기 3분기말,22586600881,제 67 기말,23374755434,42,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,BS,재무상태표,ifrs-full_OtherLongtermProvisions,비유동충당부채,-,제 68 기 3분기말,140881852,제 67 기말,176549396,43,KRW,,,,,,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 68 기 3분기,922903423,,,6,KRW,,,5483422779,제 67 기 3분기,-3199518335,4071229668,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,dart_OtherGains,기타수익,-,제 68 기 3분기,1065330610,,,7,KRW,,,20251395938,제 67 기 3분기,1021402570,22715399952,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 68 기 3분기,69416380,,,8,KRW,,,2595375077,제 67 기 3분기,1221166323,2059874527,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업지분이익(손실),-,제 68 기 3분기,-721706468,,,9,KRW,,,-1815144486,제 67 기 3분기,-57756257,66126830,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 68 기 3분기,21225828920,,,10,KRW,,,61730970834,제 67 기 3분기,18746322454,58141675217,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,-표준계정코드 미사용-,총포괄손익의 귀속,-,제 68 기 3분기,3163360766,,,11,KRW,,,23379468862,제 67 기 3분기,444844967,25637424795,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 68 기 3분기,27962538,,,12,KRW,,,418843393,제 67 기 3분기,76428945,462051045,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업지분,-,제 68 기 3분기,3135398228,,,13,KRW,,,22960625469,제 67 기 3분기,368416022,25175373750,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,-표준계정코드 미사용-,분기순이익(손실)의 귀속,-,제 68 기 3분기,1141892914,,,14,KRW,,,21523532147,제 67 기 3분기,1456319106,24711610255,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 68 기 3분기,23082070,,,15,KRW,,,409678029,제 67 기 3분기,85422965,480930570,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업지분,-,제 68 기 3분기,1118810844,,,16,KRW,,,21113854118,제 67 기 3분기,1370896141,24230679685,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 68 기 3분기,3163360766,,,17,KRW,,,23379468862,제 67 기 3분기,444844967,25637424795,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 68 기 3분기,102121905417,,,18,KRW,,,315365806683,제 67 기 3분기,104272723218,317257455397,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 68 기 3분기,53,,,20,KRW,,,994,제 67 기 3분기,64,1138,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),-,제 68 기 3분기,53,,,21,KRW,,,994,제 67 기 3분기,64,1138,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 68 기 3분기,1995679353,,,22,KRW,,,6756101105,제 67 기 3분기,29903954,9189531076,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 68 기 3분기,2244686390,,,23,KRW,,,11504207788,제 67 기 3분기,5741100806,14193958399,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 68 기 3분기,22148732343,,,24,KRW,,,67214393613,제 67 기 3분기,15546804119,62212904885,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용,-,제 68 기 3분기,304225308,,,25,KRW,,,4548873690,제 67 기 3분기,797839401,5085698991,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄이익,-,제 68 기 3분기,2021467852,,,26,KRW,,,1855936715,제 67 기 3분기,-1011474139,925814540,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류될 수 있는 항목,-,제 68 기 3분기,1964155785,,,27,KRW,,,1764873691,제 67 기 3분기,-944858751,1037546771,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,-,제 68 기 3분기,1887279903,,,28,KRW,,,1835607274,제 67 기 3분기,-899451870,927567930,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,-,제 68 기 3분기,76875882,,,29,KRW,,,-70733583,제 67 기 3분기,-45406881,109978841,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 항목,-,제 68 기 3분기,57312067,,,30,KRW,,,91063024,제 67 기 3분기,-66615388,-111732231,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,-,제 68 기 3분기,57312067,,,31,KRW,,,91063024,제 67 기 3분기,-66615388,-111732231,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 3분기,1141892914,,,32,KRW,,,21523532147,제 67 기 3분기,1456319106,24711610255,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 68 기 3분기,1446118222,,,33,KRW,,,26072405837,제 67 기 3분기,2254158507,29797309246,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CIS,포괄손익계산서,ifrs-full_Revenue,매출액,-,제 68 기 3분기,124270637760,,,34,KRW,,,382580200296,제 67 기 3분기,119819527337,379470360282,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 68 기 3분기,64739942120,,,2,KRW,,,,제 67 기 3분기,41749020874,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 68 기 3분기,28344928699,,,3,KRW,,,,제 67 기 3분기,29572469397,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 68 기 3분기,-37081144177,,,8,KRW,,,,제 67 기 3분기,17044745252,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 68 기 3분기,864146540,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 68 기 3분기,0,,,10,KRW,,,,제 67 기 3분기,916475940,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 68 기 3분기,0,,,11,KRW,,,,제 67 기 3분기,1025594032,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 68 기 3분기,3498608067,,,12,KRW,,,,제 67 기 3분기,4109780236,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 68 기 3분기,119961965597,,,13,KRW,,,,제 67 기 3분기,158214069113,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 68 기 3분기,4385400890,,,14,KRW,,,,제 67 기 3분기,2255592740,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 상환,-,제 68 기 3분기,148294954277,,,15,KRW,,,,제 67 기 3분기,134913068977,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 68 기 3분기,-30976623635,,,16,KRW,,,,제 67 기 3분기,-52658068783,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자주식의 처분,-,제 68 기 3분기,344370861,,,17,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 68 기 3분기,0,,,18,KRW,,,,제 67 기 3분기,171931134,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 처분,-,제 68 기 3분기,203048743390,,,19,KRW,,,,제 67 기 3분기,208394083343,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 처분,-,제 68 기 3분기,1010990499,,,20,KRW,,,,제 67 기 3분기,48801422,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 68 기 3분기,70062936501,,,21,KRW,,,,제 67 기 3분기,39255510083,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 68 기 3분기,69850950000,,,22,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 68 기 3분기,255575600783,,,23,KRW,,,,제 67 기 3분기,242031364027,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동금융자산의 취득,-,제 68 기 3분기,47388099067,,,24,KRW,,,,제 67 기 3분기,5066224082,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 68 기 3분기,65574730471,,,25,KRW,,,,제 67 기 3분기,27005146085,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 68 기 3분기,94409116,,,26,KRW,,,,제 67 기 3분기,308636000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 68 기 3분기,62250000,,,27,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 68 기 3분기,20909091,,,28,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 68 기 3분기,367405656,,,29,KRW,,,,제 67 기 3분기,2173258963,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 68 기 3분기,328262560,,,30,KRW,,,,제 67 기 3분기,357703400,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 68 기 3분기,66710000,,,31,KRW,,,,제 67 기 3분기,1503180451,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 68 기 3분기,6906185868,,,32,KRW,,,,제 67 기 3분기,27046671683,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 68 기 3분기,32046737531,,,33,KRW,,,,제 67 기 3분기,23231191132,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_NetCashflowsFromUsedInOperations,영업에서 창출된 현금,-,제 68 기 3분기,25732099204,,,34,KRW,,,,제 67 기 3분기,7876841963,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,자산부채의 증감,-,제 68 기 3분기,813015445,,,35,KRW,,,,제 67 기 3분기,-11779192444,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInLongTermTradeAndOtherNonCurrentReceivables,장기매출채권 및 기타비유동채권의 감소(증가),-,제 68 기 3분기,0,,,36,KRW,,,,제 67 기 3분기,-3564408470,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentNonFinancialAssets,기타비유동자산의 감소(증가),-,제 68 기 3분기,1804744060,,,37,KRW,,,,제 67 기 3분기,857960714,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInTradeAndOtherCurrentReceivables,매출채권 및 기타유동채권의 감소(증가),-,제 68 기 3분기,6767496424,,,38,KRW,,,,제 67 기 3분기,10268859712,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLongTermTradeAndOtherNonCurrentPayables,기타비유동채무의 증가(감소),-,제 68 기 3분기,160237324,,,39,KRW,,,,제 67 기 3분기,198904470,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInOtherCurrentFinancialLiabilities,기타유동금융부채의 증가(감소),-,제 68 기 3분기,58125350,,,40,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInTradeAndOtherCurrentPayables,매입채무 및 기타유동채무의 증가(감소),-,제 68 기 3분기,-2820812747,,,41,KRW,,,,제 67 기 3분기,-9397960465,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산의 감소(증가),-,제 68 기 3분기,-4059642751,,,42,KRW,,,,제 67 기 3분기,-11513081316,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산의 감소(증가) 조정,-,제 68 기 3분기,-660792876,,,43,KRW,,,,제 67 기 3분기,2986656687,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채의 증가(감소),-,제 68 기 3분기,-436339339,,,44,KRW,,,,제 67 기 3분기,-1616123776,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,현금의 유출입이 없는 비용수익 등 가감,-,제 68 기 3분기,3395551612,,,45,KRW,,,,제 67 기 3분기,-5055575848,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),-,제 68 기 3분기,1141892914,,,46,KRW,,,,제 67 기 3분기,1456319106,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 68 기 3분기,6932024184,,,47,KRW,,,,제 67 기 3분기,6752184680,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부,-,제 68 기 3분기,2870016866,,,48,KRW,,,,제 67 기 3분기,-48755844,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 68 기 3분기,4831211289,,,49,KRW,,,,제 67 기 3분기,2490341946,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 68 기 3분기,7083842298,,,50,KRW,,,,제 67 기 3분기,11043750591,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,외화표시현금및현금성자산의 환율변동효과,-,제 68 기 3분기,-383983140,,,51,KRW,,,,제 67 기 3분기,205580922,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 68 기 3분기,-36395013421,,,52,KRW,,,,제 67 기 3분기,-12176551477,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,1271441537,,,3,KRW,,,,제 67 기 3분기,1067892420,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,877985713348,,856128683000,3,KRW,,,,제 67 기 3분기,856128682216,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,12000000000,,,3,KRW,,,,제 67 기 3분기,12000000000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-21119939221,,,3,KRW,,,,제 67 기 3분기,-25193219221,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,883877045844,,,3,KRW,,,,제 67 기 3분기,857743185595,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,23742399740,,,3,KRW,,,,제 67 기 3분기,22991599981,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 68 기 3분기,907619445584,,,3,KRW,,,,제 67 기 3분기,880734785576,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,13739830180,,,3,KRW,,,,제 67 기 3분기,13739830180,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,4260162000,,,4,KRW,,,,제 67 기 3분기,2130081000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,125287000,,,4,KRW,,,,제 67 기 3분기,125287000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 68 기 3분기,4385449000,,,4,KRW,,,,제 67 기 3분기,2255368000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,4,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,4,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,4,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,4260162000,,2130081000,4,KRW,,,,제 67 기 3분기,2130081000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,4,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 68 기 3분기,925749318906,,907619445584,5,KRW,,,,제 67 기 3분기,904116842371,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,24035956133,,,5,KRW,,,,제 67 기 3분기,23328364026,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,901713362773,,,5,KRW,,,,제 67 기 3분기,880788478345,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,12000000000,,,5,KRW,,,,제 67 기 3분기,12000000000,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,894842024189,,877985713000,5,KRW,,,,제 67 기 3분기,878229280901,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,3115594165,,,5,KRW,,,,제 67 기 3분기,2012586485,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,-21984085761,,,5,KRW,,,,제 67 기 3분기,-25193219221,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,13739830180,,,5,KRW,,,,제 67 기 3분기,13739830180,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,6,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,6,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,1835607274,,,6,KRW,,,,제 67 기 3분기,927567930,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,6,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,1835607274,,,6,KRW,,,,제 67 기 3분기,927567930,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,6,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,연결재무제표 [member],제 68 기 3분기,1887279903,,,6,KRW,,,,제 67 기 3분기,-899451870,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,6,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,7,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,2618723,,,7,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,81361681,,,7,KRW,,,,제 67 기 3분기,-101317512,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,7,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,83980404,,,7,KRW,,,,제 67 기 3분기,-101317512,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,7082620,,,7,KRW,,,,제 67 기 3분기,-10414719,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,연결재무제표 [member],제 68 기 3분기,57312067,,,7,KRW,,,,제 67 기 3분기,-66615388,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,7,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,8,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,21113854118,,28106240000,8,KRW,,,,제 67 기 3분기,24230679685,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,8,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,8,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,21113854118,,,8,KRW,,,,제 67 기 3분기,24230679685,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,409678029,,,8,KRW,,,,제 67 기 3분기,480930570,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 68 기 3분기,1141892914,,,8,KRW,,,,제 67 기 3분기,1456319106,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,8,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 68 기 3분기,864146540,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,0,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,0,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,864146540,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,864146540,,,9,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,연결재무제표 [member],제 68 기 3분기,-70733583,,,10,KRW,,,,제 67 기 3분기,109978841,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 68 기 3분기,0,,,10,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 68 기 3분기,0,,,10,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 68 기 3분기,-72816327,,,10,KRW,,,,제 67 기 3분기,118443647,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 68 기 3분기,0,,,10,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 68 기 3분기,-72816327,,,10,KRW,,,,제 67 기 3분기,118443647,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|비지배지분 [구성요소],제 68 기 3분기,2082744,,,10,KRW,,,,제 67 기 3분기,-8464806,,003200,일신방직,CFS
+20251114000430,11014,2025,00146269,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,지분법자본변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 68 기 3분기,0,,,10,KRW,,,,제 67 기 3분기,0,,003200,일신방직,CFS

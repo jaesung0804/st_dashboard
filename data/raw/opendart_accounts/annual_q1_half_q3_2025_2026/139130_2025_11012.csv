@@ -1,0 +1,356 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,ord,currency,thstrm_add_amount,frmtrm_q_nm,frmtrm_q_amount,frmtrm_add_amount,ticker,corp_name,fs_div
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_CashAndDuefromBanks,현금및예치금,-,제 15 기 반기말,4969943061051,제 14 기말,4125676877540,7,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_LoansAtAmortisedCost,상각후원가측정대출채권,-,제 15 기 반기말,65837403106321,제 14 기말,65701341152905,8,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_SecuritiesAtAmortisedCost,상각후원가측정유가증권,-,제 15 기 반기말,4512973972302,제 14 기말,4741542952119,9,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 15 기 반기말,100159735980758,제 14 기말,94148635110781,10,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 15 기 반기말,31431037357,제 14 기말,56096659469,11,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 15 기 반기말,245866807000,제 14 기말,239778004469,12,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_DerivativeFinancialAssets,파생상품자산,-,제 15 기 반기말,175648472652,제 14 기말,236083413665,13,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 15 기 반기말,8727177947009,제 14 기말,8146141863980,14,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융자산,-,제 15 기 반기말,10708627560070,제 14 기말,7839781359793,15,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 15 기 반기말,254726819343,제 14 기말,267678385885,16,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자,-,제 15 기 반기말,213352949821,제 14 기말,169676725447,17,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 15 기 반기말,138425635181,제 14 기말,138186289971,18,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_OtherAssets,기타자산,-,제 15 기 반기말,3473168401819,제 14 기말,1581633399242,19,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 15 기 반기말,794581829785,제 14 기말,809700914353,20,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_RecognisedAssetsDefinedBenefitPlan,확정급여자산,-,제 15 기 반기말,74449336015,제 14 기말,92398642908,21,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_ReinsuranceContractsHeldThatAreAssets,재보험계약자산,-,제 15 기 반기말,1959045032,제 14 기말,2918469035,22,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 15 기 반기말,6300347330891,제 14 기말,6205753395658,25,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배주주지분,-,제 15 기 반기말,6080747810394,제 14 기말,5991114817471,26,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_CapitalAdjustments,자본조정,-,제 15 기 반기말,-40367516465,제 14 기말,-20261392780,27,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_CapitalSurplus,자본잉여금,-,제 15 기 반기말,1562548006813,제 14 기말,1562506399988,28,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,dart_HybridBonds,신종자본증권,-,제 15 기 반기말,813131675000,제 14 기말,813133653000,29,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_AccumulatedOtherComprehensiveIncome,기타포괄손익누계액,-,제 15 기 반기말,-674532483358,제 14 기말,-594576285608,30,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 15 기 반기말,845729165000,제 14 기말,845729165000,31,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 15 기 반기말,3574238963404,제 14 기말,3384583277871,32,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 15 기 반기말,219599520497,제 14 기말,214638578187,33,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채및자본총계,-,제 15 기 반기말,100159735980758,제 14 기말,94148635110781,34,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_BondsIssued,사채,-,제 15 기 반기말,8842162549960,제 14 기말,7827242837224,36,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_Borrowings,차입부채,-,제 15 기 반기말,12498265731295,제 14 기말,9700497696831,37,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 15 기 반기말,44452198183,제 14 기말,12532707381,38,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 15 기 반기말,39792807571,제 14 기말,51232700182,39,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_DepositsFromCustomers,예수부채,-,제 15 기 반기말,59100733009497,제 14 기말,59806886405816,40,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_DerivativeFinancialLiabilities,파생상품부채,-,제 15 기 반기말,181344254355,제 14 기말,297700647110,41,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading,당기손익-공정가치측정금융부채,-,제 15 기 반기말,1625497629444,제 14 기말,631387663527,42,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition,당기손익-공정가치지정금융부채,-,제 15 기 반기말,152349611442,제 14 기말,234857994750,43,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_InsuranceContractsIssuedThatAreLiabilities,보험계약부채,-,제 15 기 반기말,6269156084940,제 14 기말,6062986196636,44,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 15 기 반기말,93859388649867,제 14 기말,87942881715123,45,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_OtherLiabilities,기타부채,-,제 15 기 반기말,5028640828504,제 14 기말,3235099429203,46,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_Provisions,충당부채,-,제 15 기 반기말,61006950185,제 14 기말,67433636571,47,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_RecognisedLiabilitiesDefinedBenefitPlan,확정급여부채,-,제 15 기 반기말,3454840396,제 14 기말,3001751138,48,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,BS,재무상태표,ifrs-full_ReinsuranceContractsHeldThatAreLiabilities,재보험계약부채,-,제 15 기 반기말,12532154095,제 14 기말,12022048754,49,KRW,,,,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_GainLossFromFinancialInstrumentsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정 금융상품 관련 순이익(손실),-,제 15 기 반기,28604978405,,,6,KRW,43444343031,제 14 기 반기,11600491366,18808765154,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_GainLossFromFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정 금융상품관련 순이익(손실),-,제 15 기 반기,103472419120,,,7,KRW,159118408954,제 14 기 반기,120756211766,244906339429,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_InsuranceRevenueExpense,순보험이익(손실),-,제 15 기 반기,18856710709,,,8,KRW,39911432786,제 14 기 반기,22199137621,45722158331,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_OperatingExpenseInsurance,보험비용,-,제 15 기 반기,50252585310,,,9,KRW,99001409142,제 14 기 반기,43610665296,88944438209,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_OperatingIncomeInsurance,보험수익,-,제 15 기 반기,69109296019,,,10,KRW,138912841928,제 14 기 반기,65809802917,134666596540,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_NonOperatingProfitLoss,영업외순이익(손실),-,제 15 기 반기,-992382132,,,11,KRW,-3987700128,제 14 기 반기,-204449813,-3818732907,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,-표준계정코드 미사용-,당기손익-공정가치지정 금융상품관련 순이익(손실),-,제 15 기 반기,1619184541,,,12,KRW,2007901324,제 14 기 반기,-16153661627,-20381324555,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_AdditionalAllowanceRecognisedInProfitOrLossAllowanceAccountForCreditLossesOfFinancialAssets,신용손실충당금 전입액,-,제 15 기 반기,84343022845,,,13,KRW,153587568222,제 14 기 반기,314160653316,473587010777,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 15 기 반기,162838665452,,,14,KRW,237563287748,제 14 기 반기,-66792517712,-47682550268,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배주주지분포괄이익(손실),-,제 15 기 반기,4242461678,,,16,KRW,8263907459,제 14 기 반기,-7488400046,-6278779459,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배주주지분포괄이익(손실),-,제 15 기 반기,158596203774,,,17,KRW,229299380289,제 14 기 반기,-59304117666,-41403770809,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,보통주기본주당이익(손실),-,제 15 기 반기,900,,,19,KRW,1779,제 14 기 반기,190,822,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,보통주희석주당이익(손실),-,제 15 기 반기,900,,,20,KRW,1779,제 14 기 반기,190,822,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionIncomeExpense,순수수료손익,-,제 15 기 반기,56379756188,,,21,KRW,107991899082,제 14 기 반기,47632958040,98874226951,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionExpense,수수료비용,-,제 15 기 반기,25300978589,,,22,KRW,49062670963,제 14 기 반기,30274976959,54827841001,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_FeeAndCommissionIncome,수수료수익,-,제 15 기 반기,81680734777,,,23,KRW,157054570045,제 14 기 반기,77907934999,153702067952,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 15 기 반기,38280536230,,,24,KRW,85713681422,제 14 기 반기,2487697684,44428694916,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InsuranceFinanceIncomeExpenses,보험및재보험 금융이익(손실),-,제 15 기 반기,-6121030392,,,25,KRW,2503837760,제 14 기 반기,-34086291324,-99121894834,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_InsuranceFinanceExpensesFromInsuranceContractsIssuedRecognisedInProfitOrLoss,보험및재보험 금융비용,-,제 15 기 반기,7923346743,,,26,KRW,8205829785,제 14 기 반기,34216919080,100083852752,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,dart_InsuranceFinanceIncomeFromInsuranceContractsIssuedRecognisedInProfitOrLoss,보험및재보험 금융수익,-,제 15 기 반기,1802316351,,,27,KRW,10709667545,제 14 기 반기,130627756,961957918,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InterestRevenueExpense,순이자손익,-,제 15 기 반기,407281699255,,,28,KRW,810408171351,제 14 기 반기,438175936955,863108422201,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InterestExpense,이자비용,-,제 15 기 반기,546882429276,,,29,KRW,1115022671018,제 14 기 반기,609239933071,1246105862374,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,-표준계정코드 미사용-,금융상품 관련 이자비용,-,제 15 기 반기,503107298216,,,30,KRW,1029079044386,제 14 기 반기,564621115821,1156012630085,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,-표준계정코드 미사용-,보험및재보험 관련 이자비용,-,제 15 기 반기,43775131060,,,31,KRW,85943626632,제 14 기 반기,44618817250,90093232289,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_RevenueFromInterest,이자수익,-,제 15 기 반기,954164128531,,,32,KRW,1925430842369,제 14 기 반기,1047415870026,2109214284575,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,-표준계정코드 미사용-,보험및재보험 관련 이자수익,-,제 15 기 반기,1480892567,,,33,KRW,2914646780,제 14 기 반기,4002339361,8298164984,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InterestIncomeForFinancialAssetsMeasuredAtAmortisedCost,상각후원가 측정 금융상품 관련 이자수익,-,제 15 기 반기,841538363806,,,34,KRW,1707079537999,제 14 기 반기,933786698568,1867833160127,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치 측정 금융상품 관련 이자수익,-,제 15 기 반기,50962735893,,,35,KRW,95485100157,제 14 기 반기,52837735881,123696997435,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_InterestRevenueForFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 금융상품 관련 이자수익,-,제 15 기 반기,60182136265,,,36,KRW,119951557433,제 14 기 반기,56789096216,109385962029,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_NetForeignExchangeGain,외환거래순이익,-,제 15 기 반기,-59744011775,,,37,KRW,-33398181673,제 14 기 반기,63976253450,112504171421,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 15 기 반기,3558577975,,,38,KRW,-80380212200,제 14 기 반기,-97566539177,-191410921579,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,-,제 15 기 반기,-3360383178,,,40,KRW,-697235463,제 14 기 반기,729164711,354859317,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,-,제 15 기 반기,-27884381629,,,41,KRW,-29150625417,제 14 기 반기,19796068000,44565705283,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinanceIncomeExpensesFromReinsuranceContractsHeldExcludedFromProfitOrLoss,재보험계약 관련 금융손익,-,제 15 기 반기,255265133,,,42,KRW,-430498559,제 14 기 반기,-499045174,-1754772291,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정채무상품관련손익,-,제 15 기 반기,-57961724039,,,43,KRW,11238209439,제 14 기 반기,14449574275,-74893896509,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,-,제 15 기 반기,18737924309,,,44,KRW,20203762523,제 14 기 반기,-15142333005,-34009466379,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxInsuranceFinanceIncomeExpensesFromInsuranceContractsIssuedExcludedFromProfitOrLossThatWillBeReclassifiedToProfitOrLoss,보험계약 관련 금융손익,-,제 15 기 반기,67966271960,,,45,KRW,-87142333435,제 14 기 반기,-115981278677,-121480274593,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정지분상품관련손익,-,제 15 기 반기,5903962479,,,47,KRW,5820893978,제 14 기 반기,-726801727,-3843303480,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,-,제 15 기 반기,-98357060,,,48,KRW,-222385266,제 14 기 반기,-191887580,-349772927,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_OtherOperatingIncomeExpense,기타영업순이익(손실),-,제 15 기 반기,-9042642753,,,49,KRW,-70175413189,제 14 기 반기,-77199382193,-136128892212,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 15 기 반기,159280087477,,,50,KRW,317943499948,제 14 기 반기,30774021465,143728371311,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분순이익,-,제 15 기 반기,4332530333,,,52,KRW,8687921909,제 14 기 반기,-7475391628,-6236582078,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배주주지분순이익,-,제 15 기 반기,154947557144,,,53,KRW,309255578039,제 14 기 반기,38249413093,149964953389,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세차감전순이익(손실),-,제 15 기 반기,197560623707,,,54,KRW,403657181370,제 14 기 반기,33261719149,188157066227,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_ProfitLossFromOperatingActivities,영업이익(손실),-,제 15 기 반기,198553005839,,,55,KRW,407644881498,제 14 기 반기,33466168962,191975799134,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CIS,포괄손익계산서,ifrs-full_SellingGeneralAndAdministrativeExpense,일반관리비,-,제 15 기 반기,258411034614,,,56,KRW,500579949706,제 14 기 반기,229274831776,462729161975,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 15 기 반기,3029253398893,,,2,KRW,,제 14 기 반기,4006474436832,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashAndCashEquivalents,기말 현금및현금성자산,-,제 15 기 반기,4046214279828,,,7,KRW,,제 14 기 반기,4270576426419,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동으로 인한 현금흐름,-,제 15 기 반기,3959746296505,,,9,KRW,,제 14 기 반기,-1550941568577,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득,-,제 15 기 반기,39999986485,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForDecreaseInFundAccountPayables,기금계정미지급금의 감소,-,제 15 기 반기,248065123,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForDecreaseInTrustAccountLiabilities,신탁계정미지급금의 감소,-,제 15 기 반기,45261012127,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreaseInFundAccountPayables,기금계정미지급금의 증가,-,제 15 기 반기,183711401,,,13,KRW,,제 14 기 반기,1104014611,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreaseInTrustAccountLiabilities,신탁계정미지급금의 증가,-,제 15 기 반기,116275346152,,,14,KRW,,제 14 기 반기,155780479126,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_CashInflowFromIssuanceOfHybridBond,신종자본증권의 발행,-,제 15 기 반기,99630502000,,,15,KRW,,제 14 기 반기,99650302000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_CashOutflowForRepaymentOfHybridBond,신종자본증권의 상환,-,제 15 기 반기,100000000000,,,16,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 15 기 반기,2108000000,,,17,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_DecreaseInNoncontrollingInterests,비지배지분의 감소,-,제 15 기 반기,2364999997,,,18,KRW,,제 14 기 반기,4064999996,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_DividendsPaidToHybridBond,신종자본증권 이익분배금의 지급,-,제 15 기 반기,17567199998,,,19,KRW,,제 14 기 반기,13112199998,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 15 기 반기,130000000,,,20,KRW,,제 14 기 반기,450000000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_IncreaseInNoncontrollingInterests,비지배지분의 증가,-,제 15 기 반기,2299939131,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 15 기 반기,82678865876,,,22,KRW,,제 14 기 반기,91526140566,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PaymentsForShareIssueCosts,종속기업의 주식발행비,-,제 15 기 반기,0,,,23,KRW,,제 14 기 반기,50014000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 지급,-,제 15 기 반기,15084606695,,,24,KRW,,제 14 기 반기,13737676076,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromBorrowingsClassifiedAsFinancingActivities,차입금의 증가,-,제 15 기 반기,9221870436083,,,25,KRW,,제 14 기 반기,3927133693197,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,종속기업에 대한 지분변동,-,제 15 기 반기,0,,,26,KRW,,제 14 기 반기,-7156353174,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromIssueOfBondsNotesAndDebentures,사채의 발행,-,제 15 기 반기,2638237581200,,,27,KRW,,제 14 기 반기,2114024669200,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_RepaymentsOfBondsNotesAndDebentures,사채의 상환,-,제 15 기 반기,1625355000000,,,28,KRW,,제 14 기 반기,2002814739727,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_RepaymentsOfBorrowingsClassifiedAsFinancingActivities,차입금의 감소,-,제 15 기 반기,6188213483161,,,29,KRW,,제 14 기 반기,5716622603174,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동으로 인한 현금흐름,-,제 15 기 반기,-424719400471,,,31,KRW,,제 14 기 반기,-376497275215,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,보증금의 감소,-,제 15 기 반기,5588809122,,,32,KRW,,제 14 기 반기,3995132162,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,보증금의 증가,-,제 15 기 반기,1196629548,,,33,KRW,,제 14 기 반기,602854550,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 처분,-,제 15 기 반기,1225510956195,,,34,KRW,,제 14 기 반기,1456820710430,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의처분,-,제 15 기 반기,831606968171,,,35,KRW,,제 14 기 반기,545251455056,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의처분,-,제 15 기 반기,3708631365975,,,36,KRW,,제 14 기 반기,2011288950833,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치측정금융자산의 취득,-,제 15 기 반기,1213488719219,,,37,KRW,,제 14 기 반기,1281509059853,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtAmortisedCostClassifiedAsInvestingActivities,상각후원가측정금융자산의취득,-,제 15 기 반기,590911277145,,,38,KRW,,제 14 기 반기,787743629142,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 15 기 반기,4270762933176,,,39,KRW,,제 14 기 반기,2209222977935,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,연결대상범위의 변동,-,제 15 기 반기,0,,,40,KRW,,제 14 기 반기,435634975,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업의 처분,-,제 15 기 반기,0,,,41,KRW,,제 14 기 반기,2036707427,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,종속기업의 취득,-,제 15 기 반기,0,,,42,KRW,,제 14 기 반기,-11830979689,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,위험회피활동으로 인한 현금지급,-,제 15 기 반기,127707964538,,,43,KRW,,제 14 기 반기,48063559858,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities,위험회피활동으로 인한 현금유입,-,제 15 기 반기,78162908146,,,44,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 15 기 반기,380000000,,,45,KRW,,제 14 기 반기,985000000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업투자자산의 처분,-,제 15 기 반기,5258526684,,,46,KRW,,제 14 기 반기,3084008877,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 15 기 반기,860799366,,,47,KRW,,제 14 기 반기,2589840319,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 15 기 반기,18556684819,,,48,KRW,,제 14 기 반기,46492607435,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자자산의 취득,-,제 15 기 반기,46909147239,,,49,KRW,,제 14 기 반기,33159099689,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 15 기 반기,136729827,,,50,KRW,,제 14 기 반기,114511029,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 15 기 반기,11049648619,,,51,KRW,,제 14 기 반기,7907395492,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,제 15 기 반기,-2489105727485,,,53,KRW,,제 14 기 반기,2165348403257,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 15 기 반기,-3294499999543,,,54,KRW,,제 14 기 반기,1230246415976,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,-,제 15 기 반기,-2934222819845,,,55,KRW,,제 14 기 반기,1439329324546,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentForDecreaseIncreaseInLoansAtAmortisedCost,상각후원가측정대출채권의 감소(증가),-,제 15 기 반기,-429307994731,,,56,KRW,,제 14 기 반기,-2921637496924,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDerivativeAssets,파생상품자산의 감소(증가),-,제 15 기 반기,253826369418,,,57,KRW,,제 14 기 반기,79791963311,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDuefromBanks,예치금의 감소(증가),-,제 15 기 반기,166900151147,,,58,KRW,,제 14 기 반기,177467053177,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정 금융자산의 감소(증가),-,제 15 기 반기,-2778743465690,,,59,KRW,,제 14 기 반기,2108777030722,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치측정금융부채의 증가(감소),-,제 15 기 반기,978014848609,,,60,KRW,,제 14 기 반기,443563650336,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLossClassifiedAsOperatingActivities,당기손익-공정가치인식지정금융부채의 증가(감소),-,제 15 기 반기,-84766280507,,,61,KRW,,제 14 기 반기,-283874070154,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInInsuranceContractsIssuedThatAreLiabilities,보험계약부채의 증가(감소),-,제 15 기 반기,54779356485,,,62,KRW,,제 14 기 반기,36786830719,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInProvisions,충당부채의 증가(감소),-,제 15 기 반기,-1721882290,,,63,KRW,,제 14 기 반기,-41913780513,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_IncreaseInRepurchaseAgreements,환매조건부채권매도의 증가,-,제 15 기 반기,-77766553902,,,64,KRW,,제 14 기 반기,132636033245,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,재보험계약부채의 감소,-,제 15 기 반기,1307243997,,,65,KRW,,제 14 기 반기,4353831708,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타자산의 감소(증가),-,제 15 기 반기,-1936430393105,,,66,KRW,,제 14 기 반기,-521974891709,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers,예수부채의 증가(감소),-,제 15 기 반기,-639602749853,,,67,KRW,,제 14 기 반기,1503730188541,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInDerivativeFinancialLiabilities,파생상품부채의 증가(감소),-,제 15 기 반기,-246278240183,,,68,KRW,,제 14 기 반기,-90775841186,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInEmployeeBenefitLiabilities,순확정급여부채 증가(감소),-,제 15 기 반기,-1011143868,,,69,KRW,,제 14 기 반기,-8024367859,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타부채의 증가(감소),-,제 15 기 반기,1806577914628,,,70,KRW,,제 14 기 반기,820423191132,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,손익조정사항,-,제 15 기 반기,-678220679646,,,71,KRW,,제 14 기 반기,-352811279881,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForAdditionalAllowanceRecognisedInProfitOrLossAllowanceAccountForCreditLossesOfFinancialAssets,신용손실충당금 전입액,-,제 15 기 반기,153587568222,,,72,KRW,,제 14 기 반기,473587010777,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForExpenseOfProvisions,충당부채전입액,-,제 15 기 반기,881894170,,,73,KRW,,제 14 기 반기,2053472842,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForGainLossOnForeignExchangeTranslations,외화환산손익,-,제 15 기 반기,10621239548,,,74,KRW,,제 14 기 반기,-87052178778,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 15 기 반기,1115022671018,,,75,KRW,,제 14 기 반기,1246105862374,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForNonOperatingIncomeExpense,영업외손익,-,제 15 기 반기,161980427,,,76,KRW,,제 14 기 반기,-2628393222,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForOtherOperatingIncomeExpense,기타영업손익,-,제 15 기 반기,-703844363,,,77,KRW,,제 14 기 반기,-5552654341,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 15 기 반기,18364576198,,,78,KRW,,제 14 기 반기,16332500745,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_GainsLossesOnChangeInFairValueOfFinancialInstrumentsAtFairValueThroughProfitOrLoss,당기손익-공정가치측정금융상품평가손익,-,제 15 기 반기,-98758480665,,,79,KRW,,제 14 기 반기,-113685776087,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,dart_GainsLossesOnChangeInFairValueOfFinancialLiabilitiesDesignatedAtFairValueThroughProfitOrLoss,당기손익-공정가치인식지정금융부채평가손익,-,제 15 기 반기,1719036996,,,80,KRW,,제 14 기 반기,11025450514,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,보험손익,-,제 15 기 반기,-39911432786,,,81,KRW,,제 14 기 반기,-45722158331,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,보험금융손익,-,제 15 기 반기,-2503837760,,,82,KRW,,제 14 기 반기,99121894834,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산 관련손익,-,제 15 기 반기,-41827255442,,,83,KRW,,제 14 기 반기,-15599907257,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,-표준계정코드 미사용-,유무형자산기타순손익,-,제 15 기 반기,-689077423,,,84,KRW,,제 14 기 반기,-649074488,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationAndAmortisationExpense,감가상각비 및 무형자산상각비,-,제 15 기 반기,63978471631,,,85,KRW,,제 14 기 반기,69916474215,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익,-,제 15 기 반기,6864237278,,,86,KRW,,제 14 기 반기,14313637033,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForGainLossOnDisposalOfInvestmentsInSubsidiariesJointVenturesAndAssociates,지분법 관련손익,-,제 15 기 반기,-4174592424,,,87,KRW,,제 14 기 반기,-3776898561,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForGainsLossesOnChangeInFairValueOfDerivatives,파생상품평가손익,-,제 15 기 반기,-7408198768,,,88,KRW,,제 14 기 반기,82812321575,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용,-,제 15 기 반기,85713681422,,,89,KRW,,제 14 기 반기,44428694916,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 15 기 반기,1925430842369,,,90,KRW,,제 14 기 반기,2109214284575,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익,-,제 15 기 반기,159280087477,,,91,KRW,,제 14 기 반기,30774021465,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 15 기 반기,13080497176,,,92,KRW,,제 14 기 반기,15384787978,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),-,제 15 기 반기,-6058140528,,,93,KRW,,제 14 기 반기,9451544388,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,-,제 15 기 반기,1120406411426,,,94,KRW,,제 14 기 반기,1126091604687,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 15 기 반기,1906662045780,,,95,KRW,,제 14 기 반기,2055260348378,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 15 기 반기,-28960287614,,,97,KRW,,제 14 기 반기,26192430122,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),-,제 15 기 반기,1045921168549,,,98,KRW,,제 14 기 반기,237909559465,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 15 기 반기,6205753395658,,,3,KRW,,제 14 기 반기,6283554118124,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,214638578187,,,3,KRW,,제 14 기 반기,334783703205,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,5991114817471,,,3,KRW,,제 14 기 반기,5948770414919,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-594576285608,,,3,KRW,,제 14 기 반기,-341693536583,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,-20261392780,,,3,KRW,,제 14 기 반기,-20577892780,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,3384583277871,,,3,KRW,,제 14 기 반기,3289096622710,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,845729165000,,,3,KRW,,제 14 기 반기,845729165000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,1562506399988,,,3,KRW,,제 14 기 반기,1562451185572,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,813133653000,,,3,KRW,,제 14 기 반기,613764871000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,연결재무제표 [member],제 15 기 반기,82676516000,,,6,KRW,,제 14 기 반기,91516057600,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,82676516000,,,6,KRW,,제 14 기 반기,91516057600,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,82676516000,,,6,KRW,,제 14 기 반기,91516057600,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_AnnualDividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,6,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,435634975,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,435634975,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,7,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,연결재무제표 [member],제 15 기 반기,19932199996,,,8,KRW,,제 14 기 반기,17177199994,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,2364999997,,,8,KRW,,제 14 기 반기,4064999996,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,17567199999,,,8,KRW,,제 14 기 반기,13112199998,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,8,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,8,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,17567199999,,,8,KRW,,제 14 기 반기,13112199998,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,8,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,8,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_DividendToHybridBond,신종자본증권 이익분배금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,8,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,연결재무제표 [member],제 15 기 반기,99630502000,,,9,KRW,,제 14 기 반기,99650302000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,99630502000,,,9,KRW,,제 14 기 반기,99650302000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,99630502000,,,9,KRW,,제 14 기 반기,99650302000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_IssueOfHybridBond,신종자본증권발행,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,9,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,연결재무제표 [member],제 15 기 반기,100000000000,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,100000000000,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,99632480000,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_RepaymentOfHybridBond,신종자본증권상환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,367520000,,,10,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,연결재무제표 [member],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,-282520000,,,11,KRW,,제 14 기 반기,-599020000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,11,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,신종자본증권상환관련자본대체,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,282520000,,,11,KRW,,제 14 기 반기,599020000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,연결재무제표 [member],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,-19978862800,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_CancellationOfTreasuryShares,자기주식 소각,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,19978862800,,,12,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,연결재무제표 [member],제 15 기 반기,-39999986485,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-39999986485,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_PurchaseOfTreasuryShares,자기주식의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,-39999986485,,,13,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,연결재무제표 [member],제 15 기 반기,8847966,,,15,KRW,,제 14 기 반기,154845355,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,-937965152,,,15,KRW,,제 14 기 반기,454092335,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,946813118,,,15,KRW,,제 14 기 반기,-299246980,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,15,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,15,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,905206293,,,15,KRW,,제 14 기 반기,-299246980,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,15,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,41606825,,,15,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,기타,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,15,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,연결재무제표 [member],제 15 기 반기,17434119536,,,19,KRW,,제 14 기 반기,-79102028103,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,-18391302,,,19,KRW,,제 14 기 반기,20191362,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,17452510838,,,19,KRW,,제 14 기 반기,-79122219465,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,17452510838,,,19,KRW,,제 14 기 반기,-79122219465,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,19,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,19,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,19,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,19,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,19,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,연결재무제표 [member],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,725000000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,725000000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,725000000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,dart_OtherComprehensiveIncomeNetOfTaxDisposalOfFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산처분손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,20,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,연결재무제표 [member],제 15 기 반기,-375016119,,,21,KRW,,제 14 기 반기,364828114,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,1641328,,,21,KRW,,제 14 기 반기,1821495,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-376657447,,,21,KRW,,제 14 기 반기,363006619,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-376657447,,,21,KRW,,제 14 기 반기,363006619,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,기타포괄손익-공정가치측정 금융자산의 기대신용손실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,21,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,연결재무제표 [member],제 15 기 반기,-87572831994,,,22,KRW,,제 14 기 반기,-123235046884,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-87572831994,,,22,KRW,,제 14 기 반기,-123235046884,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-87572831994,,,22,KRW,,제 14 기 반기,-123235046884,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,-표준계정코드 미사용-,보험계약자산(부채)의 순금융손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,22,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,연결재무제표 [member],제 15 기 반기,-3360383178,,,23,KRW,,제 14 기 반기,729164711,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-697235463,,,23,KRW,,제 14 기 반기,354859317,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-697235463,,,23,KRW,,제 14 기 반기,354859317,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges,현금흐름위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,23,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,연결재무제표 [member],제 15 기 반기,-27884381629,,,24,KRW,,제 14 기 반기,19796068000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,-383273552,,,24,KRW,,제 14 기 반기,-25432683,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-28767351865,,,24,KRW,,제 14 기 반기,44591137966,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-28767351865,,,24,KRW,,제 14 기 반기,44591137966,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,24,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,24,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,24,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,24,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장 외화환산손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,24,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,연결재무제표 [member],제 15 기 반기,-98357060,,,25,KRW,,제 14 기 반기,-191887580,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,-23990924,,,25,KRW,,제 14 기 반기,-38777555,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,-198394342,,,25,KRW,,제 14 기 반기,-310995372,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-198394342,,,25,KRW,,제 14 기 반기,-310995372,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,25,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,25,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,25,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,25,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,25,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,연결재무제표 [member],제 15 기 반기,18737924309,,,26,KRW,,제 14 기 반기,-15142333005,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,20203762523,,,26,KRW,,제 14 기 반기,-34009466379,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,20203762523,,,26,KRW,,제 14 기 반기,-34009466379,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxHedgesOfNetInvestmentsInForeignOperations,해외사업장순투자위험회피평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,26,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 15 기 반기,159280087477,,,27,KRW,,제 14 기 반기,30774021465,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,8687921909,,,27,KRW,,제 14 기 반기,-6236582078,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,309255578039,,,27,KRW,,제 14 기 반기,149964953389,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,0,,,27,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,0,,,27,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,309255578039,,,27,KRW,,제 14 기 반기,149964953389,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,0,,,27,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,0,,,27,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,0,,,27,KRW,,제 14 기 반기,0,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 15 기 반기,6300347330891,,6205753395658,28,KRW,,제 14 기 반기,6228144092592,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 15 기 반기,219599520497,,,28,KRW,,제 14 기 반기,325329651060,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 15 기 반기,6080747810394,,,28,KRW,,제 14 기 반기,5902814441532,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누적액 [구성요소],제 15 기 반기,-674532483358,,,28,KRW,,제 14 기 반기,-533062260781,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|신종자본증권 [구성요소],제 15 기 반기,813131675000,,,28,KRW,,제 14 기 반기,713415173000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 15 기 반기,3574238963404,,,28,KRW,,제 14 기 반기,3334260051521,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 15 기 반기,845729165000,,,28,KRW,,제 14 기 반기,845729165000,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 15 기 반기,1562548006813,,,28,KRW,,제 14 기 반기,1562451185572,,139130,iM금융지주,CFS
+20250814003270,11012,2025,00878915,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본조정 [구성요소],제 15 기 반기,-40367516465,,,28,KRW,,제 14 기 반기,-19978872780,,139130,iM금융지주,CFS

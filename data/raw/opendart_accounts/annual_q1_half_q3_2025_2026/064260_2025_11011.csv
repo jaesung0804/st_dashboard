@@ -1,0 +1,226 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 29 기,741963126216,제 28 기,745592738056,제 27 기,769811473736,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 29 기,550748359647,제 28 기,528338229254,제 27 기,581226244928,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_CurrentDerivativeAsset,파생상품자산,-,제 29 기,22739166310,제 28 기,1669500000,제 27 기,152181780,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_ShortTermAdvancePayments,금융선급금,-,제 29 기,76549331154,제 28 기,70184713943,제 27 기,103880827498,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 29 기,68265026909,제 28 기,61238059781,제 27 기,81019607104,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-공정가치측정금융자산,-,제 29 기,42755765766,제 28 기,26621230542,제 27 기,35403192541,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentLoansAndReceivables,기타수취채권,-,제 29 기,275642130660,제 28 기,303282481476,제 27 기,289725988648,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 29 기,574727,제 28 기,21960890,제 27 기,74760114,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentTradeReceivables,매출채권,-,제 29 기,40508253153,제 28 기,41538041469,제 27 기,44676245160,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 29 기,264676933,제 28 기,433520164,제 27 기,4062456360,16,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 29 기,2193581528,제 28 기,5373330989,제 27 기,11371847205,17,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 29 기,21829852507,제 28 기,17975390000,제 27 기,10859138518,18,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 29 기,191214766569,제 28 기,217254508802,제 27 기,188585228808,19,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융자산,-,제 29 기,0,제 28 기,200000000,제 27 기,700000000,20,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 29 기,35394556267,제 28 기,37424074697,제 27 기,28264845485,21,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 29 기,39281562041,제 28 기,44461667156,제 27 기,48515095620,22,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,공동기업및관계기업투자,-,제 29 기,61739117448,제 28 기,72133631523,제 27 기,50855142076,23,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,당기손익-비유동공정가치금융자산,-,제 29 기,33610972220,제 28 기,35575417196,제 27 기,32155175410,24,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산,-,제 29 기,1688892210,제 28 기,1802196199,제 27 기,1758024215,25,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentLoansAndReceivables,장기기타수취채권,-,제 29 기,5427409348,제 28 기,7515671639,제 27 기,12772204946,26,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan,확정급여자산,-,제 29 기,240821237,제 28 기,2775239,제 27 기,425337374,27,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 29 기,332125882,제 28 기,670911095,제 27 기,665046494,28,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 29 기,8113857482,제 28 기,9483163081,제 27 기,4560607049,29,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_RightofuseAssets,사용권자산,-,제 29 기,5385452434,제 28 기,7985000977,제 27 기,7913750139,30,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 29 기,307585989379,제 28 기,310010645938,제 27 기,295492703966,32,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유지분,-,제 29 기,302784597372,제 28 기,297572430472,제 27 기,291419168658,33,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 29 기,50173216606,제 28 기,36614713395,제 27 기,37716737346,34,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 29 기,37535739500,제 28 기,34474520000,제 27 기,34474520000,35,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금,-,제 29 기,18648490641,제 28 기,82002169838,제 27 기,74746884073,36,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_SharePremium,주식발행초과금,-,제 29 기,196427150625,제 28 기,144481027239,제 27 기,144481027239,37,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 29 기,4801392007,제 28 기,12438215466,제 27 기,4073535308,38,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 29 기,741963126216,제 28 기,745592738056,제 27 기,769811473736,39,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 29 기,223050809576,제 28 기,417547982809,제 27 기,245361080086,41,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_CurrentDerivativeLiabilities,파생금융부채,-,제 29 기,32627362645,제 28 기,15013464443,제 27 기,18717915976,42,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,유동금융보증부채,-,제 29 기,125847125,제 28 기,83720550,제 27 기,0,43,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 29 기,2811466773,제 28 기,4543372808,제 27 기,4518904012,44,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentPortionOfLongtermBorrowings,유동성장기차입금,-,제 29 기,38871247326,제 28 기,233314319472,제 27 기,33709409629,45,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentProvisions,충당부채,-,제 29 기,328260008,제 28 기,1011058265,제 27 기,1683396601,46,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 29 기,153254797,제 28 기,561082844,제 27 기,9746767301,47,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타지급채무,-,제 29 기,52701829831,제 28 기,47201934013,제 27 기,66238914353,48,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 29 기,42925843561,제 28 기,47167294192,제 27 기,50064299695,49,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,-,제 29 기,29833977871,제 28 기,46152861796,제 27 기,40385328478,50,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers,매입채무,-,제 29 기,22671719639,제 28 기,22498874426,제 27 기,20296144041,51,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 29 기,434377136837,제 28 기,435582092118,제 27 기,474318769770,52,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 29 기,211326327261,제 28 기,18034109309,제 27 기,228957689684,53,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,dart_NonCurrentDerivativeLiabilities,파생금융부채,-,제 29 기,4436312697,제 28 기,3576643296,제 27 기,9033959156,54,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 29 기,9626084,제 28 기,14839884,제 27 기,71769613,55,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 29 기,201219646572,제 28 기,3683333335,제 27 기,205336767123,56,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,-,제 29 기,2581050502,제 28 기,5342662337,제 27 기,7899463585,57,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,-,제 29 기,111146244,제 28 기,470739340,제 27 기,797597962,58,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기기타지급채무,-,제 29 기,1466617801,제 28 기,2450495313,제 27 기,2913994207,59,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,퇴직급여부채,-,제 29 기,799051590,제 28 기,1766286812,제 27 기,2202031863,60,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동부채,-,제 29 기,702875771,제 28 기,729108992,제 27 기,702106175,61,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_BadDebtExpenses,대손상각비,-,제 29 기,14630080927,제 28 기,17730619731,제 27 기,19430693816,2,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_GainsOnSaleOfInvestmentsInAssociates,지분법적용투자주식처분이익,-,제 29 기,2198369027,제 28 기,36077833043,제 27 기,940973530,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_ImpairmentLossesOnAssociates,지분법적용투자주식손상차손,-,제 29 기,1830615514,제 28 기,7299549249,제 27 기,3196274908,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 29 기,10066730973,제 28 기,13746462066,제 27 기,10916366812,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_LossesOnSaleOfInvestmentsInAssociates,지분법적용투자주식처분손실,-,제 29 기,35440384,제 28 기,52240487,제 27 기,3238082983,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 29 기,2312158591,제 28 기,1393329346,제 27 기,3497746253,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_OtherGains,기타영업외수익,-,제 29 기,16683918939,제 28 기,15625126434,제 27 기,9678119443,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_OtherLosses,기타영업외비용,-,제 29 기,25611896432,제 28 기,25059984396,제 27 기,18130534884,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 29 기,62608701,제 28 기,143417539,제 27 기,158740691,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 29 기,-938,제 28 기,109,제 27 기,-417,16,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShare,보통주희석주당이익(손실),-,제 29 기,-938,제 28 기,109,제 27 기,-417,17,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_FinanceCosts,금융비용,-,제 29 기,75428476717,제 28 기,21849824134,제 27 기,18808556029,18,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 29 기,24366568792,제 28 기,9298980889,제 27 기,4944438332,19,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 29 기,1014916187,제 28 기,-8394270992,제 27 기,5544822922,20,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_OperatingExpense,영업비용,-,제 29 기,208434914703,제 28 기,241812684885,제 27 기,272539794038,21,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 29 기,-68364452157,제 28 기,2924897911,제 27 기,-40614620289,22,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 29 기,-4665730697,제 28 기,-4327993929,제 27 기,-12752526942,24,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 29 기,-63698721460,제 28 기,7252891840,제 27 기,-27862093347,25,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순손실,-,제 29 기,-67349535970,제 28 기,-5469373081,제 27 기,-35069797367,26,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,IS,손익계산서,ifrs-full_Revenue,영업수익,-,제 29 기,225377154221,제 28 기,260936633962,제 27 기,295468234107,27,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,포괄손익,-,제 29 기,-67909778338,제 28 기,2143948142,제 27 기,-41318276217,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 29 기,-4637125554,제 28 기,-4364180203,제 27 기,-12814900145,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의소유주에게귀속되는지분,-,제 29 기,-63272652784,제 28 기,6508128345,제 27 기,-28503376072,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 29 기,454673819,제 28 기,-780949769,제 27 기,-703655928,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로당기손익으로재분류되는포괄손익,-,제 29 기,-149786779,제 28 기,-87137076,제 27 기,115677872,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 29 기,-149786779,제 28 기,-87137076,제 27 기,115677872,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로당기손익으로재분류되지않는포괄손익,-,제 29 기,604460598,제 28 기,-693812693,제 27 기,-819333800,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,-,제 29 기,254352475,제 28 기,-202126811,제 27 기,68834151,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,-,제 29 기,321387292,제 28 기,-33052153,제 27 기,-811849009,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax,관계기업자본의변동에대한지분,-,제 29 기,28720831,제 28 기,-458633729,제 27 기,-76318942,16,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 29 기,-68364452157,제 28 기,2924897911,제 27 기,-40614620289,17,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 29 기,61238059781,제 28 기,81019607104,제 27 기,89990860312,2,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 29 기,68265026909,제 28 기,61238059781,제 27 기,81019607104,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 29 기,6989890066,제 28 기,20297143060,제 27 기,28101346483,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_DecreaseInNoncontrollingInterests,비지배지분의 감소,-,제 29 기,0,제 28 기,0,제 27 기,-2000015455,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 상환,-,제 29 기,4224466051,제 28 기,4786450929,제 27 기,5658106240,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromConsolidatedCapitalTransactions,연결자본거래로 인한 현금유입,-,제 29 기,0,제 28 기,0,제 27 기,10000000,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromConvertibleBonds,전환사채의 발행,-,제 29 기,0,제 28 기,34830274760,제 27 기,0,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromIssuingConvertibleBonds,전환상환우선주의발행,-,제 29 기,0,제 28 기,2999812560,제 27 기,3000004350,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 29 기,210000000000,제 28 기,9600000000,제 27 기,210000000000,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 29 기,413528503754,제 28 기,710450000000,제 27 기,890962100151,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_RepaymentsOfBondWithWarrant,신주인수권부사채의 상환,-,제 29 기,0,제 28 기,20405000000,제 27 기,4095000000,16,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_RepaymentsOfConvertibleBonds,전환사채의 상환,-,제 29 기,0,제 28 기,0,제 27 기,4872585447,17,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,유동성장기차입금의 감소,-,제 29 기,214733333332,제 28 기,13983333331,제 27 기,176782807155,18,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 29 기,410028503758,제 28 기,698150000000,제 27 기,894662100151,19,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,-표준계정코드 미사용-,리스채권의 증가,-,제 29 기,-29801613,제 28 기,0,제 27 기,0,20,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,-표준계정코드 미사용-,전환사채의 보통주 전환,-,제 29 기,40072356,제 28 기,0,제 27 기,0,21,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_ProceedsFromChangesInOwnershipInterestsInSubsidiaries,비지배지분으로 인한 현금의 증감,-,제 29 기,-2124390000,제 28 기,-258160000,제 27 기,200000000,22,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_ProceedsFromIssueOfPreferenceShares,전환우선주의발행,-,제 29 기,0,제 28 기,0,제 27 기,7999825520,23,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_ProceedsFromSaleOrIssueOfTreasuryShares,자기주식의 처분,-,제 29 기,14641953422,제 28 기,0,제 27 기,0,24,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 29 기,-14272292241,제 28 기,-23846066769,제 27 기,-41096012661,25,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable,금융리스채권의 감소(증가),-,제 29 기,695879394,제 28 기,1245971723,제 27 기,269204060,26,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_DecreaseInLoans,대여금의 회수,-,제 29 기,20628155687,제 28 기,26324608009,제 27 기,89672825041,27,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_IncreaseInLoans,대여금의 증가,-,제 29 기,21929000000,제 28 기,29840000000,제 27 기,86485236104,28,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정지분상품의 처분,-,제 29 기,453994112,제 28 기,0,제 27 기,0,29,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자 처분,-,제 29 기,0,제 28 기,0,제 27 기,130000000,30,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfLoansAndReceivables,기타수취채권 감소,-,제 29 기,0,제 28 기,931657964,제 27 기,0,31,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기기타수취채권 감소,-,제 29 기,2032121781,제 28 기,2193451500,제 27 기,1613486628,32,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산의 처분,-,제 29 기,38914378849,제 28 기,22180205677,제 27 기,10417322962,33,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfOtherNonCurrentFinancialAssets,기타비유동자산의 감소,-,제 29 기,363475691,제 28 기,1529370639,제 27 기,0,34,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품 감소,-,제 29 기,6220000000,제 28 기,15087849025,제 27 기,10713136712,35,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정지분상품의 취득,-,제 29 기,0,제 28 기,300028707,제 27 기,0,36,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자 취득,-,제 29 기,950009528,제 28 기,18650000000,제 27 기,26626400000,37,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfLoansAndReceivables,기타수취채권 증가,-,제 29 기,0,제 28 기,820000000,제 27 기,9267178,38,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기기타수취채권 증가,-,제 29 기,274061442,제 28 기,256865621,제 27 기,1205655937,39,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfNonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산의 취득,-,제 29 기,50499525414,제 28 기,5125100000,제 27 기,11705776583,40,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfOtherNonCurrentFinancialAssets,기타비유동자산의 증가,-,제 29 기,2918000,제 28 기,113523997,제 27 기,23541180,41,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품 증가,-,제 29 기,9874062364,제 28 기,21675390000,제 27 기,13849825520,42,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결범위변동으로인한현금흐름,-,제 29 기,0,제 28 기,1883464631,제 27 기,258531421,43,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산 처분,-,제 29 기,985527744,제 28 기,5982796620,제 27 기,6985034145,44,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산 처분,-,제 29 기,573733673,제 28 기,1481818,제 27 기,75670767,45,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산 취득,-,제 29 기,238217994,제 28 기,15433056954,제 27 기,20053011247,46,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산 취득,-,제 29 기,1371764430,제 28 기,5226029834,제 27 기,755447806,47,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 29 기,14288578704,제 28 기,-16290325687,제 27 기,4018780668,48,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업활동으로부터 창출된 현금흐름,-,제 29 기,25454120378,제 28 기,6827571192,제 27 기,12948827444,49,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 29 기,63340685,제 28 기,37779320,제 27 기,20368890,50,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세비용의 납부,-,제 29 기,1358764086,제 28 기,9925392698,제 27 기,2266621355,51,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,제 29 기,12197968787,제 28 기,15251691288,제 27 기,8814636122,52,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,제 29 기,2327850514,제 28 기,2021407787,제 27 기,2130841811,53,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 29 기,20790599,제 28 기,57702073,제 27 기,4632302,54,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,현금및현금성자산의 증감,-,제 29 기,7006176529,제 28 기,-19839249396,제 27 기,-8975885510,55,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,14205459070,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,연결재무제표 [member],제 29 기,14205459070,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,14205459070,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_DispositionOfTreasuryShares,자기주식의 처분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,3,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,34474520000,제 28 기,34474520000,제 27 기,34474520000,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,82002169838,제 28 기,74746884073,제 27 기,103433639178,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,36614713395,제 28 기,37716737346,제 27 기,38480783025,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,297572430472,제 28 기,291419168658,제 27 기,320869969442,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 29 기,12438215466,제 28 기,4073535308,제 27 기,11862215925,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 29 기,310010645938,제 28 기,295492703966,제 27 기,332732185367,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,144481027239,제 28 기,144481027239,제 27 기,144481027239,4,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,연결재무제표 [member],제 29 기,55007342886,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,55007342886,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,3061219500,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,-표준계정코드 미사용-,전환사채의 보통주 전환,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,51946123386,제 28 기,0,제 27 기,0,5,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 29 기,307585989379,제 28 기,310010645938,제 27 기,295492703966,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 29 기,4801392007,제 28 기,12438215466,제 27 기,4073535308,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,302784597372,제 28 기,297572430472,제 27 기,291419168658,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,50173216606,제 28 기,36614713395,제 27 기,37716737346,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,18648490641,제 28 기,82002169838,제 27 기,74746884073,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,37535739500,제 28 기,34474520000,제 27 기,34474520000,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,196427150625,제 28 기,144481027239,제 27 기,144481027239,6,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,-159511596,제 28 기,-87134302,제 27 기,115677872,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|비지배지분 [구성요소],제 29 기,9724817,제 28 기,-2774,제 27 기,0,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),연결재무제표 [member],제 29 기,-149786779,제 28 기,-87137076,제 27 기,115677872,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,-159511596,제 28 기,-87134302,제 27 기,115677872,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,7,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,-570684860,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,연결재무제표 [member],제 29 기,0,제 28 기,0,제 27 기,-570684860,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughAcquisitionOfSubsidiary,지배력의 취득,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,8,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,-727982272,제 28 기,-354866531,제 27 기,-947424712,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,-727982272,제 28 기,-354866531,제 27 기,-947424712,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|비지배지분 [구성요소],제 29 기,-2999697905,제 28 기,1304580538,제 27 기,2148856150,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,연결재무제표 [member],제 29 기,-3727680177,제 28 기,949714007,제 27 기,1201431438,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,지배력을 상실하지 않는 종속기업에 대한 소유지분 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,9,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,연결재무제표 [member],제 29 기,0,제 28 기,10969910802,제 27 기,3603708843,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,10969910802,제 27 기,3603708843,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughDisposalOfSubsidiary,지배력을 상실,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,10,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,연결재무제표 [member],제 29 기,0,제 28 기,454369021,제 27 기,-155660605,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,454369021,제 27 기,-155660605,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,11,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|비지배지분 [구성요소],제 29 기,0,제 28 기,0,제 27 기,-6924802,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,254352475,제 28 기,-202126811,제 27 기,75758953,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,254352475,제 28 기,-202126811,제 27 기,75758953,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치측정금융자산평가,연결재무제표 [member],제 29 기,254352475,제 28 기,-202126811,제 27 기,68834151,12,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,308716995,제 28 기,2393925,제 27 기,-756400608,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|비지배지분 [구성요소],제 29 기,12670297,제 28 기,-35446078,제 27 기,-55448401,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,연결재무제표 [member],제 29 기,321387292,제 28 기,-33052153,제 27 기,-811849009,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,308716995,제 28 기,2393925,제 27 기,-756400608,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,13,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,-63698721460,제 28 기,7252891840,제 27 기,-27862093347,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 29 기,-4665730697,제 28 기,-4327993929,제 27 기,-12752526942,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 29 기,-68364452157,제 28 기,2924897911,제 27 기,-40614620289,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,-63698721460,제 28 기,7252891840,제 27 기,-27862093347,14,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,연결재무제표 [member],제 29 기,28720831,제 28 기,-458633729,제 27 기,-76318942,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|비지배지분 [구성요소],제 29 기,6210029,제 28 기,-737422,제 27 기,0,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 29 기,22510802,제 28 기,-457896307,제 27 기,-76318942,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 29 기,36325268,제 28 기,0,제 27 기,-68261150,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 29 기,-13814466,제 28 기,-457896307,제 27 기,-8057792,15,KRW,,064260,다날,CFS
+20260319000938,11011,2025,00389970,SCE,자본변동표,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,관계기업 자본의 변동에 대한 지분,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 29 기,0,제 28 기,0,제 27 기,0,15,KRW,,064260,다날,CFS

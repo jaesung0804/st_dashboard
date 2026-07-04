@@ -1,0 +1,198 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 53 기,1333843317612,제 52 기,1243886833518,제 51 기,1281434663164,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 53 기,684662520372,제 52 기,661787573189,제 51 기,785301682619,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,-표준계정코드 미사용-,유동성장기금융상품,-,제 53 기,0,제 52 기,0,제 51 기,180000000,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 53 기,191369576856,제 52 기,137852397122,제 51 기,339217153150,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 53 기,28997274,제 52 기,523448500,제 51 기,631902468,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_Inventories,유동재고자산,-,제 53 기,324894896405,제 52 기,371716383687,제 51 기,292997091473,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 53 기,27807282667,제 52 기,18200333047,제 51 기,11527552659,13,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherCurrentFinancialAssets,기타유동금융자산,-,제 53 기,16980178467,제 52 기,17797939382,제 51 기,11831265519,14,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_CurrentDerivativeAsset,유동파생상품자산,-,제 53 기,2167036142,제 52 기,2234453141,제 51 기,34711894,15,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_CurrentFinancialAssetsHeldToMaturity,유동만기보유금융자산,-,제 53 기,5387978145,제 52 기,7263224400,제 51 기,1547136335,16,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,"유동 당기손익인식금융자산, 의무적으로 측정된 공정가치",-,제 53 기,9425164180,제 52 기,8300261841,제 51 기,10249417290,17,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 53 기,587499000,제 52 기,558977400,제 51 기,47272888661,18,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,-,제 53 기,122994089703,제 52 기,115138094051,제 51 기,81643828689,19,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 53 기,649180797240,제 52 기,582099260329,제 51 기,496132980545,20,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 53 기,2996784674,제 52 기,2497029674,제 51 기,2280183089,21,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 53 기,1279957,제 52 기,1496120,제 51 기,0,22,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 53 기,48734784825,제 52 기,50116316653,제 51 기,25803693071,23,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 53 기,84542650562,제 52 기,79395606887,제 51 기,75213936438,24,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_InvestmentsInSubsidiariesJointVenturesAndAssociates,"종속기업, 공동기업과 관계기업에 대한 투자자산",-,제 53 기,30394529447,제 52 기,16662925064,제 51 기,18944938718,25,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentTradeReceivables,비유동매출채권,-,제 53 기,5790777061,제 52 기,11946617418,제 51 기,10976268275,26,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherFinancialAssets,기타금융자산,-,제 53 기,3248189061,제 52 기,1667084711,제 51 기,1328404491,27,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 53 기,172085217,제 52 기,154127690,제 51 기,191862984,28,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,-,제 53 기,52589144300,제 52 기,41413997253,제 51 기,51723443433,29,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtAmortisedCost,상각후원가로 측정하는 비유동 금융자산,-,제 53 기,0,제 52 기,0,제 51 기,0,30,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue,"비유동 당기손익인식금융자산, 의무적으로 측정된 공정가치",-,제 53 기,49036597250,제 52 기,40603447253,제 51 기,50700398713,31,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 측정 비유동금융자산,-,제 53 기,3552547050,제 52 기,810550000,제 51 기,1023044720,32,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 53 기,420710572136,제 52 기,378244058859,제 51 기,309670250046,33,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 53 기,670338559572,제 52 기,649918058490,제 51 기,635311689343,35,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 53 기,670337385920,제 52 기,415461491994,제 51 기,409358833666,36,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,-,제 53 기,3084300518,제 52 기,1687297607,제 51 기,454419673,37,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_AdditionalPaidinCapital,기타불입자본,-,제 53 기,221235770621,제 52 기,13577384329,제 51 기,13741359579,38,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 53 기,32685484000,제 52 기,5000000000,제 51 기,5000000000,39,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),-,제 53 기,413331830781,제 52 기,395196810058,제 51 기,390163054414,40,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 53 기,1173652,제 52 기,234456566496,제 51 기,225952855677,41,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,-,제 53 기,1333843317612,제 52 기,1243886833518,제 51 기,1281434663164,42,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 53 기,632273203258,제 52 기,549745054833,제 51 기,620072266274,44,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,유동 파생상품 금융부채,-,제 53 기,17153729745,제 52 기,7475104982,제 51 기,751690408,45,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,-,제 53 기,1717806268,제 52 기,1723104828,제 51 기,3568365520,46,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 53 기,2830793833,제 52 기,15779123017,제 51 기,1215507389,47,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,-,제 53 기,0,제 52 기,30558334,제 51 기,30558334,48,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 53 기,75122512929,제 52 기,107917217702,제 51 기,66463904366,49,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,-,제 53 기,535448360483,제 52 기,416819945970,제 51 기,548042240257,50,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_ShortTermTradePayables,단기매입채무,-,제 53 기,63472591409,제 52 기,62173919162,제 51 기,57090762970,51,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,-,제 53 기,1790713650,제 52 기,1279607783,제 51 기,1079303579,52,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings,유동성 기타 차입금(사채 제외),-,제 53 기,13000000000,제 52 기,3000000000,제 51 기,3000000000,53,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_ShorttermBorrowings,유동 차입금(사채 포함),-,제 53 기,457185055424,제 52 기,350366419025,제 51 기,486872173708,54,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 53 기,663504758040,제 52 기,593968775028,제 51 기,646122973821,55,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 53 기,31231554782,제 52 기,44223720195,제 51 기,26050707547,56,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,dart_LongTermTradeAndOtherNonCurrentPayables,장기매입채무 및 기타비유동채무,-,제 53 기,3996972377,제 52 기,20234992539,제 51 기,4445839897,57,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_AccrualsClassifiedAsNoncurrent,비유동으로 분류되는 미지급비용,-,제 53 기,96569463,제 52 기,74197716,제 51 기,74366601,58,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_LongtermBorrowings,비유동차입금(사채 포함)의 비유동성 부분,-,제 53 기,0,제 52 기,18000000000,제 51 기,3000000000,59,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 53 기,3900402914,제 52 기,2160794823,제 51 기,1371473296,60,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,-표준계정코드 미사용-,기타비유동부채,-,제 53 기,2473209571,제 52 기,1471810799,제 51 기,0,61,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 53 기,18790303589,제 52 기,17418618667,제 51 기,17537568156,62,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentDerivativeFinancialLiabilities,비유동 파생상품 금융부채,-,제 53 기,0,제 52 기,162612640,제 51 기,0,63,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,비유동 순확정급여부채,-,제 53 기,403314611,제 52 기,106150964,제 51 기,59582294,64,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,BS,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,-,제 53 기,5567754634,제 52 기,4829534586,제 51 기,4007717200,65,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_LossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 53 기,498028909,제 52 기,94569683,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),-,제 53 기,45956315730,제 52 기,19581576578,제 51 기,22650809715,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_OtherGains,기타이익,-,제 53 기,815765260,제 52 기,22771760062,제 51 기,1202803444,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_OtherLosses,기타손실,-,제 53 기,3600474853,제 52 기,7105204562,제 51 기,35047851418,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_ProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 53 기,78355700,제 52 기,648471898,제 51 기,1545119068,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 53 기,78766520921,제 52 기,61084828366,제 51 기,52377418121,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,-,제 53 기,23729078734,제 52 기,20006241647,제 51 기,-18977758533,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",-,제 53 기,2062546716,제 52 기,10339608069,제 51 기,-2453204699,14,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",-,제 53 기,21666532018,제 52 기,9666633578,제 51 기,-16524553834,15,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_CostOfSales,매출원가,-,제 53 기,1054318037966,제 52 기,735375914002,제 51 기,565783353437,16,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),-,제 53 기,381,제 52 기,8458,제 51 기,-16741,18,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 53 기,69994592778,제 52 기,52951077640,제 51 기,46006382542,19,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 53 기,54461241611,제 52 기,44957347745,제 51 기,33423054353,20,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 53 기,124722836651,제 52 기,80666404944,제 51 기,75028227836,21,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),-,제 53 기,4865337420,제 52 기,9250507329,제 51 기,-2965309548,22,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 53 기,1375834393,제 52 기,1448444578,제 51 기,289379299,23,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),-,제 53 기,1070831891,제 52 기,1413181406,제 51 기,179714001,24,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업장환산외환차이(세후기타포괄손익),-,제 53 기,-80445701,제 52 기,1601985765,제 51 기,179714001,25,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax,지분법 적용대상 관계기업과 공동기업의 기타포괄손익에 대한 지분(세후기타포괄손익),-,제 53 기,1151277592,제 52 기,-188804359,제 51 기,0,26,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),-,제 53 기,305002502,제 52 기,35263172,제 51 기,109665298,27,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,"세후기타포괄손익, 지분상품에 대한 투자자산",-,제 53 기,388057800,제 52 기,76705446,제 51 기,122005946,28,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,"세후기타포괄손익, 확정급여제도의 재측정손익",-,제 53 기,-83055298,제 52 기,-41442274,제 51 기,-12340648,29,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),-,제 53 기,22353244341,제 52 기,18557797069,제 51 기,-19267137832,30,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),-,제 53 기,1768310960,제 52 기,10100101725,제 51 기,-2526095873,32,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),-,제 53 기,20584933381,제 52 기,8457695344,제 51 기,-16741041959,33,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),-,제 53 기,27218581761,제 52 기,27808304398,제 51 기,-22232447380,34,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CIS,포괄손익계산서,ifrs-full_Revenue,수익(매출액),-,제 53 기,1179040874617,제 52 기,816042318946,제 51 기,640811581273,35,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 53 기,137852397122,제 52 기,339217153150,제 51 기,225880470604,2,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 53 기,191369576856,제 52 기,137852397122,제 51 기,339217153150,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 53 기,83139011675,제 52 기,-148608833868,제 51 기,43378312821,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_AcquisitionOfTreasuryShares,자기주식의 취득으로 인한 현금의 유출,-,제 53 기,4202231631,제 52 기,0,제 51 기,0,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,-,제 53 기,82109370,제 52 기,4529600,제 51 기,0,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromFinanceLeaseLiabilitiesClassifiedAsFinancingActivities,금융리스부채의 증가,-,제 53 기,-2594044461,제 52 기,-1350131488,제 51 기,-897777759,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 증가,-,제 53 기,0,제 52 기,15000000000,제 51 기,0,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,-,제 53 기,1057359863636,제 52 기,957118461368,제 51 기,1010356134642,13,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 53 기,3714285714,제 52 기,3000000000,제 51 기,3000000000,14,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 53 기,955628435788,제 52 기,1110972761651,제 51 기,956238112261,15,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 53 기,7999744997,제 52 기,5399872497,제 51 기,6841931801,16,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 53 기,-77539409857,제 52 기,-51321342460,제 51 기,8516269455,17,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermFinancialInstruments,장기금융상품의 처분,-,제 53 기,0,제 52 기,985630000,제 51 기,0,18,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금및수취채권의 처분,-,제 53 기,1245310179,제 52 기,8277269836,제 51 기,28062651437,19,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentFairValueFinancialAsset,비유동당기손익인식금융자산의 처분,-,제 53 기,5133360832,제 52 기,29544692963,제 51 기,5620055100,20,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfOtherCurrentFinancialAssets,기타유동금융자산의 처분,-,제 53 기,1134123631,제 52 기,465002025,제 51 기,577650481,21,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 처분,-,제 53 기,18580000,제 52 기,52540163980,제 51 기,148870770793,22,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금및수취채권의 처분,-,제 53 기,2262932743,제 52 기,64999200,제 51 기,64570332000,23,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfInvestmentsInSubsidiaries,종속기업에 대한 투자자산의 취득,-,제 53 기,-974766530,제 52 기,80210981154,제 51 기,0,24,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 취득,-,제 53 기,523600000,제 52 기,580420000,제 51 기,140000000,25,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금및수취채권의 취득,-,제 53 기,451848791,제 52 기,11562660143,제 51 기,29445399583,26,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfNonCurrentFairValueFinancialAsset,비유동당기손익인식금융자산의 취득,-,제 53 기,10435500000,제 52 기,12903660000,제 51 기,23727971610,27,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfOtherCurrentFinancialAssets,기타유동금융자산의 취득,-,제 53 기,1737061385,제 52 기,328067440,제 51 기,539282563,28,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 취득,-,제 53 기,23256600,제 52 기,6216309400,제 51 기,155353583761,29,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금및수취채권의 취득,-,제 53 기,1556315455,제 52 기,4597486527,제 51 기,9105342951,30,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,-표준계정코드 미사용-,기타금융부채의 감소,-,제 53 기,0,제 52 기,0,제 51 기,-200000000,31,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities,다른 기업의 지분상품이나 채무상품의 처분에 따른 기타현금유입,-,제 53 기,-2154584250,제 52 기,309467470,제 51 기,667467940,32,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities,정부보조금의 수취,-,제 53 기,117508383,제 52 기,0,제 51 기,216757880,33,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 53 기,0,제 52 기,125000000,제 51 기,197060000,34,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInterestsInAssociates,관계기업투자자산의 처분,-,제 53 기,0,제 52 기,22586064001,제 51 기,25000000,35,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 53 기,-13529398237,제 52 기,0,제 51 기,0,36,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 53 기,3729257043,제 52 기,126800000,제 51 기,141020076,37,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 53 기,852132600,제 52 기,158977000,제 51 기,1823204110,38,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_PurchaseOfInterestsInAssociates,관계기업투자자산의 취득,-,제 53 기,13000000000,제 52 기,6888200000,제 51 기,0,39,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 53 기,47891551880,제 52 기,42899670271,제 51 기,20097711674,40,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 53 기,48449676634,제 52 기,-2376405229,제 51 기,61530535781,41,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperations,영업에서 창출된 현금흐름,-,제 53 기,72283630219,제 52 기,7405062173,제 51 기,81758893775,42,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취(영업),-,제 53 기,4043656923,제 52 기,1870190492,제 51 기,2177812703,43,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 53 기,16059955390,제 52 기,1124395947,제 51 기,11931794104,44,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),-,제 53 기,17825913234,제 52 기,18960014396,제 51 기,20816256067,45,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 53 기,6008258116,제 52 기,8432752449,제 51 기,10341879474,46,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,-,제 53 기,-532098718,제 52 기,941825529,제 51 기,-88435511,47,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges,환율변동효과 반영전 현금및현금성자산의 순증가(감소),-,제 53 기,54049278452,제 52 기,-202306581557,제 51 기,113425118057,48,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,연결재무제표 [member],제 53 기,407508349,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 53 기,407508349,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,3,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,5000000000,제 52 기,5000000000,제 51 기,5000000000,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,395196810058,제 52 기,390163054414,제 51 기,409916437021,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,1687297607,제 52 기,454419673,제 51 기,225590900,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,415461491994,제 52 기,409358833666,제 51 기,428867776540,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 53 기,234456566496,제 52 기,225952855677,제 51 기,232405805376,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 53 기,649918058490,제 52 기,635311689343,제 51 기,661273581916,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,13577384329,제 52 기,13741359579,제 51 기,13725748619,4,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,연결재무제표 [member],제 53 기,-82109370,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|비지배지분 [구성요소],제 53 기,-238907998775,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,238825889405,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,265491616,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,27685484000,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_IncreaseDecreaseThroughBusinessCombinations,사업결합,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,210874913789,제 52 기,0,제 51 기,0,5,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,연결재무제표 [member],제 53 기,0,제 52 기,0,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|비지배지분 [구성요소],제 53 기,0,제 52 기,163975250,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,0,제 52 기,-163975250,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_OtherTransactions,기타거래,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,0,제 52 기,-163975250,제 51 기,0,6,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,-1616527497,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|비지배지분 [구성요소],제 53 기,5982295866,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,연결재무제표 [member],제 53 기,4365768369,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,-1616527497,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,dart_TreasuryShareTransactions,자기주식 거래로 인한 증감,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,7,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,4000000000,제 52 기,3400000000,제 51 기,3000000000,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,4000000000,제 52 기,3400000000,제 51 기,3000000000,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|비지배지분 [구성요소],제 53 기,3999745000,제 52 기,1999872500,제 51 기,3999745000,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,연결재무제표 [member],제 53 기,7999745000,제 52 기,5399872500,제 51 기,6999745000,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_DividendsPaid,소유주에 대한 배분으로 인식된 배당금,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,8,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,32685484000,제 52 기,5000000000,제 51 기,5000000000,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,413331830781,제 52 기,395196810058,제 51 기,390163054414,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,3084300518,제 52 기,1687297607,제 51 기,454419673,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,670337385920,제 52 기,415461491994,제 51 기,409358833666,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 53 기,1173652,제 52 기,234456566496,제 51 기,225952855677,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 53 기,670338559572,제 52 기,649918058490,제 51 기,635311689343,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,221235770621,제 52 기,13577384329,제 51 기,13741359579,9,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",연결재무제표 [member],제 53 기,0,제 52 기,0,제 51 기,15610960,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|비지배지분 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,0,제 52 기,0,제 51 기,15610960,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,1600000000,제 52 기,0,제 51 기,0,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_IncreaseDecreaseThroughTransfersAndOtherChangesEquity,"기타변동에 따른 증가(감소), 자본",자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,-1600000000,제 52 기,0,제 51 기,15610960,10,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,연결재무제표 [member],제 53 기,1375834393,제 52 기,1448444578,제 51 기,289379299,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|비지배지분 [구성요소],제 53 기,294235756,제 52 기,239506344,제 51 기,72891174,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,1081598637,제 52 기,1208938234,제 51 기,216488125,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,-49912658,제 52 기,-23939700,제 51 기,-12340648,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,1131511295,제 52 기,1232877934,제 51 기,228828773,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_OtherComprehensiveIncome,기타포괄손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,11,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|비지배지분 [구성요소],제 53 기,1768310960,제 52 기,10100101725,제 51 기,-2526095873,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 53 기,20584933381,제 52 기,8457695344,제 51 기,-16741041959,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 53 기,20584933381,제 52 기,8457695344,제 51 기,-16741041959,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|추가납입자본 [구성요소],제 53 기,0,제 52 기,0,제 51 기,0,12,KRW,,009160,SIMPAC,CFS
+20260318001274,11011,2025,00138260,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),연결재무제표 [member],제 53 기,22353244341,제 52 기,18557797069,제 51 기,-19267137832,12,KRW,,009160,SIMPAC,CFS

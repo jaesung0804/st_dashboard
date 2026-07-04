@@ -1,0 +1,266 @@
+﻿rcept_no,reprt_code,bsns_year,corp_code,sj_div,sj_nm,account_id,account_nm,account_detail,thstrm_nm,thstrm_amount,frmtrm_nm,frmtrm_amount,bfefrmtrm_nm,bfefrmtrm_amount,ord,currency,thstrm_add_amount,ticker,corp_name,fs_div
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_Assets,자산총계,-,제 59 기,2212986466557,제 58 기,2317873586367,제 57 기,2468946950023,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentAssets,유동자산,-,제 59 기,1218875475720,제 58 기,1445741750171,제 57 기,1689917140286,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_ShortTermDueFromCustomersForContractWorkNet,미청구공사,-,제 59 기,52451028634,제 58 기,72494788996,제 57 기,81577390592,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,-,제 59 기,219330769796,제 58 기,213744186429,제 57 기,236275233225,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentAccruedIncomeOtherThanCurrentContractAssets,미수수익,-,제 59 기,5423167247,제 58 기,3448901424,제 57 기,7437531715,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 금융자산,-,제 59 기,300000000,제 58 기,300000000,제 57 기,540000000,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,-,제 59 기,2173500260,제 58 기,3039751541,제 57 기,1739737968,13,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_Inventories,재고자산,-,제 59 기,350621896412,제 58 기,490616305533,제 57 기,690875959644,14,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners,매각예정자산,-,제 59 기,40174897063,제 58 기,74550013701,제 57 기,76789509786,15,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,-,제 59 기,60517607470,제 58 기,59214132759,제 57 기,202190311812,16,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents,단기금융상품,-,제 59 기,55758028205,제 58 기,52611043400,제 57 기,69169293650,17,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타채권,-,제 59 기,432124580633,제 58 기,475722626388,제 57 기,323322171894,18,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,-,제 59 기,994110990837,제 58 기,872131836196,제 57 기,779029809737,19,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_LongTermDepositsNotClassifiedAsCashEquivalents,장기금융상품,-,제 59 기,1011000000,제 58 기,11000000,제 57 기,11000000,20,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_DeferredTaxAssets,이연법인세자산,-,제 59 기,2655402406,제 58 기,11159583614,제 57 기,9139756861,21,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_IntangibleAssetsAndGoodwill,무형자산,-,제 59 기,3630710577,제 58 기,3440851063,제 57 기,3586656865,22,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_InvestmentAccountedForUsingEquityMethod,관계기업투자주식,-,제 59 기,48826608403,제 58 기,22509851785,제 57 기,22623149851,23,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_InvestmentProperty,투자부동산,-,제 59 기,509585575973,제 58 기,458643450639,제 57 기,395215686990,24,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_InvestmentsInJointVenturesAccountedForUsingEquityMethod,공동기업투자주식,-,제 59 기,13038536068,제 58 기,,제 57 기,,25,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss,당기손익-공정가치 금융자산,-,제 59 기,99075004768,제 58 기,93858481748,제 57 기,95871732788,26,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치 금융자산,-,제 59 기,1758768127,제 58 기,1184700427,제 57 기,2264371887,27,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentReceivables,매출채권 및 기타채권,-,제 59 기,149153721503,제 58 기,120693031265,제 57 기,98529282376,28,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,-,제 59 기,288212067,제 58 기,2838721656,제 57 기,430831103,29,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,-,제 59 기,160807355768,제 58 기,152861285873,제 57 기,145023774407,30,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_RightofuseAssets,리스자산,-,제 59 기,4280095177,제 58 기,4930878126,제 57 기,6333566609,31,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_Equity,자본총계,-,제 59 기,841468880850,제 58 기,781317369985,제 57 기,752933021934,33,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,-,제 59 기,836752549446,제 58 기,773784376199,제 57 기,764372405082,34,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_CapitalSurplus,연결자본잉여금,-,제 59 기,27881583903,제 58 기,27881583903,제 57 기,27881583903,35,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_OtherCapitalAdjustments,연결자본조정,-,제 59 기,-233616201,제 58 기,-233616201,제 57 기,-233616201,36,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,연결기타포괄손익누계액,-,제 59 기,89856135439,제 58 기,84400814247,제 57 기,76533874687,37,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_IssuedCapital,자본금,-,제 59 기,57871370000,제 58 기,57871370000,제 57 기,57871370000,38,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_RetainedEarnings,연결이익잉여금,-,제 59 기,661377076305,제 58 기,603864224250,제 57 기,602319192693,39,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,-,제 59 기,4716331404,제 58 기,7532993786,제 57 기,-11439383148,40,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_EquityAndLiabilities,부채와자본총계,-,제 59 기,2212986466557,제 58 기,2317873586367,제 57 기,2468946950023,41,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentLiabilities,유동부채,-,제 59 기,862795488358,제 58 기,1094799963674,제 57 기,1129792659898,43,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_CurrentFinancialGuaranteeLiabilities,금융보증부채,-,제 59 기,2875777909,제 58 기,2783213042,제 57 기,4225172117,44,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_CurrentProvisionForConstructionLosses,공사손실충당부채,-,제 59 기,6920576339,제 58 기,22186174409,제 57 기,36178243260,45,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_CurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 59 기,11634953000,제 58 기,8878632400,제 57 기,8035180096,46,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_ShortTermDueToCustomersForContractWork,초과청구공사,-,제 59 기,62222876220,제 58 기,90059613828,제 57 기,69683800873,47,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentDerivativeFinancialLiabilities,파생상품금융부채,-,제 59 기,998000000,제 58 기,,제 57 기,,48,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentLeaseLiabilities,리스부채,-,제 59 기,2659931057,제 58 기,2682689591,제 57 기,3812839166,49,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_CurrentTaxLiabilities,당기법인세부채,-,제 59 기,9356668,제 58 기,23892000,제 57 기,433813485,50,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale,매각예정부채,-,제 59 기,35639703770,제 58 기,37189216090,제 57 기,16433952082,51,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,-,제 59 기,33544293418,제 58 기,22811064941,제 57 기,10342429204,52,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_ShorttermBorrowings,차입금,-,제 59 기,375958826124,제 58 기,456221115636,제 57 기,634650623641,53,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_ShorttermLegalProceedingsProvision,소송손실충당부채,-,제 59 기,977022598,제 58 기,13134018124,제 57 기,4169458317,54,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무및기타채무,-,제 59 기,329354171255,제 58 기,438830333613,제 57 기,341827147657,55,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_Liabilities,부채총계,-,제 59 기,1371517585707,제 58 기,1536556216382,제 57 기,1716013928089,56,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,-,제 59 기,508722097349,제 58 기,441756252708,제 57 기,586221268191,57,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,dart_NonCurrentProvisionsForConstructionWarranties,하자보수충당부채,-,제 59 기,38307603317,제 58 기,45681262499,제 57 기,47044754201,58,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_DeferredTaxLiabilities,이연법인세부채,-,제 59 기,22450730409,제 58 기,9971225654,제 57 기,2600596858,59,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_LongtermBorrowings,장기차입금,-,제 59 기,364709366491,제 58 기,324995313042,제 57 기,478372715053,60,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,비유동 리스부채,-,제 59 기,1477337469,제 58 기,1794819082,제 57 기,1083286100,61,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentPayables,매입채무및기타채무,-,제 59 기,28005231911,제 58 기,8975812496,제 57 기,12630618547,62,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentProvisionsForEmployeeBenefits,장기종업원급여부채,-,제 59 기,1227010272,제 58 기,655223069,제 57 기,498722546,63,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,BS,재무상태표,ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan,순확정급여부채,-,제 59 기,52544817480,제 58 기,49682596866,제 57 기,43990574886,64,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,dart_OperatingIncomeLoss,영업이익,-,제 59 기,64521039255,제 58 기,37254849485,제 57 기,14755273986,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,dart_OtherGains,기타수익,-,제 59 기,38018928552,제 58 기,40809066832,제 57 기,52044310474,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,dart_OtherLosses,기타비용,-,제 59 기,16999184366,제 58 기,31306815970,제 57 기,17136168095,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,-,제 59 기,98643695916,제 58 기,112701405535,제 57 기,74411147473,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_CostOfSales,매출원가,-,제 59 기,986026473272,제 58 기,1340491314201,제 57 기,1219842101555,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익,-,제 59 기,5174,제 58 기,593,제 57 기,2757,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익,-,제 59 기,5174,제 58 기,593,제 57 기,2757,13,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_FinanceCosts,금융원가,-,제 59 기,88986615672,제 58 기,63909358480,제 57 기,61428344673,14,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_FinanceIncome,금융수익,-,제 59 기,55257204717,제 58 기,41725249041,제 57 기,33619055413,15,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_GrossProfit,매출총이익,-,제 59 기,163164735171,제 58 기,149956255020,제 57 기,89166421459,16,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세 수익(비용),-,제 59 기,-19302275340,제 58 기,-8296077397,제 57 기,4096033971,17,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,57864389832,제 58 기,14764860230,제 57 기,23668931441,18,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,-,제 59 기,-2002791731,제 58 기,7903986456,제 57 기,-8229228445,20,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 59 기,59867181563,제 58 기,6860873774,제 57 기,31898159886,21,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,-,제 59 기,77166665172,제 58 기,23060937627,제 57 기,19572897470,22,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_Revenue,영업수익,-,제 59 기,1149191208443,제 58 기,1490447569221,제 57 기,1309008523014,23,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,IS,손익계산서,ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익(손실),-,제 59 기,25355292686,제 58 기,-1512053281,제 57 기,-2281229635,24,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄이익,-,제 59 기,61936340385,제 58 기,19429081014,제 57 기,33176537025,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,비지배지분,-,제 59 기,-2189385162,제 58 기,8747459396,제 57 기,-8142127348,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,지배기업의 소유주지분,-,제 59 기,64125725547,제 58 기,10681621618,제 57 기,41318664373,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,-,제 59 기,4071950553,제 58 기,4664220784,제 57 기,9507605584,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되는 포괄손익,-,제 59 기,319637046,제 58 기,2335227862,제 57 기,632795430,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익(기타포괄손익),-,제 59 기,319637046,제 58 기,2335227862,제 57 기,632795430,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,후속적으로 당기손익으로 재분류되지 않는 포괄손익,-,제 59 기,3752313507,제 58 기,2328992922,제 57 기,8874810154,13,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesFromInvestmentsInEquityInstruments,기타포괄손익-공정가치금융자산 평가손익,-,제 59 기,454791205,제 58 기,-830267352,제 57 기,156773477,14,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,-,제 59 기,-1373642096,제 58 기,-4106874234,제 57 기,-3362963361,15,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,-,제 59 기,4671164398,제 58 기,7266134508,제 57 기,12081000038,16,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CIS,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,57864389832,제 58 기,14764860230,제 57 기,23668931441,17,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,-,제 59 기,213744186429,제 58 기,236275233225,제 57 기,371294014021,2,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,-,제 59 기,219330769796,제 58 기,213744186429,제 57 기,236275233225,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,-,제 59 기,36179155536,제 58 기,-145643796176,제 57 기,-7831792171,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_DecreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 감소,-,제 59 기,4944606000,제 58 기,3319000000,제 57 기,61000000,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,-,제 59 기,24427000000,제 58 기,606500000,제 57 기,738918000,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromBonds,사채의 발행,-,제 59 기,140967994545,제 58 기,108868359876,제 57 기,88620763247,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromLongTermBorrowings,장기차입금의 차입,-,제 59 기,142000000000,제 58 기,320525944700,제 57 기,293438024336,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 차입,-,제 59 기,231103206558,제 58 기,680302410102,제 57 기,238647771503,13,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_RepaymentsOfBonds,사채의 상환,-,제 59 기,105000000000,제 58 기,195000000000,제 57 기,107000000000,14,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_RepaymentsOfLongTermBorrowings,장기차입금의 상환,-,제 59 기,48277014366,제 58 기,360562844991,제 57 기,36960000000,15,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,-,제 59 기,286933434086,제 58 기,624223941571,제 57 기,424917621770,16,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_DividendsPaidClassifiedAsFinancingActivities,배당금지급,-,제 59 기,1157552300,제 58 기,1157552300,제 57 기,3472335500,17,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_InterestPaidClassifiedAsFinancingActivities,이자지급,-,제 59 기,52201155536,제 58 기,65119774536,제 57 기,50402368514,18,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities,리스부채의 감소,-,제 59 기,3805283279,제 58 기,6563897456,제 57 기,6463943473,19,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,-,제 59 기,-51136363759,제 58 기,-16872775640,제 57 기,-12502107373,20,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_DecreaseInGuaranteeDeposits,장기보증금의 감소,-,제 59 기,3839439182,제 58 기,6791549893,제 57 기,35918059328,21,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_IncreaseInGuaranteeDeposits,장기보증금의 증가,-,제 59 기,17638952754,제 58 기,22311182966,제 57 기,25304126254,22,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfFairValueFinancialAsset,당기손익-공정가치 금융자산의 처분,-,제 59 기,14380028681,제 58 기,10125663564,제 57 기,1862231753,23,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfInvestmentsInAssociates,관계기업투자주식의 처분,-,제 59 기,1036900000,제 58 기,4614601033,제 57 기,7696538656,24,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfLongTermLoansAndReceivables,장기대여금의 감소,-,제 59 기,225961922,제 58 기,,제 57 기,38251202276,27,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale,매각예정처분자산집단의 감소(증가),-,제 59 기,-840152325,제 58 기,1400377314,제 57 기,,28,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermFinancialInstruments,단기금융상품의 감소,-,제 59 기,857556572836,제 58 기,1535619064442,제 57 기,982050561454,29,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ProceedsFromSalesOfShortTermLoansAndReceivables,단기대여금의 감소,-,제 59 기,27343770983,제 58 기,40653514448,제 57 기,46819771652,30,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익-공정가치금융자산의취득,-,제 59 기,3175602750,제 58 기,7608215000,제 57 기,4688325000,31,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치측정금융자산의취득,-,제 59 기,,제 58 기,,제 57 기,96048603,32,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfInvestmentsInAssociates,관계기업투자주식의 취득,-,제 59 기,,제 58 기,1710000000,제 57 기,10667000000,33,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfLongTermFinancialInstruments,장기금융상품의 증가,-,제 59 기,1000000000,제 58 기,,제 57 기,-5068011112,35,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfLongTermLoansAndReceivables,장기대여금의 증가,-,제 59 기,7243761600,제 58 기,164373665,제 57 기,20341562960,36,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfShortTermFinancialInstruments,단기금융상품의 증가,-,제 59 기,875103557641,제 58 기,1519060814192,제 57 기,991041393927,37,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_PurchaseOfShortTermLoansAndReceivables,단기대여금의 증가,-,제 59 기,27125484364,제 58 기,22360949166,제 57 기,83501384707,38,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결대상범위의 변동으로 인한 현금 유입,-,제 59 기,,제 58 기,,제 57 기,4756437271,39,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities,연결대상범위의 변동으로 인한 현금 유출,-,제 59 기,20685662469,제 58 기,-5947931769,제 57 기,,40,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 처분,-,제 59 기,,제 58 기,141570000,제 57 기,,41,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfInvestmentProperty,투자부동산의 처분,-,제 59 기,,제 58 기,24910234332,제 57 기,2314018780,42,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 처분,-,제 59 기,294411263,제 58 기,141051639,제 57 기,100174187,43,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,-,제 59 기,336370771,제 58 기,84692272,제 57 기,32640248,44,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_PurchaseOfInvestmentProperty,투자부동산의 취득,-,제 59 기,1221135277,제 58 기,72921144109,제 57 기,6945098,45,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,-,제 59 기,1442768675,제 58 기,996962704,제 57 기,1659687045,46,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,제 59 기,22386315459,제 58 기,134556510554,제 57 기,-112183166279,47,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,운전자본조정,-,제 59 기,-76337896127,제 58 기,70855475726,제 57 기,-181609343142,48,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInDueFromCustomersForContractWork,미청구공사,-,제 59 기,21721820502,제 58 기,7856654538,제 57 기,16569520904,49,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForDecreaseIncreaseInLoans,대출채권,-,제 59 기,-295139726,제 58 기,-8801108169,제 57 기,3212233148,50,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInFairValueOfPlanAssets,퇴직연금운용자산,-,제 59 기,-770935665,제 58 기,-3323794679,제 57 기,6076755144,51,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentFinancialAssets,기타비유동자산,-,제 59 기,127525479,제 58 기,-2579158151,제 57 기,-128498044,52,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInConstructionLossesProvision,공사손실충당부채,-,제 59 기,,제 58 기,193531388,제 57 기,,53,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInDueToCustomersForContractWork,초과청구공사,-,제 59 기,-29063142434,제 58 기,14554481669,제 57 기,-64361698529,54,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInOtherLongtermEmployeeBenefitLiabilities,장기종업원급여의 지급,-,제 59 기,-111565200,제 58 기,-53236600,제 57 기,-62500000,55,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForIncreaseDecreaseInProvisionsForConstructionWarranties,하자보수충당부채,-,제 59 기,-8718858480,제 58 기,-6684206140,제 57 기,-7099456073,56,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForIncreasedecreaseInLegalProceedingsProvision,소송충당부채,-,제 59 기,-19254496410,제 58 기,5283897754,제 57 기,1972123995,57,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_CashOutflowForSeverancePay,퇴직금의지급,-,제 59 기,6800852475,제 58 기,10062196440,제 57 기,13000293060,58,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInInventories,재고자산,-,제 59 기,20120402739,제 58 기,17012848579,제 57 기,-37002348771,59,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets,기타채권,-,제 59 기,3507148452,제 58 기,-828445520,제 57 기,-5108203461,60,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets,기타유동자산,-,제 59 기,-13623592703,제 58 기,82372877897,제 57 기,-55500891003,61,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable,매출채권,-,제 59 기,33354875833,제 58 기,-297200102060,제 57 기,-56354583678,62,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities,기타유동부채,-,제 59 기,11839064168,제 58 기,11791758921,제 57 기,-3476583490,63,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities,기타채무,-,제 59 기,45095374916,제 58 기,205770177754,제 57 기,-50783077879,64,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable,매입채무,-,제 59 기,-133465525123,제 58 기,55551494985,제 57 기,83438157655,65,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,현금유출입이 없는 수익ㆍ비용의 조정,-,제 59 기,32235771369,제 58 기,42223080097,제 57 기,34385289089,66,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForBadDebtExpenses,대손상각비,-,제 59 기,3907058887,제 58 기,4332585729,제 57 기,382844306,67,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분이익 조정,-,제 59 기,10414000000,제 58 기,1080540748,제 57 기,,68,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainOnDispositionOfTangibleAssets,유형자산처분이익,-,제 59 기,234646545,제 58 기,3227108,제 57 기,20603968,69,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainOnForeignExchangeTranslations,외화환산이익,-,제 59 기,1215699005,제 58 기,5123276605,제 57 기,713541631,70,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets,무형자산처분이익,-,제 59 기,,제 58 기,1570000,제 57 기,,71,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치 금융자산 평가이익,-,제 59 기,2495788020,제 58 기,1643268960,제 57 기,2102668320,72,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForGainsOnEvaluationOfInvestmentProperty,투자부동산평가이익,-,제 59 기,22365074750,제 58 기,21595126767,제 57 기,35057811530,73,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfIntangibleAssets,무형자산손상차손,-,제 59 기,7270152,제 58 기,7270152,제 57 기,21954692,74,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForImpairmentLossesOfInvestmentAssets,투자부동산손상차손,-,제 59 기,,제 58 기,,제 57 기,760000000,75,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForInterestExpenses,이자비용,-,제 59 기,48814343462,제 58 기,49405266053,제 57 기,44181879937,76,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossOnDisposalOfInvestmentsInAssociates,관계기업투자자산처분손실,-,제 59 기,,제 58 기,,제 57 기,2612936802,77,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossOnDisposalOfInvestmentsInSubsidiaries,종속기업투자자산처분손실,-,제 59 기,463550000,제 58 기,,제 57 기,,78,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법손실,-,제 59 기,9718045930,제 58 기,1607820133,제 57 기,2305587690,79,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnChangeInFairValueOfDerivatives,파생상품평가손실 조정,-,제 59 기,998000000,제 58 기,,제 57 기,,80,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnDisposalsOfInvestmentProperty,투자부동산처분손실,-,제 59 기,,제 58 기,3058029178,제 57 기,1043725220,81,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment,유형자산처분손실,-,제 59 기,45939944,제 58 기,46335760,제 57 기,668246,82,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfFairValueFinancialAssets,당기손익-공정가치 금융자산 평가손실,-,제 59 기,,제 58 기,162150000,제 57 기,234600000,83,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnEvaluationOfInvestmentProperty,투자부동산평가손실,-,제 59 기,11326787477,제 58 기,4505282577,제 57 기,5262623991,84,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnForeignExchangeTranslations,외화환산손실,-,제 59 기,2931781533,제 58 기,1017496655,제 57 기,509437758,85,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForLossesOnRevaluationOfPropertyPlantAndEquipment,유형자산평가손실,-,제 59 기,,제 58 기,,제 57 기,183754451,86,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForOtherLongtermEmployeeBenefits,장기종업원급여,-,제 59 기,683352403,제 58 기,209737123,제 57 기,131744471,87,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForProfitsOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,지분법이익,-,제 59 기,35073338616,제 58 기,95766852,제 57 기,24358055,88,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForProvisionForSeveranceIndemnities,퇴직급여,-,제 59 기,8643747939,제 58 기,13753420365,제 57 기,8286184156,89,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_AdjustmentsForReversalOfImpairmentLossOfInvestmentProperty,투자부동산손상차손환입 조정,-,제 59 기,400000000,제 58 기,,제 57 기,,90,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ExpenseOfLegalProceedingsProvision,소송손실충당부채전입액,-,제 59 기,7097500884,제 58 기,3911630419,제 57 기,2197334322,91,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ExpenseOfProvisionForConstructionLosses,공사손실충당부채전입액,-,제 59 기,215706527,제 58 기,16646435120,제 57 기,21703870613,92,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ExpenseOfProvisionForConstructionWarranty,하자보수충당부채전입액,-,제 59 기,5665308832,제 58 기,8766415408,제 57 기,8442011076,93,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_GainsFromFinancialGuaranteeFinancialIncome,보증계약수익,-,제 59 기,1398495273,제 58 기,122427006,제 57 기,1563593945,94,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_GainsOnSaleOfInvestmentsInSubsidiaries,종속기업투자주식처분이익,-,제 59 기,19480403068,제 58 기,20718440980,제 57 기,8723423217,95,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ImpairmentLossOfFinancialAssetsAtAmortisedCost,금융자산손상차손,-,제 59 기,31822707174,제 58 기,11981796722,제 57 기,13523831620,96,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_LossesFromFinancialGuaranteeFinanceExpense,보증계약비용,-,제 59 기,1530196920,제 58 기,1495105442,제 57 기,1578755782,97,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_LossesOnDisposalOfFairValueFinancialAsset,당기손익공정가치금융자산처분손실,-,제 59 기,74459069,제 58 기,946921436,제 57 기,316224818,98,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ReversalOfImpairmentLossOfFinancialAssetsAtAmortisedCost,금융자산손상차손환입,-,제 59 기,10928045915,제 58 기,1989094860,제 57 기,11828640554,99,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ReversalsOfLegalProceedingsProvision,소송손실충당부채환입액,-,제 59 기,,제 58 기,230968366,제 57 기,243843577,100,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ReversalsOfPropertyPlantAndEquipment,유형자산손상차손환입,-,제 59 기,27800824,제 58 기,,제 57 기,,101,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ReversalsOfProvisionsForConstructionLosses,공사손실충당부채환입액,-,제 59 기,10481304597,제 58 기,30832035359,제 57 기,12283701549,102,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,dart_ReversalsOfProvisionsForConstructionWarranty,하자보수충당부채환입액,-,제 59 기,1310090182,제 58 기,2450392570,제 57 기,2688534159,103,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForAmortisationExpense,무형자산상각비,-,제 59 기,139241105,제 58 기,83227922,제 57 기,1566303343,104,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDepreciationExpense,감가상각비,-,제 59 기,4857541174,제 58 기,8693720614,제 57 기,8705622621,105,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForDividendIncome,배당수익,-,제 59 기,400481600,제 58 기,2510978299,제 57 기,1015505300,106,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForIncomeTaxExpense,법인세비용(수익),-,제 59 기,19302275340,제 58 기,8296077397,제 57 기,-4096033971,107,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_AdjustmentsForInterestIncome,이자수익,-,제 59 기,9783874988,제 58 기,8306529628,제 57 기,9204347050,108,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_DividendsReceivedClassifiedAsOperatingActivities,배당금수취,-,제 59 기,400481600,제 58 기,2510978299,제 57 기,1015505300,109,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),-,제 59 기,472091059,제 58 기,4845293139,제 57 기,-4715178319,110,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,제 59 기,8695659844,제 58 기,9047409341,제 57 기,5641272714,111,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_ProfitLoss,당기순이익,-,제 59 기,57864389832,제 58 기,14764860230,제 57 기,23668931441,112,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,환율변동차이,-,제 59 기,-1842523869,제 58 기,5429014466,제 57 기,13675423,113,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의 증가(감소),-,제 59 기,7429107236,제 58 기,-27960061262,제 57 기,-132517065823,114,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,CF,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalentsDiscontinuedOperations,매각예정자산에 포함된 현금및현금성자산,-,제 59 기,,제 58 기,,제 57 기,-2515390396,115,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,,제 58 기,-112098201,제 57 기,-3010804437,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,-1689900,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,,제 58 기,,제 57 기,0,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-627277220,제 58 기,10224917538,제 57 기,-500000200,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,연결재무제표 [member],제 59 기,-627277220,제 58 기,10112819337,제 57 기,-3510804637,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,,제 58 기,-112098201,제 57 기,-3009114537,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_ChangesInConsolidatedCompanies,연결범위의 변동,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,3,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,773784376199,제 58 기,764372405082,제 57 기,729536880646,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|비지배지분 [구성요소],제 59 기,7532993786,제 58 기,-11439383148,제 57 기,-2797255600,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,연결재무제표 [member],제 59 기,781317369985,제 58 기,752933021934,제 57 기,726739625046,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,-233616201,제 58 기,-233616201,제 57 기,-231926301,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,27881583903,제 58 기,27881583903,제 57 기,27881583903,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,57871370000,제 58 기,57871370000,제 57 기,57871370000,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,603864224250,제 58 기,602319192693,제 57 기,580258263701,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,84400814247,제 58 기,76533874687,제 57 기,63757589343,4,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,연결재무제표 [member],제 59 기,61936340385,제 58 기,19429081014,제 57 기,33176537025,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-2189385162,제 58 기,8747459396,제 57 기,-8142127348,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,64125725547,제 58 기,10681621618,제 57 기,41318664373,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,58670404355,제 58 기,2814682058,제 57 기,28542379029,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,5455321192,제 58 기,7866939560,제 57 기,12776285344,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ComprehensiveIncome,총포괄이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,5,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,1157552300,제 58 기,1157552300,제 57 기,3472335500,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,,제 58 기,,제 57 기,0,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,1157552300,제 58 기,1157552300,제 57 기,3472335500,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,연결재무제표 [member],제 59 기,1157552300,제 58 기,1157552300,제 57 기,3472335500,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_DividendsPaid,연차배당,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,6,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,89856135439,제 58 기,84400814247,제 57 기,76533874687,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,-233616201,제 58 기,-233616201,제 57 기,-233616201,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,836752549446,제 58 기,773784376199,제 57 기,764372405082,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|비지배지분 [구성요소],제 59 기,4716331404,제 58 기,7532993786,제 57 기,-11439383148,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,연결재무제표 [member],제 59 기,841468880850,제 58 기,781317369985,제 57 기,752933021934,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,661377076305,제 58 기,603864224250,제 57 기,602319192693,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,57871370000,제 58 기,57871370000,제 57 기,57871370000,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_Equity,자본총계,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,27881583903,제 58 기,27881583903,제 57 기,27881583903,7,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,506230477,제 58 기,1491754922,제 57 기,545694333,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,506230477,제 58 기,1491754922,제 57 기,545694333,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-186593431,제 58 기,843472940,제 57 기,87101097,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,연결재무제표 [member],제 59 기,319637046,제 58 기,2335227862,제 57 기,632795430,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation,해외사업장외화환산차이,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,8,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,454791205,제 58 기,-830267352,제 57 기,156773477,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,454791205,제 58 기,-830267352,제 57 기,156773477,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome,기타포괄손익-공정가치금융자산 평가손익,연결재무제표 [member],제 59 기,454791205,제 58 기,-830267352,제 57 기,156773477,9,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,-1373642096,제 58 기,-4106874234,제 57 기,-3362963361,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,,제 58 기,,제 57 기,0,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,-1373642096,제 58 기,-4106874234,제 57 기,-3362963361,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,순확정급여부채의 재측정 요소,연결재무제표 [member],제 59 기,-1373642096,제 58 기,-4106874234,제 57 기,-3362963361,10,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,연결재무제표 [member],제 59 기,4671164398,제 58 기,7266134508,제 57 기,12081000038,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,4671164398,제 58 기,7266134508,제 57 기,12081000038,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,4494299510,제 58 기,7205451990,제 57 기,12073817534,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation,유형자산의 재평가이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,176864888,제 58 기,60682518,제 57 기,7182504,11,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,연결재무제표 [member],제 59 기,57864389832,제 58 기,14764860230,제 57 기,23668931441,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|비지배지분 [구성요소],제 59 기,-2002791731,제 58 기,7903986456,제 57 기,-8229228445,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소],제 59 기,59867181563,제 58 기,6860873774,제 57 기,31898159886,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본잉여금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타포괄손익누계액 [구성요소],제 59 기,,제 58 기,,제 57 기,0,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|이익잉여금 [구성요소],제 59 기,59867181563,제 58 기,6860873774,제 57 기,31898159886,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|자본금 [구성요소],제 59 기,,제 58 기,,제 57 기,0,12,KRW,,004960,한신공영,CFS
+20260319000721,11011,2025,00162063,SCE,자본변동표,ifrs-full_ProfitLoss,당기순이익,자본 [구성요소]|지배기업의 소유주에게 귀속되는 지분 [구성요소]|기타자본구성요소 [구성요소],제 59 기,,제 58 기,,제 57 기,0,12,KRW,,004960,한신공영,CFS
