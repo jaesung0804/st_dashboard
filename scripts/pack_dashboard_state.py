@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import shutil
 from pathlib import Path
@@ -82,6 +83,13 @@ def main() -> None:
         remove(path)
     state_dir.mkdir(parents=True, exist_ok=True)
     parts_dir.mkdir(parents=True, exist_ok=True)
+    # These are byte chunks, not standalone text files. Keep this rule in the
+    # state repository itself; the app checkout's attributes do not apply here.
+    attributes_path = state_dir / ".gitattributes"
+    attributes = attributes_path.read_text(encoding="utf-8") if attributes_path.exists() else ""
+    rule = ".parts/** -text"
+    if rule not in attributes.splitlines():
+        attributes_path.write_text(attributes.rstrip("\n") + "\n" + rule + "\n", encoding="utf-8")
 
     manifest: dict[str, dict[str, object]] = {}
     for source in iter_files(args.paths):
@@ -90,7 +98,9 @@ def main() -> None:
         size = source.stat().st_size
         if size > args.part_size:
             parts = split_file(source, parts_dir, rel, args.part_size)
-            manifest[rel] = {"type": "split", "size": size, "parts": parts}
+            with source.open("rb") as handle:
+                digest = hashlib.file_digest(handle, "sha256").hexdigest()
+            manifest[rel] = {"type": "split", "size": size, "parts": parts, "sha256": digest}
             if target.exists():
                 target.unlink()
         else:
