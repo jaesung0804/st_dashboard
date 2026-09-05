@@ -148,6 +148,10 @@ class DashboardStateTests(unittest.TestCase):
 
     def test_new_pack_survives_git_on_windows_and_linux(self) -> None:
         expected = b"A\r\nB\r\nC\r\nD\r\n"
+        model_rel = "data/dashboard_ews/us/model.json"
+        model = self.target / model_rel
+        model.parent.mkdir(parents=True)
+        model.write_bytes(b"{}\r\n")  # Small, unsplit, checksum-sensitive text.
         source = self.target / self.rel
         source.parent.mkdir(parents=True)
         source.write_bytes(expected)
@@ -157,10 +161,10 @@ class DashboardStateTests(unittest.TestCase):
         for _ in range(2):
             result = self.script(
                 "pack_dashboard_state.py", "--state-dir", str(self.state),
-                "--part-size", "5", "--paths", self.rel,
+                "--part-size", "5", "--paths", self.rel, model_rel,
             )
             self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(attributes.read_text(), "*.json text eol=lf\n.parts/** -text\n")
+        self.assertEqual(attributes.read_text(), "*.json text eol=lf\n.parts/** -text\ndata/dashboard_ews/** -text\n")
         manifest = json.loads((self.state / "state-manifest.json").read_text())
         self.assertEqual(manifest[self.rel]["sha256"], hashlib.sha256(expected).hexdigest())
         self.commit_state()
@@ -174,6 +178,7 @@ class DashboardStateTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertNotIn("Repaired", result.stdout)
             self.assertEqual(source.read_bytes(), expected)
+            self.assertEqual(model.read_bytes(), b"{}\r\n")
 
 
 if __name__ == "__main__":

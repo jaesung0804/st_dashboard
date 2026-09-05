@@ -1,20 +1,17 @@
 # ai_stock_assistant
 
-Korean stock early-warning research project for KOSPI/KOSDAQ.
+한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
 
-The current operating model is a **walk-forward** workflow:
+- `Monthly Training`이 이전 달까지의 자료로 상승 기회·급락 위험 모델을 저장합니다. 같은 월의 재실행은 이미 저장된 모델을 유지합니다.
+- `Daily Refresh`는 저장된 모델로 새 신호일만 추론합니다. 이전 예측은 다시 계산하거나 덮어쓰지 않습니다.
+- 가격·거래량·시장 폭을 쓰는 작은 LightGBM과 로지스틱 회귀를 결합합니다. 날짜가 확실하지 않은 재무·거시 자료는 운영 입력에서 제외합니다.
+- 상태 저장에 성공한 뒤 정적 HTML/JSON만 GitHub Pages에 공개합니다.
 
-1. Build features from adjusted OHLCV and OpenDART financial statements.
-2. Train separate LGBM models for:
-   - upside warning: future 6-month return top 5% by date
-   - downside warning: future 6-month return bottom 5% by date
-3. For each signal date, train only on labels that would already be known.
-4. Select candidates from upside top 5%, then exclude all non-GREEN downside-risk names.
-5. Show the result in a local dashboard.
+설계, 사건 정의, 한계, 재현 및 복구 절차는 [월별 조기경보 운영 문서](docs/monthly-ews.md)를 참고하세요. [개발 검증 기록](docs/validation/summary.md)에는 시간 순서를 분리한 한국·미국 점검 결과를 공개합니다. 과거 검증은 미래 성과를 보장하지 않습니다.
 
-Do not interpret this as investment advice. Model performance still needs ongoing walk-forward validation before real-money use.
+운영 환경은 `requirements-live.txt`를 사용합니다. 아래의 재무 수집·walk-forward 명령은 기존 연구용 경로이며 일 배치와 분리되어 있습니다.
 
-## Setup
+## Research setup
 
 ```powershell
 python -m venv .venv
@@ -75,9 +72,9 @@ The workflow runs on a schedule and can also be started manually from the Action
 https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml
 ```
 
-The GitHub-hosted runner restores the `dashboard-state` branch, refreshes the selected market (`all`, `kr`, or `us`), optionally refreshes financial statements, rebuilds recent walk-forward scores, deploys `gh-pages`, and writes the updated state back to `dashboard-state`.
+The runner restores `dashboard-state`, preserves published history, refreshes prices for the selected market (`all`, `kr`, or `us`), and infers only new signal dates with frozen monthly models. It persists state **before** publishing `gh-pages`. Training runs separately in `monthly-training.yml`. Both workflows share a concurrency group.
 
-For Korean financial statement refreshes, add `OPENDART_API_KEY` as a repository secret. Without it, the workflow keeps the existing Korean financial state and still refreshes prices.
+The production model uses causal price features; existing financial files are retained but are not refreshed by the daily production workflow. OpenDART secrets remain relevant only to the research collection commands.
 
 Build the lightweight Pages bundle locally:
 

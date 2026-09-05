@@ -114,6 +114,8 @@ def load_us_exchange_map() -> dict[str, str]:
 
 def normalized_row(row: dict, label: str, exchange_map: dict[str, str]) -> dict:
     out = dict(row)
+    if out.get("modelVersion"):
+        return out  # The live ledger already contains the signal-date metadata.
     ticker = str(out.get("ticker", "")).upper()
     if label == "미국":
         out.setdefault("currency", "USD")
@@ -188,6 +190,20 @@ def home_html() -> str:
 </main>{theme_toggle_script()}</body></html>"""
 
 
+def forecast_ui_script() -> str:
+    return r"""
+function ewsEvidence(r){
+ const e=r.evidence||{};
+ return '<div class="wrap">1개월 수익률 '+esc(e.return20)+'%<br>3개월 상대강도 '+esc(e.relative60)+'%p<br>연율 변동성 '+esc(e.volatility20)+'%<br>200일선 위 종목 '+esc(e.breadth200)+'%<br><small>위험 추정 범위 '+(r.riskEstimateRange||[]).map(esc).join('–')+'% (보정 전후, 신뢰구간 아님)<br>트리 위험 기여: '+(r.riskFactors||[]).map(f=>esc(f.label)+' ('+esc(f.direction)+')').join(', ')+'</small></div>';
+}
+function ewsRecord(r){
+ if(!r.modelVersion)return '<div class="wrap">기존 모델 기록<br><small>순위 점수 · 모델 버전 미기록</small></div>';
+ const kind=r.predictionKind==='research'?'연구용 재현':r.predictionKind==='delayed'?'지연 생성':'실제 기록';
+ return '<div class="wrap">'+esc(r.modelMonth)+' 모델 · '+kind+'<br><small>학습 자료 ~'+esc(r.trainingCutoff)+'<br>생성 '+esc(r.generatedAt)+'<br>확률은 추정치이며 두 사건이 함께 발생할 수 있습니다.</small></div>';
+}
+"""
+
+
 def dashboard_html(label: str, subtitle: str, other_href: str, other_label: str) -> str:
     action_url = ACTION_URLS["kr"] if label == "한국" else ACTION_URLS["us"]
     return f"""<!doctype html>
@@ -202,18 +218,19 @@ html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d11
 <header><h1>{label} 조기경보 대시보드</h1><div class="sub">{subtitle}. 최근 공개 신호일을 보여줍니다.</div>
 <nav><a href="../index.html?v={BUILD_VERSION}">홈</a><a href="dashboard.html?v={BUILD_VERSION}">{label}</a><a href="{other_href}?v={BUILD_VERSION}">{other_label}</a><a href="{action_url}">최신화 실행 (market 선택)</a><button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button></nav></header>
 <main>
-<div class="stats"><div class="stat"><small>최신 신호일</small><b id="latest">-</b></div><div class="stat"><small>최종 후보</small><b id="finalCount">-</b></div><div class="stat"><small>상승 후보</small><b id="upCount">-</b></div><div class="stat"><small>전체 종목</small><b id="rowCount">-</b></div></div>
-<section class="panel guide"><b>해석 가이드</b><br>상승점수는 같은 날짜 종목 중 6개월 상승 확률이 높은 순위 점수이고, 하락위험은 6개월 하락 확률이 높은 순위 점수입니다. 등급은 상위 5% RED, 5-15% ORANGE, 15-35% YELLOW, 나머지 GREEN으로 나뉩니다. 최종 후보는 상승 상위 5%이면서 하락위험이 GREEN인 종목입니다. 대표점수는 모델 입력 특성을 묶어 백분위로 요약한 해석 보조 지표이며, 색이 진할수록 해당 묶음의 강도가 큽니다.</section>
+<div class="stats"><div class="stat"><small>최신 신호일</small><b id="latest">-</b></div><div class="stat"><small>관심 후보</small><b id="finalCount">-</b></div><div class="stat"><small>상승 후보</small><b id="upCount">-</b></div><div class="stat"><small>전체 종목</small><b id="rowCount">-</b></div></div>
+<section class="panel guide"><b>월 학습 · 일 추론</b><br>새 모델은 월 1회 고정하며 이미 기록한 예측은 바꾸지 않습니다. 상승은 126거래일 후 +20% 이상 및 시장 중간값 대비 +10%p 이상 오를 확률, 하락은 63거래일 이내 종가가 -20%에 도달할 확률(%)입니다. 새 모델 등급은 35% 이상 RED, 20% 이상 ORANGE, 10% 이상 YELLOW입니다. 관심 후보는 상승 20% 이상·하락 추정범위 상단 15% 미만이며 매수 지시가 아닙니다. 과거 기록은 당시 순위 점수를 유지하며 새 확률과 직접 비교할 수 없습니다. 신호는 종가 관측 후 생성됩니다.</section>
 <section class="panel">
-<div class="controls"><label>신호일<select id="date"></select></label><label>보기<select id="mode"><option value="final">최종 후보</option><option value="up">상승 후보</option><option value="down">하락 RED</option><option value="all">전체 종목</option></select></label><label>검색<input id="query" placeholder="티커 또는 종목명"></label><label>정렬<select id="sort"><option value="upScore">상승점수</option><option value="downRisk">하락위험</option><option value="growth_profit">성장/수익</option><option value="cash_quality">현금흐름</option><option value="valuation">밸류</option><option value="price_volume">가격/거래</option><option value="risk_overheat">위험/과열</option><option value="ticker">티커</option><option value="name">종목명</option><option value="closeRaw">종가</option></select></label><label>페이지당 행<input id="pageSize" type="number" min="10" max="200" value="10"></label></div>
+<div class="controls"><label>신호일<select id="date"></select></label><label>보기<select id="mode"><option value="final">관심 후보</option><option value="up">상승 후보</option><option value="down">하락 RED</option><option value="all">전체 종목</option></select></label><label>검색<input id="query" placeholder="티커 또는 종목명"></label><label>정렬<select id="sort"><option value="upScore">상승점수</option><option value="downRisk">하락위험</option><option value="ticker">티커</option><option value="name">종목명</option><option value="closeRaw">종가</option></select></label><label>페이지당 행<input id="pageSize" type="number" min="10" max="200" value="10"></label></div>
 <div class="tabs"><button id="dir" type="button">내림차순</button></div>
 <div class="meta" id="meta"></div><div class="scroll" id="table"></div>
 <div class="pager"><button id="prev" type="button">이전</button><span id="pageInfo"></span><button id="next" type="button">다음</button></div>
 </section></main>
 <script>
+{forecast_ui_script()}
 let manifest={{}}, rows=[], filtered=[], page=1, asc=false;
 const $=id=>document.getElementById(id);
-const labels=['#','티커','종목명','섹터','대표분류','종가','상승','상승등급','하락','하락등급','대표점수','예상 6개월'];
+const labels=['#','티커','종목명','섹터','대표분류','종가','상승','상승등급','하락','하락등급','관측 근거','예측 기록'];
 const scoreLabels=[['growth_profit','성장'],['cash_quality','현금'],['valuation','밸류'],['price_volume','가격'],['risk_overheat','위험']];
 const suffix={{NASDAQ:'.O',NYSE:'.N',NYSEAMERICAN:'.A',NYSEARCA:'.P'}};
 function esc(v){{return String(v??'').replace(/[&<>"']/g,ch=>({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[ch]));}}
@@ -221,12 +238,12 @@ function num(v){{const n=parseFloat(String(v??'').replace(/[$,원%]/g,'').split(
 function naver(r){{const t=String(r.ticker||''); if(String(r.currency||'').toUpperCase()==='USD') return `https://m.stock.naver.com/worldstock/stock/${{encodeURIComponent(t+(suffix[String(r.exchange||'').toUpperCase()]||'.O'))}}/total`; return `https://m.stock.naver.com/domestic/stock/${{encodeURIComponent(t.padStart(6,'0'))}}/total`;}}
 function ret(v){{const n=num(v);const cls=Number.isNaN(n)?'':n<0?'neg':'pos';return `<span class="${{cls}}">${{esc(v||'-')}}</span>`;}}
 function heat(v,key){{const raw=num(v);const good=key==='risk_overheat'?100-raw:raw;const n=Math.max(0,Math.min(100,Number.isNaN(good)?50:good));if(n>=75)return 'background:var(--heat-high-bg);color:var(--heat-high-ink);border-color:var(--heat-high-line)';if(n>=55)return 'background:var(--heat-mid-bg);color:var(--heat-mid-ink);border-color:var(--heat-mid-line)';if(n>=35)return 'background:var(--heat-low-bg);color:var(--heat-low-ink);border-color:var(--heat-low-line)';return 'background:var(--heat-risk-bg);color:var(--heat-risk-ink);border-color:var(--heat-risk-line)';}}
-function scoreBlock(r){{return '<div class="score-grid">'+scoreLabels.map(([key,label])=>`<div class="score" style="${{heat(r[key],key)}}"><small>${{label}}</small><b>${{esc(r[key]??'-')}}</b></div>`).join('')+'</div>';}}
+function scoreBlock(r){{if(r.modelVersion)return ewsEvidence(r);return '<div class="score-grid">'+scoreLabels.map(([key,label])=>`<div class="score" style="${{heat(r[key],key)}}"><small>${{label}}</small><b>${{esc(r[key]??'-')}}</b></div>`).join('')+'</div>';}}
 function price(r){{const text=String(r.close||'-'); if(text.includes('/')){{const [usd,krw]=text.split('/'); return `<div class="price"><b>${{esc(usd.trim())}}</b><small>${{esc(krw.trim())}}</small></div>`;}} return esc(text);}}
-function expected(r){{const krw=r.expCloseKrw_6m?`<small>${{esc(r.expCloseKrw_6m)}}</small>`:'';return `<div class="price">${{ret(r.expRet_6m)}}<small>${{esc(r.expClose_6m||'-')}}</small>${{krw}}</div>`;}}
+function expected(r){{return ewsRecord(r);}}
 function compare(a,b,k){{const an=num(a[k]),bn=num(b[k]);if(!Number.isNaN(an)&&!Number.isNaN(bn))return an-bn;return String(a[k]??'').localeCompare(String(b[k]??''),'ko');}}
-function selectedRows(){{const mode=$('mode').value,q=$('query').value.trim().toLowerCase();let out=rows.filter(r=>mode==='final'?r.isFinalCandidate:mode==='up'?r.isUpCandidate:mode==='down'?r.isDownRed:true);if(q)out=out.filter(r=>String(r.ticker).toLowerCase().includes(q)||String(r.name).toLowerCase().includes(q));const key=$('sort').value;out.sort((a,b)=>(asc?1:-1)*compare(a,b,key));return out;}}
-async function loadDate(){{const date=$('date').value;$('table').innerHTML='<div class="empty">불러오는 중...</div>';const res=await fetch(`walkforward_scores_by_date/${{date}}.json?v={BUILD_VERSION}`,{{cache:'no-store'}});rows=await res.json();page=1;render();}}
+function selectedRows(){{const mode=$('mode').value,q=$('query').value.trim().toLowerCase();let out=rows.filter(r=>mode==='final'?r.isFinalCandidate:mode==='up'?r.isUpCandidate:mode==='down'?(r.isDownRed||r.downGrade==='RED'):true);if(q)out=out.filter(r=>String(r.ticker).toLowerCase().includes(q)||String(r.name).toLowerCase().includes(q));const key=$('sort').value;out.sort((a,b)=>(asc?1:-1)*compare(a,b,key));return out;}}
+async function loadDate(){{const date=$('date').value;$('table').innerHTML='<div class="empty">불러오는 중...</div>';const res=await fetch(`walkforward_scores_by_date/${{date}}.json?v={BUILD_VERSION}`,{{cache:'no-store'}});rows=await res.json();page=1;labels[6]=rows[0]?.modelVersion?'상승 확률 %':'상승 순위';labels[8]=rows[0]?.modelVersion?'하락 확률 %':'하락 순위';render();}}
 function render(){{filtered=selectedRows();const size=Math.max(10,Math.min(200,parseInt($('pageSize').value||10,10)));const pages=Math.max(1,Math.ceil(filtered.length/size));page=Math.max(1,Math.min(page,pages));const start=(page-1)*size, shown=filtered.slice(start,start+size);$('meta').textContent=`${{filtered.length.toLocaleString()}}개 / 신호일 ${{$('date').value}}`;$('pageInfo').textContent=`${{page}} / ${{pages}}`; $('prev').disabled=page<=1;$('next').disabled=page>=pages;$('dir').textContent=asc?'오름차순':'내림차순';if(!shown.length){{$('table').innerHTML='<div class="empty">조건에 맞는 종목이 없습니다.</div>';return;}}$('table').innerHTML='<table><thead><tr>'+labels.map((x,i)=>`<th class="${{i>=1&&i<=4?'left':''}}">${{x}}</th>`).join('')+'</tr></thead><tbody>'+shown.map((r,i)=>{{const cells=[start+i+1,`<a class="name" href="${{naver(r)}}" target="_blank" rel="noopener">${{esc(r.ticker)}}</a>`,`<a class="name" href="stock.html?ticker=${{encodeURIComponent(r.ticker)}}">${{esc(r.name||r.ticker)}}</a>`,esc(r.sector),esc(r.detailSector),price(r),esc(r.upScore),`<span class="badge ${{esc(r.upGrade)}}">${{esc(r.upGrade)}}</span>`,esc(r.downRisk),`<span class="badge ${{esc(r.downGrade)}}">${{esc(r.downGrade)}}</span>`,scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,idx)=>`<td data-label="${{labels[idx]}}" class="${{idx>=1&&idx<=4?'left wrap':''}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
 async function init(){{manifest=await fetch('manifest.json?v={BUILD_VERSION}',{{cache:'no-store'}}).then(r=>r.json());$('latest').textContent=manifest.latest||'-';$('finalCount').textContent=Number(manifest.latestFinal||0).toLocaleString();$('upCount').textContent=Number(manifest.latestUp||0).toLocaleString();$('rowCount').textContent=Number(manifest.latestRows||0).toLocaleString();(manifest.dates||[]).forEach(d=>$('date').add(new Option(d,d)));['date','mode','query','sort','pageSize'].forEach(id=>$(id).addEventListener(id==='query'?'input':'change',()=>{{page=1;id==='date'?loadDate():render();}}));$('dir').onclick=()=>{{asc=!asc;render();}};$('prev').onclick=()=>{{page--;render();}};$('next').onclick=()=>{{page++;render();}};await loadDate();}}
 init().catch(err=>{{$('table').innerHTML=`<div class="empty">${{esc(err.message)}}</div>`;}});
@@ -241,7 +258,8 @@ def stock_html(label: str, other_href: str, other_label: str) -> str:
 <style>:root{{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--panel:#fff;--head:#101827;--thead:#eef3f8;--red:#b91c1c;--green:#047857;--heat-high-bg:#ecfdf5;--heat-high-ink:#065f46;--heat-high-line:#bbf7d0;--heat-mid-bg:#f0fdfa;--heat-mid-ink:#0f766e;--heat-mid-line:#99f6e4;--heat-low-bg:#fffbeb;--heat-low-ink:#92400e;--heat-low-line:#fde68a;--heat-risk-bg:#fff1f2;--heat-risk-ink:#9f1239;--heat-risk-line:#fecdd3}}html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--panel:#161b22;--head:#010409;--thead:#1f2937;--red:#f87171;--green:#34d399;--heat-high-bg:#123524;--heat-high-ink:#a7f3d0;--heat-high-line:#1f6f4a;--heat-mid-bg:#11333a;--heat-mid-ink:#99f6e4;--heat-mid-line:#1f6570;--heat-low-bg:#3b2f12;--heat-low-ink:#fde68a;--heat-low-line:#7a5a17;--heat-risk-bg:#3a1620;--heat-risk-ink:#fecdd3;--heat-risk-line:#7f2b3c}}*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}header{{background:var(--head);color:white;padding:16px 18px}}nav{{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}}nav a,.theme-toggle{{color:#dbeafe;text-decoration:none;border:1px solid #334155;border-radius:6px;padding:7px 10px;font-size:13px;background:transparent;cursor:pointer;font:inherit}}main{{max-width:1100px;margin:0 auto;padding:14px}}.panel{{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:12px}}th,td{{border-bottom:1px solid var(--line);padding:8px;text-align:right}}th{{background:var(--thead);color:var(--ink)}}th:first-child,td:first-child{{text-align:left}}.scores{{display:grid;grid-template-columns:repeat(5,minmax(48px,1fr));gap:4px;min-width:270px;text-align:left}}.score{{border:1px solid var(--line);border-radius:5px;padding:5px}}.score small{{display:block;color:var(--muted);font-size:10px}}.score b{{font-size:12px}}.pos{{color:var(--green);font-weight:800}}.neg{{color:var(--red);font-weight:800}}.ext{{color:#dbeafe}}html[data-theme="dark"] .theme-toggle{{background:#1f2937;color:#e5e7eb}}@media(max-width:720px){{main{{padding:10px}}table,thead,tbody,tr,th,td{{display:block}}thead{{display:none}}tr{{border:1px solid var(--line);border-radius:8px;margin-bottom:9px;padding:8px}}td{{border:0;display:grid;grid-template-columns:92px 1fr;text-align:left;padding:5px}}td::before{{content:attr(data-label);font-size:11px;color:var(--muted);font-weight:800;text-transform:uppercase}}.scores{{min-width:0;grid-template-columns:1fr 1fr}}}}</style></head>
 <body><header><h1 id="title">{label} 종목 상세</h1><nav><a href="../index.html?v={BUILD_VERSION}">홈</a><a href="dashboard.html?v={BUILD_VERSION}">{label}</a><a href="{other_href}?v={BUILD_VERSION}">{other_label}</a><a id="naver" class="ext" target="_blank" rel="noopener">네이버 증권</a><button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button></nav></header><main><section class="panel" id="content">불러오는 중...</section></main>
 <script>
-const params=new URLSearchParams(location.search),ticker=params.get('ticker')||'';const labels=['신호일','종가','상승','상승등급','하락','하락등급','최종','대표점수','예상 6개월'];
+{forecast_ui_script()}
+const params=new URLSearchParams(location.search),ticker=params.get('ticker')||'';const labels=['신호일','종가','상승','상승등급','하락','하락등급','최종','관측 근거','예측 기록'];
 const scoreLabels=[['growth_profit','성장'],['cash_quality','현금'],['valuation','밸류'],['price_volume','가격'],['risk_overheat','위험']];
 const suffix={{NASDAQ:'.O',NYSE:'.N',NYSEAMERICAN:'.A',NYSEARCA:'.P'}};
 const reservedNames=new Set(['CON','PRN','AUX','NUL','COM1','COM2','COM3','COM4','COM5','COM6','COM7','COM8','COM9','LPT1','LPT2','LPT3','LPT4','LPT5','LPT6','LPT7','LPT8','LPT9']);
@@ -250,15 +268,16 @@ function num(v){{const n=parseFloat(String(v??'').replace(/[$,원%]/g,'').split(
 function safeTickerFile(t){{let name=encodeURIComponent(String(t||''));const stem=name.split('.')[0].toUpperCase();if(reservedNames.has(stem))name+='_';return name;}}
 function cls(v){{const n=num(v);return Number.isNaN(n)?'':n<0?'neg':'pos';}}
 function heat(v,key){{const raw=num(v);const good=key==='risk_overheat'?100-raw:raw;const n=Math.max(0,Math.min(100,Number.isNaN(good)?50:good));if(n>=75)return 'background:var(--heat-high-bg);color:var(--heat-high-ink);border-color:var(--heat-high-line)';if(n>=55)return 'background:var(--heat-mid-bg);color:var(--heat-mid-ink);border-color:var(--heat-mid-line)';if(n>=35)return 'background:var(--heat-low-bg);color:var(--heat-low-ink);border-color:var(--heat-low-line)';return 'background:var(--heat-risk-bg);color:var(--heat-risk-ink);border-color:var(--heat-risk-line)';}}
-function scoreBlock(r){{return '<div class="scores">'+scoreLabels.map(([key,label])=>`<div class="score" style="${{heat(r[key],key)}}"><small>${{label}}</small><b>${{esc(r[key]??'-')}}</b></div>`).join('')+'</div>';}}
+function scoreBlock(r){{if(r.modelVersion)return ewsEvidence(r);return '<div class="scores">'+scoreLabels.map(([key,label])=>`<div class="score" style="${{heat(r[key],key)}}"><small>${{label}}</small><b>${{esc(r[key]??'-')}}</b></div>`).join('')+'</div>';}}
 function naverUrl(r){{const t=String(r.ticker||ticker); if(String(r.currency||'').toUpperCase()==='USD') return `https://m.stock.naver.com/worldstock/stock/${{encodeURIComponent(t+(suffix[String(r.exchange||'').toUpperCase()]||'.O'))}}/total`; return `https://m.stock.naver.com/domestic/stock/${{encodeURIComponent(t.padStart(6,'0'))}}/total`;}}
-function expected(r){{const krw=r.expCloseKrw_6m?` / ${{esc(r.expCloseKrw_6m)}}`:'';return `<span class="${{cls(r.expRet_6m)}}">${{esc(r.expRet_6m||'-')}}</span><br>${{esc(r.expClose_6m||'-')}}${{krw}}`;}}
+function expected(r){{return ewsRecord(r);}}
 async function init(){{if(!ticker)throw new Error('티커가 없습니다.');const data=await fetch(`stock_history/${{safeTickerFile(ticker)}}.json?v={BUILD_VERSION}`,{{cache:'no-store'}}).then(r=>{{if(!r.ok)throw new Error(`${{r.status}} ${{r.statusText}}`);return r.json();}});const rows=(data.rows||[]).slice().reverse();document.getElementById('title').textContent=`{label} 종목 상세: ${{data.ticker}} ${{data.name||''}}`;document.getElementById('naver').href=naverUrl(rows[0]||data);document.getElementById('content').innerHTML='<table><thead><tr>'+labels.map(x=>`<th>${{x}}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>{{const cells=[esc(r.date),esc(r.close),esc(r.upScore),esc(r.upGrade),esc(r.downRisk),esc(r.downGrade),r.isFinalCandidate?'Y':'',scoreBlock(r),expected(r)];return '<tr>'+cells.map((c,i)=>`<td data-label="${{labels[i]}}">${{c}}</td>`).join('')+'</tr>';}}).join('')+'</tbody></table>';}}
 init().catch(err=>{{document.getElementById('content').textContent=err.message;}});
 </script>{theme_toggle_script()}</body></html>"""
 
 
 def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle: str, other_href: str, other_label: str) -> None:
+    source_manifest = json_load(source / "manifest.json") if (source / "manifest.json").exists() else {}
     date_files = selected_date_files(source, days)
     dates = [path.stem for path in date_files]
     by_date_target = target / "walkforward_scores_by_date"
@@ -314,7 +333,9 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
                 "price_volume": "가격/거래",
                 "risk_overheat": "위험/과열",
             },
-            "validation": [],
+            "validation": source_manifest.get("validation", []),
+            "models": source_manifest.get("models", {}),
+            "predictionPolicy": source_manifest.get("predictionPolicy", "legacy_unversioned"),
             "marketName": label,
         },
     )

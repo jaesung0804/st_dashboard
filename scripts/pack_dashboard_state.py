@@ -8,6 +8,7 @@ from pathlib import Path
 
 
 DEFAULT_PATHS = [
+    "data/dashboard_ews",
     "data/raw/krx_ohlcv_kospi_kosdaq_state.csv",
     "data/raw/krx_listings_kospi_kosdaq_state.csv",
     "data/raw/opendart_financials_state.csv",
@@ -87,9 +88,10 @@ def main() -> None:
     # state repository itself; the app checkout's attributes do not apply here.
     attributes_path = state_dir / ".gitattributes"
     attributes = attributes_path.read_text(encoding="utf-8") if attributes_path.exists() else ""
-    rule = ".parts/** -text"
-    if rule not in attributes.splitlines():
-        attributes_path.write_text(attributes.rstrip("\n") + "\n" + rule + "\n", encoding="utf-8")
+    for rule in [".parts/** -text", "data/dashboard_ews/** -text"]:
+        if rule not in attributes.splitlines():
+            attributes = attributes.rstrip("\n") + "\n" + rule + "\n"
+    attributes_path.write_text(attributes, encoding="utf-8")
 
     manifest: dict[str, dict[str, object]] = {}
     for source in iter_files(args.paths):

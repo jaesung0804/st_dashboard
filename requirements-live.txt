@@ -1,0 +1,11 @@
+# Tested production model stack. Upgrade intentionally with a new feature/model version.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+lightgbm==4.7.0
+yfinance==1.7.0
+pykrx==1.2.8
+finance-datareader==0.9.202
+python-dotenv
+openpyxl

@@ -1,0 +1,101 @@
+name: Dashboard batch
+on:
+  workflow_call:
+    inputs:
+      mode:
+        required: true
+        type: string
+      market:
+        type: string
+        default: all
+      asof:
+        type: string
+        default: ""
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
+jobs:
+  batch:
+    runs-on: windows-latest
+    timeout-minutes: 330
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: utf-8
+      BATCH_MARKET: ${{ inputs.market }}
+      BATCH_ASOF: ${{ inputs.asof }}
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: app
+    steps:
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          path: app
+      - name: Checkout dashboard state
+        uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - name: Checkout published prediction history
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: app/.legacy-pages
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - name: Install dependencies
+        run: |
+          $PSNativeCommandUseErrorActionPreference = $true
+          python -m pip install -r requirements-live.txt
+          python -m pip install -e .
+      - name: Restore dashboard state
+        run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+      - name: Preserve published prediction history
+        run: python scripts/run_monthly_ews.py migrate --legacy-pages .legacy-pages
+      - name: Collect prices for monthly training
+        if: inputs.mode == 'train'
+        run: |
+          $argsList = @("scripts/refresh_dashboard_pipeline.py", "--market", $env:BATCH_MARKET, "--collect-only")
+          if ($env:BATCH_ASOF) { $argsList += @("--asof", $env:BATCH_ASOF) }
+          python @argsList
+      - name: Train and freeze this month's models
+        if: inputs.mode == 'train'
+        run: python scripts/run_monthly_ews.py train --market $env:BATCH_MARKET --jobs 1
+      - name: Evaluate matured live forecasts separately
+        if: inputs.mode == 'train'
+        run: python scripts/run_monthly_ews.py evaluate --market $env:BATCH_MARKET
+      - name: Collect prices and infer with frozen models
+        if: inputs.mode == 'infer'
+        run: |
+          $argsList = @("scripts/refresh_dashboard_pipeline.py", "--market", $env:BATCH_MARKET, "--skip-push")
+          if ($env:BATCH_ASOF) { $argsList += @("--asof", $env:BATCH_ASOF) }
+          python @argsList
+      - name: Validate signal dates and archived predictions
+        if: inputs.mode == 'infer'
+        run: python scripts/validate_live_dashboard.py --market $env:BATCH_MARKET --asof "$env:BATCH_ASOF"
+      - name: Pack dashboard state
+        run: python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+      - name: Create recovery artifact
+        run: |
+          $items = Get-ChildItem .dashboard-state -Force | Where-Object { $_.Name -ne ".git" }
+          Compress-Archive -Path $items.FullName -DestinationPath dashboard-state-backup.zip -Force
+      - name: Upload recovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-state-${{ inputs.mode }}-${{ github.run_id }}
+          path: app/dashboard-state-backup.zip
+          retention-days: 7
+      - name: Persist models and predictions before publishing
+        run: python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Publish GitHub Pages
+        if: inputs.mode == 'infer'
+        run: python scripts/build_pages_deploy.py --days 22 --push

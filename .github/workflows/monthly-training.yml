@@ -1,0 +1,26 @@
+name: Monthly Training
+run-name: Monthly Training (${{ inputs.market || 'all' }})
+on:
+  workflow_dispatch:
+    inputs:
+      market:
+        description: Market to train (an existing monthly model is kept)
+        type: choice
+        default: all
+        options: [all, kr, us]
+  schedule:
+    # Previous calendar month has closed in both markets.
+    - cron: "30 0 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/monthly-training.yml
+permissions:
+  contents: write
+  actions: read
+jobs:
+  train:
+    uses: ./.github/workflows/dashboard-batch.yml
+    with:
+      mode: train
+      market: ${{ inputs.market || 'all' }}
