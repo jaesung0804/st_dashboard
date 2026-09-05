@@ -198,16 +198,6 @@ def _normalize_krx_by_ticker(raw: pd.DataFrame, asof: str) -> pd.DataFrame:
     return frame[KRX_PRICE_SCHEMA]
 
 
-def _fetch_krx_market_by_date_fallback(asof: str, market: str, tickers: list[str]) -> pd.DataFrame:
-    frames = []
-    for idx, ticker in enumerate(tickers, start=1):
-        frame = fetch_krx_ohlcv(ticker=ticker, start=asof, end=asof)
-        if not frame.empty:
-            frames.append(frame)
-        print(f"[KRX {asof} {market} fallback {idx}/{len(tickers)}] {ticker} rows={len(frame)}", flush=True)
-    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
-
-
 def latest_completed_krx_asof(now: datetime | None = None) -> str:
     """Return the most likely completed KRX trading date to request.
 
@@ -255,110 +245,37 @@ def refresh_kr_daily_data_fast(
     prices_path: Path | None = None,
     output_path: Path | None = None,
     asof_lookback_days: int = 7,
+    listings_path: Path | None = None,
+    checkpoint_dir: Path | None = None,
+    workers: int = 4,
+    max_seconds: float = 3600,
 ) -> DailyRefreshResult:
-    """Refresh missing recent KRX dates by fetching each market in bulk."""
+    """Refresh each restored ticker's missing range plus a correction overlap.
+
+    Kept as a compatible entry point. The bulk/date x ticker fallback is no
+    longer used: pykrx's authenticated KRX endpoint may be unavailable, while
+    its adjusted daily data already comes from Naver. Universe refresh remains
+    an explicit separate task; a data outage must not change the model universe.
+    """
+    from ai_stock_assistant.data.krx_incremental import refresh_ranges
+
     ensure_project_dirs()
-    stock = _pykrx_stock()
     markets = markets or ["KOSPI", "KOSDAQ"]
     requested_asof = asof or latest_completed_krx_asof()
     market_slug = "_".join(market.lower() for market in markets)
     prices_path = prices_path or _find_latest_combined_prices(market_slug) or (RAW_DATA_DIR / f"krx_ohlcv_{market_slug}_daily.csv")
     output_path = output_path or prices_path
-    existing = pd.read_csv(prices_path, dtype={"ticker": str}) if prices_path.exists() else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
-    target_asofs = _krx_refresh_asofs(requested_asof, existing, asof_lookback_days)
-
-    listings = pd.DataFrame()
-    listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{requested_asof}.csv"
-    frames = []
-    summary_rows = []
-    selected_asof = requested_asof
-    for candidate_asof in target_asofs:
-        candidate_frames = []
-        candidate_summary = []
-        try:
-            candidate_listings = fetch_krx_listings_for_markets(asof=candidate_asof, markets=markets)
-        except Exception as exc:  # noqa: BLE001 - try an earlier date if listings are unavailable.
-            summary_rows.append({"asof": candidate_asof, "market": "ALL", "status": "failed", "rows": 0, "error": repr(exc)})
-            print(f"[KRX {candidate_asof} ALL] failed rows=0", flush=True)
-            continue
-        for market in markets:
-            try:
-                raw = _call_pykrx(stock.get_market_ohlcv_by_ticker, candidate_asof, market=market)
-                frame = _normalize_krx_by_ticker(raw, candidate_asof)
-                candidate_frames.append(frame)
-                candidate_summary.append({"asof": candidate_asof, "market": market, "status": "updated", "rows": len(frame), "error": ""})
-            except Exception as exc:  # noqa: BLE001 - keep daily refresh resumable.
-                print(f"[KRX {candidate_asof} {market}] bulk failed; using per-ticker fallback", flush=True)
-                try:
-                    market_tickers = (
-                        candidate_listings.loc[candidate_listings["exchange"].astype(str).str.upper().eq(market), "ticker"]
-                        .astype(str)
-                        .str.zfill(6)
-                        .drop_duplicates()
-                        .tolist()
-                    )
-                    frame = _fetch_krx_market_by_date_fallback(candidate_asof, market, market_tickers)
-                    candidate_frames.append(frame)
-                    status = "fallback_updated" if not frame.empty else "fallback_empty"
-                    candidate_summary.append(
-                        {
-                            "asof": candidate_asof,
-                            "market": market,
-                            "status": status,
-                            "rows": len(frame),
-                            "error": _brief_error(exc),
-                        }
-                    )
-                except Exception as fallback_exc:  # noqa: BLE001 - try an earlier date if fallback also fails.
-                    candidate_summary.append(
-                        {
-                            "asof": candidate_asof,
-                            "market": market,
-                            "status": "failed",
-                            "rows": 0,
-                            "error": f"bulk={_brief_error(exc)}; fallback={_brief_error(fallback_exc)}",
-                        }
-                    )
-            print(
-                f"[KRX {candidate_asof} {market}] {candidate_summary[-1]['status']} rows={candidate_summary[-1]['rows']}",
-                flush=True,
-            )
-        rows = sum(int(row["rows"]) for row in candidate_summary)
-        summary_rows.extend(candidate_summary)
-        if rows > 0:
-            selected_asof = candidate_asof
-            listings = candidate_listings
-            frames.extend(candidate_frames)
-            listings_path = RAW_DATA_DIR / f"krx_listings_{market_slug}_{selected_asof}.csv"
-
-    run_dir = DAILY_OUTPUT_DIR / requested_asof
-    run_dir.mkdir(parents=True, exist_ok=True)
-    if listings.empty:
-        listings = fetch_krx_listings_for_markets(asof=selected_asof, markets=markets)
-    listings.to_csv(listings_path, index=False, encoding="utf-8-sig")
-
-    update = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=KRX_PRICE_SCHEMA)
-    update = update[update["ticker"].isin(listings["ticker"].astype(str).str.zfill(6))]
-
-    combined = pd.concat([existing, update], ignore_index=True)
-    if not combined.empty:
-        combined["ticker"] = combined["ticker"].astype(str).str.zfill(6)
-        combined["date"] = pd.to_datetime(combined["date"]).dt.strftime("%Y-%m-%d")
-        combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    combined.to_csv(output_path, index=False, encoding="utf-8-sig")
-
-    summary_path = run_dir / "krx_daily_data_refresh_summary.csv"
-    pd.DataFrame(summary_rows).to_csv(summary_path, index=False, encoding="utf-8-sig")
-    failed = sum(row["status"] == "failed" for row in summary_rows)
-    return DailyRefreshResult(
-        asof=selected_asof,
-        listings_path=listings_path,
-        price_dir=RAW_DATA_DIR,
-        combined_prices_path=output_path,
-        summary_path=summary_path,
-        updated_count=len(update),
-        failed_count=failed,
+    if listings_path is None:
+        candidates = sorted(RAW_DATA_DIR.glob(f"krx_listings_{market_slug}_*.csv"))
+        if not candidates:
+            raise FileNotFoundError("No restored KRX listings CSV; seed dashboard-state first")
+        listings_path = candidates[-1]
+    return refresh_ranges(
+        markets=markets, requested_asof=requested_asof, prices_path=prices_path,
+        output_path=output_path, listings_path=listings_path,
+        run_dir=DAILY_OUTPUT_DIR / requested_asof,
+        checkpoint_dir=checkpoint_dir or RAW_DATA_DIR.parent / "cache" / "krx_ranges",
+        overlap_days=asof_lookback_days, workers=workers, max_seconds=max_seconds,
     )
 
 

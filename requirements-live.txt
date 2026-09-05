@@ -7,5 +7,6 @@ lightgbm==4.7.0
 yfinance==1.7.0
 pykrx==1.2.8
 finance-datareader==0.9.202
+requests==2.34.2
 python-dotenv
 openpyxl

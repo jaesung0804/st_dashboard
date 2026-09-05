@@ -9,9 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-import pandas as pd
-
-from ai_stock_assistant.data.refresh import latest_completed_krx_asof, refresh_kr_daily_data_fast, refresh_us_daily_data
+from ai_stock_assistant.data.refresh import refresh_kr_daily_data_fast, refresh_us_daily_data
 from ai_stock_assistant.monthly_ews import LISTING_FILES, PRICE_FILES, export_dashboard, infer_latest
 
 
@@ -20,6 +18,8 @@ def main() -> None:
     p.add_argument("--asof", default=None, help="Latest completed session, YYYYMMDD")
     p.add_argument("--market", choices=["all", "kr", "us"], default="all")
     p.add_argument("--lookback-days", type=int, default=10)
+    p.add_argument("--kr-workers", type=int, default=4, help="Bounded KRX range download workers (1..8)")
+    p.add_argument("--kr-collection-seconds", type=int, default=3600, help="Stop collection early enough to save checkpoints")
     p.add_argument("--pages-days", type=int, default=22)
     p.add_argument("--collect-only", action="store_true", help="Monthly workflow preparation; no inference")
     p.add_argument("--skip-push", action="store_true")
@@ -33,11 +33,11 @@ def main() -> None:
     for market in markets:
         price, listing = raw / PRICE_FILES[market], raw / LISTING_FILES[market]
         if market == "kr":
-            # Recover the entire gap after a failed daily batch, not just the last week.
-            latest = pd.to_datetime(pd.read_csv(price, usecols=["date"])["date"]).max()
-            requested = pd.Timestamp(args.asof or latest_completed_krx_asof())
-            gap = max(7, (requested - latest).days + 3)
-            result = refresh_kr_daily_data_fast(asof=args.asof, prices_path=price, output_path=price, asof_lookback_days=gap)
+            result = refresh_kr_daily_data_fast(
+                asof=args.asof, prices_path=price, output_path=price, listings_path=listing,
+                asof_lookback_days=args.lookback_days, workers=args.kr_workers,
+                max_seconds=args.kr_collection_seconds,
+            )
         else:
             result = refresh_us_daily_data(asof=args.asof, lookback_days=args.lookback_days,
                                            listings_path=listing, prices_path=price, output_path=price)

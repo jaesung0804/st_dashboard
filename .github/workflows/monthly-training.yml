@@ -1,4 +1,6 @@
 name: Monthly Training
+# Price collection now uses resumable ticker ranges. This change also starts
+# the first training retry on the corrected commit via the scoped push trigger.
 run-name: Monthly Training (${{ inputs.market || 'all' }})
 on:
   workflow_dispatch:

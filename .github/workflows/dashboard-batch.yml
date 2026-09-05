@@ -59,26 +59,52 @@ jobs:
           python -m pip install -e .
       - name: Restore dashboard state
         run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+      - name: Restore resumable price checkpoints
+        uses: actions/cache/restore@v4
+        with:
+          path: app/data/cache/krx_ranges
+          key: krx-range-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            krx-range-v1-${{ runner.os }}-
       - name: Preserve published prediction history
         run: python scripts/run_monthly_ews.py migrate --legacy-pages .legacy-pages
       - name: Collect prices for monthly training
         if: inputs.mode == 'train'
+        timeout-minutes: 120
         run: |
           $argsList = @("scripts/refresh_dashboard_pipeline.py", "--market", $env:BATCH_MARKET, "--collect-only")
           if ($env:BATCH_ASOF) { $argsList += @("--asof", $env:BATCH_ASOF) }
           python @argsList
+      - name: Collect prices and infer with frozen models
+        if: inputs.mode == 'infer'
+        timeout-minutes: 120
+        run: |
+          $argsList = @("scripts/refresh_dashboard_pipeline.py", "--market", $env:BATCH_MARKET, "--skip-push")
+          if ($env:BATCH_ASOF) { $argsList += @("--asof", $env:BATCH_ASOF) }
+          python @argsList
+      - name: Save resumable price checkpoints
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: app/data/cache/krx_ranges
+          key: krx-range-v1-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Preserve collection diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: price-collection-${{ inputs.mode }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            app/outputs/daily/**/krx*refresh_summary.csv
+            app/outputs/daily/**/krx_collection.json
+            app/data/cache/krx_ranges
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Train and freeze this month's models
         if: inputs.mode == 'train'
         run: python scripts/run_monthly_ews.py train --market $env:BATCH_MARKET --jobs 1
       - name: Evaluate matured live forecasts separately
         if: inputs.mode == 'train'
         run: python scripts/run_monthly_ews.py evaluate --market $env:BATCH_MARKET
-      - name: Collect prices and infer with frozen models
-        if: inputs.mode == 'infer'
-        run: |
-          $argsList = @("scripts/refresh_dashboard_pipeline.py", "--market", $env:BATCH_MARKET, "--skip-push")
-          if ($env:BATCH_ASOF) { $argsList += @("--asof", $env:BATCH_ASOF) }
-          python @argsList
       - name: Validate signal dates and archived predictions
         if: inputs.mode == 'infer'
         run: python scripts/validate_live_dashboard.py --market $env:BATCH_MARKET --asof "$env:BATCH_ASOF"

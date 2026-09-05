@@ -7,9 +7,11 @@ import importlib
 import io
 from pathlib import Path
 import time
+import xml.etree.ElementTree as ET
 
 import pandas as pd
 import FinanceDataReader as fdr
+import requests
 
 from ai_stock_assistant.config import RAW_DATA_DIR, ensure_project_dirs
 
@@ -163,6 +165,70 @@ def fetch_krx_ohlcv(ticker: str, start: str, end: str) -> pd.DataFrame:
     frame["adjusted_close"] = frame["close"]
     frame["date"] = pd.to_datetime(frame["date"]).dt.strftime("%Y-%m-%d")
     return frame[PRICE_SCHEMA].sort_values(["ticker", "date"]).reset_index(drop=True)
+
+
+def fetch_krx_ohlcv_bounded(
+    ticker: str, start: str, end: str, *, before_request=None,
+    timeout: tuple[float, float] = (5.0, 15.0), attempts: int = 2,
+) -> pd.DataFrame:
+    """Read the same adjusted Naver series as pykrx, with bounded HTTP retries.
+
+    The chart API's count is relative to today, NOT ``end``. Request enough
+    calendar days, then filter locally; never interpret HTML/invalid XML as a
+    legitimate empty trading session. No KRX login or new credential is needed.
+    """
+    ticker = str(ticker).zfill(6)
+    if len(ticker) != 6 or not ticker.isdigit():
+        raise ValueError("KRX ticker must contain six digits")
+    first, last = pd.Timestamp(start).normalize(), pd.Timestamp(end).normalize()
+    if first > last or attempts < 1 or min(timeout) <= 0:
+        raise ValueError("Invalid price range or HTTP limits")
+    today = pd.Timestamp.now(tz="Asia/Seoul").tz_localize(None).normalize()
+    count = max(2, (max(today, last) - first).days + 2)
+    for attempt in range(attempts):
+        if before_request is not None:
+            before_request()
+        try:
+            response = requests.get(
+                "https://fchart.stock.naver.com/sise.nhn",
+                params={"symbol": ticker, "timeframe": "day", "count": count, "requestType": "0"},
+                timeout=timeout,
+            )
+            response.raise_for_status()
+            break
+        except requests.RequestException as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            retryable = status is None or status in (429, 500, 502, 503, 504)
+            if not retryable or attempt + 1 == attempts:
+                # Do not copy request URLs, headers or response bodies into logs.
+                raise RuntimeError(f"Naver price request failed ({type(exc).__name__}, HTTP {status})") from None
+            time.sleep(1.0 + attempt)
+    try:
+        root = ET.fromstring(response.content)
+    except ET.ParseError:
+        raise ValueError("Naver returned invalid price XML") from None
+    chart = root if root.tag == "chartdata" else root.find(".//chartdata")
+    if chart is None or str(chart.get("symbol", ticker)).zfill(6) != ticker:
+        raise ValueError("Naver price response has no matching chartdata")
+    rows = []
+    for node in chart.iter("item"):
+        values = (node.get("data") or "").split("|")
+        if len(values) != 6:
+            raise ValueError("Naver price item must contain date and five OHLCV fields")
+        rows.append(values)
+    if not rows:
+        return pd.DataFrame(columns=PRICE_SCHEMA)
+    frame = pd.DataFrame(rows, columns=["date", "open", "high", "low", "close", "volume"])
+    frame["date"] = pd.to_datetime(frame["date"], format="%Y%m%d", errors="raise")
+    for column in ["open", "high", "low", "close", "volume"]:
+        frame[column] = pd.to_numeric(frame[column], errors="raise")
+    if frame[["open", "high", "low", "close", "volume"]].isna().any().any():
+        raise ValueError("Naver price response contains missing numbers")
+    frame = frame.loc[frame["date"].between(first, last)].copy()
+    frame["date"] = frame["date"].dt.strftime("%Y-%m-%d")
+    frame["ticker"] = ticker
+    frame["adjusted_close"] = frame["close"]
+    return frame[PRICE_SCHEMA].sort_values("date").reset_index(drop=True)
 
 
 def save_krx_ohlcv(tickers: list[str], start: str, end: str) -> Path:
