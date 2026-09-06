@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import subprocess
 import sys
 from pathlib import Path
@@ -130,3 +131,16 @@ def test_pages_deploy_fails_when_no_dashboard_dates_exist(tmp_path: Path) -> Non
 
     assert result.returncode != 0
     assert "No dashboard date JSON files found under outputs" in result.stderr
+
+
+def test_manifest_hashes_survive_windows_style_git_text_settings(tmp_path: Path) -> None:
+    write_date_file(tmp_path, 'kr')
+    site=tmp_path/'site'
+    subprocess.run([sys.executable,str(SCRIPT),'--days','1','--deploy-dir',str(site)],cwd=tmp_path,check=True,capture_output=True)
+    subprocess.run(['git','init'],cwd=site,check=True,capture_output=True)
+    subprocess.run(['git','-c','core.autocrlf=true','add','-A'],cwd=site,check=True,capture_output=True)
+    folder='lgbm_warning_dashboard_macro_kr_latest'
+    manifest=json.loads((site/folder/'manifest.json').read_text())
+    for name,expected in manifest['uiAssets'].items():
+        committed=subprocess.run(['git','show',f':{folder}/{name}'],cwd=site,check=True,capture_output=True).stdout
+        assert hashlib.sha256(committed).hexdigest()==expected, name

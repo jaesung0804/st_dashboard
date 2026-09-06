@@ -76,7 +76,7 @@ def json_load(path: Path) -> object:
 
 def json_dump(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    path.write_bytes(json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8"))
 
 
 def safe_stock_filename(ticker: str) -> str:
@@ -260,11 +260,11 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
     target.mkdir(parents=True, exist_ok=True)
     # Presentation files are separate from archived prediction rows and models.
     price_context = build_price_context(raw_dir, target, "kr" if label == "한국" else "us", dates)
-    (target / "dashboard.html").write_text(dashboard_html(label, subtitle, other_href, other_label), encoding="utf-8")
-    (target / "index.html").write_text(dashboard_html(label, subtitle, other_href, other_label), encoding="utf-8")
-    (target / "stock.html").write_text(stock_html(label, other_href, other_label), encoding="utf-8")
+    (target / "dashboard.html").write_bytes(dashboard_html(label, subtitle, other_href, other_label).encode("utf-8"))
+    (target / "index.html").write_bytes(dashboard_html(label, subtitle, other_href, other_label).encode("utf-8"))
+    (target / "stock.html").write_bytes(stock_html(label, other_href, other_label).encode("utf-8"))
     assets = Path(__file__).resolve().parent / "dashboard_web"
-    (target / "model.html").write_text(render_dashboard_template("model.html", label, other_href, other_label), encoding="utf-8")
+    (target / "model.html").write_bytes(render_dashboard_template("model.html", label, other_href, other_label).encode("utf-8"))
     # Rebuild the report from restored state on every publisher, so an ordinary
     # daily refresh cannot discard the independent macro experiment.
     sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -273,7 +273,8 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
                   "kr" if label == "한국" else "us", source.parent)
     shutil.copyfile(source / "model_report.json", target / "model_report.json")
     for filename in ("dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js"):
-        shutil.copyfile(assets / filename, target / filename)
+        # Canonical LF before hashing, independent of a Windows app checkout.
+        (target / filename).write_bytes((assets / filename).read_text(encoding="utf-8").encode("utf-8"))
     ui_assets = {name: hashlib.sha256((target / name).read_bytes()).hexdigest()
                  for name in ("dashboard.html", "index.html", "stock.html", "model.html", "dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js", "model_report.json")}
     json_dump(
@@ -396,7 +397,10 @@ def remove_tree(path: Path) -> None:
 
 
 def push_pages(deploy_dir: Path, repo: str) -> None:
+    # Hashes describe the published bytes, not a pre-autocrlf working tree.
+    (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
     run_git(["init"], deploy_dir)
+    run_git(["config", "core.autocrlf", "false"], deploy_dir)
     run_git(["checkout", "-B", "gh-pages"], deploy_dir)
     run_git(["config", "user.name", "github-actions[bot]"], deploy_dir)
     run_git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], deploy_dir)
@@ -420,7 +424,8 @@ def main() -> None:
         remove_tree(deploy_dir)
     deploy_dir.mkdir(parents=True)
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
-    (deploy_dir / "index.html").write_text(home_html(), encoding="utf-8")
+    (deploy_dir / "index.html").write_bytes(home_html().encode("utf-8"))
+    (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
     built_dashboards = 0
     missing_targets: list[str] = []
     dashboard_jobs = [
