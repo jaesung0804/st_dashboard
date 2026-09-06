@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import pandas as pd
 from ai_stock_assistant import monthly_ews as live, shadow_ews as shadow
 from ai_stock_assistant.data import macro_vintages as macro
+from ai_stock_assistant.data import price_quality
 
 
 def main():
@@ -31,6 +32,9 @@ def main():
             vintages, provenance = macro.load(args.state_root)
             prices_path = args.raw_dir / live.PRICE_FILES[market]
             prices = live.read_prices(prices_path)
+            prices, quality = price_quality.prepare(prices, market)
+            live.write_json(shadow.market_root(args.state_root, market) / "price_quality.json", quality)
+            provenance = {**provenance, "price_quality": quality}
             if args.command == "train":
                 boundary = pd.Timestamp(args.month + "-01")
                 cutoff = prices.loc[prices.date < boundary, "date"].max()

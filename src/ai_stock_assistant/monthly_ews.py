@@ -146,6 +146,10 @@ def feature_panel(prices: pd.DataFrame, market: str, *, training: bool, signal_d
         if not training:
             group = group.tail(320)
         f = ticker_features(group, labels=training)
+        if "quality_valid" in group:
+            # Optional research input only. Ordinary production price frames do
+            # not contain this column, so their feature values stay unchanged.
+            f["active"] &= group["quality_valid"].to_numpy(dtype=bool)
         valid = f["ma200"].notna() & f["active"]
         rows = f.loc[valid]
         ix = dates.get_indexer(rows["date"])

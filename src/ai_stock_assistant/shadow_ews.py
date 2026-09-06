@@ -14,7 +14,7 @@ from scipy.special import expit, logit
 
 from . import monthly_ews as live
 
-VERSION = "ews-smooth-macro-v1"
+VERSION = "ews-smooth-macro-v2"
 ARMS = ("price", "macro")
 FOLDS = ("2024-10", "2025-04", "2025-10", "2026-02")
 TARGET = {
@@ -23,8 +23,14 @@ TARGET = {
     "benchmark": "equal-weight arithmetic mean of signal-date active observable stocks",
     "minimum_benchmark_coverage": .95, "down_horizon": 63, "down_barrier": -.20,
     "terminal_requires_positive_volume": True,
+    "price_quality": "verified-actions-and-20x-continuity-v1",
     "calendar": "market trading calendar, no forward fill of missing outcomes",
 }
+
+
+def market_root(state: Path, market: str) -> Path:
+    # Preserve earlier experimental artifacts when the target/data contract changes.
+    return state / market / VERSION
 
 
 def smooth_targets(prices: pd.DataFrame, signal_dates=None) -> pd.DataFrame:
@@ -41,6 +47,8 @@ def smooth_targets(prices: pd.DataFrame, signal_dates=None) -> pd.DataFrame:
     values = p.to_numpy(dtype=float)
     valid = np.isfinite(values) & (values > 0)
     active = valid & (volume.to_numpy() > 0) & (raw.to_numpy() > 0)
+    breaks = prices.assign(quality_break=prices.get("quality_break", False)).pivot(index="date", columns="ticker", values="quality_break").reindex(index=p.index, columns=p.columns).eq(True).to_numpy(dtype=bool)
+    cumulative_breaks = breaks.cumsum(axis=0)
     values = np.where(valid, values, np.nan)
     dates, tickers = p.index, p.columns
     chosen = set(pd.to_datetime(signal_dates)) if signal_dates is not None else set(dates[::5])
@@ -60,7 +68,7 @@ def smooth_targets(prices: pd.DataFrame, signal_dates=None) -> pd.DataFrame:
         if index + TARGET["horizon"] < len(dates):
             terminal = np.where(active[index + 122:index + 127, positions],
                                 values[index + 122:index + 127, positions], np.nan)
-            known = np.isfinite(terminal).all(axis=0)
+            known = np.isfinite(terminal).all(axis=0) & ~breaks[index, positions] & (cumulative_breaks[index + 126, positions] == cumulative_breaks[index, positions])
             coverage = float(known.mean())
             returns = terminal / values[index, positions] - 1
             average = returns.mean(axis=0)
@@ -78,7 +86,7 @@ def smooth_targets(prices: pd.DataFrame, signal_dates=None) -> pd.DataFrame:
             row["y_up"] = np.where(known & (coverage >= TARGET["minimum_benchmark_coverage"]), outcome.astype(float), np.nan)
         if index + TARGET["down_horizon"] < len(dates):
             window = values[index + 1:index + 64, positions]
-            known = np.isfinite(window).all(axis=0)
+            known = np.isfinite(window).all(axis=0) & ~breaks[index, positions] & (cumulative_breaks[index + 63, positions] == cumulative_breaks[index, positions])
             minimum = np.min(window, axis=0) / values[index, positions] - 1
             row["end_down"] = dates[index + 63]
             row["future_down"] = np.where(known, minimum, np.nan)
@@ -119,7 +127,7 @@ def fit_month(panel: pd.DataFrame, market: str, month: str, arm: str, state: Pat
     boundary = pd.Timestamp(month + "-01")
     if not research and month != pd.Timestamp.now(tz="UTC").strftime("%Y-%m"):
         raise ValueError("Live shadow models may only be created for the current month")
-    folder = state / market / ("research" if research else "models") / month / arm
+    folder = market_root(state, market) / ("research" if research else "models") / month / arm
     if folder.exists():
         card, _ = load_model(folder)
         if card["target"] != TARGET or card["version"] != VERSION:
@@ -261,7 +269,7 @@ def comparison_metrics(frame: pd.DataFrame) -> dict:
 
 def audit(panel: pd.DataFrame, prices_path: Path, market: str, state: Path,
           macro_features: list[str], provenance: dict) -> dict:
-    root = state / market / "audits"
+    root = market_root(state, market) / "audits"
     parts, folds = [], []
     for month in FOLDS:
         folder = root / month
@@ -289,8 +297,8 @@ def audit(panel: pd.DataFrame, prices_path: Path, market: str, state: Path,
                 for kind, values in predict(test, card, boosters).items():
                     result[f"{arm}_{kind}"] = values
             # Both arms must actually use the same purged training and calibration samples.
-            a, _ = load_model(state / market / "research" / month / "price")
-            b, _ = load_model(state / market / "research" / month / "macro")
+            a, _ = load_model(market_root(state, market) / "research" / month / "price")
+            b, _ = load_model(market_root(state, market) / "research" / month / "macro")
             for h in ("up", "down"):
                 for key in ("train_keys_sha256", "calibration_keys_sha256"):
                     if a["heads"][h][key] != b["heads"][h][key]:
@@ -326,7 +334,7 @@ def infer(prices: pd.DataFrame, market: str, state: Path, vintages: pd.DataFrame
     signal = str(prices.date.max().date())
     if pd.Timestamp.now(tz="UTC").tz_localize(None).normalize() - pd.Timestamp(signal) > pd.Timedelta(days=7):
         raise ValueError(f"Stale shadow signal: {signal}")
-    target = state / market / "predictions" / signal
+    target = market_root(state, market) / "predictions" / signal
     if target.exists():
         live.verify_prediction(target)
         print(f"Keeping immutable paired shadow prediction: {market} {signal}", flush=True)
@@ -338,7 +346,7 @@ def infer(prices: pd.DataFrame, market: str, state: Path, vintages: pd.DataFrame
     models = {}
     kinds = []
     for arm in ARMS:
-        path = state / market / "models" / signal[:7] / arm
+        path = market_root(state, market) / "models" / signal[:7] / arm
         if not path.exists():
             raise FileNotFoundError(f"Missing fixed shadow {arm} model for {signal[:7]}; monthly training is required")
         card, boosters = load_model(path)
@@ -350,7 +358,7 @@ def infer(prices: pd.DataFrame, market: str, state: Path, vintages: pd.DataFrame
         for kind, values in predict(panel, card, boosters).items():
             output[f"{arm}_{kind}"] = values
     rows = output.sort_values("ticker").to_dict(orient="records")
-    return live.freeze_prediction(state, market, signal, rows,
+    return live.freeze_prediction(state / market, VERSION, signal, rows,
                                   {"version": VERSION, "target": TARGET, "models": models,
                                    "signal_date": signal, "created_at": live.utc_now(),
                                    "prediction_kind": "delayed" if "delayed" in kinds else "live",
@@ -359,7 +367,7 @@ def infer(prices: pd.DataFrame, market: str, state: Path, vintages: pd.DataFrame
 
 
 def export_report(state: Path, live_state: Path, market: str, output: Path) -> None:
-    root = state / market
+    root = market_root(state, market)
     audit_path = root / "audits" / "summary.json"
     comparison = live.read_json(audit_path) if audit_path.exists() else None
     predictions = sorted((root / "predictions").glob("*/rows.json"))
@@ -381,11 +389,13 @@ def export_report(state: Path, live_state: Path, market: str, output: Path) -> N
                                        for h, details in card["heads"].items()}
     macro_path = state / "macro" / "manifest.json"
     evaluation_path = root / "evaluations" / "latest.json"
+    quality_path = root / "price_quality.json"
     report = {"schema": "ews-research-report-v1", "market": market, "generated_at": live.utc_now(),
               "target": TARGET, "comparison": comparison, "latest_shadow": latest,
               "macro": live.read_json(macro_path) if macro_path.exists() else None,
               "live_records": live_records, "production_calibration_not_test": diagnostics,
               "shadow_outcomes": live.read_json(evaluation_path) if evaluation_path.exists() else None,
+              "price_quality": live.read_json(quality_path) if quality_path.exists() else None,
               "limitations": ["Historical prices/listings are a retained current vintage; delisting and survivorship bias remain.",
                               "The full benchmark means all active stocks observable in retained data, not a complete exchange census.",
                               "Five-day terminal adjusted-price return is not a tradable portfolio or a total return after costs.",
@@ -397,7 +407,7 @@ def export_report(state: Path, live_state: Path, market: str, output: Path) -> N
 
 def evaluate(prices: pd.DataFrame, market: str, state: Path) -> None:
     """Evaluate saved paired forecasts, with delayed and live cohorts separate."""
-    root = state / market
+    root = market_root(state, market)
     archives = sorted((root / "predictions").glob("*/rows.json"))
     dates = sorted(prices.date.unique())
     matured = {p.parent.name for p in archives if sum(d > pd.Timestamp(p.parent.name) for d in dates) >= 63}

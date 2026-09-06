@@ -94,10 +94,13 @@ jobs:
         run: |
           python - <<'PY'
           import os
+          import sys
           from datetime import datetime,timezone
           from pathlib import Path
+          sys.path.insert(0,'src')
+          from ai_stock_assistant.shadow_ews import market_root
           month=datetime.now(timezone.utc).strftime('%Y-%m')
-          missing=[f'{m}/{a}' for m in ['kr','us'] for a in ['price','macro'] if not Path(f'data/dashboard_ews_shadow/{m}/models/{month}/{a}/model.json').exists()]
+          missing=[f'{m}/{a}' for m in ['kr','us'] for a in ['price','macro'] if not (market_root(Path('data/dashboard_ews_shadow'),m)/'models'/month/a/'model.json').exists()]
           ready=not missing
           with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f"ready={str(ready).lower()}\n")
           if missing:
