@@ -168,6 +168,16 @@
     "size": 330319,
     "sha256": "fccb51978118e1287c9b1d9313f4f91ab7ae582baadcdf07de90c8103afb2b6f"
   },
+  "data/dashboard_ews/kr/predictions/2026-09-04/meta.json": {
+    "type": "file",
+    "size": 288,
+    "sha256": "0ec02b3efa71257f6e196fd28da0e9d6eb202c2305f8d4686ba75073d0d7e231"
+  },
+  "data/dashboard_ews/kr/predictions/2026-09-04/rows.json": {
+    "type": "file",
+    "size": 866553,
+    "sha256": "5189a4a0526a0a23d98d842f2198d0ac76a71cffecb789b4ae7a1a923968d302"
+  },
   "data/dashboard_ews/us/evaluations/2026-09.json": {
     "type": "file",
     "size": 95,
@@ -308,6 +318,16 @@
     "size": 330322,
     "sha256": "0aa75bf4ffc077d2f68ceb3c243f6c08918484c16bac264a911a852012c0333e"
   },
+  "data/dashboard_ews/us/predictions/2026-09-04/meta.json": {
+    "type": "file",
+    "size": 288,
+    "sha256": "7549684089837ac0de03793e32902dd9a2d5c0cf28206bbb4b6d062c811cd801"
+  },
+  "data/dashboard_ews/us/predictions/2026-09-04/rows.json": {
+    "type": "file",
+    "size": 2237420,
+    "sha256": "5a12ef74bc9047147e80345997311e1bdc7fb90cf15308c0362470c29971356b"
+  },
   "data/raw/krx_ohlcv_kospi_kosdaq_state.csv": {
     "type": "split",
     "encoding": "gzip",
@@ -340,7 +360,7 @@
   "data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv": {
     "type": "split",
     "encoding": "gzip",
-    "size": 656560510,
+    "size": 656516503,
     "parts": [
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0000",
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0001",
@@ -361,7 +381,7 @@
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0016",
       ".parts/data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv/part-0017"
     ],
-    "sha256": "b32092536fb072d5025ee85d57487bb38159ae0f53512963925840e5f97d98e0"
+    "sha256": "68a4847ee5cd3d1118bbe04e0fbf4b9a01da5fc1932fa3951e175a2389fd6970"
   },
   "data/raw/us_listings_nasdaq_nyse_yfinfo_state.csv": {
     "type": "file",
