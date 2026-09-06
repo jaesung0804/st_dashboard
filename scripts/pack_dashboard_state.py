@@ -139,7 +139,7 @@ def main() -> None:
     ordinary = []
     for item in args.paths:
         source = Path(item)
-        if source.is_dir() and source.as_posix() in ("data/raw/opendart_accounts", "data/raw/yfinance_financials"):
+        if source.is_dir() and source.as_posix() in ("data/raw/opendart_accounts", "data/raw/yfinance_financials", "data/dashboard_ews_shadow"):
             manifest[source.as_posix()] = pack_directory(source, state_dir, source.as_posix(), args.part_size)
             print(f"Packed {source}: {manifest[source.as_posix()]['files']} retained files", flush=True)
         else:

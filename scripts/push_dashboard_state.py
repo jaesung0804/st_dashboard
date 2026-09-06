@@ -51,6 +51,16 @@ class GitHubAPI:
             delay = max(2 ** attempt, float(response.headers.get("Retry-After", 0)))
             if not retryable or attempt == 2 or delay > 60:
                 # Never log a token, a response body or the uploaded contents.
+                if response.status_code == 422 and endpoint == "/git/trees":
+                    # Tree validation metadata contains field/code identifiers,
+                    # not blob contents. Keep enough information to diagnose it.
+                    try:
+                        details = response.json()
+                        errors = [{k: e[k] for k in ("resource", "field", "code") if k in e}
+                                  for e in details.get("errors", []) if isinstance(e, dict)]
+                        raise RuntimeError(f"GitHub tree validation failed: {str(details.get('message', ''))[:250]}; {errors}")
+                    except (ValueError, TypeError):
+                        pass
                 raise RuntimeError(f"GitHub {method} {endpoint}: HTTP {response.status_code}")
             time.sleep(delay)
         raise AssertionError("unreachable")

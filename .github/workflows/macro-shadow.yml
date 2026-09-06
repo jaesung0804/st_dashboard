@@ -123,6 +123,7 @@ jobs:
           PY
       - name: Pack complete state including independent experiment
         if: steps.ready.outputs.ready == 'true'
+        # Keep the growing experiment in a bounded compressed archive.
         run: python scripts/pack_dashboard_state.py --state-dir .dashboard-state
       - name: Retain experiment recovery artifact
         if: always()
