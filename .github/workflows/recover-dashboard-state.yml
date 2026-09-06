@@ -1,0 +1,71 @@
+name: Dashboard State Recovery
+run-name: Recover September trained models without retraining
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/recover-dashboard-state.yml]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: utf-8
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: app
+      - uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - name: Install dependencies
+        run: |
+          $PSNativeCommandUseErrorActionPreference = $true
+          python -m pip install -r requirements-live.txt
+          python -m pip install -e .
+      - name: Download pinned successful training backup
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          artifact-ids: "9980415600"
+          run-id: "34003362750"
+          github-token: ${{ github.token }}
+          path: app/.recovery-artifact
+          skip-decompress: true
+          digest-mismatch: error
+      - name: Verify backup and restore original trained models
+        run: >-
+          python scripts/recover_dashboard_state.py
+          --artifact-dir .recovery-artifact
+          --artifact-sha256 1d127dd84e38ddb02290627592158467482d399c9fc9358c497402c3bcba3514
+          --source-commit 0d2fbef78eca3ce9b7fc2ba8c56a1afe55a7a0e1
+          --expected-state-commit 28635772f377bc4a26d2c23c4bc55384456304fc
+          --month 2026-09
+      - name: Pack lossless compressed state
+        run: python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+      - name: Retain recovery verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: recovered-model-verification-${{ github.run_id }}
+          path: app/outputs/recovery/model-verification.json
+          if-no-files-found: error
+          retention-days: 7
+      - name: Upload small blobs and atomically persist state
+        run: python scripts/push_dashboard_state.py --state-dir .dashboard-state

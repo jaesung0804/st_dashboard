@@ -16,7 +16,7 @@ on:
     # After the US close; Korean signals use the already completed Korean session.
     - cron: "30 22 * * 1-5"
   workflow_run:
-    workflows: ["Monthly Training"]
+    workflows: ["Monthly Training", "Dashboard State Recovery"]
     types: [completed]
 permissions:
   contents: write

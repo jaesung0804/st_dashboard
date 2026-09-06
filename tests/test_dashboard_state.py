@@ -164,7 +164,7 @@ class DashboardStateTests(unittest.TestCase):
                 "--part-size", "5", "--paths", self.rel, model_rel,
             )
             self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(attributes.read_text(), "*.json text eol=lf\n.parts/** -text\ndata/dashboard_ews/** -text\n")
+        self.assertEqual(attributes.read_text(), "*.json text eol=lf\n.parts/** -text\ndata/dashboard_ews/** -text\ndata/** -text\noutputs/** -text\n")
         manifest = json.loads((self.state / "state-manifest.json").read_text())
         self.assertEqual(manifest[self.rel]["sha256"], hashlib.sha256(expected).hexdigest())
         self.commit_state()
