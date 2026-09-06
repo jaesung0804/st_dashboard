@@ -25,6 +25,15 @@ def inputs(market):
     listing=pd.read_csv(Path('data/raw')/live.LISTING_FILES[market],dtype={'ticker':str}).fillna('')
     sector=listing.get('sector',pd.Series('',index=listing.index)).astype(str)+' '+listing.get('industry',pd.Series('',index=listing.index)).astype(str)
     financial=set(listing.loc[sector.str.contains('Financial|Bank|Insurance|은행|금융|보험|증권',case=False,regex=True),'ticker'])
+    # Listing sector columns are often empty. Use official issuer profiles,
+    # not a missing sector interpreted as a manufacturing classification.
+    for profile in folder.glob('*-profile.json'):
+        item=json.loads(profile.read_text());ticker=profile.name.removesuffix('-profile.json')
+        if market=='kr':
+            is_financial=str(item.get('induty_code',''))[:2] in ['64','65','66']
+        else:
+            sic=int(item.get('sic') or 0);is_financial=6000<=sic<6500 or 6700<=sic<6800
+        if is_financial:financial.add(ticker)
     dated=accounting.events(facts,financial)
     if dated.empty:raise ValueError(f'No dated {market} financials')
     path=ROOT/'accounting'/market;path.mkdir(parents=True,exist_ok=True)
@@ -147,16 +156,17 @@ def run(market):
         cards[arm]={}
         for head in ['up','down']:
             train,cal=live.chronological_split(paired,head,pd.Timestamp('2026-08-31'))
-            predictor,meta=fit_head(train,cal,head,live.FEATURES+extra,folder/'models'/'2026-09'/f'{arm}-{head}.joblib')
+            predictor,meta=fit_head(train,cal,head,live.FEATURES+extra,folder/'models'/'accounting-pit-v2'/'2026-09'/f'{arm}-{head}.joblib')
             latest[arm+'_'+head]=predictor(current);cards[arm][head]=meta
     latest.to_csv(folder/'latest_accounting_scores.csv.gz',index=False)
-    report={'market':market,'created_at':live.utc_now(),'status':'research_comparison','target':shadow.TARGET,
+    report={'market':market,'model_version':'accounting-pit-v2','created_at':live.utc_now(),'status':'research_comparison','target':shadow.TARGET,
         'coverage':coverage,'folds':folds,'aggregate':aggregate,'latest_training':cards,
         'latest_rows':len(latest),'macro_provenance':provenance,
         'limitations':['128-company predeclared pilot; retained-current-listing survivorship remains.',
             'Publication day + 1 calendar day; historical corrections affect only later as-of joins.',
             'Four mature holdout months; overlapping six-month outcomes are not independent bets.',
             'Missing accounting fields are not zeros. Non-December Korean fiscal years excluded.',
+            'Issuer sector profiles are current snapshots, not a historical industry-classification database.',
             'Valuation, customer concentration and one-off gains require additional dated shares/notes; not fabricated.',
             'Cash after PP&E purchases excludes intangible investment and acquisitions; not comprehensive free cash flow.']}
     live.write_json(folder/'comparison.json',json.loads(json.dumps(report,default=str).replace('NaN','null')))

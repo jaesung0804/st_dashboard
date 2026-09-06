@@ -1,16 +1,22 @@
 """Cache official filing-level accounting inputs for a fixed, non-return-selected cohort."""
 from __future__ import annotations
-import argparse, concurrent.futures, gzip, hashlib, json, os, sys, time, urllib.request
+import argparse, concurrent.futures, gzip, hashlib, json, os, sys, time, urllib.request, threading
 from pathlib import Path
 import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 
 ROOT=Path('data/dashboard_research/accounting_sources')
 UA='Jaesung research https://github.com/jaesung0804/st_dashboard'
+REQUEST_LOCK=threading.Lock()
+LAST_REQUEST=0.
 
 def get(url):
+    global LAST_REQUEST
     for attempt in range(3):
         try:
+            with REQUEST_LOCK:
+                time.sleep(max(0.,.22-(time.monotonic()-LAST_REQUEST)))
+                LAST_REQUEST=time.monotonic()
             with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':UA,'Accept-Encoding':'identity'}),timeout=25) as r:
                 return r.read()
         except Exception:
@@ -34,6 +40,10 @@ def collect_us(tickers):
                 if int(data['cik'])!=cik:raise ValueError('Identifier mismatch')
                 path.write_bytes(gzip.compress(body,mtime=0))
             body=gzip.decompress(path.read_bytes());record.update(status='ok',sha256=hashlib.sha256(body).hexdigest())
+            profile=folder/(ticker+'-profile.json')
+            if not profile.exists():
+                company=json.loads(get(f'https://data.sec.gov/submissions/CIK{cik:010d}.json'))
+                profile.write_text(json.dumps({k:company.get(k) for k in ['cik','name','sic','sicDescription','fiscalYearEnd']}))
         except Exception as error:record.update(status='failed',error=type(error).__name__)
         time.sleep(.4)
         return record

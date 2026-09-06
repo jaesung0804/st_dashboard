@@ -45,7 +45,7 @@ jobs:
           run-id: 34020609369
           name: dated-korean-accounting
           path: app/data/dashboard_research/accounting_sources
-      - name: Collect SEC filing facts for the predeclared cohort
+      - name: Collect SEC filing facts and official industry profiles
         run: python scripts/collect_accounting_sources.py --market us
       - name: Reconstruct isolated August and September records
         run: |

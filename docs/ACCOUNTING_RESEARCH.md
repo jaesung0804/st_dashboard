@@ -58,3 +58,8 @@ it would not create information. September Korean compression and the August
 model transition are measured separately. Calibration-fit diagnostics are
 explicitly not independent test scores. August 2026 follow-up through September
 4 is about one month, never a completed six-month backtest or executed strategy.
+
+Official DART industry codes and SEC SIC profiles identify financial companies
+when listing-sector fields are empty. These are current classification snapshots,
+not a claim to have historical sector vintages. Version accounting-pit-v2 masks
+inapplicable manufacturing/cash-conversion ratios for these issuers.
