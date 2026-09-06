@@ -61,5 +61,10 @@ explicitly not independent test scores. August 2026 follow-up through September
 
 Official DART industry codes and SEC SIC profiles identify financial companies
 when listing-sector fields are empty. These are current classification snapshots,
-not a claim to have historical sector vintages. Version accounting-pit-v2 masks
+not a claim to have historical sector vintages. Version accounting-pit-v3 masks
 inapplicable manufacturing/cash-conversion ratios for these issuers.
+
+Pilot v3 uses 26 calibration signal dates (about six months) for every market
+and arm, because the 13-date production window had fewer than 1,000 rows after
+financial applicability masking. The 1,000-row/two-class minimum is unchanged;
+this is a documented development revision, not an untouched preregistered test.

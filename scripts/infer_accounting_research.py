@@ -12,7 +12,7 @@ def run(market):
     root = Path('data/dashboard_research/accounting') / market
     prices = live.read_prices(Path('data/raw') / live.PRICE_FILES[market])
     signal = prices.date.max(); month = signal.strftime('%Y-%m')
-    folder = root / 'models' / 'accounting-pit-v2' / month
+    folder = root / 'models' / 'accounting-pit-v3' / month
     if not folder.exists():
         raise ValueError(f'{market}: no frozen accounting model for {month}; run the monthly comparison first')
     panel = live.feature_panel(prices, market, training=False)

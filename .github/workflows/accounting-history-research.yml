@@ -38,15 +38,8 @@ jobs:
         run: |
           python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
           python scripts/verify_research_integrity.py before
-      - name: Restore receipt-dated Korean collection
-        uses: actions/download-artifact@v4
-        with:
-          github-token: ${{ github.token }}
-          run-id: 34020609369
-          name: dated-korean-accounting
-          path: app/data/dashboard_research/accounting_sources
-      - name: Collect SEC filing facts and official industry profiles
-        run: python scripts/collect_accounting_sources.py --market us
+      - name: Restore verified receipt-dated event snapshot
+        run: python scripts/restore_accounting_seed.py
       - name: Reconstruct isolated August and September records
         run: |
           python scripts/reconstruct_market_history.py --market kr
@@ -54,8 +47,8 @@ jobs:
           python scripts/analyze_market_reconstruction.py
       - name: Compare price macro and accounting inputs
         run: |
-          python scripts/run_accounting_comparison.py --market kr
-          python scripts/run_accounting_comparison.py --market us
+          python scripts/run_accounting_comparison.py --market kr --prepared
+          python scripts/run_accounting_comparison.py --market us --prepared
       - name: Verify frozen production and reconstructed coverage
         run: |
           python scripts/run_monthly_ews.py export --days 60

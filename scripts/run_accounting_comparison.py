@@ -9,6 +9,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from ai_stock_assistant import monthly_ews as live,shadow_ews as shadow
 from ai_stock_assistant.data import accounting_pit as accounting,macro_vintages as macro,price_quality
 
+CALIBRATION_DATES=26  # A fixed half-year window gives the pilot >=1,000 calibration rows.
 ROOT=Path('data/dashboard_research');FOLDS=['2024-10','2025-04','2025-10','2026-02']
 ARMS={'price':[],'price_macro':macro.FEATURES,'price_accounting':accounting.FEATURES,'price_macro_accounting':macro.FEATURES+accounting.FEATURES}
 
@@ -42,7 +43,7 @@ def inputs(market):
         'first_available':str(dated.available_at.min()),'last_available':str(dated.available_at.max()),
         'availability':'actual filing day + 1 calendar day; backward as-of join',
         'sources':{str(p.relative_to(ROOT)):live.digest(p) for p in folder.glob('*') if p.is_file()},
-        'features':accounting.FEATURES,'financial_sector_issuers':sorted(financial&set(dated.ticker))})
+        'events_sha256':live.digest(path/'filing_events.csv.gz'),'features':accounting.FEATURES,'financial_sector_issuers':sorted(financial&set(dated.ticker))})
     return dated
 
 def fit_head(train,cal,head,features,save_to=None):
@@ -85,8 +86,14 @@ def fit_head(train,cal,head,features,save_to=None):
             live.write_json(save_to.with_suffix('.json'),{**metadata,'sha256':live.digest(save_to)})
     return lambda frame:live.calibrated(raw(frame),settings),metadata
 
-def run(market):
-    dated=inputs(market);folder=ROOT/'accounting'/market
+def run(market,prepared=False):
+    folder=ROOT/'accounting'/market
+    if prepared:
+        audit=live.read_json(folder/'source_audit.json')
+        if live.digest(folder/'filing_events.csv.gz')!=audit['events_sha256']:
+            raise ValueError('Prepared financial event checksum mismatch')
+        dated=pd.read_csv(folder/'filing_events.csv.gz',dtype={'ticker':str,'filing_id':str},parse_dates=['filed','available_at','period_end'])
+    else:dated=inputs(market)
     cache=Path('.work')/(market+'-smooth-panel.pkl.gz');cache.parent.mkdir(exist_ok=True)
     if cache.exists():panel=pd.read_pickle(cache)
     else:
@@ -112,7 +119,7 @@ def run(market):
         splits={};fold['excluded_heads']={}
         for head in ['up','down']:
             try:
-                splits[head]=live.chronological_split(paired,head,boundary-pd.Timedelta(days=1))
+                splits[head]=live.chronological_split(paired,head,boundary-pd.Timedelta(days=1),calibration_days=CALIBRATION_DATES)
             except ValueError as e:
                 fold['excluded_heads'][head]=str(e)
         if not splits:
@@ -155,11 +162,12 @@ def run(market):
     for arm,extra in ARMS.items():
         cards[arm]={}
         for head in ['up','down']:
-            train,cal=live.chronological_split(paired,head,pd.Timestamp('2026-08-31'))
-            predictor,meta=fit_head(train,cal,head,live.FEATURES+extra,folder/'models'/'accounting-pit-v2'/'2026-09'/f'{arm}-{head}.joblib')
+            train,cal=live.chronological_split(paired,head,pd.Timestamp('2026-08-31'),calibration_days=CALIBRATION_DATES)
+            predictor,meta=fit_head(train,cal,head,live.FEATURES+extra,folder/'models'/'accounting-pit-v3'/'2026-09'/f'{arm}-{head}.joblib')
             latest[arm+'_'+head]=predictor(current);cards[arm][head]=meta
     latest.to_csv(folder/'latest_accounting_scores.csv.gz',index=False)
-    report={'market':market,'model_version':'accounting-pit-v2','created_at':live.utc_now(),'status':'research_comparison','target':shadow.TARGET,
+    report={'market':market,'model_version':'accounting-pit-v3','created_at':live.utc_now(),'status':'research_comparison','target':shadow.TARGET,
+        'calibration_signal_dates':CALIBRATION_DATES,'calibration_window_reason':'Half-year window selected to meet unchanged 1000-row minimum in the small pilot, uniformly across arms and markets.',
         'coverage':coverage,'folds':folds,'aggregate':aggregate,'latest_training':cards,
         'latest_rows':len(latest),'macro_provenance':provenance,
         'limitations':['128-company predeclared pilot; retained-current-listing survivorship remains.',
@@ -173,4 +181,4 @@ def run(market):
     print('ACCOUNTING COMPARISON COMPLETE',market,flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(__doc__);p.add_argument('--market',choices=['kr','us'],required=True);a=p.parse_args();run(a.market)
+    p=argparse.ArgumentParser(__doc__);p.add_argument('--market',choices=['kr','us'],required=True);p.add_argument('--prepared',action='store_true');a=p.parse_args();run(a.market,a.prepared)

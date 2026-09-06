@@ -1,0 +1,89 @@
+{
+  "collected_at": "2026-09-06",
+  "kind": "receipt-dated-derived-events",
+  "notes": "Official SEC/DART facts normalized with actual filings. A frozen snapshot, not a live-source refresh. Raw source checksums are in source_audit.json.",
+  "files": {
+    "data/dashboard_research/accounting/kr/filing_events.csv.gz": "0f07c7d4e1d340f5b09816346c66c2898805a31ce22f1d31cc336f090af9cb53",
+    "data/dashboard_research/accounting/kr/source_audit.json": "a1adbc5147c885fba790ff9bd343e564c2af49fce4bf10f39c24f74cfdc97806",
+    "data/dashboard_research/accounting/us/filing_events.csv.gz": "48320d02173e72e42c49b347a6608889d766c4491b9d834a81b495113977208c",
+    "data/dashboard_research/accounting/us/source_audit.json": "7b8ca58e90ce5212fcc603631bfc1be71674c61a471a25de437ffcb186264d34"
+  },
+  "sha256": "317a07335e250c833db61a8b9fc1eb09cd63f664591d263e1c5cb045c12f9fd4",
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "size": 65536,
+      "sha256": "bea10f8e82232834130e3460e83a6741b1630e0034fa2f0dc1edd53089a2d8ae"
+    },
+    {
+      "name": "part-001.bin",
+      "size": 65536,
+      "sha256": "a9d01912b294afed597e2a17256c8a12c87617a68e56770b8e1af6655f3227bc"
+    },
+    {
+      "name": "part-002.bin",
+      "size": 65536,
+      "sha256": "9dd81c2f39631a20e86a58850b555b30da302018a5d24940fc62f6208440a7b2"
+    },
+    {
+      "name": "part-003.bin",
+      "size": 65536,
+      "sha256": "b41b127cc70a81adee7d7205df69333c4dc2f96e2e358a32369bb1553857c9cc"
+    },
+    {
+      "name": "part-004.bin",
+      "size": 65536,
+      "sha256": "ef40e9f5114edeaaa63a9f7f96adb5eb22315bf65f45c051b3db3c5371e48664"
+    },
+    {
+      "name": "part-005.bin",
+      "size": 65536,
+      "sha256": "696b894d863975c72440944355b0d3d198f30590c441e1807227615c50c66146"
+    },
+    {
+      "name": "part-006.bin",
+      "size": 65536,
+      "sha256": "316aef6ee51ae07eb5a85b0756a5d0f7e1978099d3143c24280483351874113a"
+    },
+    {
+      "name": "part-007.bin",
+      "size": 65536,
+      "sha256": "ea04586bd82c2082f53e94484be3ccfaa6f7e2332f80cd3590abdabf09da03df"
+    },
+    {
+      "name": "part-008.bin",
+      "size": 65536,
+      "sha256": "13b266eb672397ba8a9cedcdeb5ef636f65753fe0a5d49b54c52f0f5b7975284"
+    },
+    {
+      "name": "part-009.bin",
+      "size": 65536,
+      "sha256": "4ed72a0160b07c1c75e907dbe28fa11b10c21707897b618e5f58922457c9f6c8"
+    },
+    {
+      "name": "part-010.bin",
+      "size": 65536,
+      "sha256": "0e92026ef5e9456a04f42ef6d8810df83cec3229c9c343cc8c1c1560a669becc"
+    },
+    {
+      "name": "part-011.bin",
+      "size": 65536,
+      "sha256": "6a8e17ccc0e3b3e341ab02e13953959e55a8021d6ee2dde12a853371e4603e5b"
+    },
+    {
+      "name": "part-012.bin",
+      "size": 65536,
+      "sha256": "771df9cf7e9174d23b264ea988246ebf2c98f1da6c5eaef29e95ebcc28e6f1c3"
+    },
+    {
+      "name": "part-013.bin",
+      "size": 65536,
+      "sha256": "bff674add78d3d99f96825a902dc21a5e25209919e62743d590e2902bb4b60f0"
+    },
+    {
+      "name": "part-014.bin",
+      "size": 54922,
+      "sha256": "ca57cfc61d4d159ee764b8c7b0b2e26ae43f656b8d08ed7f3bcfb3dacbef5cd2"
+    }
+  ]
+}
