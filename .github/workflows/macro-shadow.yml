@@ -1,0 +1,48 @@
+name: Macro EWS comparison
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/macro-shadow.yml]
+permissions:
+  contents: read
+jobs:
+  data-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check archival macro data access
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, urllib.request, urllib.parse, json
+          from pathlib import Path
+          out=Path('macro-probe'); out.mkdir()
+          print('Configured FRED key:', bool(os.environ.get('FRED_API_KEY')))
+          urls={
+            'unrate-2020': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&cosd=2019-01-01&coed=2026-09-04&vintage_date=2020-01-01',
+            'unrate-2021': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&cosd=2019-01-01&coed=2026-09-04&vintage_date=2021-01-01',
+            'treasury-2020': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&cosd=2019-01-01&coed=2026-09-04&vintage_date=2020-01-01',
+          }
+          if os.environ.get('FRED_API_KEY'):
+            query=urllib.parse.urlencode(dict(series_id='UNRATE',api_key=os.environ['FRED_API_KEY'],file_type='json',observation_start='2019-01-01',realtime_start='2019-01-01',realtime_end='2026-09-04',output_type=1))
+            urls['api-revisions']='https://api.stlouisfed.org/fred/series/observations?'+query
+          for name,url in urls.items():
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'st_dashboard macro research; public archival data'})
+              with urllib.request.urlopen(req,timeout=25) as response:
+                body=response.read(2000000)
+                print(name,response.status,response.headers.get('Content-Type'),len(body))
+                (out/(name+'.txt')).write_bytes(body)
+                lines=body.decode('utf-8-sig').splitlines()
+                if '<html' not in body[:500].decode('utf-8','ignore').lower():
+                  print('preview',lines[:3], 'last',lines[-2:])
+            except Exception as exc:
+              print(name,type(exc).__name__)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macro-source-preflight
+          path: macro-probe
+          retention-days: 7
