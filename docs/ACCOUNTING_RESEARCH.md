@@ -45,8 +45,8 @@ can be applied by `scripts/infer_accounting_research.py`, without refitting.
 It explicitly fails if that month's model is missing. This pilot does not
 replace or automatically promote production recommendations.
 
-The workflow `Accounting and history research` restores the official Korean
-collection, collects SEC facts, compares the arms, verifies original hashes,
+The workflow `Accounting and history research` restores a verified dated event
+snapshot, compares the arms, verifies original hashes,
 saves a recovery artifact, atomically persists state and publishes the report.
 The public guide's `재무·확률 진단` tab shows the pilot and probability diagnosis.
 
@@ -68,3 +68,9 @@ Pilot v3 uses 26 calibration signal dates (about six months) for every market
 and arm, because the 13-date production window had fewer than 1,000 rows after
 financial applicability masking. The 1,000-row/two-class minimum is unchanged;
 this is a documented development revision, not an untouched preregistered test.
+
+GitHub runners received HTTP 403 from SEC. The committed snapshot therefore
+preserves the successfully collected and normalized filing events, with per-part
+and per-file SHA-256 and raw-source audit hashes. This is not labelled a live
+source refresh. Both training and current inference use the same experimental
+price-quality policy; production price inputs remain unchanged.

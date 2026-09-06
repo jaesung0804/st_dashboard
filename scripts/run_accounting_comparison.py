@@ -154,7 +154,8 @@ def run(market,prepared=False):
             out['by_date']=daily;out['top_mean_return']=float(np.nanmean([x['top_return'] for x in daily]));out['top_mean_excess']=float(np.nanmean([x['top_excess'] for x in daily]))
             aggregate[arm][head]=out
     # A fixed September experimental model is fitted to the same dated cohort.
-    latest_panel=pd.read_pickle(ROOT/'analysis'/f'{market}-daily-panel.pkl.gz')
+    current_prices,current_quality=price_quality.prepare(live.read_prices(Path('data/raw')/live.PRICE_FILES[market]),market)
+    latest_panel=live.feature_panel(current_prices,market,training=False)
     latest_panel=macro.attach(latest_panel.loc[latest_panel.date==latest_panel.date.max()],vintages)
     latest_panel=accounting.attach(latest_panel.loc[latest_panel.ticker.isin(cohort)],dated)
     current=latest_panel.loc[latest_panel.fin_observed_fraction.ge(.25)].copy()

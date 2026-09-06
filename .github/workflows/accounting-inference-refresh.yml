@@ -1,0 +1,49 @@
+name: Refresh accounting inference
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/accounting-inference-refresh.yml]
+permissions:
+  contents: write
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
+jobs:
+  infer-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: app
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PAGES_BUILD_VERSION: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: app
+      - uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - run: python -m pip install -r requirements-live.txt
+      - name: Restore and fingerprint production
+        run: |
+          python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+          python scripts/verify_research_integrity.py before
+      - name: Infer with frozen accounting models and matching price policy
+        run: python scripts/infer_accounting_research.py --market all
+      - name: Verify archive and persist research
+        run: |
+          python scripts/run_monthly_ews.py export --days 60
+          python scripts/verify_research_integrity.py after
+          python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+          python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Publish verified research presentation
+        run: python scripts/build_pages_deploy.py --days 60 --push

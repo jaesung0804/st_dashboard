@@ -5,12 +5,12 @@ import joblib
 import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ai_stock_assistant import monthly_ews as live
-from ai_stock_assistant.data import accounting_pit as accounting, macro_vintages as macro
+from ai_stock_assistant.data import accounting_pit as accounting, macro_vintages as macro, price_quality
 
 
 def run(market):
     root = Path('data/dashboard_research/accounting') / market
-    prices = live.read_prices(Path('data/raw') / live.PRICE_FILES[market])
+    prices, quality = price_quality.prepare(live.read_prices(Path('data/raw') / live.PRICE_FILES[market]), market)
     signal = prices.date.max(); month = signal.strftime('%Y-%m')
     folder = root / 'models' / 'accounting-pit-v3' / month
     if not folder.exists():
@@ -30,6 +30,9 @@ def run(market):
         arm, head = file.stem.rsplit('-', 1)
         result[arm + '_' + head] = accounting.predict_model(joblib.load(file), panel)
     result.to_csv(root / 'latest_accounting_scores.csv.gz', index=False)
+    comparison=live.read_json(root / 'comparison.json');comparison['latest_rows']=len(result)
+    comparison['latest_inference_at']=live.utc_now();comparison['latest_price_quality']=quality
+    live.write_json(root / 'comparison.json',comparison)
     # Accounting source refresh is separate. Age/missingness remain visible.
     print(market, signal.date(), len(result), 'frozen accounting research scores')
 
