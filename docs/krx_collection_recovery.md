@@ -39,6 +39,30 @@ and retains collection diagnostics/checkpoints as a seven-day artifact. They
 are a performance cache, not the authoritative `dashboard-state` branch. An
 empty cache or a failed cache restore causes re-fetching, not missing data.
 
+## Missing intraday quotes
+
+Run [34000481861](https://github.com/jaesung0804/st_dashboard/actions/runs/34000481861)
+processed all 2,636 tickers in about 11.5 minutes but rejected one ticker.
+A fresh Naver chart request on 2026-09-06 confirmed the row for 010780 on
+2026-08-13: `open=high=low=0`, `close=adjusted_close=18000`, `volume=199329`.
+This is missing intraday information, not evidence that prices traded at zero
+or that the stock was suspended for the whole session.
+
+The collector retains these exact raw values and separately counts missing OHL
+rows, including those with positive volume, in the summary and collection report.
+Only the all-zero OHL shape is exempt from the price-range check. Partially zero
+traded quotes, inverted nonzero prices, invalid closes, negatives, duplicates and
+other existing validation failures still block replacement of canonical prices.
+Checkpoint format/version is unchanged, so valid ranges from the failed run can
+be reused.
+
+Monthly training and daily inference mask unavailable intraday ranges before
+computing `range20`. A 20-session window containing missing ranges is NaN, handled
+by LightGBM's missing-value path and the linear model's fitted training median.
+It is not filled with an invented high/low or zero volatility. Actual close and
+volume inputs and close-based target labels remain available; archived forecasts
+and existing monthly model artifacts remain immutable.
+
 The original run cannot be rerun to execute new code: a rerun uses its original
 commit. Use **Monthly Training -> Run workflow -> main -> all** after the fix,
 or the existing scoped push trigger when `monthly-training.yml` changes. A

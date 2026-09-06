@@ -1,7 +1,7 @@
 name: Monthly Training
-# Price collection uses resumable ticker ranges and decodes Naver EUC-KR XML.
-# This change also starts
-# the first training retry on the corrected commit via the scoped push trigger.
+# Retry with resumable prices and explicit handling of unavailable intraday OHLC.
+# This workflow change starts training on the corrected commit; an Actions rerun
+# of an older run would still execute its old validation code.
 run-name: Monthly Training (${{ inputs.market || 'all' }})
 on:
   workflow_dispatch:

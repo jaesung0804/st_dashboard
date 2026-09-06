@@ -64,8 +64,13 @@ def _validate(frame: pd.DataFrame, ticker: str, start: str, end: str) -> pd.Data
         raise ValueError("Non-finite OHLCV values")
     if (frame[numeric] < 0).any().any() or (frame[["close", "adjusted_close"]] <= 0).any().any():
         raise ValueError("Invalid OHLCV values")
-    # Suspended quotes may have zero open/high/low and zero volume.
-    traded = frame["volume"] > 0
+    # Naver can omit all intraday quotes even with positive close and volume
+    # (010780 on 2026-08-13). Preserve that raw sentinel, not invented OHLC.
+    # The monthly model masks the unavailable range rather than treating it as 0.
+    missing_ohl = frame[["open", "high", "low"]].eq(0).all(axis=1)
+    traded = frame["volume"].gt(0) & ~missing_ohl
+    if (frame.loc[traded, ["open", "high", "low"]] <= 0).any().any():
+        raise ValueError("Incomplete traded OHL prices")
     if (frame.loc[traded, "high"] < frame.loc[traded, ["open", "close", "low"]].max(axis=1)).any():
         raise ValueError("High is below traded OHLC prices")
     if (frame.loc[traded, "low"] > frame.loc[traded, ["open", "close", "high"]].min(axis=1)).any():
@@ -201,14 +206,22 @@ def refresh_ranges(
                     if not frame.empty:
                         frames.append(frame)
                     consecutive_failures = 0
+                    missing_ohl = frame[["open", "high", "low"]].eq(0).all(axis=1)
                     rows.append({"ticker": ticker, "status": status if not frame.empty else "empty",
-                                 "rows": len(frame), "latest_date": frame["date"].max() if len(frame) else "", "error": ""})
+                                 "rows": len(frame), "latest_date": frame["date"].max() if len(frame) else "",
+                                 "missing_ohl_rows": int(missing_ohl.sum()),
+                                 "missing_ohl_with_volume": int((missing_ohl & frame["volume"].gt(0)).sum()),
+                                 "error": ""})
                 except Exception as exc:
                     consecutive_failures += 1
                     rows.append({"ticker": ticker, "status": "failed", "rows": 0, "latest_date": "",
+                                 "missing_ohl_rows": 0, "missing_ohl_with_volume": 0,
                                  "error": f"{type(exc).__name__}: {str(exc).splitlines()[0]}"})
-                if len(rows) % 50 == 0 or len(rows) == len(tickers) or rows[-1]["status"] == "failed":
+                if (len(rows) % 50 == 0 or len(rows) == len(tickers)
+                        or rows[-1]["status"] == "failed" or rows[-1]["missing_ohl_with_volume"]):
                     detail = f" ({rows[-1]['error']})" if rows[-1]["error"] else ""
+                    if rows[-1]["missing_ohl_with_volume"]:
+                        detail += f" (missing OHL with volume: {rows[-1]['missing_ohl_with_volume']}; raw values retained)"
                     print(f"[KRX range {len(rows)}/{len(tickers)}] {ticker} {rows[-1]['status']}{detail}", flush=True)
                 if consecutive_failures >= 8:
                     raise RuntimeError("Eight consecutive provider failures; stopping requests and retaining checkpoints")
@@ -246,6 +259,8 @@ def refresh_ranges(
     report = {"version": VERSION, "collected_at": datetime.now(timezone.utc).isoformat(),
               "requested_asof": end, "latest": latest.strftime("%Y-%m-%d"),
               "requested_tickers": len(tickers), "updated_rows": len(update), "failed_tickers": failed,
+              "missing_ohl_rows": sum(row["missing_ohl_rows"] for row in rows),
+              "missing_ohl_with_volume": sum(row["missing_ohl_with_volume"] for row in rows),
               "latest_session_coverage": coverage, "restored_rows": len(existing), "merged_rows": len(combined),
               "listings_source": str(listings_path), "universe_refreshed": False}
     _atomic_bytes(run_dir / "krx_collection.json", _json_bytes(report))

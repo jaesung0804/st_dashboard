@@ -82,6 +82,52 @@ def test_each_ticker_recovers_its_own_gap(tmp_path, monkeypatch):
     assert calls == {"000001": "20260729", "000002": "20260624"}
 
 
+def test_real_missing_ohl_row_is_preserved_and_other_ticker_cache_reused(tmp_path, monkeypatch):
+    args = setup(tmp_path, ("000001", "010780"))
+    calls = []
+    def fetch(ticker, start, end, **kwargs):
+        calls.append(ticker)
+        frame = quotes(ticker, ["2026-08-05", "2026-09-04"])
+        if ticker == "010780":
+            # Actual Naver response observed on 2026-09-06, not a fabricated bar.
+            missing = pd.DataFrame([["2026-08-13", ticker, 0, 0, 0, 18000, 18000, 199329]],
+                                   columns=krx.PRICE_SCHEMA)
+            frame = pd.concat([frame, missing], ignore_index=True)
+        return frame
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    inc._period("000001", "20260729", "20260905", args["checkpoint_dir"], lambda: None)
+    calls.clear()
+    inc.refresh_ranges(**args)
+    assert calls == ["010780"]
+    merged = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+    row = merged.loc[merged.ticker.eq("010780") & merged.date.eq("2026-08-13")].iloc[0]
+    assert row[krx.PRICE_SCHEMA[2:]].tolist() == [0, 0, 0, 18000, 18000, 199329]
+    assert "999999" in set(merged.ticker)
+    report = json.loads((args["run_dir"] / "krx_collection.json").read_text())
+    assert report["failed_tickers"] == 0 and report["missing_ohl_with_volume"] == 1
+    _, cached = inc._period("010780", "20260729", "20260905", args["checkpoint_dir"], lambda: None)
+    assert cached and calls == ["010780"]
+
+
+@pytest.mark.parametrize("change", [
+    {"high": 99}, {"low": 101}, {"open": 0}, {"high": 0}, {"low": 0},
+    {"open": 0, "high": 0, "low": 0, "close": 0},
+    {"open": 0, "high": 0, "low": 0, "volume": -1},
+])
+def test_missing_ohl_exception_does_not_accept_other_invalid_prices(tmp_path, monkeypatch, change):
+    args = setup(tmp_path, ("010780",))
+    original = args["prices_path"].read_bytes()
+    def fetch(ticker, start, end, **kwargs):
+        frame = quotes(ticker, ["2026-09-04"])
+        for column, value in change.items():
+            frame[column] = value
+        return frame
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    with pytest.raises(RuntimeError, match="Canonical prices unchanged"):
+        inc.refresh_ranges(**args)
+    assert args["prices_path"].read_bytes() == original
+
+
 @pytest.mark.parametrize("bad", ["stale", "coverage", "wrong_ticker", "negative", "nan", "duplicate"])
 def test_bad_prices_fail_closed(tmp_path, monkeypatch, bad):
     args = setup(tmp_path)

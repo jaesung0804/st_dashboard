@@ -111,7 +111,12 @@ def ticker_features(g: pd.DataFrame, labels: bool = False) -> pd.DataFrame:
     out["log_turnover"] = np.log1p(out["turnover20"])
     out["volume_shock"] = volume.rolling(5).mean() / volume.rolling(60).mean().replace(0, np.nan)
     out["turnover_shock"] = out["turnover20"] / value.rolling(60).mean().replace(0, np.nan)
-    out["range20"] = ((g["high"] - g["low"]) / g["close"].replace(0, np.nan)).rolling(20).mean()
+    # Zero intraday quotes are unavailable observations, not zero volatility.
+    # Keep close/volume features and close-based labels. A window with missing
+    # ranges stays NaN for LightGBM / the fitted training-median imputation.
+    known_ohl = g[["open", "high", "low"]].gt(0).all(axis=1)
+    day_range = (g["high"] - g["low"]) / g["close"].replace(0, np.nan)
+    out["range20"] = day_range.where(known_ohl).rolling(20).mean()
     out["active"] = (g["volume"] > 0) & (g["close"] > 0)
     # A stale/suspended quote must not masquerade as a liquid tradeable signal.
     out["return1"] = r.clip(-.3, .3)

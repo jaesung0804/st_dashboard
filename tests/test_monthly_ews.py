@@ -47,6 +47,20 @@ def test_barrier_label_uses_future_close_and_requires_complete_horizon():
     assert f["future_up"].tail(126).isna().all()
 
 
+@pytest.mark.parametrize("volume", [0, 199329])
+def test_missing_ohl_is_not_zero_volatility_and_preserves_close_features(volume):
+    frame = prices(n=300, tickers=1)
+    frame.loc[100, "volume"] = volume
+    expected = ticker_features(frame, labels=True)
+    frame.loc[100, ["open", "high", "low"]] = 0
+    actual = ticker_features(frame, labels=True)
+    assert actual.loc[100:119, "range20"].isna().all()
+    assert actual.loc[120, "range20"] == pytest.approx(expected.loc[120, "range20"])
+    pd.testing.assert_frame_equal(actual.drop(columns="range20"), expected.drop(columns="range20"))
+    # Adding unavailable future intraday quotes must not change earlier inputs.
+    pd.testing.assert_series_equal(actual.loc[:99, "range20"], expected.loc[:99, "range20"])
+
+
 def test_purge_excludes_training_labels_crossing_calibration_start():
     dates = pd.bdate_range("2020-01-01", periods=700)
     frame = pd.DataFrame({"date": np.repeat(dates[::5], 90),
