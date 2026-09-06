@@ -25,7 +25,9 @@ concurrency:
 jobs:
   compare:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    runs-on: ubuntu-latest
+    # Match the working production data-collection environment. The first Linux
+    # request for the large historical archive timed out before response headers.
+    runs-on: windows-latest
     timeout-minutes: 90
     env:
       GITHUB_TOKEN: ${{ github.token }}
@@ -33,9 +35,11 @@ jobs:
       SHADOW_MODE: ${{ inputs.mode || (github.event_name == 'workflow_run' && 'infer' || 'train') }}
       OMP_NUM_THREADS: "1"
       OPENBLAS_NUM_THREADS: "1"
+      PYTHONUTF8: "1"
     defaults:
       run:
         working-directory: app
+        shell: bash
     steps:
       - name: Checkout app
         uses: actions/checkout@v4
@@ -67,6 +71,20 @@ jobs:
       - name: Collect missing official monthly macro vintages
         timeout-minutes: 10
         run: python scripts/run_shadow_ews.py collect
+      - name: Check access to a small official monthly file
+        if: github.event_name == 'push'
+        continue-on-error: true
+        timeout-minutes: 2
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0,'src')
+          from ai_stock_assistant.data import macro_vintages as m
+          body=m.download(m.BASE+'monthly/2026-07-md.csv',2_000_000)
+          row=m.vintage_features(body,'2026-07',m.SOURCE)
+          print(f"Small official monthly download verified: {len(body)} bytes, source SHA256 {row['source_sha256']}")
+          PY
       - name: Train paired monthly models and temporal holdouts
         if: env.SHADOW_MODE == 'train'
         timeout-minutes: 55

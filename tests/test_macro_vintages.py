@@ -43,3 +43,34 @@ def test_future_observations_inside_a_file_cannot_leak_into_features():
         data.loc[dates > pd.Timestamp('2020-01-01'), column] = 90000
     second = macro.vintage_features(data.to_csv(index=False).encode(), '2020-01', 'test://revised')
     assert [first[c] for c in macro.FEATURES] == [second[c] for c in macro.FEATURES]
+
+
+def test_incremental_collection_rejects_changed_cached_values_before_rehashing(tmp_path):
+    from ai_stock_assistant import monthly_ews as live
+    file = tmp_path / 'macro/vintages/2020-01.json'
+    live.write_json(file, vintage('2020-01'))
+    manifest = tmp_path / 'macro/manifest.json'
+    live.write_json(manifest, {'policy': macro.POLICY, 'features': macro.FEATURES,
+                              'cache_sha256': {'2020-01': live.digest(file)}})
+    original = manifest.read_bytes()
+    live.write_json(file, vintage('2020-01', revision=700))
+    with pytest.raises(ValueError, match='checksum'):
+        macro.collect(tmp_path, asof='2020-03-02')
+    assert manifest.read_bytes() == original
+
+
+def test_bootstrap_only_restores_eligible_months_and_keeps_existing_bytes(tmp_path):
+    from ai_stock_assistant import monthly_ews as live
+    seed = tmp_path / 'seed.json'
+    live.write_json(seed, {'schema':'fred-md-feature-seed-v1', 'policy':macro.POLICY,
+                          'rows':[vintage('2020-01'), vintage('2020-02', revision=700)]})
+    seed.with_suffix('.sha256').write_text(live.digest(seed))
+    folder = tmp_path / 'vintages'
+    assert macro.bootstrap(folder, ['2020-01'], seed) == 1
+    assert not (folder / '2020-02.json').exists()
+    before = (folder / '2020-01.json').read_bytes()
+    assert macro.bootstrap(folder, ['2020-01'], seed) == 0
+    assert (folder / '2020-01.json').read_bytes() == before
+    seed.write_text('{}')
+    with pytest.raises(ValueError, match='checksum'):
+        macro.bootstrap(folder, ['2020-01'], seed)

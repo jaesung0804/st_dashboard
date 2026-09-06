@@ -26,6 +26,7 @@ FEATURES = ["macro_policy_rate", "macro_term_spread", "macro_inflation_yoy",
             "macro_inflation_change3", "macro_unemployment", "macro_unemployment_change3",
             "macro_industrial_yoy", "macro_payroll_yoy", "macro_housing_yoy", "macro_money_yoy"]
 SERIES = ["FEDFUNDS", "GS10", "TB3MS", "CPIAUCSL", "UNRATE", "INDPRO", "PAYEMS", "HOUST", "M2SL"]
+SEED = Path(__file__).resolve().parents[3] / "data/reference/fred_md_2026_07_features.json"
 
 
 def vintage_features(body: bytes, month: str, source: str) -> dict:
@@ -77,12 +78,42 @@ def download(url: str, maximum: int) -> bytes:
     return body
 
 
+def bootstrap(folder: Path, months: list[str], seed: Path = SEED) -> int:
+    """Only missing, date-eligible rows from a checked official-source snapshot."""
+    if not seed.exists():
+        return 0
+    if live.digest(seed) != seed.with_suffix(".sha256").read_text().strip():
+        raise ValueError("Macro bootstrap snapshot checksum mismatch")
+    payload = live.read_json(seed)
+    if payload["schema"] != "fred-md-feature-seed-v1" or payload["policy"] != POLICY:
+        raise ValueError("Macro bootstrap snapshot policy mismatch")
+    count = 0
+    for row in payload["rows"]:
+        month = row["vintage_month"]
+        file = folder / f"{month}.json"
+        if month not in months or file.exists():
+            continue
+        expected = str((pd.Period(month, freq="M") + 2).start_time.date())
+        if row["available_date"] != expected or row["policy"] != POLICY or not np.isfinite([row[f] for f in FEATURES]).all():
+            raise ValueError("Invalid macro bootstrap row")
+        live.write_json(file, row)
+        count += 1
+    if count:
+        print(f"Restored {count} official-source macro vintages from verified bootstrap snapshot", flush=True)
+    return count
+
+
 def collect(root: Path, asof: str | None = None, archive_file: Path | None = None) -> dict:
+    # Verify the previous manifest BEFORE generating a new one. Otherwise a
+    # changed cached value would receive a fresh checksum and appear legitimate.
+    if (root / "macro" / "manifest.json").exists():
+        load(root)
     today = pd.Timestamp(asof or pd.Timestamp.now(tz="UTC").date()).normalize().tz_localize(None)
     latest = today.to_period("M") - 2
     months = [str(m) for m in pd.period_range("2020-01", latest, freq="M")]
     folder = root / "macro" / "vintages"
     folder.mkdir(parents=True, exist_ok=True)
+    seeded = bootstrap(folder, months)
     missing = [m for m in months if not (folder / f"{m}.json").exists()]
     archived = [m for m in missing if m <= "2025-12"]
     if archived:
@@ -112,6 +143,7 @@ def collect(root: Path, asof: str | None = None, archive_file: Path | None = Non
                 "scope": "US macroeconomic and global monetary context; not Korean domestic macro",
                 "latest_vintage": months[-1], "vintages": len(rows),
                 "collected_at": live.utc_now(), "earliest_available": rows[0]["available_date"],
+                "bootstrap_rows_restored": seeded,
                 "cache_sha256": {m: live.digest(folder / f"{m}.json") for m in months}}
     live.write_json(root / "macro" / "manifest.json", metadata)
     print(f"Macro: {len(rows)} immutable monthly vintages, through {months[-1]}", flush=True)
