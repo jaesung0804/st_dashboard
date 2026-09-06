@@ -1,0 +1,75 @@
+name: Refresh dashboard UI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_pages_deploy.py
+      - scripts/build_price_context.py
+      - scripts/dashboard_web/**
+      - .github/workflows/refresh-dashboard-ui.yml
+permissions:
+  contents: write
+concurrency:
+  # Serialize with daily inference to avoid publishing an older state snapshot.
+  group: dashboard-state-update
+  cancel-in-progress: false
+jobs:
+  refresh-ui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PAGES_BUILD_VERSION: ${{ github.sha }}
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          path: app
+      - name: Checkout saved models and predictions
+        uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - name: Install dependencies
+        run: python -m pip install -r requirements-live.txt
+      - name: Restore verified state for read-only presentation
+        run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+      - name: Export saved forecasts without training or inference
+        run: python scripts/run_monthly_ews.py export --market all --days 22
+      - name: Build lookup and past returns
+        run: python scripts/build_pages_deploy.py --days 22 --preserve-existing-pages
+      - name: Verify frozen predictions were preserved in the bundle
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+          for market in ['kr', 'us']:
+              root = Path(f'.pages-deploy/lgbm_warning_dashboard_macro_{market}_latest')
+              manifest = json.loads((root / 'manifest.json').read_text())
+              assert manifest['priceContext']['available'], market
+              for original in Path(f'data/dashboard_ews/{market}/predictions').glob('*/rows.json'):
+                  published = root / 'walkforward_scores_by_date' / f'{original.parent.name}.json'
+                  if published.exists():
+                      assert hashlib.sha256(original.read_bytes()).digest() == hashlib.sha256(published.read_bytes()).digest(), original
+              print(f"{market}: signal={manifest['latest']}, scored={manifest['latestRows']}, searchable={manifest['priceContext']['latestCount']}, frozen forecasts unchanged")
+          PY
+      - name: Publish verified UI bundle
+        run: |
+          python - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from build_pages_deploy import push_pages
+          push_pages(Path('.pages-deploy'), 'https://github.com/jaesung0804/st_dashboard.git')
+          PY
