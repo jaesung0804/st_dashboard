@@ -140,7 +140,7 @@ def test_manifest_hashes_survive_windows_style_git_text_settings(tmp_path: Path)
     subprocess.run(['git','init'],cwd=site,check=True,capture_output=True)
     subprocess.run(['git','-c','core.autocrlf=true','add','-A'],cwd=site,check=True,capture_output=True)
     folder='lgbm_warning_dashboard_macro_kr_latest'
-    manifest=json.loads((site/folder/'manifest.json').read_text())
+    manifest=json.loads((site/folder/'manifest.json').read_text(encoding='utf-8'))
     for name,expected in manifest['uiAssets'].items():
         committed=subprocess.run(['git','show',f':{folder}/{name}'],cwd=site,check=True,capture_output=True).stdout
         assert hashlib.sha256(committed).hexdigest()==expected, name

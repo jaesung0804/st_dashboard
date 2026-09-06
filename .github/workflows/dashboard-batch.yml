@@ -96,6 +96,8 @@ jobs:
           path: |
             app/outputs/daily/**/krx*refresh_summary.csv
             app/outputs/daily/**/krx_collection.json
+            app/outputs/daily/**/us_daily_data_refresh_summary.csv
+            app/outputs/daily/**/us_collection.json
             app/data/cache/krx_ranges
           if-no-files-found: ignore
           retention-days: 7

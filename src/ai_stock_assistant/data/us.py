@@ -734,7 +734,8 @@ def fetch_us_ohlcv_batch(tickers: list[str], start: str, end: str) -> dict[str, 
         auto_adjust=False,
         progress=False,
         actions=False,
-        threads=True,
+        threads=min(8, len(tickers)),
+        timeout=15,
         group_by="ticker",
     )
     result: dict[str, pd.DataFrame] = {}

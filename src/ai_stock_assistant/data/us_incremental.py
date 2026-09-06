@@ -1,0 +1,202 @@
+"""Validate US range updates before atomically replacing retained prices.
+
+An unavailable ticker is not proof of a market-wide outage. Keep its history,
+but require fresh provider coverage of the previously active universe. Never
+invent holiday/suspension bars or splice a changed adjustment scale into history.
+"""
+from __future__ import annotations
+
+from collections import defaultdict
+from pathlib import Path
+import time
+
+import numpy as np
+import pandas as pd
+
+from ai_stock_assistant.data.krx_incremental import _atomic_bytes, _atomic_csv, _json_bytes
+from ai_stock_assistant.data.us import PRICE_SCHEMA, _to_yfinance_ticker
+
+
+def validate_prices(frame: pd.DataFrame, ticker: str, start: str, end: str) -> pd.DataFrame:
+    if not set(PRICE_SCHEMA).issubset(frame.columns):
+        raise ValueError("Missing US OHLCV columns")
+    frame = frame[PRICE_SCHEMA].copy()
+    frame["ticker"] = frame["ticker"].map(_to_yfinance_ticker)
+    dates = pd.to_datetime(frame["date"], errors="raise")
+    if not frame.ticker.eq(ticker).all() or not dates.between(pd.Timestamp(start), pd.Timestamp(end)).all():
+        raise ValueError("Wrong US ticker or price date range")
+    numeric = PRICE_SCHEMA[2:]
+    frame[numeric] = frame[numeric].apply(pd.to_numeric, errors="raise")
+    ohl = frame[["open", "high", "low"]]
+    missing_ohl = ohl.eq(0).all(axis=1) | ohl.isna().all(axis=1)
+    checked = frame[numeric].copy()
+    checked.loc[missing_ohl, ["open", "high", "low"]] = 0
+    if not np.isfinite(checked.to_numpy(dtype=float)).all() or (checked < 0).any().any():
+        raise ValueError("Invalid or non-finite US OHLCV values")
+    if (frame[["close", "adjusted_close"]] <= 0).any().any():
+        raise ValueError("Nonpositive US close")
+    traded = frame.volume.gt(0) & ~missing_ohl
+    # Allow rounding noise in independently represented OHLC fields.
+    tolerance = frame.close.abs() * 1e-5 + 1e-6
+    if ((ohl.loc[traded] <= 0).any().any()
+            or (frame.high[traded] + tolerance[traded] < frame.loc[traded, ["open", "close", "low"]].max(axis=1)).any()
+            or (frame.low[traded] - tolerance[traded] > frame.loc[traded, ["open", "close", "high"]].min(axis=1)).any()):
+        raise ValueError("Invalid traded US price range")
+    frame["date"] = dates.dt.strftime("%Y-%m-%d")
+    if frame.duplicated(["ticker", "date"]).any():
+        raise ValueError("Duplicate US price observations")
+    return frame.sort_values("date").reset_index(drop=True)
+
+
+def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
+                   requested_asof: str, run_dir: Path, fetch, overlap_days: int = 10,
+                   batch_size: int = 100, minimum_coverage: float = .95,
+                   max_seconds: float = 3600):
+    from ai_stock_assistant.data.refresh import USDailyRefreshResult
+
+    if overlap_days < 1 or not 1 <= batch_size <= 100 or not 0 < minimum_coverage <= 1 or max_seconds <= 0:
+        raise ValueError("Invalid US collection limits")
+    requested = pd.Timestamp(requested_asof).normalize()
+    end = requested.strftime("%Y%m%d")
+    listings = pd.read_csv(listings_path, dtype={"ticker": str})
+    tickers = sorted(set(listings.ticker.dropna().map(_to_yfinance_ticker)) - {""})
+    if not tickers:
+        raise ValueError("No restored US universe")
+    existing = pd.read_csv(prices_path, dtype={"ticker": str})
+    if not set(PRICE_SCHEMA).issubset(existing.columns):
+        raise ValueError("Restored US prices lack required columns")
+    existing["ticker"] = existing.ticker.map(_to_yfinance_ticker)
+    existing["date"] = pd.to_datetime(existing.date, errors="raise").dt.strftime("%Y-%m-%d")
+    if existing.duplicated(["ticker", "date"]).any():
+        raise ValueError("Restored US prices have duplicate keys; refusing a lossy merge")
+    history = existing.loc[existing.date.le(requested.strftime("%Y-%m-%d"))]
+    histories = dict(tuple(history.groupby("ticker", sort=False)))
+    sessions = sorted(history.date.unique())
+    # Repeated partial updates must not shrink coverage to yesterday's survivors.
+    recent_floor = (pd.Timestamp(sessions[-1]) - pd.Timedelta(days=45)).strftime("%Y-%m-%d") if sessions else ""
+    recent = history.loc[history.date.isin(sessions[-21:]) & history.date.ge(recent_floor) & history.volume.gt(0)]
+    active = set(recent.ticker) & set(tickers)
+    active = active or set(tickers)
+    starts = {
+        ticker: (pd.Timestamp(histories[ticker].date.max()) - pd.Timedelta(days=overlap_days)).strftime("%Y%m%d")
+        if ticker in histories else (requested - pd.DateOffset(years=5)).strftime("%Y%m%d")
+        for ticker in tickers
+    }
+    deadline = time.monotonic() + max_seconds
+    updates, errors, rebased = {}, {}, set()
+    fatal = None
+
+    def download(queries, result=None):
+        groups = defaultdict(list)
+        for ticker, start in queries.items():
+            groups[start].append(ticker)
+        result = {} if result is None else result
+        failed_batches = 0
+        for start, symbols in sorted(groups.items()):
+            for offset in range(0, len(symbols), batch_size):
+                pending = symbols[offset:offset + batch_size]
+                recovered = 0
+                for attempt in range(2):
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError("US collection scheduling budget exhausted")
+                    try:
+                        response = fetch(pending, start=start, end=end)
+                    except Exception as exc:
+                        response = {}
+                        for ticker in pending:
+                            errors[ticker] = f"Provider request failed: {type(exc).__name__}"
+                    retry = []
+                    for ticker in pending:
+                        frame = response.get(ticker)
+                        if frame is None or frame.empty:
+                            errors.setdefault(ticker, "No provider observations; history retained")
+                            retry.append(ticker)
+                            continue
+                        try:
+                            result[ticker] = validate_prices(frame, ticker, start, end)
+                        except ValueError as exc:
+                            errors[ticker] = str(exc)
+                            retry.append(ticker)
+                        else:
+                            recovered += 1
+                            errors.pop(ticker, None)
+                    # Inactive/delisted tickers need not be retried on every run.
+                    pending = [ticker for ticker in retry if ticker in active]
+                    if not pending:
+                        break
+                failed_batches = 0 if recovered else failed_batches + 1
+                print(f"US range {start}..{end}: {recovered}/{min(batch_size, len(symbols) - offset)} tickers", flush=True)
+                if (failed_batches >= 2 and set(symbols[offset:offset + batch_size]) & active
+                        and len(set(errors) & active) > len(active) * (1 - minimum_coverage)):
+                    raise RuntimeError("Repeated US provider failures; stopping collection")
+        return result
+
+    try:
+        download(starts, updates)
+        rebases = {}
+        for ticker, frame in list(updates.items()):
+            old = histories.get(ticker)
+            if old is None or old.empty:
+                continue
+            overlap = old.merge(frame, on="date", suffixes=("_old", "_new"))
+            changed = any(
+                (~np.isclose(overlap[f"{column}_old"], overlap[f"{column}_new"], rtol=1e-4, atol=1e-6)).any()
+                for column in ("close", "adjusted_close")
+            )
+            if changed:
+                # Never leave retained future rows on a different scale after a
+                # manually requested historical refresh.
+                if existing.loc[existing.ticker.eq(ticker), "date"].max() > requested.strftime("%Y-%m-%d"):
+                    raise ValueError(f"{ticker}: rebase must include all retained dates")
+                rebased.add(ticker)
+                if not set(old.date).issubset(set(frame.date)):
+                    rebases[ticker] = old.date.min().replace("-", "")
+            elif not set(old.loc[old.date.ge(pd.Timestamp(starts[ticker]).strftime("%Y-%m-%d")), "date"]).issubset(set(frame.date)):
+                # A response truncated to recent rows cannot repair a long gap.
+                errors[ticker] = "Incomplete overlapping history; ticker update withheld"
+                del updates[ticker]
+        full = download(rebases) if rebases else {}
+        for ticker in rebases:
+            frame = full.get(ticker)
+            if frame is None or not set(histories[ticker].date).issubset(set(frame.date)):
+                raise ValueError(f"{ticker}: adjusted prices changed but full retained history is unavailable")
+            updates[ticker] = frame
+        if time.monotonic() >= deadline:
+            raise TimeoutError("US collection scheduling budget exhausted")
+    except Exception as exc:
+        fatal = exc
+
+    summary = []
+    for ticker in tickers:
+        frame = updates.get(ticker)
+        summary.append({"ticker": ticker, "requested_start": starts[ticker],
+                        "status": "rebase_updated" if ticker in rebased and not fatal else "updated" if frame is not None else "unavailable",
+                        "rows": len(frame) if frame is not None else 0,
+                        "latest_date": frame.date.max() if frame is not None else "",
+                        "error": errors.get(ticker, "")})
+    summary_path = run_dir / "us_daily_data_refresh_summary.csv"
+    _atomic_csv(summary_path, pd.DataFrame(summary))
+    update = pd.concat(updates.values(), ignore_index=True) if updates else pd.DataFrame(columns=PRICE_SCHEMA)
+    latest = pd.to_datetime(update.date).max()
+    observed = set(update.loc[update.date.eq(latest.strftime("%Y-%m-%d")), "ticker"]) if pd.notna(latest) else set()
+    coverage = len(active & observed) / len(active)
+    reason = str(fatal) if fatal else ""
+    if not reason and (pd.isna(latest) or requested - latest > pd.Timedelta(days=7)):
+        reason = f"US provider prices empty or stale at {latest}"
+    if not reason and coverage < minimum_coverage:
+        reason = f"US latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}"
+    report = {"requested_asof": end, "latest": str(latest.date()) if pd.notna(latest) else None,
+              "requested_tickers": len(tickers), "updated_tickers": len(updates),
+              "unavailable_tickers": sorted(set(tickers) - set(updates)), "rebased_tickers": sorted(rebased),
+              "active_tickers": len(active), "latest_session_coverage": coverage,
+              "accepted": not bool(reason), "error": reason}
+    _atomic_bytes(run_dir / "us_collection.json", _json_bytes(report))
+    if reason:
+        raise RuntimeError(f"{reason}; canonical US prices unchanged") from fatal
+    combined = pd.concat([existing, update], ignore_index=True)
+    combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
+    _atomic_csv(output_path, combined)
+    print(f"US collection committed: latest={report['latest']}, coverage={coverage:.1%}, rebased={len(rebased)}", flush=True)
+    return USDailyRefreshResult(asof=latest.strftime("%Y%m%d"), listings_path=listings_path,
+                                combined_prices_path=output_path, summary_path=summary_path,
+                                updated_count=len(updates), failed_count=len(tickers) - len(updates))

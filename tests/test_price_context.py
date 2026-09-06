@@ -30,7 +30,7 @@ def test_returns_stop_at_signal_and_lookup_keeps_unscored_and_missing(tmp_path):
                   for t in ["005930", "NEW", "HALT", "NOADJ", "NOPRICE"]]).to_csv(raw / module.LISTING_FILES["kr"], index=False)
     original_hash = hashlib.sha256((raw / module.PRICE_FILES["kr"]).read_bytes()).hexdigest()
     manifest = module.build_price_context(raw, tmp_path / "site", "kr", [dates[126], dates[4]])
-    data = json.loads((tmp_path / "site/price_context" / f"{dates[126]}.json").read_text())
+    data = json.loads((tmp_path / "site/price_context" / f"{dates[126]}.json").read_text(encoding="utf-8"))
     lookup = {row["ticker"]: row for row in data["rows"]}
     assert len(lookup) == 5  # Listing with no quote is still discoverable.
     assert lookup["005930"]["trailingReturn6mPct"] == pytest.approx(20.)
@@ -40,7 +40,7 @@ def test_returns_stop_at_signal_and_lookup_keeps_unscored_and_missing(tmp_path):
     assert lookup["HALT"]["returnStatus"] == "stale_quote"
     assert lookup["NOADJ"]["returnStatus"] == "missing_adjusted_price"
     assert lookup["NOPRICE"]["returnStatus"] == "no_prices"
-    early = json.loads((tmp_path / "site/price_context" / f"{dates[4]}.json").read_text())
+    early = json.loads((tmp_path / "site/price_context" / f"{dates[4]}.json").read_text(encoding="utf-8"))
     assert next(r for r in early["rows"] if r["ticker"] == "NEW")["returnStatus"] == "insufficient_history"
     assert all(r["trailingReturn6mPct"] is None for r in early["rows"])
     assert hashlib.sha256((raw / module.PRICE_FILES["kr"]).read_bytes()).hexdigest() == original_hash
@@ -58,7 +58,7 @@ def test_unverified_jump_stays_searchable_without_a_fabricated_past_return(tmp_p
     pd.DataFrame({'ticker':'BROKEN', 'date':dates, 'close':100., 'volume':100.,
                   'adjusted_close':[100.]*100 + [10000.]*27}).to_csv(raw / module.PRICE_FILES['us'], index=False)
     module.build_price_context(raw, tmp_path / 'site', 'us', [dates[-1]])
-    data = json.loads((tmp_path / 'site/price_context' / f'{dates[-1]}.json').read_text())
+    data = json.loads((tmp_path / 'site/price_context' / f'{dates[-1]}.json').read_text(encoding='utf-8'))
     assert data['rows'][0]['ticker'] == 'BROKEN'
     assert data['rows'][0]['trailingReturn6mPct'] is None
     assert data['rows'][0]['returnStatus'] == 'unverified_price_continuity'
