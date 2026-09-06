@@ -45,9 +45,9 @@ jobs:
       - name: Restore verified state for read-only presentation
         run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
       - name: Export saved forecasts without training or inference
-        run: python scripts/run_monthly_ews.py export --market all --days 22
+        run: python scripts/run_monthly_ews.py export --market all --days 60
       - name: Build lookup and past returns
-        run: python scripts/build_pages_deploy.py --days 22 --preserve-existing-pages
+        run: python scripts/build_pages_deploy.py --days 60 --preserve-existing-pages
       - name: Verify frozen predictions were preserved in the bundle
         run: |
           python - <<'PY'

@@ -1,0 +1,40 @@
+name: Collect dated financial statements
+on:
+  push:
+    branches: [codex/accounting-backfill-20260906]
+    paths: [.github/workflows/accounting-source-collection.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect-korean-filings:
+    runs-on: windows-latest
+    timeout-minutes: 110
+    env:
+      PYTHONUTF8: '1'
+      OPENDART_API_KEY: ${{ secrets.OPENDART_API_KEY }}
+      DART_API_KEY: ${{ secrets.DART_API_KEY }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: .dashboard-state
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pandas requests python-dotenv
+      - name: Restore retained official responses
+        run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+      - name: Collect actual receipt IDs and calendar-verified accounts
+        run: python -u scripts/collect_accounting_sources.py --market kr
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dated-korean-accounting
+          path: data/dashboard_research/accounting_sources/
+          retention-days: 30
+          if-no-files-found: warn

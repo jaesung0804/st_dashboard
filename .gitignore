@@ -28,3 +28,7 @@ reports/
 *.err
 *.tmp
 ~$*
+
+# Retained on dashboard-state, never source branch
+data/dashboard_research/
+.work/

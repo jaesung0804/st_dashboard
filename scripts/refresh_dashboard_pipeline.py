@@ -20,7 +20,7 @@ def main() -> None:
     p.add_argument("--lookback-days", type=int, default=10)
     p.add_argument("--kr-workers", type=int, default=4, help="Bounded KRX range download workers (1..8)")
     p.add_argument("--kr-collection-seconds", type=int, default=3600, help="Stop collection early enough to save checkpoints")
-    p.add_argument("--pages-days", type=int, default=22)
+    p.add_argument("--pages-days", type=int, default=60)
     p.add_argument("--collect-only", action="store_true", help="Monthly workflow preparation; no inference")
     p.add_argument("--skip-push", action="store_true")
     # Retain old manual command compatibility; these no longer control training.

@@ -138,7 +138,7 @@ jobs:
         run: python scripts/push_dashboard_state.py --state-dir .dashboard-state
       - name: Export unchanged operational forecasts
         if: steps.ready.outputs.ready == 'true'
-        run: python scripts/run_monthly_ews.py export --days 22
+        run: python scripts/run_monthly_ews.py export --days 60
       - name: Publish recommendation UI and separate model comparison
         if: steps.ready.outputs.ready == 'true'
-        run: python scripts/build_pages_deploy.py --days 22 --push
+        run: python scripts/build_pages_deploy.py --days 60 --push

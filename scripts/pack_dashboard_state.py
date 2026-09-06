@@ -23,6 +23,7 @@ DEFAULT_PATHS = [
     "data/raw/opendart_accounts",
     "data/raw/yfinance_financials",
     "data/dashboard_ews_shadow",
+    "data/dashboard_research",
 ]
 PART_SIZE = 8 * 1024 * 1024
 
@@ -139,7 +140,7 @@ def main() -> None:
     ordinary = []
     for item in args.paths:
         source = Path(item)
-        if source.is_dir() and source.as_posix() in ("data/raw/opendart_accounts", "data/raw/yfinance_financials", "data/dashboard_ews_shadow"):
+        if source.is_dir() and source.as_posix() in ("data/raw/opendart_accounts", "data/raw/yfinance_financials", "data/dashboard_ews_shadow", "data/dashboard_research"):
             manifest[source.as_posix()] = pack_directory(source, state_dir, source.as_posix(), args.part_size)
             print(f"Packed {source}: {manifest[source.as_posix()]['files']} retained files", flush=True)
         else:

@@ -51,6 +51,8 @@
       labels[3] = legacy ? '기존 상승 순위' : '6개월 상승 기회';
       labels[4] = legacy ? '기존 하락 순위' : '3개월 급락 위험';
       $('candidateNotice').textContent = legacy ? '이 날짜는 기존 모델의 순위 기록입니다. 새 모델의 확률과 직접 비교하지 마세요.' : `${final ? '관심 후보 ' + EWS.number(final) + '개' : '관심 후보 0개'} · 상승 조건 통과 ${EWS.number(up)}개 중 하락 추정 상단 15% 미만까지 통과한 결과입니다. 종목 검색은 후보 여부와 관계없이 작동합니다.`;
+      if (manifest.predictionKindsByDate?.[date] === 'reconstructed') $('candidateNotice').textContent = '사후 복원 자료입니다. 당시 실시간으로 생성된 예측이나 실전 성과가 아닙니다. ' + $('candidateNotice').textContent;
+      if (manifest.marketName === '한국' && date.startsWith('2026-09')) $('candidateNotice').textContent += ' 이 월 모델은 상승 확률 보정 구간의 구분력이 낮습니다. 설명·검증 페이지의 확률 진단을 함께 확인하세요.';
       render();
     } catch (error) {
       if (id !== request) return;
@@ -61,7 +63,7 @@
   }
   async function init() {
     manifest = await EWS.json('manifest.json');
-    for (const date of manifest.dates || []) $('date').add(new Option(date,date));
+    for (const date of manifest.dates || []) $('date').add(new Option(date + (manifest.predictionKindsByDate?.[date] === 'reconstructed' ? ' · 사후 복원' : ''),date));
     const params = new URLSearchParams(location.search);
     if ((manifest.dates || []).includes(params.get('date'))) $('date').value=params.get('date');
     $('query').value=params.get('q') || '';

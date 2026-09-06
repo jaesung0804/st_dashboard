@@ -57,7 +57,7 @@ DASHBOARDS["us"]["subtitle"] = "NASDAQ/NYSE 조기경보 후보"
 def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Build the lightweight GitHub Pages deployment bundle.")
     p.add_argument("--deploy-dir", default=str(DEPLOY_DIR))
-    p.add_argument("--days", type=int, default=22, help="Trading dates to publish, roughly one month by default.")
+    p.add_argument("--days", type=int, default=60, help="Trading dates to publish, roughly three months by default.")
     p.add_argument("--raw-dir", type=Path, default=Path("data/raw"), help="Retained prices for read-only past-return and unscored-stock lookup.")
     p.add_argument("--push", action="store_true", help="Commit and force-push the deploy bundle to gh-pages.")
     p.add_argument("--repo", default="https://github.com/jaesung0804/st_dashboard.git")
@@ -272,11 +272,14 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
     export_report(raw_dir.parent / "dashboard_ews_shadow", raw_dir.parent / "dashboard_ews",
                   "kr" if label == "한국" else "us", source.parent)
     shutil.copyfile(source / "model_report.json", target / "model_report.json")
-    for filename in ("dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js"):
+    from ai_stock_assistant.research_report import export_report as export_accounting_report
+    export_accounting_report(raw_dir.parent / "dashboard_research", raw_dir,
+                             "kr" if label == "한국" else "us", target / "research_report.json")
+    for filename in ("dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js", "research.js"):
         # Canonical LF before hashing, independent of a Windows app checkout.
         (target / filename).write_bytes((assets / filename).read_text(encoding="utf-8").encode("utf-8"))
     ui_assets = {name: hashlib.sha256((target / name).read_bytes()).hexdigest()
-                 for name in ("dashboard.html", "index.html", "stock.html", "model.html", "dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js", "model_report.json")}
+                 for name in ("dashboard.html", "index.html", "stock.html", "model.html", "dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js", "model_report.json", "research.js", "research_report.json")}
     json_dump(
         target / "manifest.json",
         {
@@ -298,6 +301,7 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
             "validation": source_manifest.get("validation", []),
             "models": source_manifest.get("models", {}),
             "predictionPolicy": source_manifest.get("predictionPolicy", "legacy_unversioned"),
+            "predictionKindsByDate": source_manifest.get("predictionKindsByDate", {}),
             "marketName": label,
             "uiVersion": "ews-recommendations-research-v2",
             "presentationBuild": BUILD_VERSION,

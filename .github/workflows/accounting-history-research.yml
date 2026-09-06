@@ -1,0 +1,75 @@
+name: Accounting and history research
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/accounting-history-research.yml]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
+jobs:
+  compare-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    defaults:
+      run:
+        working-directory: app
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PAGES_BUILD_VERSION: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: app
+      - uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - run: python -m pip install -r requirements-live.txt
+      - name: Restore and fingerprint production records
+        run: |
+          python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+          python scripts/verify_research_integrity.py before
+      - name: Restore receipt-dated Korean collection
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 34020609369
+          name: dated-korean-accounting
+          path: app/data/dashboard_research/accounting_sources
+      - name: Collect SEC filing facts for the predeclared cohort
+        run: python scripts/collect_accounting_sources.py --market us
+      - name: Reconstruct isolated August and September records
+        run: |
+          python scripts/reconstruct_market_history.py --market kr
+          python scripts/reconstruct_market_history.py --market us
+          python scripts/analyze_market_reconstruction.py
+      - name: Compare price macro and accounting inputs
+        run: |
+          python scripts/run_accounting_comparison.py --market kr
+          python scripts/run_accounting_comparison.py --market us
+      - name: Verify frozen production and reconstructed coverage
+        run: |
+          python scripts/run_monthly_ews.py export --days 60
+          python scripts/verify_research_integrity.py after
+      - name: Preserve research recovery bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accounting-history-research
+          path: app/data/dashboard_research
+          retention-days: 30
+      - name: Save all retained data atomically
+        run: |
+          python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+          python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Publish research and complete date history
+        run: python scripts/build_pages_deploy.py --days 60 --push

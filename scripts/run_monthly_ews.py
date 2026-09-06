@@ -22,7 +22,7 @@ def main() -> None:
     p.add_argument("--output-root", type=Path, default=Path("outputs"))
     p.add_argument("--legacy-pages", type=Path, default=Path(".legacy-pages"))
     p.add_argument("--asof", default=None)
-    p.add_argument("--days", type=int, default=22)
+    p.add_argument("--days", type=int, default=60)
     p.add_argument("--jobs", type=int, default=1)
     p.add_argument("--research", action="store_true", help="Simulation only; use a separate state-root, never publish as live")
     args = p.parse_args()

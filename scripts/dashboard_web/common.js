@@ -89,7 +89,7 @@ const EWS = (() => {
   function record(row) {
     if (row._quoteOnly) return '선택일의 모델 평가가 없습니다. 시세 자료는 보관된 최신 목록에서 조회합니다.';
     if (!row.modelVersion) return '기존 모델의 순위 기록입니다. 새 사건 확률과 직접 비교할 수 없습니다.';
-    const kind = {live:'저장된 일별 추론', delayed:'지연 생성 · 당시 실시간 예측 아님', research:'연구용 재현'}[row.predictionKind] || '생성 유형 미확인';
+    const kind = {live:'저장된 일별 추론', delayed:'지연 생성 · 당시 실시간 예측 아님', research:'연구용 재현', reconstructed:'사후 복원 · 당시 실시간 예측 아님'}[row.predictionKind] || '생성 유형 미확인';
     return `${esc(row.modelMonth)} 모델 · ${kind}<br>학습 자료 기준일 ${esc(row.trainingCutoff)} · 생성 ${esc(row.generatedAt)}<br>모델 ${esc(row.modelVersion)}`;
   }
   return {esc, numeric, percent, number, price, riskUpper, isScored, candidate, score, returnText, mergedRows, selectRows, json, context, naver, stockHref, record};

@@ -131,20 +131,32 @@ def ticker_features(g: pd.DataFrame, labels: bool = False) -> pd.DataFrame:
     return out.replace([np.inf, -np.inf], np.nan)
 
 
-def feature_panel(prices: pd.DataFrame, market: str, *, training: bool, signal_date: str | None = None) -> pd.DataFrame:
+def feature_panel(prices: pd.DataFrame, market: str, *, training: bool, signal_date: str | None = None, signal_dates=None) -> pd.DataFrame:
     """Stream ticker features; retain weekly training rows or one inference date.
 
     Market context uses the same market's completed closes, never same-date US
     macro releases in a Korean signal. No financial statements with guessed dates.
     """
     dates = pd.Index(sorted(prices["date"].unique()))
-    selected = set(dates[::5]) if training else {pd.Timestamp(signal_date or dates[-1])}
+    if training and signal_dates is not None:
+        raise ValueError("Explicit inference dates cannot change training sampling")
+    selected = set(dates[::5]) if training else (set(pd.to_datetime(signal_dates)) if signal_dates is not None else {pd.Timestamp(signal_date or dates[-1])})
+    if not selected or not selected.issubset(set(dates)):
+        raise ValueError("Inference dates must be observed market sessions")
     sums = np.zeros((len(dates), 4), dtype=np.float64)
     pieces = []
     for _, group in prices.groupby("ticker", sort=False, observed=True):
         # Only a year of history is needed for daily inference.
         if not training:
-            group = group.tail(320)
+            if signal_dates is None:
+                group = group.tail(320)
+            else:
+                # Keep the same 320-observation warmup for the earliest requested
+                # date. Later signals never consume later prices: all rolling
+                # windows remain backward-looking and contain no labels.
+                group = group.loc[group.date <= max(selected)]
+                start = max(0, group.date.searchsorted(min(selected), side="right") - 320)
+                group = group.iloc[start:]
         f = ticker_features(group, labels=training)
         if "quality_valid" in group:
             # Optional research input only. Ordinary production price frames do
@@ -445,12 +457,25 @@ def migrate_legacy(pages_root: Path, state_root: Path) -> None:
                               "files": {p.name: digest(p) for p in sorted((state_root / market / "legacy").glob("*.json"))}})
 
 
-def export_dashboard(state_root: Path, market: str, output_root: Path, days: int = 22) -> None:
+def export_dashboard(state_root: Path, market: str, output_root: Path, days: int = 60) -> None:
     root = state_root / market
-    files = {p.stem: p for p in (root / "legacy").glob("*.json")}
-    for p in (root / "predictions").glob("*/rows.json"):
-        verify_prediction(p.parent)
+    reconstructed = state_root.parent / "dashboard_research" / "reconstruction" / market
+    files = {}
+    kinds = {}
+    for p in (reconstructed / "predictions").glob("*/rows.json"):
+        meta = verify_prediction(p.parent)
+        if meta["prediction_kind"] != "reconstructed":
+            raise ValueError("Historical reconstruction must be labelled explicitly")
         files[p.parent.name] = p
+        kinds[p.parent.name] = "reconstructed"
+    # Stored contemporaneous or legacy records always take precedence.
+    for p in (root / "legacy").glob("*.json"):
+        files[p.stem] = p
+        kinds[p.stem] = "legacy_unversioned"
+    for p in (root / "predictions").glob("*/rows.json"):
+        meta = verify_prediction(p.parent)
+        files[p.parent.name] = p
+        kinds[p.parent.name] = meta["prediction_kind"]
     dates = sorted(files, reverse=True)[:days]
     if not dates:
         raise ValueError(f"No archived predictions for {market}")
@@ -464,6 +489,8 @@ def export_dashboard(state_root: Path, market: str, output_root: Path, days: int
     models = {}
     for month in sorted({d[:7] for d in dates}):
         path = root / "models" / month / "model.json"
+        if not path.exists():
+            path = reconstructed / "models" / month / "model.json"
         if path.exists():
             card = read_json(path)
             models[month] = {k: card[k] for k in ("id", "month", "cutoff", "created_at", "targets", "research")}
@@ -471,6 +498,7 @@ def export_dashboard(state_root: Path, market: str, output_root: Path, days: int
     assessment = read_json(evaluations[-1]) if evaluations else {}
     write_json(dest / "manifest.json", {"dates": dates, "latest": dates[0], "dateCount": len(dates),
                                         "models": models, "predictionPolicy": "immutable",
+                                        "predictionKindsByDate": {d: kinds[d] for d in dates},
                                         "validation": assessment.get("results", []),
                                         "evaluatedAt": assessment.get("created_at")})
 

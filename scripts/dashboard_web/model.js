@@ -25,6 +25,7 @@
   });
   if (location.hash === '#comparison') activate('comparison');
   if (location.hash === '#shadow') activate('shadow');
+  if (location.hash === '#accounting') activate('accounting');
   const table = (headers, rows) => `<table><thead><tr>${headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(v=>`<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
   let report, stockNames=new Map(), page=0;
   function renderComparison() {
