@@ -26,7 +26,7 @@ FEATURES = ["macro_policy_rate", "macro_term_spread", "macro_inflation_yoy",
             "macro_inflation_change3", "macro_unemployment", "macro_unemployment_change3",
             "macro_industrial_yoy", "macro_payroll_yoy", "macro_housing_yoy", "macro_money_yoy"]
 SERIES = ["FEDFUNDS", "GS10", "TB3MS", "CPIAUCSL", "UNRATE", "INDPRO", "PAYEMS", "HOUST", "M2SL"]
-SEED = Path(__file__).resolve().parents[3] / "data/reference/fred_md_2026_07_features.json"
+SEED = Path(__file__).resolve().parents[3] / "data/reference/fred_md_2026_08_features.json"
 
 
 def vintage_features(body: bytes, month: str, source: str) -> dict:
