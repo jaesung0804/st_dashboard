@@ -1,0 +1,26 @@
+name: Macro source access check
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/macro-source-check.yml]
+permissions:
+  contents: read
+jobs:
+  public-csv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public CSV with standard HTTP client headers
+        run: |
+          python - <<'PY'
+          import urllib.request,hashlib
+          url='https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/research/fred-md/monthly/2026-07-md.csv'
+          headers={'User-Agent':'Mozilla/5.0','Accept':'text/csv,text/plain,*/*','Referer':'https://www.stlouisfed.org/research/economists/mccracken/fred-databases'}
+          req=urllib.request.Request(url,headers=headers)
+          with urllib.request.urlopen(req,timeout=30) as response:
+              body=response.read(2000000)
+          assert body.startswith(b'sasdate,'), 'Provider did not return CSV'
+          print('Verified CSV:',len(body),'bytes; SHA256',hashlib.sha256(body).hexdigest())
+          assert hashlib.sha256(body).hexdigest()=='cf4a3ea21d90ced696df323870025eae7d8512fd6bbf508cc64792318493682f'
+          PY
