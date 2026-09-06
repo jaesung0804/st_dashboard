@@ -196,6 +196,17 @@ def test_http_retries_are_finite(monkeypatch):
     assert len(calls) == 2
 
 
+def test_real_provider_euc_kr_encoding_is_decoded_before_xml_parse(monkeypatch):
+    xml = ('<?xml version="1.0" encoding="euc-kr"?><protocol>'
+           '<chartdata symbol="005930" name="삼성전자">'
+           '<item data="20260904|100|102|98|100|20"/></chartdata></protocol>')
+    r = SimpleNamespace(content=xml.encode("euc-kr"), raise_for_status=lambda: None)
+    monkeypatch.setattr(krx.requests, "get", lambda *a, **k: r)
+    frame = krx.fetch_krx_ohlcv_bounded("005930", "20260904", "20260905")
+    assert frame.date.tolist() == ["2026-09-04"]
+    assert frame.ticker.tolist() == ["005930"]
+
+
 def test_http_403_is_not_retried(monkeypatch):
     calls = []
     def denied(*args, **kwargs):

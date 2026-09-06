@@ -208,7 +208,8 @@ def refresh_ranges(
                     rows.append({"ticker": ticker, "status": "failed", "rows": 0, "latest_date": "",
                                  "error": f"{type(exc).__name__}: {str(exc).splitlines()[0]}"})
                 if len(rows) % 50 == 0 or len(rows) == len(tickers) or rows[-1]["status"] == "failed":
-                    print(f"[KRX range {len(rows)}/{len(tickers)}] {ticker} {rows[-1]['status']}", flush=True)
+                    detail = f" ({rows[-1]['error']})" if rows[-1]["error"] else ""
+                    print(f"[KRX range {len(rows)}/{len(tickers)}] {ticker} {rows[-1]['status']}{detail}", flush=True)
                 if consecutive_failures >= 8:
                     raise RuntimeError("Eight consecutive provider failures; stopping requests and retaining checkpoints")
                 ticker = next(iterator, None)

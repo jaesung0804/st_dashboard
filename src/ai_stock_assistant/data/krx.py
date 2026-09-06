@@ -6,6 +6,7 @@ from contextlib import redirect_stdout
 import importlib
 import io
 from pathlib import Path
+import re
 import time
 import xml.etree.ElementTree as ET
 
@@ -204,8 +205,14 @@ def fetch_krx_ohlcv_bounded(
                 raise RuntimeError(f"Naver price request failed ({type(exc).__name__}, HTTP {status})") from None
             time.sleep(1.0 + attempt)
     try:
-        root = ET.fromstring(response.content)
-    except ET.ParseError:
+        # Naver declares EUC-KR. Expat rejects that multibyte encoding when
+        # passed raw bytes; decode first, as pykrx does with response.text.
+        declared = re.search(br"encoding\s*=\s*['\"]([^'\"]+)['\"]", response.content[:200], re.I)
+        encoding = declared.group(1).decode("ascii").lower() if declared else "utf-8-sig"
+        if encoding not in {"utf-8", "utf-8-sig", "euc-kr", "cp949", "us-ascii"}:
+            raise ValueError("Naver returned an unsupported XML encoding")
+        root = ET.fromstring(response.content.decode(encoding))
+    except (ET.ParseError, UnicodeError):
         raise ValueError("Naver returned invalid price XML") from None
     chart = root if root.tag == "chartdata" else root.find(".//chartdata")
     if chart is None or str(chart.get("symbol", ticker)).zfill(6) != ticker:
