@@ -4,11 +4,10 @@
 @@THEME_HEAD@@
 <link rel="stylesheet" href="dashboard.css?v=@@BUILD@@">
 </head><body>
-<header><div class="header-inner"><div><a class="eyebrow" href="dashboard.html">← @@LABEL@@ 전체 종목</a><h1 id="title">종목 상세</h1></div><nav aria-label="상세 이동"><a href="@@OTHER_HREF@@">@@OTHER_LABEL@@ 시장</a><a href="#model-guide">모델 사용법</a><a id="naver" target="_blank" rel="noopener" hidden>네이버 증권 ↗</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
+<header><div class="header-inner"><div><a class="eyebrow" href="dashboard.html">← @@LABEL@@ 추천·검색</a><h1 id="title">종목 상세</h1></div><nav aria-label="상세 이동"><a href="@@OTHER_HREF@@">@@OTHER_LABEL@@ 시장</a><a href="model.html">모델 설명·검증</a><a id="naver" target="_blank" rel="noopener" hidden>네이버 증권 ↗</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
 <main><div class="workspace-title"><p id="stockMeta" class="muted"></p><label class="date-label">신호일<select id="date" aria-label="신호일"></select></label></div>
 <p id="dataWarning" class="notice warning" hidden></p>
 <div id="content" aria-live="polite">결과를 불러오는 중입니다.</div>
 <section class="panel" id="historyPanel"><h2>저장된 예측 기록</h2><p class="muted">공개된 최근 신호일만 표시합니다. 기록이 없는 날의 예측을 새로 만들지 않습니다.</p><div id="history"></div></section>
-@@GUIDE@@
 </main><script src="common.js?v=@@BUILD@@"></script><script src="stock.js?v=@@BUILD@@"></script>@@THEME_TOGGLE@@
 </body></html>

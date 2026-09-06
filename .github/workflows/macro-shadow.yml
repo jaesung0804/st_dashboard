@@ -1,48 +1,122 @@
 name: Macro EWS comparison
+run-name: Macro EWS comparison (${{ inputs.mode || (github.event_name == 'workflow_run' && 'infer' || 'train') }})
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Monthly training or inference with already frozen models
+        type: choice
+        default: infer
+        options: [infer, train]
+  schedule:
+    - cron: "45 4 1 * *"
   push:
     branches: [main]
     paths: [.github/workflows/macro-shadow.yml]
+  workflow_run:
+    # Run after Daily Refresh rather than competing with it after Monthly Training.
+    workflows: [Daily Refresh]
+    types: [completed]
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
 jobs:
-  data-preflight:
+  compare:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 90
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PAGES_BUILD_VERSION: ${{ github.sha }}
+      SHADOW_MODE: ${{ inputs.mode || (github.event_name == 'workflow_run' && 'infer' || 'train') }}
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+    defaults:
+      run:
+        working-directory: app
     steps:
-      - name: Check archival macro data access
-        env:
-          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      - name: Checkout app
+        uses: actions/checkout@v4
+        with:
+          path: app
+      - name: Checkout dashboard state
+        uses: actions/checkout@v4
+        with:
+          ref: dashboard-state
+          path: app/.dashboard-state
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements-live.txt
+      - name: Install dependencies
+        run: python -m pip install -r requirements-live.txt
+      - name: Restore verified state
+        run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
+      - name: Record production model and forecast checksums
         run: |
           python - <<'PY'
-          import os, urllib.request, urllib.parse, json
+          import hashlib,json
           from pathlib import Path
-          out=Path('macro-probe'); out.mkdir()
-          print('Configured FRED key:', bool(os.environ.get('FRED_API_KEY')))
-          urls={
-            'unrate-2020': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&cosd=2019-01-01&coed=2026-09-04&vintage_date=2020-01-01',
-            'unrate-2021': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&cosd=2019-01-01&coed=2026-09-04&vintage_date=2021-01-01',
-            'treasury-2020': 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&cosd=2019-01-01&coed=2026-09-04&vintage_date=2020-01-01',
-          }
-          if os.environ.get('FRED_API_KEY'):
-            query=urllib.parse.urlencode(dict(series_id='UNRATE',api_key=os.environ['FRED_API_KEY'],file_type='json',observation_start='2019-01-01',realtime_start='2019-01-01',realtime_end='2026-09-04',output_type=1))
-            urls['api-revisions']='https://api.stlouisfed.org/fred/series/observations?'+query
-          for name,url in urls.items():
-            try:
-              req=urllib.request.Request(url,headers={'User-Agent':'st_dashboard macro research; public archival data'})
-              with urllib.request.urlopen(req,timeout=25) as response:
-                body=response.read(2000000)
-                print(name,response.status,response.headers.get('Content-Type'),len(body))
-                (out/(name+'.txt')).write_bytes(body)
-                lines=body.decode('utf-8-sig').splitlines()
-                if '<html' not in body[:500].decode('utf-8','ignore').lower():
-                  print('preview',lines[:3], 'last',lines[-2:])
-            except Exception as exc:
-              print(name,type(exc).__name__)
+          hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in Path('data/dashboard_ews').rglob('*') if p.is_file()}
+          Path('production-before.json').write_text(json.dumps(hashes))
           PY
-      - uses: actions/upload-artifact@v4
+      - name: Collect missing official monthly macro vintages
+        timeout-minutes: 10
+        run: python scripts/run_shadow_ews.py collect
+      - name: Train paired monthly models and temporal holdouts
+        if: env.SHADOW_MODE == 'train'
+        timeout-minutes: 55
+        run: python -u scripts/run_shadow_ews.py train
+      - name: Check fixed models are ready
+        id: ready
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime,timezone
+          from pathlib import Path
+          month=datetime.now(timezone.utc).strftime('%Y-%m')
+          missing=[f'{m}/{a}' for m in ['kr','us'] for a in ['price','macro'] if not Path(f'data/dashboard_ews_shadow/{m}/models/{month}/{a}/model.json').exists()]
+          ready=not missing
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f"ready={str(ready).lower()}\n")
+          if missing:
+              message=f'Waiting for monthly shadow models {month}: {missing}. Daily inference never trains; monthly training runs at 04:45 UTC on day 1.'
+              print(message)
+              with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f: f.write(message+'\n')
+          PY
+      - name: Infer paired scores and evaluate matured saved forecasts
+        if: steps.ready.outputs.ready == 'true'
+        run: python -u scripts/run_shadow_ews.py infer
+      - name: Verify production state remains byte-identical
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          before=json.loads(Path('production-before.json').read_text())
+          after={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in Path('data/dashboard_ews').rglob('*') if p.is_file()}
+          assert before==after, 'Production state changed during shadow comparison'
+          print(f'Production state unchanged: {len(before)} files')
+          PY
+      - name: Pack complete state including independent experiment
+        if: steps.ready.outputs.ready == 'true'
+        run: python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+      - name: Retain experiment recovery artifact
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: macro-source-preflight
-          path: macro-probe
+          name: macro-comparison-${{ github.run_id }}
+          path: app/data/dashboard_ews_shadow
+          if-no-files-found: ignore
           retention-days: 7
+      - name: Persist verified state before publishing
+        if: steps.ready.outputs.ready == 'true'
+        run: python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Export unchanged operational forecasts
+        if: steps.ready.outputs.ready == 'true'
+        run: python scripts/run_monthly_ews.py export --days 22
+      - name: Publish recommendation UI and separate model comparison
+        if: steps.ready.outputs.ready == 'true'
+        run: python scripts/build_pages_deploy.py --days 22 --push

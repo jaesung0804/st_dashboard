@@ -22,6 +22,7 @@ DEFAULT_PATHS = [
     "data/raw/opendart_corp_codes.csv",
     "data/raw/opendart_accounts",
     "data/raw/yfinance_financials",
+    "data/dashboard_ews_shadow",
 ]
 PART_SIZE = 8 * 1024 * 1024
 

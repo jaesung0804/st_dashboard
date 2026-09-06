@@ -4,22 +4,21 @@
 @@THEME_HEAD@@
 <link rel="stylesheet" href="dashboard.css?v=@@BUILD@@">
 </head><body>
-<header><div class="header-inner"><div><a class="eyebrow" href="../index.html">ST DASHBOARD</a><h1>@@LABEL@@ 주식 조기경보</h1></div><nav aria-label="대시보드 이동"><a href="@@OTHER_HREF@@">@@OTHER_LABEL@@ 시장</a><a href="#model-guide">모델 사용법</a><a href="@@ACTION_URL@@">배치 상태·실행</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
+<header><div class="header-inner"><div><a class="eyebrow" href="../index.html">ST DASHBOARD</a><h1>@@LABEL@@ 주식 조기경보</h1></div><nav aria-label="대시보드 이동"><a href="@@OTHER_HREF@@">@@OTHER_LABEL@@ 시장</a><a href="model.html">모델 설명·검증</a><a href="@@ACTION_URL@@">배치 상태·실행</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
 <main>
 <section class="panel workspace" aria-label="종목 검색">
-<div class="workspace-title"><h2>관심 종목부터 찾아보세요</h2><label class="date-label">신호일<select id="date" aria-label="신호일"></select></label></div>
+<div class="workspace-title"><h2>모델 추천 종목</h2><label class="date-label">신호일<select id="date" aria-label="신호일"></select></label></div>
 <label class="search-label" for="query">종목명 또는 티커 검색 <span>후보 여부와 관계없이 검색</span></label>
 <div class="search-line"><input id="query" type="search" placeholder="@@SEARCH_EXAMPLE@@" autocomplete="off"><button id="clearQuery" type="button">검색 지우기</button></div>
 <div class="stats" aria-label="선택일 결과"><div><span>모델 평가</span><b id="rowCount">—</b></div><div><span>상승 조건 통과</span><b id="upCount">—</b></div><div><span>관심 후보</span><b id="finalCount">—</b></div><div><span>검색 가능 종목</span><b id="lookupCount">—</b></div></div>
 <p id="candidateNotice" class="notice" role="status"></p>
-<div class="controls"><label>보기<select id="mode"><option value="all">전체 종목</option><option value="scored">모델 평가 종목</option><option value="final">관심 후보</option><option value="up">상승 조건 통과</option><option value="down">급락 위험 35% 이상</option></select></label><label>정렬<select id="sort"><option value="upScore">상승 기회</option><option value="downRisk">급락 위험</option><option value="trailingReturn6mPct">과거 6개월 수익률</option><option value="name">종목명</option><option value="ticker">티커</option><option value="closeRaw">종가</option></select></label><button id="dir" type="button">높은 순</button><label>표시 개수<select id="pageSize"><option>10</option><option selected>25</option><option>50</option><option>100</option><option>200</option></select></label></div>
+<div class="controls"><label>보기<select id="mode"><option value="final">모델 추천 종목</option><option value="all">전체 종목</option><option value="scored">모델 평가 종목</option><option value="up">상승 조건 통과</option><option value="down">급락 위험 35% 이상</option></select></label><label>정렬<select id="sort"><option value="upScore">상승 기회</option><option value="downRisk">급락 위험</option><option value="trailingReturn6mPct">과거 6개월 수익률</option><option value="name">종목명</option><option value="ticker">티커</option><option value="closeRaw">종가</option></select></label><button id="dir" type="button">높은 순</button><label>표시 개수<select id="pageSize"><option>10</option><option selected>25</option><option>50</option><option>100</option><option>200</option></select></label></div>
 </section>
-<div class="result-heading"><p id="meta" aria-live="polite">결과를 불러오는 중입니다.</p><a href="#score-guide">확률과 수익률 읽는 법</a></div>
+<div class="result-heading"><p id="meta" aria-live="polite">결과를 불러오는 중입니다.</p><a href="model.html#score-guide">확률과 수익률 읽는 법</a></div>
 <p id="dataWarning" class="notice warning" hidden></p>
 <section id="table" class="panel results" aria-label="검색 결과"></section>
 <div class="pager"><button id="prev" type="button">이전</button><span id="pageInfo" aria-live="polite"></span><button id="next" type="button">다음</button></div>
 <p class="footnote">과거 6개월은 선택 신호일까지의 126개 가격 관측 구간입니다. 주가 정정이 반영된 보관 조정 종가로 계산하며, 미래 예상 수익률이나 배당·비용을 모두 반영한 투자 수익률이 아닙니다. 가격 설명을 추가해도 저장된 예측 확률은 바뀌지 않습니다.</p>
-@@GUIDE@@
 </main>
 <script src="common.js?v=@@BUILD@@"></script><script src="dashboard.js?v=@@BUILD@@"></script>
 @@THEME_TOGGLE@@

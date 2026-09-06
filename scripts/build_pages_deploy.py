@@ -7,6 +7,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 from collections import defaultdict
@@ -263,10 +264,18 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
     (target / "index.html").write_text(dashboard_html(label, subtitle, other_href, other_label), encoding="utf-8")
     (target / "stock.html").write_text(stock_html(label, other_href, other_label), encoding="utf-8")
     assets = Path(__file__).resolve().parent / "dashboard_web"
-    for filename in ("dashboard.css", "common.js", "dashboard.js", "stock.js"):
+    (target / "model.html").write_text(render_dashboard_template("model.html", label, other_href, other_label), encoding="utf-8")
+    # Rebuild the report from restored state on every publisher, so an ordinary
+    # daily refresh cannot discard the independent macro experiment.
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+    from ai_stock_assistant.shadow_ews import export_report
+    export_report(raw_dir.parent / "dashboard_ews_shadow", raw_dir.parent / "dashboard_ews",
+                  "kr" if label == "한국" else "us", source.parent)
+    shutil.copyfile(source / "model_report.json", target / "model_report.json")
+    for filename in ("dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js"):
         shutil.copyfile(assets / filename, target / filename)
     ui_assets = {name: hashlib.sha256((target / name).read_bytes()).hexdigest()
-                 for name in ("dashboard.html", "index.html", "stock.html", "dashboard.css", "common.js", "dashboard.js", "stock.js")}
+                 for name in ("dashboard.html", "index.html", "stock.html", "model.html", "dashboard.css", "common.js", "dashboard.js", "stock.js", "model.js", "model_report.json")}
     json_dump(
         target / "manifest.json",
         {
@@ -289,7 +298,7 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
             "models": source_manifest.get("models", {}),
             "predictionPolicy": source_manifest.get("predictionPolicy", "legacy_unversioned"),
             "marketName": label,
-            "uiVersion": "ews-explorer-v1",
+            "uiVersion": "ews-recommendations-research-v2",
             "presentationBuild": BUILD_VERSION,
             "uiAssets": ui_assets,
             "priceContext": price_context,
