@@ -36,7 +36,7 @@ const EWS = (() => {
   }
   function returnText(quote) {
     if (quote?.returnStatus === 'available') return percent(quote.trailingReturn6mPct, true);
-    return ({stale_quote:'선택일 시세 없음', insufficient_history:'126개 관측 미만', missing_adjusted_price:'조정 가격 부족', no_prices:'시세 없음'})[quote?.returnStatus] || '자료 없음';
+    return ({stale_quote:'선택일 시세 없음', insufficient_history:'126개 관측 미만', missing_adjusted_price:'조정 가격 부족', unverified_price_continuity:'가격 연속성 확인 필요', no_prices:'시세 없음'})[quote?.returnStatus] || '자료 없음';
   }
   function mergedRows(rows, context) {
     const quotes = new Map((context?.rows || []).map(r => [String(r.ticker), r]));

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -31,9 +32,13 @@ def build_price_context(raw_dir: Path, target: Path, market: str, dates: list[st
         return {"available": False, "reason": "Retained prices unavailable"}
     columns = ["date", "ticker", "close", "adjusted_close", "volume"]
     prices = pd.read_csv(prices_path, usecols=columns, dtype={"ticker": str})
-    prices["date"] = pd.to_datetime(prices["date"], errors="raise").dt.strftime("%Y-%m-%d")
-    prices = prices.loc[prices["date"] <= max(dates)]
+    prices["date"] = pd.to_datetime(prices["date"], errors="raise")
+    prices = prices.loc[prices["date"] <= pd.Timestamp(max(dates))]
     prices = prices.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"])
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+    from ai_stock_assistant.data.price_quality import prepare
+    prices, quality = prepare(prices, market)
+    prices["date"] = prices["date"].dt.strftime("%Y-%m-%d")
     listings = {}
     if listing_path.exists():
         frame = pd.read_csv(listing_path, dtype=str).fillna("")
@@ -48,6 +53,7 @@ def build_price_context(raw_dir: Path, target: Path, market: str, dates: list[st
         close = group["close"].to_numpy(dtype=float)
         adjusted = group["adjusted_close"].to_numpy(dtype=float)
         volume = group["volume"].to_numpy(dtype=float)
+        breaks = group["quality_break"].to_numpy(dtype=bool)
         for date in dates:
             end = int(np.searchsorted(observed_dates, date, side="right")) - 1
             if end < 0:
@@ -80,14 +86,16 @@ def build_price_context(raw_dir: Path, target: Path, market: str, dates: list[st
                 row["returnStatus"] = "stale_quote"
             elif end >= HORIZON:
                 window = adjusted[end - HORIZON:end + 1]
-                if np.isfinite(window).all() and (window > 0).all():
+                if not np.isfinite(window).all() or not (window > 0).all():
+                    row["returnStatus"] = "missing_adjusted_price"
+                elif breaks[end - HORIZON:end + 1].any():
+                    row["returnStatus"] = "unverified_price_continuity"
+                else:
                     row.update({
                         "trailingReturn6mPct": number((window[-1] / window[0] - 1) * 100, 2),
                         "returnStartDate": str(observed_dates[end - HORIZON]),
                         "returnStatus": "available",
                     })
-                else:
-                    row["returnStatus"] = "missing_adjusted_price"
             by_date[date].append(row)
     # Current listings without retained prices remain searchable, with no score.
     context_hashes = {}
@@ -106,7 +114,8 @@ def build_price_context(raw_dir: Path, target: Path, market: str, dates: list[st
             })
         payload = {
             "schemaVersion": 1, "signalDate": date, "horizonObservations": HORIZON,
-            "priceBasis": "retained_adjusted_close", "pricesSha256": price_hash,
+            "priceBasis": "retained_adjusted_close_with_verified_actions", "pricesSha256": price_hash,
+            "priceQualityPolicy": quality["policy"], "verifiedAdjustments": quality["adjustments"],
             "listingBasis": "current_retained_listing_lookup",
             "rows": sorted(by_date[date], key=lambda r: r["ticker"]),
         }
@@ -117,6 +126,6 @@ def build_price_context(raw_dir: Path, target: Path, market: str, dates: list[st
     return {
         "available": True, "path": "price_context/{date}.json", "horizonObservations": HORIZON,
         "latestCount": len(by_date[max(dates)]), "pricesSha256": price_hash,
-        "priceBasis": "retained_adjusted_close",
+        "priceBasis": "retained_adjusted_close_with_verified_actions", "priceQualityPolicy": quality["policy"],
         "sha256ByDate": context_hashes,
     }

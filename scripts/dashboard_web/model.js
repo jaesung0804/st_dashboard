@@ -37,6 +37,10 @@
     $('comparisonBasis').textContent=`시험 월 ${folds.map(f=>f.month).join(', ')} · ${number(m.price[head].signal_dates)}개 신호일 · 관측 ${number(m.price[head].rows)}건 · 결과 제외 ${number(m.price[head].missing)}건. 과거 재현 시험이며 실전 투자 성과가 아닙니다.`;
     const fields=[['실제 사건 발생률','event_rate',pct],['AUC ↑','auc',decimal],['AR ↑','ar',decimal],['KS ↑','ks',decimal],['PR-AUC (AP) ↑','average_precision',decimal],['Brier ↓','brier',decimal],['Log loss ↓','log_loss',decimal]];
     $('comparisonMetrics').innerHTML=table(['지표','가격','가격 + 거시'],fields.map(([label,key,fmt])=>[esc(label),fmt(m.price[head][key]),fmt(m.macro[head][key])]));
+    const notices=[];
+    if (numeric(m.price[head].auc)<.5 && numeric(m.macro[head].auc)<.5) notices.push('선택 구간에서 두 모델 모두 AUC가 0.5 미만입니다. 이 구간의 구분력이 개선됐다고 해석할 수 없습니다.');
+    if (numeric(m.macro[head].brier)>numeric(m.price[head].brier)) notices.push('거시 추가 모델의 확률 오차(Brier)가 가격 모델보다 큽니다.');
+    $('performanceNotice').hidden=!notices.length;$('performanceNotice').textContent=notices.join(' ');
     const warnings=[];
     for (const fold of folds) for (const arm of ['price','macro']) {
       if (fold.calibration_accepted?.[arm]?.[head] === false) warnings.push(`${fold.month} ${arm === 'price' ? '가격' : '거시 추가'}`);
@@ -91,6 +95,11 @@
       $('reportStatus').textContent=`자료 생성 ${report.generated_at} · 운영 모델과 별도 실험을 구분해 표시합니다.`;
       for (const fold of report.comparison?.folds || []) { const option=document.createElement('option');option.value=fold.month;option.textContent=fold.month;$('compareFold').append(option); }
       if (report.macro) $('macroProvenance').textContent=`${report.macro.vintages}개 월별 자료 보관 · 최신 보관 월 ${report.macro.latest_vintage} · 원본 해시와 적용 시점 보존`;
+      if (report.price_quality) {
+        const quality=report.price_quality, events=quality.unverified_discontinuities || [];
+        $('priceQualitySummary').textContent=`미확인 가격 단절 ${number(events.length)}건 · 0 이하·유효하지 않은 조정 가격 ${number(quality.invalid_adjusted_price_rows)}행 · 최신일 가격 이력 확인 대상 ${number(quality.latest_affected_tickers?.length)}종목. 제외 범위는 두 실험 모델에 동일하게 적용합니다.`;
+        $('priceQualityEvents').innerHTML=events.length ? table(['관측일','티커','직전 관측 대비 배수'],events.map(e=>[esc(e.date),esc(e.ticker),decimal(e.ratio)])) : '<p>현재 보관 구간에 미확인 큰 가격 단절은 없습니다.</p>';
+      }
       renderComparison();renderShadow();renderProduction();
     } catch (error) {
       $('reportStatus').textContent='검증 자료를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요. 사용법은 계속 볼 수 있습니다.';

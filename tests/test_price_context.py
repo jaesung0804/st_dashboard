@@ -49,3 +49,16 @@ def test_returns_stop_at_signal_and_lookup_keeps_unscored_and_missing(tmp_path):
 
 def test_missing_price_archive_is_explicit(tmp_path):
     assert module.build_price_context(tmp_path, tmp_path / "site", "kr", ["2026-09-04"])["available"] is False
+
+
+def test_unverified_jump_stays_searchable_without_a_fabricated_past_return(tmp_path):
+    dates = pd.bdate_range('2025-01-01', periods=127).strftime('%Y-%m-%d')
+    raw = tmp_path / 'raw'
+    raw.mkdir()
+    pd.DataFrame({'ticker':'BROKEN', 'date':dates, 'close':100., 'volume':100.,
+                  'adjusted_close':[100.]*100 + [10000.]*27}).to_csv(raw / module.PRICE_FILES['us'], index=False)
+    module.build_price_context(raw, tmp_path / 'site', 'us', [dates[-1]])
+    data = json.loads((tmp_path / 'site/price_context' / f'{dates[-1]}.json').read_text())
+    assert data['rows'][0]['ticker'] == 'BROKEN'
+    assert data['rows'][0]['trailingReturn6mPct'] is None
+    assert data['rows'][0]['returnStatus'] == 'unverified_price_continuity'

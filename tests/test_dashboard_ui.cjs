@@ -24,6 +24,7 @@ for(const ascending of [false,true]) {
 assert.equal(ui.returnText(rows[0]._quote),'0.0%');
 assert.equal(ui.percent(null),'자료 없음');
 assert.equal(ui.percent(30),'30.0%');
+assert.equal(ui.returnText({returnStatus:'unverified_price_continuity'}),'가격 연속성 확인 필요');
 assert.ok(ui.score({_quoteOnly:true},'up').includes('평가 없음'));
 assert.ok(ui.score({upScore:88},'up').includes('기존 순위 점수'));
 assert.equal(JSON.stringify(frozen),before,'UI enrichment must not mutate forecasts');
