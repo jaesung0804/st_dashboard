@@ -21,7 +21,7 @@
     "type": "archive",
     "encoding": "gzip",
     "size": 103004160,
-    "sha256": "4e895874fcc5ba8aa96c6fecbc6dbf63b4053a8118874a67cd2688d06cd53ea7",
+    "sha256": "3a108cec5b0f98b84fdbb7068ca3db7f675985a826da423bfe326decde83b387",
     "files": 20080,
     "parts": [
       ".parts/data/raw/yfinance_financials/part-0000",
@@ -42,9 +42,9 @@
   "data/dashboard_research": {
     "type": "archive",
     "encoding": "gzip",
-    "size": 100577280,
-    "sha256": "00d47a7de167062a9cd97e7aee7c53e8c29b0fe080c900eeac57cde1388c55f0",
-    "files": 159,
+    "size": 102328320,
+    "sha256": "a3b25e74fc055eb97f160c06fa24c704f400cd7b19e4d671da15216e4d70598f",
+    "files": 163,
     "parts": [
       ".parts/data/dashboard_research/part-0000",
       ".parts/data/dashboard_research/part-0001",
