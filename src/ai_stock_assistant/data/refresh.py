@@ -212,6 +212,23 @@ def latest_completed_krx_asof(now: datetime | None = None) -> str:
     return target.strftime("%Y%m%d")
 
 
+def latest_completed_us_asof(now: datetime | None = None) -> str:
+    """Return a date whose regular US session has finished and settled.
+
+    A manual recovery may run while New York is still trading. Requesting that
+    calendar date exposes a moving Yahoo snapshot whose close can temporarily
+    sit outside its high/low and whose universe coverage is incomplete. Keep a
+    one-hour provider-settlement buffer after the 16:00 regular close. Weekend
+    and holiday dates are harmless because the collector uses the latest real
+    observation without fabricating a bar.
+    """
+    new_york_now = now.astimezone(ZoneInfo("America/New_York")) if now else datetime.now(ZoneInfo("America/New_York"))
+    target = new_york_now.date()
+    if new_york_now.time() < time(17, 0):
+        target -= timedelta(days=1)
+    return target.strftime("%Y%m%d")
+
+
 def _krx_candidate_asofs(requested_asof: str, lookback_days: int) -> list[str]:
     candidates: list[str] = []
     for offset in range(max(0, lookback_days) + 1):
@@ -349,7 +366,7 @@ def refresh_us_daily_data(
     from ai_stock_assistant.data.us_incremental import refresh_ranges
 
     ensure_project_dirs()
-    asof = asof or today_yyyymmdd()
+    asof = asof or latest_completed_us_asof()
     listings_path = listings_path or _find_latest_us_listings()
     prices_path = prices_path or _find_latest_us_combined_prices()
     if listings_path is None:

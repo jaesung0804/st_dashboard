@@ -1,5 +1,6 @@
-from pathlib import Path
+from datetime import datetime, timezone
 import json
+from pathlib import Path
 
 import pandas as pd
 import pytest
@@ -19,6 +20,28 @@ def setup(tmp_path, monkeypatch, tickers=("AAA", "BBB"), dates=("2026-09-03",)):
     monkeypatch.setattr(refresh, "ensure_project_dirs", lambda: None)
     monkeypatch.setattr(refresh, "DAILY_OUTPUT_DIR", tmp_path / "daily")
     return dict(listings_path=listing, prices_path=price, output_path=price, asof="20260904")
+
+
+def test_latest_completed_us_asof_waits_for_provider_settlement():
+    during_session = datetime(2026, 9, 9, 16, 30, tzinfo=timezone.utc)
+    after_settlement = datetime(2026, 9, 9, 22, 30, tzinfo=timezone.utc)
+    winter_schedule = datetime(2026, 1, 9, 22, 30, tzinfo=timezone.utc)
+    assert refresh.latest_completed_us_asof(during_session) == "20260908"
+    assert refresh.latest_completed_us_asof(after_settlement) == "20260909"
+    assert refresh.latest_completed_us_asof(winter_schedule) == "20260109"
+
+
+def test_default_refresh_uses_latest_completed_us_asof(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",))
+    del args["asof"]
+    monkeypatch.setattr(refresh, "latest_completed_us_asof", lambda: "20260908")
+    ends = []
+    def fetch(tickers, start, end):
+        ends.append(end)
+        return {"AAA": quotes("AAA", ["2026-09-03", "2026-09-08"])}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    result = refresh.refresh_us_daily_data(**args)
+    assert result.asof == "20260908" and ends == ["20260908"]
 
 
 def test_total_outage_fails_before_replacing_prices(tmp_path, monkeypatch):

@@ -15,6 +15,7 @@ those defects caused the original outage.
 
 | Situation | Handling |
 |---|---|
+| Automatic or manual run before 17:00 America/New_York | Request the previous calendar date so an in-progress US session cannot become the signal date. The one-hour post-close buffer allows provider fields to settle in both daylight- and standard-time schedules. |
 | Weekend/holiday with valid overlapping historical observations | Accept the provider's latest observed session; do not create a new date. |
 | A few unavailable, suspended, delisted or incomplete-rebase tickers | Retain their existing internally consistent history, quarantine them from the new session and report unavailability. Missing observations are never filled with fabricated prices. |
 | Entire market returns no valid observations | Fail collection before inference or CSV replacement. An existing frozen prediction does not make collection successful. |
@@ -26,8 +27,10 @@ those defects caused the original outage.
 The default ten-calendar-day overlap remains a correction window. It no longer
 defines the maximum recoverable gap for every ticker in the market. Response
 validation checks ticker identity, query dates, duplicate keys and price/volume
-values. Entirely unavailable intraday OHL values are retained as missing values;
-close and volume remain usable, matching the existing model's range masking.
+values. Partially or entirely unavailable intraday OHL values are retained as
+missing values; close and volume remain usable, matching the existing model's
+range masking. A missing adjusted close may use its raw close only on the newest
+provider row; older missing adjusted values are withheld.
 
 Adjustment detection uses relative tolerance 0.01% and absolute tolerance
 0.000001 for both close and adjusted close. Ordinary floating-point noise should
@@ -82,9 +85,10 @@ default now specify UTF-8 explicitly; their assertions are unchanged. These were
 local test-environment failures, not the cause of the production batch outage.
 
 `tests/test_us_incremental.py` exercises complete outages, partial failures,
-holidays, retained delisted history, long ticker-specific gaps, split/dividend
-rebases, truncated responses, invalid rows, missing intraday quotes, bounded
-download settings and interrupted writes. Run with the workflow's UTF-8 setting:
+holidays, the pre-settlement US cutoff, retained delisted history, long
+ticker-specific gaps, split/dividend rebases, truncated responses, invalid
+rows, missing intraday quotes, bounded download settings and interrupted
+writes. Run with the workflow's UTF-8 setting:
 
 ```powershell
 $env:PYTHONUTF8 = "1"
