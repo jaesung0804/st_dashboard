@@ -88,6 +88,39 @@ def inventory(root: Path) -> dict[str, tuple[str, int]]:
     return files
 
 
+def create_complete_tree(files: dict[str, tuple[str, int]], api: GitHubAPI) -> str:
+    """Create a complete snapshot as bounded, bottom-up directory trees.
+
+    Sending every slash-delimited path in one GitHub tree request can time out
+    while GitHub expands the hierarchy, even when each blob is small. Building
+    each directory independently keeps every request bounded while the final
+    root tree still contains no entries inherited from the previous snapshot.
+    """
+    hierarchy: dict[str, object] = {}
+    for rel, (sha, _) in sorted(files.items()):
+        parts = rel.split("/")
+        node = hierarchy
+        for directory in parts[:-1]:
+            child = node.setdefault(directory, {})
+            if not isinstance(child, dict):
+                raise ValueError(f"State path conflicts with a file: {rel}")
+            node = child
+        if parts[-1] in node:
+            raise ValueError(f"Duplicate state path: {rel}")
+        node[parts[-1]] = sha
+
+    def create(node: dict[str, object]) -> str:
+        entries = []
+        for name, value in sorted(node.items()):
+            if isinstance(value, dict):
+                entries.append({"path": name, "mode": "040000", "type": "tree", "sha": create(value)})
+            else:
+                entries.append({"path": name, "mode": "100644", "type": "blob", "sha": value})
+        return api.request("POST", "/git/trees", {"tree": entries})["sha"]
+
+    return create(hierarchy)
+
+
 def publish_snapshot(root: Path, base: str, api: GitHubAPI) -> str:
     files = inventory(root)
     ref = f"/git/ref/heads/{BRANCH}"
@@ -99,7 +132,6 @@ def publish_snapshot(root: Path, base: str, api: GitHubAPI) -> str:
     # the new tree below is a complete snapshot, never a partial patch/deletion.
     old = {item["path"]: item for item in old_tree["tree"] if item["type"] == "blob"}
     known = {item["sha"] for item in old.values()}
-    entries = []
     uploaded = 0
     for rel, (sha, size) in sorted(files.items()):
         if sha not in known:
@@ -114,8 +146,7 @@ def publish_snapshot(root: Path, base: str, api: GitHubAPI) -> str:
             uploaded += 1
             if uploaded % 10 == 0:
                 print(f"State upload: {uploaded} verified blobs, current={size / 1024 / 1024:.1f} MiB", flush=True)
-        entries.append({"path": rel, "mode": "100644", "type": "blob", "sha": sha})
-    tree = api.request("POST", "/git/trees", {"tree": entries})["sha"]
+    tree = create_complete_tree(files, api)
     if tree == base_tree:
         if api.request("GET", ref)["object"]["sha"] != base:
             raise RuntimeError("Dashboard-state advanced during validation")

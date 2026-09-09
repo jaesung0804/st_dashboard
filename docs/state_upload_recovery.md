@@ -19,9 +19,11 @@ timeout alone does not bound an individual large Git transfer. The new format:
   the new encoding, and rejects invalid archive paths or symlinks.
 
 State publication uses the GitHub Git Database API. Each blob is uploaded with a
-bounded request, and its returned Git blob SHA is verified. A complete tree and
-commit are assembled before the branch moves. The final update is a non-force
-fast-forward from the checked-out parent; a concurrent state update aborts.
+bounded request, and its returned Git blob SHA is verified. Complete directory
+trees are assembled bottom-up in bounded requests before the root commit is
+created, avoiding server-side expansion of every slash-delimited path in one
+request. The final update is a non-force fast-forward from the checked-out
+parent; a concurrent state update aborts.
 A timeout after the final request is reconciled against the remote commit SHA.
 An incomplete upload therefore cannot expose a partial live state.
 

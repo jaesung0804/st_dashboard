@@ -24,6 +24,7 @@ class FakeGitHub:
     def __init__(self, *, fail_upload=False, race=False, lost_response=False, truncated=False):
         self.head = "old"
         self.files = {"old-data.csv": "old-blob"}
+        self.trees = {}
         self.events = []
         self.fail_upload, self.race = fail_upload, race
         self.lost_response, self.truncated = lost_response, truncated
@@ -46,18 +47,31 @@ class FakeGitHub:
             return {"sha": push.blob_sha(base64.b64decode(body["content"]))}
         if method == "POST" and endpoint == "/git/trees":
             assert "base_tree" not in body  # Always a complete snapshot.
-            self.pending = {item["path"]: item["sha"] for item in body["tree"]}
-            return {"sha": "new-tree"}
+            assert all("/" not in item["path"] for item in body["tree"])
+            sha = f"new-tree-{len(self.trees)}"
+            self.trees[sha] = body["tree"]
+            return {"sha": sha}
         if method == "POST" and endpoint == "/git/commits":
             assert body["parents"] == ["old"]
+            self.pending_tree = body["tree"]
             return {"sha": "new"}
         if method == "PATCH":
             assert body == {"sha": "new", "force": False}
-            self.head, self.files = "new", self.pending
+            self.head, self.files = "new", self._flatten(self.pending_tree)
             if self.lost_response:
                 raise RuntimeError("Response lost after server committed")
             return {"object": {"sha": "new"}}
         raise AssertionError((method, endpoint))
+
+    def _flatten(self, tree, prefix=""):
+        files = {}
+        for item in self.trees[tree]:
+            path = f"{prefix}/{item['path']}" if prefix else item["path"]
+            if item["type"] == "blob":
+                files[path] = item["sha"]
+            else:
+                files.update(self._flatten(item["sha"], path))
+        return files
 
 
 def snapshot(tmp_path):
@@ -80,6 +94,20 @@ def test_only_complete_verified_snapshot_is_published(tmp_path, lost_response, t
     root = snapshot(tmp_path)
     assert push.publish_snapshot(root, "old", api) == "new"
     assert api.files == {p.name: push.blob_sha(p.read_bytes()) for p in root.iterdir()}
+
+
+def test_complete_tree_is_built_bottom_up_from_direct_children(tmp_path):
+    root = snapshot(tmp_path)
+    nested = root / "nested/deeper/rows.json"
+    nested.parent.mkdir(parents=True)
+    nested.write_text("[]")
+    api = FakeGitHub()
+    assert push.publish_snapshot(root, "old", api) == "new"
+    tree_requests = [body for method, endpoint, body in api.events
+                     if method == "POST" and endpoint == "/git/trees"]
+    assert len(tree_requests) == 3
+    assert all("/" not in entry["path"] for body in tree_requests for entry in body["tree"])
+    assert api.files["nested/deeper/rows.json"] == push.blob_sha(b"[]")
 
 
 def test_concurrent_state_change_is_never_overwritten(tmp_path):
