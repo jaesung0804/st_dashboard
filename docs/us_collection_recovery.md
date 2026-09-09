@@ -16,11 +16,11 @@ those defects caused the original outage.
 | Situation | Handling |
 |---|---|
 | Weekend/holiday with valid overlapping historical observations | Accept the provider's latest observed session; do not create a new date. |
-| A few unavailable, suspended or delisted tickers | Retain their existing history and report unavailability. Missing observations are never filled with fabricated prices. |
+| A few unavailable, suspended, delisted or incomplete-rebase tickers | Retain their existing internally consistent history, quarantine them from the new session and report unavailability. Missing observations are never filled with fabricated prices. |
 | Entire market returns no valid observations | Fail collection before inference or CSV replacement. An existing frozen prediction does not make collection successful. |
 | Fewer than 95% of the previously active tickers have provider rows on the latest session | Fail before replacing canonical prices. Activity uses the previous 21 retained market sessions, bounded to 45 calendar days, so one partial day does not immediately shrink the denominator. |
 | A ticker has fallen weeks behind the rest of the market | Start its request from its own last retained observation minus the overlap. Group equal start dates into batches. |
-| Overlapping close or adjusted-close prices change materially | Obtain all retained dates for that ticker on the provider's new scale before merging; fail if the complete rebase cannot be verified. |
+| Overlapping close or adjusted-close prices change materially | Obtain all retained dates for that ticker on the provider's new scale before merging. If the complete rebase cannot be verified, quarantine only that ticker; the 95% market-coverage guard still rejects widespread failures. |
 | CSV write fails or is interrupted | Write a sibling temporary file, flush it, then atomically replace the destination only when the write succeeds. |
 
 The default ten-calendar-day overlap remains a correction window. It no longer
@@ -69,9 +69,11 @@ are included in the workflow's existing collection-diagnostics artifact.
 - Up to 5% missingness is an explicit operational tradeoff, not a claim that
   unavailable tickers are delisted. Their last observations remain in the raw
   history and their absence is recorded in diagnostics.
-- A detected adjustment with an incomplete full-history response fails the
-  market batch. Accepting a known mixed price scale would contaminate training
-  and labels, so it is not treated as ordinary ticker unavailability.
+- A detected adjustment with an incomplete full-history response is never
+  merged. The old internally consistent history is retained and the ticker has
+  no row on the new signal date, so it is excluded from that day's inference.
+  The market batch still fails when such exceptions or other missing data push
+  current-session coverage below 95%.
 
 ## Regression checks
 

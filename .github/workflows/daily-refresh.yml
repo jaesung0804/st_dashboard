@@ -1,6 +1,12 @@
 name: Daily Refresh
 run-name: Daily Refresh (${{ inputs.market || 'all' }})
 on:
+  # A workflow-file repair must run from its new commit; rerunning an older
+  # failed attempt would execute the old collector code again.
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/daily-refresh.yml
   workflow_dispatch:
     inputs:
       market:

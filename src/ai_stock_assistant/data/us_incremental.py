@@ -27,15 +27,41 @@ def validate_prices(frame: pd.DataFrame, ticker: str, start: str, end: str) -> p
         raise ValueError("Wrong US ticker or price date range")
     numeric = PRICE_SCHEMA[2:]
     frame[numeric] = frame[numeric].apply(pd.to_numeric, errors="raise")
+
+    # Yahoo can publish the newest raw close before its adjusted-close field is
+    # populated.  The latest adjusted close is on its own current scale, so the
+    # raw close is a safe temporary value for that row only.  Older missing
+    # adjusted values are withheld rather than filled across a corporate action.
+    finite_close = np.isfinite(frame["close"].to_numpy(dtype=float)) & frame["close"].gt(0)
+    latest = dates.max()
+    latest_adjusted_missing = dates.eq(latest) & finite_close & ~np.isfinite(
+        frame["adjusted_close"].to_numpy(dtype=float)
+    )
+    frame.loc[latest_adjusted_missing, "adjusted_close"] = frame.loc[latest_adjusted_missing, "close"]
+
+    # A row without a usable close/adjusted close/volume cannot contribute a
+    # tradeable observation.  Dropping it lets the overlap and market-coverage
+    # guards below decide whether the ticker or the whole batch must be withheld.
+    required = frame[["close", "adjusted_close", "volume"]]
+    invalid_required = (~np.isfinite(required.to_numpy(dtype=float))).any(axis=1)
+    invalid_required |= frame["close"].le(0) | frame["adjusted_close"].le(0) | frame["volume"].lt(0)
+    if invalid_required.any():
+        frame = frame.loc[~invalid_required].copy()
+        dates = dates.loc[~invalid_required]
+    if frame.empty:
+        raise ValueError("No usable US close/adjusted-close/volume observations")
+
     ohl = frame[["open", "high", "low"]]
-    missing_ohl = ohl.eq(0).all(axis=1) | ohl.isna().all(axis=1)
-    checked = frame[numeric].copy()
-    checked.loc[missing_ohl, ["open", "high", "low"]] = 0
-    if not np.isfinite(checked.to_numpy(dtype=float)).all() or (checked < 0).any().any():
-        raise ValueError("Invalid or non-finite US OHLCV values")
-    if (frame[["close", "adjusted_close"]] <= 0).any().any():
-        raise ValueError("Nonpositive US close")
-    traded = frame.volume.gt(0) & ~missing_ohl
+    finite_ohl = np.isfinite(ohl.to_numpy(dtype=float))
+    if ((ohl < 0) & finite_ohl).any().any():
+        raise ValueError("Negative US intraday price")
+    # Partial intraday fields are unavailable observations, not a reason to
+    # discard an otherwise valid close.  Preserve them as NaN so range features
+    # remain missing instead of fabricating a zero-volatility session.
+    frame[["open", "high", "low"]] = ohl.where(finite_ohl, np.nan)
+    ohl = frame[["open", "high", "low"]]
+    complete_ohl = ohl.gt(0).all(axis=1) & ohl.notna().all(axis=1)
+    traded = frame.volume.gt(0) & complete_ohl
     # Allow rounding noise in independently represented OHLC fields.
     tolerance = frame.close.abs() * 1e-5 + 1e-6
     if ((ohl.loc[traded] <= 0).any().any()
@@ -83,7 +109,8 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         for ticker in tickers
     }
     deadline = time.monotonic() + max_seconds
-    updates, errors, rebased = {}, {}, set()
+    updates, errors = {}, {}
+    adjustment_detected, rebase_updated, rebase_quarantined = set(), set(), set()
     fatal = None
 
     def download(queries, result=None):
@@ -148,9 +175,11 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                 # manually requested historical refresh.
                 if existing.loc[existing.ticker.eq(ticker), "date"].max() > requested.strftime("%Y-%m-%d"):
                     raise ValueError(f"{ticker}: rebase must include all retained dates")
-                rebased.add(ticker)
+                adjustment_detected.add(ticker)
                 if not set(old.date).issubset(set(frame.date)):
                     rebases[ticker] = old.date.min().replace("-", "")
+                else:
+                    rebase_updated.add(ticker)
             elif not set(old.loc[old.date.ge(pd.Timestamp(starts[ticker]).strftime("%Y-%m-%d")), "date"]).issubset(set(frame.date)):
                 # A response truncated to recent rows cannot repair a long gap.
                 errors[ticker] = "Incomplete overlapping history; ticker update withheld"
@@ -159,8 +188,16 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         for ticker in rebases:
             frame = full.get(ticker)
             if frame is None or not set(histories[ticker].date).issubset(set(frame.date)):
-                raise ValueError(f"{ticker}: adjusted prices changed but full retained history is unavailable")
+                # Never merge a partial rebase.  Retaining the old internally
+                # consistent history and omitting this ticker from today's
+                # update is safe; the market-wide coverage guard still rejects
+                # the batch if this is more than an isolated exception.
+                updates.pop(ticker, None)
+                rebase_quarantined.add(ticker)
+                errors[ticker] = "Adjusted prices changed; complete rebase unavailable; retained history quarantined"
+                continue
             updates[ticker] = frame
+            rebase_updated.add(ticker)
         if time.monotonic() >= deadline:
             raise TimeoutError("US collection scheduling budget exhausted")
     except Exception as exc:
@@ -170,7 +207,9 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     for ticker in tickers:
         frame = updates.get(ticker)
         summary.append({"ticker": ticker, "requested_start": starts[ticker],
-                        "status": "rebase_updated" if ticker in rebased and not fatal else "updated" if frame is not None else "unavailable",
+                        "status": "rebase_quarantined" if ticker in rebase_quarantined else
+                                  "rebase_updated" if ticker in rebase_updated and not fatal else
+                                  "updated" if frame is not None else "unavailable",
                         "rows": len(frame) if frame is not None else 0,
                         "latest_date": frame.date.max() if frame is not None else "",
                         "error": errors.get(ticker, "")})
@@ -187,7 +226,10 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         reason = f"US latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}"
     report = {"requested_asof": end, "latest": str(latest.date()) if pd.notna(latest) else None,
               "requested_tickers": len(tickers), "updated_tickers": len(updates),
-              "unavailable_tickers": sorted(set(tickers) - set(updates)), "rebased_tickers": sorted(rebased),
+              "unavailable_tickers": sorted(set(tickers) - set(updates)),
+              "adjustment_detected_tickers": sorted(adjustment_detected),
+              "rebased_tickers": sorted(rebase_updated),
+              "quarantined_rebase_tickers": sorted(rebase_quarantined),
               "active_tickers": len(active), "latest_session_coverage": coverage,
               "accepted": not bool(reason), "error": reason}
     _atomic_bytes(run_dir / "us_collection.json", _json_bytes(report))
@@ -196,7 +238,8 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     combined = pd.concat([existing, update], ignore_index=True)
     combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
     _atomic_csv(output_path, combined)
-    print(f"US collection committed: latest={report['latest']}, coverage={coverage:.1%}, rebased={len(rebased)}", flush=True)
+    print(f"US collection committed: latest={report['latest']}, coverage={coverage:.1%}, "
+          f"rebased={len(rebase_updated)}, quarantined={len(rebase_quarantined)}", flush=True)
     return USDailyRefreshResult(asof=latest.strftime("%Y%m%d"), listings_path=listings_path,
                                 combined_prices_path=output_path, summary_path=summary_path,
                                 updated_count=len(updates), failed_count=len(tickers) - len(updates))

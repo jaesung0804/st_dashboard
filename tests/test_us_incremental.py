@@ -103,28 +103,57 @@ def test_each_ticker_recovers_its_own_long_gap(tmp_path, monkeypatch):
     assert "2026-08-06" in set(merged.loc[merged.ticker.eq("AAA"), "date"])
 
 
-@pytest.mark.parametrize("complete", [True, False])
-def test_changed_adjustment_requires_full_history_before_merge(tmp_path, monkeypatch, complete):
+def test_changed_adjustment_uses_complete_full_history(tmp_path, monkeypatch):
     args = setup(tmp_path, monkeypatch, tickers=("AAA",), dates=("2021-06-01", "2026-09-03"))
-    before = args["prices_path"].read_bytes()
     starts = []
     def fetch(tickers, start, end):
         starts.append(start)
         days = ["2026-09-03", "2026-09-04"]
-        if start == "20210601" and complete:
+        if start == "20210601":
             days.insert(0, "2021-06-01")
         return {"AAA": quotes("AAA", days, 50)}
     monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
-    if complete:
-        refresh.refresh_us_daily_data(**args)
-        merged = pd.read_csv(args["prices_path"])
-        assert merged.adjusted_close.eq(50).all()
-        assert merged.adjusted_close.pct_change().dropna().eq(0).all()
-    else:
-        with pytest.raises(RuntimeError, match="full retained history"):
-            refresh.refresh_us_daily_data(**args)
-        assert args["prices_path"].read_bytes() == before
+    refresh.refresh_us_daily_data(**args)
+    merged = pd.read_csv(args["prices_path"])
+    assert merged.adjusted_close.eq(50).all()
+    assert merged.adjusted_close.pct_change().dropna().eq(0).all()
     assert starts == ["20260824", "20210601"]
+
+
+def test_incomplete_rebase_is_quarantined_when_market_coverage_is_safe(tmp_path, monkeypatch):
+    tickers = ["AAA", *[f"T{i:02}" for i in range(19)]]
+    args = setup(tmp_path, monkeypatch, tickers=tickers, dates=("2021-06-01", "2026-09-03"))
+    def fetch(requested, start, end):
+        if start == "20210601":
+            return {"AAA": quotes("AAA", ["2026-09-03", "2026-09-04"], 50)}
+        return {ticker: quotes(ticker, ["2026-09-03", "2026-09-04"], 50 if ticker == "AAA" else 100)
+                for ticker in requested}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+
+    result = refresh.refresh_us_daily_data(**args)
+
+    assert result.updated_count == 19 and result.failed_count == 1
+    merged = pd.read_csv(args["prices_path"])
+    aaa = merged.loc[merged.ticker.eq("AAA")]
+    assert aaa.date.tolist() == ["2021-06-01", "2026-09-03"]
+    assert aaa.close.eq(100).all()
+    assert merged.loc[merged.ticker.eq("T00"), "date"].tolist()[-1] == "2026-09-04"
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["accepted"] and report["latest_session_coverage"] == .95
+    assert report["quarantined_rebase_tickers"] == ["AAA"]
+    summary = pd.read_csv(tmp_path / "daily/20260904/us_daily_data_refresh_summary.csv")
+    assert summary.loc[summary.ticker.eq("AAA"), "status"].item() == "rebase_quarantined"
+
+
+def test_incomplete_rebase_still_fails_when_market_coverage_is_too_low(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",), dates=("2021-06-01", "2026-09-03"))
+    before = args["prices_path"].read_bytes()
+    def fetch(tickers, start, end):
+        return {"AAA": quotes("AAA", ["2026-09-03", "2026-09-04"], 50)}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    with pytest.raises(RuntimeError, match="empty or stale|coverage"):
+        refresh.refresh_us_daily_data(**args)
+    assert args["prices_path"].read_bytes() == before
 
 
 def test_dividend_adjustment_alone_also_refreshes_old_history(tmp_path, monkeypatch):
@@ -194,6 +223,26 @@ def test_unavailable_intraday_prices_remain_missing(tmp_path, monkeypatch, missi
     latest = pd.read_csv(args["prices_path"]).iloc[-1]
     assert latest.close == 100 and latest.volume == 1000
     assert latest[["open", "high", "low"]].isna().all() if pd.isna(missing) else latest[["open", "high", "low"]].eq(0).all()
+
+
+def test_partially_missing_intraday_prices_do_not_discard_valid_close(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",))
+    frame = quotes("AAA", ["2026-09-03", "2026-09-04"])
+    frame.loc[1, "high"] = float("nan")
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", lambda *a, **k: {"AAA": frame})
+    refresh.refresh_us_daily_data(**args)
+    latest = pd.read_csv(args["prices_path"]).iloc[-1]
+    assert latest.close == 100 and latest.volume == 1000 and pd.isna(latest.high)
+
+
+def test_latest_missing_adjusted_close_uses_same_session_raw_close(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",))
+    frame = quotes("AAA", ["2026-09-03", "2026-09-04"])
+    frame.loc[1, "adjusted_close"] = float("nan")
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", lambda *a, **k: {"AAA": frame})
+    refresh.refresh_us_daily_data(**args)
+    latest = pd.read_csv(args["prices_path"]).iloc[-1]
+    assert latest.adjusted_close == latest.close == 100
 
 
 def test_yfinance_batch_uses_bounded_threads_and_timeout(monkeypatch):
