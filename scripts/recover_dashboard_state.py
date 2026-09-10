@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import shutil
@@ -10,8 +11,12 @@ import subprocess
 import tempfile
 import zipfile
 
-from ai_stock_assistant.monthly_ews import PRICE_FILES, digest, load_month, read_json, verify_prediction
 from unpack_dashboard_state import restore_state
+
+
+def digest(path: Path) -> str:
+    with path.open("rb") as source:
+        return hashlib.file_digest(source, "sha256").hexdigest()
 
 
 def extract_backup(archive: Path, destination: Path) -> None:
@@ -40,6 +45,10 @@ def extract_backup(archive: Path, destination: Path) -> None:
 
 
 def verify_models(root: Path, month: str, source_commit: str) -> dict:
+    # Archive integrity/path checks require only the standard library. Load the
+    # model stack only when an explicit recovery reaches model verification.
+    from ai_stock_assistant.monthly_ews import PRICE_FILES, load_month, read_json, verify_prediction
+
     report = {"source_commit": source_commit, "month": month, "models": {}}
     for market, prices_file in PRICE_FILES.items():
         state = root / "data/dashboard_ews" / market

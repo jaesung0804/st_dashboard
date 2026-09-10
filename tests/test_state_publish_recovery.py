@@ -188,3 +188,9 @@ def test_recovery_rejects_archive_path_escape(tmp_path, name):
     with pytest.raises(ValueError, match="Unsafe"):
         recover.extract_backup(archive, tmp_path / "out")
     assert not (tmp_path / "outside").exists()
+
+
+def test_archive_recovery_helpers_import_without_site_packages(tmp_path):
+    script = "import sys; sys.path.insert(0, sys.argv[1]); import recover_dashboard_state as recovery; assert 'numpy' not in sys.modules"
+    subprocess.run([sys.executable, "-S", "-c", script, str(SCRIPTS)], cwd=tmp_path,
+                   check=True, capture_output=True, text=True)
