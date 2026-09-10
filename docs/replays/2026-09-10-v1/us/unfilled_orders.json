@@ -1,0 +1,5504 @@
+[
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_half",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_year",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-01-04",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-01-04",
+    "unfilled_assets": 128,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-01-11",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-01-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-12",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-01-19",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-01-19",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-23",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-01-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-01-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-01-26",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-01",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-02",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-02-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-02-03",
+    "unfilled_assets": 65,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-06",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-07",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-02-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-21",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-02-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-02-24",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-27",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-02-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-03-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2023-03-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2023-03-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-03-07",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-03-07",
+    "unfilled_assets": 58,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-13",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-16",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-03-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-22",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-03-24",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-30",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-03-31",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-04-05",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2023-04-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-04-05",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-04-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-12",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-14",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-21",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-24",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-04-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-04-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-05-05",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-05-05",
+    "unfilled_assets": 68,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-08",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-05-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-09",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-05-15",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-22",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-05-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-26",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-05-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-05-30",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-02",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2023-06-06",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-06-06",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-06-06",
+    "unfilled_assets": 72,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-12",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-06-13",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-14",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-15",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-16",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-20",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-21",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-06-21",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-29",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-06-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-06",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-07-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-07-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2023-07-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_half",
+    "date": "2023-07-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2023-07-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2023-07-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-07-07",
+    "unfilled_assets": 63,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-12",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-07-13",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-07-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-07-20",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-07-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-21",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-07-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-28",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-07-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-08-03",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-04",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-08-07",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2023-08-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2023-08-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-08-07",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-08-07",
+    "unfilled_assets": 63,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-08",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-08-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-08-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-08-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-21",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-08-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-29",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-30",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-08-31",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-08-31",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-01",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-09-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-09-06",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-09-06",
+    "unfilled_assets": 77,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-09-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-12",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-14",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-09-15",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-18",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-22",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-09-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-09-29",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-02",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-10-05",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-10-05",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-10-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-13",
+    "unfilled_assets": 2,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-10-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-10-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-25",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-26",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-10-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-10-31",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-01",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-02",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-11-03",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2023-11-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2023-11-03",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-11-03",
+    "unfilled_assets": 53,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-07",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-11-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-11-17",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-11-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-11-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-12-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-12-04",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2023-12-05",
+    "unfilled_assets": 81,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-07",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-12-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-12",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-19",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-20",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-21",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-26",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2023-12-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2023-12-26",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-27",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2023-12-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-01-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-01-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-01-05",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_year",
+    "date": "2024-01-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-01-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-01-05",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-01-05",
+    "unfilled_assets": 75,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-09",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-01-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-01-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-12",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-16",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-19",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-25",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-01-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-01-25",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-30",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-01-31",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-01",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-02-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-02-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-02-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-02-06",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-02-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-02-06",
+    "unfilled_assets": 68,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-02-08",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-02-15",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-02-15",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-02-23",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-27",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-02-29",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-03-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-03-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-03-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-03-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-03-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-03-07",
+    "unfilled_assets": 78,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-03-08",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-12",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-03-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-03-15",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-21",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-03-22",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-03-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-26",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-03-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-04-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-08",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2024-04-08",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-04-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-04-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-04-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-04-08",
+    "unfilled_assets": 73,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-15",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-04-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-16",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-19",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-22",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-04-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-23",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-04-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-04-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-03",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-05-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-05-06",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-05-07",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-05-07",
+    "unfilled_assets": 55,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-08",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-05-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-05-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-16",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-20",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-05-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-21",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-05-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-29",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-05-31",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-06-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-06-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-06-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-06-06",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-06-06",
+    "unfilled_assets": 74,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-06-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-14",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-18",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-06-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-21",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-25",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-06-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-07-03",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-09",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-07-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2024-07-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-07-09",
+    "unfilled_assets": 65,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-07-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-07-11",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-18",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-07-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-07-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-07-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-26",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-29",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-07-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-08-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-02",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-08-07",
+    "unfilled_assets": 61,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-13",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-16",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-08-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-08-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-26",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-08-29",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-08-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-08-30",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-04",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-06",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-09-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-09-06",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-09-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-09-06",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-09-06",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-09-06",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-09-06",
+    "unfilled_assets": 63,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-09-13",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-09-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-17",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-09-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-09-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-09-30",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-01",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-10-04",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-10-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-07",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2024-10-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-10-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-10-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-10-07",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-10-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-10-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-14",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-18",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-10-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-10-31",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-11-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-11-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2024-11-05",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2024-11-05",
+    "unfilled_assets": 69,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-11-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-11-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-19",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-11-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-11-22",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-11-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-02",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-04",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2024-12-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2024-12-05",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2024-12-05",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-06",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-11",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-16",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2024-12-16",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-19",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2024-12-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2024-12-23",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-02",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-01-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_year",
+    "date": "2025-01-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-01-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-08",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-21",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-23",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-01-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-01-31",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-01-31",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-02-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-02-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-02-07",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-02-07",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-02-07",
+    "unfilled_assets": 69,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-13",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-02-14",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-02-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-18",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-02-28",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-03-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-03-03",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-07",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-03-10",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-03-11",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-03-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-12",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-03-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-18",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-21",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-03-24",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-25",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-26",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-03-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-03-31",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-01",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-04-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2025-04-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-14",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-04-14",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-25",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-04-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-04-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-01",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-06",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-08",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-05-09",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2025-05-09",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-05-09",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-05-09",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-05-09",
+    "unfilled_assets": 71,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-12",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-05-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-05-13",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-19",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-05-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-21",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-05-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-05-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-04",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-06-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-06-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-09",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-06-10",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-06-10",
+    "unfilled_assets": 58,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-06-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-06-11",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-06-18",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-20",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-23",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-25",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-06-26",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-06-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-06-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-02",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-07-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-07-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-07-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2025-07-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-07-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-07-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-07-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-07-11",
+    "unfilled_assets": 63,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-07-18",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-21",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-23",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-07-25",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-07-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-08-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-07",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-08-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-11",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-08-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2025-08-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-08-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-08-11",
+    "unfilled_assets": 66,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-08-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-08-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-19",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-21",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-08-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-25",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-27",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-08-29",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-08-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-09-08",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-09-08",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-09",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-09-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2025-09-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-09-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-09-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-09-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-09-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-18",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-22",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-09-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-24",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-09-30",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-01",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-02",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-06",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-10-06",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-09",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-10-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-10-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-10-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-10-09",
+    "unfilled_assets": 77,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-10-13",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-14",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-16",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-20",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-27",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-10-27",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-10-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-11-03",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-11-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-11-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-11-07",
+    "unfilled_assets": 69,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-10",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-11-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-11-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-11-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-20",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-26",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-11-28",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-12-02",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2025-12-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2025-12-09",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2025-12-09",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2025-12-09",
+    "unfilled_assets": 70,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-11",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-12-16",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-12-16",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-19",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-22",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-23",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-12-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-12-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-24",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2025-12-29",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2025-12-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2025-12-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-01-08",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-01-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2026-01-09",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_half",
+    "date": "2026-01-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_year",
+    "date": "2026-01-09",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2026-01-09",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-01-09",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-01-09",
+    "unfilled_assets": 56,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-12",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-14",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-15",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-01-15",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-16",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-20",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-21",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-22",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-01-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-01-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-01-30",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-01-30",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-04",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-05",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2026-02-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_quality",
+    "date": "2026-02-10",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2026-02-10",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-02-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-02-13",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-19",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-20",
+    "unfilled_assets": 3,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-02-23",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-02-23",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-25",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-02-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-03-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-03-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-03",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-10",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2026-03-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2026-03-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-03-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-18",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-24",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-03-30",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-01",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-06",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-07",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-08",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-09",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-13",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_quarter",
+    "date": "2026-04-13",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-04-13",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-04-13",
+    "unfilled_assets": 75,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-14",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-04-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-04-14",
+    "unfilled_assets": 10,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-15",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-16",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-21",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-04-21",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-28",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-04-28",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-04-30",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-05-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-06",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-11",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-12",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-05-12",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-05-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-05-12",
+    "unfilled_assets": 84,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-13",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-14",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-05-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-05-19",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-20",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-05-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-05-27",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-05-29",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-01",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-03",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-06-03",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-04",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-05",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-09",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-06-10",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_month",
+    "date": "2026-06-11",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-06-11",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-06-11",
+    "unfilled_assets": 66,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-15",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-16",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-06-17",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-18",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-23",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-24",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-26",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-06-30",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-02",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-07-02",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "compound_half",
+    "date": "2026-07-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-07-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-07-14",
+    "unfilled_assets": 72,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-15",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-16",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-17",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-07-17",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-20",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-22",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-23",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-24",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-07-24",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-27",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-07-31",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-07-31",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-04",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-05",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-07",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-08-07",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-12",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_defensive",
+    "date": "2026-08-12",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_momentum",
+    "date": "2026-08-12",
+    "unfilled_assets": 9,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "baseline_equal_weight",
+    "date": "2026-08-12",
+    "unfilled_assets": 85,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-13",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-08-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "adaptive_tactical",
+    "date": "2026-08-14",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-17",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-19",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-21",
+    "unfilled_assets": 7,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-08-21",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-26",
+    "unfilled_assets": 6,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-27",
+    "unfilled_assets": 8,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-28",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_week",
+    "date": "2026-08-28",
+    "unfilled_assets": 4,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  },
+  {
+    "desk": "pulse_day",
+    "date": "2026-08-31",
+    "unfilled_assets": 5,
+    "reason": "missing_open_or_previous_volume_capacity_or_cash"
+  }
+]

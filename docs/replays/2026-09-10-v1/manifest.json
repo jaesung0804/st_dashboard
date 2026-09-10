@@ -1,0 +1,35 @@
+{
+  "research_created_at": "2026-09-10T07:31:57.392462+00:00",
+  "inputs": {
+    "data/reference/investment_replay_policy.json": "50485a467c10f6ca05132d7026363192a88a37ab5fa85a0268cfb1c2ec0721c9",
+    "data/reference/accounting_cohort.json": "2231313d486647c1d44c29b2915552b230cbafb2e08158dd444e4a53ce4a1696",
+    "data/raw/krx_ohlcv_kospi_kosdaq_state.csv": "27549e8b1443c9f656c9065fcf80839f2b93f7509cdfdb77e69761a02e5ba4f3",
+    "data/dashboard_research/accounting/kr/filing_events.csv.gz": "0f07c7d4e1d340f5b09816346c66c2898805a31ce22f1d31cc336f090af9cb53",
+    "data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv": "d20459d3205b7694d2e77068bd7e1d7e329c970e3c0d2f46c17f0b334110d94a",
+    "data/dashboard_research/accounting/us/filing_events.csv.gz": "48320d02173e72e42c49b347a6608889d766c4491b9d834a81b495113977208c"
+  },
+  "source_commit": "18ef38193dd526b80db671e588386bf8ea968590",
+  "engine_sha256": "04206797ebb5c585857c9865d06e68e3f7d1b7c1e4d9f42d9d43952a71bdc2b6",
+  "runner_sha256": "eacf4c0c54a98626d974b476feffbe5f9f58cb4f400b521b35df1ac777be7a87",
+  "artifacts": {
+    "kr/decisions.jsonl.gz": "db9cc13111d62eb16363885709910a2ca498357074f3e5a8ecdafa402fa6bde9",
+    "kr/nav.csv.gz": "011d21f28d9a51c11f38822a2da66ca5579fc873e828037f17c386f5880c3712",
+    "kr/research_requests.json": "25b838d64743dfce4eb9d4375e79e502eae60f92c89d93eaffd153aa68fece5e",
+    "kr/trades.csv.gz": "ab21e652b0ea89e8b726d8bb200f314873b4717337bcbcbfdc3219ac04559c3a",
+    "kr/unfilled_orders.json": "3609d36d0a34afadcb3d5c55e9509141be9d3ab5eea20f5aaddb10dbc00522ce",
+    "report.md": "3be9945ce45c63dc571ea791eb255da95a45b84357f0c11ed3dde5e610fc5547",
+    "summary.json": "94a9c7bf3e296a83396b9e2ed6ba02814356f8b76c21fcf160a1575cc1805f5f",
+    "us/decisions.jsonl.gz": "e49cb2f3e4e2745c28e1d0e43090bd5175d0af45b004ab885ed6a323aee72434",
+    "us/nav.csv.gz": "c8bd41f78ab4ce94472715695a84bad6ddbec482172727c5b6678a7e67dc1b86",
+    "us/research_requests.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "us/trades.csv.gz": "ee500a86dfb442b37446d8205d2270cc46cf9611493eac484e73f7aebb6e77f4",
+    "us/unfilled_orders.json": "2677c040c44f1fcf0d2d14c3109106521dea2157f196919648927bcddbe75ac1"
+  },
+  "llm_api_calls": 0,
+  "paid_data_calls": 0,
+  "scheduled_tasks_created": 0,
+  "telegram_messages_sent": 0,
+  "source_prices_ref": "dashboard-state",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "pandas": "2.2.3"
+}

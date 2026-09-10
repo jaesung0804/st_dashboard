@@ -1,0 +1,1420 @@
+{
+  "available_at": "2026-09-10",
+  "classification": "custom three-level research taxonomy, not official GICS",
+  "historical_use_before_available_at": false,
+  "rows": 7790,
+  "sources": {
+    "krx_kospi_kosdaq_detailed_sector_map.xlsx": "91ad823c9f8387b9a05fb111dd431d08155f5d0e7256f8af5869fdcc7dcc3dbf",
+    "us_listings_nasdaq_nyse_yfinfo_state.csv": "7e3c3306af8fae11acf0cd1a8004a418fc6bcba117de9d0cb002244c5cc09541"
+  },
+  "unclassified_l1": 2955,
+  "counts": [
+    {
+      "market": "kr",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "금융 일반",
+      "securities": 21
+    },
+    {
+      "market": "kr",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "은행/증권/보험/캐피탈",
+      "securities": 63
+    },
+    {
+      "market": "kr",
+      "sector_l1": "금융",
+      "sector_l2": "금융/특수목적",
+      "sector_l3": "SPAC/기업인수목적",
+      "securities": 81
+    },
+    {
+      "market": "kr",
+      "sector_l1": "미분류",
+      "sector_l2": "기타/미분류",
+      "sector_l3": "미분류",
+      "securities": 152
+    },
+    {
+      "market": "kr",
+      "sector_l1": "복합기업",
+      "sector_l2": "지주/복합기업",
+      "sector_l3": "지주회사/복합기업",
+      "securities": 49
+    },
+    {
+      "market": "kr",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "리츠/부동산/임대",
+      "securities": 4
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "건설/건자재",
+      "sector_l3": "건설/건자재/시멘트",
+      "securities": 62
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "기계/장비",
+      "sector_l3": "산업기계/장비",
+      "securities": 214
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "로봇/자동화",
+      "sector_l3": "로봇/스마트팩토리/자동화",
+      "securities": 46
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "방산/우주항공",
+      "sector_l3": "방산/무기체계/항공우주",
+      "securities": 33
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/물류",
+      "sector_l3": "물류/해운/항공/운송",
+      "securities": 17
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "전력/인프라",
+      "sector_l3": "원전/발전설비",
+      "securities": 12
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "전력/인프라",
+      "sector_l3": "전력기기/변압기/송배전",
+      "securities": 31
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "조선/해운",
+      "sector_l3": "조선/선박/해양플랜트",
+      "securities": 24
+    },
+    {
+      "market": "kr",
+      "sector_l1": "산업재",
+      "sector_l2": "환경/수처리",
+      "sector_l3": "폐기물/수처리/재활용",
+      "securities": 3
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "교육",
+      "sector_l3": "교육/에듀테크",
+      "securities": 11
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "농업/사료",
+      "sector_l3": "농업/사료/비료",
+      "securities": 9
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "섬유/의류",
+      "sector_l3": "의류/패션/섬유",
+      "securities": 76
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "유통/소비플랫폼",
+      "sector_l3": "유통/커머스/렌탈",
+      "securities": 126
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "음식료",
+      "sector_l3": "식품/음료/건기식",
+      "securities": 84
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "자동차/모빌리티",
+      "sector_l3": "완성차",
+      "securities": 7
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "자동차/모빌리티",
+      "sector_l3": "자동차부품/전장",
+      "securities": 107
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "자동차/모빌리티",
+      "sector_l3": "타이어",
+      "securities": 4
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소비재",
+      "sector_l2": "화장품/소비재",
+      "sector_l3": "화장품/ODM/원료/용기",
+      "securities": 50
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "2차전지",
+      "sector_l3": "동박/알박/집전체",
+      "securities": 5
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "2차전지",
+      "sector_l3": "분리막",
+      "securities": 1
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "2차전지",
+      "sector_l3": "셀/배터리팩/ESS",
+      "securities": 73
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "2차전지",
+      "sector_l3": "양극재/전구체",
+      "securities": 8
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "2차전지",
+      "sector_l3": "전해질/전해액/첨가제",
+      "securities": 4
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "철강/비철",
+      "sector_l3": "철강/비철/금속",
+      "securities": 223
+    },
+    {
+      "market": "kr",
+      "sector_l1": "소재",
+      "sector_l2": "화학/소재",
+      "sector_l3": "화학/정밀화학/소재",
+      "securities": 105
+    },
+    {
+      "market": "kr",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지/유틸리티",
+      "sector_l3": "신재생/태양광/풍력",
+      "securities": 20
+    },
+    {
+      "market": "kr",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지/유틸리티",
+      "sector_l3": "정유/가스/자원",
+      "securities": 60
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "AI/SW/인터넷",
+      "sector_l3": "AI/SaaS/소프트웨어",
+      "securities": 209
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "AI/SW/인터넷",
+      "sector_l3": "보안/핀테크/IT서비스",
+      "securities": 23
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "디스플레이",
+      "sector_l3": "OLED/LCD/장비소재",
+      "securities": 41
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "검사/계측장비",
+      "securities": 11
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "검사부품/테스트소켓",
+      "securities": 6
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "기판/패키지기판",
+      "securities": 29
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "메모리/HBM",
+      "securities": 13
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "반도체 일반",
+      "securities": 93
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "부품/소모품",
+      "securities": 3
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "소재",
+      "securities": 31
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "전공정장비",
+      "securities": 25
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "전력반도체",
+      "securities": 4
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "파운드리/IDM",
+      "securities": 3
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "팹리스/시스템반도체",
+      "securities": 14
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "후공정/OSAT",
+      "securities": 8
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "후공정장비",
+      "securities": 6
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "전기전자",
+      "sector_l3": "가전/전자제품",
+      "securities": 28
+    },
+    {
+      "market": "kr",
+      "sector_l1": "정보기술",
+      "sector_l2": "전기전자",
+      "sector_l3": "전자부품/전기전자 일반",
+      "securities": 70
+    },
+    {
+      "market": "kr",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "게임/엔터/콘텐츠",
+      "sector_l3": "게임",
+      "securities": 3
+    },
+    {
+      "market": "kr",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "게임/엔터/콘텐츠",
+      "sector_l3": "엔터/콘텐츠/미디어",
+      "securities": 83
+    },
+    {
+      "market": "kr",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/네트워크",
+      "sector_l3": "통신/네트워크장비",
+      "securities": 16
+    },
+    {
+      "market": "kr",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/헬스케어",
+      "sector_l3": "CDMO/바이오의약품",
+      "securities": 40
+    },
+    {
+      "market": "kr",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/헬스케어",
+      "sector_l3": "의료기기/미용의료/치과",
+      "securities": 46
+    },
+    {
+      "market": "kr",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/헬스케어",
+      "sector_l3": "제약/신약개발",
+      "securities": 157
+    },
+    {
+      "market": "kr",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/헬스케어",
+      "sector_l3": "진단/분석/유전체",
+      "securities": 23
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "Financial Conglomerates",
+      "sector_l3": "Financial Conglomerates",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "Financial Data & Stock Exchanges",
+      "sector_l3": "Financial Data & Stock Exchanges",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "Shell Companies",
+      "sector_l3": "Shell Companies",
+      "securities": 27
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Asset Management",
+      "securities": 57
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Banks - Diversified",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Banks - Regional",
+      "securities": 152
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Capital Markets",
+      "securities": 46
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Credit Services",
+      "securities": 16
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "금융",
+      "sector_l3": "Mortgage Finance",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance - Diversified",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance - Life",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance - Property & Casualty",
+      "securities": 7
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance - Reinsurance",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance - Specialty",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "금융",
+      "sector_l2": "보험",
+      "sector_l3": "Insurance Brokers",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "미분류",
+      "sector_l2": "미분류",
+      "sector_l3": "미분류",
+      "securities": 2803
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "금융",
+      "sector_l3": "REIT - Mortgage",
+      "securities": 20
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "REIT - Diversified",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "REIT - Industrial",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "REIT - Office",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "REIT - Residential",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "Real Estate - Development",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "부동산/리츠",
+      "sector_l3": "Real Estate Services",
+      "securities": 22
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "소매/유통",
+      "sector_l3": "REIT - Retail",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "소매/유통",
+      "sector_l3": "REIT - Specialty",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "여행/레저",
+      "sector_l3": "REIT - Hotel & Motel",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "부동산",
+      "sector_l2": "헬스케어",
+      "sector_l3": "REIT - Healthcare Facilities",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Airports & Air Services",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Building Products & Equipment",
+      "securities": 13
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Business Equipment & Supplies",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Conglomerates",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Consulting Services",
+      "securities": 12
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Electrical Equipment & Parts",
+      "securities": 25
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Engineering & Construction",
+      "securities": 15
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Farm & Heavy Construction Machinery",
+      "securities": 10
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Industrial Distribution",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Pollution & Treatment Controls",
+      "securities": 10
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Rental & Leasing Services",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Security & Protection Services",
+      "securities": 10
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Staffing & Employment Services",
+      "securities": 7
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Tools & Accessories",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "산업재",
+      "sector_l3": "Waste Management",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Specialty Business Services",
+      "securities": 13
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Specialty Industrial Machinery",
+      "securities": 23
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "소재",
+      "sector_l3": "Metal Fabrication",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "소프트웨어",
+      "sector_l3": "Infrastructure Operations",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Airlines",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Integrated Freight & Logistics",
+      "securities": 18
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Marine Shipping",
+      "securities": 15
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Railroads",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Trucking",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "산업재",
+      "sector_l2": "항공우주/방산",
+      "sector_l3": "Aerospace & Defense",
+      "securities": 32
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Apparel Manufacturing",
+      "sector_l3": "Apparel Manufacturing",
+      "securities": 11
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Confectioners",
+      "sector_l3": "Confectioners",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Discount Stores",
+      "sector_l3": "Discount Stores",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Education & Training Services",
+      "sector_l3": "Education & Training Services",
+      "securities": 14
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Farm Products",
+      "sector_l3": "Farm Products",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Footwear & Accessories",
+      "sector_l3": "Footwear & Accessories",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Furnishings",
+      "sector_l3": "Furnishings, Fixtures & Appliances",
+      "securities": 12
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Gambling",
+      "sector_l3": "Gambling",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Lodging",
+      "sector_l3": "Lodging",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Luxury Goods",
+      "sector_l3": "Luxury Goods",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "Textile Manufacturing",
+      "sector_l3": "Textile Manufacturing",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "산업재",
+      "sector_l3": "Residential Construction",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Apparel Retail",
+      "securities": 16
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Department Stores",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Home Improvement Retail",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Internet Retail",
+      "securities": 13
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Specialty Retail",
+      "securities": 21
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "소재",
+      "sector_l3": "Packaging & Containers",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "여행/레저",
+      "sector_l3": "Leisure",
+      "securities": 17
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "여행/레저",
+      "sector_l3": "Resorts & Casinos",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "여행/레저",
+      "sector_l3": "Restaurants",
+      "securities": 25
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "여행/레저",
+      "sector_l3": "Travel Services",
+      "securities": 11
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Auto & Truck Dealerships",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Auto Manufacturers",
+      "securities": 16
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Auto Parts",
+      "securities": 24
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "운송/모빌리티",
+      "sector_l3": "Recreational Vehicles",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Beverages - Non-Alcoholic",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Beverages - Wineries & Distilleries",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Food Distribution",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Grocery Stores",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Household & Personal Products",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Packaged Foods",
+      "securities": 25
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Personal Services",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "소비재",
+      "sector_l2": "필수소비재",
+      "sector_l3": "Tobacco",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "Agricultural Inputs",
+      "sector_l3": "Agricultural Inputs",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "Aluminum",
+      "sector_l3": "Aluminum",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "Building Materials",
+      "sector_l3": "Building Materials",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "Coking Coal",
+      "sector_l3": "Coking Coal",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "Lumber & Wood Production",
+      "sector_l3": "Lumber & Wood Production",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소매/유통",
+      "sector_l3": "Specialty Chemicals",
+      "securities": 21
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Chemicals",
+      "securities": 7
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Copper",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Gold",
+      "securities": 19
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Other Industrial Metals & Mining",
+      "securities": 21
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Other Precious Metals & Mining",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Paper & Paper Products",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Silver",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "소재",
+      "sector_l2": "소재",
+      "sector_l3": "Steel",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas Drilling",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas E&P",
+      "securities": 23
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas Equipment & Services",
+      "securities": 23
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas Integrated",
+      "securities": 6
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas Midstream",
+      "securities": 16
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Oil & Gas Refining & Marketing",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Thermal Coal",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Uranium",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "에너지",
+      "sector_l3": "Utilities - Renewable",
+      "securities": 7
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "유틸리티",
+      "sector_l3": "Utilities - Diversified",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "유틸리티",
+      "sector_l3": "Utilities - Independent Power Producers",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "유틸리티",
+      "sector_l3": "Utilities - Regulated Electric",
+      "securities": 7
+    },
+    {
+      "market": "us",
+      "sector_l1": "에너지·유틸리티",
+      "sector_l2": "유틸리티",
+      "sector_l3": "Utilities - Regulated Water",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Computer Hardware",
+      "sector_l3": "Computer Hardware",
+      "securities": 24
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Consumer Electronics",
+      "sector_l3": "Consumer Electronics",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Electronic Components",
+      "sector_l3": "Electronic Components",
+      "securities": 20
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Electronics & Computer Distribut",
+      "sector_l3": "Electronics & Computer Distribution",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Information Technology Services",
+      "sector_l3": "Information Technology Services",
+      "securities": 33
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "Scientific & Technical Instrumen",
+      "sector_l3": "Scientific & Technical Instruments",
+      "securities": 16
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "Semiconductor Equipment & Materials",
+      "securities": 19
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "반도체",
+      "sector_l3": "Semiconductors",
+      "securities": 35
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "소프트웨어",
+      "sector_l3": "Software - Application",
+      "securities": 100
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "소프트웨어",
+      "sector_l3": "Software - Infrastructure",
+      "securities": 85
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "에너지",
+      "sector_l3": "Solar",
+      "securities": 8
+    },
+    {
+      "market": "us",
+      "sector_l1": "정보기술",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Communication Equipment",
+      "securities": 28
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Advertising Agencies",
+      "securities": 15
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Broadcasting",
+      "securities": 5
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Electronic Gaming & Multimedia",
+      "securities": 13
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Entertainment",
+      "securities": 25
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Internet Content & Information",
+      "securities": 25
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Publishing",
+      "securities": 2
+    },
+    {
+      "market": "us",
+      "sector_l1": "커뮤니케이션",
+      "sector_l2": "통신/미디어",
+      "sector_l3": "Telecom Services",
+      "securities": 31
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/제약",
+      "sector_l3": "Biotechnology",
+      "securities": 322
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/제약",
+      "sector_l3": "Drug Manufacturers - General",
+      "securities": 9
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/제약",
+      "sector_l3": "Drug Manufacturers - Specialty & Generic",
+      "securities": 48
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "바이오/제약",
+      "sector_l3": "Pharmaceutical Retailers",
+      "securities": 1
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Diagnostics & Research",
+      "securities": 19
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Health Information Services",
+      "securities": 18
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Healthcare Plans",
+      "securities": 3
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Medical Care Facilities",
+      "securities": 18
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Medical Devices",
+      "securities": 60
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Medical Distribution",
+      "securities": 4
+    },
+    {
+      "market": "us",
+      "sector_l1": "헬스케어",
+      "sector_l2": "헬스케어",
+      "sector_l3": "Medical Instruments & Supplies",
+      "securities": 25
+    }
+  ]
+}
