@@ -1,7 +1,5 @@
 name: Monthly Training
-# Retry with resumable prices and explicit handling of unavailable intraday OHLC.
-# This workflow change starts training on the corrected commit; an Actions rerun
-# of an older run would still execute its old validation code.
+# Training runs only on its monthly schedule or an explicit dispatch.
 run-name: Monthly Training (${{ inputs.market || 'all' }})
 on:
   workflow_dispatch:
@@ -14,16 +12,14 @@ on:
   schedule:
     # Previous calendar month has closed in both markets.
     - cron: "30 0 1 * *"
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/monthly-training.yml
 permissions:
   contents: write
   actions: read
 jobs:
   train:
     uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
     with:
       mode: train
       market: ${{ inputs.market || 'all' }}

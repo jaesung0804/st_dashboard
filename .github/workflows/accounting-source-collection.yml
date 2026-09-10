@@ -1,11 +1,15 @@
 name: Collect dated financial statements
 on:
-  push:
-    branches: [codex/accounting-backfill-20260906]
-    paths: [.github/workflows/accounting-source-collection.yml]
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: dashboard-state-update
+  cancel-in-progress: false
+env:
+  RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}
+  RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+  RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
 jobs:
   collect-korean-filings:
     runs-on: windows-latest
@@ -20,6 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
+        if: vars.RESEARCH_STORAGE != 'backend'
         with:
           ref: dashboard-state
           path: .dashboard-state
@@ -31,10 +36,28 @@ jobs:
         run: python scripts/unpack_dashboard_state.py --state-dir .dashboard-state
       - name: Collect actual receipt IDs and calendar-verified accounts
         run: python -u scripts/collect_accounting_sources.py --market kr
+      - name: Persist retained responses for the next collection
+        if: vars.RESEARCH_STORAGE == 'backend'
+        run: |
+          python scripts/pack_dashboard_state.py --state-dir .dashboard-state
+          python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Queue changed monthly observations from the saved snapshot
+        if: vars.RESEARCH_STORAGE == 'backend'
+        run: |
+          python scripts/backend_rows.py --csv data/raw/krx_ohlcv_kospi_kosdaq_state.csv --dataset ohlcv-kr --snapshot-name pipeline-state --state-dir .dashboard-state
+          python scripts/backend_rows.py --csv data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv --dataset ohlcv-us --snapshot-name pipeline-state --state-dir .dashboard-state
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: always() && vars.RESEARCH_STORAGE != 'backend'
         with:
           name: dated-korean-accounting
           path: data/dashboard_research/accounting_sources/
           retention-days: 30
+          if-no-files-found: warn
+      - name: Retain collection diagnostics
+        if: always() && vars.RESEARCH_STORAGE == 'backend'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dated-korean-accounting-summary
+          path: data/dashboard_research/accounting_sources/kr-collection.json
+          retention-days: 7
           if-no-files-found: warn

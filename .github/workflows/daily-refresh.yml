@@ -1,15 +1,6 @@
 name: Daily Refresh
 run-name: Daily Refresh (${{ inputs.market || 'all' }})
 on:
-  # Collector repairs must run from their new commit; rerunning an older failed
-  # attempt would execute the old collector code again.
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/daily-refresh.yml
-      - scripts/push_dashboard_state.py
-      - src/ai_stock_assistant/data/refresh.py
-      - src/ai_stock_assistant/data/us_incremental.py
   workflow_dispatch:
     inputs:
       market:
@@ -34,6 +25,8 @@ jobs:
   refresh-and-publish:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
     with:
       mode: infer
       market: ${{ inputs.market || 'all' }}

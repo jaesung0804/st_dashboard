@@ -8,10 +8,12 @@ import pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from ai_stock_assistant.investment_replay import sha256,write_json
 from ai_stock_assistant.investment_rounds import validate_roster_lock
+from backend_references import References
 
 
 def main():
-    source=Path('docs/replays/2026-09-10-r03-fixed-roster');manifest=json.loads((source/'manifest.json').read_text())
+    references=References()
+    source=references.restore_output('docs/replays/2026-09-10-r03-fixed-roster');manifest=json.loads((source/'manifest.json').read_text())
     for name,digest in manifest['artifacts'].items():assert sha256(source/name)==digest,name
     summary=json.loads((source/'summary.json').read_text());series_count=0;decisions=0;trades=0
     protocol=json.loads((source/'protocol.json').read_text());staff={p['id'] for p in protocol['people']}
@@ -35,8 +37,8 @@ def main():
         frame=pd.read_csv(path/'trades.csv.gz');assert (frame.fill_date>frame.signal_date).all();trades+=len(frame)
         for team,cost in frame.groupby('desk').cost.sum().items():
             assert np.isclose(cost,case['summary'][team]['cost_paid'],atol=1e-8),(key,team,'fees')
-    record=json.loads(Path('data/reference/investment_rounds.json').read_text())['rounds'][-1]
-    assert validate_roster_lock(record,json.loads(Path('data/reference/investment_organization.json').read_text()))['valid']
+    record=references.read('data/reference/investment_rounds.json')['rounds'][-1]
+    assert validate_roster_lock(record,references.read('data/reference/investment_organization.json'))['valid']
     report=dict(checked_at=datetime.now(timezone.utc).isoformat(),result='passed',artifact_hashes=len(manifest['artifacts']),
                 nav_return_drawdown_series=series_count,hash_chained_decisions=decisions,trades_with_next_session_clock=trades,
                 roster_count=len(staff),no_personnel_changes=True,source_manifest_sha256=sha256(source/'manifest.json'),

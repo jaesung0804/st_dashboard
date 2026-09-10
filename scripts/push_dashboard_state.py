@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import base64
 import hashlib
+import json
 import os
 from pathlib import Path
 import re
@@ -170,6 +171,14 @@ def publish_snapshot(root: Path, base: str, api: GitHubAPI) -> str:
 
 
 def push_state(root: Path) -> str:
+    if os.getenv("RESEARCH_STORAGE", "git") == "backend":
+        from research_backend_client import Client
+        receipt = json.loads((root / "backend-snapshot.json").read_text(encoding="utf-8"))
+        head = Client(project="investment").json("GET", "/snapshot-heads/pipeline-state")
+        if head["snapshot_id"] != receipt["snapshot_id"]:
+            raise RuntimeError("Backend state advanced since packing; do not publish stale results")
+        print("Verified backend snapshot: " + head["snapshot_id"], flush=True)
+        return head["snapshot_id"]
     base = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, check=True,
                           capture_output=True, text=True).stdout.strip()
     api = GitHubAPI(os.environ.get("GITHUB_REPOSITORY", ""), os.environ.get("GITHUB_TOKEN", ""))

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import gzip
 import hashlib
 import json
@@ -189,6 +190,9 @@ def restore_state(state_dir: Path, destination: Path = Path(".")) -> None:
 
 def main() -> None:
     args = parser().parse_args()
+    if os.getenv("RESEARCH_STORAGE", "git") == "backend":
+        from research_backend_client import Client
+        print(json.dumps(Client(project="investment").pull("pipeline-state", Path(args.state_dir))))
     restore_state(Path(args.state_dir))
 
 

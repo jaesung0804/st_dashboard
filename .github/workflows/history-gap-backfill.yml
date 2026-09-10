@@ -1,17 +1,16 @@
 name: Backfill recommendation history
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/history-gap-backfill.yml
-      - scripts/backfill_recommendation_history.py
 permissions:
   contents: write
   actions: read
 concurrency:
   group: dashboard-state-update
   cancel-in-progress: false
+env:
+  RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}
+  RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+  RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
 jobs:
   backfill-and-publish:
     runs-on: ubuntu-latest
@@ -27,6 +26,7 @@ jobs:
         with:
           path: app
       - uses: actions/checkout@v4
+        if: vars.RESEARCH_STORAGE != 'backend'
         with:
           ref: dashboard-state
           path: app/.dashboard-state
@@ -57,5 +57,10 @@ jobs:
         run: |
           python scripts/pack_dashboard_state.py --state-dir .dashboard-state
           python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Queue changed monthly observations from the saved snapshot
+        if: vars.RESEARCH_STORAGE == 'backend'
+        run: |
+          python scripts/backend_rows.py --csv data/raw/krx_ohlcv_kospi_kosdaq_state.csv --dataset ohlcv-kr --snapshot-name pipeline-state --state-dir .dashboard-state
+          python scripts/backend_rows.py --csv data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv --dataset ohlcv-us --snapshot-name pipeline-state --state-dir .dashboard-state
       - name: Publish completed recommendation history
         run: python scripts/build_pages_deploy.py --days 60 --push

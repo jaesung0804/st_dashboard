@@ -8,6 +8,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from ai_stock_assistant.investment_replay import sha256,write_json
 from run_investment_replay import write_gzip
+from backend_references import References
 
 HORIZONS={'day':('하루',1),'week':('주간',5),'month':('한 달',21),'quarter':('분기',63),'half':('반기',126),'companion':('장기',252)}
 TAXONOMY={'payments':['금융','거래 인프라','결제 네트워크'],'custody':['금융','금융 서비스','수탁·자산관리 지원'],
@@ -17,10 +18,11 @@ TAXONOMY={'payments':['금융','거래 인프라','결제 네트워크'],'custod
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--source',type=Path,required=True);args=ap.parse_args()
-    out=Path('docs/research_library/2026-09-10-imported');out.mkdir(parents=True,exist_ok=True)
+    references=References()
+    out=references.output('docs/research_library/2026-09-10-imported',resume=True);out.mkdir(parents=True,exist_ok=True)
     now=datetime.now(timezone.utc).isoformat();companies=[];sources=[];inputs={}
     previous_path=Path('data/reference/investment_research_library.json')
-    previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
+    previous=references.read(previous_path, default={})
     previous_requests={r['id']:r for r in previous.get('requests',[])}
     imported_at=json.loads((out/'manifest.json').read_text())['imported_at'] if (out/'manifest.json').exists() else now
     cohort=set(json.loads(Path('data/reference/accounting_cohort.json').read_text())['markets']['us'])
@@ -33,7 +35,7 @@ def main():
         group_sources={s['id']:s for s in data['sources']};sources.extend(group_sources.values())
         for company in data['companies']:
             c=dict(company);c['research_group']=group;c['taxonomy']=TAXONOMY[c['sectorId']]
-            c['imported_from']=str(stored);c['source_sha256']=inputs[group];c['known_at']=imported_at
+            c['imported_from']=references.artifact_reference(stored);c['source_sha256']=inputs[group];c['known_at']=imported_at
             c['in_simulation_cohort']=c['ticker'] in cohort
             c['tested_hypothesis_ids']=[];c['executable']=False
             c['status']='가설 작성 완료 · 기업 고유 KPI 검증 대기'
@@ -41,8 +43,8 @@ def main():
                          review_sessions=HORIZONS[key][1],executable=False,tested_by_experiments=[]) for key,value in c['horizons'].items()}
             c['source_links']=list(group_sources.values())
             companies.append(c)
-    org=json.loads(Path('data/reference/investment_organization.json').read_text())
-    run=Path('docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p0-c1')
+    org=references.read('data/reference/investment_organization.json')
+    run=references.restore_output('docs/replays/2026-09-10-r03-fixed-roster')/'efficient_control-p0-c1'
     performance=json.loads((run/'summary.json').read_text())['summary'];last={}
     for line in gzip.open(run/'decisions.jsonl.gz','rt'):
         row=json.loads(line)
@@ -65,7 +67,7 @@ def main():
                 company=company_id,team=team_id,reviewer=team['team_lead'],reviewer_name=team['team_lead_name'],
                 last_target_portfolio=[p['ticker'] for p in decision['positions']],
                 employee_strategy=employee['strategy_brief'],requested_horizon=horizon,target_tickers=targets,
-                evidence=dict(reference=str(run/'summary.json'),last_signal=decision['signal_date'],net_return=evidence['net_return'],
+                evidence=dict(reference=references.artifact_reference(run/'summary.json'),last_signal=decision['signal_date'],net_return=evidence['net_return'],
                               max_drawdown=evidence['max_drawdown'],cost_paid=evidence['cost_paid'],trade_count=evidence['trade_count']),
                 question=question,status='기업별 근거 수집·조건 명세 대기',matched_imported_hypotheses=[c['ticker'] for c in companies if c['ticker'] in targets],
                 laboratory_response='기존 9개 기업의 54개 가설을 연결했으나 이번 거래 표본과 겹치지 않습니다. 매매 결과를 기업 논리의 검증 성적으로 표시하지 않습니다. 실제 거래 대상의 공시와 KPI를 확보해 별도 가설·실험으로 등록합니다.',
@@ -91,10 +93,11 @@ def main():
                  pilot_hypotheses=sum(len(c.get('horizons',{})) for c in pilots),pilot_cohort_overlap=sorted(set(pilot_by_ticker)&cohort),
                  rule='A company thesis is linked to a result only through an explicit tested hypothesis ID. Matching a ticker, sector or horizon does not validate it.',
                  note='Imported 2026-09-10 research is not available to past simulated decisions. Price/financial proxy backtests do not validate the 54 business hypotheses.')
-    write_json(Path('data/reference/investment_research_library.json'),payload)
     if not (out/'manifest.json').exists():
         write_json(out/'manifest.json',dict(imported_at=imported_at,source_files_sha256=inputs,files={p.name:sha256(p) for p in out.iterdir() if p.is_file() and p.name!='manifest.json'},
                                          imported_companies=len(companies),hypotheses=payload['imported_hypotheses'],original_sources_modified=False))
+    references.publish_output(out)
+    references.write(previous_path,payload)
     print('Research bridge:',len(companies),'companies,',payload['imported_hypotheses'],'hypotheses,',len(requests),'staff requests, overlap',payload['imported_cohort_overlap'])
 
 

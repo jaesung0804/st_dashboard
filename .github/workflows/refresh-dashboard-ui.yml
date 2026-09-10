@@ -17,6 +17,10 @@ concurrency:
   # Serialize with daily inference to avoid publishing an older state snapshot.
   group: dashboard-state-update
   cancel-in-progress: false
+env:
+  RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}
+  RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+  RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
 jobs:
   refresh-ui:
     runs-on: ubuntu-latest
@@ -34,6 +38,7 @@ jobs:
           path: app
       - name: Checkout saved models and predictions
         uses: actions/checkout@v4
+        if: vars.RESEARCH_STORAGE != 'backend'
         with:
           ref: dashboard-state
           path: app/.dashboard-state

@@ -10,9 +10,6 @@ on:
         options: [infer, train]
   schedule:
     - cron: "45 4 1 * *"
-  push:
-    branches: [main]
-    paths: [.github/workflows/macro-shadow.yml]
   workflow_run:
     # Run after Daily Refresh rather than competing with it after Monthly Training.
     workflows: [Daily Refresh]
@@ -22,6 +19,10 @@ permissions:
 concurrency:
   group: dashboard-state-update
   cancel-in-progress: false
+env:
+  RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}
+  RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+  RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
 jobs:
   compare:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
@@ -47,6 +48,7 @@ jobs:
           path: app
       - name: Checkout dashboard state
         uses: actions/checkout@v4
+        if: vars.RESEARCH_STORAGE != 'backend'
         with:
           ref: dashboard-state
           path: app/.dashboard-state
@@ -122,11 +124,12 @@ jobs:
           print(f'Production state unchanged: {len(before)} files')
           PY
       - name: Pack complete state including independent experiment
-        if: steps.ready.outputs.ready == 'true'
+        if: steps.ready.outputs.ready == 'true' || vars.RESEARCH_STORAGE == 'backend'
         # Keep the growing experiment in a bounded compressed archive.
+        # Backend runs retain collected vintages even while monthly models wait.
         run: python scripts/pack_dashboard_state.py --state-dir .dashboard-state
       - name: Retain experiment recovery artifact
-        if: always()
+        if: always() && vars.RESEARCH_STORAGE != 'backend'
         uses: actions/upload-artifact@v4
         with:
           name: macro-comparison-${{ github.run_id }}
@@ -134,8 +137,13 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
       - name: Persist verified state before publishing
-        if: steps.ready.outputs.ready == 'true'
+        if: steps.ready.outputs.ready == 'true' || vars.RESEARCH_STORAGE == 'backend'
         run: python scripts/push_dashboard_state.py --state-dir .dashboard-state
+      - name: Queue changed monthly observations from the saved snapshot
+        if: vars.RESEARCH_STORAGE == 'backend'
+        run: |
+          python scripts/backend_rows.py --csv data/raw/krx_ohlcv_kospi_kosdaq_state.csv --dataset ohlcv-kr --snapshot-name pipeline-state --state-dir .dashboard-state
+          python scripts/backend_rows.py --csv data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv --dataset ohlcv-us --snapshot-name pipeline-state --state-dir .dashboard-state
       - name: Export unchanged operational forecasts
         if: steps.ready.outputs.ready == 'true'
         run: python scripts/run_monthly_ews.py export --days 60

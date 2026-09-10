@@ -12,8 +12,10 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from backend_references import References
 
 ROOT = Path(__file__).resolve().parents[1]
+references = References(ROOT)
 sys.path.insert(0, str(ROOT / "src"))
 from ai_stock_assistant.investment_rounds import (  # noqa: E402
     close_round, complete_results_review, personnel_timing_gate,
@@ -26,7 +28,7 @@ def utc_now():
 
 
 def read(path):
-    return json.loads((ROOT / path).read_text())
+    return references.read(path)
 
 
 def write(path, value):
@@ -58,9 +60,10 @@ def main():
     if not experiments or any(item["status"] != "completed" for item in experiments):
         raise ValueError("All registered experiments must be completed before this review")
     digests = {}
+    references.restore_output("docs/replays/2026-09-10-r03-fixed-roster")
     for item in experiments:
         reference = item["result_reference"]
-        digest = hashlib.sha256((ROOT / reference).read_bytes()).hexdigest()
+        digest = hashlib.sha256(references.artifact_file(reference).read_bytes()).hexdigest()
         if digest != item["result_sha256"]:
             raise ValueError(f"Registered result changed: {item['id']}")
         digests[reference] = digest
@@ -69,7 +72,7 @@ def main():
     manifest_reference = "docs/replays/2026-09-10-r03-fixed-roster/manifest.json"
     if (validation["result"] != "passed"
             or validation["source_manifest_sha256"] != hashlib.sha256(
-                (ROOT / manifest_reference).read_bytes()).hexdigest()):
+                references.artifact_file(manifest_reference).read_bytes()).hexdigest()):
         raise ValueError("Result audit or audited manifest changed")
     reviewed_at = utc_now()
     closure_reference = f"docs/replays/2026-09-10-r03-analysis/{args.round_id}-closure.json"
@@ -122,9 +125,9 @@ def main():
     ledger["rounds"][index] = completed
     ledger["actual_updated_at"] = reviewed_at
     write(closure_reference, closure)
-    write("data/reference/investment_organization.json", organization)
-    write("data/reference/investment_operations_queue.json", queue)
-    write("data/reference/investment_rounds.json", ledger)
+    references.write_many({"data/reference/investment_organization.json": organization,
+                           "data/reference/investment_operations_queue.json": queue,
+                           "data/reference/investment_rounds.json": ledger})
     print(json.dumps({"round": args.round_id, "status": "completed",
                       "actual_ended_at": closed["actual_ended_at"], "reviewed_at": reviewed_at,
                       "experiments": len(experiments), "retained": len(record["strategy_employees"]),
