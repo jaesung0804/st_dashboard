@@ -1,8 +1,11 @@
 """Behavior tests for routing authority, dependencies and the two clocks."""
 from copy import deepcopy
+import json
+from pathlib import Path
 import unittest
 
 from ai_stock_assistant.investment_operations import INVESTMENT_GATES, review_queue
+from ai_stock_assistant.investment_strategy_briefs import strategy_proposal
 
 
 OBSERVED = "2026-09-10T08:00:00Z"
@@ -41,7 +44,7 @@ def task(task_id="a", **extra):
 def proposal(**extra):
     return task(
         kind="investment", status="awaiting_approval",
-        strategy_brief={key: "Recorded strategy detail" for key in ("thesis", "entry", "exit", "horizon", "risk", "data_as_of")},
+        strategy_brief={key: "Recorded strategy detail" for key in ("thesis", "entry", "exit", "horizon", "risk", "evidence_asof")},
         gates={name: {"state": "passed", "evidence": evidence()} for name in INVESTMENT_GATES},
         approval={"required": True, "scope": "investment", "reviewer": "lead", "alternate_reviewers": ["OPS-LEAD", "cio"], "requested_at": OBSERVED},
         **extra,
@@ -57,6 +60,21 @@ def by_id(result):
 
 
 class OperationsTests(unittest.TestCase):
+    def test_actual_strategy_proposal_routes_with_evidence_date_and_blocks_without_it(self):
+        config_path = Path(__file__).resolve().parents[1] / "data/reference/employee_supervision_policy.json"
+        generated = strategy_proposal("pulse_day", "efficient", json.loads(config_path.read_text()), "2024-01-03")
+        request = proposal()
+        request["strategy_brief"] = generated["strategy_brief"]
+        routed = review([request])
+        self.assertEqual(routed["tasks"][0]["reviewed_status"], "awaiting_approval")
+        self.assertEqual(routed["tasks"][0]["next_owner"], "cio")
+        self.assertEqual(routed["tasks"][0]["blocked_reasons"], [])
+        self.assertEqual(routed["approvals_created"], [])
+        request["strategy_brief"].pop("evidence_asof")
+        blocked = review([request])["tasks"][0]
+        self.assertEqual(blocked["reviewed_status"], "blocked")
+        self.assertIn("strategy_summary_missing:evidence_asof", blocked["blocked_reasons"])
+
     def test_delayed_approval_routes_only_to_existing_authority(self):
         request = proposal()
         original = deepcopy(request)

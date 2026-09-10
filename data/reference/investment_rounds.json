@@ -1,15 +1,15 @@
 {
   "version": "investment-rounds-v1",
   "actual_created_at": "2026-09-10T08:58:20Z",
-  "actual_updated_at": "2026-09-10T09:12:28.755319+00:00",
+  "actual_updated_at": "2026-09-10T09:58:42.766133Z",
   "rounds": [
     {
       "id": "r03",
-      "status": "active",
+      "status": "completed",
       "requested_at": "2026-09-10T08:58:20Z",
       "actual_started_at": "2026-09-10T08:58:20Z",
       "scheduled_end_at": "2026-09-10T09:58:20Z",
-      "actual_ended_at": null,
+      "actual_ended_at": "2026-09-10T09:58:42.763330Z",
       "minimum_actual_minutes": 60,
       "session_deadline": "2026-09-10T10:00:00Z",
       "clock": "actual_utc_wall_clock",
@@ -772,10 +772,36 @@
       ],
       "prior_experiments_used_only_as_comparators": 53,
       "prior_experiments_are_round_results": false,
-      "results_review_evidence": null,
-      "personnel_decisions": [],
+      "results_review_evidence": {
+        "reference": "docs/replays/2026-09-10-r03-analysis/r03-closure.json",
+        "observed_at": "2026-09-10T09:58:42.766133Z",
+        "description": "실제 60분 종료 후 등록된 결과 36개 해시·감사 근거·명단을 재대조하고 결과와 인사 유지안을 검토"
+      },
+      "personnel_decisions": [
+        {
+          "id": "r03-retain-roster",
+          "decided_at": "2026-09-10T09:58:42.766133Z",
+          "decision": "retain_roster",
+          "retained_strategy_employees": 35,
+          "hires": [],
+          "departures": [],
+          "promotions": [],
+          "reviewer": "ROOT-INTEGRATION",
+          "authority_context": "사용자가 위임한 시뮬레이션 고객·감사 역할의 현원 유지 판단; 운영조정팀의 자동 승인 아님",
+          "reason": "한 개의 재사용 과거 표본과 상관된 민감도 결과만으로 추가 해고·채용 또는 승진을 정당화하지 않음",
+          "next_research_reference": "data/reference/investment_next_round_proposal.json",
+          "capital_changes_executed": false,
+          "timing_gate": {
+            "eligible_for_authorized_review": true,
+            "approved": false,
+            "reason": "Round reviewed; existing personnel authority must decide"
+          }
+        }
+      ],
       "deferral_reason": null,
-      "new_completed_experiments": 36
+      "new_completed_experiments": 36,
+      "next_round_started": false,
+      "next_round_deferral_reason": "오늘 19시 마감까지 새 60분 회차를 완료할 시간이 없음"
     }
   ]
 }

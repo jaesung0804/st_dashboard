@@ -3882,5 +3882,12 @@
       "authority": "담당·기한·의존작업·배포 조정. 투자·인사 승인 또는 검증 우회 권한 없음."
     }
   },
-  "round_personnel_policy": "실제 1시간 회차 동안 명단 고정. 해고·신규 채용은 회차 종료 후 결과 검토에 따라 결정. 위험 대응 운용 중단은 퇴사가 아님."
+  "round_personnel_policy": "실제 1시간 회차 동안 명단 고정. 해고·신규 채용은 회차 종료 후 결과 검토에 따라 결정. 위험 대응 운용 중단은 퇴사가 아님.",
+  "latest_actual_round_review": {
+    "round_id": "r03",
+    "reviewed_at": "2026-09-10T09:58:42.766133Z",
+    "decision": "retain_roster",
+    "evidence": "docs/replays/2026-09-10-r03-analysis/r03-closure.json",
+    "historical_employee_statuses_rewritten": false
+  }
 }

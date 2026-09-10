@@ -1,8 +1,8 @@
 {
   "version": "investment-operations-queue-v1",
   "actual_created_at": "2026-09-10T08:54:43Z",
-  "observed_at": "2026-09-10T09:06:50.819597+00:00",
-  "observation_note": "현재 세션에서 확인·보고된 상태를 이 시각에 큐로 등록. 과거 실제 착수·완료·승인 요청 시각은 미기록이며 추정하지 않음.",
+  "observed_at": "2026-09-10T09:58:42.766133Z",
+  "observation_note": "실제 확인 시각에 갱신한 스냅샷. 과거 착수·완료 시각을 추정하지 않으며 문서 연구 완료와 투자 성과 검증을 구별한다.",
   "tasks": [
     {
       "id": "SIM-53",
@@ -51,28 +51,28 @@
     },
     {
       "id": "GITHUB-BLOBS",
-      "title": "결과 파일 238개 GitHub blob 준비",
+      "title": "첫 53개 결과·소스 GitHub 준비",
       "kind": "release",
-      "status": "in_progress",
+      "status": "completed",
       "owner": "GITHUB-MANAGEMENT",
       "backup_owner": "ROOT-INTEGRATION",
       "created_at": "2026-09-10T08:54:43Z",
-      "observed_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T09:45:55.011559Z",
       "due_at": "2026-09-10T10:00:00Z",
       "priority": 1,
       "dependencies": [
         "AUDIT-RESULTS"
       ],
-      "next_action": "이미 준비된 blob을 재사용하고 남은 결과 파일을 준비",
+      "next_action": "완료 근거 보존",
       "progress": {
-        "completed": 164,
-        "total": 238,
-        "unit": "artifact_paths",
-        "evidence": {
-          "reference": "parent-agent-session-observation:github-preparation-164-of-238",
-          "observed_at": "2026-09-10T08:54:43Z",
-          "description": "지시 전달 시점의 마지막 확인치. 현재 업로드 수량으로 자동 갱신하거나 대기 시간을 추정하지 않음."
-        }
+        "completed": 273,
+        "total": 273,
+        "unit": "published_main_paths"
+      },
+      "completion_evidence": {
+        "reference": "github:991995364015964353de15008d37a070d10f3a98",
+        "observed_at": "2026-09-10T09:45:55.011559Z",
+        "description": "첫 53개 묶음 273경로 원격 main 게시·SHA 검증 완료 보고 확인"
       }
     },
     {
@@ -137,20 +137,20 @@
     },
     {
       "id": "PUBLISH",
-      "title": "검증된 main 소스와 GitHub Pages 발행",
+      "title": "첫 53개 main·시뮬레이션 화면 발행",
       "kind": "release",
-      "status": "ready",
+      "status": "completed",
       "owner": "GITHUB-MANAGEMENT",
       "backup_owner": "ROOT-INTEGRATION",
       "created_at": "2026-09-10T08:54:43Z",
-      "observed_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T09:45:55.011559Z",
       "due_at": "2026-09-10T10:00:00Z",
       "priority": 1,
       "dependencies": [
         "GITHUB-BLOBS",
         "UI-BUILD"
       ],
-      "next_action": "최종 검증과 기존 브랜치 보존 조건을 만족하면 기존 고객 허락 범위에서 업로드",
+      "next_action": "완료 근거 보존",
       "approval": {
         "required": true,
         "scope": "verified_github_publication",
@@ -179,6 +179,11 @@
             "description": "현재 로컬 연산과 기존 승인된 연결만 사용; 새 유료 사용 권한 없음"
           }
         }
+      },
+      "completion_evidence": {
+        "reference": "github:991995364015964353de15008d37a070d10f3a98; gh-pages:aaf37d28251f5d029769a3e0936a4c81f5023c8c",
+        "observed_at": "2026-09-10T09:45:55.011559Z",
+        "description": "첫 53개 main 및 Pages 게시, 네 화면 파일 HTTP 200·SHA 검증 완료. 후속 89개 발행은 별도 작업"
       }
     },
     {
@@ -205,15 +210,149 @@
           }
         }
       ]
+    },
+    {
+      "owner": "ROOT-INTEGRATION",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:45:55.011559Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [],
+      "id": "SIM-R03",
+      "title": "r03 고정 직원 신규 비교 36개",
+      "kind": "experiment",
+      "status": "completed",
+      "next_action": "원장 보존",
+      "completion_evidence": {
+        "reference": "docs/replays/2026-09-10-r03-fixed-roster/manifest.json",
+        "observed_at": "2026-09-10T09:45:55.011559Z",
+        "description": "실제 회차 시작 이후 사전 등록한 36개 성과 계산 완료"
+      }
+    },
+    {
+      "owner": "ROOT-INTEGRATION",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:45:55.011559Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "SIM-R03"
+      ],
+      "id": "AUDIT-R03",
+      "title": "r03 비용·체결·명단 독립 감사",
+      "kind": "audit",
+      "status": "completed",
+      "next_action": "회차 말 결과 검토에 전달",
+      "completion_evidence": {
+        "reference": "docs/validation/investment_r03_validation.json",
+        "observed_at": "2026-09-10T09:45:55.011559Z",
+        "description": "138개 산출물 SHA, 576 NAV 시리즈, 결정 2869건·체결 54854건 검증 통과"
+      }
+    },
+    {
+      "owner": "RESEARCH-TEAM",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:45:55.011559Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [],
+      "id": "RESEARCH-72",
+      "title": "12기업 72가설·직원 요청 9건 연결",
+      "kind": "research",
+      "status": "completed",
+      "next_action": "기업 고유 KPI 검증은 후속 연구에서 별도 진행",
+      "completion_evidence": {
+        "reference": "data/reference/investment_research_library.json",
+        "observed_at": "2026-09-10T09:45:55.011559Z",
+        "description": "문서 연결 및 3기업 공시 연구 완료. 기업 논리의 성과 검증 완료를 의미하지 않음"
+      }
+    },
+    {
+      "owner": "GITHUB-MANAGEMENT",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:49:59.606471Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "PUBLISH",
+        "AUDIT-R03",
+        "RESEARCH-72"
+      ],
+      "id": "PUBLISH-89",
+      "title": "89개 비교·72가설 추가 발행",
+      "kind": "release",
+      "status": "completed",
+      "next_action": "네 자산 HTTP 200·SHA 확인 완료; 회차 종료 기록은 다음 소규모 발행에 반영",
+      "progress": {
+        "completed": 172,
+        "total": 172,
+        "unit": "main_paths_published_and_verified"
+      },
+      "completion_evidence": {
+        "reference": "github:f7f9243e658bcc85a2fa9923cdead568f3e02aca; gh-pages:c861c4f; GitHub-management-agent:89-public-assets-verified",
+        "observed_at": "2026-09-10T09:49:59.606471Z",
+        "description": "GitHub 관리팀이 main 172경로 및 공개 페이지 4자산 SHA 검증 완료, 이전 UI workflow success 확인을 보고"
+      }
+    },
+    {
+      "owner": "ROOT-INTEGRATION",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:58:42.766133Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "AUDIT-R03"
+      ],
+      "id": "ROUND-R03-REVIEW",
+      "title": "실제 60분 종료 후 결과·인사 검토",
+      "kind": "audit",
+      "status": "completed",
+      "next_action": "35명 유지·추가 해고 0·채용 0. 다음 후보는 별도 회차에서 검증",
+      "completion_evidence": {
+        "reference": "docs/replays/2026-09-10-r03-analysis/r03-closure.json",
+        "observed_at": "2026-09-10T09:58:42.766133Z",
+        "description": "실제 60분 종료 후 등록된 결과 36개 해시·감사 근거·명단을 재대조하고 결과와 인사 유지안을 검토"
+      }
+    },
+    {
+      "owner": "RESEARCH-TEAM",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T09:45:55.011559Z",
+      "observed_at": "2026-09-10T09:47:28.033655Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "AUDIT-R03",
+        "RESEARCH-72"
+      ],
+      "id": "RESEARCH-NEXT",
+      "title": "팀별 후속 검증 기준 정리",
+      "kind": "research",
+      "status": "completed",
+      "next_action": "다음 실제 회차 시작 시 후보와 자료 가용성을 다시 확인; 현재 실행 없음",
+      "completion_evidence": {
+        "reference": "docs/INVESTMENT_NEXT_ROUND.md; data/reference/investment_next_round_proposal.json",
+        "observed_at": "2026-09-10T09:47:28.033655Z",
+        "description": "팀별 후보와 기업 KPI·새 관찰 검증 기준을 고정했다. 신규 실험은 실행하지 않았다."
+      }
     }
   ],
   "round_context": {
     "id": "r03",
-    "status": "active",
+    "status": "completed",
     "actual_started_at": "2026-09-10T08:58:20Z",
     "scheduled_end_at": "2026-09-10T09:58:20Z",
-    "actual_ended_at": null,
-    "results_review_evidence": null,
+    "actual_ended_at": "2026-09-10T09:58:42.763330Z",
+    "results_review_evidence": {
+      "reference": "docs/replays/2026-09-10-r03-analysis/r03-closure.json",
+      "observed_at": "2026-09-10T09:58:42.766133Z",
+      "description": "실제 60분 종료 후 등록된 결과 36개 해시·감사 근거·명단을 재대조하고 결과와 인사 유지안을 검토"
+    },
     "source": "data/reference/investment_rounds.json:r03"
   }
 }

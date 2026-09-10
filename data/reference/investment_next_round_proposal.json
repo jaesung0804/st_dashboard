@@ -1,0 +1,70 @@
+{
+  "version": "investment-next-round-proposal-v1",
+  "registered_at": "2026-09-10T09:47:28.033655Z",
+  "status": "proposed_not_executed",
+  "based_on_round": "r03",
+  "next_round_started": false,
+  "prospective_data_start_rule": "market observations first available strictly after this registration; no scheduling implied",
+  "retrospective_data_status": "previously examined; exploratory only, even if split into new windows",
+  "candidate_allocations": [
+    {
+      "id": "efficient_control",
+      "rule": "all teams efficient E02 100%"
+    },
+    {
+      "id": "two_team_support",
+      "rule": "compound_quarter and adaptive_defensive: E02 70%, E03 30%; other teams E02 100%"
+    },
+    {
+      "id": "all_team_support",
+      "rule": "all teams E02 70%, E03 30%"
+    }
+  ],
+  "fixed_execution_cases": [
+    {
+      "id": "base",
+      "one_way_cost_bps": 10,
+      "fill_delay_sessions": 1
+    },
+    {
+      "id": "double_cost",
+      "one_way_cost_bps": 20,
+      "fill_delay_sessions": 1
+    },
+    {
+      "id": "extra_delay",
+      "one_way_cost_bps": 10,
+      "fill_delay_sessions": 2
+    }
+  ],
+  "phase_rule": "phase0 common start; no best-phase selection",
+  "benchmark": "SPY90_initial_cash10 with matched cost, first eligible fill, currency and cash-interest assumptions",
+  "personnel_rule": "frozen during actual 60-minute round; decisions only after completed round and documented results review",
+  "capital_action_status": "proposal_only",
+  "business_hypotheses_executable": false,
+  "research_priorities": [
+    "NOW contract/subscription-to-cash series",
+    "QCOM QCT/QTL and end-market revenue and margin series",
+    "NBIX product revenue and acquisition-adjusted cash obligations"
+  ],
+  "unfinished_evidence": [
+    "point-in-time historical security universe",
+    "delisting/recovery values",
+    "business KPI availability times and rule thresholds"
+  ],
+  "paid_calls_authorized": false,
+  "broker_orders_enabled": false,
+  "telegram_enabled": false,
+  "source_references": [
+    "docs/INVESTMENT_REPLAY_R03.md",
+    "docs/replays/2026-09-10-r03-analysis/team-review.json",
+    "docs/research_library/2026-09-10-cohort-pilot.json"
+  ],
+  "source_sha256": {
+    "docs/INVESTMENT_REPLAY_R03.md": "a26411102f7b9952a038512bcc69e7366d72b235769a9eda2772a579c8eb84d4",
+    "docs/replays/2026-09-10-r03-analysis/team-review.json": "5f78dd6a604bda2092c2cf767532f75c1c193824d7d43475ff26b937da72fad9",
+    "docs/research_library/2026-09-10-cohort-pilot.json": "52e8db0a7d8beef789b16256eb7b3fc421908029df79f70170e1d8623bce7f59"
+  },
+  "source_commit": "f7f9243e658bcc85a2fa9923cdead568f3e02aca",
+  "source_revision_note": "source_sha256 identifies the cited files at this published commit; current session reports may receive closure appendices"
+}

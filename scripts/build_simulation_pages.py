@@ -26,6 +26,11 @@ def build(target:Path):
     target.mkdir(parents=True,exist_ok=True)
     for p in (ROOT/'scripts/simulation_web').iterdir():
         if p.is_file():shutil.copyfile(p,target/p.name)
+    html=(target/'index.html').read_text()
+    for asset in ('simulation.css','simulation.js'):
+        version=hashlib.sha256((target/asset).read_bytes()).hexdigest()[:16]
+        html=html.replace(f'"{asset}"',f'"{asset}?v={version}"')
+    (target/'index.html').write_text(html)
     keys=['pulse','compound','adaptive','spy','spy_cash_matched','baseline_cash_matched']
     runs={}
     for key,run in summary['runs'].items():
@@ -60,9 +65,12 @@ def build(target:Path):
         if queue.exists():
             observed=json.loads(queue.read_text())
             review=review_queue(observed,policy,observed['observed_at'])
+            observed_tasks={t['id']:t for t in observed['tasks']}
             payload['operations']['reviewed_as_of']=review['reviewed_as_of']
             payload['operations']['queue']={'tasks':[dict(id=t['id'],title=t['title'],owner=t['next_owner'],
-                status=t['reviewed_status'],next_action=t['next_action'],blocker_reason=', '.join(t['blocked_reasons'])) for t in review['tasks']]}
+                status=t['reviewed_status'],next_action=t['next_action'],blocker_reason=' / '.join(
+                    b.get('description',b.get('id','')) for b in observed_tasks[t['id']].get('blockers',[]) if b.get('state','open')!='resolved'
+                ) or ', '.join(t['blocked_reasons'])) for t in review['tasks']]}
     rounds=ROOT/'data/reference/investment_rounds.json'
     if rounds.exists():payload['rounds']=json.loads(rounds.read_text())
     communications=ROOT/'data/reference/investment_communications.json'

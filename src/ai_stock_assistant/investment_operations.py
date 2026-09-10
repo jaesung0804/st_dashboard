@@ -9,10 +9,11 @@ from collections import Counter, defaultdict
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 
+from .investment_strategy_briefs import BRIEF_FIELDS
+
 
 STATUSES = {"ready", "in_progress", "blocked", "awaiting_approval", "completed"}
 INVESTMENT_GATES = {"risk", "information_time", "fees", "paid_usage", "verification"}
-BRIEF_FIELDS = ("thesis", "entry", "exit", "horizon", "risk", "data_as_of")
 OPERATIONS_IDS = {"OPS-LEAD", "OPS-FLOW", "OPS-RELEASE"}
 
 

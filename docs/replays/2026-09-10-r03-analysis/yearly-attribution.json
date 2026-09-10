@@ -1,0 +1,990 @@
+{
+  "created_at": "2026-09-10T09:54:06.172559Z",
+  "analysis_type": "decomposition_of_existing_NAV_not_new_experiment",
+  "method": "year-end NAV / previous year-end NAV - 1; first year initial company cash 100000; 2026 ends August31",
+  "source_sha256": {
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p0-c1/nav.csv.gz": "fce633182b4fd7818c1320193b285f38b21bc0ff3cec69f60a79ec41080e62f4",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p0-c1/nav.csv.gz": "3c2a5347479c337b5bfb0b2c46b6e2916d7e00a7ae0b85689acca098c29c676e",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p0-c2/nav.csv.gz": "8aa991b7d22b72ac1acda832f855edfbb767ba234de3507c4cd7d10ca83e3cac",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p0-c2/nav.csv.gz": "dd7f8a85b8c5bf4d8d21c27666c47e4aeb24ef439e97369b8acf36d6b53cd222",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p7-c1/nav.csv.gz": "5b427f38630014b3db5fbea769b4483e6f55da7ac805160ed068d06f2c33f9ef",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p7-c1/nav.csv.gz": "50f17ff3c9cf609226afaeed5f313bd7fb1cd05dd199cd6dccae6e24e9dada2b",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p7-c2/nav.csv.gz": "52b51ef1686397208dec122f9f621e710f65134887c8360e28bf8b0872d2396d",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p7-c2/nav.csv.gz": "ab937725f4177a8278332d83da2720328203c9a8e44f2d9eb0c4deefede1908d",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p14-c1/nav.csv.gz": "f078738fc1a0031b5612847af6dec2afe74a7eaf92d5effa9b8fa0a017706740",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p14-c1/nav.csv.gz": "4bb4a258f2959e144e13349eda9c0e0e60213680ed81e384e2b0c81c492424ca",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p14-c2/nav.csv.gz": "8e84317e93231c2306dc9567caa0fe50650a6671576e963c786dd2f5dba17667",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p14-c2/nav.csv.gz": "623536a1054e4c1411acefbf5291c2b82fcc791c9053e505198a6da2ff4c9306",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p21-c1/nav.csv.gz": "b86d79a403b5c3c23f79b6e7abdcc16d97d47867a1c03c7a189425034546460e",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p21-c1/nav.csv.gz": "1f3c970ec5b9a6da08bf2a1b816730833fe0c0d3ff5eef5de6f7cce129711ab6",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p21-c2/nav.csv.gz": "2d590412527e5789dcf3a31d9d9238185b21b676ed65707f4772503cb41404e9",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p21-c2/nav.csv.gz": "719e0cb723adef395a3e2c4858ef678e7bee0c0a297877ef42c6141ebd786f8b",
+    "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p0-c1-delay2/nav.csv.gz": "bff294bda1dd898cb6f47150a13777830c9b515611821d235a9ec5dd6a07a206",
+    "docs/replays/2026-09-10-r03-fixed-roster/senior_balanced-p0-c1-delay2/nav.csv.gz": "d389377d22e055beeecff73a5a25eca590e9553e10c676478be4d424fb54c417"
+  },
+  "comparisons": [
+    {
+      "case": "p0-c1",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.014355733061068632,
+      "candidate_return": -0.04930821274799968,
+      "difference": -0.03495247968693105
+    },
+    {
+      "case": "p0-c1",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.12242765239075792,
+      "candidate_return": 0.09737406562697881,
+      "difference": -0.025053586763779112
+    },
+    {
+      "case": "p0-c1",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.05925000264560831,
+      "candidate_return": -0.051474586534152045,
+      "difference": 0.007775416111456268
+    },
+    {
+      "case": "p0-c1",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": -0.003242298395236598,
+      "candidate_return": -0.038500367896580845,
+      "difference": -0.03525806950134425
+    },
+    {
+      "case": "p0-c1",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.10237218722793218,
+      "candidate_return": 0.08041380091097405,
+      "difference": -0.021958386316958123
+    },
+    {
+      "case": "p0-c1",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.0776654203009528,
+      "candidate_return": 0.06906334615780652,
+      "difference": -0.008602074143146288
+    },
+    {
+      "case": "p0-c1",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.16024330160558975,
+      "candidate_return": 0.16362936539053563,
+      "difference": 0.003386063784945881
+    },
+    {
+      "case": "p0-c1",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08238921726515169,
+      "candidate_return": 0.10844476470980768,
+      "difference": 0.02605554744465599
+    },
+    {
+      "case": "p0-c1",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.015421530069436473,
+      "candidate_return": 0.002494183234571734,
+      "difference": -0.012927346834864739
+    },
+    {
+      "case": "p0-c1",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.3184700805278595,
+      "candidate_return": 0.24860062923662785,
+      "difference": -0.06986945129123168
+    },
+    {
+      "case": "p0-c1",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.11921496513419672,
+      "candidate_return": 0.1747455841445762,
+      "difference": 0.05553061901037948
+    },
+    {
+      "case": "p0-c1",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.15000771895235965,
+      "candidate_return": 0.12580426857102056,
+      "difference": -0.024203450381339087
+    },
+    {
+      "case": "p0-c2",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.043215109873624424,
+      "candidate_return": -0.07378915135632824,
+      "difference": -0.030574041482703818
+    },
+    {
+      "case": "p0-c2",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.12078747984150984,
+      "candidate_return": 0.09604578375757233,
+      "difference": -0.024741696083937503
+    },
+    {
+      "case": "p0-c2",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.07017893455636837,
+      "candidate_return": -0.06269359941334418,
+      "difference": 0.0074853351430241855
+    },
+    {
+      "case": "p0-c2",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": -0.03268207549813951,
+      "candidate_return": -0.06245117753413587,
+      "difference": -0.029769102035996364
+    },
+    {
+      "case": "p0-c2",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.10154915751223803,
+      "candidate_return": 0.07965667086264716,
+      "difference": -0.02189248664959087
+    },
+    {
+      "case": "p0-c2",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.06534993470822759,
+      "candidate_return": 0.05690080063895864,
+      "difference": -0.008449134069268949
+    },
+    {
+      "case": "p0-c2",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.12613604506633003,
+      "candidate_return": 0.13555390548137103,
+      "difference": 0.009417860415041002
+    },
+    {
+      "case": "p0-c2",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08155010845815047,
+      "candidate_return": 0.10761606732606444,
+      "difference": 0.026065958867913963
+    },
+    {
+      "case": "p0-c2",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.0036241242725434386,
+      "candidate_return": -0.008592492609631464,
+      "difference": -0.012216616882174902
+    },
+    {
+      "case": "p0-c2",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.2943354851081539,
+      "candidate_return": 0.22929375767257554,
+      "difference": -0.06504172743557834
+    },
+    {
+      "case": "p0-c2",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.11836997093114632,
+      "candidate_return": 0.17377363430674486,
+      "difference": 0.055403663375598544
+    },
+    {
+      "case": "p0-c2",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.14247806912273675,
+      "candidate_return": 0.11804464825695904,
+      "difference": -0.02443342086577771
+    },
+    {
+      "case": "p7-c1",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": 0.01855431273157504,
+      "candidate_return": -0.015888709872134088,
+      "difference": -0.03444302260370913
+    },
+    {
+      "case": "p7-c1",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.13163195813710438,
+      "candidate_return": 0.11760432827592959,
+      "difference": -0.014027629861174784
+    },
+    {
+      "case": "p7-c1",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.04469199484605313,
+      "candidate_return": -0.04714805357414398,
+      "difference": -0.0024560587280908486
+    },
+    {
+      "case": "p7-c1",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.08912475910458606,
+      "candidate_return": 0.04629605487584354,
+      "difference": -0.04282870422874252
+    },
+    {
+      "case": "p7-c1",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.09959115406921826,
+      "candidate_return": 0.0711793164827148,
+      "difference": -0.028411837586503452
+    },
+    {
+      "case": "p7-c1",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.021093834343775875,
+      "candidate_return": 0.014184691238845026,
+      "difference": -0.006909143104930848
+    },
+    {
+      "case": "p7-c1",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.10658085343617651,
+      "candidate_return": 0.07523597665697879,
+      "difference": -0.03134487677919773
+    },
+    {
+      "case": "p7-c1",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08057417836842884,
+      "candidate_return": 0.07246446771636128,
+      "difference": -0.008109710652067559
+    },
+    {
+      "case": "p7-c1",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.034823665102109436,
+      "candidate_return": 0.031473164787860775,
+      "difference": -0.003350500314248661
+    },
+    {
+      "case": "p7-c1",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.6180722108899823,
+      "candidate_return": 0.44364937796396164,
+      "difference": -0.17442283292602068
+    },
+    {
+      "case": "p7-c1",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.1067009198090847,
+      "candidate_return": 0.16532443349814407,
+      "difference": 0.05862351368905938
+    },
+    {
+      "case": "p7-c1",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.12326682880981576,
+      "candidate_return": 0.11308538272790392,
+      "difference": -0.010181446081911849
+    },
+    {
+      "case": "p7-c2",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.010387217370680712,
+      "candidate_return": -0.039967609480088595,
+      "difference": -0.029580392109407883
+    },
+    {
+      "case": "p7-c2",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.12993573633649946,
+      "candidate_return": 0.11611455038650753,
+      "difference": -0.013821185949991932
+    },
+    {
+      "case": "p7-c2",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.05616329781878482,
+      "candidate_return": -0.0581701364841426,
+      "difference": -0.0020068386653577797
+    },
+    {
+      "case": "p7-c2",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.054599967645760916,
+      "candidate_return": 0.01757553748845564,
+      "difference": -0.03702443015730528
+    },
+    {
+      "case": "p7-c2",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.09874538975273572,
+      "candidate_return": 0.07042314711741549,
+      "difference": -0.02832224263532024
+    },
+    {
+      "case": "p7-c2",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.006365208910196429,
+      "candidate_return": 0.0002783948817228765,
+      "difference": -0.006086814028473553
+    },
+    {
+      "case": "p7-c2",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.07351055587134536,
+      "candidate_return": 0.049553562988003064,
+      "difference": -0.0239569928833423
+    },
+    {
+      "case": "p7-c2",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.07992870772522509,
+      "candidate_return": 0.0699305823488936,
+      "difference": -0.00999812537633149
+    },
+    {
+      "case": "p7-c2",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.021408527745739425,
+      "candidate_return": 0.019173304072992448,
+      "difference": -0.0022352236727469776
+    },
+    {
+      "case": "p7-c2",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.5826879953737316,
+      "candidate_return": 0.41572810130535554,
+      "difference": -0.16695989406837608
+    },
+    {
+      "case": "p7-c2",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.10583011781252605,
+      "candidate_return": 0.16430165368542515,
+      "difference": 0.058471535872899105
+    },
+    {
+      "case": "p7-c2",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.11407800902833265,
+      "candidate_return": 0.10442088718292242,
+      "difference": -0.009657121845410233
+    },
+    {
+      "case": "p14-c1",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.04796022548008405,
+      "candidate_return": -0.04212043286258926,
+      "difference": 0.005839792617494788
+    },
+    {
+      "case": "p14-c1",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.1437883212766471,
+      "candidate_return": 0.11134393803109877,
+      "difference": -0.032444383245548325
+    },
+    {
+      "case": "p14-c1",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.018081174478389195,
+      "candidate_return": -0.019372940966101204,
+      "difference": -0.0012917664877120094
+    },
+    {
+      "case": "p14-c1",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.03802736867868539,
+      "candidate_return": 0.02423962788744527,
+      "difference": -0.013787740791240122
+    },
+    {
+      "case": "p14-c1",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.09089918658359064,
+      "candidate_return": 0.06463995235738706,
+      "difference": -0.026259234226203576
+    },
+    {
+      "case": "p14-c1",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.02460160133936551,
+      "candidate_return": 0.02631149522455356,
+      "difference": 0.0017098938851880519
+    },
+    {
+      "case": "p14-c1",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.2464746156750819,
+      "candidate_return": 0.16740327513440323,
+      "difference": -0.07907134054067866
+    },
+    {
+      "case": "p14-c1",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08721364977186297,
+      "candidate_return": 0.10780384404738208,
+      "difference": 0.020590194275519114
+    },
+    {
+      "case": "p14-c1",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.08597119997733293,
+      "candidate_return": 0.09464034342521344,
+      "difference": 0.0086691434478805
+    },
+    {
+      "case": "p14-c1",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.4094625579328657,
+      "candidate_return": 0.3678378561622344,
+      "difference": -0.04162470177063127
+    },
+    {
+      "case": "p14-c1",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.11271077586308764,
+      "candidate_return": 0.15889013148658893,
+      "difference": 0.046179355623501284
+    },
+    {
+      "case": "p14-c1",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.09331941149005285,
+      "candidate_return": 0.09474604198025727,
+      "difference": 0.001426630490204417
+    },
+    {
+      "case": "p14-c2",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.07469557972173047,
+      "candidate_return": -0.06601767900055755,
+      "difference": 0.008677900721172915
+    },
+    {
+      "case": "p14-c2",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.1434128182522003,
+      "candidate_return": 0.10985536512154193,
+      "difference": -0.03355745313065839
+    },
+    {
+      "case": "p14-c2",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.029375174342566424,
+      "candidate_return": -0.03023373614425684,
+      "difference": -0.0008585618016904162
+    },
+    {
+      "case": "p14-c2",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.008031433656642273,
+      "candidate_return": -0.0014431975602425817,
+      "difference": -0.009474631216884855
+    },
+    {
+      "case": "p14-c2",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.09139590714320334,
+      "candidate_return": 0.06390579460178358,
+      "difference": -0.027490112541419753
+    },
+    {
+      "case": "p14-c2",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.010982820894233747,
+      "candidate_return": 0.013255457253062097,
+      "difference": 0.0022726363588283505
+    },
+    {
+      "case": "p14-c2",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.2154997713854243,
+      "candidate_return": 0.14295637618438928,
+      "difference": -0.07254339520103503
+    },
+    {
+      "case": "p14-c2",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08647546725968613,
+      "candidate_return": 0.10684534128230228,
+      "difference": 0.02036987402261614
+    },
+    {
+      "case": "p14-c2",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.07401893628036671,
+      "candidate_return": 0.08377239739211695,
+      "difference": 0.009753461111750239
+    },
+    {
+      "case": "p14-c2",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.37711500445722557,
+      "candidate_return": 0.34004374867466347,
+      "difference": -0.037071255782562096
+    },
+    {
+      "case": "p14-c2",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.11205291334005829,
+      "candidate_return": 0.15790774960525233,
+      "difference": 0.04585483626519404
+    },
+    {
+      "case": "p14-c2",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.08717782718975298,
+      "candidate_return": 0.08807663320147974,
+      "difference": 0.0008988060117267604
+    },
+    {
+      "case": "p21-c1",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.05327346112908449,
+      "candidate_return": -0.040756015014147606,
+      "difference": 0.012517446114936881
+    },
+    {
+      "case": "p21-c1",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.176510321823806,
+      "candidate_return": 0.14771932048353764,
+      "difference": -0.028791001340268352
+    },
+    {
+      "case": "p21-c1",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.060063406651238216,
+      "candidate_return": -0.041211930459181145,
+      "difference": 0.01885147619205707
+    },
+    {
+      "case": "p21-c1",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.00888315602919576,
+      "candidate_return": -0.015036710249239471,
+      "difference": -0.02391986627843523
+    },
+    {
+      "case": "p21-c1",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.085425506701585,
+      "candidate_return": 0.08971266763768448,
+      "difference": 0.004287160936099488
+    },
+    {
+      "case": "p21-c1",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.09157528392994463,
+      "candidate_return": 0.08112207861045428,
+      "difference": -0.010453205319490344
+    },
+    {
+      "case": "p21-c1",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.22198040551787246,
+      "candidate_return": 0.19861360535345307,
+      "difference": -0.023366800164419388
+    },
+    {
+      "case": "p21-c1",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.031807128470295876,
+      "candidate_return": 0.11023791609930078,
+      "difference": 0.0784307876290049
+    },
+    {
+      "case": "p21-c1",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.014879842630487028,
+      "candidate_return": 0.003316763020185576,
+      "difference": -0.011563079610301452
+    },
+    {
+      "case": "p21-c1",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.41346523815606573,
+      "candidate_return": 0.31657472593251224,
+      "difference": -0.0968905122235535
+    },
+    {
+      "case": "p21-c1",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.10749792679940007,
+      "candidate_return": 0.17685314090084137,
+      "difference": 0.0693552141014413
+    },
+    {
+      "case": "p21-c1",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.14070404344211118,
+      "candidate_return": 0.12896813987728906,
+      "difference": -0.011735903564822125
+    },
+    {
+      "case": "p21-c2",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": -0.08041949219932243,
+      "candidate_return": -0.06406749468624451,
+      "difference": 0.01635199751307792
+    },
+    {
+      "case": "p21-c2",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.17446253594142913,
+      "candidate_return": 0.14603044942879118,
+      "difference": -0.028432086512637955
+    },
+    {
+      "case": "p21-c2",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.07086386981923964,
+      "candidate_return": -0.05258737757602139,
+      "difference": 0.018276492243218256
+    },
+    {
+      "case": "p21-c2",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": -0.01994991539181379,
+      "candidate_return": -0.04012223504884194,
+      "difference": -0.020172319657028148
+    },
+    {
+      "case": "p21-c2",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.0844457628580979,
+      "candidate_return": 0.08885833458310377,
+      "difference": 0.004412571725005865
+    },
+    {
+      "case": "p21-c2",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.0791768037924716,
+      "candidate_return": 0.06901226148732786,
+      "difference": -0.010164542305143742
+    },
+    {
+      "case": "p21-c2",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.1852715460611405,
+      "candidate_return": 0.17099179379585405,
+      "difference": -0.014279752265286438
+    },
+    {
+      "case": "p21-c2",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.031314964225886754,
+      "candidate_return": 0.10928126139455197,
+      "difference": 0.07796629716866521
+    },
+    {
+      "case": "p21-c2",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.00324900943891282,
+      "candidate_return": -0.008362752066677248,
+      "difference": -0.011611761505590068
+    },
+    {
+      "case": "p21-c2",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.3806338517571488,
+      "candidate_return": 0.2915806121881297,
+      "difference": -0.08905323956901912
+    },
+    {
+      "case": "p21-c2",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.10682147558318578,
+      "candidate_return": 0.1759902382535221,
+      "difference": 0.06916876267033634
+    },
+    {
+      "case": "p21-c2",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.1336313013537016,
+      "candidate_return": 0.12105670503863175,
+      "difference": -0.012574596315069853
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2023,
+      "company": "pulse",
+      "control_return": 0.009031426189090919,
+      "candidate_return": -0.03193705686203874,
+      "difference": -0.040968483051129656
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2023,
+      "company": "compound",
+      "control_return": 0.12219149455923595,
+      "candidate_return": 0.09860440594383801,
+      "difference": -0.023587088615397933
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2023,
+      "company": "adaptive",
+      "control_return": -0.06467107819723028,
+      "candidate_return": -0.0669947306905998,
+      "difference": -0.0023236524933695213
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2024,
+      "company": "pulse",
+      "control_return": 0.014802483366337826,
+      "candidate_return": -0.01516002694692209,
+      "difference": -0.029962510313259916
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2024,
+      "company": "compound",
+      "control_return": 0.09912679698714655,
+      "candidate_return": 0.07513580317829871,
+      "difference": -0.023990993808847838
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2024,
+      "company": "adaptive",
+      "control_return": 0.09168949392830839,
+      "candidate_return": 0.08142365479646996,
+      "difference": -0.010265839131838428
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2025,
+      "company": "pulse",
+      "control_return": 0.20799609340613268,
+      "candidate_return": 0.19274079519358045,
+      "difference": -0.015255298212552226
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2025,
+      "company": "compound",
+      "control_return": 0.08206850510746166,
+      "candidate_return": 0.10720559900338755,
+      "difference": 0.02513709389592589
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2025,
+      "company": "adaptive",
+      "control_return": 0.03588972438036664,
+      "candidate_return": 0.020770716522431787,
+      "difference": -0.015119007857934852
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2026,
+      "company": "pulse",
+      "control_return": 0.35328638173159366,
+      "candidate_return": 0.2710396916384261,
+      "difference": -0.08224669009316754
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2026,
+      "company": "compound",
+      "control_return": 0.12157502647101648,
+      "candidate_return": 0.17392553815672707,
+      "difference": 0.05235051168571059
+    },
+    {
+      "case": "p0-c1-delay2",
+      "year": 2026,
+      "company": "adaptive",
+      "control_return": 0.13757005854365856,
+      "candidate_return": 0.12618277030128033,
+      "difference": -0.011387288242378224
+    }
+  ],
+  "yearly_counts": [
+    {
+      "company": "pulse",
+      "year": 2023,
+      "return_better_count": 4,
+      "case_count": 9,
+      "min_difference": -0.040968483051129656,
+      "max_difference": 0.01635199751307792
+    },
+    {
+      "company": "pulse",
+      "year": 2024,
+      "return_better_count": 0,
+      "case_count": 9,
+      "min_difference": -0.04282870422874252,
+      "max_difference": -0.009474631216884855
+    },
+    {
+      "company": "pulse",
+      "year": 2025,
+      "return_better_count": 2,
+      "case_count": 9,
+      "min_difference": -0.07907134054067866,
+      "max_difference": 0.009417860415041002
+    },
+    {
+      "company": "pulse",
+      "year": 2026,
+      "return_better_count": 0,
+      "case_count": 9,
+      "min_difference": -0.17442283292602068,
+      "max_difference": -0.037071255782562096
+    },
+    {
+      "company": "compound",
+      "year": 2023,
+      "return_better_count": 0,
+      "case_count": 9,
+      "min_difference": -0.03355745313065839,
+      "max_difference": -0.013821185949991932
+    },
+    {
+      "company": "compound",
+      "year": 2024,
+      "return_better_count": 2,
+      "case_count": 9,
+      "min_difference": -0.028411837586503452,
+      "max_difference": 0.004412571725005865
+    },
+    {
+      "company": "compound",
+      "year": 2025,
+      "return_better_count": 7,
+      "case_count": 9,
+      "min_difference": -0.00999812537633149,
+      "max_difference": 0.0784307876290049
+    },
+    {
+      "company": "compound",
+      "year": 2026,
+      "return_better_count": 9,
+      "case_count": 9,
+      "min_difference": 0.04585483626519404,
+      "max_difference": 0.0693552141014413
+    },
+    {
+      "company": "adaptive",
+      "year": 2023,
+      "return_better_count": 4,
+      "case_count": 9,
+      "min_difference": -0.0024560587280908486,
+      "max_difference": 0.01885147619205707
+    },
+    {
+      "company": "adaptive",
+      "year": 2024,
+      "return_better_count": 2,
+      "case_count": 9,
+      "min_difference": -0.010453205319490344,
+      "max_difference": 0.0022726363588283505
+    },
+    {
+      "company": "adaptive",
+      "year": 2025,
+      "return_better_count": 2,
+      "case_count": 9,
+      "min_difference": -0.015119007857934852,
+      "max_difference": 0.009753461111750239
+    },
+    {
+      "company": "adaptive",
+      "year": 2026,
+      "return_better_count": 2,
+      "case_count": 9,
+      "min_difference": -0.02443342086577771,
+      "max_difference": 0.001426630490204417
+    }
+  ],
+  "caveat": "Shared price histories; these are neither independent trials nor unseen validation. The 2026 row is partial-year."
+}
