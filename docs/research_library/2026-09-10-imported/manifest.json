@@ -1,0 +1,16 @@
+{
+  "imported_at": "2026-09-10T09:22:02.310448+00:00",
+  "source_files_sha256": {
+    "finance": "12d53d793ae3a4e9e346add59c71f034d394495a746b38cd51b242fcf7ed8104",
+    "services": "37f8e2b97ddb2ca83667aa3046306da46d3ff955279ae75ba0efacb1ee8edcfd",
+    "energy": "edcf663cd05e31474044080d07c76b9c24bf61dfd8f9469e3d49f2265d9f7bc8"
+  },
+  "files": {
+    "finance.json.gz": "fdb1e4ee104d3761d538fe8e6644c702614b8847a15c1c44a667e43ea4dfc439",
+    "energy.json.gz": "f9f5dd3b386676064d7d380bc6b1a3c9c2ce8291c574813a0e254fa5debe4708",
+    "services.json.gz": "40a79cb04c633d31407a97d7425938e4db41a7cd6e8b0760bb989de131dd61fc"
+  },
+  "imported_companies": 9,
+  "hypotheses": 54,
+  "original_sources_modified": false
+}

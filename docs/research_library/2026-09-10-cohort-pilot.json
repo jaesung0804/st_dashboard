@@ -1,0 +1,1776 @@
+{
+  "version": "cohort-company-thesis-pilot-v1",
+  "created_at": "2026-09-10T09:27:14Z",
+  "research_as_of": "2026-09-10",
+  "financial_snapshot_cutoff": "2026-08-31",
+  "status": "research_hypothesis",
+  "executable": false,
+  "company_count": 3,
+  "hypothesis_count": 18,
+  "horizons": {
+    "day": {
+      "label": "일간",
+      "nominal_sessions": 1,
+      "focus": "공식 사건 이후 가격·거래량 반응"
+    },
+    "week": {
+      "label": "주간",
+      "nominal_sessions": 5,
+      "focus": "사건 반응의 지속성과 반전"
+    },
+    "month": {
+      "label": "월간",
+      "nominal_sessions": 21,
+      "focus": "사업 변화와 상대 모멘텀의 결합"
+    },
+    "quarter": {
+      "label": "분기",
+      "nominal_sessions": 63,
+      "focus": "매출·이익·현금의 연결"
+    },
+    "half": {
+      "label": "반기",
+      "nominal_sessions": 126,
+      "focus": "사업 변화와 자본 배분 검토"
+    },
+    "companion": {
+      "label": "장기 동반",
+      "nominal_sessions": null,
+      "focus": "경쟁력과 주당 현금 창출 논리의 유지"
+    }
+  },
+  "scope": "최근 모의 목표 편입에서 반복된 코호트 기업 3개의 공시 기반 기업 고유 논리 초안",
+  "method_notes": [
+    "직원·팀 실적을 검토하다 발견한 반복 선정 기업이 연구 대상이다. 개별 기업의 수익 기여를 입증한 분석은 아니다.",
+    "공시 사실, 기존 재무 파생 지표, 오늘 새로 작성한 가설을 분리한다. 공시가 과거에 존재해도 오늘 작성한 논리를 과거 의사결정에 소급하지 않는다.",
+    "일·주 전략은 정확한 사건 공개 시각과 가격·거래량 자료가 추가로 필요하다. available_at은 기존 filed+1일 규칙이며 실제 장중 발표 시각이 아니다.",
+    "분기·반기·장기 논리는 사업→현금→주당 가치 연결을 검토한다. 현재 주가·가치 비교를 하지 않았으므로 매수 추천이나 실행 가능한 신호가 아니다.",
+    "각 가설의 수치 임계값과 위험 한도는 미정이며 null로 남겼다. 후속 심사 없이 거래 엔진에 연결하지 않는다.",
+    "별도 companyfacts 원문 스냅샷은 이 체크아웃에서 발견하지 못했다. 보존 filing_events와 생성 코드로 8/31 파생 스냅샷을 읽었으며 원문과 모든 태그를 재조정한 검증은 아니다."
+  ],
+  "companies": [
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "sector_path": [
+        "정보기술",
+        "소프트웨어",
+        "기업 워크플로·IT 서비스 관리"
+      ],
+      "sector_taxonomy_status": "research_draft_current_classification_not_historical_sector_data",
+      "request_basis": {
+        "kind": "recurring_latest_target_selection",
+        "team_count": 6,
+        "evidence": [
+          {
+            "team": "pulse_day",
+            "company": "pulse",
+            "signal_date": "2026-08-27",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000076",
+            "signal_filing_available_at": "2026-07-24",
+            "employees": [
+              {
+                "id": "pulse_day-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 705,
+            "ledger_hash": "6054358a211bfef533e89b5155ee157cd34ed77148e5426b0f2c1564329e73c9",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "pulse_week",
+            "company": "pulse",
+            "signal_date": "2026-08-20",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000076",
+            "signal_filing_available_at": "2026-07-24",
+            "employees": [
+              {
+                "id": "pulse_week-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 703,
+            "ledger_hash": "9d54011746e4f0905a3c8dda5c88669f6880132d1a1d37addb20789977da98ae",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "pulse_month",
+            "company": "pulse",
+            "signal_date": "2026-08-11",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000076",
+            "signal_filing_available_at": "2026-07-24",
+            "employees": [
+              {
+                "id": "pulse_month-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 695,
+            "ledger_hash": "9e8e608350ce1ffe24d5948ec1ef64355ee712dac0176f3976241eab9ed6a043",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "compound_quarter",
+            "company": "compound",
+            "signal_date": "2026-07-13",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000056",
+            "signal_filing_available_at": "2026-04-24",
+            "employees": [
+              {
+                "id": "compound_quarter-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 679,
+            "ledger_hash": "4399d462bcfa6e7ef032e896a9def041db539ddca8e5fce5128e9becad6d4e86",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "compound_half",
+            "company": "compound",
+            "signal_date": "2026-07-13",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000056",
+            "signal_filing_available_at": "2026-04-24",
+            "employees": [
+              {
+                "id": "compound_half-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 680,
+            "ledger_hash": "ccad9ab275698676d44268de86b18aa62a2562c445d72b822a8712bd4b8a36d1",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "adaptive_quality",
+            "company": "adaptive",
+            "signal_date": "2026-08-11",
+            "target_weight": 0.1,
+            "signal_filing_id": "0001373715-26-000076",
+            "signal_filing_available_at": "2026-07-24",
+            "employees": [
+              {
+                "id": "adaptive_quality-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 696,
+            "ledger_hash": "8d47df7f4b1f86886b75bdf53c30c5842f1a4e583e63527f4686d20b46e80aac",
+            "source_id": "R03-DECISIONS"
+          }
+        ],
+        "attributed_profit_verified": false
+      },
+      "facts": [
+        {
+          "id": "NOW-F1",
+          "statement": "2026년 2분기 구독 매출은 38.77억 달러, cRPO는 132억 달러였다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NOW-IR-Q2-2026"
+          ]
+        },
+        {
+          "id": "NOW-F2",
+          "statement": "회사는 연방 고객의 일부 온프레미스 매출이 3분기에서 2분기로 앞당겨졌다고 밝혔다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NOW-IR-Q2-2026"
+          ]
+        },
+        {
+          "id": "NOW-F3",
+          "statement": "상반기 GAAP 영업현금흐름은 22.57억 달러로 전년 23.93억 달러보다 적었다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NOW-SEC-Q2-2026"
+          ]
+        },
+        {
+          "id": "NOW-F4",
+          "statement": "98% 갱신율은 잔존 고객의 구매 확대·축소를 모두 반영하는 순매출유지율이 아니다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NOW-SEC-Q2-2026"
+          ]
+        }
+      ],
+      "business_cash_link": {
+        "classification": "analyst_research_interpretation",
+        "text": "계약 체결·갱신이 청구와 구독 수익으로 전환되는 경로를 확인한다. 온프레미스 인도 시점, 청구 계절성, AI 제공 비용, 인수 비용과 주식보상을 함께 조정해야 주당 현금 창출을 평가할 수 있다.",
+        "source_ids": [
+          "NOW-SEC-Q2-2026",
+          "NOW-IR-Q2-2026"
+        ]
+      },
+      "risks_to_test": [
+        "계약 앞당김을 지속 성장으로 오인",
+        "AI·클라우드 비용과 인수 통합 부담",
+        "갱신율만으로 고객 축소를 놓칠 가능성"
+      ],
+      "financial_snapshot_as_of_2026_08_31": {
+        "as_of": "2026-08-31",
+        "source_ids": [
+          "LOCAL-FILING-EVENTS",
+          "LOCAL-ACCOUNTING-METHOD"
+        ],
+        "latest_available_event": {
+          "ticker": "NOW",
+          "available_at": "2026-07-24",
+          "filed": "2026-07-23",
+          "period_end": "2026-06-30",
+          "filing_id": "0001373715-26-000076",
+          "scope": "us-gaap",
+          "fin_revenue_growth": 0.2218628182798374,
+          "fin_gross_margin": 0.7476920988324736,
+          "fin_operating_margin": 0.1140374694542492,
+          "fin_roa": 0.062177709105125,
+          "fin_cfo_assets": 0.1976283113353314,
+          "fin_accruals_assets": -0.1354506022302064,
+          "fin_cfo_after_ppe_assets": 0.1705232980248338,
+          "fin_ppe_sales": 0.049416236763508,
+          "fin_cash_assets": 0.0790437693425124,
+          "fin_liabilities_assets": 0.6047495736752353,
+          "fin_current_ratio": 0.7005677610466552,
+          "fin_receivables_growth_gap": 0.0758966156824267,
+          "fin_inventory_growth_gap": null,
+          "fin_interest_coverage": null,
+          "fin_observed_fraction": 0.8571428571428571,
+          "fin_financial_sector": 0.0
+        },
+        "metric_kind": "retained_PIT_computed_TTM_flows_and_period_end_balances",
+        "independent_companyfacts_reconciliation_done": false,
+        "note": "기존 파생 지표를 읽은 스냅샷이다. 원문 분기 수치와 TTM 지표는 기간이 다르며 혼용하지 않는다. 누락치는 0이나 개선 신호로 대체하지 않는다."
+      },
+      "current_price_valuation_done": false,
+      "target_price": null,
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026"
+      ],
+      "core_thesis": "계약 체결·갱신이 청구와 구독 수익으로 전환되는 경로를 확인한다. 온프레미스 인도 시점, 청구 계절성, AI 제공 비용, 인수 비용과 주식보상을 함께 조정해야 주당 현금 창출을 평가할 수 있다.",
+      "taxonomy": [
+        "정보기술",
+        "소프트웨어",
+        "기업 워크플로·IT 서비스 관리"
+      ],
+      "known_at": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "tested_by_experiments": [],
+      "source_links": [
+        {
+          "id": "NOW-SEC-Q2-2026",
+          "title": "ServiceNow 2026 Q2 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"
+        },
+        {
+          "id": "NOW-IR-Q2-2026",
+          "title": "ServiceNow Reports Second Quarter 2026 Financial Results",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"
+        }
+      ],
+      "horizons": {
+        "day": {
+          "thesis": "공식 실적 정보와 일치하는 첫 정규장의 반응이 다음 거래일에도 이어질 수 있다.",
+          "entry": "발표 시각과 사건 이전 기대치를 동결하고 이후 거래량·상대수익 확인.",
+          "exit_or_invalidation": "갭 반전이나 공식 정정으로 사건 해석이 뒤집히면 폐기.",
+          "data_needed": [
+            "공식 최초 공개 UTC",
+            "발표 직전 기대치의 무료 보존본",
+            "발표 후 체결 가능 가격·스프레드"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "week": {
+          "thesis": "cRPO의 기초 성장에 대한 재평가가 매출 앞당김 효과보다 오래갈 수 있다.",
+          "entry": "환율·인수·인도 시점 효과 분해 뒤 주간 상대강도 검토.",
+          "exit_or_invalidation": "상대강도 반전 또는 앞당김이 개선의 대부분이면 철회.",
+          "data_needed": [
+            "유기적 cRPO 연결표",
+            "발표 전후 5거래일 자료",
+            "동일 시점 소프트웨어 비교군"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "month": {
+          "thesis": "AI 계약 증가가 비용 증가를 감당한다면 월간 추세의 질이 좋아질 수 있다.",
+          "entry": "AI 계약의 유료 전환과 비용 자료 확보 후 모멘텀 결합 실험.",
+          "exit_or_invalidation": "계약 지표 개선 없이 비용만 확대되면 제외.",
+          "data_needed": [
+            "AI ACV의 정의·인식 시점",
+            "클라우드·AI 비용 추이",
+            "당시 20·63일 모멘텀"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "quarter": {
+          "thesis": "cRPO가 실제 구독 매출과 현금 회수로 전환될 때 성장 논리가 강해진다.",
+          "entry": "분기 계약·매출·영업현금흐름을 같은 기간으로 연결해 심사.",
+          "exit_or_invalidation": "채권 누적이나 계약 취소로 현금 전환이 약해지면 재검토.",
+          "data_needed": [
+            "cRPO→매출 연결",
+            "청구·수금 계절성",
+            "인수 제외 성장과 매출채권"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "half": {
+          "thesis": "고객 지출 유지와 비용 통제가 함께 작동해야 반기 현금 복리가 가능하다.",
+          "entry": "기존 고객 증감과 주식보상·인수 지출을 분리해 점검.",
+          "exit_or_invalidation": "구매 축소나 지속적인 주당 현금 희석이면 논리 약화.",
+          "data_needed": [
+            "순매출유지에 가까운 공개 대리지표",
+            "희석 주식수·SBC",
+            "인수 현금지출과 통합 비용"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "companion": {
+          "thesis": "업무 시스템에 대한 결합이 지속적인 고객 가치와 주당 현금으로 이어질 수 있다.",
+          "entry": "고객 경제성과 정상화 현금흐름으로 가치 범위를 먼저 산정.",
+          "exit_or_invalidation": "경쟁 전환·가격 압박으로 고객 경제성이 훼손되면 재평가.",
+          "data_needed": [
+            "고객 전환·가격 사례",
+            "장기 희석 주당 현금 시나리오",
+            "당시 가격과 할인율의 별도 검증"
+          ],
+          "source_ids": [
+            "NOW-SEC-Q2-2026",
+            "NOW-IR-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        }
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "sector_path": [
+        "정보기술",
+        "반도체",
+        "무선·엣지 컴퓨팅 및 통신 특허"
+      ],
+      "sector_taxonomy_status": "research_draft_current_classification_not_historical_sector_data",
+      "request_basis": {
+        "kind": "recurring_latest_target_selection",
+        "team_count": 1,
+        "evidence": [
+          {
+            "team": "compound_half",
+            "company": "compound",
+            "signal_date": "2026-07-13",
+            "target_weight": 0.1,
+            "signal_filing_id": "0000804328-26-000061",
+            "signal_filing_available_at": "2026-04-30",
+            "employees": [
+              {
+                "id": "compound_half-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 680,
+            "ledger_hash": "ccad9ab275698676d44268de86b18aa62a2562c445d72b822a8712bd4b8a36d1",
+            "source_id": "R03-DECISIONS"
+          }
+        ],
+        "attributed_profit_verified": false
+      },
+      "facts": [
+        {
+          "id": "QCOM-F1",
+          "statement": "회계 3분기 휴대폰 매출은 50.86억 달러로 전년 63.28억 달러보다 줄었고, 자동차는 15.88억 달러로 전년 9.84억 달러보다 늘었다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "QCOM-SEC-Q3-2026"
+          ]
+        },
+        {
+          "id": "QCOM-F2",
+          "statement": "9개월 영업현금흐름은 84.05억 달러, 설비투자는 15.78억 달러였다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "QCOM-SEC-Q3-2026"
+          ]
+        },
+        {
+          "id": "QCOM-F3",
+          "statement": "회사 공시는 Apple의 자체 모뎀 확대가 QCT에 미칠 부담과 이연법인세 평가충당금 환입 효과를 별도로 설명한다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "QCOM-SEC-Q3-2026"
+          ]
+        }
+      ],
+      "business_cash_link": {
+        "classification": "analyst_research_interpretation",
+        "text": "QCT의 출하·제품 구성·단가가 이익과 재고 자금으로 연결되는지, QTL의 특허 사용료가 현금으로 회수되는지 분리한다. 자동차 성장만으로 휴대폰 감소나 현금 소진이 상쇄됐다고 가정하지 않는다.",
+        "source_ids": [
+          "QCOM-SEC-Q3-2026"
+        ]
+      },
+      "risks_to_test": [
+        "휴대폰 고객의 자체 칩·모뎀 전환",
+        "재고와 설비투자에 묶이는 현금",
+        "비현금 세금 효과를 본업 개선으로 오인"
+      ],
+      "financial_snapshot_as_of_2026_08_31": {
+        "as_of": "2026-08-31",
+        "source_ids": [
+          "LOCAL-FILING-EVENTS",
+          "LOCAL-ACCOUNTING-METHOD"
+        ],
+        "latest_available_event": {
+          "ticker": "QCOM",
+          "available_at": "2026-07-30",
+          "filed": "2026-07-29",
+          "period_end": "2026-06-28",
+          "filing_id": "0000804328-26-000086",
+          "scope": "us-gaap",
+          "fin_revenue_growth": 0.0187715283075571,
+          "fin_gross_margin": null,
+          "fin_operating_margin": 0.2318863600263223,
+          "fin_roa": 0.1650019157258819,
+          "fin_cfo_assets": 0.2209945735950601,
+          "fin_accruals_assets": -0.0559926578691781,
+          "fin_cfo_after_ppe_assets": null,
+          "fin_ppe_sales": null,
+          "fin_cash_assets": 0.0790175536458242,
+          "fin_liabilities_assets": 0.5178761308766364,
+          "fin_current_ratio": 2.015596249890476,
+          "fin_receivables_growth_gap": null,
+          "fin_inventory_growth_gap": 0.3032543473630014,
+          "fin_interest_coverage": 14.831640058055152,
+          "fin_observed_fraction": 0.7142857142857143,
+          "fin_financial_sector": 0.0
+        },
+        "metric_kind": "retained_PIT_computed_TTM_flows_and_period_end_balances",
+        "independent_companyfacts_reconciliation_done": false,
+        "note": "기존 파생 지표를 읽은 스냅샷이다. 원문 분기 수치와 TTM 지표는 기간이 다르며 혼용하지 않는다. 누락치는 0이나 개선 신호로 대체하지 않는다."
+      },
+      "current_price_valuation_done": false,
+      "target_price": null,
+      "source_ids": [
+        "QCOM-SEC-Q3-2026"
+      ],
+      "core_thesis": "QCT의 출하·제품 구성·단가가 이익과 재고 자금으로 연결되는지, QTL의 특허 사용료가 현금으로 회수되는지 분리한다. 자동차 성장만으로 휴대폰 감소나 현금 소진이 상쇄됐다고 가정하지 않는다.",
+      "taxonomy": [
+        "정보기술",
+        "반도체",
+        "무선·엣지 컴퓨팅 및 통신 특허"
+      ],
+      "known_at": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "tested_by_experiments": [],
+      "source_links": [
+        {
+          "id": "QCOM-SEC-Q3-2026",
+          "title": "Qualcomm 2026 fiscal Q3 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+        }
+      ],
+      "horizons": {
+        "day": {
+          "thesis": "휴대폰·자동차 전망의 엇갈림이 발표 직후 단기 가격 반응을 좌우할 수 있다.",
+          "entry": "공식 발표 시각 이후 사업별 변화와 가격 반응을 대조.",
+          "exit_or_invalidation": "새 공식 정보나 갭 반전이 최초 해석을 부정하면 철회.",
+          "data_needed": [
+            "실적·고객 발표의 최초 UTC",
+            "발표 전 전망 보존본",
+            "유동성·스프레드 포함 사건 가격"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "week": {
+          "thesis": "자동차 호재의 주간 지속성은 휴대폰 약세와 함께 평가해야 한다.",
+          "entry": "설계 채택을 즉시 매출로 보지 않고 반도체 대비 상대강도 확인.",
+          "exit_or_invalidation": "출하 근거 없이 발표만 반복되거나 상대강도가 꺾이면 제외.",
+          "data_needed": [
+            "양산·출하 시점",
+            "휴대폰 수요 관련 회사 공개자료",
+            "5일 업종 조정 수익"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "month": {
+          "thesis": "재고 부담 완화가 확인되면 월간 모멘텀의 지속 가능성이 높아질 수 있다.",
+          "entry": "재고·출하 변화와 월간 추세를 같은 정보 시점에 결합.",
+          "exit_or_invalidation": "재고 증가와 현금 전환 악화가 계속되면 가설 보류.",
+          "data_needed": [
+            "재고 회전·구매약정",
+            "사업별 출하 대리지표",
+            "20·63일 상대강도"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "quarter": {
+          "thesis": "자동차·IoT의 이익 기여가 휴대폰 감소를 보완하는지 분기별로 검증할 수 있다.",
+          "entry": "QCT 매출 구성과 이익률 연결표를 확보한 뒤 심사.",
+          "exit_or_invalidation": "다각화 매출 증가에도 QCT 현금·이익이 약해지면 재검토.",
+          "data_needed": [
+            "사업별 단가·수량 변화",
+            "QCT 이익률 연결",
+            "매출채권·재고 현금 영향"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "half": {
+          "thesis": "세금 효과를 걷어낸 현금 창출이 반기 자본 배분의 지속성을 설명할 수 있다.",
+          "entry": "영업현금에서 설비·인수 지출을 차감하고 배당·환매 부담 비교.",
+          "exit_or_invalidation": "환매를 유지하기 위한 재무 부담이 커지면 논리 약화.",
+          "data_needed": [
+            "설비투자 XBRL 태그 보완",
+            "세금 현금·비현금 조정",
+            "부채·배당·환매와 희석 주식수"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "companion": {
+          "thesis": "무선 기술과 특허 수익이 장기 재투자를 지탱할 수 있는지가 핵심이다.",
+          "entry": "고객 자체 개발과 라이선스 갱신 시나리오로 가치 범위를 산정.",
+          "exit_or_invalidation": "기술 대체나 사용료 회수 저하가 구조화되면 재평가.",
+          "data_needed": [
+            "QTL 계약·회수 조건",
+            "고객 집중·자체 개발 변화",
+            "장기 연구개발 수익성과 가치 평가"
+          ],
+          "source_ids": [
+            "QCOM-SEC-Q3-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        }
+      }
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
+      "sector_path": [
+        "헬스케어",
+        "바이오제약",
+        "신경·내분비 및 희귀질환 치료제"
+      ],
+      "sector_taxonomy_status": "research_draft_current_classification_not_historical_sector_data",
+      "request_basis": {
+        "kind": "recurring_latest_target_selection",
+        "team_count": 4,
+        "evidence": [
+          {
+            "team": "compound_quarter",
+            "company": "compound",
+            "signal_date": "2026-07-13",
+            "target_weight": 0.1,
+            "signal_filing_id": "0000914475-26-000026",
+            "signal_filing_available_at": "2026-05-06",
+            "employees": [
+              {
+                "id": "compound_quarter-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 679,
+            "ledger_hash": "4399d462bcfa6e7ef032e896a9def041db539ddca8e5fce5128e9becad6d4e86",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "compound_half",
+            "company": "compound",
+            "signal_date": "2026-07-13",
+            "target_weight": 0.1,
+            "signal_filing_id": "0000914475-26-000026",
+            "signal_filing_available_at": "2026-05-06",
+            "employees": [
+              {
+                "id": "compound_half-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 680,
+            "ledger_hash": "ccad9ab275698676d44268de86b18aa62a2562c445d72b822a8712bd4b8a36d1",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "compound_year",
+            "company": "compound",
+            "signal_date": "2026-01-08",
+            "target_weight": 0.1,
+            "signal_filing_id": "0000914475-25-000181",
+            "signal_filing_available_at": "2025-10-29",
+            "employees": [
+              {
+                "id": "compound_year-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 584,
+            "ledger_hash": "747dc50496bc2bdda1db32c37e50d1e88d0bb3d6f62e2a56b00148dfa5c1157e",
+            "source_id": "R03-DECISIONS"
+          },
+          {
+            "team": "adaptive_quality",
+            "company": "adaptive",
+            "signal_date": "2026-08-11",
+            "target_weight": 0.1,
+            "signal_filing_id": "0000914475-26-000037",
+            "signal_filing_available_at": "2026-08-01",
+            "employees": [
+              {
+                "id": "adaptive_quality-E02",
+                "weight": 1.0,
+                "variant": "efficient",
+                "overrides": {}
+              }
+            ],
+            "ledger_sequence": 696,
+            "ledger_hash": "8d47df7f4b1f86886b75bdf53c30c5842f1a4e583e63527f4686d20b46e80aac",
+            "source_id": "R03-DECISIONS"
+          }
+        ],
+        "attributed_profit_verified": false
+      },
+      "facts": [
+        {
+          "id": "NBIX-F1",
+          "statement": "회사는 INGREZZA와 CRENESSITY를 판매하며 2026년 5월 Soleno 인수로 VYKAT XR을 추가했다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NBIX-SEC-Q2-2026"
+          ]
+        },
+        {
+          "id": "NBIX-F2",
+          "statement": "상반기 영업현금흐름은 2.822억 달러, 설비투자는 0.169억 달러였다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NBIX-SEC-Q2-2026"
+          ]
+        },
+        {
+          "id": "NBIX-F3",
+          "statement": "공시는 제품 채택·보험 상환, INGREZZA 관련 특허 분쟁 및 인수 부담을 위험 요인으로 설명한다.",
+          "classification": "company_disclosed_fact",
+          "source_ids": [
+            "NBIX-SEC-Q2-2026"
+          ]
+        }
+      ],
+      "business_cash_link": {
+        "classification": "analyst_research_interpretation",
+        "text": "처방·유료 환자 증가가 할인과 보험 상환을 거쳐 순매출·수금으로 이어지는지 확인한다. 임상 후보의 잠재가치와 이미 승인된 제품의 현금을 나누고, Soleno 인수 및 상업화·연구개발 지출을 함께 본다.",
+        "source_ids": [
+          "NBIX-SEC-Q2-2026"
+        ]
+      },
+      "risks_to_test": [
+        "제품·보험 상환 집중",
+        "임상·규제 결과의 불연속 위험",
+        "인수와 상업화 지출·특허 분쟁"
+      ],
+      "financial_snapshot_as_of_2026_08_31": {
+        "as_of": "2026-08-31",
+        "source_ids": [
+          "LOCAL-FILING-EVENTS",
+          "LOCAL-ACCOUNTING-METHOD"
+        ],
+        "latest_available_event": {
+          "ticker": "NBIX",
+          "available_at": "2026-08-01",
+          "filed": "2026-07-31",
+          "period_end": "2026-06-30",
+          "filing_id": "0000914475-26-000037",
+          "scope": "us-gaap",
+          "fin_revenue_growth": 0.3442368221841507,
+          "fin_gross_margin": null,
+          "fin_operating_margin": 0.2355730756691069,
+          "fin_roa": 0.1525586826541534,
+          "fin_cfo_assets": 0.1942068786558401,
+          "fin_accruals_assets": -0.0416481960016866,
+          "fin_cfo_after_ppe_assets": 0.1882169771540399,
+          "fin_ppe_sales": 0.0082100832864044,
+          "fin_cash_assets": 0.0620253400757589,
+          "fin_liabilities_assets": 0.3107797951148514,
+          "fin_current_ratio": 1.8724985706117785,
+          "fin_receivables_growth_gap": 0.1447677102986426,
+          "fin_inventory_growth_gap": 0.4870461303641797,
+          "fin_interest_coverage": null,
+          "fin_observed_fraction": 0.8571428571428571,
+          "fin_financial_sector": 0.0
+        },
+        "metric_kind": "retained_PIT_computed_TTM_flows_and_period_end_balances",
+        "independent_companyfacts_reconciliation_done": false,
+        "note": "기존 파생 지표를 읽은 스냅샷이다. 원문 분기 수치와 TTM 지표는 기간이 다르며 혼용하지 않는다. 누락치는 0이나 개선 신호로 대체하지 않는다."
+      },
+      "current_price_valuation_done": false,
+      "target_price": null,
+      "source_ids": [
+        "NBIX-SEC-Q2-2026"
+      ],
+      "core_thesis": "처방·유료 환자 증가가 할인과 보험 상환을 거쳐 순매출·수금으로 이어지는지 확인한다. 임상 후보의 잠재가치와 이미 승인된 제품의 현금을 나누고, Soleno 인수 및 상업화·연구개발 지출을 함께 본다.",
+      "taxonomy": [
+        "헬스케어",
+        "바이오제약",
+        "신경·내분비 및 희귀질환 치료제"
+      ],
+      "known_at": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "tested_by_experiments": [],
+      "source_links": [
+        {
+          "id": "NBIX-SEC-Q2-2026",
+          "title": "Neurocrine Biosciences 2026 Q2 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000037/nbix-20260630.htm"
+        }
+      ],
+      "horizons": {
+        "day": {
+          "thesis": "공식 임상·규제 발표 후 재평가가 단기 가격에 이어질 수 있다.",
+          "entry": "결과가 공개된 뒤 근거 수준과 체결 가능 가격을 확인.",
+          "exit_or_invalidation": "안전성 해석 변경이나 공시 정정이 나오면 폐기.",
+          "data_needed": [
+            "공식 결과 최초 UTC",
+            "임상 결과·안전성 원문",
+            "거래 정지·갭·호가 자료"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "week": {
+          "thesis": "판매 전망 변화의 반응이 지속되는지 제품별로 나눠 볼 수 있다.",
+          "entry": "무료 공개 처방·판매 설명과 주간 상대강도를 함께 검토.",
+          "exit_or_invalidation": "판매량 대신 가격·채널 재고만 움직인 경우 재검토.",
+          "data_needed": [
+            "공개 처방·유료 환자 지표",
+            "제품별 전망의 이전 버전",
+            "5일 바이오 업종 대비 수익"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "month": {
+          "thesis": "CRENESSITY의 실제 채택이 월간 추세에 지속적인 근거를 줄 수 있다.",
+          "entry": "유기적 성장을 VYKAT XR 인수 편입 효과와 분리해 심사.",
+          "exit_or_invalidation": "채택 둔화나 매출의 인수 의존이 드러나면 보류.",
+          "data_needed": [
+            "제품별 유기적 성장",
+            "보험 접근·순가격",
+            "20·63일 가격·거래량"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "quarter": {
+          "thesis": "INGREZZA의 판매 확대가 현금 회수로 연결되어야 성장의 질이 유지된다.",
+          "entry": "제품 순매출과 채권·할인 충당금·영업현금을 연결해 검토.",
+          "exit_or_invalidation": "채권 누적이나 순가격 하락이 수금을 압박하면 논리 약화.",
+          "data_needed": [
+            "제품별 수량·순가격",
+            "gross-to-net 조정",
+            "채권 회전·영업현금 연결"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "half": {
+          "thesis": "제품 다각화의 현금 기여가 인수·상업화 비용을 감당하는지 확인할 수 있다.",
+          "entry": "CRENESSITY와 VYKAT XR의 기여를 인수 지출과 분리해 비교.",
+          "exit_or_invalidation": "제품 채택 지연이나 반복적인 자금 보충이면 재검토.",
+          "data_needed": [
+            "제품별 공헌 추정 근거",
+            "인수 지출·현금 잔액",
+            "상업화·연구개발 지출"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        },
+        "companion": {
+          "thesis": "승인 제품의 효용과 시장 접근이 유지될 때 장기 현금 기반이 남는다.",
+          "entry": "특허·경쟁·보험·안전성 시나리오별 가치 범위를 먼저 산정.",
+          "exit_or_invalidation": "제품 경제성 또는 시장 접근의 구조적 훼손이면 재평가.",
+          "data_needed": [
+            "특허·규제 사건의 당시 기록",
+            "보험 상환·경쟁 치료제 변화",
+            "임상 성공을 확정하지 않은 가치 시나리오"
+          ],
+          "source_ids": [
+            "NBIX-SEC-Q2-2026",
+            "LOCAL-FILING-EVENTS",
+            "R03-DECISIONS"
+          ],
+          "status": "research_hypothesis",
+          "executable": false,
+          "created_at": "2026-09-10T09:27:14Z",
+          "available_for_use_from": "2026-09-10T09:27:14Z",
+          "tested_by_experiments": []
+        }
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "NOW-day-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "day",
+      "horizon_label": "일간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "공식 실적 정보와 일치하는 첫 정규장의 반응이 다음 거래일에도 이어질 수 있다.",
+      "entry": "발표 시각과 사건 이전 기대치를 동결하고 이후 거래량·상대수익 확인.",
+      "exit_or_invalidation": "갭 반전이나 공식 정정으로 사건 해석이 뒤집히면 폐기.",
+      "data_needed": [
+        "공식 최초 공개 UTC",
+        "발표 직전 기대치의 무료 보존본",
+        "발표 후 체결 가능 가격·스프레드"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NOW-week-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "week",
+      "horizon_label": "주간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "cRPO의 기초 성장에 대한 재평가가 매출 앞당김 효과보다 오래갈 수 있다.",
+      "entry": "환율·인수·인도 시점 효과 분해 뒤 주간 상대강도 검토.",
+      "exit_or_invalidation": "상대강도 반전 또는 앞당김이 개선의 대부분이면 철회.",
+      "data_needed": [
+        "유기적 cRPO 연결표",
+        "발표 전후 5거래일 자료",
+        "동일 시점 소프트웨어 비교군"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NOW-month-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "month",
+      "horizon_label": "월간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "AI 계약 증가가 비용 증가를 감당한다면 월간 추세의 질이 좋아질 수 있다.",
+      "entry": "AI 계약의 유료 전환과 비용 자료 확보 후 모멘텀 결합 실험.",
+      "exit_or_invalidation": "계약 지표 개선 없이 비용만 확대되면 제외.",
+      "data_needed": [
+        "AI ACV의 정의·인식 시점",
+        "클라우드·AI 비용 추이",
+        "당시 20·63일 모멘텀"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NOW-quarter-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "quarter",
+      "horizon_label": "분기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "cRPO가 실제 구독 매출과 현금 회수로 전환될 때 성장 논리가 강해진다.",
+      "entry": "분기 계약·매출·영업현금흐름을 같은 기간으로 연결해 심사.",
+      "exit_or_invalidation": "채권 누적이나 계약 취소로 현금 전환이 약해지면 재검토.",
+      "data_needed": [
+        "cRPO→매출 연결",
+        "청구·수금 계절성",
+        "인수 제외 성장과 매출채권"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NOW-half-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "half",
+      "horizon_label": "반기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "고객 지출 유지와 비용 통제가 함께 작동해야 반기 현금 복리가 가능하다.",
+      "entry": "기존 고객 증감과 주식보상·인수 지출을 분리해 점검.",
+      "exit_or_invalidation": "구매 축소나 지속적인 주당 현금 희석이면 논리 약화.",
+      "data_needed": [
+        "순매출유지에 가까운 공개 대리지표",
+        "희석 주식수·SBC",
+        "인수 현금지출과 통합 비용"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NOW-companion-20260910",
+      "ticker": "NOW",
+      "company_name": "ServiceNow",
+      "horizon": "companion",
+      "horizon_label": "장기 동반",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "업무 시스템에 대한 결합이 지속적인 고객 가치와 주당 현금으로 이어질 수 있다.",
+      "entry": "고객 경제성과 정상화 현금흐름으로 가치 범위를 먼저 산정.",
+      "exit_or_invalidation": "경쟁 전환·가격 압박으로 고객 경제성이 훼손되면 재평가.",
+      "data_needed": [
+        "고객 전환·가격 사례",
+        "장기 희석 주당 현금 시나리오",
+        "당시 가격과 할인율의 별도 검증"
+      ],
+      "source_ids": [
+        "NOW-SEC-Q2-2026",
+        "NOW-IR-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month",
+        "compound_quarter",
+        "compound_half",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-day-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "day",
+      "horizon_label": "일간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "휴대폰·자동차 전망의 엇갈림이 발표 직후 단기 가격 반응을 좌우할 수 있다.",
+      "entry": "공식 발표 시각 이후 사업별 변화와 가격 반응을 대조.",
+      "exit_or_invalidation": "새 공식 정보나 갭 반전이 최초 해석을 부정하면 철회.",
+      "data_needed": [
+        "실적·고객 발표의 최초 UTC",
+        "발표 전 전망 보존본",
+        "유동성·스프레드 포함 사건 가격"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-week-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "week",
+      "horizon_label": "주간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "자동차 호재의 주간 지속성은 휴대폰 약세와 함께 평가해야 한다.",
+      "entry": "설계 채택을 즉시 매출로 보지 않고 반도체 대비 상대강도 확인.",
+      "exit_or_invalidation": "출하 근거 없이 발표만 반복되거나 상대강도가 꺾이면 제외.",
+      "data_needed": [
+        "양산·출하 시점",
+        "휴대폰 수요 관련 회사 공개자료",
+        "5일 업종 조정 수익"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-month-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "month",
+      "horizon_label": "월간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "재고 부담 완화가 확인되면 월간 모멘텀의 지속 가능성이 높아질 수 있다.",
+      "entry": "재고·출하 변화와 월간 추세를 같은 정보 시점에 결합.",
+      "exit_or_invalidation": "재고 증가와 현금 전환 악화가 계속되면 가설 보류.",
+      "data_needed": [
+        "재고 회전·구매약정",
+        "사업별 출하 대리지표",
+        "20·63일 상대강도"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-quarter-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "quarter",
+      "horizon_label": "분기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "자동차·IoT의 이익 기여가 휴대폰 감소를 보완하는지 분기별로 검증할 수 있다.",
+      "entry": "QCT 매출 구성과 이익률 연결표를 확보한 뒤 심사.",
+      "exit_or_invalidation": "다각화 매출 증가에도 QCT 현금·이익이 약해지면 재검토.",
+      "data_needed": [
+        "사업별 단가·수량 변화",
+        "QCT 이익률 연결",
+        "매출채권·재고 현금 영향"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-half-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "half",
+      "horizon_label": "반기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "세금 효과를 걷어낸 현금 창출이 반기 자본 배분의 지속성을 설명할 수 있다.",
+      "entry": "영업현금에서 설비·인수 지출을 차감하고 배당·환매 부담 비교.",
+      "exit_or_invalidation": "환매를 유지하기 위한 재무 부담이 커지면 논리 약화.",
+      "data_needed": [
+        "설비투자 XBRL 태그 보완",
+        "세금 현금·비현금 조정",
+        "부채·배당·환매와 희석 주식수"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "QCOM-companion-20260910",
+      "ticker": "QCOM",
+      "company_name": "Qualcomm",
+      "horizon": "companion",
+      "horizon_label": "장기 동반",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "무선 기술과 특허 수익이 장기 재투자를 지탱할 수 있는지가 핵심이다.",
+      "entry": "고객 자체 개발과 라이선스 갱신 시나리오로 가치 범위를 산정.",
+      "exit_or_invalidation": "기술 대체나 사용료 회수 저하가 구조화되면 재평가.",
+      "data_needed": [
+        "QTL 계약·회수 조건",
+        "고객 집중·자체 개발 변화",
+        "장기 연구개발 수익성과 가치 평가"
+      ],
+      "source_ids": [
+        "QCOM-SEC-Q3-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_half"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-day-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "day",
+      "horizon_label": "일간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "공식 임상·규제 발표 후 재평가가 단기 가격에 이어질 수 있다.",
+      "entry": "결과가 공개된 뒤 근거 수준과 체결 가능 가격을 확인.",
+      "exit_or_invalidation": "안전성 해석 변경이나 공시 정정이 나오면 폐기.",
+      "data_needed": [
+        "공식 결과 최초 UTC",
+        "임상 결과·안전성 원문",
+        "거래 정지·갭·호가 자료"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-week-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "week",
+      "horizon_label": "주간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "판매 전망 변화의 반응이 지속되는지 제품별로 나눠 볼 수 있다.",
+      "entry": "무료 공개 처방·판매 설명과 주간 상대강도를 함께 검토.",
+      "exit_or_invalidation": "판매량 대신 가격·채널 재고만 움직인 경우 재검토.",
+      "data_needed": [
+        "공개 처방·유료 환자 지표",
+        "제품별 전망의 이전 버전",
+        "5일 바이오 업종 대비 수익"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-month-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "month",
+      "horizon_label": "월간",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "CRENESSITY의 실제 채택이 월간 추세에 지속적인 근거를 줄 수 있다.",
+      "entry": "유기적 성장을 VYKAT XR 인수 편입 효과와 분리해 심사.",
+      "exit_or_invalidation": "채택 둔화나 매출의 인수 의존이 드러나면 보류.",
+      "data_needed": [
+        "제품별 유기적 성장",
+        "보험 접근·순가격",
+        "20·63일 가격·거래량"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-quarter-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "quarter",
+      "horizon_label": "분기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "INGREZZA의 판매 확대가 현금 회수로 연결되어야 성장의 질이 유지된다.",
+      "entry": "제품 순매출과 채권·할인 충당금·영업현금을 연결해 검토.",
+      "exit_or_invalidation": "채권 누적이나 순가격 하락이 수금을 압박하면 논리 약화.",
+      "data_needed": [
+        "제품별 수량·순가격",
+        "gross-to-net 조정",
+        "채권 회전·영업현금 연결"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-half-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "half",
+      "horizon_label": "반기",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "제품 다각화의 현금 기여가 인수·상업화 비용을 감당하는지 확인할 수 있다.",
+      "entry": "CRENESSITY와 VYKAT XR의 기여를 인수 지출과 분리해 비교.",
+      "exit_or_invalidation": "제품 채택 지연이나 반복적인 자금 보충이면 재검토.",
+      "data_needed": [
+        "제품별 공헌 추정 근거",
+        "인수 지출·현금 잔액",
+        "상업화·연구개발 지출"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    },
+    {
+      "id": "NBIX-companion-20260910",
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "horizon": "companion",
+      "horizon_label": "장기 동반",
+      "created_at": "2026-09-10T09:27:14Z",
+      "available_for_use_from": "2026-09-10T09:27:14Z",
+      "status": "research_hypothesis",
+      "executable": false,
+      "historical_backtest_use_allowed": false,
+      "classification": "new_analyst_hypothesis_not_historical_employee_dialogue",
+      "thesis": "승인 제품의 효용과 시장 접근이 유지될 때 장기 현금 기반이 남는다.",
+      "entry": "특허·경쟁·보험·안전성 시나리오별 가치 범위를 먼저 산정.",
+      "exit_or_invalidation": "제품 경제성 또는 시장 접근의 구조적 훼손이면 재평가.",
+      "data_needed": [
+        "특허·규제 사건의 당시 기록",
+        "보험 상환·경쟁 치료제 변화",
+        "임상 성공을 확정하지 않은 가치 시나리오"
+      ],
+      "source_ids": [
+        "NBIX-SEC-Q2-2026",
+        "LOCAL-FILING-EVENTS",
+        "R03-DECISIONS"
+      ],
+      "requesting_teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year",
+        "adaptive_quality"
+      ],
+      "commercial_trigger_thresholds": null,
+      "risk_limits_for_execution": null,
+      "missing_execution_requirements": [
+        "자료의 당시 공개 시각과 버전 확보",
+        "진입·청산·위험 임계값 사전 등록",
+        "수수료·스프레드·갭을 포함한 향후 검증",
+        "기존 권한자의 전략 심사 및 별도 가치 평가"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "NOW-SEC-Q2-2026",
+      "kind": "primary_company_SEC_filing",
+      "title": "ServiceNow 2026 Q2 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm",
+      "retrieved_at": "2026-09-10T09:27:14Z",
+      "period_end": "2026-06-30",
+      "filing_id": "0001373715-26-000076",
+      "exact_publication_time_utc": null
+    },
+    {
+      "id": "NOW-IR-Q2-2026",
+      "kind": "primary_company_investor_relations",
+      "title": "ServiceNow Reports Second Quarter 2026 Financial Results",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "retrieved_at": "2026-09-10T09:27:14Z",
+      "published_date": "2026-07-22",
+      "exact_publication_time_utc": null
+    },
+    {
+      "id": "QCOM-SEC-Q3-2026",
+      "kind": "primary_company_SEC_filing",
+      "title": "Qualcomm 2026 fiscal Q3 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm",
+      "retrieved_at": "2026-09-10T09:27:14Z",
+      "period_end": "2026-06-28",
+      "filing_id": "0000804328-26-000086",
+      "exact_publication_time_utc": null
+    },
+    {
+      "id": "NBIX-SEC-Q2-2026",
+      "kind": "primary_company_SEC_filing",
+      "title": "Neurocrine Biosciences 2026 Q2 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000037/nbix-20260630.htm",
+      "retrieved_at": "2026-09-10T09:27:14Z",
+      "period_end": "2026-06-30",
+      "filing_id": "0000914475-26-000037",
+      "exact_publication_time_utc": null
+    },
+    {
+      "id": "LOCAL-FILING-EVENTS",
+      "kind": "retained_computed_financial_features",
+      "path": "data/dashboard_research/accounting/us/filing_events.csv.gz",
+      "sha256": "48320d02173e72e42c49b347a6608889d766c4491b9d834a81b495113977208c",
+      "observed_at": "2026-09-10T09:27:14Z"
+    },
+    {
+      "id": "LOCAL-ACCOUNTING-METHOD",
+      "kind": "local_feature_construction_code",
+      "path": "src/ai_stock_assistant/data/accounting_pit.py",
+      "sha256": "39d3433120b1bbd7d67bf8834f1488b8b97dff2ff1caecca72e88ca478371105",
+      "observed_at": "2026-09-10T09:27:14Z"
+    },
+    {
+      "id": "R03-DECISIONS",
+      "kind": "simulation_target_decision_ledger",
+      "path": "docs/replays/2026-09-10-r03-fixed-roster/efficient_control-p0-c1/decisions.jsonl.gz",
+      "sha256": "a0f48b010cedf666d48583c106bb27e2a2eeebeab0f144e9858f33771ffbb6b8",
+      "observed_at": "2026-09-10T09:27:14Z",
+      "interpretation": "positions는 목표 편입이며 체결 잔고나 종목별 수익 기여를 뜻하지 않음"
+    }
+  ],
+  "validation": {
+    "all_three_tickers_in_replay_cohort": true,
+    "all_company_latest_filing_ids_opened_on_SEC": true,
+    "all_hypotheses_non_executable": true,
+    "old_results_or_roster_changed": false,
+    "llm_api_calls": 0,
+    "paid_data_calls": 0,
+    "external_messages_sent": 0
+  }
+}

@@ -147,7 +147,8 @@
   "notes": [
     "직원 이름은 가상 규칙 직원의 역할 표시이며 실제 별도 Trello 계정이나 상시 실행 프로세스를 뜻하지 않음.",
     "승인 기한 초과는 승인이 아니다. 기존 권한 있는 대체 검토자 전달을 추천한다.",
-    "허용된 GitHub 업로드에 대해 고객에게 같은 허락을 반복 요청하지 않는다."
+    "허용된 GitHub 업로드에 대해 고객에게 같은 허락을 반복 요청하지 않는다.",
+    "Trello 갱신은 계속하되 현재 대화에는 카드별 업로드 결과를 반복 표시하지 않는다. 자세한 기록은 보드와 시뮬레이션 페이지에서 확인."
   ],
   "round_policy": {
     "minimum_actual_minutes": 60,
@@ -158,5 +159,6 @@
     "require_full_round_before_session_deadline": true,
     "personnel_approval_by_operations": false,
     "source_of_actual_start": "Root investment_rounds record; never infer from historical simulation dates"
-  }
+  },
+  "communications_policy": "data/reference/investment_communications.json"
 }

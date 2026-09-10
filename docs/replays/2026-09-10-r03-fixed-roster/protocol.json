@@ -1,0 +1,764 @@
+{
+  "schema": "fixed-roster-hour-r03-v1",
+  "registered_at": "2026-09-10T09:10:52.301048+00:00",
+  "round_id": "r03",
+  "cases": [
+    {
+      "id": "efficient_control-p0-c1",
+      "mode": "efficient_control",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p0-c1",
+      "mode": "equal_staff",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p0-c1",
+      "mode": "senior_balanced",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p0-c1",
+      "mode": "senior_graded",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p0-c2",
+      "mode": "efficient_control",
+      "phase": 0,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p0-c2",
+      "mode": "equal_staff",
+      "phase": 0,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p0-c2",
+      "mode": "senior_balanced",
+      "phase": 0,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p0-c2",
+      "mode": "senior_graded",
+      "phase": 0,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p7-c1",
+      "mode": "efficient_control",
+      "phase": 7,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p7-c1",
+      "mode": "equal_staff",
+      "phase": 7,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p7-c1",
+      "mode": "senior_balanced",
+      "phase": 7,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p7-c1",
+      "mode": "senior_graded",
+      "phase": 7,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p7-c2",
+      "mode": "efficient_control",
+      "phase": 7,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p7-c2",
+      "mode": "equal_staff",
+      "phase": 7,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p7-c2",
+      "mode": "senior_balanced",
+      "phase": 7,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p7-c2",
+      "mode": "senior_graded",
+      "phase": 7,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p14-c1",
+      "mode": "efficient_control",
+      "phase": 14,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p14-c1",
+      "mode": "equal_staff",
+      "phase": 14,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p14-c1",
+      "mode": "senior_balanced",
+      "phase": 14,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p14-c1",
+      "mode": "senior_graded",
+      "phase": 14,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p14-c2",
+      "mode": "efficient_control",
+      "phase": 14,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p14-c2",
+      "mode": "equal_staff",
+      "phase": 14,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p14-c2",
+      "mode": "senior_balanced",
+      "phase": 14,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p14-c2",
+      "mode": "senior_graded",
+      "phase": 14,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p21-c1",
+      "mode": "efficient_control",
+      "phase": 21,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p21-c1",
+      "mode": "equal_staff",
+      "phase": 21,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p21-c1",
+      "mode": "senior_balanced",
+      "phase": 21,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p21-c1",
+      "mode": "senior_graded",
+      "phase": 21,
+      "cost_multiplier": 1,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p21-c2",
+      "mode": "efficient_control",
+      "phase": 21,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "equal_staff-p21-c2",
+      "mode": "equal_staff",
+      "phase": 21,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_balanced-p21-c2",
+      "mode": "senior_balanced",
+      "phase": 21,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "senior_graded-p21-c2",
+      "mode": "senior_graded",
+      "phase": 21,
+      "cost_multiplier": 2,
+      "fill_delay": 1
+    },
+    {
+      "id": "efficient_control-p0-c1-delay2",
+      "mode": "efficient_control",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 2
+    },
+    {
+      "id": "equal_staff-p0-c1-delay2",
+      "mode": "equal_staff",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 2
+    },
+    {
+      "id": "senior_balanced-p0-c1-delay2",
+      "mode": "senior_balanced",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 2
+    },
+    {
+      "id": "senior_graded-p0-c1-delay2",
+      "mode": "senior_graded",
+      "phase": 0,
+      "cost_multiplier": 1,
+      "fill_delay": 2
+    }
+  ],
+  "people": [
+    {
+      "id": "adaptive_defensive-E01",
+      "name": "노재윤",
+      "display_name": "노재윤",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_defensive"
+    },
+    {
+      "id": "adaptive_defensive-E02",
+      "name": "성다온",
+      "display_name": "성다온",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_defensive"
+    },
+    {
+      "id": "adaptive_defensive-E03",
+      "name": "차은재",
+      "display_name": "차은재",
+      "genome": "guarded",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_defensive"
+    },
+    {
+      "id": "adaptive_defensive-E04",
+      "name": "도서현",
+      "display_name": "도서현",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-04-05",
+      "parent": "adaptive_defensive-E03",
+      "company": "adaptive",
+      "team": "adaptive_defensive"
+    },
+    {
+      "id": "adaptive_quality-E01",
+      "name": "유시현",
+      "display_name": "유시현",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_quality"
+    },
+    {
+      "id": "adaptive_quality-E02",
+      "name": "남하람",
+      "display_name": "남하람",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_quality"
+    },
+    {
+      "id": "adaptive_quality-E03",
+      "name": "하연우",
+      "display_name": "하연우",
+      "genome": "guarded",
+      "status": "funded",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_quality"
+    },
+    {
+      "id": "adaptive_quality-E04",
+      "name": "심채린",
+      "display_name": "심채린",
+      "genome": "moderate",
+      "status": "shadow",
+      "born": "2024-04-05",
+      "parent": "adaptive_quality-E02",
+      "company": "adaptive",
+      "team": "adaptive_quality"
+    },
+    {
+      "id": "adaptive_tactical-E01",
+      "name": "손지율",
+      "display_name": "손지율",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_tactical"
+    },
+    {
+      "id": "adaptive_tactical-E02",
+      "name": "배수아",
+      "display_name": "배수아",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_tactical"
+    },
+    {
+      "id": "adaptive_tactical-E03",
+      "name": "백우진",
+      "display_name": "백우진",
+      "genome": "guarded",
+      "status": "funded",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "adaptive",
+      "team": "adaptive_tactical"
+    },
+    {
+      "id": "adaptive_tactical-E04",
+      "name": "허나경",
+      "display_name": "허나경",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-04-05",
+      "parent": "adaptive_tactical-E02",
+      "company": "adaptive",
+      "team": "adaptive_tactical"
+    },
+    {
+      "id": "compound_half-E01",
+      "name": "안유림",
+      "display_name": "안유림",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_half"
+    },
+    {
+      "id": "compound_half-E02",
+      "name": "송준영",
+      "display_name": "송준영",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_half"
+    },
+    {
+      "id": "compound_half-E03",
+      "name": "류나은",
+      "display_name": "류나은",
+      "genome": "guarded",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_half"
+    },
+    {
+      "id": "compound_half-E04",
+      "name": "홍승우",
+      "display_name": "홍승우",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-01-04",
+      "parent": "compound_half-E01",
+      "company": "compound",
+      "team": "compound_half"
+    },
+    {
+      "id": "compound_quarter-E01",
+      "name": "서채원",
+      "display_name": "서채원",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_quarter"
+    },
+    {
+      "id": "compound_quarter-E02",
+      "name": "신예준",
+      "display_name": "신예준",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_quarter"
+    },
+    {
+      "id": "compound_quarter-E03",
+      "name": "권하율",
+      "display_name": "권하율",
+      "genome": "guarded",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_quarter"
+    },
+    {
+      "id": "compound_quarter-E04",
+      "name": "황도겸",
+      "display_name": "황도겸",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-01-04",
+      "parent": "compound_quarter-E03",
+      "company": "compound",
+      "team": "compound_quarter"
+    },
+    {
+      "id": "compound_year-E01",
+      "name": "전소윤",
+      "display_name": "전소윤",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_year"
+    },
+    {
+      "id": "compound_year-E02",
+      "name": "고이안",
+      "display_name": "고이안",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_year"
+    },
+    {
+      "id": "compound_year-E03",
+      "name": "문예린",
+      "display_name": "문예린",
+      "genome": "guarded",
+      "status": "funded",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "compound",
+      "team": "compound_year"
+    },
+    {
+      "id": "compound_year-E04",
+      "name": "양태준",
+      "display_name": "양태준",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-01-04",
+      "parent": "compound_year-E01",
+      "company": "compound",
+      "team": "compound_year"
+    },
+    {
+      "id": "pulse_day-E02",
+      "name": "이서윤",
+      "display_name": "이서윤",
+      "genome": "efficient",
+      "status": "funded",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_day"
+    },
+    {
+      "id": "pulse_day-E03",
+      "name": "박민준",
+      "display_name": "박민준",
+      "genome": "guarded",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_day"
+    },
+    {
+      "id": "pulse_day-E04",
+      "name": "최하은",
+      "display_name": "최하은",
+      "genome": "moderate",
+      "status": "shadow",
+      "born": "2024-04-05",
+      "parent": "pulse_day-E03",
+      "company": "pulse",
+      "team": "pulse_day"
+    },
+    {
+      "id": "pulse_month-E01",
+      "name": "장유나",
+      "display_name": "장유나",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_month"
+    },
+    {
+      "id": "pulse_month-E02",
+      "name": "임시온",
+      "display_name": "임시온",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_month"
+    },
+    {
+      "id": "pulse_month-E03",
+      "name": "한지우",
+      "display_name": "한지우",
+      "genome": "guarded",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_month"
+    },
+    {
+      "id": "pulse_month-E04",
+      "name": "오준서",
+      "display_name": "오준서",
+      "genome": "moderate",
+      "status": "funded",
+      "born": "2024-04-05",
+      "parent": "pulse_month-E02",
+      "company": "pulse",
+      "team": "pulse_month"
+    },
+    {
+      "id": "pulse_week-E01",
+      "name": "정지훈",
+      "display_name": "정지훈",
+      "genome": "original",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_week"
+    },
+    {
+      "id": "pulse_week-E02",
+      "name": "강수빈",
+      "display_name": "강수빈",
+      "genome": "efficient",
+      "status": "shadow",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_week"
+    },
+    {
+      "id": "pulse_week-E03",
+      "name": "조서연",
+      "display_name": "조서연",
+      "genome": "guarded",
+      "status": "funded",
+      "born": "2023-01-03",
+      "parent": null,
+      "company": "pulse",
+      "team": "pulse_week"
+    },
+    {
+      "id": "pulse_week-E04",
+      "name": "윤태오",
+      "display_name": "윤태오",
+      "genome": "moderate",
+      "status": "shadow",
+      "born": "2024-10-04",
+      "parent": "pulse_week-E01",
+      "company": "pulse",
+      "team": "pulse_week"
+    }
+  ],
+  "policy": {
+    "version": "employee-supervision-v1",
+    "mode": "historical_rules_only",
+    "start": "2023-01-03",
+    "end": "2026-08-31",
+    "review_split": "2025-01-01",
+    "initial_capital": {
+      "kr": 100000000,
+      "us": 100000
+    },
+    "all_in_cost_bps": {
+      "kr": 25,
+      "us": 10
+    },
+    "cost_note": "연구 가정: 편도 수수료·슬리피지·거래세 합산 근사. 실제 증권사 요율이 아니며 2배 비용도 비교한다.",
+    "minimum_adv20": {
+      "kr": 100000000,
+      "us": 1000000
+    },
+    "max_position_weight_per_team": 0.1,
+    "max_previous_day_volume_fraction": 0.01,
+    "company_cash_fraction": 0.1,
+    "max_stale_sessions": 5,
+    "sector_limit_enabled": false,
+    "sector_limit_note": "과거 시점별 산업분류가 없어 첫 재생에서는 섹터 한도 검증을 보류한다. 현재 분류는 과거 신호에 사용하지 않는다.",
+    "llm_api_calls": 0,
+    "paid_data_calls": 0,
+    "telegram_enabled": false,
+    "daily_schedule_enabled": false,
+    "capital_reallocation_enabled": false,
+    "companies": {
+      "pulse": {
+        "name": "펄스",
+        "teams": [
+          "pulse_day",
+          "pulse_week",
+          "pulse_month"
+        ]
+      },
+      "compound": {
+        "name": "컴파운드",
+        "teams": [
+          "compound_quarter",
+          "compound_half",
+          "compound_year"
+        ]
+      },
+      "adaptive": {
+        "name": "어댑티브",
+        "teams": [
+          "adaptive_tactical",
+          "adaptive_quality",
+          "adaptive_defensive"
+        ]
+      }
+    },
+    "registered_at": "2026-09-10T08:27:24.614763+00:00",
+    "rank_buffer": 20,
+    "no_trade_band": 0.015,
+    "volatility_budget": 0.25,
+    "probation_drawdown": 0.2,
+    "efficient_intervals": {
+      "pulse_day": 5,
+      "pulse_week": 10,
+      "pulse_month": 21
+    },
+    "review_windows": [
+      [
+        "financial_crisis",
+        "2007-01-03",
+        "2009-12-31"
+      ],
+      [
+        "development",
+        "2010-01-01",
+        "2019-12-31"
+      ],
+      [
+        "covid",
+        "2020-01-01",
+        "2020-12-31"
+      ],
+      [
+        "inflation_bear",
+        "2022-01-01",
+        "2022-12-31"
+      ],
+      [
+        "v1_early",
+        "2023-01-03",
+        "2024-12-31"
+      ],
+      [
+        "later_review",
+        "2025-01-01",
+        "2026-08-31"
+      ]
+    ],
+    "research_label": "Retrospective rule improvement; no independent out-of-sample claim. Pre-2023 cohort uses a later selection and is only a stress study.",
+    "predeclared_comparison": "Report every arm; evaluate cost reduction, drawdown, rolling stability and same-date cash-matched SPY, not highest historical return alone.",
+    "staff_allocation": "hurdle",
+    "shadow_minimum_sessions": 252,
+    "staff_review_interval": 63,
+    "maximum_employees_per_team": 4,
+    "descendant_rule": "rank buffer 15, volatility budget .35; research only for 126 sessions after birth",
+    "staff_lookback_sessions": 252,
+    "minimum_promotion_spacing": 252,
+    "promotion_score_hurdle": 0.03,
+    "learning_source": "User requested senior guidance and veto authority; fixed before supervised run",
+    "supervisor_enabled": true,
+    "supervisor_max_drawdown": 0.25
+  },
+  "comparison": "All 36 arms retained. Compare each mode against the same phase/cost/delay efficient control, also SPY 90% + cash. No in-round hiring or departures.",
+  "senior_rule": "70% efficiency anchor plus at most 30% alternative. Every 63 sessions after 252, rank past 252-session double-cost net return + half maximum drawdown. Reduce the alternative for drawdown >25% and halve it if net negative.",
+  "evidence_rule": "Shadow reference sleeves use the same common efficient execution cadence and phase. Double-cost evidence is 20bp and one-session delay for every actual cost/delay case.",
+  "phase_rule": "Initial allocation is common at the first signal close; phase changes later periodic reviews. Assignment changes also cause next-open rebalancing.",
+  "caveat": "Today's fixed roster and strategies replayed on retained current-listing sample. Survivorship, retrospective selection and adjusted-price limitations remain. Not independent OOS or historical real employee performance.",
+  "personnel_rule": "No names, genomes, hiring or departures change in this actual-hour round. Personnel decisions only after the full hour and results review."
+}

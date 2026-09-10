@@ -1,0 +1,14 @@
+{
+  "version": "investment-communications-v1",
+  "updated_at": "2026-09-10T09:18:30.149066+00:00",
+  "trello_updates_enabled": true,
+  "trello_polling_enabled": false,
+  "trello_account_notification_settings_changed": false,
+  "trello_reason": "사용자 정정: Trello 업로드는 계속하되 현재 대화에 카드별 결과를 반복 표시하지 않는다.",
+  "historical_trello_cards_preserved": true,
+  "primary_reporting": "trello_and_simulation_page_github",
+  "per_event_external_reports": true,
+  "page_note": "Trello에는 운영 기록을 계속 갱신합니다. 카드별 업로드 내용과 링크를 현재 대화에 반복 표시하지 않습니다.",
+  "suppress_chat_card_results": true,
+  "chat_updates": "major_research_findings_only"
+}

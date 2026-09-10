@@ -1,0 +1,538 @@
+{
+  "case": {
+    "id": "senior_graded-p21-c1",
+    "mode": "senior_graded",
+    "phase": 21,
+    "cost_multiplier": 1,
+    "fill_delay": 1
+  },
+  "summary": {
+    "pulse_day": {
+      "net_return": 0.827988105695576,
+      "max_drawdown": -0.3145595891218276,
+      "annualized_volatility": 0.251379573138734,
+      "sharpe_zero_cash_rate": 0.7840913205566304,
+      "final_nav": 54839.64317086728,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.18008762786841004,
+      "stale_reserved_return": 0.827988105695576,
+      "cost_paid": 6733.650079579943,
+      "trade_count": 2619,
+      "turnover": 224.4550026526648,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.827988105695576,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.036642496412743863,
+          "max_drawdown": -0.3145595891218276,
+          "annualized_volatility": 0.22642364494751518,
+          "sharpe_zero_cash_rate": 0.030135422575916358,
+          "final_nav": 0.9633575035872561,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.8975178984838892,
+          "max_drawdown": -0.18250034423490702,
+          "annualized_volatility": 0.27812848998593603,
+          "sharpe_zero_cash_rate": 1.534264552380029,
+          "final_nav": 1.827988105695576,
+          "sessions": 416
+        }
+      }
+    },
+    "pulse_week": {
+      "net_return": 0.8148697757966021,
+      "max_drawdown": -0.30193118650615547,
+      "annualized_volatility": 0.2750651270468939,
+      "sharpe_zero_cash_rate": 0.7320949885751372,
+      "final_nav": 54446.09327389806,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.17775679538968747,
+      "stale_reserved_return": 0.8148697757966021,
+      "cost_paid": 2827.3700734657236,
+      "trade_count": 1134,
+      "turnover": 94.24566911552415,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.8148697757966021,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.0795234288243114,
+          "max_drawdown": -0.29312752547296983,
+          "annualized_volatility": 0.23838170429021735,
+          "sharpe_zero_cash_rate": -0.055547735896307314,
+          "final_nav": 0.9204765711756886,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.9716631934244022,
+          "max_drawdown": -0.24869216750090428,
+          "annualized_volatility": 0.3131986364209032,
+          "sharpe_zero_cash_rate": 1.469855586834659,
+          "final_nav": 1.8148697757966021,
+          "sessions": 416
+        }
+      }
+    },
+    "pulse_month": {
+      "net_return": 0.23651263902712905,
+      "max_drawdown": -0.42700706443826386,
+      "annualized_volatility": 0.24833609688630004,
+      "sharpe_zero_cash_rate": 0.3589685905706444,
+      "final_nav": 37095.379170813874,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.06000864837301978,
+      "stale_reserved_return": 0.15563833556065965,
+      "cost_paid": 977.4861495434407,
+      "trade_count": 488,
+      "turnover": 32.58287165144803,
+      "stale_days": 19,
+      "max_stale_weight": 0.0676554214552837,
+      "unitized_return": 0.23651263902712905,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.150891674513414,
+          "max_drawdown": -0.29685317539992384,
+          "annualized_volatility": 0.23043867696130244,
+          "sharpe_zero_cash_rate": -0.24095556127797577,
+          "final_nav": 0.849108325486586,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.4562483983637058,
+          "max_drawdown": -0.3402774954393738,
+          "annualized_volatility": 0.26822055427318947,
+          "sharpe_zero_cash_rate": 0.983231912976728,
+          "final_nav": 1.236512639027129,
+          "sessions": 416
+        }
+      }
+    },
+    "compound_quarter": {
+      "net_return": 1.0345353236647306,
+      "max_drawdown": -0.27074754187009387,
+      "annualized_volatility": 0.22543902796996776,
+      "sharpe_zero_cash_rate": 0.9776448142158491,
+      "final_nav": 61036.05970994191,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.21528106420909254,
+      "stale_reserved_return": 1.0345353236647306,
+      "cost_paid": 299.3974329960972,
+      "trade_count": 169,
+      "turnover": 9.979914433203241,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 1.0345353236647306,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.45191213214896186,
+          "max_drawdown": -0.16919474116856548,
+          "annualized_volatility": 0.19688234370027477,
+          "sharpe_zero_cash_rate": 1.0492902632848373,
+          "final_nav": 1.4519121321489619,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.40127992501408016,
+          "max_drawdown": -0.27074754187009387,
+          "annualized_volatility": 0.25593455800231696,
+          "sharpe_zero_cash_rate": 0.9262811248385268,
+          "final_nav": 2.0345353236647306,
+          "sessions": 416
+        }
+      }
+    },
+    "compound_half": {
+      "net_return": 0.3438302011909471,
+      "max_drawdown": -0.2895144497418912,
+      "annualized_volatility": 0.17786214058758432,
+      "sharpe_zero_cash_rate": 0.5447528924468221,
+      "final_nav": 40314.90603572841,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.08450559102775523,
+      "stale_reserved_return": 0.3438302011909471,
+      "cost_paid": 156.25926256646497,
+      "trade_count": 108,
+      "turnover": 5.208642085548831,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.3438302011909471,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.3071402503729357,
+          "max_drawdown": -0.101327272949009,
+          "annualized_volatility": 0.15264154931284157,
+          "sharpe_zero_cash_rate": 0.9572943160808169,
+          "final_nav": 1.3071402503729357,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.028068870809802915,
+          "max_drawdown": -0.2749585712534415,
+          "annualized_volatility": 0.2043241304891305,
+          "sharpe_zero_cash_rate": 0.18343981199894688,
+          "final_nav": 1.343830201190947,
+          "sessions": 416
+        }
+      }
+    },
+    "compound_year": {
+      "net_return": 0.24424991348999803,
+      "max_drawdown": -0.29188556723015147,
+      "annualized_volatility": 0.18278854471492104,
+      "sharpe_zero_cash_rate": 0.41953520197268807,
+      "final_nav": 37327.49740469994,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.061825307152479914,
+      "stale_reserved_return": 0.24424991348999803,
+      "cost_paid": 150.23049016914388,
+      "trade_count": 117,
+      "turnover": 5.007683005638129,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.24424991348999803,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.18699079293679155,
+          "max_drawdown": -0.1453044494166883,
+          "annualized_volatility": 0.16221912120461704,
+          "sharpe_zero_cash_rate": 0.6117643374664686,
+          "final_nav": 1.1869907929367916,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.048238891905419745,
+          "max_drawdown": -0.28086920206824506,
+          "annualized_volatility": 0.20507073242251297,
+          "sharpe_zero_cash_rate": 0.24123409541248045,
+          "final_nav": 1.244249913489998,
+          "sessions": 416
+        }
+      }
+    },
+    "adaptive_tactical": {
+      "net_return": 0.09138582665125372,
+      "max_drawdown": -0.1755581169487027,
+      "annualized_volatility": 0.11575648985522481,
+      "sharpe_zero_cash_rate": 0.26519594167318394,
+      "final_nav": 32741.57479953761,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.024295862130127244,
+      "stale_reserved_return": -0.01676269436951372,
+      "cost_paid": 3019.3854235301737,
+      "trade_count": 1658,
+      "turnover": 100.64618078433902,
+      "stale_days": 48,
+      "max_stale_weight": 0.09917080826136904,
+      "unitized_return": 0.09138582665125372,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.024324330511748316,
+          "max_drawdown": -0.1755581169487027,
+          "annualized_volatility": 0.11286740681992698,
+          "sharpe_zero_cash_rate": -0.05316778530488441,
+          "final_nav": 0.9756756694882517,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.11859489867538953,
+          "max_drawdown": -0.0795231585753382,
+          "annualized_volatility": 0.11922658074046075,
+          "sharpe_zero_cash_rate": 0.6289204759728245,
+          "final_nav": 1.0913858266512537,
+          "sessions": 416
+        }
+      }
+    },
+    "adaptive_quality": {
+      "net_return": 0.632077558078618,
+      "max_drawdown": -0.25095497975644754,
+      "annualized_volatility": 0.18878277684696335,
+      "sharpe_zero_cash_rate": 0.8067959730799995,
+      "final_nav": 48962.32674235854,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.1439299570789232,
+      "stale_reserved_return": 0.632077558078618,
+      "cost_paid": 901.3600800555839,
+      "trade_count": 481,
+      "turnover": 30.045336001852796,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.632077558078618,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.1793699610827748,
+          "max_drawdown": -0.1771970217415184,
+          "annualized_volatility": 0.15363979617462123,
+          "sharpe_zero_cash_rate": 0.6158091977534268,
+          "final_nav": 1.1793699610827748,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.38385545836712187,
+          "max_drawdown": -0.25095497975644754,
+          "annualized_volatility": 0.22409159516372654,
+          "sharpe_zero_cash_rate": 0.9903681861006074,
+          "final_nav": 1.632077558078618,
+          "sessions": 416
+        }
+      }
+    },
+    "adaptive_defensive": {
+      "net_return": 0.010554043106288269,
+      "max_drawdown": -0.16351113090886937,
+      "annualized_volatility": 0.0890733415277181,
+      "sharpe_zero_cash_rate": 0.07690377508690904,
+      "final_nav": 30316.621293188648,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.0028861634779777656,
+      "stale_reserved_return": -0.1837041713580695,
+      "cost_paid": 760.3326101771257,
+      "trade_count": 497,
+      "turnover": 25.344420339237516,
+      "stale_days": 48,
+      "max_stale_weight": 0.19222941691197218,
+      "unitized_return": 0.010554043106288269,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.00422850761073057,
+          "max_drawdown": -0.09232535827287758,
+          "annualized_volatility": 0.08819964678378056,
+          "sharpe_zero_cash_rate": 0.019947045141815573,
+          "final_nav": 0.9957714923892694,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.014845324283736305,
+          "max_drawdown": -0.11608053614135383,
+          "annualized_volatility": 0.09022129725129635,
+          "sharpe_zero_cash_rate": 0.14401528212524478,
+          "final_nav": 1.0105540431062883,
+          "sessions": 416
+        }
+      }
+    },
+    "baseline_momentum": {
+      "net_return": 0.49605214501035566,
+      "max_drawdown": -0.4422497470320017,
+      "annualized_volatility": 0.2890552112766334,
+      "sharpe_zero_cash_rate": 0.5272521848789882,
+      "final_nav": 149605.21450103557,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.1169264943756867,
+      "stale_reserved_return": 0.49605214501035566,
+      "cost_paid": 6889.6763195429585,
+      "trade_count": 804,
+      "turnover": 68.8967631954296,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.49605214501035566,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.13187037059224938,
+          "max_drawdown": -0.34228140689589526,
+          "annualized_volatility": 0.2573015431274276,
+          "sharpe_zero_cash_rate": -0.14744273253165413,
+          "final_nav": 0.8681296294077506,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.7233050161310379,
+          "max_drawdown": -0.3176182243052046,
+          "annualized_volatility": 0.3229775297347077,
+          "sharpe_zero_cash_rate": 1.1830446001105792,
+          "final_nav": 1.4960521450103557,
+          "sessions": 416
+        }
+      }
+    },
+    "baseline_equal_weight": {
+      "net_return": 0.5795232125772851,
+      "max_drawdown": -0.23746853406529378,
+      "annualized_volatility": 0.18481980133672496,
+      "sharpe_zero_cash_rate": 0.7711899469363795,
+      "final_nav": 157952.3212577285,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.133697885989138,
+      "stale_reserved_return": 0.5437464209928304,
+      "cost_paid": 522.6639449138286,
+      "trade_count": 5626,
+      "turnover": 5.226639449138285,
+      "stale_days": 48,
+      "max_stale_weight": 0.030054221722870672,
+      "unitized_return": 0.5795232125772851,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.1887831982072481,
+          "max_drawdown": -0.2044721735022148,
+          "annualized_volatility": 0.1806725509748261,
+          "sharpe_zero_cash_rate": 0.570652029579505,
+          "final_nav": 1.188783198207248,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.32868904520125697,
+          "max_drawdown": -0.22234401971945728,
+          "annualized_volatility": 0.18987918015728147,
+          "sharpe_zero_cash_rate": 1.0012292280712962,
+          "final_nav": 1.5795232125772851,
+          "sessions": 416
+        }
+      }
+    },
+    "pulse": {
+      "net_return": 0.5638111561557921,
+      "max_drawdown": -0.2720489500402762,
+      "annualized_volatility": 0.21349294588046724,
+      "sharpe_zero_cash_rate": 0.6816673026730006,
+      "final_nav": 156381.1156155792,
+      "sessions": 918,
+      "return_basis": "company_nav",
+      "cagr": 0.13059092733512134,
+      "stale_reserved_return": 0.5395488651158515,
+      "cost_paid": 10538.506302589107,
+      "trade_count": 4241,
+      "stale_days": 19,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.08011727992514073,
+          "max_drawdown": -0.2720489500402762,
+          "annualized_volatility": 0.19020139315911022,
+          "sharpe_zero_cash_rate": -0.12539150232994656,
+          "final_nav": 91988.27200748592,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.7000114493166374,
+          "max_drawdown": -0.21294243375784772,
+          "annualized_volatility": 0.23819390975047522,
+          "sharpe_zero_cash_rate": 1.4690895446679777,
+          "final_nav": 156381.1156155792,
+          "sessions": 416
+        }
+      }
+    },
+    "compound": {
+      "net_return": 0.48678463150370255,
+      "max_drawdown": -0.2526746063731087,
+      "annualized_volatility": 0.16926180801117352,
+      "sharpe_zero_cash_rate": 0.7277844666441698,
+      "final_nav": 148678.46315037025,
+      "sessions": 918,
+      "return_basis": "company_nav",
+      "cagr": 0.11502288764616053,
+      "stale_reserved_return": 0.48678463150370255,
+      "cost_paid": 605.887185731706,
+      "trade_count": 394,
+      "stale_days": 0,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.28381295263760675,
+          "max_drawdown": -0.10690196785589168,
+          "annualized_volatility": 0.144069324476383,
+          "sharpe_zero_cash_rate": 0.9426955726327052,
+          "final_nav": 128381.29526376066,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.158100662911282,
+          "max_drawdown": -0.2526746063731087,
+          "annualized_volatility": 0.19556654901041187,
+          "sharpe_zero_cash_rate": 0.5519770303070376,
+          "final_nav": 148678.46315037025,
+          "sessions": 416
+        }
+      }
+    },
+    "adaptive": {
+      "net_return": 0.220205228350848,
+      "max_drawdown": -0.15449852714269807,
+      "annualized_volatility": 0.10018777607802777,
+      "sharpe_zero_cash_rate": 0.5954146300750282,
+      "final_nav": 122020.5228350848,
+      "sessions": 918,
+      "return_basis": "company_nav",
+      "cagr": 0.056152602079264646,
+      "stale_reserved_return": 0.12948320770531052,
+      "cost_paid": 4681.078113762884,
+      "trade_count": 2636,
+      "stale_days": 96,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.045245136888088844,
+          "max_drawdown": -0.1229421369791388,
+          "annualized_volatility": 0.09305037651198221,
+          "sharpe_zero_cash_rate": 0.2852201068042662,
+          "final_nav": 104524.51368880887,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.16738665915600603,
+          "max_drawdown": -0.13586977467340633,
+          "annualized_volatility": 0.10823675138790755,
+          "sharpe_zero_cash_rate": 0.9203182871884772,
+          "final_nav": 122020.5228350848,
+          "sessions": 416
+        }
+      }
+    },
+    "baseline_cash_matched": {
+      "net_return": 0.5215708913195567,
+      "max_drawdown": -0.21838600524502183,
+      "annualized_volatility": 0.16815788617432095,
+      "sharpe_zero_cash_rate": 0.7691624881328061,
+      "final_nav": 152157.08913195567,
+      "sessions": 918,
+      "return_basis": "company_nav",
+      "cagr": 0.12212436827871342,
+      "stale_reserved_return": 0.48937177889354766,
+      "cost_paid": 470.3975504224457,
+      "trade_count": 5626,
+      "stale_days": 48,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.16990487838652335,
+          "max_drawdown": -0.1861824884489357,
+          "annualized_volatility": 0.16368080730459386,
+          "sharpe_zero_cash_rate": 0.5629651348629132,
+          "final_nav": 116990.48783865233,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.30059368024692246,
+          "max_drawdown": -0.2041514772984292,
+          "annualized_volatility": 0.1735629559190339,
+          "sharpe_zero_cash_rate": 1.0038090380155578,
+          "final_nav": 152157.08913195567,
+          "sessions": 416
+        }
+      }
+    },
+    "spy_cash_matched": {
+      "net_return": 0.9822959146635455,
+      "max_drawdown": -0.17567275529100623,
+      "annualized_volatility": 0.13918011541463268,
+      "sharpe_zero_cash_rate": 1.4192887142146922,
+      "final_nav": 198229.59146635456,
+      "sessions": 918,
+      "cost_paid": 89.91008991007693,
+      "cagr": 0.2066342897646558
+    }
+  },
+  "full_ledger_saved": false,
+  "ledger_tail": null,
+  "unfilled_order_batches": 267,
+  "elapsed_seconds": 1.827
+}

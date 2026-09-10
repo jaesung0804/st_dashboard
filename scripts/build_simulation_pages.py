@@ -65,6 +65,16 @@ def build(target:Path):
                 status=t['reviewed_status'],next_action=t['next_action'],blocker_reason=', '.join(t['blocked_reasons'])) for t in review['tasks']]}
     rounds=ROOT/'data/reference/investment_rounds.json'
     if rounds.exists():payload['rounds']=json.loads(rounds.read_text())
+    communications=ROOT/'data/reference/investment_communications.json'
+    if communications.exists():payload['communications']=json.loads(communications.read_text())
+    research=ROOT/'data/reference/investment_research_library.json'
+    if research.exists():payload['research']=json.loads(research.read_text())
+    conversations=json.loads((ROOT/'docs/replays/2026-09-10-employee-supervised/events.json').read_text())
+    payload['team_conversations']={}
+    for event in conversations:
+        if event['action']=='senior_strategy_review':
+            payload['team_conversations'].setdefault(event['team'],[]).append(event)
+    payload['team_conversations']={k:v[-3:] for k,v in payload['team_conversations'].items()}
     payload['team_reviews']={}
     for folder,company in [('2026-09-10-compound-teams','compound'),('2026-09-10-company-teams',None)]:
         data=json.loads((ROOT/'docs/replays'/folder/'summary.json').read_text())
@@ -81,6 +91,10 @@ def build(target:Path):
     if market.exists():
         payload['market_validation']=json.loads(market.read_text())
         payload['total_experiments']+=payload['market_validation']['run_count']
+    analysis=ROOT/'docs/replays/2026-09-10-r03-analysis/summary.json'
+    if analysis.exists():
+        payload['round_analysis']=json.loads(analysis.read_text())
+        payload['total_experiments']+=payload['round_analysis']['run_count']
     content=json.dumps(payload,ensure_ascii=False,separators=(',',':'),allow_nan=False)
     (target/'results.json').write_text(content+'\n')
     print(f'Simulation: {payload["total_experiments"]} experiments; results {len(content.encode()):,} bytes; {target}')

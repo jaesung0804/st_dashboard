@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-09-10T09:34:48.413806+00:00",
+  "team_comparisons": [
+    {
+      "team": "pulse_day",
+      "team_lead": "pulse_day-LEAD",
+      "team_lead_name": "강서진",
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": -0.5140611754280213,
+      "max_return_difference": -0.10071953194463412
+    },
+    {
+      "team": "pulse_week",
+      "team_lead": "pulse_week-LEAD",
+      "team_lead_name": "이하준",
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": -0.7508177949087282,
+      "max_return_difference": -0.29518013682744604
+    },
+    {
+      "team": "pulse_month",
+      "team_lead": "pulse_month-LEAD",
+      "team_lead_name": "정민서",
+      "return_better_count": 5,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": -0.04925816730314736,
+      "max_return_difference": 0.02119749814833871
+    },
+    {
+      "team": "compound_quarter",
+      "team_lead": "compound_quarter-LEAD",
+      "team_lead_name": "박지안",
+      "return_better_count": 9,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": 0.020030052584146585,
+      "max_return_difference": 0.5321366289774638
+    },
+    {
+      "team": "compound_half",
+      "team_lead": "compound_half-LEAD",
+      "team_lead_name": "오시우",
+      "return_better_count": 2,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": -0.0568234659973641,
+      "max_return_difference": 0.01600452846869249
+    },
+    {
+      "team": "compound_year",
+      "team_lead": "compound_year-LEAD",
+      "team_lead_name": "김하린",
+      "return_better_count": 9,
+      "risk_better_count": 7,
+      "scenario_count": 9,
+      "min_return_difference": 0.022095007747914286,
+      "max_return_difference": 0.10680396228542133
+    },
+    {
+      "team": "adaptive_tactical",
+      "team_lead": "adaptive_tactical-LEAD",
+      "team_lead_name": "최유진",
+      "return_better_count": 6,
+      "risk_better_count": 6,
+      "scenario_count": 9,
+      "min_return_difference": -0.06660537716023862,
+      "max_return_difference": 0.09379674630705903
+    },
+    {
+      "team": "adaptive_quality",
+      "team_lead": "adaptive_quality-LEAD",
+      "team_lead_name": "임현우",
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": -0.17191153060482156,
+      "max_return_difference": -0.017156659388655626
+    },
+    {
+      "team": "adaptive_defensive",
+      "team_lead": "adaptive_defensive-LEAD",
+      "team_lead_name": "송지민",
+      "return_better_count": 9,
+      "risk_better_count": 9,
+      "scenario_count": 9,
+      "min_return_difference": 0.011824573954533735,
+      "max_return_difference": 0.053459324488623894
+    }
+  ],
+  "personnel_action_status": "pending_end_of_actual_round",
+  "proposed_action": "retain_roster; no additional hiring or dismissal on one retrospective scenario family",
+  "source": "2026-09-10-r03-fixed-roster"
+}

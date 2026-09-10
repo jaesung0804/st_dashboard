@@ -2,6 +2,7 @@
 from __future__ import annotations
 import argparse
 import collections
+import io
 import json
 from pathlib import Path
 import sys
@@ -11,27 +12,32 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from ai_stock_assistant.investment_replay import prepare, sha256, write_json, metrics, read_prices
+from ai_stock_assistant.investment_replay import prepare, sha256, write_json, metrics
 from ai_stock_assistant.investment_replay_v2 import replay_v2
+from ai_stock_assistant.investment_replay_inputs import (
+    CacheIntegrityError, digest_bytes, load_retained_prices, write_derived_price_cache,
+)
 from run_investment_replay import ledger, write_gzip
 
 
-def load_long(source, old, cohort):
+def load_long(source, old, cohort, retained_provenance=None):
     frames, provenance = [], []
     for ticker in cohort:
         p=source/f'collection/prices/{ticker}.csv.gz'
         v=source/f'validation/details/{ticker}.json'
-        validation=json.loads(v.read_text()) if v.exists() else {'status':'missing','issues':[]}
+        validation_bytes=v.read_bytes() if v.exists() else None
+        validation=json.loads(validation_bytes) if validation_bytes is not None else {'status':'missing','issues':[]}
         issues=[x['code'] for x in validation['issues']]
         fallback=not p.exists() or 'new_source_loses_retained_history' in issues or any(x.startswith('invalid_sign_') for x in issues)
         if fallback:
             frame=old.loc[old.ticker.eq(ticker)].copy()
             origin='retained_2021_snapshot_not_spliced'
-            digest=None
+            digest=retained_provenance.get('source_sha256') if retained_provenance else None
         else:
-            frame=pd.read_csv(p,dtype={'ticker':str})
+            price_bytes=p.read_bytes()
+            frame=pd.read_csv(io.BytesIO(price_bytes),compression='gzip',dtype={'ticker':str})
             origin='long_2006_snapshot'
-            digest=sha256(p)
+            digest=digest_bytes(price_bytes)
         if frame.empty:
             raise ValueError(f'No retained data for {ticker}; cannot silently delete an asset')
         frame['date']=pd.to_datetime(frame.date)
@@ -39,7 +45,9 @@ def load_long(source, old, cohort):
             frame.loc[~np.isfinite(frame[col]) | frame[col].le(0),col]=np.nan
         # Invalid cells remain missing; large real crashes are not excluded ex post.
         frames.append(frame)
-        provenance.append(dict(ticker=ticker,source=origin,sha256=digest,validation=validation['status'],issues=issues,
+        provenance.append(dict(ticker=ticker,source=origin,sha256=digest,
+                               retained_cache_sha256=retained_provenance.get('cache_sha256') if fallback and retained_provenance else None,
+                               validation=validation['status'],validation_sha256=digest_bytes(validation_bytes) if validation_bytes is not None else None,issues=issues,
                                rows=len(frame),start=str(frame.date.min().date()),end=str(frame.date.max().date())))
     result=pd.concat(frames,ignore_index=True).sort_values(['date','ticker'])
     return result,provenance
@@ -93,29 +101,43 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--policy',type=Path,default=Path('data/reference/investment_replay_v2_policy.json'))
     ap.add_argument('--source',type=Path,required=True)
+    ap.add_argument('--retained-source',type=Path,default=Path('data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv'))
+    ap.add_argument('--cohort',type=Path,default=Path('data/reference/accounting_cohort.json'))
+    ap.add_argument('--retained-cache',type=Path,default=Path('data/raw/us_replay_cohort_cache.pkl'))
+    ap.add_argument('--allow-verified-offline-cache',action='store_true',
+                    help='Allow a source-unavailable retained cache only when its sidecar and cohort/reader/content hashes verify')
     ap.add_argument('--out',type=Path,default=Path('docs/replays/2026-09-10-v2'))
     args=ap.parse_args()
     if args.out.exists():raise SystemExit('Output exists; preserve it and use a new directory')
-    policy=json.loads(args.policy.read_text())
+    policy_bytes=args.policy.read_bytes()
+    policy=json.loads(policy_bytes)
     if any(policy.get(k) for k in ['llm_api_calls','paid_data_calls','telegram_enabled','daily_schedule_enabled']):
         raise SystemExit('Only offline execution is permitted')
     started=time.perf_counter()
     args.out.mkdir(parents=True)
     write_json(args.out/'policy.json',policy)
-    cohort=json.loads(Path('data/reference/accounting_cohort.json').read_text())['markets']['us']
-    cache=Path('data/raw/us_replay_cohort_cache.pkl')
-    if cache.exists():
-        old=pd.read_pickle(cache)
-    else:
-        old=read_prices(Path('data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv'),cohort,'us')
-        old.to_pickle(cache)
-    long,provenance=load_long(args.source,old,cohort)
+    old,retained_input=load_retained_prices(args.retained_source,args.cohort,args.retained_cache,'us',
+                                          allow_verified_offline_cache=args.allow_verified_offline_cache)
+    cohort_bytes=args.cohort.read_bytes()
+    if digest_bytes(cohort_bytes)!=retained_input['cohort_sha256']:
+        raise CacheIntegrityError('Cohort changed between retained and long input loading')
+    cohort=json.loads(cohort_bytes)['markets']['us']
+    long,provenance=load_long(args.source,old,cohort,retained_input)
     write_json(args.out/'data_provenance.json',provenance)
-    # Cache is local only. It is reproducible from the individually hashed inputs.
-    long.to_pickle('data/raw/us_replay_long_cache.pkl')
-    filings=pd.read_csv('data/dashboard_research/accounting/us/filing_events.csv.gz',dtype={'ticker':str,'filing_id':str})
+    # Local derived cache records exact source bytes and validation decisions.
+    long_input=write_derived_price_cache(long,Path('data/raw/us_replay_long_cache.pkl'),args.cohort,
+        dependencies={'retained_input':retained_input,'individual_prices_and_validation':provenance},
+        transform_identity={'runner_sha256':sha256(Path(__file__)),'pandas_version':pd.__version__})
+    if long_input['cohort_sha256']!=retained_input['cohort_sha256']:
+        raise CacheIntegrityError('Cohort changed while writing the long price cache')
+    filings_bytes=Path('data/dashboard_research/accounting/us/filing_events.csv.gz').read_bytes()
+    filings=pd.read_csv(io.BytesIO(filings_bytes),compression='gzip',dtype={'ticker':str,'filing_id':str})
     spy_path=args.source/'collection/prices/SPY.csv.gz'
-    spy=pd.read_csv(spy_path,parse_dates=['date'])
+    spy_bytes=spy_path.read_bytes()
+    spy=pd.read_csv(io.BytesIO(spy_bytes),compression='gzip',parse_dates=['date'])
+    input_provenance={'retained':retained_input,'long_cache':long_input,
+                      'filings_sha256':digest_bytes(filings_bytes),'SPY_sha256':digest_bytes(spy_bytes)}
+    write_json(args.out/'input_provenance.json',input_provenance)
     panels={'retained':prepare(old,filings,policy,'us'),'long':prepare(long,filings,policy,'us')}
     for key,panel in panels.items():
         panel.audit['official_market_benchmark_available']=True
@@ -136,12 +158,13 @@ def main():
                                    origin_counts=dict(collections.Counter(x['source'] for x in provenance))))
     write_json(args.out/'summary.json',summary)
     artifacts={str(p.relative_to(args.out)):sha256(p) for p in sorted(args.out.rglob('*')) if p.is_file()}
-    write_json(args.out/'manifest.json',dict(created_at=pd.Timestamp.now(tz='UTC').isoformat(),policy_sha256=sha256(args.policy),
+    write_json(args.out/'manifest.json',dict(created_at=pd.Timestamp.now(tz='UTC').isoformat(),policy_sha256=digest_bytes(policy_bytes),
         source_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),
-        inputs={'accounting_cohort':sha256(Path('data/reference/accounting_cohort.json')),
-                'filings':sha256(Path('data/dashboard_research/accounting/us/filing_events.csv.gz')),
-                'SPY':sha256(spy_path),'retained_prices':'d20459d3205b7694d2e77068bd7e1d7e329c970e3c0d2f46c17f0b334110d94a'},
-        code={str(p):sha256(p) for p in [Path(__file__),Path('src/ai_stock_assistant/investment_replay.py'),Path('src/ai_stock_assistant/investment_replay_v2.py')]},
+        inputs={'accounting_cohort':retained_input['cohort_sha256'],
+                'filings':digest_bytes(filings_bytes),'SPY':digest_bytes(spy_bytes),
+                'retained_prices':retained_input['source_sha256'],'retained_cache':retained_input['cache_sha256'],
+                'long_cache':long_input['cache_sha256']},input_provenance=input_provenance,
+        code={str(p):sha256(p) for p in [Path(__file__),Path('src/ai_stock_assistant/investment_replay.py'),Path('src/ai_stock_assistant/investment_replay_v2.py'),Path('src/ai_stock_assistant/investment_replay_inputs.py')]},
         artifacts=artifacts,llm_api_calls=0,paid_data_calls=0,scheduled_tasks_created=0,telegram_messages_sent=0))
     print('COMPLETE',args.out,summary['elapsed_seconds'],flush=True)
 

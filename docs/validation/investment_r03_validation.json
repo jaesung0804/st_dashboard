@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-10T09:31:29.376295+00:00",
+  "result": "passed",
+  "artifact_hashes": 138,
+  "nav_return_drawdown_series": 576,
+  "hash_chained_decisions": 2869,
+  "trades_with_next_session_clock": 54854,
+  "roster_count": 35,
+  "no_personnel_changes": true,
+  "source_manifest_sha256": "8671ecf23dfe5edad6d274e8fda19142266c86a283e567fced8a8afb7990260b",
+  "validation_script_sha256": "28766dfa0e7042c42751603b4a5cc977404b3febeb5b27e541f48b7976dc174a",
+  "checks": [
+    "artifact_hashes",
+    "NAV_returns_and_full_daily_drawdowns",
+    "hash_chain",
+    "filing_clock",
+    "share_trade_fee_totals",
+    "strict_next_session_fills",
+    "roster_membership"
+  ]
+}

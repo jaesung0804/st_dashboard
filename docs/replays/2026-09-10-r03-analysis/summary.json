@@ -1,0 +1,1189 @@
+{
+  "run_count": 36,
+  "rows": [
+    {
+      "mode": "efficient_control",
+      "label": "효율 전략 고정",
+      "company": "pulse",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 0,
+      "jointly_better_count": 0,
+      "median_return_difference": 0.0,
+      "phase_return_min": 0.5028967625797773,
+      "phase_return_max": 0.9862909956659616,
+      "phase_drawdown_min": -0.31934156588251805,
+      "phase_drawdown_max": -0.2963001210840769,
+      "beats_spy_count": 1,
+      "cases": [
+        {
+          "case": "efficient_control-p0-c1",
+          "net_return": 0.5028967625797773,
+          "max_drawdown": -0.313337740542299,
+          "cost_paid": 11594.464771983545,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.47939915208376815
+        },
+        {
+          "case": "efficient_control-p0-c2",
+          "net_return": 0.34902892254927464,
+          "max_drawdown": -0.3272351657564896,
+          "cost_paid": 21246.325807688638,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.6313884532772813
+        },
+        {
+          "case": "efficient_control-p7-c1",
+          "net_return": 0.9862909956659616,
+          "max_drawdown": -0.2963001210840769,
+          "cost_paid": 12715.110732021638,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": 0.003995081002416079
+        },
+        {
+          "case": "efficient_control-p7-c2",
+          "net_return": 0.7731875670286468,
+          "max_drawdown": -0.31129424196274247,
+          "cost_paid": 23301.84711145069,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.2072298087979092
+        },
+        {
+          "case": "efficient_control-p14-c1",
+          "net_return": 0.7362045063004032,
+          "max_drawdown": -0.2979884958842357,
+          "cost_paid": 11726.523763097215,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.24609140836314225
+        },
+        {
+          "case": "efficient_control-p14-c2",
+          "net_return": 0.561290810600583,
+          "max_drawdown": -0.3117425377419253,
+          "cost_paid": 21558.47311815617,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.419126565225973
+        },
+        {
+          "case": "efficient_control-p21-c1",
+          "net_return": 0.6497373124519545,
+          "max_drawdown": -0.31934156588251805,
+          "cost_paid": 11290.056950561424,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.33255860221159095
+        },
+        {
+          "case": "efficient_control-p21-c2",
+          "net_return": 0.47480432964983055,
+          "max_drawdown": -0.33401208925026304,
+          "cost_paid": 20693.56655034722,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.5056130461767254
+        },
+        {
+          "case": "efficient_control-p0-c1-delay2",
+          "net_return": 0.6739460431588893,
+          "max_drawdown": -0.2855505353296266,
+          "cost_paid": 12186.437581168653,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.31554885262271637
+        }
+      ]
+    },
+    {
+      "mode": "efficient_control",
+      "label": "효율 전략 고정",
+      "company": "compound",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 0,
+      "jointly_better_count": 0,
+      "median_return_difference": 0.0,
+      "phase_return_min": 0.4592752293534268,
+      "phase_return_max": 0.5094803571895472,
+      "phase_drawdown_min": -0.2639817577642194,
+      "phase_drawdown_max": -0.24505048051654865,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "efficient_control-p0-c1",
+          "net_return": 0.4989376584803129,
+          "max_drawdown": -0.2558369330156237,
+          "cost_paid": 416.6625633536855,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4833582561832326
+        },
+        {
+          "case": "efficient_control-p0-c2",
+          "net_return": 0.4933420564568942,
+          "max_drawdown": -0.2559895542553384,
+          "cost_paid": 830.8877894424393,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.48707531936966175
+        },
+        {
+          "case": "efficient_control-p7-c1",
+          "net_return": 0.4880629283988238,
+          "max_drawdown": -0.2639817577642194,
+          "cost_paid": 411.6151931679817,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4942329862647217
+        },
+        {
+          "case": "efficient_control-p7-c2",
+          "net_return": 0.48263521192700565,
+          "max_drawdown": -0.2640514804379931,
+          "cost_paid": 820.9808545001129,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4977821638995503
+        },
+        {
+          "case": "efficient_control-p14-c1",
+          "net_return": 0.5094803571895472,
+          "max_drawdown": -0.25961925047458156,
+          "cost_paid": 436.0801038669656,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4728155574739983
+        },
+        {
+          "case": "efficient_control-p14-c2",
+          "net_return": 0.5077549186455255,
+          "max_drawdown": -0.25999426832101513,
+          "cost_paid": 876.8994542333173,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4726624571810305
+        },
+        {
+          "case": "efficient_control-p21-c1",
+          "net_return": 0.4592752293534268,
+          "max_drawdown": -0.24505048051654865,
+          "cost_paid": 426.95201895396565,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.5230206853101187
+        },
+        {
+          "case": "efficient_control-p21-c2",
+          "net_return": 0.453837612977704,
+          "max_drawdown": -0.24531865689787413,
+          "cost_paid": 851.1981867282494,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.526579762848852
+        },
+        {
+          "case": "efficient_control-p0-c1-delay2",
+          "net_return": 0.49691746689708993,
+          "max_drawdown": -0.25751189358206206,
+          "cost_paid": 415.38540960610334,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.4925774288845157
+        }
+      ]
+    },
+    {
+      "mode": "efficient_control",
+      "label": "효율 전략 고정",
+      "company": "adaptive",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 0,
+      "jointly_better_count": 0,
+      "median_return_difference": 0.0,
+      "phase_return_min": 0.13385718556849802,
+      "phase_return_max": 0.19452703571120078,
+      "phase_drawdown_min": -0.1635247256504192,
+      "phase_drawdown_max": -0.13465843653137233,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "efficient_control-p0-c1",
+          "net_return": 0.1838734917146374,
+          "max_drawdown": -0.16195980632554918,
+          "cost_paid": 4403.541740664668,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.7984224229489081
+        },
+        {
+          "case": "efficient_control-p0-c2",
+          "net_return": 0.13582292166304177,
+          "max_drawdown": -0.1656662958935684,
+          "cost_paid": 8492.618947020826,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.8445944541635142
+        },
+        {
+          "case": "efficient_control-p7-c1",
+          "net_return": 0.13385718556849802,
+          "max_drawdown": -0.14350710977758108,
+          "cost_paid": 4614.233687949247,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.8484387290950475
+        },
+        {
+          "case": "efficient_control-p7-c2",
+          "net_return": 0.08085530104957672,
+          "max_drawdown": -0.16697781413088453,
+          "cost_paid": 8883.787734527177,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.8995620747769792
+        },
+        {
+          "case": "efficient_control-p14-c1",
+          "net_return": 0.19452703571120078,
+          "max_drawdown": -0.13465843653137233,
+          "cost_paid": 4428.493880566827,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.7877688789523447
+        },
+        {
+          "case": "efficient_control-p14-c2",
+          "net_return": 0.14579704008028038,
+          "max_drawdown": -0.14111741752058038,
+          "cost_paid": 8534.994384634118,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.8346203357462756
+        },
+        {
+          "case": "efficient_control-p21-c1",
+          "net_return": 0.1877905316684032,
+          "max_drawdown": -0.1635247256504192,
+          "cost_paid": 4372.679250057322,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.7945053829951423
+        },
+        {
+          "case": "efficient_control-p21-c2",
+          "net_return": 0.14038768500223053,
+          "max_drawdown": -0.1670479646863,
+          "cost_paid": 8440.236030585898,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.8400296908243254
+        },
+        {
+          "case": "efficient_control-p0-c1-delay2",
+          "net_return": 0.2032480655779616,
+          "max_drawdown": -0.15659760541295464,
+          "cost_paid": 4486.08725155751,
+          "return_difference": 0.0,
+          "drawdown_improvement": 0.0,
+          "excess_spy": -0.786246830203644
+        }
+      ]
+    },
+    {
+      "mode": "equal_staff",
+      "label": "재직 직원 균등",
+      "company": "pulse",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "jointly_better_count": 0,
+      "median_return_difference": -0.25850692132252795,
+      "phase_return_min": 0.32275787045435633,
+      "phase_return_max": 0.5091406708523678,
+      "phase_drawdown_min": -0.24185632141860047,
+      "phase_drawdown_max": -0.21641965541439134,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "equal_staff-p0-c1",
+          "net_return": 0.38199196671498425,
+          "max_drawdown": -0.24185632141860047,
+          "cost_paid": 8291.521813938432,
+          "return_difference": -0.12090479586479308,
+          "drawdown_improvement": 0.07148141912369854,
+          "excess_spy": -0.6003039479485612
+        },
+        {
+          "case": "equal_staff-p0-c2",
+          "net_return": 0.27284617163570424,
+          "max_drawdown": -0.2652559947351558,
+          "cost_paid": 15594.98630983803,
+          "return_difference": -0.07618275091357041,
+          "drawdown_improvement": 0.06197917102133377,
+          "excess_spy": -0.7075712041908517
+        },
+        {
+          "case": "equal_staff-p7-c1",
+          "net_return": 0.5091406708523678,
+          "max_drawdown": -0.22953783628605007,
+          "cost_paid": 8459.832486465419,
+          "return_difference": -0.47715032481359376,
+          "drawdown_improvement": 0.06676228479802682,
+          "excess_spy": -0.4731552438111777
+        },
+        {
+          "case": "equal_staff-p7-c2",
+          "net_return": 0.3878981580954226,
+          "max_drawdown": -0.2475409335906219,
+          "cost_paid": 15931.834158487038,
+          "return_difference": -0.38528940893322416,
+          "drawdown_improvement": 0.06375330837212057,
+          "excess_spy": -0.5925192177311334
+        },
+        {
+          "case": "equal_staff-p14-c1",
+          "net_return": 0.4776975849778753,
+          "max_drawdown": -0.21641965541439134,
+          "cost_paid": 8477.83052208861,
+          "return_difference": -0.25850692132252795,
+          "drawdown_improvement": 0.08156884046984436,
+          "excess_spy": -0.5045983296856702
+        },
+        {
+          "case": "equal_staff-p14-c2",
+          "net_return": 0.3615987591507115,
+          "max_drawdown": -0.22938398737054944,
+          "cost_paid": 15971.306981018424,
+          "return_difference": -0.19969205144987145,
+          "drawdown_improvement": 0.08235855037137585,
+          "excess_spy": -0.6188186166758445
+        },
+        {
+          "case": "equal_staff-p21-c1",
+          "net_return": 0.32275787045435633,
+          "max_drawdown": -0.23827746659025506,
+          "cost_paid": 8171.910406143589,
+          "return_difference": -0.3269794419975982,
+          "drawdown_improvement": 0.08106409929226299,
+          "excess_spy": -0.6595380442091892
+        },
+        {
+          "case": "equal_staff-p21-c2",
+          "net_return": 0.2157846012428244,
+          "max_drawdown": -0.2588492748710026,
+          "cost_paid": 15352.534556866796,
+          "return_difference": -0.25901972840700616,
+          "drawdown_improvement": 0.07516281437926042,
+          "excess_spy": -0.7646327745837316
+        },
+        {
+          "case": "equal_staff-p0-c1-delay2",
+          "net_return": 0.46268198302090924,
+          "max_drawdown": -0.23131994983396809,
+          "cost_paid": 8445.500728503212,
+          "return_difference": -0.21126406013798005,
+          "drawdown_improvement": 0.05423058549565851,
+          "excess_spy": -0.5268129127606964
+        }
+      ]
+    },
+    {
+      "mode": "equal_staff",
+      "label": "재직 직원 균등",
+      "company": "compound",
+      "scenario_count": 9,
+      "return_better_count": 4,
+      "risk_better_count": 9,
+      "jointly_better_count": 4,
+      "median_return_difference": -0.025396071421730948,
+      "phase_return_min": 0.4523300159319863,
+      "phase_return_max": 0.5209201073126382,
+      "phase_drawdown_min": -0.2208037158472287,
+      "phase_drawdown_max": -0.19638925984372024,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "equal_staff-p0-c1",
+          "net_return": 0.47354158705858196,
+          "max_drawdown": -0.19638925984372024,
+          "cost_paid": 477.3528472018901,
+          "return_difference": -0.025396071421730948,
+          "drawdown_improvement": 0.05944767317190347,
+          "excess_spy": -0.5087543276049635
+        },
+        {
+          "case": "equal_staff-p0-c2",
+          "net_return": 0.4672878046315594,
+          "max_drawdown": -0.1967490119603187,
+          "cost_paid": 952.5658827997594,
+          "return_difference": -0.02605425182533483,
+          "drawdown_improvement": 0.05924054229501974,
+          "excess_spy": -0.5131295711949966
+        },
+        {
+          "case": "equal_staff-p7-c1",
+          "net_return": 0.49750168718724797,
+          "max_drawdown": -0.19881658563309312,
+          "cost_paid": 514.8999189576301,
+          "return_difference": 0.00943875878842415,
+          "drawdown_improvement": 0.06516517213112627,
+          "excess_spy": -0.4847942274762975
+        },
+        {
+          "case": "equal_staff-p7-c2",
+          "net_return": 0.4903084284245849,
+          "max_drawdown": -0.19921511444508433,
+          "cost_paid": 1027.3097792145613,
+          "return_difference": 0.007673216497579238,
+          "drawdown_improvement": 0.06483636599290876,
+          "excess_spy": -0.4901089474019711
+        },
+        {
+          "case": "equal_staff-p14-c1",
+          "net_return": 0.4523300159319863,
+          "max_drawdown": -0.1998771445304306,
+          "cost_paid": 490.21127761822845,
+          "return_difference": -0.05715034125756091,
+          "drawdown_improvement": 0.05974210594415097,
+          "excess_spy": -0.5299658987315592
+        },
+        {
+          "case": "equal_staff-p14-c2",
+          "net_return": 0.4456645505850134,
+          "max_drawdown": -0.20029516310205875,
+          "cost_paid": 976.0659670940906,
+          "return_difference": -0.06209036806051205,
+          "drawdown_improvement": 0.05969910521895638,
+          "excess_spy": -0.5347528252415426
+        },
+        {
+          "case": "equal_staff-p21-c1",
+          "net_return": 0.5209201073126382,
+          "max_drawdown": -0.2208037158472287,
+          "cost_paid": 518.078843444792,
+          "return_difference": 0.061644877959211364,
+          "drawdown_improvement": 0.024246764669319965,
+          "excess_spy": -0.46137580735090733
+        },
+        {
+          "case": "equal_staff-p21-c2",
+          "net_return": 0.5093966340168734,
+          "max_drawdown": -0.22122827954648128,
+          "cost_paid": 1033.0976503264299,
+          "return_difference": 0.05555902103916943,
+          "drawdown_improvement": 0.024090377351392855,
+          "excess_spy": -0.47102074180968256
+        },
+        {
+          "case": "equal_staff-p0-c1-delay2",
+          "net_return": 0.4614631741403801,
+          "max_drawdown": -0.1991404251794474,
+          "cost_paid": 474.99457509756513,
+          "return_difference": -0.03545429275670986,
+          "drawdown_improvement": 0.058371468402614646,
+          "excess_spy": -0.5280317216412256
+        }
+      ]
+    },
+    {
+      "mode": "equal_staff",
+      "label": "재직 직원 균등",
+      "company": "adaptive",
+      "scenario_count": 9,
+      "return_better_count": 2,
+      "risk_better_count": 9,
+      "jointly_better_count": 2,
+      "median_return_difference": -0.07598502997614132,
+      "phase_return_min": 0.09973592136984011,
+      "phase_return_max": 0.216321656269993,
+      "phase_drawdown_min": -0.14895564589710963,
+      "phase_drawdown_max": -0.11841629455748526,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "equal_staff-p0-c1",
+          "net_return": 0.1006133823190396,
+          "max_drawdown": -0.14895564589710963,
+          "cost_paid": 4713.789167344387,
+          "return_difference": -0.0832601093955978,
+          "drawdown_improvement": 0.013004160428439548,
+          "excess_spy": -0.8816825323445059
+        },
+        {
+          "case": "equal_staff-p0-c2",
+          "net_return": 0.051154538262973004,
+          "max_drawdown": -0.15779316507240748,
+          "cost_paid": 9053.234386320155,
+          "return_difference": -0.08466838340006877,
+          "drawdown_improvement": 0.007873130821160923,
+          "excess_spy": -0.929262837563583
+        },
+        {
+          "case": "equal_staff-p7-c1",
+          "net_return": 0.09973592136984011,
+          "max_drawdown": -0.11841629455748526,
+          "cost_paid": 4882.746089061589,
+          "return_difference": -0.03412126419865791,
+          "drawdown_improvement": 0.02509081522009582,
+          "excess_spy": -0.8825599932937054
+        },
+        {
+          "case": "equal_staff-p7-c2",
+          "net_return": 0.04796943857614355,
+          "max_drawdown": -0.14359864022708302,
+          "cost_paid": 9356.221300517009,
+          "return_difference": -0.03288586247343317,
+          "drawdown_improvement": 0.02337917390380151,
+          "excess_spy": -0.9324479372504124
+        },
+        {
+          "case": "equal_staff-p14-c1",
+          "net_return": 0.216321656269993,
+          "max_drawdown": -0.1248960552724182,
+          "cost_paid": 4765.902317238023,
+          "return_difference": 0.02179462055879222,
+          "drawdown_improvement": 0.009762381258954123,
+          "excess_spy": -0.7659742583935525
+        },
+        {
+          "case": "equal_staff-p14-c2",
+          "net_return": 0.16402447228364414,
+          "max_drawdown": -0.13194891488474736,
+          "cost_paid": 9150.281317319414,
+          "return_difference": 0.018227432203363758,
+          "drawdown_improvement": 0.00916850263583302,
+          "excess_spy": -0.8163929035429118
+        },
+        {
+          "case": "equal_staff-p21-c1",
+          "net_return": 0.11180550169226189,
+          "max_drawdown": -0.14434596471909844,
+          "cost_paid": 4747.897874084424,
+          "return_difference": -0.07598502997614132,
+          "drawdown_improvement": 0.01917876093132076,
+          "excess_spy": -0.8704904129712836
+        },
+        {
+          "case": "equal_staff-p21-c2",
+          "net_return": 0.061733520867438996,
+          "max_drawdown": -0.14808282703414755,
+          "cost_paid": 9120.603653022117,
+          "return_difference": -0.07865416413479154,
+          "drawdown_improvement": 0.018965137652152464,
+          "excess_spy": -0.918683854959117
+        },
+        {
+          "case": "equal_staff-p0-c1-delay2",
+          "net_return": 0.09649078779575992,
+          "max_drawdown": -0.1488406620198297,
+          "cost_paid": 4732.571105567898,
+          "return_difference": -0.10675727778220168,
+          "drawdown_improvement": 0.007756943393124938,
+          "excess_spy": -0.8930041079858457
+        }
+      ]
+    },
+    {
+      "mode": "senior_balanced",
+      "label": "효율 70%·위험 통제 30%",
+      "company": "pulse",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "jointly_better_count": 0,
+      "median_return_difference": -0.16956883685417434,
+      "phase_return_min": 0.3280887155786425,
+      "phase_return_max": 0.598322146929624,
+      "phase_drawdown_min": -0.2887339274255202,
+      "phase_drawdown_max": -0.24486059344561928,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_balanced-p0-c1",
+          "net_return": 0.3280887155786425,
+          "max_drawdown": -0.2887339274255202,
+          "cost_paid": 9242.467107613857,
+          "return_difference": -0.17480804700113484,
+          "drawdown_improvement": 0.02460381311677884,
+          "excess_spy": -0.654207199084903
+        },
+        {
+          "case": "senior_balanced-p0-c2",
+          "net_return": 0.21218020541741422,
+          "max_drawdown": -0.3017612622505531,
+          "cost_paid": 17180.82898365125,
+          "return_difference": -0.13684871713186042,
+          "drawdown_improvement": 0.02547390350593648,
+          "excess_spy": -0.7682371704091417
+        },
+        {
+          "case": "senior_balanced-p7-c1",
+          "net_return": 0.598322146929624,
+          "max_drawdown": -0.24486059344561928,
+          "cost_paid": 9756.878475775025,
+          "return_difference": -0.3879688487363375,
+          "drawdown_improvement": 0.051439527638457605,
+          "excess_spy": -0.38397376773392145
+        },
+        {
+          "case": "senior_balanced-p7-c2",
+          "net_return": 0.4515667242020249,
+          "max_drawdown": -0.2606516989905623,
+          "cost_paid": 18155.039542695285,
+          "return_difference": -0.32162084282662184,
+          "drawdown_improvement": 0.05064254297218018,
+          "excess_spy": -0.528850651624531
+        },
+        {
+          "case": "senior_balanced-p14-c1",
+          "net_return": 0.5666356694462289,
+          "max_drawdown": -0.26040689633224523,
+          "cost_paid": 9605.997249803551,
+          "return_difference": -0.16956883685417434,
+          "drawdown_improvement": 0.037581599551990474,
+          "excess_spy": -0.4156602452173166
+        },
+        {
+          "case": "senior_balanced-p14-c2",
+          "net_return": 0.42843361607742736,
+          "max_drawdown": -0.2736722593331208,
+          "cost_paid": 17913.931969823687,
+          "return_difference": -0.1328571945231556,
+          "drawdown_improvement": 0.0380702784088045,
+          "excess_spy": -0.5519837597491286
+        },
+        {
+          "case": "senior_balanced-p21-c1",
+          "net_return": 0.4909869618986611,
+          "max_drawdown": -0.2720489500402762,
+          "cost_paid": 9438.480066066455,
+          "return_difference": -0.15875035055329345,
+          "drawdown_improvement": 0.04729261584224187,
+          "excess_spy": -0.4913089527648844
+        },
+        {
+          "case": "senior_balanced-p21-c2",
+          "net_return": 0.358738343005242,
+          "max_drawdown": -0.2856568336851335,
+          "cost_paid": 17576.736480987052,
+          "return_difference": -0.11606598664458856,
+          "drawdown_improvement": 0.04835525556512954,
+          "excess_spy": -0.621679032821314
+        },
+        {
+          "case": "senior_balanced-p0-c1-delay2",
+          "net_return": 0.4453547362416179,
+          "max_drawdown": -0.2645132377618149,
+          "cost_paid": 9676.052429386322,
+          "return_difference": -0.22859130691727136,
+          "drawdown_improvement": 0.021037297567811697,
+          "excess_spy": -0.5441401595399877
+        }
+      ]
+    },
+    {
+      "mode": "senior_balanced",
+      "label": "효율 70%·위험 통제 30%",
+      "company": "compound",
+      "scenario_count": 9,
+      "return_better_count": 9,
+      "risk_better_count": 9,
+      "jointly_better_count": 9,
+      "median_return_difference": 0.038312662096043004,
+      "phase_return_min": 0.4961668156627217,
+      "phase_return_max": 0.6341277978900419,
+      "phase_drawdown_min": -0.23630747391898788,
+      "phase_drawdown_max": -0.20933100468645405,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_balanced-p0-c1",
+          "net_return": 0.5438414361575357,
+          "max_drawdown": -0.22463217376518063,
+          "cost_paid": 418.79552809657037,
+          "return_difference": 0.044903777677222756,
+          "drawdown_improvement": 0.03120475925044308,
+          "excess_spy": -0.4384544785060098
+        },
+        {
+          "case": "senior_balanced-p0-c2",
+          "net_return": 0.5384662215677765,
+          "max_drawdown": -0.22502078482475474,
+          "cost_paid": 836.0292067271841,
+          "return_difference": 0.04512416511088224,
+          "drawdown_improvement": 0.030968769430583687,
+          "excess_spy": -0.4419511542587795
+        },
+        {
+          "case": "senior_balanced-p7-c1",
+          "net_return": 0.4961668156627217,
+          "max_drawdown": -0.22258938053875588,
+          "cost_paid": 424.5839887867857,
+          "return_difference": 0.00810388726389788,
+          "drawdown_improvement": 0.04139237722546352,
+          "excess_spy": -0.4861290990008238
+        },
+        {
+          "case": "senior_balanced-p7-c2",
+          "net_return": 0.4882825077462989,
+          "max_drawdown": -0.22303277371639374,
+          "cost_paid": 846.8983241662489,
+          "return_difference": 0.005647295819293241,
+          "drawdown_improvement": 0.04101870672159935,
+          "excess_spy": -0.4921348680802571
+        },
+        {
+          "case": "senior_balanced-p14-c1",
+          "net_return": 0.5189951147834537,
+          "max_drawdown": -0.20933100468645405,
+          "cost_paid": 438.66731382041485,
+          "return_difference": 0.00951475759390652,
+          "drawdown_improvement": 0.05028824578812752,
+          "excess_spy": -0.46330079988009176
+        },
+        {
+          "case": "senior_balanced-p14-c2",
+          "net_return": 0.5133189211214304,
+          "max_drawdown": -0.2097171973993157,
+          "cost_paid": 875.5823519758327,
+          "return_difference": 0.005564002475904939,
+          "drawdown_improvement": 0.05027707092169942,
+          "excess_spy": -0.46709845470512557
+        },
+        {
+          "case": "senior_balanced-p21-c1",
+          "net_return": 0.6341277978900419,
+          "max_drawdown": -0.23630747391898788,
+          "cost_paid": 463.50639703981,
+          "return_difference": 0.17485256853661513,
+          "drawdown_improvement": 0.008743006597560776,
+          "excess_spy": -0.34816811677350357
+        },
+        {
+          "case": "senior_balanced-p21-c2",
+          "net_return": 0.6278445503351957,
+          "max_drawdown": -0.23670142530358596,
+          "cost_paid": 925.1409309838277,
+          "return_difference": 0.17400693735749173,
+          "drawdown_improvement": 0.008617231594288177,
+          "excess_spy": -0.35257282549136026
+        },
+        {
+          "case": "senior_balanced-p0-c1-delay2",
+          "net_return": 0.5352301289931329,
+          "max_drawdown": -0.22541178913352278,
+          "cost_paid": 417.82879297017587,
+          "return_difference": 0.038312662096043004,
+          "drawdown_improvement": 0.03210010444853928,
+          "excess_spy": -0.4542647667884727
+        }
+      ]
+    },
+    {
+      "mode": "senior_balanced",
+      "label": "효율 70%·위험 통제 30%",
+      "company": "adaptive",
+      "scenario_count": 9,
+      "return_better_count": 2,
+      "risk_better_count": 9,
+      "jointly_better_count": 2,
+      "median_return_difference": -0.020439973841515968,
+      "phase_return_min": 0.10950404374788136,
+      "phase_return_max": 0.2060571841212795,
+      "phase_drawdown_min": -0.14967165633019974,
+      "phase_drawdown_max": -0.12330138457118911,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_balanced-p0-c1",
+          "net_return": 0.14445089534448297,
+          "max_drawdown": -0.14967165633019974,
+          "cost_paid": 4267.805042086317,
+          "return_difference": -0.03942259637015444,
+          "drawdown_improvement": 0.01228814999534944,
+          "excess_spy": -0.8378450193190625
+        },
+        {
+          "case": "senior_balanced-p0-c2",
+          "net_return": 0.09806275230781991,
+          "max_drawdown": -0.1527991051734202,
+          "cost_paid": 8229.045938417099,
+          "return_difference": -0.03776016935522186,
+          "drawdown_improvement": 0.012867190720148192,
+          "excess_spy": -0.8823546235187361
+        },
+        {
+          "case": "senior_balanced-p7-c1",
+          "net_return": 0.10950404374788136,
+          "max_drawdown": -0.13395462597408359,
+          "cost_paid": 4387.867759113418,
+          "return_difference": -0.024353141820616653,
+          "drawdown_improvement": 0.009552483803497491,
+          "excess_spy": -0.8727918709156641
+        },
+        {
+          "case": "senior_balanced-p7-c2",
+          "net_return": 0.060415327208060754,
+          "max_drawdown": -0.15607083527277876,
+          "cost_paid": 8455.22701495259,
+          "return_difference": -0.020439973841515968,
+          "drawdown_improvement": 0.010906978858105765,
+          "excess_spy": -0.9200020486184952
+        },
+        {
+          "case": "senior_balanced-p14-c1",
+          "net_return": 0.2060571841212795,
+          "max_drawdown": -0.12330138457118911,
+          "cost_paid": 4273.262222599151,
+          "return_difference": 0.011530148410078711,
+          "drawdown_improvement": 0.011357051960183218,
+          "excess_spy": -0.776238730542266
+        },
+        {
+          "case": "senior_balanced-p14-c2",
+          "net_return": 0.158733579739593,
+          "max_drawdown": -0.12936629021964308,
+          "cost_paid": 8241.36256390989,
+          "return_difference": 0.01293653965931263,
+          "drawdown_improvement": 0.011751127300937303,
+          "excess_spy": -0.821683796086963
+        },
+        {
+          "case": "senior_balanced-p21-c1",
+          "net_return": 0.1741325076248561,
+          "max_drawdown": -0.14778861041453228,
+          "cost_paid": 4297.47325648476,
+          "return_difference": -0.013658024043547101,
+          "drawdown_improvement": 0.015736115235886916,
+          "excess_spy": -0.8081634070386894
+        },
+        {
+          "case": "senior_balanced-p21-c2",
+          "net_return": 0.12590634101115183,
+          "max_drawdown": -0.15126850430666028,
+          "cost_paid": 8295.53351577143,
+          "return_difference": -0.014481343991078699,
+          "drawdown_improvement": 0.01577946037963973,
+          "excess_spy": -0.8545110348154041
+        },
+        {
+          "case": "senior_balanced-p0-c1-delay2",
+          "net_return": 0.15989063751838462,
+          "max_drawdown": -0.14620421165886766,
+          "cost_paid": 4286.759286577243,
+          "return_difference": -0.043357428059576986,
+          "drawdown_improvement": 0.010393393754086988,
+          "excess_spy": -0.829604258263221
+        }
+      ]
+    },
+    {
+      "mode": "senior_graded",
+      "label": "상위자 제한적 재배분",
+      "company": "pulse",
+      "scenario_count": 9,
+      "return_better_count": 0,
+      "risk_better_count": 9,
+      "jointly_better_count": 0,
+      "median_return_difference": -0.0859261562961624,
+      "phase_return_min": 0.3822497862289742,
+      "phase_return_max": 0.8970247772978059,
+      "phase_drawdown_min": -0.2887339274255202,
+      "phase_drawdown_max": -0.26040689633224523,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_graded-p0-c1",
+          "net_return": 0.3822497862289742,
+          "max_drawdown": -0.2887339274255202,
+          "cost_paid": 9996.082338936778,
+          "return_difference": -0.12064697635080313,
+          "drawdown_improvement": 0.02460381311677884,
+          "excess_spy": -0.6000461284345713
+        },
+        {
+          "case": "senior_graded-p0-c2",
+          "net_return": 0.2500155824572574,
+          "max_drawdown": -0.3157768778521757,
+          "cost_paid": 18468.30872097291,
+          "return_difference": -0.09901334009201723,
+          "drawdown_improvement": 0.011458287904313913,
+          "excess_spy": -0.7304017933692986
+        },
+        {
+          "case": "senior_graded-p7-c1",
+          "net_return": 0.8970247772978059,
+          "max_drawdown": -0.27417752305230114,
+          "cost_paid": 11826.009416086947,
+          "return_difference": -0.08926621836815563,
+          "drawdown_improvement": 0.022122598031775742,
+          "excess_spy": -0.08527113736573955
+        },
+        {
+          "case": "senior_graded-p7-c2",
+          "net_return": 0.6996798955382115,
+          "max_drawdown": -0.28982279258975896,
+          "cost_paid": 21755.979714546123,
+          "return_difference": -0.07350767149043524,
+          "drawdown_improvement": 0.02147144937298351,
+          "excess_spy": -0.28073748028834444
+        },
+        {
+          "case": "senior_graded-p14-c1",
+          "net_return": 0.6527892876465429,
+          "max_drawdown": -0.26040689633224523,
+          "cost_paid": 10841.857734672687,
+          "return_difference": -0.08341521865386037,
+          "drawdown_improvement": 0.037581599551990474,
+          "excess_spy": -0.3295066270170026
+        },
+        {
+          "case": "senior_graded-p14-c2",
+          "net_return": 0.49467972540597627,
+          "max_drawdown": -0.2736722593331208,
+          "cost_paid": 20060.903937683925,
+          "return_difference": -0.06661108519460668,
+          "drawdown_improvement": 0.0380702784088045,
+          "excess_spy": -0.4857376504205797
+        },
+        {
+          "case": "senior_graded-p21-c1",
+          "net_return": 0.5638111561557921,
+          "max_drawdown": -0.2720489500402762,
+          "cost_paid": 10538.506302589107,
+          "return_difference": -0.0859261562961624,
+          "drawdown_improvement": 0.04729261584224187,
+          "excess_spy": -0.41848475850775335
+        },
+        {
+          "case": "senior_graded-p21-c2",
+          "net_return": 0.4070075800731412,
+          "max_drawdown": -0.2856568336851335,
+          "cost_paid": 19443.215263983617,
+          "return_difference": -0.06779674957668935,
+          "drawdown_improvement": 0.04835525556512954,
+          "excess_spy": -0.5734097957534148
+        },
+        {
+          "case": "senior_graded-p0-c1-delay2",
+          "net_return": 0.5849510213269848,
+          "max_drawdown": -0.2645132377618149,
+          "cost_paid": 10764.053303394558,
+          "return_difference": -0.08899502183190444,
+          "drawdown_improvement": 0.021037297567811697,
+          "excess_spy": -0.4045438744546208
+        }
+      ]
+    },
+    {
+      "mode": "senior_graded",
+      "label": "상위자 제한적 재배분",
+      "company": "compound",
+      "scenario_count": 9,
+      "return_better_count": 5,
+      "risk_better_count": 7,
+      "jointly_better_count": 3,
+      "median_return_difference": 0.025566308113823544,
+      "phase_return_min": 0.38937320055000435,
+      "phase_return_max": 0.5446033597910502,
+      "phase_drawdown_min": -0.2526746063731087,
+      "phase_drawdown_max": -0.2376569879286886,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_graded-p0-c1",
+          "net_return": 0.5446033597910502,
+          "max_drawdown": -0.2461617558940753,
+          "cost_paid": 600.6675732580887,
+          "return_difference": 0.04566570131073733,
+          "drawdown_improvement": 0.009675177121548417,
+          "excess_spy": -0.43769255487249525
+        },
+        {
+          "case": "senior_graded-p0-c2",
+          "net_return": 0.536952461051452,
+          "max_drawdown": -0.2464010433696262,
+          "cost_paid": 1198.0541885173177,
+          "return_difference": 0.04361040459455778,
+          "drawdown_improvement": 0.00958851088571222,
+          "excess_spy": -0.44346491477510397
+        },
+        {
+          "case": "senior_graded-p7-c1",
+          "net_return": 0.38937320055000435,
+          "max_drawdown": -0.2421913399863792,
+          "cost_paid": 606.1741729389029,
+          "return_difference": -0.09868972784881946,
+          "drawdown_improvement": 0.021790417777840188,
+          "excess_spy": -0.5929227141135411
+        },
+        {
+          "case": "senior_graded-p7-c2",
+          "net_return": 0.37861510105038887,
+          "max_drawdown": -0.24239851531516543,
+          "cost_paid": 1207.9325421930207,
+          "return_difference": -0.10402011087661678,
+          "drawdown_improvement": 0.02165296512282766,
+          "excess_spy": -0.6018022747761671
+        },
+        {
+          "case": "senior_graded-p14-c1",
+          "net_return": 0.455044138753246,
+          "max_drawdown": -0.2376569879286886,
+          "cost_paid": 592.8149144912911,
+          "return_difference": -0.0544362184363012,
+          "drawdown_improvement": 0.021962262545892952,
+          "excess_spy": -0.5272517759102995
+        },
+        {
+          "case": "senior_graded-p14-c2",
+          "net_return": 0.44882671471317015,
+          "max_drawdown": -0.23699820961905704,
+          "cost_paid": 1183.2300113428248,
+          "return_difference": -0.058928203932355316,
+          "drawdown_improvement": 0.02299605870195809,
+          "excess_spy": -0.5315906611133858
+        },
+        {
+          "case": "senior_graded-p21-c1",
+          "net_return": 0.48678463150370255,
+          "max_drawdown": -0.2526746063731087,
+          "cost_paid": 605.887185731706,
+          "return_difference": 0.027509402150275752,
+          "drawdown_improvement": -0.007624125856560027,
+          "excess_spy": -0.49551128315984294
+        },
+        {
+          "case": "senior_graded-p21-c2",
+          "net_return": 0.4794039210915275,
+          "max_drawdown": -0.2528962885192265,
+          "cost_paid": 1208.5890792133046,
+          "return_difference": 0.025566308113823544,
+          "drawdown_improvement": -0.0075776316213523875,
+          "excess_spy": -0.5010134547350285
+        },
+        {
+          "case": "senior_graded-p0-c1-delay2",
+          "net_return": 0.5258179110877002,
+          "max_drawdown": -0.24640367022702636,
+          "cost_paid": 597.7301370197235,
+          "return_difference": 0.02890044419061022,
+          "drawdown_improvement": 0.011108223355035696,
+          "excess_spy": -0.4636769846939055
+        }
+      ]
+    },
+    {
+      "mode": "senior_graded",
+      "label": "상위자 제한적 재배분",
+      "company": "adaptive",
+      "scenario_count": 9,
+      "return_better_count": 6,
+      "risk_better_count": 9,
+      "jointly_better_count": 6,
+      "median_return_difference": 0.011431120998325994,
+      "phase_return_min": 0.1493038608093784,
+      "phase_return_max": 0.220205228350848,
+      "phase_drawdown_min": -0.15964987795700003,
+      "phase_drawdown_max": -0.12330138457118911,
+      "beats_spy_count": 0,
+      "cases": [
+        {
+          "case": "senior_graded-p0-c1",
+          "net_return": 0.1533121035817595,
+          "max_drawdown": -0.15964987795700003,
+          "cost_paid": 4486.599021309199,
+          "return_difference": -0.030561388132877898,
+          "drawdown_improvement": 0.0023099283685491523,
+          "excess_spy": -0.828983811081786
+        },
+        {
+          "case": "senior_graded-p0-c2",
+          "net_return": 0.10413955967817068,
+          "max_drawdown": -0.16331084785377137,
+          "cost_paid": 8643.125131391904,
+          "return_difference": -0.031683361984871095,
+          "drawdown_improvement": 0.0023554480397970368,
+          "excess_spy": -0.8762778161483853
+        },
+        {
+          "case": "senior_graded-p7-c1",
+          "net_return": 0.1493038608093784,
+          "max_drawdown": -0.12944005281367232,
+          "cost_paid": 4652.282977931433,
+          "return_difference": 0.015446675240880392,
+          "drawdown_improvement": 0.014067056963908753,
+          "excess_spy": -0.8329920538541671
+        },
+        {
+          "case": "senior_graded-p7-c2",
+          "net_return": 0.09669752671755472,
+          "max_drawdown": -0.14087534437791116,
+          "cost_paid": 8951.234163037481,
+          "return_difference": 0.015842225667977994,
+          "drawdown_improvement": 0.026102469752973367,
+          "excess_spy": -0.8837198491090013
+        },
+        {
+          "case": "senior_graded-p14-c1",
+          "net_return": 0.20595815670952677,
+          "max_drawdown": -0.12330138457118911,
+          "cost_paid": 4617.456071273795,
+          "return_difference": 0.011431120998325994,
+          "drawdown_improvement": 0.011357051960183218,
+          "excess_spy": -0.7763377579540187
+        },
+        {
+          "case": "senior_graded-p14-c2",
+          "net_return": 0.1551053836073597,
+          "max_drawdown": -0.12936629021964308,
+          "cost_paid": 8895.603325382088,
+          "return_difference": 0.009308343527079321,
+          "drawdown_improvement": 0.011751127300937303,
+          "excess_spy": -0.8253119922191963
+        },
+        {
+          "case": "senior_graded-p21-c1",
+          "net_return": 0.220205228350848,
+          "max_drawdown": -0.15449852714269807,
+          "cost_paid": 4681.078113762884,
+          "return_difference": 0.03241469668244479,
+          "drawdown_improvement": 0.009026198507721128,
+          "excess_spy": -0.7620906863126975
+        },
+        {
+          "case": "senior_graded-p21-c2",
+          "net_return": 0.16736279556292222,
+          "max_drawdown": -0.1584519162400384,
+          "cost_paid": 9004.598316968864,
+          "return_difference": 0.026975110560691684,
+          "drawdown_improvement": 0.008596048446261606,
+          "excess_spy": -0.8130545802636338
+        },
+        {
+          "case": "senior_graded-p0-c1-delay2",
+          "net_return": 0.14266095281349034,
+          "max_drawdown": -0.15386390812075335,
+          "cost_paid": 4432.777029830979,
+          "return_difference": -0.06058711276447126,
+          "drawdown_improvement": 0.002733697292201298,
+          "excess_spy": -0.8468339429681153
+        }
+      ]
+    }
+  ],
+  "source_summary_sha256": "00e369b861e0aa99d53e45412e5ea4121edc473e8072e0cb238f27244b2a80fe",
+  "interpretation": "These nine execution scenarios share prices and rules. Counts are sensitivity checks, not nine independent samples or a significance test.",
+  "findings": [
+    "A fixed 70/30 efficiency/guard blend improves Compound return and drawdown across all declared paired scenarios; retain for further research, not deployment proof.",
+    "Pulse returns vary substantially with periodic review phase. Blending reduces drawdown and return; a single best starting phase is not a defensible market-beating claim.",
+    "Bounded senior selection helps Adaptive in some phases but is inconsistent; senior instructions remain subject to comparison.",
+    "No in-round personnel changes. One retrospective scenario family is insufficient grounds for firing or guaranteed promotions."
+  ]
+}
