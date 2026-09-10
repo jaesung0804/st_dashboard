@@ -12,9 +12,11 @@ import pandas as pd
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
 from ai_stock_assistant.investment_operations import review_queue
+from backend_references import References
 
 
 def build(target:Path):
+    references=References(ROOT)
     source=ROOT/'docs/replays/2026-09-10-v2'
     if not (source/'summary.json').exists() or not (source/'manifest.json').exists():
         raise FileNotFoundError('Simulation requires a completed, verified run bundle')
@@ -49,21 +51,21 @@ def build(target:Path):
         gov=source/key/'governance.json'
         if gov.exists():runs[key]['governance']=json.loads(gov.read_text())[-3:]
     payload=dict(schema='simulation-ui-v2',runs=runs,data_sources=summary['data_sources'])
-    org=json.loads((ROOT/'data/reference/investment_organization.json').read_text())
+    org=references.read('data/reference/investment_organization.json')
     # Keep final employee evidence, not every repeated evaluation, in the UI.
     for company in org['companies'].values():
         for team in company['teams'].values():
             for employee in team['employees']:
                 employee['evaluations']=employee['evaluations'][-1:]
     payload['organization']=org
-    payload['meeting_rooms']=json.loads((ROOT/'data/reference/investment_meeting_rooms.json').read_text())
+    payload['meeting_rooms']=references.read('data/reference/investment_meeting_rooms.json')
     operations=ROOT/'data/reference/investment_operations_policy.json'
-    if operations.exists():
-        policy=json.loads(operations.read_text())
+    policy=references.read(operations,default=None)
+    if policy is not None:
         payload['operations']={'actors':policy['actors']}
         queue=ROOT/'data/reference/investment_operations_queue.json'
-        if queue.exists():
-            observed=json.loads(queue.read_text())
+        observed=references.read(queue,default=None)
+        if observed is not None:
             review=review_queue(observed,policy,observed['observed_at'])
             observed_tasks={t['id']:t for t in observed['tasks']}
             payload['operations']['reviewed_as_of']=review['reviewed_as_of']
@@ -72,11 +74,11 @@ def build(target:Path):
                     b.get('description',b.get('id','')) for b in observed_tasks[t['id']].get('blockers',[]) if b.get('state','open')!='resolved'
                 ) or ', '.join(t['blocked_reasons'])) for t in review['tasks']]}
     rounds=ROOT/'data/reference/investment_rounds.json'
-    if rounds.exists():payload['rounds']=json.loads(rounds.read_text())
+    if (value:=references.read(rounds,default=None)) is not None:payload['rounds']=value
     communications=ROOT/'data/reference/investment_communications.json'
-    if communications.exists():payload['communications']=json.loads(communications.read_text())
+    if (value:=references.read(communications,default=None)) is not None:payload['communications']=value
     research=ROOT/'data/reference/investment_research_library.json'
-    if research.exists():payload['research']=json.loads(research.read_text())
+    if (value:=references.read(research,default=None)) is not None:payload['research']=value
     conversations=json.loads((ROOT/'docs/replays/2026-09-10-employee-supervised/events.json').read_text())
     payload['team_conversations']={}
     for event in conversations:

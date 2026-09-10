@@ -11,15 +11,17 @@ from ai_stock_assistant.investment_supervision import validate_proposal
 from ai_stock_assistant.investment_replay import sha256,write_json
 from run_investment_replay import write_gzip
 from run_employee_evolution import evolve
+from backend_references import References
 
 
 def main():
-    source=Path('docs/replays/2026-09-10-employee-supervised')
-    out=Path('docs/replays/2026-09-10-approval-briefs')
+    references=References()
+    source=references.restore_output('docs/replays/2026-09-10-employee-supervised')
+    out=references.output('docs/replays/2026-09-10-approval-briefs')
     if out.exists():raise SystemExit('Choose a new output path; retain published documentation')
     policy=json.loads((source/'summary.json').read_text())['policy']
     org_path=Path('data/reference/investment_organization.json')
-    org=json.loads(org_path.read_text())
+    org=references.read(org_path)
     employees={}
     for company in org['companies'].values():
         for team_id,team in company['teams'].items():
@@ -30,7 +32,6 @@ def main():
     now=datetime.now(timezone.utc).isoformat()
     org['strategy_brief_documented_at']=now
     org['approval_record_requirements']=['투자 논리','매수 조건','축소·매도 조건','검토 주기','위험·비용','근거 기준일','심사 결과·사유']
-    write_json(org_path,org)
     old_events=json.loads((source/'events.json').read_text())
     rows=[]
     for event in old_events:
@@ -61,11 +62,13 @@ def main():
                  note='Explanations added on the documented date; no claim these texts existed at historical decision time. Not an additional performance experiment.')
     write_json(out/'summary.json',summary)
     sources=[Path(__file__),Path('src/ai_stock_assistant/investment_strategy_briefs.py'),Path('src/ai_stock_assistant/investment_supervision.py'),Path('scripts/run_employee_evolution.py')]
-    snapshots=Path('docs/replays/engine_snapshots');snapshots.mkdir(exist_ok=True)
+    snapshots=out/'engine_snapshots' if references.backend else Path('docs/replays/engine_snapshots');snapshots.mkdir(parents=True,exist_ok=True)
     for path in sources:(snapshots/(sha256(path)+'.py')).write_bytes(path.read_bytes())
     write_json(out/'manifest.json',dict(created_at=now,sources={str(path):sha256(path) for path in sources},
                                       source_events_sha256=sha256(source/'events.json'),
                                       artifacts={p.name:sha256(p) for p in out.iterdir() if p.is_file()}))
+    references.publish_output(out)
+    references.write(org_path,org)
     print(json.dumps(summary,ensure_ascii=False))
 
 

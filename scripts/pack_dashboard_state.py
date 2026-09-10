@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import gzip
 import hashlib
 import json
@@ -165,6 +166,15 @@ def main() -> None:
 
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Packed {len(manifest)} files into {state_dir}")
+    if os.getenv("RESEARCH_STORAGE", "git") == "backend":
+        from research_backend_client import Client
+        # Reuse the deterministic archives so tens of thousands of responses do
+        # not become that many Object Storage requests on every fresh runner.
+        selected = [name for name in (".gitattributes", "state-manifest.json", ".parts", "data", "outputs")
+                    if (state_dir / name).exists()]
+        result = Client(project="investment").push("pipeline-state", state_dir, selected)
+        (state_dir / "backend-snapshot.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+        print(json.dumps(result), flush=True)
 
 
 if __name__ == "__main__":

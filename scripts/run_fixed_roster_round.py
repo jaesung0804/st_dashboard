@@ -22,6 +22,7 @@ from ai_stock_assistant.investment_supervision import validate_proposal
 from run_employee_evolution import GENOMES
 from run_investment_replay import ledger,write_gzip
 from run_investment_replay_v2 import benchmark
+from backend_references import References
 
 MODES=('efficient_control','equal_staff','senior_balanced','senior_graded')
 
@@ -67,10 +68,11 @@ def assignments(people,mode,policy,dates,shadow=None,phase=0):
     return schedule,events
 
 
-def register(out,round_path,base_policy):
+def register(out,round_path,base_policy,references=None):
+    references=references or References()
     if out.exists():raise ValueError('Preserve completed/attempted results; use a new folder')
-    state=json.loads(round_path.read_text());record=state['rounds'][-1]
-    org=json.loads(Path('data/reference/investment_organization.json').read_text())
+    state=references.read(round_path);record=state['rounds'][-1]
+    org=references.read('data/reference/investment_organization.json')
     assert validate_roster_lock(record,org)['valid']
     cases=[dict(id=f'{mode}-p{phase}-c{cost}',mode=mode,phase=phase,cost_multiplier=cost,fill_delay=1)
            for phase in [0,7,14,21] for cost in [1,2] for mode in MODES]
@@ -86,8 +88,9 @@ def register(out,round_path,base_policy):
                   personnel_rule='No names, genomes, hiring or departures change in this actual-hour round. Personnel decisions only after the full hour and results review.')
     out.mkdir(parents=True);write_json(out/'protocol.json',protocol)
     now=datetime.now(timezone.utc).isoformat()
-    for case in cases:record=register_experiment(record,dict(id=case['id'],protocol_reference=str(out/'protocol.json'),protocol_sha256=sha256(out/'protocol.json')),now)
-    state['rounds'][-1]=record;state['actual_updated_at']=now;write_json(round_path,state)
+    references.publish_output(out)
+    for case in cases:record=register_experiment(record,dict(id=case['id'],protocol_reference=references.artifact_reference(out/'protocol.json'),protocol_sha256=sha256(out/'protocol.json')),now)
+    state['rounds'][-1]=record;state['actual_updated_at']=now;references.write(round_path,state)
     return protocol
 
 
@@ -97,7 +100,9 @@ def main():
     args=ap.parse_args();started=time.perf_counter()
     round_path=Path('data/reference/investment_rounds.json')
     p=json.loads(Path('data/reference/employee_supervision_policy.json').read_text())
-    protocol=register(args.out,round_path,p);people=protocol['people']
+    references=References()
+    args.out=references.output(args.out)
+    protocol=register(args.out,round_path,p,references);people=protocol['people']
     cache=Path('data/raw/us_replay_cohort_cache.pkl');filing_path=Path('data/dashboard_research/accounting/us/filing_events.csv.gz')
     spy_path=args.source/'collection/prices/SPY.csv.gz';cohort=Path('data/reference/accounting_cohort.json')
     raw_path=Path('data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv')
@@ -152,15 +157,19 @@ def main():
                  caveat=protocol['caveat'])
     write_json(args.out/'summary.json',summary)
     sources=[Path(__file__),Path('src/ai_stock_assistant/investment_replay.py'),Path('src/ai_stock_assistant/investment_replay_v2.py'),Path('src/ai_stock_assistant/investment_rounds.py'),Path('src/ai_stock_assistant/investment_strategy_briefs.py'),Path('src/ai_stock_assistant/investment_supervision.py')]
-    for source in sources:Path('docs/replays/engine_snapshots',sha256(source)+'.py').write_bytes(source.read_bytes())
+    snapshots=args.out/'engine_snapshots' if references.backend else Path('docs/replays/engine_snapshots')
+    snapshots.mkdir(parents=True,exist_ok=True)
+    for source in sources:(snapshots/(sha256(source)+'.py')).write_bytes(source.read_bytes())
     write_json(args.out/'manifest.json',dict(created_at=datetime.now(timezone.utc).isoformat(),inputs=inputs,
                 sources={str(path):sha256(path) for path in sources},
-                artifacts={str(path.relative_to(args.out)):sha256(path) for path in args.out.rglob('*') if path.is_file()},paid_data_calls=0,llm_api_calls=0))
-    now=datetime.now(timezone.utc).isoformat();state=json.loads(round_path.read_text());record=state['rounds'][-1]
-    assert validate_roster_lock(record,json.loads(Path('data/reference/investment_organization.json').read_text()))['valid']
+                artifacts={str(path.relative_to(args.out)):sha256(path) for path in args.out.rglob('*') if path.is_file() and '.research-backend' not in path.relative_to(args.out).parts},paid_data_calls=0,llm_api_calls=0))
+    references.publish_output(args.out)
+    now=datetime.now(timezone.utc).isoformat();state=references.read(round_path)
+    record=next(record for record in state['rounds'] if record['id']==protocol['round_id'])
+    assert validate_roster_lock(record,references.read('data/reference/investment_organization.json'))['valid']
     for experiment in record['experiments']:
-        if experiment['id'] in runs:experiment.update(status='completed',completed_at=now,result_reference=str(args.out/experiment['id']/'summary.json'),result_sha256=sha256(args.out/experiment['id']/'summary.json'))
-    record['new_completed_experiments']=len(runs);state['actual_updated_at']=now;write_json(round_path,state)
+        if experiment['id'] in runs:experiment.update(status='completed',completed_at=now,result_reference=references.artifact_reference(args.out/experiment['id']/'summary.json'),result_sha256=sha256(args.out/experiment['id']/'summary.json'))
+    record['new_completed_experiments']=len(runs);state['actual_updated_at']=now;references.write(round_path,state)
     print('COMPLETE',len(runs),'new arms',summary['elapsed_seconds'],'seconds',flush=True)
 
 

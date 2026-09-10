@@ -32,3 +32,8 @@ reports/
 # Retained on dashboard-state, never source branch
 data/dashboard_research/
 .work/
+
+# Local backend restore receipts; never publish credentials or database files.
+/.research-backend/
+*.sqlite3
+/backend.env
