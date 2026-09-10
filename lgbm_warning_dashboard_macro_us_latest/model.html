@@ -3,7 +3,7 @@
 <title>미국 모델 설명·검증</title><script>
 (function(){try{if(localStorage.getItem('dashboardTheme')==='dark')document.documentElement.dataset.theme='dark';}catch(e){}})();
 </script>
-<link rel="stylesheet" href="dashboard.css?v=991995364015964353de15008d37a070d10f3a98"></head><body>
+<link rel="stylesheet" href="dashboard.css?v=f7f9243e658bcc85a2fa9923cdead568f3e02aca"></head><body>
 <header><div class="header-inner"><div><a class="eyebrow" href="../index.html">ST DASHBOARD</a><h1>미국 모델 설명·검증</h1></div><nav aria-label="대시보드 이동"><a href="dashboard.html">추천·검색</a><a href="../lgbm_warning_dashboard_macro_kr_latest/dashboard.html">한국 시장</a><a href="https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml">배치 상태</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
 <main>
 <section class="panel"><h2>추천의 근거와 검증을 한곳에서</h2><p>추천 화면은 고정된 운영 모델을 사용합니다. 강화한 상승 목표를 쓰는 가격 모델과 거시 추가 모델은 별도 실험으로 기록하며, 실험 결과가 운영 추천을 자동으로 바꾸지는 않습니다.</p><p id="reportStatus" class="footnote" role="status">검증 자료를 불러오는 중입니다.</p></section>
@@ -41,7 +41,7 @@
 <section class="panel"><h2>재무제표를 더하면 나아지는가?</h2><p>가격 / 가격+거시 / 가격+재무 / 가격+거시+재무의 네 가지 조합을 같은 강화 목표로 시험합니다. 재무 입력은 실제 공시 접수일의 다음 날부터 사용할 수 있고, 이후 수정된 값은 그 이후에만 반영합니다.</p><p id="accountingStatus" class="notice"></p><div class="controls"><label>사건<select id="accountingHead"><option value="up">6개월 상승 목표</option><option value="down">3개월 급락 위험</option></select></label><label>시험 구간<select id="accountingFold"><option value="all">전체 시험 월</option></select></label></div><div id="accountingMetrics" class="history-table"></div><p class="footnote">상위 10% 수익률은 마지막 5일 평균 가격 기준의 과거 관측 평균입니다. 매매·비용·배당·중복 보유를 반영한 전략 성과가 아닙니다. 일부 시험 월은 공시 이력이 부족하면 제외하고 결과에 사유를 기록합니다.</p></section>
 <section class="panel"><h2>회계분석을 실험 입력으로 요약했습니다</h2><p><a href="https://youtube.com/@tacozlabs">야근하는 회계사</a>의 공개 영상 설명과 <a href="https://tacozlabs.com/lecture">공식 강의 안내</a>에서 다루는 성장의 질, 현금 전환, 운전자본, 투자 부담을 참고했습니다. 영상 전체 자막을 확보한 분석은 아닙니다.</p><p>매출 성장률·영업이익률·ROA, 영업현금흐름과 발생액/자산, 설비 투자 후 현금흐름, 매출보다 빠른 재고·매출채권 증가, 현금·부채 비율과 자료 나이를 계산합니다. 누적 현금흐름은 분기 차분 후 최근 4분기를 합산합니다. 금융회사는 맞지 않는 지표를 결측 처리합니다.</p><p>현재 주식 수로 과거 PER을 만들거나, 주석을 읽지 않고 일회성 이익·고객 집중도를 추정하지 않습니다. 이를 제외한 재무 비율 실험이며, 모든 기업의 완성된 가치평가를 뜻하지 않습니다.</p><label for="accountingQuery">파일럿 기업명 또는 티커</label><div class="search-line"><input id="accountingQuery" type="search" placeholder="기업명 또는 티커" autocomplete="off"></div><div id="accountingStocks" class="history-table"></div><p class="footnote">최대 20개 표시. 값이 없는 지표를 0으로 해석하지 마세요. 여기의 강화 목표 확률과 추천 화면의 기존 목표 확률은 직접 비교할 수 없습니다.</p></section>
 </div>
-</main><script src="common.js?v=991995364015964353de15008d37a070d10f3a98"></script><script src="model.js?v=991995364015964353de15008d37a070d10f3a98"></script><script src="research.js?v=991995364015964353de15008d37a070d10f3a98"></script><script>
+</main><script src="common.js?v=f7f9243e658bcc85a2fa9923cdead568f3e02aca"></script><script src="model.js?v=f7f9243e658bcc85a2fa9923cdead568f3e02aca"></script><script src="research.js?v=f7f9243e658bcc85a2fa9923cdead568f3e02aca"></script><script>
 (function(){
   const button=document.getElementById('themeToggle');
   if(!button)return;
