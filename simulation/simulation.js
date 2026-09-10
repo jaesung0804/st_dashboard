@@ -154,9 +154,12 @@
     const people=Object.values(ops.actors||{}).filter(a=>a.type==='simulated_rule_employee'&&a.role);
     let html=`<p class="context">${people.map(a=>esc(a.name)+' · '+esc(a.role)).join(' / ')}${room?' · <a href="'+esc(room.url)+'">운영조정 회의실 ↗</a>':''}</p>`;
     const round=payload.rounds?.rounds?.at(-1);
-    if(round){const time=s=>new Date(s).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',hour12:false});const label={active:'회차 진행 기록',completed:'회차 결과 검토 완료',ended_awaiting_review:'종료 후 결과 검토 대기',deferred:'시작 보류'};html+=`<p><strong>${esc(round.id)} · ${esc(label[round.status]||round.status)}</strong> · ${time(round.actual_started_at||round.requested_at)}–${time(round.scheduled_end_at||round.session_deadline)} (한국시간), 직원 ${round.strategy_employee_count||0}명 명단 고정</p><p class="context">운영 큐 관찰: ${time(ops.reviewed_as_of)} (한국시간)</p>`;}
-    if(ops.queue?.tasks){const labels={completed:'완료',in_progress:'진행',blocked:'차단',approval:'승인 대기',ready:'준비'};
-      html+='<div class="table-wrap"><table><thead><tr><th>작업</th><th>담당</th><th>상태</th><th>다음 단계 / 차단 사유</th></tr></thead><tbody>'+ops.queue.tasks.map(t=>`<tr><th>${esc(t.title||t.id)}</th><td>${esc(ops.actors[t.owner]?.name||t.owner||'배정 필요')}</td><td>${esc(labels[t.status]||t.status)}</td><td>${esc(t.next_action||t.blocker_reason||'운영 검토 기록 참조')}</td></tr>`).join('')+'</tbody></table></div>';
+    if(round){const time=s=>new Date(s).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',hour12:false});const label={active:'회차 진행 기록',completed:'회차 결과 검토 완료',ended_awaiting_review:'종료 후 결과 검토 대기',deferred:'시작 보류'};html+=`<p><strong>${esc(round.id)} · ${esc(label[round.status]||round.status)}</strong> · ${time(round.actual_started_at||round.requested_at)}–${time(round.actual_ended_at||round.scheduled_end_at||round.session_deadline)} (한국시간), 직원 ${round.strategy_employee_count||0}명 명단 고정</p><p class="context">운영 큐 관찰: ${time(ops.reviewed_as_of)} (한국시간)</p>`;
+      const decision=round.personnel_decisions?.at(-1);
+      if(decision){html+=`<p><strong>회차 종료 후 인사</strong> · 현원 ${decision.retained_strategy_employees||0}명 유지, 추가 채용 ${(decision.hires||[]).length}명·퇴사 ${(decision.departures||[]).length}명. ${esc(decision.reason||'')}</p><p class="context">기존 퇴사 이력과 이전 실험의 직원 배정 기록은 보존합니다. 다음 전략안은 연구 후보이며 자금 변경은 집행하지 않았습니다.</p>`;}
+    }
+    if(ops.queue?.tasks){const labels={completed:'완료',in_progress:'진행',blocked:'차단',approval:'승인 대기',awaiting_approval:'승인 대기',ready:'준비'};
+      html+='<div class="table-wrap"><table><thead><tr><th>작업</th><th>담당</th><th>상태</th><th>다음 단계 / 차단 사유</th></tr></thead><tbody>'+ops.queue.tasks.map(t=>`<tr><th>${esc(t.title||t.id)}</th><td>${esc(ops.actors[t.owner]?.name||t.owner||'배정 필요')}</td><td>${esc(labels[t.status]||t.status)}</td><td>${esc(t.next_action||'운영 검토 기록 참조')}${t.blocker_reason?'<p class="context">차단 사유: '+esc(t.blocker_reason)+'</p>':''}</td></tr>`).join('')+'</tbody></table></div>';
     }
     $('operationsContent').innerHTML=html;
   }
