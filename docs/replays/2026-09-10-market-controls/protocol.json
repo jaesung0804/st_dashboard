@@ -1,0 +1,26 @@
+{
+  "registered_at": "2026-09-10T08:33:24.796061+00:00",
+  "symbols": [
+    "SPY",
+    "XLF",
+    "XLE",
+    "XLU"
+  ],
+  "start": "2007-01-03",
+  "end": "2026-08-31",
+  "rules": [
+    "spy100",
+    "spy90",
+    "trend200",
+    "relative126",
+    "diversified_trend",
+    "walkforward_selector"
+  ],
+  "cost_bps": [
+    10,
+    20
+  ],
+  "decision_clock": "signal close, next open",
+  "selector": "every 63 sessions after 504 sessions, compare preceding 504-session net return + half drawdown of three fixed rules; no future suffix; choose one for subsequent decisions",
+  "caveat": "ETF menu chosen retrospectively. No historical individual-stock cohort selection, but this remains exploratory and not independent OOS."
+}

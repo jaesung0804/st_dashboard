@@ -1,0 +1,85 @@
+{
+  "run_count": 12,
+  "description": "2007–2026 · SPY·XLF·XLE·XLU 고정 ETF 메뉴 · 편도 10bp · 종가 결정 후 다음 시가 체결. 기업별 과거 표본을 다시 고르는 문제와 분리한 가격 규칙 대조입니다.",
+  "rows": [
+    {
+      "name": "SPY 100% 보유",
+      "net_return": 6.758139829931314,
+      "max_drawdown": -0.5518946308813507,
+      "annualized_volatility": 0.19578841323062274,
+      "sharpe_zero_cash_rate": 0.6312102391891746,
+      "final_nav": 775813.9829931314,
+      "sessions": 4946,
+      "cagr": 0.11002659399691517,
+      "cost_paid": 99.90009990009992,
+      "trade_count": 1,
+      "later_return": 1.6145127351256754
+    },
+    {
+      "name": "SPY 90% + 현금",
+      "net_return": 6.082377617867972,
+      "max_drawdown": -0.5021429685770858,
+      "annualized_volatility": 0.17997520364171857,
+      "sharpe_zero_cash_rate": 0.6443738569296986,
+      "final_nav": 708237.7617867972,
+      "sessions": 4946,
+      "cagr": 0.1048844146568697,
+      "cost_paid": 89.91085519775606,
+      "trade_count": 1,
+      "later_return": 1.5562445455618583
+    },
+    {
+      "name": "SPY 200일 추세",
+      "net_return": 3.761395721868369,
+      "max_drawdown": -0.25758250655030634,
+      "annualized_volatility": 0.11229594552775332,
+      "sharpe_zero_cash_rate": 0.7644709979579658,
+      "final_nav": 476139.57218683686,
+      "sessions": 4946,
+      "cagr": 0.08275635041985918,
+      "cost_paid": 4972.260201441549,
+      "trade_count": 198,
+      "later_return": 0.7060794479604557
+    },
+    {
+      "name": "ETF 상대강도 2종",
+      "net_return": 2.0345214144824313,
+      "max_drawdown": -0.2661815946447671,
+      "annualized_volatility": 0.1415482917939611,
+      "sharpe_zero_cash_rate": 0.4706295960412808,
+      "final_nav": 303452.1414482431,
+      "sessions": 4946,
+      "cagr": 0.05818748948112251,
+      "cost_paid": 14485.105664677956,
+      "trade_count": 507,
+      "later_return": 0.8298169593190701
+    },
+    {
+      "name": "ETF 분산·추세",
+      "net_return": 2.4962532054713438,
+      "max_drawdown": -0.17669594232748154,
+      "annualized_volatility": 0.10140525615433499,
+      "sharpe_zero_cash_rate": 0.6798051010872237,
+      "final_nav": 349625.3205471344,
+      "sessions": 4946,
+      "cagr": 0.06585152150456008,
+      "cost_paid": 6212.489220852964,
+      "trade_count": 748,
+      "later_return": 0.6934140007307674
+    },
+    {
+      "name": "과거 2년으로 분기별 선택",
+      "net_return": 3.073314323994347,
+      "max_drawdown": -0.2089057772168288,
+      "annualized_volatility": 0.11272067730839815,
+      "sharpe_zero_cash_rate": 0.6914459929504415,
+      "final_nav": 407331.4323994347,
+      "sessions": 4946,
+      "cagr": 0.07417986400799292,
+      "cost_paid": 7423.404244820846,
+      "trade_count": 380,
+      "later_return": 0.6581979896467305
+    }
+  ],
+  "caveat": "ETF 메뉴와 전략 설계도 현재 시점의 탐색입니다. 2020년 이후는 순서대로 진행한 과거 구간이며 독립적인 미관측 검증이 아닙니다. 배당은 공급자 수정주가 대용, 현금 이자 0%."
+}

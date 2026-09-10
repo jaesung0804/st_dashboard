@@ -1,0 +1,1889 @@
+[
+  {
+    "date": "2024-01-04",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "pulse_day",
+    "action": "spawn_research_variant",
+    "employee": "pulse_day-E04",
+    "parent": "pulse_day-E02",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "pulse_week",
+    "action": "spawn_research_variant",
+    "employee": "pulse_week-E04",
+    "parent": "pulse_week-E03",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "pulse_month",
+    "action": "spawn_research_variant",
+    "employee": "pulse_month-E04",
+    "parent": "pulse_month-E03",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_quarter",
+    "action": "spawn_research_variant",
+    "employee": "compound_quarter-E04",
+    "parent": "compound_quarter-E03",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_half",
+    "action": "spawn_research_variant",
+    "employee": "compound_half-E04",
+    "parent": "compound_half-E01",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "compound_year",
+    "action": "spawn_research_variant",
+    "employee": "compound_year-E04",
+    "parent": "compound_year-E01",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "adaptive_tactical",
+    "action": "spawn_research_variant",
+    "employee": "adaptive_tactical-E04",
+    "parent": "adaptive_tactical-E01",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-01-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-01-04",
+    "team": "adaptive_defensive",
+    "action": "spawn_research_variant",
+    "employee": "adaptive_defensive-E04",
+    "parent": "adaptive_defensive-E03",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "adaptive_quality",
+    "action": "spawn_research_variant",
+    "employee": "adaptive_quality-E04",
+    "parent": "adaptive_quality-E02",
+    "genome": "moderate",
+    "funding": 0,
+    "reason": "test intermediate rank buffer 15 and volatility budget 35%; no pre-birth credit"
+  },
+  {
+    "date": "2024-04-05",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-04-05",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-07-08",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-07-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2024-10-04",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2024-10-04",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-01-06",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-01-06",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-04-08",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-04-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_week-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-07-10",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-07-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_week-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_month-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2025-10-08",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2025-10-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_week-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_month-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-01-08",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-01-08",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_week-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_month-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "compound_half-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-04-10",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-04-10",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "pulse_day",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "pulse_week",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_week-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "pulse_month",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "pulse_month-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "pulse_month-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "compound_quarter",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "compound_half",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_half-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "compound_half-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "compound_year",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "compound_year-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "adaptive_tactical",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_tactical-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "adaptive_quality",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 0.2,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  },
+  {
+    "date": "2026-07-13",
+    "team": "adaptive_defensive",
+    "action": "quarterly_staff_review",
+    "allocations": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "evidence_end": "2026-07-13",
+    "reason": "past 252-session net return + half drawdown; hurdle allocation"
+  }
+]

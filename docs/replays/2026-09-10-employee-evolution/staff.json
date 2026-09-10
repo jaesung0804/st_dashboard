@@ -1,0 +1,3872 @@
+{
+  "pulse_day": [
+    {
+      "id": "pulse_day-E01",
+      "team": "pulse_day",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.09759732257988973,
+          "max_drawdown": -0.2680019099934673,
+          "score": -0.23159827757662338,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.1537184717416149,
+          "max_drawdown": -0.2226251123418822,
+          "score": -0.265031027912556,
+          "paused": true
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.09436775785188711,
+          "max_drawdown": -0.3037254600301661,
+          "score": -0.057494972163195934,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.5520066512283917,
+          "max_drawdown": -0.10432591658910273,
+          "score": 0.4998436929338403,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.07877771847567305,
+          "max_drawdown": -0.1417892203985669,
+          "score": 0.007883108276389605,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.1268539444300174,
+          "max_drawdown": -0.1905051894825036,
+          "score": -0.2221065391712692,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.1835357918054069,
+          "max_drawdown": -0.27682803480720164,
+          "score": -0.32194980920900773,
+          "paused": true
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.34559298419523854,
+          "max_drawdown": -0.3485113790518044,
+          "score": -0.5198486737211407,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.10197064988786231,
+          "max_drawdown": -0.2228187863805613,
+          "score": -0.21338004307814296,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.1405100421672374,
+          "max_drawdown": -0.21984967084393325,
+          "score": 0.030585206745270765,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": -0.15030653648582937,
+          "max_drawdown": -0.15723022969477685,
+          "score": -0.2289216513332178,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": -0.09469754090077409,
+          "max_drawdown": -0.19139632928953354,
+          "score": -0.19039570554554086,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.35900361156180494,
+          "max_drawdown": -0.12819291223237983,
+          "score": 0.294907155445615,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_day-E02",
+      "team": "pulse_day",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.06222165652637657,
+          "max_drawdown": -0.20651630941184695,
+          "score": -0.16547981123230004,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.13779243396899765,
+          "max_drawdown": -0.21028259379213687,
+          "score": -0.2429337308650661,
+          "paused": true
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.19706213870300182,
+          "max_drawdown": -0.2668404523941351,
+          "score": 0.06364191250593426,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.5548006462166144,
+          "max_drawdown": -0.10698080284552491,
+          "score": 0.501310244793852,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.11558237950202876,
+          "max_drawdown": -0.09117946571997382,
+          "score": 0.06999264664204186,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.02270327932027949,
+          "max_drawdown": -0.12528850747862108,
+          "score": -0.03994097441903105,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.06349440951914198,
+          "max_drawdown": -0.18205650875772983,
+          "score": -0.1545226638980069,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.1950779801416136,
+          "max_drawdown": -0.21557185212879015,
+          "score": -0.30286390620600867,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.1479804896297321,
+          "max_drawdown": -0.21557185212879015,
+          "score": 0.040194563565337016,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.3029949012633013,
+          "max_drawdown": -0.17520265530419066,
+          "score": 0.21539357361120598,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.05192476541099644,
+          "max_drawdown": -0.1638710114132792,
+          "score": -0.030010740295643157,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.2162219640961598,
+          "max_drawdown": -0.11226294936915748,
+          "score": 0.16009048941158105,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.37716919321677045,
+          "max_drawdown": -0.14060505034569304,
+          "score": 0.30686666804392393,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_day-E03",
+      "team": "pulse_day",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.0076261863569654365,
+          "max_drawdown": -0.0882601741332959,
+          "score": -0.051756273423613386,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.07175211165168593,
+          "max_drawdown": -0.1326271728596674,
+          "score": -0.13806569808151964,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.005102155155023991,
+          "max_drawdown": -0.15782735552294058,
+          "score": -0.08401583291649428,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.15947115605022422,
+          "max_drawdown": -0.047640090138699076,
+          "score": 0.13565111098087468,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.0396044356139329,
+          "max_drawdown": -0.042601685070295714,
+          "score": 0.01830359307878504,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.027626424292850005,
+          "max_drawdown": -0.07962858201187328,
+          "score": -0.06744071529878665,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.0324308528534496,
+          "max_drawdown": -0.08958287402333998,
+          "score": -0.07722228986511959,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08725194594374319,
+          "max_drawdown": -0.1035208067347545,
+          "score": -0.13901234931112044,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.03135720227152916,
+          "max_drawdown": -0.10106460127492256,
+          "score": -0.01917509836593212,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.14881981870864092,
+          "max_drawdown": -0.06693182192999902,
+          "score": 0.1153539077436414,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.09561440469895288,
+          "max_drawdown": -0.06613115092186383,
+          "score": 0.06254882923802096,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.1691683458985611,
+          "max_drawdown": -0.061651565366612315,
+          "score": 0.13834256321525495,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.19854468777760514,
+          "max_drawdown": -0.061651565366612315,
+          "score": 0.167718905094299,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_day-E04",
+      "team": "pulse_day",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "pulse_day-E02",
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.06026312377628651,
+          "max_drawdown": -0.054680109024278334,
+          "score": 0.03292306926414734,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.03753187744989739,
+          "max_drawdown": -0.10590371935845033,
+          "score": -0.09048373712912255,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.036741957807126746,
+          "max_drawdown": -0.1153571104012433,
+          "score": -0.0944205130077484,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.12823865138176516,
+          "max_drawdown": -0.16250126683095945,
+          "score": -0.20948928479724488,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.0004711880671179891,
+          "max_drawdown": -0.13585458864105593,
+          "score": -0.06745610625340998,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.1877401609870002,
+          "max_drawdown": -0.07078464018650432,
+          "score": 0.15234784089374803,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.08643125025101206,
+          "max_drawdown": -0.06975241759301742,
+          "score": 0.05155504145450335,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.18942781368672623,
+          "max_drawdown": -0.06345319528091453,
+          "score": 0.15770121604626897,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.28244267547980706,
+          "max_drawdown": -0.06664719020562082,
+          "score": 0.24911908037699665,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "pulse_week": [
+    {
+      "id": "pulse_week-E01",
+      "team": "pulse_week",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.07883848500682966,
+          "max_drawdown": -0.2812714123599537,
+          "score": -0.2194741911868065,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.19028965513467933,
+          "max_drawdown": -0.21834135243228403,
+          "score": -0.29946033135082134,
+          "paused": true
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.06289691367951633,
+          "max_drawdown": -0.2955097628459479,
+          "score": -0.08485796774345761,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.5239541926643454,
+          "max_drawdown": -0.1167095029416586,
+          "score": 0.4655994411935161,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.19614958587309927,
+          "max_drawdown": -0.10761501831066456,
+          "score": 0.142342076717767,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.06920543171597793,
+          "max_drawdown": -0.19298506171514007,
+          "score": -0.16569796257354796,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.09320320362104717,
+          "max_drawdown": -0.19298506171514007,
+          "score": -0.1896957344786172,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.22301904172041398,
+          "max_drawdown": -0.27685119959339743,
+          "score": -0.3614446415171127,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.06542517828160288,
+          "max_drawdown": -0.27685119959339743,
+          "score": -0.07300042151509584,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.3586769124890594,
+          "max_drawdown": -0.20768676576015155,
+          "score": 0.25483352960898364,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.09626023495597091,
+          "max_drawdown": -0.20768676576015155,
+          "score": -0.0075831479241048605,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.19697494220278977,
+          "max_drawdown": -0.0954360925615867,
+          "score": 0.14925689592199642,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.5785619989200796,
+          "max_drawdown": -0.09649778002144604,
+          "score": 0.5303131089093567,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_week-E02",
+      "team": "pulse_week",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.16087083029567673,
+          "max_drawdown": -0.29316277861178863,
+          "score": -0.30745221960157104,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.19982307087847084,
+          "max_drawdown": -0.20835801921897767,
+          "score": -0.3040020804879597,
+          "paused": true
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.06701586418074257,
+          "max_drawdown": -0.2748692550081787,
+          "score": -0.07041876332334679,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.5215403993697947,
+          "max_drawdown": -0.12029105590299205,
+          "score": 0.46139487141829866,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.20628530517985988,
+          "max_drawdown": -0.10919913216550114,
+          "score": 0.1516857390971093,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.08774746657197108,
+          "max_drawdown": -0.1819870040678777,
+          "score": -0.17874096860590993,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.09829470106758798,
+          "max_drawdown": -0.20947347069948974,
+          "score": -0.20303143641733284,
+          "paused": true
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.20701525954656175,
+          "max_drawdown": -0.25031332399964135,
+          "score": -0.3321719215463824,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.07762844183044515,
+          "max_drawdown": -0.25031332399964135,
+          "score": -0.047528220169375524,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.3312884898646782,
+          "max_drawdown": -0.1988916763822497,
+          "score": 0.23184265167355333,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.17712521412074667,
+          "max_drawdown": -0.1988916763822497,
+          "score": 0.07767937592962182,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.2738875439041266,
+          "max_drawdown": -0.13011904812430874,
+          "score": 0.20882801984197225,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.34286713800602087,
+          "max_drawdown": -0.13011904812430874,
+          "score": 0.2778076139438665,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_week-E03",
+      "team": "pulse_week",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.06309068486807823,
+          "max_drawdown": -0.13718289079934642,
+          "score": -0.13168213026775144,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.06140251538075936,
+          "max_drawdown": -0.09726162421404139,
+          "score": -0.11003332748778005,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.0367765862166628,
+          "max_drawdown": -0.1286214535927298,
+          "score": -0.1010873130130277,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.062444206343130304,
+          "max_drawdown": -0.06328467167071528,
+          "score": 0.030801870507772666,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.0052244869384048265,
+          "max_drawdown": -0.05481781204927849,
+          "score": -0.03263339296304407,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.05763334426611055,
+          "max_drawdown": -0.10260506988782414,
+          "score": -0.10893587921002262,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.0578494874532417,
+          "max_drawdown": -0.10260714447606423,
+          "score": -0.10915305969127381,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.06724334491013106,
+          "max_drawdown": -0.10003827695336687,
+          "score": -0.1172624833868145,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.08609159167260749,
+          "max_drawdown": -0.10003827695336687,
+          "score": 0.03607245319592406,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.1829692201159856,
+          "max_drawdown": -0.07038531923142499,
+          "score": 0.1477765605002731,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.12504602751771432,
+          "max_drawdown": -0.07038531923142499,
+          "score": 0.08985336790200182,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.1366429255234658,
+          "max_drawdown": -0.07033854212506896,
+          "score": 0.10147365446093132,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.16012483338930816,
+          "max_drawdown": -0.07033854212506896,
+          "score": 0.12495556232677368,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_week-E04",
+      "team": "pulse_week",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "pulse_week-E02",
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.001807157864047504,
+          "max_drawdown": -0.06878646254623366,
+          "score": -0.03258607340906933,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.053792921373936764,
+          "max_drawdown": -0.11994103275539791,
+          "score": -0.11376343775163572,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.05937488552674819,
+          "max_drawdown": -0.12468078718853581,
+          "score": -0.1217152791210161,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.06385221656362516,
+          "max_drawdown": -0.1158971122179766,
+          "score": -0.12180077267261347,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.13754060556460312,
+          "max_drawdown": -0.1158971122179766,
+          "score": 0.07959204945561482,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.25121821794134735,
+          "max_drawdown": -0.10678244832992256,
+          "score": 0.19782699377638607,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.1675266842498242,
+          "max_drawdown": -0.10678244832992256,
+          "score": 0.11413546008486292,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.15743418255140496,
+          "max_drawdown": -0.09777490382793719,
+          "score": 0.10854673063743636,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.21276622648793353,
+          "max_drawdown": -0.09777490382793719,
+          "score": 0.16387877457396494,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "pulse_month": [
+    {
+      "id": "pulse_month-E01",
+      "team": "pulse_month",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.09364784216978173,
+          "max_drawdown": -0.2355288309024165,
+          "score": -0.21141225762098997,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.13131411685172978,
+          "max_drawdown": -0.1650701879895845,
+          "score": -0.21384921084652203,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.007884810614702475,
+          "max_drawdown": -0.23681401847091843,
+          "score": -0.11052219862075674,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.1796480027711964,
+          "max_drawdown": -0.12389523466393948,
+          "score": 0.11770038543922667,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.07511818642639312,
+          "max_drawdown": -0.1469306193915073,
+          "score": -0.14858349612214677,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.17697565779615798,
+          "max_drawdown": -0.24643494126535592,
+          "score": -0.30019312842883594,
+          "paused": true
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.05833474827540852,
+          "max_drawdown": -0.15381835587739368,
+          "score": -0.13524392621410536,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.29626537494904104,
+          "max_drawdown": -0.36565125768612117,
+          "score": -0.4790910037921016,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.07689308043890719,
+          "max_drawdown": -0.33528468441913006,
+          "score": -0.24453542264847222,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.516174254803224,
+          "max_drawdown": -0.10777912862866335,
+          "score": 0.4622846904888923,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.25107959548634184,
+          "max_drawdown": -0.10777912862866335,
+          "score": 0.19719003117201017,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.25150349453920695,
+          "max_drawdown": -0.1226601261170106,
+          "score": 0.19017343148070165,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.20241088303576493,
+          "max_drawdown": -0.1493162184065785,
+          "score": 0.12775277383247569,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_month-E02",
+      "team": "pulse_month",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.1126771860836534,
+          "max_drawdown": -0.2404154527137754,
+          "score": -0.2328849124405411,
+          "paused": true
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.14673962222657766,
+          "max_drawdown": -0.15377847303495784,
+          "score": -0.22362885874405658,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.006031834807628478,
+          "max_drawdown": -0.22584040377567982,
+          "score": -0.10688836708021143,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.2167900682487076,
+          "max_drawdown": -0.1084763202525717,
+          "score": 0.16255190812242176,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.02375321679885123,
+          "max_drawdown": -0.1355316334971104,
+          "score": -0.09151903354740643,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.13156290111071178,
+          "max_drawdown": -0.22397470721362311,
+          "score": -0.24355025471752334,
+          "paused": true
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.004068670586974132,
+          "max_drawdown": -0.1375767845028777,
+          "score": -0.07285706283841298,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.2770127622864751,
+          "max_drawdown": -0.3455763472684039,
+          "score": -0.44980093592067705,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.10402701143763249,
+          "max_drawdown": -0.3445817343869073,
+          "score": -0.27631787863108614,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.4914669221654884,
+          "max_drawdown": -0.09959592559920416,
+          "score": 0.4416689593658863,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.2525956053090672,
+          "max_drawdown": -0.09959592559920416,
+          "score": 0.20279764250946514,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.2566739481260849,
+          "max_drawdown": -0.12354893312571413,
+          "score": 0.19489948156322784,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.25077347316178566,
+          "max_drawdown": -0.14060647671326898,
+          "score": 0.18047023480515118,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_month-E03",
+      "team": "pulse_month",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.050108776015731604,
+          "max_drawdown": -0.12945639444209034,
+          "score": -0.11483697323677677,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.06642974895005327,
+          "max_drawdown": -0.0865513298436571,
+          "score": -0.10970541387188182,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.008994930281743807,
+          "max_drawdown": -0.1260073310002433,
+          "score": -0.054008735218377846,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.04469848418130318,
+          "max_drawdown": -0.06342371296847016,
+          "score": 0.012986627697068098,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.05425067525502092,
+          "max_drawdown": -0.0847456904334094,
+          "score": -0.09662352047172562,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.04792346475442544,
+          "max_drawdown": -0.10355220817249977,
+          "score": -0.09969956884067532,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.013168424370327836,
+          "max_drawdown": -0.06804339884503163,
+          "score": -0.02085327505218798,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08273460456691895,
+          "max_drawdown": -0.139931140926976,
+          "score": -0.15270017503040695,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.00936100375998572,
+          "max_drawdown": -0.139931140926976,
+          "score": -0.07932657422347372,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.22289440114812442,
+          "max_drawdown": -0.043079319176757225,
+          "score": 0.2013547415597458,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.16638875042206447,
+          "max_drawdown": -0.043079319176757225,
+          "score": 0.14484909083368586,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.14367739005622204,
+          "max_drawdown": -0.06102764751192935,
+          "score": 0.11316356630025737,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.11052212943193807,
+          "max_drawdown": -0.06437713380265453,
+          "score": 0.0783335625306108,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "pulse_month-E04",
+      "team": "pulse_month",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "pulse_month-E03",
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.08669933433530141,
+          "max_drawdown": -0.11906127652981358,
+          "score": -0.1462299726002082,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.07073802686651132,
+          "max_drawdown": -0.12461600452317956,
+          "score": -0.1330460291281011,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.029347665476854745,
+          "max_drawdown": -0.06922066616973299,
+          "score": -0.005262667608011751,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.09834961426455158,
+          "max_drawdown": -0.17584897989788184,
+          "score": -0.1862741042134925,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.0006057453883443475,
+          "max_drawdown": -0.16840027586884798,
+          "score": -0.08359439254607964,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.3233722851955887,
+          "max_drawdown": -0.054202728349435736,
+          "score": 0.2962709210208708,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.21835200047493664,
+          "max_drawdown": -0.054202728349435736,
+          "score": 0.19125063630021877,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.1451851738467953,
+          "max_drawdown": -0.08450615615228552,
+          "score": 0.10293209577065254,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.15540636506915217,
+          "max_drawdown": -0.08450615615228552,
+          "score": 0.11315328699300942,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "compound_quarter": [
+    {
+      "id": "compound_quarter-E01",
+      "team": "compound_quarter",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.034405801622493515,
+          "max_drawdown": -0.2310806662482352,
+          "score": -0.08113453150162409,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": 0.017012984530864417,
+          "max_drawdown": -0.11510045865507901,
+          "score": -0.04053724479667509,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.05928171199694732,
+          "max_drawdown": -0.1649760057151276,
+          "score": -0.023206290860616485,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.13865598462508322,
+          "max_drawdown": -0.10852331410875549,
+          "score": 0.08439432757070547,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.020636293921510784,
+          "max_drawdown": -0.11119920279260498,
+          "score": -0.034963307474791705,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.03838627647676418,
+          "max_drawdown": -0.10439104590223858,
+          "score": -0.013809246474355108,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.1626207989220072,
+          "max_drawdown": -0.09676107565502345,
+          "score": 0.11424026109449548,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.18776826892122622,
+          "max_drawdown": -0.3052670305564156,
+          "score": -0.340401784199434,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.11190493661920176,
+          "max_drawdown": -0.3052670305564156,
+          "score": -0.04072857865900603,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.6795938197088265,
+          "max_drawdown": -0.09670644368587578,
+          "score": 0.6312405978658886,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.13659306983013364,
+          "max_drawdown": -0.090248381246676,
+          "score": 0.09146887920679564,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.09510894571630213,
+          "max_drawdown": -0.09534574043707766,
+          "score": 0.0474360754977633,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.4346023874488443,
+          "max_drawdown": -0.11709223157727855,
+          "score": 0.376056271660205,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_quarter-E02",
+      "team": "compound_quarter",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.03926230481853299,
+          "max_drawdown": -0.23165788112846664,
+          "score": -0.07656663574570033,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": 0.017115763847066257,
+          "max_drawdown": -0.11546709170808411,
+          "score": -0.0406177820069758,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.05286505658321583,
+          "max_drawdown": -0.16681307409414603,
+          "score": -0.030541480463857185,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.15247821178159882,
+          "max_drawdown": -0.10860660234206687,
+          "score": 0.09817491061056538,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.08036817814446673,
+          "max_drawdown": -0.06581142661953232,
+          "score": 0.04746246483470057,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.07322042615323654,
+          "max_drawdown": -0.09825777331531038,
+          "score": 0.02409153949558135,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.15224450987819127,
+          "max_drawdown": -0.09825777331531038,
+          "score": 0.10311562322053608,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.1716080537614505,
+          "max_drawdown": -0.2894856007875892,
+          "score": -0.3163508541552451,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.06003561280429004,
+          "max_drawdown": -0.28339471714877695,
+          "score": -0.08166174577009844,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.5196634856305684,
+          "max_drawdown": -0.08368325494150552,
+          "score": 0.47782185815981565,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.07950463122163964,
+          "max_drawdown": -0.07584567960666733,
+          "score": 0.04158179141830598,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": -0.025445201742580914,
+          "max_drawdown": -0.1287915697153994,
+          "score": -0.08984098660028061,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.2251616719712235,
+          "max_drawdown": -0.1287915697153994,
+          "score": 0.1607658871135238,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_quarter-E03",
+      "team": "compound_quarter",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.05232135764446233,
+          "max_drawdown": -0.07342603273320158,
+          "score": 0.015608341277861537,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.0043048012608949415,
+          "max_drawdown": -0.061173015336477676,
+          "score": -0.03489130892913378,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.00862212860221545,
+          "max_drawdown": -0.09020810260593515,
+          "score": -0.053726179905183025,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.1359857849707049,
+          "max_drawdown": -0.054353892331505116,
+          "score": 0.10880883880495235,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.1255064931663219,
+          "max_drawdown": -0.048644631822905016,
+          "score": 0.10118417725486939,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.010586375847166485,
+          "max_drawdown": -0.07319773730857515,
+          "score": -0.04718524450145406,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.011239338226782358,
+          "max_drawdown": -0.07319773730857515,
+          "score": -0.025359530427505217,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08825142574455491,
+          "max_drawdown": -0.14126155857362332,
+          "score": -0.15888220503136657,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.06691364531694177,
+          "max_drawdown": -0.13464937831642632,
+          "score": -0.13423833447515493,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.21508741270474974,
+          "max_drawdown": -0.028190752780502093,
+          "score": 0.2009920363144987,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.2935719472627405,
+          "max_drawdown": -0.04734498684443689,
+          "score": 0.26989945384052205,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.22776084045138845,
+          "max_drawdown": -0.08353589353520685,
+          "score": 0.18599289368378502,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.17166203718840478,
+          "max_drawdown": -0.08353589353520685,
+          "score": 0.12989409042080136,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_quarter-E04",
+      "team": "compound_quarter",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "compound_quarter-E01",
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.24122417172209132,
+          "max_drawdown": -0.04789311209506819,
+          "score": 0.21727761567455722,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.04881973869690692,
+          "max_drawdown": -0.0716081285870318,
+          "score": 0.01301567440339102,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.02041544409730167,
+          "max_drawdown": -0.07877272598956397,
+          "score": -0.018970918897480316,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.07354538252929299,
+          "max_drawdown": -0.15129379040301294,
+          "score": -0.14919227773079946,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.05953720055298373,
+          "max_drawdown": -0.1316661643428787,
+          "score": -0.12537028272442308,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.23692407296389661,
+          "max_drawdown": -0.03926454897122034,
+          "score": 0.21729179847828645,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.305915786442416,
+          "max_drawdown": -0.08078014448804183,
+          "score": 0.2655257141983951,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.24343050574375735,
+          "max_drawdown": -0.10587468315815796,
+          "score": 0.19049316416467837,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.16954335624239736,
+          "max_drawdown": -0.10587468315815796,
+          "score": 0.11660601466331838,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "compound_half": [
+    {
+      "id": "compound_half-E01",
+      "team": "compound_half",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.07788523488672383,
+          "max_drawdown": -0.12176409451442016,
+          "score": 0.01700318762951375,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": 0.08123974094796793,
+          "max_drawdown": -0.06479945461817915,
+          "score": 0.048840013638878355,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.11896806970913953,
+          "max_drawdown": -0.11138802116595548,
+          "score": 0.0632740591261618,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.13406033485715163,
+          "max_drawdown": -0.06048887314776352,
+          "score": 0.10381589828326987,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.11540215397630016,
+          "max_drawdown": -0.07589348009182495,
+          "score": 0.07745541393038768,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.09969189605413531,
+          "max_drawdown": -0.08387840616966746,
+          "score": 0.05775269296930158,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.08915447874658589,
+          "max_drawdown": -0.08387840616966746,
+          "score": 0.047215275661752154,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.2105672143223699,
+          "max_drawdown": -0.28753711835516305,
+          "score": -0.35433577349995143,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.05497523949821059,
+          "max_drawdown": -0.26991810122910154,
+          "score": -0.18993429011276136,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.43953656810603703,
+          "max_drawdown": -0.036821925017960555,
+          "score": 0.42112560559705675,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.18023753741100568,
+          "max_drawdown": -0.06480994198793688,
+          "score": 0.14783256641703724,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": -0.06405465135328958,
+          "max_drawdown": -0.11547514148282934,
+          "score": -0.12179222209470425,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": -0.038433283438043864,
+          "max_drawdown": -0.11187726042605695,
+          "score": -0.09437191365107234,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_half-E02",
+      "team": "compound_half",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.07788523488672383,
+          "max_drawdown": -0.12176409451442016,
+          "score": 0.01700318762951375,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": 0.05731619321783943,
+          "max_drawdown": -0.07050354393810032,
+          "score": 0.022064421248789268,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.0836747805692688,
+          "max_drawdown": -0.10970870987990855,
+          "score": 0.028820425629314528,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.10764577671634679,
+          "max_drawdown": -0.06384867701267238,
+          "score": 0.0757214382100106,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.08954367197469693,
+          "max_drawdown": -0.08288015973873564,
+          "score": 0.04810359210532911,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.0935067963311107,
+          "max_drawdown": -0.0815520982360044,
+          "score": 0.0527307472131085,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.09134821683851313,
+          "max_drawdown": -0.0815520982360044,
+          "score": 0.05057216772051093,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.20558477665622754,
+          "max_drawdown": -0.27764926792393885,
+          "score": -0.34440941061819697,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.04937799317125169,
+          "max_drawdown": -0.2590425092549836,
+          "score": -0.1788992477987435,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.43561224447526437,
+          "max_drawdown": -0.037492882398125094,
+          "score": 0.4168658032762018,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.10915833997734703,
+          "max_drawdown": -0.10463293829935894,
+          "score": 0.05684187082766756,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": -0.1288848554638511,
+          "max_drawdown": -0.16869660287224408,
+          "score": -0.21323315689997313,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": -0.04963057718595831,
+          "max_drawdown": -0.11781661098187224,
+          "score": -0.10853888267689443,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_half-E03",
+      "team": "compound_half",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": 0.00417626690041728,
+          "max_drawdown": -0.09872772223729909,
+          "score": -0.04518759421823226,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.03574174187919288,
+          "max_drawdown": -0.09968289284336274,
+          "score": -0.08558318830087425,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.022243385717540587,
+          "max_drawdown": -0.1284506820365664,
+          "score": -0.04198195530074261,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.14143966394361374,
+          "max_drawdown": -0.050786434985548135,
+          "score": 0.11604644645083967,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.07724138698096539,
+          "max_drawdown": -0.0683841590279779,
+          "score": 0.04304930746697644,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.004581758107685907,
+          "max_drawdown": -0.06110498805650855,
+          "score": -0.025970735920568366,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.00550597551296339,
+          "max_drawdown": -0.06110498805650855,
+          "score": -0.025046518515290883,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.09519559107327358,
+          "max_drawdown": -0.12119913749459554,
+          "score": -0.15579515982057135,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.00401888427321484,
+          "max_drawdown": -0.12119913749459554,
+          "score": -0.06461845302051261,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.23092650703060857,
+          "max_drawdown": -0.029442559798053103,
+          "score": 0.21620522713158202,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.11948871780925319,
+          "max_drawdown": -0.07187264107006186,
+          "score": 0.08355239727422226,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.09206321037766263,
+          "max_drawdown": -0.07187264107006186,
+          "score": 0.0561268898426317,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.08654368722957217,
+          "max_drawdown": -0.07775672930741562,
+          "score": 0.047665322575864366,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_half-E04",
+      "team": "compound_half",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "compound_half-E01",
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.08312439588810339,
+          "max_drawdown": -0.08187066778617891,
+          "score": 0.04218906199501393,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.017592444868890444,
+          "max_drawdown": -0.07339896229103138,
+          "score": -0.05429192601440613,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.003886753342568605,
+          "max_drawdown": -0.061202846753251605,
+          "score": -0.026714670034057197,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.09032126287304632,
+          "max_drawdown": -0.1217977107117233,
+          "score": -0.15122011822890796,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.0010955163672339285,
+          "max_drawdown": -0.1217977107117233,
+          "score": -0.05980333898862772,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.2816784546652005,
+          "max_drawdown": -0.0416913315741414,
+          "score": 0.2608327888781298,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.16646497588547837,
+          "max_drawdown": -0.10169413683341844,
+          "score": 0.11561790746876915,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.10611494085668483,
+          "max_drawdown": -0.10169413683341844,
+          "score": 0.05526787243997561,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.11180104788054601,
+          "max_drawdown": -0.09773174942592167,
+          "score": 0.06293517316758518,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "compound_year": [
+    {
+      "id": "compound_year-E01",
+      "team": "compound_year",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.0005184702102608574,
+          "max_drawdown": -0.13218564049281079,
+          "score": -0.06661129045666625,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.09490663990029313,
+          "max_drawdown": -0.12886051632723072,
+          "score": -0.1593368980639085,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.07579667483216301,
+          "max_drawdown": -0.15144183560821434,
+          "score": 7.575702805584505e-05,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.2459818436897283,
+          "max_drawdown": -0.05389113000713641,
+          "score": 0.2190362786861601,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.12886043423388638,
+          "max_drawdown": -0.053297641422847764,
+          "score": 0.1022116135224625,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.005526556031344221,
+          "max_drawdown": -0.12688374405576053,
+          "score": -0.06896842805922448,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.062225062980453716,
+          "max_drawdown": -0.12688374405576053,
+          "score": -0.12566693500833398,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.30809725933575394,
+          "max_drawdown": -0.33821703104399814,
+          "score": -0.477205774857753,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.08766790173132777,
+          "max_drawdown": -0.32131297043212304,
+          "score": -0.2483243869473893,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.3944675837530054,
+          "max_drawdown": -0.06909478028687854,
+          "score": 0.3599201936095661,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.01828520071339823,
+          "max_drawdown": -0.09745039300495828,
+          "score": -0.03043999578908091,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": -0.026330448202294354,
+          "max_drawdown": -0.09419808233122307,
+          "score": -0.07342948936790589,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.05069972523486421,
+          "max_drawdown": -0.058264473677601014,
+          "score": 0.021567488396063705,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_year-E02",
+      "team": "compound_year",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.0005184702102608574,
+          "max_drawdown": -0.13218564049281079,
+          "score": -0.06661129045666625,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.09490663990029313,
+          "max_drawdown": -0.12886051632723072,
+          "score": -0.1593368980639085,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.07579667483216301,
+          "max_drawdown": -0.15144183560821434,
+          "score": 7.575702805584505e-05,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.22395614546834364,
+          "max_drawdown": -0.05389113000713641,
+          "score": 0.19701058046477543,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.06991419531139886,
+          "max_drawdown": -0.08209439168985488,
+          "score": 0.02886699946647142,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.05365385783187537,
+          "max_drawdown": -0.14935396802900403,
+          "score": -0.12833084184637739,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.06785674021255383,
+          "max_drawdown": -0.15530183147590537,
+          "score": -0.14550765595050652,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.21861401151484405,
+          "max_drawdown": -0.2606262744712545,
+          "score": -0.3489271487504713,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.006094578610140289,
+          "max_drawdown": -0.23616463558451262,
+          "score": -0.1241768964023966,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.4553106448317974,
+          "max_drawdown": -0.03187595141468935,
+          "score": 0.4393726691244527,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.13168513410632388,
+          "max_drawdown": -0.06485349911294447,
+          "score": 0.09925838454985164,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.05554072261475573,
+          "max_drawdown": -0.07700901126626991,
+          "score": 0.017036216981620778,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.03141717268680355,
+          "max_drawdown": -0.08944968477888837,
+          "score": -0.013307669702640634,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_year-E03",
+      "team": "compound_year",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.0022677493208118626,
+          "max_drawdown": -0.08650140184973942,
+          "score": -0.045518450245681574,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.06825346254361264,
+          "max_drawdown": -0.09354903942433823,
+          "score": -0.11502798225578176,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.04953454133727897,
+          "max_drawdown": -0.11080628228327838,
+          "score": -0.0058685998043602194,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.22843468080978102,
+          "max_drawdown": -0.03607820675063145,
+          "score": 0.2103955774344653,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.1283638125794193,
+          "max_drawdown": -0.04873565241434863,
+          "score": 0.103995986372245,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.02054798250461487,
+          "max_drawdown": -0.10224892683099429,
+          "score": -0.030576480910882275,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.03638808026496965,
+          "max_drawdown": -0.10224892683099429,
+          "score": -0.014736383150527499,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08318863970025836,
+          "max_drawdown": -0.14311782512192917,
+          "score": -0.15474755226122294,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.027199845859941618,
+          "max_drawdown": -0.13200860058253472,
+          "score": -0.03880445443132574,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.19300214535118831,
+          "max_drawdown": -0.030546821647464695,
+          "score": 0.17772873452745597,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.01782808520264112,
+          "max_drawdown": -0.04776763822360164,
+          "score": -0.0060557339091596996,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.0862707830828231,
+          "max_drawdown": -0.08690890567126675,
+          "score": 0.04281633024718973,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.21030962166671996,
+          "max_drawdown": -0.08690890567126675,
+          "score": 0.1668551688310866,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "compound_year-E04",
+      "team": "compound_year",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "compound_year-E01",
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.12306296343914158,
+          "max_drawdown": -0.06664438536842088,
+          "score": 0.08974077075493114,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.04614688788214283,
+          "max_drawdown": -0.1562710060315583,
+          "score": -0.12428239089792198,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.07034144128428221,
+          "max_drawdown": -0.1562710060315583,
+          "score": -0.14847694430006136,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.10622570781245211,
+          "max_drawdown": -0.1401403221033085,
+          "score": -0.17629586886410636,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.02445609699606255,
+          "max_drawdown": -0.1336564540375047,
+          "score": -0.0423721300226898,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.1635294582549527,
+          "max_drawdown": -0.04317372286588095,
+          "score": 0.1419425968220122,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.0005943767079101825,
+          "max_drawdown": -0.04317372286588095,
+          "score": -0.02099248472503029,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.11387236238385068,
+          "max_drawdown": -0.1134595666868623,
+          "score": 0.05714257904041953,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.28652780442144565,
+          "max_drawdown": -0.1134595666868623,
+          "score": 0.2297980210780145,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "adaptive_tactical": [
+    {
+      "id": "adaptive_tactical-E01",
+      "team": "adaptive_tactical",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.08861732504392217,
+          "max_drawdown": -0.1582987269263395,
+          "score": -0.16776668850709192,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.033496925353104556,
+          "max_drawdown": -0.06676380783096025,
+          "score": -0.06687882926858468,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 6.458659139085832e-05,
+          "max_drawdown": -0.08677189600932511,
+          "score": -0.0433213614132717,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.05830039254708841,
+          "max_drawdown": -0.07702144673916222,
+          "score": 0.019789669177507296,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.058398790201484974,
+          "max_drawdown": -0.09620760336405387,
+          "score": -0.10650259188351191,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.075096612791551,
+          "max_drawdown": -0.11747101190868792,
+          "score": -0.13383211874589496,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.01880890835623772,
+          "max_drawdown": -0.0953686529815726,
+          "score": -0.06649323484702402,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08264190477707145,
+          "max_drawdown": -0.14037016952015857,
+          "score": -0.15282698953715074,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.015002244981928703,
+          "max_drawdown": -0.07993064147893603,
+          "score": -0.02496307575753931,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.10819347099494614,
+          "max_drawdown": -0.04876431092330358,
+          "score": 0.08381131553329435,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": -0.012319666617832459,
+          "max_drawdown": -0.08854136756031294,
+          "score": -0.05659035039798893,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.02241251181300674,
+          "max_drawdown": -0.06747704483563344,
+          "score": -0.011326010604809977,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.14859061025387743,
+          "max_drawdown": -0.0547676358605762,
+          "score": 0.12120679232358933,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_tactical-E02",
+      "team": "adaptive_tactical",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.11166344266158557,
+          "max_drawdown": -0.1776902361162097,
+          "score": -0.20050856071969042,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.05013709717698678,
+          "max_drawdown": -0.06474173581336895,
+          "score": -0.08250796508367125,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.004947944371578306,
+          "max_drawdown": -0.08446114709142638,
+          "score": -0.047178517917291496,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.08185901083865876,
+          "max_drawdown": -0.07039144099894845,
+          "score": 0.04666329033918454,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.020446380191745606,
+          "max_drawdown": -0.07426498186884545,
+          "score": -0.05757887112616833,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.021701174048190053,
+          "max_drawdown": -0.08469057703670613,
+          "score": -0.06404646256654312,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.07902090036668019,
+          "max_drawdown": -0.05746810711216854,
+          "score": 0.05028684681059592,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.04525604917060844,
+          "max_drawdown": -0.105182443165723,
+          "score": -0.09784727075346994,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.016290400476694833,
+          "max_drawdown": -0.08561632392823504,
+          "score": -0.026517761487422686,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.09857012072634919,
+          "max_drawdown": -0.05170397568758478,
+          "score": 0.0727181328825568,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.009800155767180518,
+          "max_drawdown": -0.08053285850039948,
+          "score": -0.030466273483019224,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.04545772727827946,
+          "max_drawdown": -0.061179750976195324,
+          "score": 0.014867851790181796,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.1174883688280135,
+          "max_drawdown": -0.06428891720849428,
+          "score": 0.08534391022376636,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_tactical-E03",
+      "team": "adaptive_tactical",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.11135473409863028,
+          "max_drawdown": -0.1769542775187537,
+          "score": -0.19983187285800713,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.05551661155317478,
+          "max_drawdown": -0.07996492072101324,
+          "score": -0.0954990719136814,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.016848119063881173,
+          "max_drawdown": -0.10869603543457962,
+          "score": -0.07119613678117098,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.08068764325711708,
+          "max_drawdown": -0.06390087328668903,
+          "score": 0.048737206613772566,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.02039516695584842,
+          "max_drawdown": -0.06610545769244836,
+          "score": -0.0534478958020726,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.02854516525864914,
+          "max_drawdown": -0.08271606507101104,
+          "score": -0.06990319779415466,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.06380832123989144,
+          "max_drawdown": -0.06837303383193782,
+          "score": 0.02962180432392253,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.04450747202858596,
+          "max_drawdown": -0.10772972688546967,
+          "score": -0.0983723354713208,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.0026448013503284074,
+          "max_drawdown": -0.08393666204328998,
+          "score": -0.03932352967131658,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.09748334532154668,
+          "max_drawdown": -0.03221689294339192,
+          "score": 0.08137489884985072,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.012568424315705595,
+          "max_drawdown": -0.07788878893289752,
+          "score": -0.026375970150743167,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.035501310713295986,
+          "max_drawdown": -0.05927502714149424,
+          "score": 0.0058637971425488655,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.15974542130653968,
+          "max_drawdown": -0.05629470227445277,
+          "score": 0.1315980701693133,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_tactical-E04",
+      "team": "adaptive_tactical",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "adaptive_tactical-E01",
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -0.047700928399014964,
+          "max_drawdown": -0.09025709679518157,
+          "score": -0.09282947679660575,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.049725202611659025,
+          "max_drawdown": -0.1102979895511591,
+          "score": -0.10487419738723858,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.06750716327539874,
+          "max_drawdown": -0.07155482009130709,
+          "score": 0.031729753229745195,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.036832059554829044,
+          "max_drawdown": -0.10656925477614454,
+          "score": -0.09011668694290131,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": 0.029066423407234865,
+          "max_drawdown": -0.0755372679670957,
+          "score": -0.008702210576312985,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.12129285678046564,
+          "max_drawdown": -0.04057498376526991,
+          "score": 0.10100536489783069,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.00928410894280196,
+          "max_drawdown": -0.07901956579246983,
+          "score": -0.030225673953432952,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.02594743708277525,
+          "max_drawdown": -0.05909663360870443,
+          "score": -0.003600879721576966,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.1076498859357391,
+          "max_drawdown": -0.06308575930763127,
+          "score": 0.07610700628192346,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "adaptive_quality": [
+    {
+      "id": "adaptive_quality-E01",
+      "team": "adaptive_quality",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.08526870939405906,
+          "max_drawdown": -0.17810016172197773,
+          "score": -0.17431879025504793,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.11228163418046566,
+          "max_drawdown": -0.16222388506302488,
+          "score": -0.1933935767119781,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.013128137100871573,
+          "max_drawdown": -0.17200322224615894,
+          "score": -0.09912974822395104,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.12299337335904426,
+          "max_drawdown": -0.044575336752913586,
+          "score": 0.10070570498258746,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.11202470911498863,
+          "max_drawdown": -0.06557896630455307,
+          "score": 0.0792352259627121,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.0013444575943108994,
+          "max_drawdown": -0.1340386924318454,
+          "score": -0.0683638038102336,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.04111549199430464,
+          "max_drawdown": -0.09688849298575686,
+          "score": -0.007328754498573786,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.1638258620787859,
+          "max_drawdown": -0.28669988736885643,
+          "score": -0.3071758057632141,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.044487223401415865,
+          "max_drawdown": -0.25769302312929054,
+          "score": -0.17333373496606114,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.42202550762586855,
+          "max_drawdown": -0.08536533815739145,
+          "score": 0.3793428385471728,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.269648833215103,
+          "max_drawdown": -0.08536533815739145,
+          "score": 0.2269661641364073,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.3155672681509005,
+          "max_drawdown": -0.06334052318569927,
+          "score": 0.2838970065580509,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.18299466504819617,
+          "max_drawdown": -0.157360331709268,
+          "score": 0.10431449919356217,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_quality-E02",
+      "team": "adaptive_quality",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.06996053061959095,
+          "max_drawdown": -0.17333800703082725,
+          "score": -0.15662953413500458,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.09272509441633803,
+          "max_drawdown": -0.12687849152161002,
+          "score": -0.15616434017714304,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.02608819246512728,
+          "max_drawdown": -0.1454180308416988,
+          "score": -0.09879720788597668,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.17135527143337081,
+          "max_drawdown": -0.0390105432156761,
+          "score": 0.15184999982553277,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.15697874215269625,
+          "max_drawdown": -0.058373792335280505,
+          "score": 0.127791845985056,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.009026467928497928,
+          "max_drawdown": -0.11946235601831035,
+          "score": -0.0687576459376531,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.09528426637398368,
+          "max_drawdown": -0.09384421778557406,
+          "score": 0.048362157481196655,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.12286397647064773,
+          "max_drawdown": -0.27339484663055624,
+          "score": -0.25956139978592585,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.09312790854142872,
+          "max_drawdown": -0.27339484663055624,
+          "score": -0.22982533185670684,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.37608122400073407,
+          "max_drawdown": -0.07665993076515265,
+          "score": 0.33775125861815775,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.25833871676313147,
+          "max_drawdown": -0.07665993076515265,
+          "score": 0.22000875138055515,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.22605268803809198,
+          "max_drawdown": -0.06622659264738129,
+          "score": 0.19293939171440133,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.17196743175243978,
+          "max_drawdown": -0.10253243720618188,
+          "score": 0.12070121314934884,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_quality-E03",
+      "team": "adaptive_quality",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.06563309824539976,
+          "max_drawdown": -0.15210602023502406,
+          "score": -0.1416861083629118,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.09011743682638973,
+          "max_drawdown": -0.10683540036032646,
+          "score": -0.14353513700655296,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.05277979438784419,
+          "max_drawdown": -0.13165651584024107,
+          "score": -0.11860805230796473,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.11273694539229107,
+          "max_drawdown": -0.04724160883979234,
+          "score": 0.0891161409723949,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.10875084975722027,
+          "max_drawdown": -0.05787655971582095,
+          "score": 0.0798125698993098,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": -0.016886668564610963,
+          "max_drawdown": -0.12295249999146407,
+          "score": -0.078362918560343,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.0029459629719256197,
+          "max_drawdown": -0.10825928088846504,
+          "score": -0.05707560341615814,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.13474980026502437,
+          "max_drawdown": -0.203681781992344,
+          "score": -0.23659069126119636,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.09710466090366232,
+          "max_drawdown": -0.203681781992344,
+          "score": -0.19894555189983432,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.15047559621402273,
+          "max_drawdown": -0.040095044124974666,
+          "score": 0.1304280741515354,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.13918888870582746,
+          "max_drawdown": -0.04849265861018037,
+          "score": 0.11494255940073728,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.19529701640761177,
+          "max_drawdown": -0.052036586801072926,
+          "score": 0.1692787230070753,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.13381015516869232,
+          "max_drawdown": -0.07288661809729724,
+          "score": 0.0973668461200437,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_quality-E04",
+      "team": "adaptive_quality",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "adaptive_quality-E02",
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.14263354084588764,
+          "max_drawdown": -0.08678172156566744,
+          "score": 0.09924268006305392,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.004565344767201829,
+          "max_drawdown": -0.14252054351781518,
+          "score": -0.06669492699170576,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": -0.017254060988554087,
+          "max_drawdown": -0.10691492209591713,
+          "score": -0.07071152203651265,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.21567306125490415,
+          "max_drawdown": -0.25797603309655703,
+          "score": -0.34466107780318267,
+          "paused": true
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.10842304300125372,
+          "max_drawdown": -0.254523854675917,
+          "score": -0.2356849703392122,
+          "paused": true
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.26870998566789095,
+          "max_drawdown": -0.05351065916471376,
+          "score": 0.24195465608553407,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.16223892227328474,
+          "max_drawdown": -0.05351065916471376,
+          "score": 0.13548359269092786,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.21325279373318562,
+          "max_drawdown": -0.0636364688979677,
+          "score": 0.18143455928420177,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.17562350123480863,
+          "max_drawdown": -0.10023372855990009,
+          "score": 0.12550663695485859,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "adaptive_defensive": [
+    {
+      "id": "adaptive_defensive-E01",
+      "team": "adaptive_defensive",
+      "genome": "original",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.030901155077323827,
+          "max_drawdown": -0.09563375976220467,
+          "score": -0.07871803495842616,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.01990442281629179,
+          "max_drawdown": -0.06527160838329948,
+          "score": -0.05254022700794153,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.003383948422102323,
+          "max_drawdown": -0.08377789800151347,
+          "score": -0.038505000578654414,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.05271323445938281,
+          "max_drawdown": -0.03463680881264919,
+          "score": 0.03539483005305821,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.00447518578921291,
+          "max_drawdown": -0.06787306525052339,
+          "score": -0.029461346836048785,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.050342803394855196,
+          "max_drawdown": -0.034428758773156876,
+          "score": 0.03312842400827676,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.05657320531144494,
+          "max_drawdown": -0.062202876011003716,
+          "score": 0.025471767305943083,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.1025478103769707,
+          "max_drawdown": -0.14972274324738521,
+          "score": -0.1774091820006633,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.0971601302536822,
+          "max_drawdown": -0.12659795777325955,
+          "score": -0.16045910914031197,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.011059467058714523,
+          "max_drawdown": -0.048862565461965324,
+          "score": -0.01337181567226814,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.06096044104789189,
+          "max_drawdown": -0.04085293087641095,
+          "score": 0.04053397560968641,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.0698276622075551,
+          "max_drawdown": -0.04482245492671211,
+          "score": 0.04741643474419904,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.02343196047780327,
+          "max_drawdown": -0.061229399718277455,
+          "score": -0.007182739381335457,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_defensive-E02",
+      "team": "adaptive_defensive",
+      "genome": "efficient",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.02357973604657171,
+          "max_drawdown": -0.07477247171367807,
+          "score": -0.06096597190341074,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.03166237982558606,
+          "max_drawdown": -0.0673235079156983,
+          "score": -0.06532413378343521,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": -0.013109876640726048,
+          "max_drawdown": -0.0806260722573231,
+          "score": -0.0534229127693876,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.05904066186830992,
+          "max_drawdown": -0.03205544532605764,
+          "score": 0.0430129392052811,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": -3.922656472976627e-05,
+          "max_drawdown": -0.07907528049620116,
+          "score": -0.03957686681283035,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.030502845575219872,
+          "max_drawdown": -0.048576992290619736,
+          "score": 0.006214349429910004,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.00967505230542498,
+          "max_drawdown": -0.07837169832150748,
+          "score": -0.029510796855328758,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.14520942566368433,
+          "max_drawdown": -0.16553982352081265,
+          "score": -0.22797933742409066,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.09430995974140599,
+          "max_drawdown": -0.12192180732189561,
+          "score": -0.1552708634023538,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.022341805261306025,
+          "max_drawdown": -0.03785255644674024,
+          "score": 0.003415527037935906,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.050676918473825605,
+          "max_drawdown": -0.024205079566695487,
+          "score": 0.03857437869047786,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.09547155317985023,
+          "max_drawdown": -0.03420167340131619,
+          "score": 0.07837071647919214,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.058982613750510504,
+          "max_drawdown": -0.044371999016638686,
+          "score": 0.03679661424219116,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_defensive-E03",
+      "team": "adaptive_defensive",
+      "genome": "guarded",
+      "born_index": 0,
+      "born": "2023-01-03",
+      "parent": null,
+      "status": "shadow",
+      "evaluations": [
+        {
+          "date": "2023-07-06",
+          "observed_start": "2023-01-03",
+          "net_return": -0.03302973883330751,
+          "max_drawdown": -0.08940305217128108,
+          "score": -0.07773126491894805,
+          "paused": false
+        },
+        {
+          "date": "2023-10-04",
+          "observed_start": "2023-04-04",
+          "net_return": -0.026082103009923308,
+          "max_drawdown": -0.06579936916216089,
+          "score": -0.058981787591003754,
+          "paused": false
+        },
+        {
+          "date": "2024-01-04",
+          "observed_start": "2023-07-06",
+          "net_return": 0.00669368070399079,
+          "max_drawdown": -0.08348456132073878,
+          "score": -0.0350485999563786,
+          "paused": false
+        },
+        {
+          "date": "2024-04-05",
+          "observed_start": "2023-10-04",
+          "net_return": 0.06616287056972348,
+          "max_drawdown": -0.03704489588615434,
+          "score": 0.047640422626646306,
+          "paused": false
+        },
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.015421307933231043,
+          "max_drawdown": -0.07159007709925014,
+          "score": -0.020373730616394026,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.026957265331957414,
+          "max_drawdown": -0.03857924126183232,
+          "score": 0.007667644701041254,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.010366227228784108,
+          "max_drawdown": -0.07938826073540195,
+          "score": -0.029327903138916867,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.08203618231575338,
+          "max_drawdown": -0.12759367290134127,
+          "score": -0.14583301876642402,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.043032533951354424,
+          "max_drawdown": -0.07574447921384175,
+          "score": -0.0809047735582753,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.02821872096079736,
+          "max_drawdown": -0.04621239374716979,
+          "score": 0.005112524087212467,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.0364557336791167,
+          "max_drawdown": -0.027956017749807716,
+          "score": 0.02247772480421284,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.04704095991972368,
+          "max_drawdown": -0.056197698790205974,
+          "score": 0.018942110524620692,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.04520479315414838,
+          "max_drawdown": -0.06005209475978224,
+          "score": 0.015178745774257263,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive_defensive-E04",
+      "team": "adaptive_defensive",
+      "genome": "moderate",
+      "born_index": 252,
+      "born": "2024-01-04",
+      "parent": "adaptive_defensive-E03",
+      "status": "funded",
+      "evaluations": [
+        {
+          "date": "2024-07-08",
+          "observed_start": "2024-01-04",
+          "net_return": 0.00834350386603,
+          "max_drawdown": -0.0652616591969305,
+          "score": -0.02428732573243525,
+          "paused": false
+        },
+        {
+          "date": "2024-10-04",
+          "observed_start": "2024-04-05",
+          "net_return": 0.02463729772462875,
+          "max_drawdown": -0.0385016390123879,
+          "score": 0.005386478218434798,
+          "paused": false
+        },
+        {
+          "date": "2025-01-06",
+          "observed_start": "2024-07-08",
+          "net_return": 0.014981725012099156,
+          "max_drawdown": -0.0726105439569058,
+          "score": -0.021323546966353746,
+          "paused": false
+        },
+        {
+          "date": "2025-04-08",
+          "observed_start": "2024-10-04",
+          "net_return": -0.09226255907394876,
+          "max_drawdown": -0.13121239879192004,
+          "score": -0.15786875846990878,
+          "paused": false
+        },
+        {
+          "date": "2025-07-10",
+          "observed_start": "2025-01-06",
+          "net_return": -0.03591124322213746,
+          "max_drawdown": -0.08617318282033637,
+          "score": -0.07899783463230564,
+          "paused": false
+        },
+        {
+          "date": "2025-10-08",
+          "observed_start": "2025-04-08",
+          "net_return": 0.04730196443662349,
+          "max_drawdown": -0.03581694199985386,
+          "score": 0.02939349343669656,
+          "paused": false
+        },
+        {
+          "date": "2026-01-08",
+          "observed_start": "2025-07-10",
+          "net_return": 0.050070104203599364,
+          "max_drawdown": -0.02962725123945964,
+          "score": 0.035256478583869544,
+          "paused": false
+        },
+        {
+          "date": "2026-04-10",
+          "observed_start": "2025-10-08",
+          "net_return": 0.0905288730373428,
+          "max_drawdown": -0.03948628666731391,
+          "score": 0.07078572970368585,
+          "paused": false
+        },
+        {
+          "date": "2026-07-13",
+          "observed_start": "2026-01-08",
+          "net_return": 0.06600068836308459,
+          "max_drawdown": -0.05028002847214286,
+          "score": 0.040860674127013163,
+          "paused": false
+        }
+      ]
+    }
+  ]
+}

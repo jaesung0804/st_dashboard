@@ -1,6 +1,6 @@
 # ai_stock_assistant
 
-과거 자료를 빠르게 재생하는 [투자회사 3개·9팀 연구 실험](docs/INVESTMENT_REPLAY.md)과 [첫 실행 결과](docs/replays/2026-09-10-v1/report.md)를 추가했습니다. 운영 예측·일 배치와 분리되어 있으며 별도 유료 AI API를 호출하지 않습니다.
+미국 투자회사 3개·9팀의 [시뮬레이션 화면](https://jaesung0804.github.io/st_dashboard/simulation/)과 [53개 실험·조직 운영 기록](docs/INVESTMENT_REPLAY_SESSION_20260910.md)을 추가했습니다. 직원별 전략·승인 근거와 공통 운영조정팀을 확인할 수 있습니다. 기존 [1차 설계](docs/INVESTMENT_REPLAY.md)와 [첫 실행 결과](docs/replays/2026-09-10-v1/report.md)도 보존합니다. 과거 연구용이며 별도 유료 AI API를 호출하지 않습니다.
 
 한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
 

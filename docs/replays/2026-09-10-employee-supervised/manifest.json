@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-10T08:27:37.607968+00:00",
+  "policy_sha256": "4ccdee0c200ed6b73109be015572e3a28b061a86a767c8a61270c8240ef115a3",
+  "runner_sha256": "0deb9021e3d187de4c496acbd39e932321337866b28a6d5e5fd3cc87c7ee64b4",
+  "engine_sha256": "e374cb706297fae6b45c72adb2fa3dd1080172f904a940203ee75e939e41b606",
+  "artifacts": {
+    "assignments.json": "d1bb36e5f31b259a0e283dd718afd86ce2f1793492b8faef0f24694eac421fa0",
+    "funded-nav.csv.gz": "1c9ad94e9cc427758b03bb7fc6a2e2b4c54f1d26c902370665b1d5aaaab29b36",
+    "shadow-moderate.csv.gz": "a93d9dc9bc9614aa7bb8d00b13d87cf99c3e8de76e8dc5ee8edb584b26dcdb03",
+    "staff.json": "bab4d05fc13d40c14829112feb3d7ba29048177e6144728e4c050040cfc2bfde",
+    "shadow-efficient-cost2.csv.gz": "605e685a7c4fefb7ce75222e4b9321fe6e209d5c95dbba89ef48c6840d188231",
+    "shadow-original-cost2.csv.gz": "6f7d12082db471dc291b65025047d4c355b1621e0ac3487a993a9e5c705ba1cc",
+    "shadow-guarded-cost2.csv.gz": "a28fb42acbe3311671467041720e51605f4854ae5701d96733fe340969afb6b2",
+    "shadow-original.csv.gz": "af58a7642bf475719b3425b7fd826241393be43788c8af6afae3ff052cb14a4a",
+    "trades.csv.gz": "1c63d4633bbcbf7b385112c5a1072f6e4047d00ea1e7a1d998965d288e31d816",
+    "events.json": "7e92b1b8c31ce9ff7d4ce750dae0c3cf1e773fb3bbcd87d8c9c18c94185cc560",
+    "shadow-moderate-cost2.csv.gz": "e24ef447976493605c2948b45a420f00a1f78aeb4a989199f25adfafed0ea909",
+    "decisions.jsonl.gz": "5cb19e3696932df8e9c69fb8d4f80b517681e9e1916b335cb829cf8b10dbb481",
+    "shadow-guarded.csv.gz": "571c4e246a867f3e8f76d691d3e5eb7275ceb15cebca3abe6889622cdeb1f649",
+    "shadow-efficient.csv.gz": "3030b1bdb573ed3318c99263c73669eeedf5d53a432ab0e928f9aeab7fd9dbe8",
+    "summary.json": "7cf8da06fe6f46f1218396e73c95f71623fb135d2410ccf88f1fcb6e5490d028"
+  },
+  "llm_api_calls": 0,
+  "paid_data_calls": 0
+}

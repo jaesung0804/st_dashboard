@@ -1,0 +1,157 @@
+{
+  "version": "compound-team-comparison-v1",
+  "mode": "historical_rules_only",
+  "start": "2023-01-03",
+  "end": "2026-08-31",
+  "review_split": "2025-01-01",
+  "initial_capital": {
+    "kr": 100000000,
+    "us": 100000
+  },
+  "all_in_cost_bps": {
+    "kr": 25,
+    "us": 10
+  },
+  "cost_note": "연구 가정: 편도 수수료·슬리피지·거래세 합산 근사. 실제 증권사 요율이 아니며 2배 비용도 비교한다.",
+  "minimum_adv20": {
+    "kr": 100000000,
+    "us": 1000000
+  },
+  "max_position_weight_per_team": 0.1,
+  "max_previous_day_volume_fraction": 0.01,
+  "company_cash_fraction": 0.1,
+  "max_stale_sessions": 5,
+  "sector_limit_enabled": false,
+  "sector_limit_note": "과거 시점별 산업분류가 없어 첫 재생에서는 섹터 한도 검증을 보류한다. 현재 분류는 과거 신호에 사용하지 않는다.",
+  "llm_api_calls": 0,
+  "paid_data_calls": 0,
+  "telegram_enabled": false,
+  "daily_schedule_enabled": false,
+  "capital_reallocation_enabled": false,
+  "companies": {
+    "pulse": {
+      "name": "펄스",
+      "teams": [
+        "pulse_day",
+        "pulse_week",
+        "pulse_month"
+      ]
+    },
+    "compound": {
+      "name": "컴파운드",
+      "teams": [
+        "compound_quarter",
+        "compound_half",
+        "compound_year"
+      ]
+    },
+    "adaptive": {
+      "name": "어댑티브",
+      "teams": [
+        "adaptive_tactical",
+        "adaptive_quality",
+        "adaptive_defensive"
+      ]
+    }
+  },
+  "registered_at": "2026-09-10T08:17:49.512714+00:00",
+  "rank_buffer": 20,
+  "no_trade_band": 0.015,
+  "volatility_budget": 0.25,
+  "probation_drawdown": 0.2,
+  "efficient_intervals": {
+    "pulse_day": 5,
+    "pulse_week": 10,
+    "pulse_month": 21
+  },
+  "review_windows": [
+    [
+      "financial_crisis",
+      "2007-01-03",
+      "2009-12-31"
+    ],
+    [
+      "development",
+      "2010-01-01",
+      "2019-12-31"
+    ],
+    [
+      "covid",
+      "2020-01-01",
+      "2020-12-31"
+    ],
+    [
+      "inflation_bear",
+      "2022-01-01",
+      "2022-12-31"
+    ],
+    [
+      "v1_early",
+      "2023-01-03",
+      "2024-12-31"
+    ],
+    [
+      "later_review",
+      "2025-01-01",
+      "2026-08-31"
+    ]
+  ],
+  "research_label": "Retrospective rule improvement; no independent out-of-sample claim. Pre-2023 cohort uses a later selection and is only a stress study.",
+  "predeclared_comparison": "Report every arm; evaluate cost reduction, drawdown, rolling stability and same-date cash-matched SPY, not highest historical return alone.",
+  "common_financial_gate": "all seven dated financial fields finite; same daily eligible candidates for all three teams",
+  "team_initial_capital": 30000,
+  "team_experiments": [
+    {
+      "id": "matched-review63",
+      "source": "matched",
+      "start": "2023-01-03",
+      "interval": 63
+    },
+    {
+      "id": "matched-review126",
+      "source": "matched",
+      "start": "2023-01-03",
+      "interval": 126
+    },
+    {
+      "id": "matched-review63-cost2",
+      "source": "matched",
+      "start": "2023-01-03",
+      "interval": 63,
+      "cost_multiplier": 2
+    },
+    {
+      "id": "matched-review63-phase21",
+      "source": "matched",
+      "start": "2023-01-03",
+      "interval": 63,
+      "phase": 21
+    },
+    {
+      "id": "long-review63",
+      "source": "long",
+      "start": "2010-01-04",
+      "interval": 63
+    },
+    {
+      "id": "long-review126",
+      "source": "long",
+      "start": "2010-01-04",
+      "interval": 126
+    },
+    {
+      "id": "long-review63-cost2",
+      "source": "long",
+      "start": "2010-01-04",
+      "interval": 63,
+      "cost_multiplier": 2
+    },
+    {
+      "id": "long-review63-phase21",
+      "source": "long",
+      "start": "2010-01-04",
+      "interval": 63,
+      "phase": 21
+    }
+  ]
+}

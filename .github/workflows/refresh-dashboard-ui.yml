@@ -7,6 +7,9 @@ on:
       - scripts/build_pages_deploy.py
       - scripts/build_price_context.py
       - scripts/dashboard_web/**
+      - scripts/simulation_web/**
+      - scripts/build_simulation_pages.py
+      - docs/replays/**/summary.json
       - .github/workflows/refresh-dashboard-ui.yml
 permissions:
   contents: write

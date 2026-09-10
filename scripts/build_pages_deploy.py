@@ -15,6 +15,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from build_price_context import build_price_context
+from build_simulation_pages import build as build_simulation_pages
 
 
 ROOT = Path("outputs")
@@ -59,7 +60,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--deploy-dir", default=str(DEPLOY_DIR))
     p.add_argument("--days", type=int, default=60, help="Trading dates to publish, roughly three months by default.")
     p.add_argument("--raw-dir", type=Path, default=Path("data/raw"), help="Retained prices for read-only past-return and unscored-stock lookup.")
-    p.add_argument("--push", action="store_true", help="Commit and force-push the deploy bundle to gh-pages.")
+    p.add_argument("--push", action="store_true", help="Publish the bundle while preserving gh-pages history and other pages.")
     p.add_argument("--repo", default="https://github.com/jaesung0804/st_dashboard.git")
     p.add_argument(
         "--preserve-existing-pages",
@@ -191,6 +192,7 @@ def home_html() -> str:
 <div class="grid">
 <a class="card" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html?v={BUILD_VERSION}"><b>한국 대시보드</b><span>신호일별 KOSPI/KOSDAQ 최근 후보</span></a>
 <a class="card" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html?v={BUILD_VERSION}"><b>미국 대시보드</b><span>신호일별 NASDAQ/NYSE 최근 후보</span></a>
+<a class="card" href="simulation/"><b>투자회사 시뮬레이션</b><span>회사 3곳의 순수익·위험·운용 판단과 과거 실험 비교</span></a>
 </div>
 </main>{theme_toggle_script()}</body></html>"""
 
@@ -401,24 +403,37 @@ def remove_tree(path: Path) -> None:
 
 
 def push_pages(deploy_dir: Path, repo: str) -> None:
-    # Hashes describe the published bytes, not a pre-autocrlf working tree.
+    # Overlay the verified bundle onto current Pages. Other teams' pages and the
+    # branch history survive publication; concurrent updates fail safely.
     (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
-    run_git(["init"], deploy_dir)
-    run_git(["config", "core.autocrlf", "false"], deploy_dir)
-    run_git(["checkout", "-B", "gh-pages"], deploy_dir)
-    run_git(["config", "user.name", "github-actions[bot]"], deploy_dir)
-    run_git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], deploy_dir)
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        credential = base64.b64encode(f"x-access-token:{token}".encode("utf-8")).decode("ascii")
-        run_git(["config", "http.https://github.com/.extraheader", f"AUTHORIZATION: basic {credential}"], deploy_dir)
-    run_git(["add", "-A"], deploy_dir)
-    run_git(["commit", "-m", "Deploy dashboard to GitHub Pages"], deploy_dir)
-    try:
-        run_git(["remote", "add", "origin", repo], deploy_dir)
-    except subprocess.CalledProcessError:
-        run_git(["remote", "set-url", "origin", repo], deploy_dir)
-    run_git(["push", "-f", "origin", "gh-pages"], deploy_dir)
+    with tempfile.TemporaryDirectory(prefix="pages-publish-") as tmp:
+        checkout = Path(tmp) / "pages"
+        subprocess.run([*git_auth_prefix(repo), "clone", "--depth", "1", "--branch", "gh-pages", repo, str(checkout)], check=True)
+        run_git(["config", "core.autocrlf", "false"], checkout)
+        run_git(["config", "user.name", "github-actions[bot]"], checkout)
+        run_git(["config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], checkout)
+        for source in deploy_dir.iterdir():
+            if source.name == ".git":
+                continue
+            target = checkout / source.name
+            if source.is_dir():
+                # Rebuilt market data is a complete bounded window, not an
+                # indefinitely growing collection. Unknown sibling pages remain.
+                if source.name in {d["target"] for d in DASHBOARDS.values()} and target.exists():
+                    if manifest_latest(source) < manifest_latest(target):
+                        print(f"Preserving newer published market data: {source.name}", flush=True)
+                        continue
+                    shutil.rmtree(target)
+                shutil.copytree(source, target, dirs_exist_ok=True)
+            else:
+                shutil.copyfile(source, target)
+        run_git(["add", "-A"], checkout)
+        unchanged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=checkout).returncode == 0
+        if unchanged:
+            print("Pages already matches the verified bundle.", flush=True)
+            return
+        run_git(["commit", "-m", "Publish verified dashboard and simulation pages"], checkout)
+        subprocess.run([*git_auth_prefix(repo), "push", "origin", "HEAD:gh-pages"], cwd=checkout, check=True)
 
 
 def main() -> None:
@@ -430,6 +445,9 @@ def main() -> None:
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
     (deploy_dir / "index.html").write_bytes(home_html().encode("utf-8"))
     (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
+    simulation_result = Path("docs/replays/2026-09-10-v2/manifest.json")
+    if simulation_result.exists():
+        build_simulation_pages(deploy_dir / "simulation")
     built_dashboards = 0
     missing_targets: list[str] = []
     dashboard_jobs = [

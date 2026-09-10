@@ -1,0 +1,821 @@
+[
+  {
+    "date": "2023-07-07",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -13676.008757022955,
+    "unit_price": 0.9377431114813155
+  },
+  {
+    "date": "2023-07-07",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 13583.039724564922,
+    "unit_price": 0.9928604679228205
+  },
+  {
+    "date": "2023-07-07",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 365.51242355005525,
+    "unit_price": 0.9515685583760989
+  },
+  {
+    "date": "2023-07-07",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -14664.47858194324,
+    "unit_price": 0.9969504340150515
+  },
+  {
+    "date": "2023-07-07",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": 14137.86820057629,
+    "unit_price": 1.0517503184394796
+  },
+  {
+    "date": "2023-07-07",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 363.9207556947494,
+    "unit_price": 1.004102468995426
+  },
+  {
+    "date": "2023-07-07",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": -12575.624820354005,
+    "unit_price": 0.8876848583351995
+  },
+  {
+    "date": "2023-07-07",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": 74.57231435720568,
+    "unit_price": 0.9344774429824728
+  },
+  {
+    "date": "2023-07-07",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 13131.105219528812,
+    "unit_price": 0.9622345219695122
+  },
+  {
+    "date": "2023-10-05",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": -26230.902845018245,
+    "unit_price": 0.909422473973642
+  },
+  {
+    "date": "2023-10-05",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 13571.581561967818,
+    "unit_price": 0.8696437838077913
+  },
+  {
+    "date": "2023-10-05",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 13391.231359522855,
+    "unit_price": 0.8912632893740053
+  },
+  {
+    "date": "2023-10-05",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -376.3639356245185,
+    "unit_price": 1.0331989973931315
+  },
+  {
+    "date": "2023-10-05",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 529.1232636478863,
+    "unit_price": 0.9514154101701208
+  },
+  {
+    "date": "2023-10-05",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 119.24072240766291,
+    "unit_price": 0.9587012997100135
+  },
+  {
+    "date": "2023-10-05",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -12389.396213175247,
+    "unit_price": 0.8598127358151257
+  },
+  {
+    "date": "2023-10-05",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -664.6638358783894,
+    "unit_price": 0.9413238395008978
+  },
+  {
+    "date": "2023-10-05",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 13441.607434886497,
+    "unit_price": 0.8446709145356083
+  },
+  {
+    "date": "2024-01-05",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -13491.866774962251,
+    "unit_price": 0.8929605943903361
+  },
+  {
+    "date": "2024-01-05",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -659.6223990707003,
+    "unit_price": 0.9532921380310829
+  },
+  {
+    "date": "2024-01-05",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 13674.028804156182,
+    "unit_price": 0.9828095556908067
+  },
+  {
+    "date": "2024-01-05",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -14709.361221797524,
+    "unit_price": 1.0370202672161026
+  },
+  {
+    "date": "2024-01-05",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -15053.291979607304,
+    "unit_price": 0.9714214541632399
+  },
+  {
+    "date": "2024-01-05",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 29665.557987312906,
+    "unit_price": 0.9827258427413418
+  },
+  {
+    "date": "2024-01-05",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -7.945014355582316,
+    "unit_price": 0.8829373919379176
+  },
+  {
+    "date": "2024-01-05",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -341.6655307810652,
+    "unit_price": 0.9740424059457643
+  },
+  {
+    "date": "2024-01-05",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 113.32565342604539,
+    "unit_price": 0.8612231853283704
+  },
+  {
+    "date": "2024-04-08",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -27402.7653946731,
+    "unit_price": 0.9346391338221421
+  },
+  {
+    "date": "2024-04-08",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 12824.807288023694,
+    "unit_price": 1.0556414900217874
+  },
+  {
+    "date": "2024-04-08",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 14183.949101709759,
+    "unit_price": 0.917459889856087
+  },
+  {
+    "date": "2024-04-08",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -17140.23860730708,
+    "unit_price": 1.177319448212595
+  },
+  {
+    "date": "2024-04-08",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -1349.1956270270384,
+    "unit_price": 1.139857209305972
+  },
+  {
+    "date": "2024-04-08",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 16963.622268972966,
+    "unit_price": 1.088682983761646
+  },
+  {
+    "date": "2024-04-08",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": -14483.940486921927,
+    "unit_price": 0.9051237581851614
+  },
+  {
+    "date": "2024-04-08",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -14024.597525088324,
+    "unit_price": 1.0041001729440502
+  },
+  {
+    "date": "2024-04-08",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": 28147.34531382013,
+    "unit_price": 0.955240449421458
+  },
+  {
+    "date": "2024-07-09",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 275.42821803791117,
+    "unit_price": 1.0211430521420635
+  },
+  {
+    "date": "2024-07-09",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 80.17726901700745,
+    "unit_price": 0.8917074732042433
+  },
+  {
+    "date": "2024-07-09",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 151.99290801731254,
+    "unit_price": 0.8990804877138
+  },
+  {
+    "date": "2024-07-09",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -16664.60577332725,
+    "unit_price": 1.08693983626191
+  },
+  {
+    "date": "2024-07-09",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -217.09533856472262,
+    "unit_price": 1.1554313550220026
+  },
+  {
+    "date": "2024-07-09",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": 17038.56037728169,
+    "unit_price": 1.1651933053983319
+  },
+  {
+    "date": "2024-07-09",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -975.5481378874829,
+    "unit_price": 0.9709007862145479
+  },
+  {
+    "date": "2024-07-09",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 747.6800389848005,
+    "unit_price": 0.8481406516429287
+  },
+  {
+    "date": "2024-07-09",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 287.9889936661229,
+    "unit_price": 0.986837948652444
+  },
+  {
+    "date": "2024-10-07",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": -13576.813253570694,
+    "unit_price": 1.001616411743804
+  },
+  {
+    "date": "2024-10-07",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 13550.130905292375,
+    "unit_price": 0.878428571464568
+  },
+  {
+    "date": "2024-10-07",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 166.52324839084577,
+    "unit_price": 0.8774348154007566
+  },
+  {
+    "date": "2024-10-07",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -16850.945424870846,
+    "unit_price": 1.1645770817999186
+  },
+  {
+    "date": "2024-10-07",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -16792.77347092984,
+    "unit_price": 1.1426143166215454
+  },
+  {
+    "date": "2024-10-07",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 33648.484080761846,
+    "unit_price": 1.0827842429133891
+  },
+  {
+    "date": "2024-10-07",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -26880.498500842667,
+    "unit_price": 0.9338076277837531
+  },
+  {
+    "date": "2024-10-07",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 13779.889157659389,
+    "unit_price": 0.8783638437189654
+  },
+  {
+    "date": "2024-10-07",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 13072.532266609998,
+    "unit_price": 1.0291105748487288
+  },
+  {
+    "date": "2025-01-07",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -26599.15090652246,
+    "unit_price": 0.8567736962371745
+  },
+  {
+    "date": "2025-01-07",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 83.4800880429093,
+    "unit_price": 0.9800542455760922
+  },
+  {
+    "date": "2025-01-07",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 26354.95802099707,
+    "unit_price": 0.9116770010931977
+  },
+  {
+    "date": "2025-01-07",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -290.8907795384148,
+    "unit_price": 1.1069251910263886
+  },
+  {
+    "date": "2025-01-07",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -17018.15031527343,
+    "unit_price": 1.156989414156924
+  },
+  {
+    "date": "2025-01-07",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": 17135.420053652368,
+    "unit_price": 1.1849962830806604
+  },
+  {
+    "date": "2025-01-07",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -557.2344854640232,
+    "unit_price": 0.9687778135505712
+  },
+  {
+    "date": "2025-01-07",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -13013.596365462177,
+    "unit_price": 0.9999626444226903
+  },
+  {
+    "date": "2025-01-07",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 13459.338999422675,
+    "unit_price": 0.9074594641654586
+  },
+  {
+    "date": "2025-04-09",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -23077.82998104431,
+    "unit_price": 0.7982877711659074
+  },
+  {
+    "date": "2025-04-09",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 11876.287568613632,
+    "unit_price": 0.9241376090994023
+  },
+  {
+    "date": "2025-04-09",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 12196.625827186808,
+    "unit_price": 0.8011892607482286
+  },
+  {
+    "date": "2025-04-09",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": 419.9107172778408,
+    "unit_price": 1.0614268296515992
+  },
+  {
+    "date": "2025-04-09",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 449.4986644226719,
+    "unit_price": 0.99702796217072
+  },
+  {
+    "date": "2025-04-09",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 214.35122727512092,
+    "unit_price": 1.035917772396803
+  },
+  {
+    "date": "2025-04-09",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -345.9629377824094,
+    "unit_price": 0.9410791762190696
+  },
+  {
+    "date": "2025-04-09",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 219.01631697946067,
+    "unit_price": 0.8365312329072236
+  },
+  {
+    "date": "2025-04-09",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": 929.1021739179166,
+    "unit_price": 0.811492162427636
+  },
+  {
+    "date": "2025-07-11",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": -13578.331530002746,
+    "unit_price": 1.0143603765221494
+  },
+  {
+    "date": "2025-07-11",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -291.68407511582154,
+    "unit_price": 0.8929255689846108
+  },
+  {
+    "date": "2025-07-11",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 13070.397264648054,
+    "unit_price": 0.90304835182304
+  },
+  {
+    "date": "2025-07-11",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -16231.328570597338,
+    "unit_price": 1.1063015945799124
+  },
+  {
+    "date": "2025-07-11",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -75.9960115076974,
+    "unit_price": 1.0391262365553051
+  },
+  {
+    "date": "2025-07-11",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 15927.618021016095,
+    "unit_price": 1.0857706028999248
+  },
+  {
+    "date": "2025-07-11",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": -817.7700012106943,
+    "unit_price": 0.8910695965214851
+  },
+  {
+    "date": "2025-07-11",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -100.90924841767992,
+    "unit_price": 0.8769050383491797
+  },
+  {
+    "date": "2025-07-11",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 544.0257432256676,
+    "unit_price": 0.9507737985253951
+  },
+  {
+    "date": "2025-10-09",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": -14569.419403328295,
+    "unit_price": 1.0696661292759104
+  },
+  {
+    "date": "2025-10-09",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -14196.841168849438,
+    "unit_price": 0.9480096392970713
+  },
+  {
+    "date": "2025-10-09",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": 28289.836907775414,
+    "unit_price": 0.9833460802430718
+  },
+  {
+    "date": "2025-10-09",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -18173.137261441487,
+    "unit_price": 1.1475328209498001
+  },
+  {
+    "date": "2025-10-09",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": -17296.179259650635,
+    "unit_price": 1.1817165256332176
+  },
+  {
+    "date": "2025-10-09",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": 34387.45137103817,
+    "unit_price": 1.2962044151846237
+  },
+  {
+    "date": "2025-10-09",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": -14180.133825449677,
+    "unit_price": 0.9121296746956364
+  },
+  {
+    "date": "2025-10-09",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -13854.70107820222,
+    "unit_price": 0.9729174901921952
+  },
+  {
+    "date": "2025-10-09",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": 27685.61068269526,
+    "unit_price": 0.9392196625594409
+  },
+  {
+    "date": "2026-01-09",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -558.8736470498952,
+    "unit_price": 1.0196083112046241
+  },
+  {
+    "date": "2026-01-09",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -312.7618562952339,
+    "unit_price": 1.0457228417850561
+  },
+  {
+    "date": "2026-01-09",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 283.8183187739951,
+    "unit_price": 1.1088654256637391
+  },
+  {
+    "date": "2026-01-09",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -1961.8890168377911,
+    "unit_price": 1.4254168566448846
+  },
+  {
+    "date": "2026-01-09",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": 935.3438165257954,
+    "unit_price": 1.1870448330762449
+  },
+  {
+    "date": "2026-01-09",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 314.82972664581973,
+    "unit_price": 1.2334192111100868
+  },
+  {
+    "date": "2026-01-09",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": -13670.02743593725,
+    "unit_price": 0.910200446654281
+  },
+  {
+    "date": "2026-01-09",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -1323.5904049941382,
+    "unit_price": 0.9977819255901034
+  },
+  {
+    "date": "2026-01-09",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 14808.942132290276,
+    "unit_price": 0.9899761449017026
+  },
+  {
+    "date": "2026-04-13",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": -16068.822493169777,
+    "unit_price": 1.0816159722323322
+  },
+  {
+    "date": "2026-04-13",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -590.6177769209025,
+    "unit_price": 1.1339737714136395
+  },
+  {
+    "date": "2026-04-13",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 15955.998258044448,
+    "unit_price": 1.2201095502168993
+  },
+  {
+    "date": "2026-04-13",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -1171.282787534692,
+    "unit_price": 1.5615549088261182
+  },
+  {
+    "date": "2026-04-13",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -374.9712393184527,
+    "unit_price": 1.2904137343938775
+  },
+  {
+    "date": "2026-04-13",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 601.7000669109391,
+    "unit_price": 1.2642352870288458
+  },
+  {
+    "date": "2026-04-13",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -2135.8434193411085,
+    "unit_price": 1.1156645581446927
+  },
+  {
+    "date": "2026-04-13",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": -14398.441271765292,
+    "unit_price": 1.0170108264381839
+  },
+  {
+    "date": "2026-04-13",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 15835.448008951626,
+    "unit_price": 0.9605816646958636
+  },
+  {
+    "date": "2026-07-14",
+    "company": "pulse",
+    "desk": "pulse_month",
+    "amount": -33566.808417176144,
+    "unit_price": 1.171384521381808
+  },
+  {
+    "date": "2026-07-14",
+    "company": "pulse",
+    "desk": "pulse_day",
+    "amount": 16093.091436908118,
+    "unit_price": 1.326198657816507
+  },
+  {
+    "date": "2026-07-14",
+    "company": "pulse",
+    "desk": "pulse_week",
+    "amount": 16351.419684438633,
+    "unit_price": 1.1966457263021288
+  },
+  {
+    "date": "2026-07-14",
+    "company": "compound",
+    "desk": "compound_quarter",
+    "amount": -4129.572641981897,
+    "unit_price": 1.702190469944753
+  },
+  {
+    "date": "2026-07-14",
+    "company": "compound",
+    "desk": "compound_half",
+    "amount": -18247.061181589295,
+    "unit_price": 1.2384795999275526
+  },
+  {
+    "date": "2026-07-14",
+    "company": "compound",
+    "desk": "compound_year",
+    "amount": 20292.49018029048,
+    "unit_price": 1.3482793504503199
+  },
+  {
+    "date": "2026-07-14",
+    "company": "adaptive",
+    "desk": "adaptive_quality",
+    "amount": -15218.287361713774,
+    "unit_price": 1.1366805684806673
+  },
+  {
+    "date": "2026-07-14",
+    "company": "adaptive",
+    "desk": "adaptive_tactical",
+    "amount": 14056.131987878318,
+    "unit_price": 1.0686117267318624
+  },
+  {
+    "date": "2026-07-14",
+    "company": "adaptive",
+    "desk": "adaptive_defensive",
+    "amount": 319.53800355313797,
+    "unit_price": 1.0383397350850263
+  }
+]

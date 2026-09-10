@@ -1,0 +1,478 @@
+{
+  "case": {
+    "id": "pulse-long-review21",
+    "company": "pulse",
+    "source": "long",
+    "start": "2007-01-03",
+    "interval": 21
+  },
+  "summary": {
+    "pulse_month": {
+      "net_return": 20.825128550206916,
+      "max_drawdown": -0.625243591734826,
+      "annualized_volatility": 0.28917651871281785,
+      "sharpe_zero_cash_rate": 0.6875599057252447,
+      "final_nav": 654753.8565062075,
+      "sessions": 4946,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.17009251557859617,
+      "stale_reserved_return": 18.714168233280873,
+      "cost_paid": 63292.948978296634,
+      "trade_count": 3630,
+      "turnover": 2109.7649659432213,
+      "stale_days": 19,
+      "max_stale_weight": 0.09782617793595422,
+      "unitized_return": 20.825128550206916,
+      "periods": {
+        "financial_crisis": {
+          "net_return": 0.1056495856851769,
+          "max_drawdown": -0.6138317559828577,
+          "annualized_volatility": 0.3525462703239516,
+          "sharpe_zero_cash_rate": 0.27157036277435964,
+          "final_nav": 1.105649585685177,
+          "sessions": 756
+        },
+        "development": {
+          "net_return": 5.772409664700912,
+          "max_drawdown": -0.3009887114590446,
+          "annualized_volatility": 0.23398789680824303,
+          "sharpe_zero_cash_rate": 0.9351561293272397,
+          "final_nav": 7.4879119398668506,
+          "sessions": 2516
+        },
+        "covid": {
+          "net_return": 1.8674449344490758,
+          "max_drawdown": -0.40300840667044824,
+          "annualized_volatility": 0.447259652445457,
+          "sharpe_zero_cash_rate": 2.5733143306683073,
+          "final_nav": 21.471175161571953,
+          "sessions": 253
+        },
+        "inflation_bear": {
+          "net_return": -0.2544309986798866,
+          "max_drawdown": -0.32708766531447053,
+          "annualized_volatility": 0.31390111007415605,
+          "sharpe_zero_cash_rate": -0.7813625884576421,
+          "final_nav": 19.895508927998748,
+          "sessions": 251
+        },
+        "v1_early": {
+          "net_return": -0.21932669509139968,
+          "max_drawdown": -0.3601327736111912,
+          "annualized_volatility": 0.25502656243507366,
+          "sharpe_zero_cash_rate": -0.35976682006550537,
+          "final_nav": 15.531892707659345,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.4051815165735819,
+          "max_drawdown": -0.34451855978191315,
+          "annualized_volatility": 0.3202928618119302,
+          "sharpe_zero_cash_rate": 0.803558991931508,
+          "final_nav": 21.825128550206916,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 4695,
+        "median": 0.12387849224035152,
+        "worst": -0.5494333676493459,
+        "positive_fraction": 0.6464323748668797
+      }
+    },
+    "pulse_day": {
+      "net_return": 2.8984676088767403,
+      "max_drawdown": -0.7177086539619986,
+      "annualized_volatility": 0.2806220560096282,
+      "sharpe_zero_cash_rate": 0.38759150136048137,
+      "final_nav": 116954.02826630221,
+      "sessions": 4946,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.07178136334861329,
+      "stale_reserved_return": 2.8984676088767403,
+      "cost_paid": 20064.638916387215,
+      "trade_count": 4323,
+      "turnover": 668.8212972129068,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 2.8984676088767403,
+      "periods": {
+        "financial_crisis": {
+          "net_return": -0.31089021836823794,
+          "max_drawdown": -0.7177086539619986,
+          "annualized_volatility": 0.372568736566637,
+          "sharpe_zero_cash_rate": -0.14647373520144485,
+          "final_nav": 0.6891097816317621,
+          "sessions": 756
+        },
+        "development": {
+          "net_return": 1.2864692286176789,
+          "max_drawdown": -0.32667494371754013,
+          "annualized_volatility": 0.21890671504073902,
+          "sharpe_zero_cash_rate": 0.48797360377450605,
+          "final_nav": 1.575628310840472,
+          "sessions": 2516
+        },
+        "covid": {
+          "net_return": 0.38764287753334425,
+          "max_drawdown": -0.37796310158626933,
+          "annualized_volatility": 0.42281339952535896,
+          "sharpe_zero_cash_rate": 0.9850226217705472,
+          "final_nav": 2.186409403177675,
+          "sessions": 253
+        },
+        "inflation_bear": {
+          "net_return": 0.03151191566155087,
+          "max_drawdown": -0.2069651564309558,
+          "annualized_volatility": 0.30824554906484836,
+          "sharpe_zero_cash_rate": 0.25492838785992367,
+          "final_nav": 2.807487634090193,
+          "sessions": 251
+        },
+        "v1_early": {
+          "net_return": 0.08276751289445716,
+          "max_drawdown": -0.359859482319844,
+          "annualized_volatility": 0.257498055622381,
+          "sharpe_zero_cash_rate": 0.2832626818136499,
+          "final_nav": 3.039856403045782,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.28245123847648634,
+          "max_drawdown": -0.2770821418523377,
+          "annualized_volatility": 0.2816957635162879,
+          "sharpe_zero_cash_rate": 0.6758095352451624,
+          "final_nav": 3.8984676088767403,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 4695,
+        "median": 0.09110272089508253,
+        "worst": -0.6258540641037633,
+        "positive_fraction": 0.6538871139510117
+      }
+    },
+    "pulse_week": {
+      "net_return": 2.002220210993938,
+      "max_drawdown": -0.6979727317324991,
+      "annualized_volatility": 0.2899493033647692,
+      "sharpe_zero_cash_rate": 0.33829345555348245,
+      "final_nav": 90066.60632981814,
+      "sessions": 4946,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.057610668680618815,
+      "stale_reserved_return": 2.002220210993938,
+      "cost_paid": 19599.112565064253,
+      "trade_count": 4306,
+      "turnover": 653.3037521688082,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 2.002220210993938,
+      "periods": {
+        "financial_crisis": {
+          "net_return": -0.2107882646179895,
+          "max_drawdown": -0.6979727317324991,
+          "annualized_volatility": 0.3823370896561429,
+          "sharpe_zero_cash_rate": -0.014898178658413926,
+          "final_nav": 0.7892117353820105,
+          "sessions": 756
+        },
+        "development": {
+          "net_return": 0.9733221314352307,
+          "max_drawdown": -0.3768734448475525,
+          "annualized_volatility": 0.22611284874164864,
+          "sharpe_zero_cash_rate": 0.4142765131335501,
+          "final_nav": 1.5573689838177263,
+          "sessions": 2516
+        },
+        "covid": {
+          "net_return": 0.5924943695290925,
+          "max_drawdown": -0.40685450904410836,
+          "annualized_volatility": 0.41933290604279655,
+          "sharpe_zero_cash_rate": 1.316250856249472,
+          "final_nav": 2.4801013380089736,
+          "sessions": 253
+        },
+        "inflation_bear": {
+          "net_return": -0.21145451487010913,
+          "max_drawdown": -0.2717714424066976,
+          "annualized_volatility": 0.32449940966490015,
+          "sharpe_zero_cash_rate": -0.5723151484739403,
+          "final_nav": 2.5235196693610775,
+          "sessions": 251
+        },
+        "v1_early": {
+          "net_return": 0.028813297420917205,
+          "max_drawdown": -0.37074439807991255,
+          "annualized_volatility": 0.2640897516856004,
+          "sharpe_zero_cash_rate": 0.18562178407117227,
+          "final_nav": 2.596230592141913,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.15637656380787046,
+          "max_drawdown": -0.33529034183683415,
+          "annualized_volatility": 0.3135212113515613,
+          "sharpe_zero_cash_rate": 0.43728982602695776,
+          "final_nav": 3.002220210993938,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 4695,
+        "median": 0.04148666369713783,
+        "worst": -0.5960026207819602,
+        "positive_fraction": 0.5529286474973376
+      }
+    }
+  },
+  "ledger_tail": "70dba0011ba890645f8d5fbd370c2a8e9efc01cb7b67051184fbb3a4dfcecfdc",
+  "decisions": 708,
+  "trades": 12259,
+  "last_decisions": {
+    "pulse_month": {
+      "desk": "pulse_month",
+      "company": "pulse",
+      "signal_date": "2026-08-17",
+      "rule": "momentum_long; breadth=0.581; target_exposure=1.00",
+      "target_capital": 667567.9748189095,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "APPS",
+          "target_weight": 0.1,
+          "score": 1.0,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-053446"
+        },
+        {
+          "ticker": "ATRC",
+          "target_weight": 0.1,
+          "score": 0.967742,
+          "filing_available_at": "2026-07-28",
+          "filing_id": "0001323885-26-000035"
+        },
+        {
+          "ticker": "BWIN",
+          "target_weight": 0.1,
+          "score": 0.951613,
+          "filing_available_at": "2026-07-31",
+          "filing_id": "0001781755-26-000049"
+        },
+        {
+          "ticker": "CBRL",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": "2026-06-10",
+          "filing_id": "0001104659-26-071825"
+        },
+        {
+          "ticker": "HPE",
+          "target_weight": 0.1,
+          "score": 0.975806,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001645590-26-000055"
+        },
+        {
+          "ticker": "OII",
+          "target_weight": 0.1,
+          "score": 0.935484,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0000073756-26-000136"
+        },
+        {
+          "ticker": "PARR",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0000821483-26-000014"
+        },
+        {
+          "ticker": "PAYC",
+          "target_weight": 0.1,
+          "score": 0.959677,
+          "filing_available_at": "2026-08-07",
+          "filing_id": "0001193125-26-338010"
+        },
+        {
+          "ticker": "SDGR",
+          "target_weight": 0.1,
+          "score": 0.943548,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001490978-26-000068"
+        },
+        {
+          "ticker": "UTZ",
+          "target_weight": 0.1,
+          "score": 0.991935,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-052899"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "pulse_day": {
+      "desk": "pulse_day",
+      "company": "pulse",
+      "signal_date": "2026-08-17",
+      "rule": "momentum_short; breadth=0.581; target_exposure=1.00",
+      "target_capital": 116990.90376567995,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ACB",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "ASC",
+          "target_weight": 0.1,
+          "score": 0.903226,
+          "filing_available_at": "2026-05-08",
+          "filing_id": "0001104659-26-056715"
+        },
+        {
+          "ticker": "ATRC",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-07-28",
+          "filing_id": "0001323885-26-000035"
+        },
+        {
+          "ticker": "BWIN",
+          "target_weight": 0.1,
+          "score": 0.870968,
+          "filing_available_at": "2026-07-31",
+          "filing_id": "0001781755-26-000049"
+        },
+        {
+          "ticker": "DRI",
+          "target_weight": 0.1,
+          "score": 0.842742,
+          "filing_available_at": "2026-07-25",
+          "filing_id": "0000940944-26-000025"
+        },
+        {
+          "ticker": "EME",
+          "target_weight": 0.1,
+          "score": 0.883065,
+          "filing_available_at": "2026-07-31",
+          "filing_id": "0000105634-26-000110"
+        },
+        {
+          "ticker": "HPE",
+          "target_weight": 0.1,
+          "score": 0.91129,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001645590-26-000055"
+        },
+        {
+          "ticker": "NOG",
+          "target_weight": 0.1,
+          "score": 0.935484,
+          "filing_available_at": "2026-08-08",
+          "filing_id": "0001104485-26-000032"
+        },
+        {
+          "ticker": "OII",
+          "target_weight": 0.1,
+          "score": 0.91129,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0000073756-26-000136"
+        },
+        {
+          "ticker": "PSKY",
+          "target_weight": 0.1,
+          "score": 0.939516,
+          "filing_available_at": "2026-08-05",
+          "filing_id": "0002041610-26-000054"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "pulse_week": {
+      "desk": "pulse_week",
+      "company": "pulse",
+      "signal_date": "2026-08-17",
+      "rule": "momentum_medium; breadth=0.581; target_exposure=1.00",
+      "target_capital": 87128.67902356616,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ACB",
+          "target_weight": 0.1,
+          "score": 0.975806,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "APPS",
+          "target_weight": 0.1,
+          "score": 0.991935,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-053446"
+        },
+        {
+          "ticker": "ATRC",
+          "target_weight": 0.1,
+          "score": 0.951613,
+          "filing_available_at": "2026-07-28",
+          "filing_id": "0001323885-26-000035"
+        },
+        {
+          "ticker": "GTM",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001794515-26-000056"
+        },
+        {
+          "ticker": "HBM",
+          "target_weight": 0.1,
+          "score": 0.967742,
+          "filing_available_at": "2026-03-28",
+          "filing_id": "0001062993-26-001648"
+        },
+        {
+          "ticker": "HPE",
+          "target_weight": 0.1,
+          "score": 0.959677,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001645590-26-000055"
+        },
+        {
+          "ticker": "NOG",
+          "target_weight": 0.1,
+          "score": 0.935484,
+          "filing_available_at": "2026-08-08",
+          "filing_id": "0001104485-26-000032"
+        },
+        {
+          "ticker": "OII",
+          "target_weight": 0.1,
+          "score": 0.943548,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0000073756-26-000136"
+        },
+        {
+          "ticker": "PAYC",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": "2026-08-07",
+          "filing_id": "0001193125-26-338010"
+        },
+        {
+          "ticker": "UTZ",
+          "target_weight": 0.1,
+          "score": 1.0,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-052899"
+        }
+      ],
+      "pending_at_end": false
+    }
+  }
+}

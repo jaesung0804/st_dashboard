@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "SPY": "0a0b1d69cc1a6824e08176b1884df4d31f5a3ebd090a312a4eb452024f9ac7c3",
+    "XLF": "920a1be5fc4e682c05a286b603b3e3aaa7146654e02893f2c39a91d31548e9f7",
+    "XLE": "3b878250d0c2ad9c5c8e80c91a96f322de90bc6bfd69010b8ed43df544501858",
+    "XLU": "2456381fed8a5e217aa8cf0ed83071b27a0d40fe801eb784b53fa226abd954b8"
+  },
+  "code_sha256": "f937b54be6730e8270f3b53461b4240816fe789ec2ca6c741f088c0cbe17e9fe",
+  "artifacts": {
+    "ui-summary.json": "6c745a17f57acbf0afaf1c980a1867a33dd3f31cec2671fffc2b1de17e9e28d6",
+    "selection_events.json": "e5a65522105447ed7035d32806715061c9b1ce444b36824867cd3683f6f01e27",
+    "nav.csv.gz": "98ba46c5388d2d8a8ca91a6bb0460b6216708bdb7b85c01d4aa7e4d5b16ac5bf",
+    "protocol.json": "5490858f773a6efc21d53d2441f275c8f4191d3029dd64d669464c789bf1c2af",
+    "summary.json": "edf3a90dd9af9b861fb2d07a096c2563f3efdd68d50e393ea603daccecbd0895"
+  },
+  "paid_data_calls": 0,
+  "llm_api_calls": 0
+}

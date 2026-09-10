@@ -1,0 +1,219 @@
+{
+  "version": "investment-operations-queue-v1",
+  "actual_created_at": "2026-09-10T08:54:43Z",
+  "observed_at": "2026-09-10T09:06:50.819597+00:00",
+  "observation_note": "현재 세션에서 확인·보고된 상태를 이 시각에 큐로 등록. 과거 실제 착수·완료·승인 요청 시각은 미기록이며 추정하지 않음.",
+  "tasks": [
+    {
+      "id": "SIM-53",
+      "title": "미국 주식·ETF 및 직원 운용 53개 실험",
+      "kind": "experiment",
+      "status": "completed",
+      "owner": "RESEARCH-TEAM",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T08:54:43Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 2,
+      "dependencies": [],
+      "next_action": "완료 원장 보존",
+      "completion_evidence": {
+        "reference": "parent-agent-session-observation:53-experiments-complete",
+        "observed_at": "2026-09-10T08:54:43Z",
+        "description": "주 에이전트가 18+8+12+3+12=53개 실험 완료를 확인. 원본 결과는 docs/replays의 각 summary.json 및 manifest.json에 보존."
+      },
+      "simulation_clock": {
+        "start": "2007-01-03",
+        "end": "2026-08-31",
+        "scope": "varies_by_experiment; dates do not age operational tasks"
+      }
+    },
+    {
+      "id": "AUDIT-RESULTS",
+      "title": "결과 해시·유한 수치·원장 검증",
+      "kind": "audit",
+      "status": "completed",
+      "owner": "GITHUB-MANAGEMENT",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T08:54:43Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 2,
+      "dependencies": [
+        "SIM-53"
+      ],
+      "next_action": "검증 근거 보존",
+      "completion_evidence": {
+        "reference": "github-management-agent-observation:238-paths-217-artifact-hashes",
+        "observed_at": "2026-09-10T08:54:43Z",
+        "description": "GitHub 관리팀의 8개 실험 폴더, 217개 산출물 해시, 49,121개 유한 JSON 수치 점검 및 원장 대조 완료 보고. 이 큐 검토기는 해시 검증을 재실행하지 않음."
+      }
+    },
+    {
+      "id": "GITHUB-BLOBS",
+      "title": "결과 파일 238개 GitHub blob 준비",
+      "kind": "release",
+      "status": "in_progress",
+      "owner": "GITHUB-MANAGEMENT",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T08:54:43Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "AUDIT-RESULTS"
+      ],
+      "next_action": "이미 준비된 blob을 재사용하고 남은 결과 파일을 준비",
+      "progress": {
+        "completed": 164,
+        "total": 238,
+        "unit": "artifact_paths",
+        "evidence": {
+          "reference": "parent-agent-session-observation:github-preparation-164-of-238",
+          "observed_at": "2026-09-10T08:54:43Z",
+          "description": "지시 전달 시점의 마지막 확인치. 현재 업로드 수량으로 자동 갱신하거나 대기 시간을 추정하지 않음."
+        }
+      }
+    },
+    {
+      "id": "STRATEGY-BRIEF",
+      "title": "승인 요청의 직원 투자 전략 요약 필수화",
+      "kind": "implementation",
+      "status": "completed",
+      "owner": "ROOT-INTEGRATION",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T09:03:24Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [],
+      "next_action": "완료된 요약과 검수 근거를 최종 UI 빌드에 반영",
+      "completion_evidence": {
+        "reference": "docs/replays/2026-09-10-approval-briefs/summary.json; parent-agent-message:trello-9-rooms-complete",
+        "observed_at": "2026-09-10T09:03:24Z",
+        "description": "통합 담당자가 전략 요약·Trello 9개 방 갱신, 단위 검사 및 기존 352개 심사 결과 동등성 검증 완료를 보고."
+      }
+    },
+    {
+      "id": "OPS-BUILD",
+      "title": "운영조정팀 규칙·큐·권한 검증 구축",
+      "kind": "operations",
+      "status": "completed",
+      "owner": "OPS-LEAD",
+      "backup_owner": "OPS-FLOW",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T09:02:37Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [],
+      "next_action": "통합 담당자가 조직·Trello·대시보드에 운영 검토 결과 연결",
+      "completion_evidence": {
+        "reference": "tests/test_investment_operations.py; tests/test_investment_rounds.py; docs/INVESTMENT_OPERATIONS.md",
+        "observed_at": "2026-09-10T09:02:37Z",
+        "description": "로컬 운영 7개·회차 4개 핵심 테스트 통과. 운영 및 회차 코드·정책·문서 작성 완료. 외부 통합은 UI-BUILD에서 별도 처리."
+      }
+    },
+    {
+      "id": "UI-BUILD",
+      "title": "전략 요약과 운영 현황 UI 최종 빌드",
+      "kind": "implementation",
+      "status": "completed",
+      "owner": "ROOT-INTEGRATION",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T09:06:50.819597+00:00",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "STRATEGY-BRIEF",
+        "OPS-BUILD"
+      ],
+      "next_action": "검증된 정적 페이지를 GitHub 관리팀에 인계",
+      "completion_evidence": {
+        "reference": "scripts/build_simulation_pages.py; tests/test_investment_supervision.py; node --check scripts/simulation_web/simulation.js",
+        "observed_at": "2026-09-10T09:06:50.819597+00:00",
+        "description": "53개 성과 비교, 36개 직원 전략 설명, 13개 회의실 링크, 운영 큐·실제 회차 상태를 빌드했고 JavaScript 구문 및 필수 승인 요약 검증 통과"
+      }
+    },
+    {
+      "id": "PUBLISH",
+      "title": "검증된 main 소스와 GitHub Pages 발행",
+      "kind": "release",
+      "status": "ready",
+      "owner": "GITHUB-MANAGEMENT",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T08:54:43Z",
+      "due_at": "2026-09-10T10:00:00Z",
+      "priority": 1,
+      "dependencies": [
+        "GITHUB-BLOBS",
+        "UI-BUILD"
+      ],
+      "next_action": "최종 검증과 기존 브랜치 보존 조건을 만족하면 기존 고객 허락 범위에서 업로드",
+      "approval": {
+        "required": true,
+        "scope": "verified_github_publication",
+        "standing_authorization": "user_verified_github_publication",
+        "reviewer": "CUSTOMER",
+        "alternate_reviewers": []
+      },
+      "required_gates": [
+        "verification",
+        "paid_usage"
+      ],
+      "gates": {
+        "verification": {
+          "state": "passed",
+          "evidence": {
+            "reference": "UI-BUILD completion and GitHub verified publication snapshot",
+            "observed_at": "2026-09-10T09:06:50.819597+00:00",
+            "description": "통합 코드·정적 결과 검증 완료. 업로드 전 파일 해시를 재대조한다."
+          }
+        },
+        "paid_usage": {
+          "state": "passed",
+          "evidence": {
+            "reference": "parent-agent-session-constraint:no-paid-calls",
+            "observed_at": "2026-09-10T08:54:43Z",
+            "description": "현재 로컬 연산과 기존 승인된 연결만 사용; 새 유료 사용 권한 없음"
+          }
+        }
+      }
+    },
+    {
+      "id": "DATA-PIT",
+      "title": "역사적 생존 편향·상장폐지 가격 자료 보완",
+      "kind": "research",
+      "status": "blocked",
+      "owner": "RESEARCH-TEAM",
+      "backup_owner": "ROOT-INTEGRATION",
+      "created_at": "2026-09-10T08:54:43Z",
+      "observed_at": "2026-09-10T08:54:43Z",
+      "due_at": null,
+      "priority": 3,
+      "dependencies": [],
+      "next_action": "역사 시점 구성종목과 상장폐지 회수 가치에 대한 출처 있는 새 자료 확보",
+      "blockers": [
+        {
+          "id": "historical_universe_and_delisting_data",
+          "state": "open",
+          "description": "현재 상장 목록에서 선정한 표본의 생존 편향과 일부 상장폐지 가격·회수 가치 미해결. 신규 증거 없이는 완료 처리 불가.",
+          "evidence": {
+            "reference": "docs/replays/2026-09-10-v2/data_provenance.json",
+            "observed_at": "2026-09-10T08:54:43Z"
+          }
+        }
+      ]
+    }
+  ],
+  "round_context": {
+    "id": "r03",
+    "status": "active",
+    "actual_started_at": "2026-09-10T08:58:20Z",
+    "scheduled_end_at": "2026-09-10T09:58:20Z",
+    "actual_ended_at": null,
+    "results_review_evidence": null,
+    "source": "data/reference/investment_rounds.json:r03"
+  }
+}

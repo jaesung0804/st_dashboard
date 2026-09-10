@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-10T08:53:03.160091+00:00",
+  "sources": {
+    "/workspace/scratch/a02abdda9b2f/st_dashboard/scripts/build_approval_briefs.py": "68d5e2afc0ce9cd7b29928e0fbe2effd9da35bb9dea9f08e83c66ba5e5ccb38d",
+    "src/ai_stock_assistant/investment_strategy_briefs.py": "7371719b3158a97e20f7148e0480f5dd3410b8da6013cdd82801392fc00cdef4",
+    "src/ai_stock_assistant/investment_supervision.py": "9f8973906a2c825e1e14df388cb34762e3bed4ebc48ecead90d99383cf6be3cd",
+    "scripts/run_employee_evolution.py": "006d2b784dd7e0ccc4025b709845fc7ef0ceff5977e09a34c47a11bef2820f71"
+  },
+  "source_events_sha256": "7e92b1b8c31ce9ff7d4ce750dae0c3cf1e773fb3bbcd87d8c9c18c94185cc560",
+  "artifacts": {
+    "annotations.jsonl.gz": "bf732acccdfb8cbcaaec702bce6488f9eabb3b94fd88b3e0393e64ef20f0a85f",
+    "summary.json": "1ac7ecd0fc5caa1d5d5bff2344b71a088e260e05b2ef6d3d83b12e0b8dd3cf56"
+  }
+}

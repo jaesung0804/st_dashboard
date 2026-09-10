@@ -1,0 +1,382 @@
+{
+  "case": {
+    "id": "pulse-matched-review5",
+    "company": "pulse",
+    "source": "matched",
+    "start": "2023-01-03",
+    "interval": 5
+  },
+  "summary": {
+    "pulse_month": {
+      "net_return": 0.3523909078003882,
+      "max_drawdown": -0.5002127439317334,
+      "annualized_volatility": 0.29182326285276483,
+      "sharpe_zero_cash_rate": 0.4301931656919702,
+      "final_nav": 40571.72723401165,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.08639773335699608,
+      "stale_reserved_return": 0.21745464628412936,
+      "cost_paid": 3046.9893860116595,
+      "trade_count": 2341,
+      "turnover": 101.56631286705529,
+      "stale_days": 19,
+      "max_stale_weight": 0.10093646877392942,
+      "unitized_return": 0.3523909078003882,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.16293080232474688,
+          "max_drawdown": -0.34120888175825637,
+          "annualized_volatility": 0.2695396428600442,
+          "sharpe_zero_cash_rate": -0.19617173443469835,
+          "final_nav": 0.8370691976752531,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.6156261770906277,
+          "max_drawdown": -0.313308583835453,
+          "annualized_volatility": 0.3164337199111559,
+          "sharpe_zero_cash_rate": 1.0771322734145454,
+          "final_nav": 1.3523909078003882,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.1392897803163784,
+        "worst": -0.4806347604287412,
+        "positive_fraction": 0.6401799100449775
+      }
+    },
+    "pulse_day": {
+      "net_return": 0.3991326011661298,
+      "max_drawdown": -0.3327885979595241,
+      "annualized_volatility": 0.2786535551606845,
+      "sharpe_zero_cash_rate": 0.46977891877952255,
+      "final_nav": 41973.97803498389,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.0965784112288941,
+      "stale_reserved_return": 0.3991326011661298,
+      "cost_paid": 9404.466662298102,
+      "trade_count": 3198,
+      "turnover": 313.48222207660336,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.3991326011661298,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.14815948242176868,
+          "max_drawdown": -0.3327885979595241,
+          "annualized_volatility": 0.2609391329611709,
+          "sharpe_zero_cash_rate": 0.39584836276984003,
+          "final_nav": 1.1481594824217687,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.21858733267175845,
+          "max_drawdown": -0.2339770545038916,
+          "annualized_volatility": 0.2989418262767132,
+          "sharpe_zero_cash_rate": 0.5493620982431656,
+          "final_nav": 1.3991326011661298,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.11992377701125156,
+        "worst": -0.2592443381140459,
+        "positive_fraction": 0.6296851574212894
+      }
+    },
+    "pulse_week": {
+      "net_return": 0.8491648080638217,
+      "max_drawdown": -0.38919766823292234,
+      "annualized_volatility": 0.2937716882948863,
+      "sharpe_zero_cash_rate": 0.7209324515361705,
+      "final_nav": 55474.94424191465,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.18382477607316194,
+      "stale_reserved_return": 0.8491648080638217,
+      "cost_paid": 5683.407447564237,
+      "trade_count": 2668,
+      "turnover": 189.4469149188079,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.8491648080638217,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.05078320110491363,
+          "max_drawdown": -0.38919766823292234,
+          "annualized_volatility": 0.26808977384332305,
+          "sharpe_zero_cash_rate": 0.22644655623131363,
+          "final_nav": 1.0507832011049136,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.759796698423993,
+          "max_drawdown": -0.27685119959339743,
+          "annualized_volatility": 0.3220060585111573,
+          "sharpe_zero_cash_rate": 1.2239033174834386,
+          "final_nav": 1.8491648080638217,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.15248545953880766,
+        "worst": -0.2767903443732469,
+        "positive_fraction": 0.7346326836581709
+      }
+    }
+  },
+  "ledger_tail": "bf8c3d400118385522e9f50a33039507d51fd1951adb842508e4d8a461f3814b",
+  "decisions": 552,
+  "trades": 8207,
+  "last_decisions": {
+    "pulse_month": {
+      "desk": "pulse_month",
+      "company": "pulse",
+      "signal_date": "2026-08-27",
+      "rule": "momentum_long; breadth=0.468; target_exposure=1.00",
+      "target_capital": 41010.78761873969,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "APPS",
+          "target_weight": 0.1,
+          "score": 0.935484,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-053446"
+        },
+        {
+          "ticker": "ATRC",
+          "target_weight": 0.1,
+          "score": 0.991935,
+          "filing_available_at": "2026-07-28",
+          "filing_id": "0001323885-26-000035"
+        },
+        {
+          "ticker": "BWIN",
+          "target_weight": 0.1,
+          "score": 0.967742,
+          "filing_available_at": "2026-07-31",
+          "filing_id": "0001781755-26-000049"
+        },
+        {
+          "ticker": "CBRL",
+          "target_weight": 0.1,
+          "score": 0.975806,
+          "filing_available_at": "2026-06-10",
+          "filing_id": "0001104659-26-071825"
+        },
+        {
+          "ticker": "HPE",
+          "target_weight": 0.1,
+          "score": 0.951613,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001645590-26-000055"
+        },
+        {
+          "ticker": "OII",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0000073756-26-000136"
+        },
+        {
+          "ticker": "PARR",
+          "target_weight": 0.1,
+          "score": 0.943548,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0000821483-26-000014"
+        },
+        {
+          "ticker": "PAYC",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": "2026-08-07",
+          "filing_id": "0001193125-26-338010"
+        },
+        {
+          "ticker": "SDGR",
+          "target_weight": 0.1,
+          "score": 0.959677,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001490978-26-000068"
+        },
+        {
+          "ticker": "UTZ",
+          "target_weight": 0.1,
+          "score": 1.0,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-052899"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "pulse_day": {
+      "desk": "pulse_day",
+      "company": "pulse",
+      "signal_date": "2026-08-27",
+      "rule": "momentum_short; breadth=0.468; target_exposure=1.00",
+      "target_capital": 42298.940039917215,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ACB",
+          "target_weight": 0.1,
+          "score": 0.943548,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "ALT",
+          "target_weight": 0.1,
+          "score": 0.91129,
+          "filing_available_at": "2026-08-13",
+          "filing_id": "0001326190-26-000052"
+        },
+        {
+          "ticker": "APPS",
+          "target_weight": 0.1,
+          "score": 0.959677,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-053446"
+        },
+        {
+          "ticker": "DT",
+          "target_weight": 0.1,
+          "score": 0.931452,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001773383-26-000050"
+        },
+        {
+          "ticker": "HBM",
+          "target_weight": 0.1,
+          "score": 0.955645,
+          "filing_available_at": "2026-03-28",
+          "filing_id": "0001062993-26-001648"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.931452,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0001373715-26-000076"
+        },
+        {
+          "ticker": "PAYC",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-08-07",
+          "filing_id": "0001193125-26-338010"
+        },
+        {
+          "ticker": "PSKY",
+          "target_weight": 0.1,
+          "score": 0.919355,
+          "filing_available_at": "2026-08-05",
+          "filing_id": "0002041610-26-000054"
+        },
+        {
+          "ticker": "SRPT",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001193125-26-335003"
+        },
+        {
+          "ticker": "TWLO",
+          "target_weight": 0.1,
+          "score": 0.955645,
+          "filing_available_at": "2026-08-08",
+          "filing_id": "0001447669-26-000092"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "pulse_week": {
+      "desk": "pulse_week",
+      "company": "pulse",
+      "signal_date": "2026-08-27",
+      "rule": "momentum_medium; breadth=0.468; target_exposure=1.00",
+      "target_capital": 56133.315303002775,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ACB",
+          "target_weight": 0.1,
+          "score": 0.983871,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "APPS",
+          "target_weight": 0.1,
+          "score": 0.975806,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001628280-26-053446"
+        },
+        {
+          "ticker": "HBM",
+          "target_weight": 0.1,
+          "score": 0.951613,
+          "filing_available_at": "2026-03-28",
+          "filing_id": "0001062993-26-001648"
+        },
+        {
+          "ticker": "INO",
+          "target_weight": 0.1,
+          "score": 1.0,
+          "filing_available_at": "2026-08-13",
+          "filing_id": "0001055726-26-000023"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.927419,
+          "filing_available_at": "2026-07-24",
+          "filing_id": "0001373715-26-000076"
+        },
+        {
+          "ticker": "PAYC",
+          "target_weight": 0.1,
+          "score": 0.991935,
+          "filing_available_at": "2026-08-07",
+          "filing_id": "0001193125-26-338010"
+        },
+        {
+          "ticker": "PSKY",
+          "target_weight": 0.1,
+          "score": 0.959677,
+          "filing_available_at": "2026-08-05",
+          "filing_id": "0002041610-26-000054"
+        },
+        {
+          "ticker": "SDGR",
+          "target_weight": 0.1,
+          "score": 0.943548,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001490978-26-000068"
+        },
+        {
+          "ticker": "SRPT",
+          "target_weight": 0.1,
+          "score": 0.967742,
+          "filing_available_at": "2026-08-06",
+          "filing_id": "0001193125-26-335003"
+        },
+        {
+          "ticker": "TWLO",
+          "target_weight": 0.1,
+          "score": 0.935484,
+          "filing_available_at": "2026-08-08",
+          "filing_id": "0001447669-26-000092"
+        }
+      ],
+      "pending_at_end": false
+    }
+  }
+}

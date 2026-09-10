@@ -1,0 +1,382 @@
+{
+  "case": {
+    "id": "adaptive-matched-review63",
+    "company": "adaptive",
+    "source": "matched",
+    "start": "2023-01-03",
+    "interval": 63
+  },
+  "summary": {
+    "adaptive_defensive": {
+      "net_return": 0.1290598165759098,
+      "max_drawdown": -0.11500627198857305,
+      "annualized_volatility": 0.08631413339489914,
+      "sharpe_zero_cash_rate": 0.4292060037762841,
+      "final_nav": 33871.7944972773,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.0338828227921546,
+      "stale_reserved_return": -0.08099400261592093,
+      "cost_paid": 455.2626607825024,
+      "trade_count": 224,
+      "turnover": 15.175422026083412,
+      "stale_days": 48,
+      "max_stale_weight": 0.1862193341800447,
+      "unitized_return": 0.1290598165759098,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.07377052485152169,
+          "max_drawdown": -0.11500627198857305,
+          "annualized_volatility": 0.0865891781514087,
+          "sharpe_zero_cash_rate": 0.4558953197569531,
+          "final_nav": 1.0737705248515217,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.051490789181453334,
+          "max_drawdown": -0.06455026973749467,
+          "annualized_volatility": 0.08608488882993678,
+          "sharpe_zero_cash_rate": 0.3962986669367264,
+          "final_nav": 1.1290598165759098,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.05646916093641319,
+        "worst": -0.0721735398387856,
+        "positive_fraction": 0.8395802098950524
+      }
+    },
+    "adaptive_tactical": {
+      "net_return": 0.06521061721766519,
+      "max_drawdown": -0.17993777171764602,
+      "annualized_volatility": 0.12266010621850416,
+      "sharpe_zero_cash_rate": 0.20265550629975435,
+      "final_nav": 31956.31851652996,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.017492718646411776,
+      "stale_reserved_return": 0.06521061721766519,
+      "cost_paid": 655.8418255156535,
+      "trade_count": 269,
+      "turnover": 21.86139418385511,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.06521061721766519,
+      "periods": {
+        "v1_early": {
+          "net_return": -0.015785193612642523,
+          "max_drawdown": -0.11004100187043087,
+          "annualized_volatility": 0.10958439878116073,
+          "sharpe_zero_cash_rate": -0.018191686723782057,
+          "final_nav": 0.9842148063873575,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.0822948509864525,
+          "max_drawdown": -0.13697896778035656,
+          "annualized_volatility": 0.13689479395235138,
+          "sharpe_zero_cash_rate": 0.4182774169927065,
+          "final_nav": 1.0652106172176652,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.0064380969606328,
+        "worst": -0.14437597068860009,
+        "positive_fraction": 0.5382308845577212
+      }
+    },
+    "adaptive_quality": {
+      "net_return": 0.5150087613261394,
+      "max_drawdown": -0.2177048690945138,
+      "annualized_volatility": 0.21192649610310188,
+      "sharpe_zero_cash_rate": 0.6441098238308183,
+      "final_nav": 45450.26283978418,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.12079381561629132,
+      "stale_reserved_return": 0.5150087613261394,
+      "cost_paid": 634.1190223129122,
+      "trade_count": 258,
+      "turnover": 21.137300743763742,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.5150087613261394,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.09154148497756731,
+          "max_drawdown": -0.2156810295896997,
+          "annualized_volatility": 0.17177636746367714,
+          "sharpe_zero_cash_rate": 0.34179765379878385,
+          "final_nav": 1.0915414849775673,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.38795344215183447,
+          "max_drawdown": -0.2177048690945138,
+          "annualized_volatility": 0.2521015514743044,
+          "sharpe_zero_cash_rate": 0.9138259785639242,
+          "final_nav": 1.5150087613261394,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.106210819895864,
+        "worst": -0.14038972842978126,
+        "positive_fraction": 0.7586206896551724
+      }
+    }
+  },
+  "ledger_tail": "37bdee09d4b24d63184f39f0eeed699a4f91fbbd9f14398c13754f30b317c565",
+  "decisions": 45,
+  "trades": 751,
+  "last_decisions": {
+    "adaptive_defensive": {
+      "desk": "adaptive_defensive",
+      "company": "adaptive",
+      "signal_date": "2026-07-13",
+      "rule": "defensive; breadth=0.598; target_exposure=1.00",
+      "target_capital": 34187.388141637086,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "BN",
+          "target_weight": 0.1,
+          "score": 0.937008,
+          "filing_available_at": "2026-03-19",
+          "filing_id": "0001001085-26-000006"
+        },
+        {
+          "ticker": "BRK-B",
+          "target_weight": 0.1,
+          "score": 0.952756,
+          "filing_available_at": "2026-05-05",
+          "filing_id": "0001193125-26-202243"
+        },
+        {
+          "ticker": "CCRN",
+          "target_weight": 0.1,
+          "score": 1.0,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "MTG",
+          "target_weight": 0.1,
+          "score": 0.968504,
+          "filing_available_at": "2026-04-30",
+          "filing_id": "0000876437-26-000022"
+        },
+        {
+          "ticker": "NVG",
+          "target_weight": 0.1,
+          "score": 0.984252,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "PEN",
+          "target_weight": 0.1,
+          "score": 0.992126,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001321732-26-000019"
+        },
+        {
+          "ticker": "SIGI",
+          "target_weight": 0.1,
+          "score": 0.929134,
+          "filing_available_at": "2026-04-25",
+          "filing_id": "0000230557-26-000011"
+        },
+        {
+          "ticker": "SIRI",
+          "target_weight": 0.1,
+          "score": 0.944882,
+          "filing_available_at": "2026-05-01",
+          "filing_id": "0000908937-26-000011"
+        },
+        {
+          "ticker": "SLF",
+          "target_weight": 0.1,
+          "score": 0.96063,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "TXNM",
+          "target_weight": 0.1,
+          "score": 0.976378,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001108426-26-000026"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "adaptive_tactical": {
+      "desk": "adaptive_tactical",
+      "company": "adaptive",
+      "signal_date": "2026-07-13",
+      "rule": "balanced_momentum; breadth=0.598; target_exposure=1.00",
+      "target_capital": 32858.07393145352,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ACA",
+          "target_weight": 0.1,
+          "score": 0.80315,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001739445-26-000067"
+        },
+        {
+          "ticker": "ASB",
+          "target_weight": 0.1,
+          "score": 0.76378,
+          "filing_available_at": "2026-04-29",
+          "filing_id": "0000007789-26-000141"
+        },
+        {
+          "ticker": "MTG",
+          "target_weight": 0.1,
+          "score": 0.917323,
+          "filing_available_at": "2026-04-30",
+          "filing_id": "0000876437-26-000022"
+        },
+        {
+          "ticker": "MUFG",
+          "target_weight": 0.1,
+          "score": 0.795276,
+          "filing_available_at": null,
+          "filing_id": null
+        },
+        {
+          "ticker": "NWE",
+          "target_weight": 0.1,
+          "score": 0.771654,
+          "filing_available_at": "2026-05-01",
+          "filing_id": "0001993004-26-000029"
+        },
+        {
+          "ticker": "PNW",
+          "target_weight": 0.1,
+          "score": 0.779528,
+          "filing_available_at": "2026-05-05",
+          "filing_id": "0000764622-26-000025"
+        },
+        {
+          "ticker": "SIGI",
+          "target_weight": 0.1,
+          "score": 0.795276,
+          "filing_available_at": "2026-04-25",
+          "filing_id": "0000230557-26-000011"
+        },
+        {
+          "ticker": "SIRI",
+          "target_weight": 0.1,
+          "score": 0.901575,
+          "filing_available_at": "2026-05-01",
+          "filing_id": "0000908937-26-000011"
+        },
+        {
+          "ticker": "VOYA",
+          "target_weight": 0.1,
+          "score": 0.846457,
+          "filing_available_at": "2026-05-08",
+          "filing_id": "0001535929-26-000083"
+        },
+        {
+          "ticker": "WRB",
+          "target_weight": 0.1,
+          "score": 0.814961,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0000011544-26-000011"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "adaptive_quality": {
+      "desk": "adaptive_quality",
+      "company": "adaptive",
+      "signal_date": "2026-07-13",
+      "rule": "balanced_quality; breadth=0.598; target_exposure=1.00",
+      "target_capital": 43932.75022498826,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "DT",
+          "target_weight": 0.1,
+          "score": 0.803147,
+          "filing_available_at": "2026-05-21",
+          "filing_id": "0001773383-26-000019"
+        },
+        {
+          "ticker": "EXTR",
+          "target_weight": 0.1,
+          "score": 0.794644,
+          "filing_available_at": "2026-05-01",
+          "filing_id": "0001193125-26-197200"
+        },
+        {
+          "ticker": "HPE",
+          "target_weight": 0.1,
+          "score": 0.752039,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001645590-26-000055"
+        },
+        {
+          "ticker": "HQY",
+          "target_weight": 0.1,
+          "score": 0.759988,
+          "filing_available_at": "2026-05-29",
+          "filing_id": "0001428336-26-000028"
+        },
+        {
+          "ticker": "NBIX",
+          "target_weight": 0.1,
+          "score": 0.837548,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0000914475-26-000026"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.849868,
+          "filing_available_at": "2026-04-24",
+          "filing_id": "0001373715-26-000056"
+        },
+        {
+          "ticker": "PHR",
+          "target_weight": 0.1,
+          "score": 0.804619,
+          "filing_available_at": "2026-05-29",
+          "filing_id": "0001412408-26-000172"
+        },
+        {
+          "ticker": "QCOM",
+          "target_weight": 0.1,
+          "score": 0.867075,
+          "filing_available_at": "2026-04-30",
+          "filing_id": "0000804328-26-000061"
+        },
+        {
+          "ticker": "TWLO",
+          "target_weight": 0.1,
+          "score": 0.809571,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001447669-26-000049"
+        },
+        {
+          "ticker": "WDC",
+          "target_weight": 0.1,
+          "score": 0.817923,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001628280-26-029054"
+        }
+      ],
+      "pending_at_end": false
+    }
+  }
+}

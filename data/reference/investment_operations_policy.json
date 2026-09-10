@@ -1,0 +1,162 @@
+{
+  "version": "investment-operations-policy-v1",
+  "actual_created_at": "2026-09-10T08:54:43Z",
+  "mode": "local_rule_recommendations_only",
+  "timezone": "UTC",
+  "session_deadline": "2026-09-10T10:00:00Z",
+  "actors": {
+    "OPS-LEAD": {
+      "name": "정태오",
+      "role": "운영조정팀장",
+      "type": "simulated_rule_employee",
+      "work_kinds": [
+        "operations"
+      ],
+      "approval_scopes": []
+    },
+    "OPS-FLOW": {
+      "name": "문예린",
+      "role": "작업 흐름 담당",
+      "type": "simulated_rule_employee",
+      "work_kinds": [
+        "operations"
+      ],
+      "approval_scopes": []
+    },
+    "OPS-RELEASE": {
+      "name": "백건우",
+      "role": "배포 조정 담당",
+      "type": "simulated_rule_employee",
+      "work_kinds": [
+        "operations"
+      ],
+      "approval_scopes": []
+    },
+    "ROOT-INTEGRATION": {
+      "name": "통합 담당 에이전트",
+      "type": "active_session_agent",
+      "work_kinds": [
+        "implementation",
+        "release",
+        "operations",
+        "audit"
+      ],
+      "approval_scopes": []
+    },
+    "GITHUB-MANAGEMENT": {
+      "name": "GitHub 관리팀 에이전트",
+      "type": "delegated_session_agent",
+      "work_kinds": [
+        "release",
+        "audit"
+      ],
+      "approval_scopes": []
+    },
+    "RESEARCH-TEAM": {
+      "name": "통합 연구실",
+      "type": "organization_role",
+      "work_kinds": [
+        "research",
+        "experiment"
+      ],
+      "approval_scopes": []
+    },
+    "AUDIT": {
+      "name": "독립 감사 담당",
+      "type": "organization_role",
+      "work_kinds": [
+        "audit"
+      ],
+      "approval_scopes": []
+    },
+    "CUSTOMER": {
+      "name": "고객",
+      "type": "user",
+      "work_kinds": [],
+      "approval_scopes": [
+        "verified_github_publication"
+      ]
+    },
+    "compound-LEAD": {
+      "name": "컴파운드 팀장 검토 역할",
+      "type": "simulated_role",
+      "work_kinds": [
+        "investment"
+      ],
+      "approval_scopes": [
+        "investment"
+      ]
+    },
+    "compound-CIO": {
+      "name": "한도윤",
+      "type": "simulated_rule_employee",
+      "work_kinds": [
+        "investment"
+      ],
+      "approval_scopes": [
+        "investment"
+      ]
+    }
+  },
+  "default_wip_limit": 2,
+  "wip_limits": {
+    "ROOT-INTEGRATION": 2,
+    "GITHUB-MANAGEMENT": 1
+  },
+  "approval_route_after_minutes": 15,
+  "allowed_operations": [
+    "recommend_work_routing",
+    "track_recorded_deadlines",
+    "suggest_duplicate_merge",
+    "prioritize",
+    "escalate_to_existing_authority"
+  ],
+  "forbidden_operations": [
+    "grant_investment_approval",
+    "bypass_risk_gate",
+    "use_future_information",
+    "remove_fees",
+    "authorize_paid_usage",
+    "mark_unverified_work_completed",
+    "execute_external_messages",
+    "execute_brokerage_orders",
+    "hire_or_dismiss_inside_round",
+    "grant_personnel_approval",
+    "start_partial_round_at_session_cutoff"
+  ],
+  "standing_authorizations": {
+    "user_verified_github_publication": {
+      "scope": "verified_github_publication",
+      "principal": "CUSTOMER",
+      "state": "granted",
+      "evidence": {
+        "reference": "user-conversation:2026-09-10:github-verified-results-permission",
+        "observed_at": "2026-09-10T08:54:43Z",
+        "description": "사용자가 오류 없이 검증된 결과물의 GitHub 커밋·업로드를 승인. 이 기록 생성 시점에 기존 허락을 재확인한 것이며 최초 허락 시각을 추정하지 않음."
+      },
+      "conditions": [
+        "Only verified code and results",
+        "Respect repository storage and platform policy",
+        "No paid APIs, data or extra usage",
+        "No approval bypass or force push over unrelated work"
+      ]
+    }
+  },
+  "completion_rule": "A completed status requires dated source evidence, resolved required gates and completed dependencies.",
+  "clock_rule": "Actual UTC observation timestamps govern operational waiting. Historical simulation dates are metadata only.",
+  "notes": [
+    "직원 이름은 가상 규칙 직원의 역할 표시이며 실제 별도 Trello 계정이나 상시 실행 프로세스를 뜻하지 않음.",
+    "승인 기한 초과는 승인이 아니다. 기존 권한 있는 대체 검토자 전달을 추천한다.",
+    "허용된 GitHub 업로드에 대해 고객에게 같은 허락을 반복 요청하지 않는다."
+  ],
+  "round_policy": {
+    "minimum_actual_minutes": 60,
+    "clock": "actual_utc_wall_clock",
+    "roster_locked_during_round": true,
+    "personnel_changes_only_after_round_results_review": true,
+    "risk_pause_or_capital_reduction_is_not_departure": true,
+    "require_full_round_before_session_deadline": true,
+    "personnel_approval_by_operations": false,
+    "source_of_actual_start": "Root investment_rounds record; never infer from historical simulation dates"
+  }
+}

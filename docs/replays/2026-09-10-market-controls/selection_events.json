@@ -1,0 +1,1422 @@
+[
+  {
+    "date": "2009-01-02",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.04911863266304478,
+      "relative126": -0.06052332306497471,
+      "diversified_trend": -0.01588207814445891
+    }
+  },
+  {
+    "date": "2009-04-03",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.06830617695522162,
+      "relative126": -0.06368200379331751,
+      "diversified_trend": -0.059169675441120895
+    }
+  },
+  {
+    "date": "2009-07-06",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.1840454314249173,
+      "relative126": -0.23202679091507317,
+      "diversified_trend": -0.16881970141515634
+    }
+  },
+  {
+    "date": "2009-10-02",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.05455016472227331,
+      "relative126": -0.23364377596203295,
+      "diversified_trend": -0.10314997551105054
+    }
+  },
+  {
+    "date": "2010-01-04",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.13183015151188887,
+      "relative126": -0.1836772496649252,
+      "diversified_trend": -0.038766631765829396
+    }
+  },
+  {
+    "date": "2010-04-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.20512445148257102,
+      "relative126": -0.10073143315781768,
+      "diversified_trend": 0.033444267147078155
+    }
+  },
+  {
+    "date": "2010-07-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.0732294854275381,
+      "relative126": -0.2347903201215274,
+      "diversified_trend": -0.09637093660794138
+    }
+  },
+  {
+    "date": "2010-10-04",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.031549924840957755,
+      "relative126": -0.16449266973099202,
+      "diversified_trend": -0.06978471476702491
+    }
+  },
+  {
+    "date": "2011-01-03",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.14304113385365957,
+      "relative126": -0.09093211543717133,
+      "diversified_trend": 0.026661006986087143
+    }
+  },
+  {
+    "date": "2011-04-04",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2017588263245157,
+      "relative126": 0.0072078038571092296,
+      "diversified_trend": 0.09215652421543102
+    }
+  },
+  {
+    "date": "2011-07-05",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.28075228376112393,
+      "relative126": 0.0906400803735023,
+      "diversified_trend": 0.13018885491724502
+    }
+  },
+  {
+    "date": "2011-10-03",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.04532790651048069,
+      "relative126": -0.018929029169628075,
+      "diversified_trend": 0.011322384574307398
+    }
+  },
+  {
+    "date": "2012-01-03",
+    "bps": 10,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.0572056232764252,
+      "relative126": -0.043595323009200826,
+      "diversified_trend": -0.05576034193546858
+    }
+  },
+  {
+    "date": "2012-04-03",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.005462735062149782,
+      "relative126": -0.01842422800250515,
+      "diversified_trend": -0.04569309350592049
+    }
+  },
+  {
+    "date": "2012-07-03",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.11461151393683394,
+      "relative126": 0.0415436620802882,
+      "diversified_trend": 0.032057762395450884
+    }
+  },
+  {
+    "date": "2012-10-02",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1931810859864393,
+      "relative126": 0.053822831521803394,
+      "diversified_trend": 0.08200142218997175
+    }
+  },
+  {
+    "date": "2013-01-04",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.10087909874628348,
+      "relative126": -0.009695646496287458,
+      "diversified_trend": 0.0016355258923289595
+    }
+  },
+  {
+    "date": "2013-04-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.11900335693451919,
+      "relative126": -0.04031363079528477,
+      "diversified_trend": 0.016833578539640626
+    }
+  },
+  {
+    "date": "2013-07-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.16656915530272126,
+      "relative126": 0.04412636946577009,
+      "diversified_trend": 0.07082428742624802
+    }
+  },
+  {
+    "date": "2013-10-04",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2902714373841741,
+      "relative126": 0.161781423898121,
+      "diversified_trend": 0.1514895960415778
+    }
+  },
+  {
+    "date": "2014-01-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3927501915665638,
+      "relative126": 0.18861054477743222,
+      "diversified_trend": 0.17809692573480856
+    }
+  },
+  {
+    "date": "2014-04-07",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2793226902745043,
+      "relative126": 0.12991798372538355,
+      "diversified_trend": 0.13610709873574722
+    }
+  },
+  {
+    "date": "2014-07-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3986868646529962,
+      "relative126": 0.29373605382582013,
+      "diversified_trend": 0.2992618723459567
+    }
+  },
+  {
+    "date": "2014-10-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.33565733306883927,
+      "relative126": 0.1889309225641379,
+      "diversified_trend": 0.2311925467023107
+    }
+  },
+  {
+    "date": "2015-01-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3395141114041356,
+      "relative126": 0.2135816542010719,
+      "diversified_trend": 0.2601129544841449
+    }
+  },
+  {
+    "date": "2015-04-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3088995180604475,
+      "relative126": 0.10829782422306644,
+      "diversified_trend": 0.16808897724298494
+    }
+  },
+  {
+    "date": "2015-07-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.23200404184195028,
+      "relative126": 0.026909393973459594,
+      "diversified_trend": 0.13090197461355635
+    }
+  },
+  {
+    "date": "2015-10-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.12494722462253177,
+      "relative126": -0.04470552789198329,
+      "diversified_trend": 0.0801446682221652
+    }
+  },
+  {
+    "date": "2016-01-06",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.012060388998499927,
+      "relative126": -0.18576325395696053,
+      "diversified_trend": -0.005119287300413833
+    }
+  },
+  {
+    "date": "2016-04-07",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.05102364586088731,
+      "relative126": -0.16177959857109375,
+      "diversified_trend": -0.0006094809905966558
+    }
+  },
+  {
+    "date": "2016-07-07",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.09879607711858263,
+      "relative126": -0.19340660279302985,
+      "diversified_trend": -0.038560110790319624
+    }
+  },
+  {
+    "date": "2016-10-05",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.07322584996178816,
+      "relative126": -0.11465678339936597,
+      "diversified_trend": -0.012888281755881859
+    }
+  },
+  {
+    "date": "2017-01-05",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.044570891215599984,
+      "relative126": -0.04321890224217628,
+      "diversified_trend": 0.03030161547951299
+    }
+  },
+  {
+    "date": "2017-04-06",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.045445790062881075,
+      "relative126": -0.05010689895267839,
+      "diversified_trend": 0.04419144260012431
+    }
+  },
+  {
+    "date": "2017-07-07",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.0032525534381318,
+      "relative126": -0.05230171723920829,
+      "diversified_trend": 0.06404815578471468
+    }
+  },
+  {
+    "date": "2017-10-05",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.1295492544244724,
+      "relative126": 0.05781433899067745,
+      "diversified_trend": 0.14453656404403986
+    }
+  },
+  {
+    "date": "2018-01-05",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2883360073786832,
+      "relative126": 0.22628918074323945,
+      "diversified_trend": 0.24706895627042397
+    }
+  },
+  {
+    "date": "2018-04-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.23973205693740846,
+      "relative126": 0.08936990821928098,
+      "diversified_trend": 0.15402828995614237
+    }
+  },
+  {
+    "date": "2018-07-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.29025173110159,
+      "relative126": 0.12588325144395257,
+      "diversified_trend": 0.17412259958360055
+    }
+  },
+  {
+    "date": "2018-10-05",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.297250053525485,
+      "relative126": 0.14073866831397314,
+      "diversified_trend": 0.19398074987636116
+    }
+  },
+  {
+    "date": "2019-01-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17349375860781874,
+      "relative126": -0.07858079344204183,
+      "diversified_trend": 0.05622335685690849
+    }
+  },
+  {
+    "date": "2019-04-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.16163033365827123,
+      "relative126": 0.0014010137929959532,
+      "diversified_trend": 0.07849022100761538
+    }
+  },
+  {
+    "date": "2019-07-10",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17329276873053417,
+      "relative126": 0.06577709627361228,
+      "diversified_trend": 0.1047218981040664
+    }
+  },
+  {
+    "date": "2019-10-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.08327861500676975,
+      "relative126": 0.04557624083524103,
+      "diversified_trend": 0.061766184058351103
+    }
+  },
+  {
+    "date": "2020-01-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.13124188162089384,
+      "relative126": 0.05720113637017288,
+      "diversified_trend": 0.07226510192269509
+    }
+  },
+  {
+    "date": "2020-04-08",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.011675325888755528,
+      "relative126": -0.1412436697290474,
+      "diversified_trend": -0.07304357561909064
+    }
+  },
+  {
+    "date": "2020-07-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.10851100999941127,
+      "relative126": -0.18976528035012935,
+      "diversified_trend": -0.1327496518684504
+    }
+  },
+  {
+    "date": "2020-10-07",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.06728110126093695,
+      "relative126": -0.20641029791286875,
+      "diversified_trend": -0.14456180190441653
+    }
+  },
+  {
+    "date": "2021-01-07",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.09693353129010512,
+      "relative126": -0.051587568331425915,
+      "diversified_trend": -0.0054097096374948195
+    }
+  },
+  {
+    "date": "2021-04-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.15526519306381642,
+      "relative126": 0.04815781333291508,
+      "diversified_trend": 0.07755739701193626
+    }
+  },
+  {
+    "date": "2021-07-09",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17414508385663868,
+      "relative126": 0.07966324091255822,
+      "diversified_trend": 0.09084488602383661
+    }
+  },
+  {
+    "date": "2021-10-07",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.22104909031309877,
+      "relative126": 0.007188706167412129,
+      "diversified_trend": 0.13641814073181097
+    }
+  },
+  {
+    "date": "2022-01-06",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.15807732075430797,
+      "relative126": -0.034770557332298224,
+      "diversified_trend": 0.1454805065128097
+    }
+  },
+  {
+    "date": "2022-04-07",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.25011218256617346,
+      "relative126": 0.418009066785151,
+      "diversified_trend": 0.432242009458973
+    }
+  },
+  {
+    "date": "2022-07-11",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.11458987117524894,
+      "relative126": 0.3062649365137861,
+      "diversified_trend": 0.3708512501552632
+    }
+  },
+  {
+    "date": "2022-10-07",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.02551816324046091,
+      "relative126": 0.3510501639077818,
+      "diversified_trend": 0.3864349638510962
+    }
+  },
+  {
+    "date": "2023-01-09",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.08134103004723853,
+      "relative126": 0.29639166901503783,
+      "diversified_trend": 0.2999213950137667
+    }
+  },
+  {
+    "date": "2023-04-11",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.24999232060830562,
+      "relative126": 0.07192050706767,
+      "diversified_trend": 0.09814934834709194
+    }
+  },
+  {
+    "date": "2023-07-12",
+    "bps": 10,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.23876237011957935,
+      "relative126": 0.015529943114146405,
+      "diversified_trend": 0.023388454601779518
+    }
+  },
+  {
+    "date": "2023-10-10",
+    "bps": 10,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.26476016796782653,
+      "relative126": 0.06418664067131513,
+      "diversified_trend": -0.021074693992097382
+    }
+  },
+  {
+    "date": "2024-01-10",
+    "bps": 10,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.23780015217434813,
+      "relative126": 0.09724158757247409,
+      "diversified_trend": -0.058280439622135694
+    }
+  },
+  {
+    "date": "2024-04-11",
+    "bps": 10,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.03411441708540358,
+      "relative126": 0.05241497739989892,
+      "diversified_trend": -0.04694919764342942
+    }
+  },
+  {
+    "date": "2024-07-12",
+    "bps": 10,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": 0.1961491469268699,
+      "relative126": 0.20649104578927113,
+      "diversified_trend": 0.04988775092569059
+    }
+  },
+  {
+    "date": "2024-10-10",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.23211197862750632,
+      "relative126": 0.15853019026483123,
+      "diversified_trend": 0.06379229847853574
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.24665480746119917,
+      "relative126": 0.125268030158679,
+      "diversified_trend": 0.03347596653602536
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3074473452766169,
+      "relative126": 0.09332719705745968,
+      "diversified_trend": 0.05776676514156259
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2874430845576015,
+      "relative126": 0.1592566350665972,
+      "diversified_trend": 0.13094645416380196
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3926993683344633,
+      "relative126": 0.21482735653381063,
+      "diversified_trend": 0.18969075078657843
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.32702651911877356,
+      "relative126": 0.10963873836284149,
+      "diversified_trend": 0.18267276375039782
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.24609160449663747,
+      "relative126": 0.1113692676316052,
+      "diversified_trend": 0.18860477227400435
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "bps": 10,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.22197067182476737,
+      "relative126": 0.08502974873864805,
+      "diversified_trend": 0.16716389615213118
+    }
+  },
+  {
+    "date": "2009-01-02",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.053464805063218324,
+      "relative126": -0.06732809062936668,
+      "diversified_trend": -0.019793772087635275
+    }
+  },
+  {
+    "date": "2009-04-03",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.07171433755959183,
+      "relative126": -0.06777241674792528,
+      "diversified_trend": -0.06204601435311369
+    }
+  },
+  {
+    "date": "2009-07-06",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.18879981829340053,
+      "relative126": -0.23605359821549143,
+      "diversified_trend": -0.17251834631103763
+    }
+  },
+  {
+    "date": "2009-10-02",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.0572560304950569,
+      "relative126": -0.23919241767119093,
+      "diversified_trend": -0.10620163611244648
+    }
+  },
+  {
+    "date": "2010-01-04",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1287672703986389,
+      "relative126": -0.1884525583692347,
+      "diversified_trend": -0.04200207824324864
+    }
+  },
+  {
+    "date": "2010-04-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.20389060473664333,
+      "relative126": -0.10708794495813179,
+      "diversified_trend": 0.030536277501418185
+    }
+  },
+  {
+    "date": "2010-07-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.0710942303986149,
+      "relative126": -0.2420209479132503,
+      "diversified_trend": -0.0990670804602326
+    }
+  },
+  {
+    "date": "2010-10-04",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.0266747877610794,
+      "relative126": -0.17289688199951025,
+      "diversified_trend": -0.07455166836279115
+    }
+  },
+  {
+    "date": "2011-01-03",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1366687024613123,
+      "relative126": -0.10120479643126035,
+      "diversified_trend": 0.020740378673517634
+    }
+  },
+  {
+    "date": "2011-04-04",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.19510830588072842,
+      "relative126": -0.00400865542426998,
+      "diversified_trend": 0.08587556970738897
+    }
+  },
+  {
+    "date": "2011-07-05",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2750305860175584,
+      "relative126": 0.07875218000891326,
+      "diversified_trend": 0.12399719794478026
+    }
+  },
+  {
+    "date": "2011-10-03",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.03947660727364638,
+      "relative126": -0.028378902334490252,
+      "diversified_trend": 0.006160165762022496
+    }
+  },
+  {
+    "date": "2012-01-03",
+    "bps": 20,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.06258429107592417,
+      "relative126": -0.052844762424760994,
+      "diversified_trend": -0.06061227472978992
+    }
+  },
+  {
+    "date": "2012-04-03",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.011989749198479227,
+      "relative126": -0.027329436535494134,
+      "diversified_trend": -0.0512752136503174
+    }
+  },
+  {
+    "date": "2012-07-03",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.10942960885736897,
+      "relative126": 0.03416054387987755,
+      "diversified_trend": 0.027287276200958333
+    }
+  },
+  {
+    "date": "2012-10-02",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1898593873270209,
+      "relative126": 0.04580266238097597,
+      "diversified_trend": 0.07825150107450124
+    }
+  },
+  {
+    "date": "2013-01-04",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.09881803413743051,
+      "relative126": -0.01875616209012776,
+      "diversified_trend": -0.001385074270094988
+    }
+  },
+  {
+    "date": "2013-04-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.11690817149112709,
+      "relative126": -0.0500396924890576,
+      "diversified_trend": 0.013559497680940946
+    }
+  },
+  {
+    "date": "2013-07-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1643885250178927,
+      "relative126": 0.033106373918756093,
+      "diversified_trend": 0.06774976178452952
+    }
+  },
+  {
+    "date": "2013-10-04",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2890552847048722,
+      "relative126": 0.14825726250990573,
+      "diversified_trend": 0.14854311693062272
+    }
+  },
+  {
+    "date": "2014-01-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3914301676954308,
+      "relative126": 0.17265560375437766,
+      "diversified_trend": 0.17479041119705518
+    }
+  },
+  {
+    "date": "2014-04-07",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.27923448336342077,
+      "relative126": 0.11616162367626265,
+      "diversified_trend": 0.13268311822557727
+    }
+  },
+  {
+    "date": "2014-07-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.39859921400066867,
+      "relative126": 0.27888237912852604,
+      "diversified_trend": 0.295940389563002
+    }
+  },
+  {
+    "date": "2014-10-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.33557873201611826,
+      "relative126": 0.1751942649322063,
+      "diversified_trend": 0.22860403854709138
+    }
+  },
+  {
+    "date": "2015-01-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.33943242652253386,
+      "relative126": 0.19824959217233895,
+      "diversified_trend": 0.2574872171133177
+    }
+  },
+  {
+    "date": "2015-04-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.30882220462515314,
+      "relative126": 0.09410760231915105,
+      "diversified_trend": 0.16565236528806182
+    }
+  },
+  {
+    "date": "2015-07-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.23193613820837616,
+      "relative126": 0.013558590880167976,
+      "diversified_trend": 0.12798284863556264
+    }
+  },
+  {
+    "date": "2015-10-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.12383267617066329,
+      "relative126": -0.05784501442507883,
+      "diversified_trend": 0.07688005819161836
+    }
+  },
+  {
+    "date": "2016-01-06",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.01478764217887718,
+      "relative126": -0.19860693761835607,
+      "diversified_trend": -0.009462280676962753
+    }
+  },
+  {
+    "date": "2016-04-07",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.05496178708386745,
+      "relative126": -0.17673038703612465,
+      "diversified_trend": -0.005019859784313019
+    }
+  },
+  {
+    "date": "2016-07-07",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.10387949390334694,
+      "relative126": -0.2075720130301777,
+      "diversified_trend": -0.043480221416088594
+    }
+  },
+  {
+    "date": "2016-10-05",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.07839970618143954,
+      "relative126": -0.1297885606703416,
+      "diversified_trend": -0.018365197225795937
+    }
+  },
+  {
+    "date": "2017-01-05",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.04985077350493716,
+      "relative126": -0.05651211099825676,
+      "diversified_trend": 0.02462418839552799
+    }
+  },
+  {
+    "date": "2017-04-06",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.05072236092346705,
+      "relative126": -0.062193707623809935,
+      "diversified_trend": 0.03853009502010024
+    }
+  },
+  {
+    "date": "2017-07-07",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.008684879843819271,
+      "relative126": -0.06531827798473921,
+      "diversified_trend": 0.05827248992424422
+    }
+  },
+  {
+    "date": "2017-10-05",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.12516836642795814,
+      "relative126": 0.04328188234227376,
+      "diversified_trend": 0.13964430007420114
+    }
+  },
+  {
+    "date": "2018-01-05",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2859165527373206,
+      "relative126": 0.21119356239027198,
+      "diversified_trend": 0.2425844106060535
+    }
+  },
+  {
+    "date": "2018-04-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.23850333284532294,
+      "relative126": 0.07594441514642158,
+      "diversified_trend": 0.15023031160419736
+    }
+  },
+  {
+    "date": "2018-07-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.29018730478494364,
+      "relative126": 0.1125866559207519,
+      "diversified_trend": 0.17076559586509482
+    }
+  },
+  {
+    "date": "2018-10-05",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2971860504406529,
+      "relative126": 0.12829825962577568,
+      "diversified_trend": 0.19031137110610635
+    }
+  },
+  {
+    "date": "2019-01-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17235333369829092,
+      "relative126": -0.09234794922653583,
+      "diversified_trend": 0.05227373524553097
+    }
+  },
+  {
+    "date": "2019-04-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.1594524198584259,
+      "relative126": -0.012386744456815701,
+      "diversified_trend": 0.07471694789763889
+    }
+  },
+  {
+    "date": "2019-07-10",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17108908922046057,
+      "relative126": 0.05280691490813144,
+      "diversified_trend": 0.10112188983891107
+    }
+  },
+  {
+    "date": "2019-10-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.08123336886987137,
+      "relative126": 0.03375722270141451,
+      "diversified_trend": 0.05832465043666396
+    }
+  },
+  {
+    "date": "2020-01-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.129105116749395,
+      "relative126": 0.04428101972837656,
+      "diversified_trend": 0.06901754632481599
+    }
+  },
+  {
+    "date": "2020-04-08",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.014570701299025601,
+      "relative126": -0.15117094097396705,
+      "diversified_trend": -0.07651256828793068
+    }
+  },
+  {
+    "date": "2020-07-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.11282300451960364,
+      "relative126": -0.19921198322215822,
+      "diversified_trend": -0.13642422630026124
+    }
+  },
+  {
+    "date": "2020-10-07",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": -0.07174642088595978,
+      "relative126": -0.21563782204377197,
+      "diversified_trend": -0.14816727006458125
+    }
+  },
+  {
+    "date": "2021-01-07",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.09293708938429263,
+      "relative126": -0.06220948292375855,
+      "diversified_trend": -0.009516581264323476
+    }
+  },
+  {
+    "date": "2021-04-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.15220243244436332,
+      "relative126": 0.03550718075883336,
+      "diversified_trend": 0.0733218040260048
+    }
+  },
+  {
+    "date": "2021-07-09",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.17104700296278436,
+      "relative126": 0.0682169303870796,
+      "diversified_trend": 0.08675973804877607
+    }
+  },
+  {
+    "date": "2021-10-07",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.21786419811259655,
+      "relative126": -0.004616588149653211,
+      "diversified_trend": 0.13211627735360837
+    }
+  },
+  {
+    "date": "2022-01-06",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.15501171330788627,
+      "relative126": -0.048041328620337664,
+      "diversified_trend": 0.14111414929322302
+    }
+  },
+  {
+    "date": "2022-04-07",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.24767549811660516,
+      "relative126": 0.3989764704080018,
+      "diversified_trend": 0.42798926437217377
+    }
+  },
+  {
+    "date": "2022-07-11",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.11040833697338526,
+      "relative126": 0.28938604389109923,
+      "diversified_trend": 0.3669552852179538
+    }
+  },
+  {
+    "date": "2022-10-07",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": 0.021597246899099698,
+      "relative126": 0.3347371512514393,
+      "diversified_trend": 0.3833512207095659
+    }
+  },
+  {
+    "date": "2023-01-09",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.0849523301157371,
+      "relative126": 0.2818918157374787,
+      "diversified_trend": 0.2970534690765169
+    }
+  },
+  {
+    "date": "2023-04-11",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.2558266044849569,
+      "relative126": 0.05985423802168366,
+      "diversified_trend": 0.09400445645809291
+    }
+  },
+  {
+    "date": "2023-07-12",
+    "bps": 20,
+    "chosen": "diversified_trend",
+    "scores": {
+      "trend200": -0.2457944235976427,
+      "relative126": 0.0021704138835138,
+      "diversified_trend": 0.018262982866117716
+    }
+  },
+  {
+    "date": "2023-10-10",
+    "bps": 20,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.27164540173033347,
+      "relative126": 0.05178464101974811,
+      "diversified_trend": -0.027406292637011054
+    }
+  },
+  {
+    "date": "2024-01-10",
+    "bps": 20,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.24483515967975011,
+      "relative126": 0.08759250629625404,
+      "diversified_trend": -0.06512846450081544
+    }
+  },
+  {
+    "date": "2024-04-11",
+    "bps": 20,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": -0.04098239495699202,
+      "relative126": 0.04604327569790512,
+      "diversified_trend": -0.05425439106411967
+    }
+  },
+  {
+    "date": "2024-07-12",
+    "bps": 20,
+    "chosen": "relative126",
+    "scores": {
+      "trend200": 0.19176267123864588,
+      "relative126": 0.19847802070266551,
+      "diversified_trend": 0.042554028175863234
+    }
+  },
+  {
+    "date": "2024-10-10",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.22760889043025256,
+      "relative126": 0.14842231094744823,
+      "diversified_trend": 0.05649468304121519
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2421007475270437,
+      "relative126": 0.11592817330954713,
+      "diversified_trend": 0.026566403807877448
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.30493020427101064,
+      "relative126": 0.08167161529138495,
+      "diversified_trend": 0.051505458290678985
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.28501379309812686,
+      "relative126": 0.14811186101562085,
+      "diversified_trend": 0.12459360022172328
+    }
+  },
+  {
+    "date": "2025-10-14",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3900711298807568,
+      "relative126": 0.20146545475331384,
+      "diversified_trend": 0.18361285769642677
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.3245238564855983,
+      "relative126": 0.09619189701971503,
+      "diversified_trend": 0.17738202896731703
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.2437447775083978,
+      "relative126": 0.09586081003046781,
+      "diversified_trend": 0.18406648160207684
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "bps": 20,
+    "chosen": "trend200",
+    "scores": {
+      "trend200": 0.21965970955444608,
+      "relative126": 0.0688322750024834,
+      "diversified_trend": 0.1619322236790458
+    }
+  }
+]

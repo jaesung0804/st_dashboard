@@ -1,0 +1,3949 @@
+[
+  {
+    "date": "2007-07-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.038552457925139505,
+      "pulse_week": 0.044531052265017745,
+      "pulse_month": 0.20974130583710682
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2007-07-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2007-07-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.03512938266555554,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.01796532680310725
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2007-10-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.022886817478709243,
+      "pulse_week": 0.010816213360951121,
+      "pulse_month": 0.07780123652270332
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2007-10-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2007-10-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.04900926086270441,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.22032434678530533
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-01-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.15823464293418327,
+      "pulse_week": -0.11279017339686159,
+      "pulse_month": -0.11131602866994839
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-01-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-01-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.0631794055385968,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.1415536694270344
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-04-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.25466497390539683,
+      "pulse_week": -0.2482113230695605,
+      "pulse_month": -0.20548781195096139
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-04-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-04-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.134812186997533,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.09054637603648985
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-07-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.11302863473207891,
+      "pulse_week": -0.12426149483033166,
+      "pulse_month": -0.08366939114394345
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-07-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-07-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.10177538084008625,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.06957979866832509
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-10-02",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.13489644574419807,
+      "pulse_week": -0.09496214702520772,
+      "pulse_month": -0.178536858612376
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-10-02",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2008-10-02",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.11188077562845355,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.13663057643812648
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-01-02",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.0,
+      "pulse_day": 0.45000000000000007
+    },
+    "scores": {
+      "pulse_day": -0.25041194815818957,
+      "pulse_week": -0.19461954431232276,
+      "pulse_month": -0.24904883723261478
+    },
+    "paused": [
+      "pulse_month"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-01-02",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-01-02",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.0
+    },
+    "scores": {
+      "adaptive_tactical": -0.22834177717948356,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.2577390822460762
+    },
+    "paused": [
+      "adaptive_defensive"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-04-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.14193910833684964,
+      "pulse_week": -0.15656677031561494,
+      "pulse_month": -0.08828006528948035
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-04-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-04-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.13871051534221185,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.13172371493067142
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-07-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.028307754280042285,
+      "pulse_week": -0.055400946371004345,
+      "pulse_month": -0.018980693276120675
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-07-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-07-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.013025662845651431,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": -0.014468152713412563
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-10-02",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.005519339895615649,
+      "pulse_week": 0.041716453048555424,
+      "pulse_month": 0.04511923328693085
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-10-02",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2009-10-02",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.0226000211046698,
+      "adaptive_quality": 0.0,
+      "adaptive_defensive": 0.005432551309045297
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-01-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.039810082182496764,
+      "pulse_week": 0.10840049358881088,
+      "pulse_month": 0.0692417368144217
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-01-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-01-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.02976319030373248,
+      "adaptive_quality": 0.0027088188802134594,
+      "adaptive_defensive": 0.05559225824852854
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-04-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.14579536448531794,
+      "pulse_week": 0.17934173208799098,
+      "pulse_month": 0.09965277334435452
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-04-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.025134240181404865,
+      "compound_half": -0.025134240181404588,
+      "compound_year": -0.025134240181404865
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-04-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.0018517944528795294,
+      "adaptive_quality": 0.017114671339112986,
+      "adaptive_defensive": 0.06969354617440054
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-07-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.07221144104703009,
+      "pulse_week": -0.039231405904573025,
+      "pulse_month": -0.04181739942481738
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-07-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.19018989407301107,
+      "compound_half": -0.17381150314122717,
+      "compound_year": -0.13217279521499375
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-07-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.10465005258475502,
+      "adaptive_quality": -0.0708655144333532,
+      "adaptive_defensive": -0.07319839386157789
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-10-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.18399018975738402,
+      "pulse_week": -0.14519812150777517,
+      "pulse_month": -0.10457896471232414
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-10-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.18139033885171224,
+      "compound_half": -0.1652203711591962,
+      "compound_year": -0.12276107978611078
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2010-10-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.07768252703076184,
+      "adaptive_quality": -0.09242921482615102,
+      "adaptive_defensive": -0.07112776863229986
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-01-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.12893085639809165,
+      "pulse_week": 0.12485009692789056,
+      "pulse_month": 0.1840251854905235
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-01-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.03996403534698767,
+      "compound_half": 0.037456118510983516,
+      "compound_year": 0.029124469760220317
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-01-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.14487108789758085,
+      "adaptive_quality": 0.063381743897781,
+      "adaptive_defensive": 0.10547055554781992
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-04-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.07723263951090076,
+      "pulse_week": 0.034310346657321134,
+      "pulse_month": 0.1535405015575178
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-04-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.050358606432687136,
+      "compound_half": 0.0682318558283897,
+      "compound_year": 0.07892370328632303
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-04-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.08842510565318212,
+      "adaptive_quality": 0.10081550512197912,
+      "adaptive_defensive": 0.09890148997104287
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-07-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.07854767979841326,
+      "pulse_week": -0.10428878138036424,
+      "pulse_month": 0.014305310549837635
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-07-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.022116827066633704,
+      "compound_half": 0.03562303279309126,
+      "compound_year": 0.04671086379997008
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-07-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.05954972136082748,
+      "adaptive_quality": -0.0096906642627968,
+      "adaptive_defensive": 0.02429550281748416
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-10-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.27207695045912916,
+      "pulse_week": -0.18800497394970822,
+      "pulse_month": -0.1477117469434781
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-10-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.45,
+      "compound_half": 0.0
+    },
+    "scores": {
+      "compound_quarter": -0.23103553181352954,
+      "compound_half": -0.32252989034430934,
+      "compound_year": -0.24285687202280554
+    },
+    "paused": [
+      "compound_half"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2011-10-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.27791751384266294,
+      "adaptive_quality": -0.2754145096771194,
+      "adaptive_defensive": -0.14723568362112283
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-01-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.22365694727497692,
+      "pulse_week": -0.13147524314944276,
+      "pulse_month": -0.1356717560302736
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-01-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.45,
+      "compound_half": 0.0
+    },
+    "scores": {
+      "compound_quarter": -0.22466286290077075,
+      "compound_half": -0.3349275300410469,
+      "compound_year": -0.22885941080563954
+    },
+    "paused": [
+      "compound_half"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-01-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.1998417936853294,
+      "adaptive_quality": -0.18284378961615771,
+      "adaptive_defensive": -0.08390042313524182
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-04-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.008438182572508668,
+      "pulse_week": 0.07364367206687777,
+      "pulse_month": 0.07845535898621014
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-04-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.09509932053744002,
+      "compound_half": 0.0,
+      "compound_year": 0.052726324033916416
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-04-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.13655607606088704,
+      "adaptive_quality": 0.13819906403599846,
+      "adaptive_defensive": 0.11149257318070294
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-07-03",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.11640573412417288,
+      "pulse_week": -0.09191226942860514,
+      "pulse_month": -0.1155336859255987
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-07-03",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0028088306436957478,
+      "compound_half": -0.025959792484813116,
+      "compound_year": -0.02178952232699377
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-07-03",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.05578625720093405,
+      "adaptive_quality": -0.007832353835722228,
+      "adaptive_defensive": 0.06543567542680767
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-10-02",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.13606492846844082,
+      "pulse_week": -0.14585225977193683,
+      "pulse_month": -0.1278413896773029
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-10-02",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.07250728270310347,
+      "compound_half": 0.024962213460394678,
+      "compound_year": -0.033862095659992486
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2012-10-02",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.056838534391142725,
+      "adaptive_quality": -0.08333150460471128,
+      "adaptive_defensive": -0.005961541425801464
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-01-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.05012016454722129,
+      "pulse_week": 0.0007495841668707648,
+      "pulse_month": 0.07647886731616726
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-01-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.00748046458377688,
+      "compound_half": 0.07848933576623407,
+      "compound_year": 0.03751509131428693
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-01-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.04258600749508645,
+      "adaptive_quality": 0.018470692330571303,
+      "adaptive_defensive": 0.05951749172714571
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-04-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.11886879184582327,
+      "pulse_week": 0.09548230565089888,
+      "pulse_month": 0.1423538519818378
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-04-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.04106466051188912,
+      "compound_half": 0.07904552510937818,
+      "compound_year": 0.0427344432958604
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-04-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.06539857034321206,
+      "adaptive_quality": 0.06658344710921626,
+      "adaptive_defensive": 0.16512698167263284
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-07-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.11442740063877943,
+      "pulse_week": 0.09546803261733622,
+      "pulse_month": 0.1828614775621068
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-07-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.1274616787066984,
+      "compound_half": 0.21084512534930466,
+      "compound_year": 0.08418644238955103
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-07-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.1831743517210619,
+      "adaptive_quality": 0.17499280457321398,
+      "adaptive_defensive": 0.07768845412460601
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-10-04",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.12990557136641018,
+      "pulse_week": 0.08428458706217551,
+      "pulse_month": 0.21205397820238542
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-10-04",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.21276831739559482,
+      "compound_half": 0.2810246930535061,
+      "compound_year": 0.12481161599134855
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2013-10-04",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.10923940330780513,
+      "adaptive_quality": 0.19087501866961715,
+      "adaptive_defensive": 0.021038041665469298
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-01-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.14107433321947088,
+      "pulse_week": 0.1105400062838095,
+      "pulse_month": 0.22515494959934507
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-01-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.07978848684950779,
+      "compound_half": 0.13305736380304412,
+      "compound_year": 0.0668501319272653
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-01-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.06268151992097026,
+      "adaptive_quality": 0.06023415635430901,
+      "adaptive_defensive": 0.07748364689397108
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-04-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.05880350133381246,
+      "pulse_week": 0.03686060752617326,
+      "pulse_month": 0.0490216863016511
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-04-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.07807686249453866,
+      "compound_half": -0.025310689352978477,
+      "compound_year": -0.03670602807951612
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-04-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.00810553830960653,
+      "adaptive_quality": -0.06088498082277405,
+      "adaptive_defensive": 0.024703876211893128
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-07-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.030458365406273002,
+      "pulse_week": -0.024062106361598,
+      "pulse_month": -0.0016052450239787963
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-07-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.03894065980304223,
+      "compound_half": -0.030518737374486016,
+      "compound_year": -0.0444814285556514
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-07-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.003248743514747743,
+      "adaptive_quality": -0.05937872678441741,
+      "adaptive_defensive": 0.039115544855558126
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-10-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.07579096103549404,
+      "pulse_week": -0.0717173884359063,
+      "pulse_month": -0.10457755100424027
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-10-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.10795782139766757,
+      "compound_half": -0.07050554521519614,
+      "compound_year": -0.10834881201573882
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2014-10-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.03580309812856236,
+      "adaptive_quality": -0.16312000955330863,
+      "adaptive_defensive": -0.007744808949361859
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-01-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.03803316231430898,
+      "pulse_week": -0.036742600787261326,
+      "pulse_month": -0.11192939104972227
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-01-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.10855196460781757,
+      "compound_half": -0.05899098193987656,
+      "compound_year": -0.1026712977515104
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-01-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.0014460265402961858,
+      "adaptive_quality": -0.10312000914356989,
+      "adaptive_defensive": 0.005130563297412405
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-04-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.08481433153239126,
+      "pulse_week": 0.09037979298879062,
+      "pulse_month": 0.1473875175860065
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-04-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.10564214971735952,
+      "compound_half": 0.11506168293197333,
+      "compound_year": 0.03281675083381541
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-04-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.08593614031811508,
+      "adaptive_quality": 0.12151262203800184,
+      "adaptive_defensive": 0.05505583463292568
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-07-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.026784348551026294,
+      "pulse_week": 0.009933906460766306,
+      "pulse_month": 0.06730622295889294
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-07-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0412112579921482,
+      "compound_half": 0.023819407996273134,
+      "compound_year": -0.014708351688259236
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-07-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.03866652028266793,
+      "adaptive_quality": -0.0011644809476735185,
+      "adaptive_defensive": -0.07219952000473412
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-10-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.1121183352704096,
+      "pulse_week": -0.0922052306529379,
+      "pulse_month": -0.05347671133094345
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-10-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.05579605453581221,
+      "compound_half": -0.06157233224069797,
+      "compound_year": -0.07181372085154464
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2015-10-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.12388119729430208,
+      "adaptive_quality": -0.12810814049708474,
+      "adaptive_defensive": -0.15745529155494914
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-01-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.06353498164107046,
+      "pulse_week": -0.05012017454591711,
+      "pulse_month": -0.09197293348845365
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-01-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.006521083079715884,
+      "compound_half": -0.021091894702011893,
+      "compound_year": -0.07700397822307964
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-01-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.0887797444246845,
+      "adaptive_quality": -0.06866368103499088,
+      "adaptive_defensive": -0.14142595023172244
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-04-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.04763086234530722,
+      "pulse_week": -0.04345801221594042,
+      "pulse_month": -0.11267772262761011
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-04-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.014230315431542462,
+      "compound_half": -0.06678168008751045,
+      "compound_year": -0.09193581417447666
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-04-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.014023985255672944,
+      "adaptive_quality": -0.026049535143635894,
+      "adaptive_defensive": -0.09056761871538632
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-07-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.023839375979830546,
+      "pulse_week": -0.0021475029381399224,
+      "pulse_month": -0.03145340998188062
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-07-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.02558628972768634,
+      "compound_half": -0.020219058378318444,
+      "compound_year": 0.016068398123386174
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-07-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.10375105020085407,
+      "adaptive_quality": -0.029270043612237118,
+      "adaptive_defensive": 0.05198187259383169
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-10-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.04252734572174588,
+      "pulse_week": 0.11193345633494678,
+      "pulse_month": 0.10798106837780441
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-10-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.08268712807621864,
+      "compound_half": 0.05905448000463731,
+      "compound_year": 0.04460150496109161
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2016-10-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.052232284269004225,
+      "adaptive_quality": 0.026022980874032153,
+      "adaptive_defensive": 0.05583188336922573
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-01-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.06656525415802894,
+      "pulse_week": 0.04369616555798156,
+      "pulse_month": 0.08060562572943075
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-01-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.05817422750987894,
+      "compound_half": 0.10934271936509499,
+      "compound_year": 0.03435644761718859
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-01-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.07096132059025506,
+      "adaptive_quality": 0.05216207500015929,
+      "adaptive_defensive": 0.032310113768723336
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-04-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.04380368240633137,
+      "pulse_week": -0.05642571341505326,
+      "pulse_month": -0.023561190870453608
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-04-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.020417064653608874,
+      "compound_half": 0.14595069071366057,
+      "compound_year": 0.03523516525427056
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-04-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.10535311239171402,
+      "adaptive_quality": 0.02481247015923288,
+      "adaptive_defensive": 0.07934501794718402
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-07-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.13041517087896626,
+      "pulse_week": -0.07921810037165006,
+      "pulse_month": 0.060864099882430855
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-07-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.10032312977888569,
+      "compound_half": 0.157797745446212,
+      "compound_year": 0.05206988841168925
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-07-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.005201642435777976,
+      "adaptive_quality": 0.028385436183314183,
+      "adaptive_defensive": 0.07619940873496445
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-10-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.07922166584005386,
+      "pulse_week": -0.02464706556894125,
+      "pulse_month": 0.032125670105762005
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-10-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.195768311500851,
+      "compound_half": 0.1229356419453757,
+      "compound_year": 0.07086620329704135
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2017-10-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.03995770920104169,
+      "adaptive_quality": 0.0035875625504476205,
+      "adaptive_defensive": 0.05739258313454909
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-01-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.03664290511739182,
+      "pulse_week": 0.13502349188520296,
+      "pulse_month": 0.21470843057588734
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-01-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.07244066138386879,
+      "compound_half": 0.08027145980682288,
+      "compound_year": 0.025740248078392536
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-01-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.06636252278334448,
+      "adaptive_quality": 0.0024602230412927306,
+      "adaptive_defensive": -0.007353769912922525
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-04-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.031218302622377736,
+      "pulse_week": 0.05587087035636795,
+      "pulse_month": 0.10145767031593778
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-04-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.04169654735978873,
+      "compound_half": -0.012881112883533219,
+      "compound_year": -0.06604210341595401
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-04-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.12761460582417095,
+      "adaptive_quality": -0.02628104688757521,
+      "adaptive_defensive": -0.06933278191025355
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-07-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.0799445591558337,
+      "pulse_week": 0.10764462788394868,
+      "pulse_month": 0.04982530324573298
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-07-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.03422516422810917,
+      "compound_half": -0.03200112274672173,
+      "compound_year": 0.020088407102236805
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-07-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.00560917779200526,
+      "adaptive_quality": 0.004623525271006679,
+      "adaptive_defensive": -0.022916180923471197
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-10-05",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.09348943406459204,
+      "pulse_week": 0.12506937115322903,
+      "pulse_month": 0.11544008800903321
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-10-05",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_quarter": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.09287301517385232,
+      "compound_half": 0.08763673984375209,
+      "compound_year": 0.11868093331088098
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2018-10-05",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.024089122834039745,
+      "adaptive_quality": 0.09705894039463658,
+      "adaptive_defensive": 0.033252116683902044
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-01-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.17205935960281898,
+      "pulse_week": -0.19770536587586662,
+      "pulse_month": -0.18177048798286877
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-01-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.06412945694204014,
+      "compound_half": -0.047404706756942805,
+      "compound_year": -0.03430363829083066
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-01-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.14727896050720224,
+      "adaptive_quality": -0.09609226763938988,
+      "adaptive_defensive": -0.051578117029449866
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-04-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.08951197067223832,
+      "pulse_week": -0.12543995427942983,
+      "pulse_month": -0.044202165926161274
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-04-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_quarter": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.043611744775731376,
+      "compound_half": -0.049005924577192383,
+      "compound_year": -0.03524643465538635
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-04-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.03285866974397106,
+      "adaptive_quality": -0.06809827614692521,
+      "adaptive_defensive": -0.010696067510469476
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-07-10",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.03127577833799228,
+      "pulse_week": 0.027871721817794237,
+      "pulse_month": 0.12736119170690813
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-07-10",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.1386014328591283,
+      "compound_half": 0.12118730239065051,
+      "compound_year": 0.06718957100296241
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-07-10",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.12724314138161624,
+      "adaptive_quality": 0.14967726283879496,
+      "adaptive_defensive": 0.09012107948285347
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-10-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.09068591551924582,
+      "pulse_week": -0.11598164209075235,
+      "pulse_month": -0.05962401809898904
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-10-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.04756966891135739,
+      "compound_half": 0.0046691241518003745,
+      "compound_year": -0.03839097100705807
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2019-10-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.024828193954494204,
+      "adaptive_quality": -0.05337067991058536,
+      "adaptive_defensive": 0.08197579344885558
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-01-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.036554729052932444,
+      "pulse_week": -0.07303570859142744,
+      "pulse_month": -0.08591575457131789
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-01-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.09576929750126884,
+      "compound_half": -0.02644888406761986,
+      "compound_year": -0.03562648155563558
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-01-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.07377162669358867,
+      "adaptive_quality": -0.09968719860561259,
+      "adaptive_defensive": 0.051920209226735015
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-04-08",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.0687852046996359,
+      "pulse_week": -0.08561506203970731,
+      "pulse_month": -0.04821091683729006
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-04-08",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.0,
+      "compound_year": 0.0,
+      "compound_quarter": 0.0
+    },
+    "scores": {
+      "compound_quarter": -0.28590710380586265,
+      "compound_half": -0.23938403229183053,
+      "compound_year": -0.25662740610598056
+    },
+    "paused": [
+      "compound_quarter",
+      "compound_half",
+      "compound_year"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-04-08",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.0
+    },
+    "scores": {
+      "adaptive_tactical": -0.18919300000932038,
+      "adaptive_quality": -0.14249615984566266,
+      "adaptive_defensive": -0.29208651919967604
+    },
+    "paused": [
+      "adaptive_defensive"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-07-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.17112202441380464,
+      "pulse_week": -0.00012408301179606118,
+      "pulse_month": 0.16236645575621111
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-07-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.0,
+      "compound_year": 0.0,
+      "compound_quarter": 0.0
+    },
+    "scores": {
+      "compound_quarter": -0.3281709001845737,
+      "compound_half": -0.2816032398983061,
+      "compound_year": -0.3038534190280814
+    },
+    "paused": [
+      "compound_quarter",
+      "compound_half",
+      "compound_year"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-07-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.0
+    },
+    "scores": {
+      "adaptive_tactical": -0.14774016085410469,
+      "adaptive_quality": 0.0013942128557971056,
+      "adaptive_defensive": -0.3076445698537153
+    },
+    "paused": [
+      "adaptive_defensive"
+    ],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-10-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.17748919522504636,
+      "pulse_week": 0.1954134027876242,
+      "pulse_month": 0.25068446666652
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-10-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.0,
+      "compound_half": 0.0,
+      "compound_year": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2020-10-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.05023104482029461,
+      "adaptive_quality": 0.13876551995915776,
+      "adaptive_defensive": 0.0
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-01-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.10593052411820514,
+      "pulse_week": 0.16250774880189345,
+      "pulse_month": 0.21026096013823992
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-01-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.10095814346921328,
+      "compound_half": 0.1299874842419197,
+      "compound_year": 0.1134293601461972
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-01-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.08275264983832764,
+      "adaptive_quality": 0.08694415947887668,
+      "adaptive_defensive": 0.0479248708882532
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-04-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.05657136551187586,
+      "pulse_week": 0.021313890112371225,
+      "pulse_month": 0.19873005491393175
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-04-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.11691043314265082,
+      "compound_half": 0.13018704926270064,
+      "compound_year": 0.16907532139568965
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-04-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.19650865748742768,
+      "adaptive_quality": 0.1663570917430814,
+      "adaptive_defensive": 0.18299688719888257
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-07-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.038311016304165946,
+      "pulse_week": -0.050797752329264256,
+      "pulse_month": 0.025687350299187284
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-07-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_quarter": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.007334215237105479,
+      "compound_half": -0.019966796302476553,
+      "compound_year": -0.0022837688101062237
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-07-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.049943415823902104,
+      "adaptive_quality": 0.028984707175336355,
+      "adaptive_defensive": 0.07993814222964646
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-10-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.0198590201367968,
+      "pulse_week": 0.04646684791634781,
+      "pulse_month": -0.04176979428666794
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-10-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.020867893059564546,
+      "compound_half": 0.01310981395910299,
+      "compound_year": -0.029710486564969385
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2021-10-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.0905459102452984,
+      "adaptive_quality": -0.02702431310826231,
+      "adaptive_defensive": -0.043589588403816604
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-01-06",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.036701737275386115,
+      "pulse_week": -0.004023995926577706,
+      "pulse_month": -0.0180210679096256
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-01-06",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.032820507433493906,
+      "compound_half": 0.04679572739481447,
+      "compound_year": -0.0004931074494384236
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-01-06",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.045447365736055456,
+      "adaptive_quality": -0.027568718492975097,
+      "adaptive_defensive": 0.04812467103089102
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-04-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.09456993783336165,
+      "pulse_week": -0.11915225103683919,
+      "pulse_month": -0.040662250084558704
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-04-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.08403925955451697,
+      "compound_half": -0.1187072852158727,
+      "compound_year": -0.21817484825770778
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-04-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.056941784932053874,
+      "adaptive_quality": -0.07824332344669493,
+      "adaptive_defensive": 0.05008558837875959
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-07-11",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.2601607541083785,
+      "pulse_week": -0.18779538916686084,
+      "pulse_month": -0.1419305649412757
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-07-11",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.19772113390370333,
+      "compound_half": -0.243155799523339,
+      "compound_year": -0.23455270914983467
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-07-11",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.24344251552421975,
+      "adaptive_quality": -0.14589292352083527,
+      "adaptive_defensive": -0.08730030364995967
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-10-07",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_day": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.159592789468967,
+      "pulse_week": -0.17138234431695487,
+      "pulse_month": -0.13947450960346292
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-10-07",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_year": 0.45,
+      "compound_half": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.20496717140901527,
+      "compound_half": -0.16414260940325243,
+      "compound_year": -0.09732371462281025
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2022-10-07",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.24260341865797996,
+      "adaptive_quality": -0.12215382593336083,
+      "adaptive_defensive": -0.22120193753732925
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-01-09",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.012575183978623505,
+      "pulse_week": -0.03047502114923023,
+      "pulse_month": -0.017128030484441392
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-01-09",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.040436594446394636,
+      "compound_half": -0.027710920736688738,
+      "compound_year": -0.030055174651567484
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-01-09",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.009861330636136867,
+      "adaptive_quality": -0.028175136967438064,
+      "adaptive_defensive": -0.08934915620084416
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-04-11",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.051989060526974884,
+      "pulse_week": -0.06596528041260658,
+      "pulse_month": -0.10104807105609853
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-04-11",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.003961746665117616,
+      "compound_half": -0.04374245702706292,
+      "compound_year": -0.005102038806242548
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-04-11",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.055751431651277716,
+      "adaptive_quality": -0.04950312778456767,
+      "adaptive_defensive": 0.040245349608213465
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-07-12",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.02003238167259347,
+      "pulse_week": -0.10185424717420644,
+      "pulse_month": -0.11856820286532455
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-07-12",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.0012017209375415616,
+      "compound_half": -0.013964720589059065,
+      "compound_year": -0.007063894539721061
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-07-12",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_quality": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.10203172264865346,
+      "adaptive_quality": -0.07576669059640206,
+      "adaptive_defensive": -0.0040551254919148905
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-10-10",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_month": 0.3,
+      "pulse_week": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.0946399178640508,
+      "pulse_week": -0.14787213235651464,
+      "pulse_month": -0.11911705171509113
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-10-10",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.05748346738922738,
+      "compound_half": -0.03047052306476744,
+      "compound_year": -0.05853362659555317
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2023-10-10",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.11060902523893207,
+      "adaptive_quality": -0.123601146773554,
+      "adaptive_defensive": -0.08510434026971997
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-01-10",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.05450954132543695,
+      "pulse_week": -0.10469686260551614,
+      "pulse_month": -0.11385170874244044
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-01-10",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.06759989180040804,
+      "compound_half": -0.04754298102265225,
+      "compound_year": -0.0682289590341063
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-01-10",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.10951058071628822,
+      "adaptive_quality": -0.11409472365848711,
+      "adaptive_defensive": -0.07542087243902196
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-04-11",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.18932375855069233,
+      "pulse_week": 0.0129192035442115,
+      "pulse_month": 0.011330461351669208
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-04-11",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.08653424261636972,
+      "compound_half": 0.05853375470876426,
+      "compound_year": 0.053894644890804255
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-04-11",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.046439138368921606,
+      "adaptive_quality": 0.013073946644347245,
+      "adaptive_defensive": 0.03172564300633074
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-07-12",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.0074815507856526575,
+      "pulse_week": -0.04438430442038732,
+      "pulse_month": -0.05098129267802953
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-07-12",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.12884335867762087,
+      "compound_half": 0.06366608263332174,
+      "compound_year": 0.06825144518879278
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-07-12",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_tactical": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.011458584545215533,
+      "adaptive_quality": 0.02346729059971092,
+      "adaptive_defensive": -0.003783043511056128
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-10-10",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_month": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.1430052213581196,
+      "pulse_week": -0.08664835274396143,
+      "pulse_month": -0.08921305294940735
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-10-10",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.023163941001510868,
+      "compound_half": -0.012803818628298547,
+      "compound_year": -0.04337001687046599
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2024-10-10",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.013334517859278583,
+      "adaptive_quality": -0.11617715246758464,
+      "adaptive_defensive": 0.008936657907910484
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-01-13",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.10929191393738719,
+      "pulse_week": -0.09954550314843441,
+      "pulse_month": -0.05751475135447731
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-01-13",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_year": 0.3,
+      "compound_quarter": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.06322498843626834,
+      "compound_half": -0.021502849605795127,
+      "compound_year": -0.049605992601464866
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-01-13",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.07958051426760321,
+      "adaptive_quality": -0.08667688821336655,
+      "adaptive_defensive": -0.08167297630906822
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-04-14",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.1037784229068402,
+      "pulse_week": -0.13504668652538326,
+      "pulse_month": -0.15271215357043838
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-04-14",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.1404034804431888,
+      "compound_half": -0.11464906759354304,
+      "compound_year": -0.1548556548082533
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-04-14",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.016187498537818035,
+      "adaptive_quality": -0.17371016629110841,
+      "adaptive_defensive": -0.0891984746312196
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-07-16",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_day": 0.45,
+      "pulse_week": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": -0.03408177223988801,
+      "pulse_week": -0.036610636019121345,
+      "pulse_month": -0.0835173693760422
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-07-16",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_half": 0.45,
+      "compound_quarter": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": -0.09415165571629114,
+      "compound_half": -0.07359504174960774,
+      "compound_year": -0.164916496243525
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-07-16",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_defensive": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": -0.04615134638891488,
+      "adaptive_quality": -0.1614570001223909,
+      "adaptive_defensive": -0.016857923906099526
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-10-14",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.08929401984072072,
+      "pulse_week": 0.09944087888580266,
+      "pulse_month": 0.16424168499127084
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-10-14",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.19021024555913874,
+      "compound_half": 0.09700471791795834,
+      "compound_year": 0.058742994075513366
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2025-10-14",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.1115771471864287,
+      "adaptive_quality": 0.16155981812303932,
+      "adaptive_defensive": -5.257837303540569e-06
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-01-14",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_month": 0.45,
+      "pulse_week": 0.3,
+      "pulse_day": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.046216636509658904,
+      "pulse_week": 0.08661486021214337,
+      "pulse_month": 0.21881977911508027
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-01-14",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_year": 0.3,
+      "compound_half": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.29422169286680105,
+      "compound_half": 0.06775185651854171,
+      "compound_year": 0.09624750117049641
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-01-14",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.10266859926643085,
+      "adaptive_quality": 0.16115886524083733,
+      "adaptive_defensive": 0.004647790855364542
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-04-16",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.14874821780848274,
+      "pulse_week": 0.18709237700488635,
+      "pulse_month": 0.14211894156776184
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-04-16",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.2087479796453942,
+      "compound_half": 0.1359718908151421,
+      "compound_year": 0.04775282248709706
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-04-16",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_quality": 0.45,
+      "adaptive_tactical": 0.3,
+      "adaptive_defensive": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.07313080833195335,
+      "adaptive_quality": 0.14281330892024413,
+      "adaptive_defensive": 0.07068305496240751
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-07-17",
+    "company": "pulse",
+    "lookback_sessions": 126,
+    "weights": {
+      "pulse_week": 0.45,
+      "pulse_day": 0.3,
+      "pulse_month": 0.15
+    },
+    "scores": {
+      "pulse_day": 0.13137553671477992,
+      "pulse_week": 0.17275909573225345,
+      "pulse_month": 0.03293175138215887
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-07-17",
+    "company": "compound",
+    "lookback_sessions": 126,
+    "weights": {
+      "compound_quarter": 0.45,
+      "compound_half": 0.3,
+      "compound_year": 0.15
+    },
+    "scores": {
+      "compound_quarter": 0.11333027825090097,
+      "compound_half": 0.021105742644484116,
+      "compound_year": 0.018042108996773887
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  },
+  {
+    "date": "2026-07-17",
+    "company": "adaptive",
+    "lookback_sessions": 126,
+    "weights": {
+      "adaptive_tactical": 0.45,
+      "adaptive_defensive": 0.3,
+      "adaptive_quality": 0.15
+    },
+    "scores": {
+      "adaptive_tactical": 0.10405574036934712,
+      "adaptive_quality": 0.04450810503652547,
+      "adaptive_defensive": 0.06366165716999067
+    },
+    "paused": [],
+    "action": "quarterly_review; cash_only_transfers_at_next_open"
+  }
+]

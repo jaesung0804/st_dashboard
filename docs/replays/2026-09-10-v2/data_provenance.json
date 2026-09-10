@@ -1,0 +1,1358 @@
+[
+  {
+    "ticker": "ABBV",
+    "source": "long_2006_snapshot",
+    "sha256": "ccfebbae5a0181f5fc2b2d594f3ba5ff843963e0e8204268f644f7566f7b0052",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3442,
+    "start": "2013-01-02",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ACA",
+    "source": "long_2006_snapshot",
+    "sha256": "35512d6fab039717ad15551ed8c7f4c529c216d3aefe790360bab3a7ac0cd899",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1970,
+    "start": "2018-11-05",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ACB",
+    "source": "long_2006_snapshot",
+    "sha256": "a5cab0a0c1d32b8c9f6cd0e2ca8df528e8fc8aabe618290e74a607cd2cb6ced2",
+    "validation": "manual_review",
+    "issues": [
+      "unchanged_close_20_sessions",
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 3057,
+    "start": "2014-07-15",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ACMR",
+    "source": "long_2006_snapshot",
+    "sha256": "52a26a4135ec121fa33c1a7238cb3e97c00051a64776085966aa1a45b0af98a8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2223,
+    "start": "2017-11-02",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "AER",
+    "source": "long_2006_snapshot",
+    "sha256": "1f0a1838defe0dddf296e0e0c9e4d2e19281d6bc76103edcd5267d3c30c88837",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4979,
+    "start": "2006-11-21",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ALT",
+    "source": "long_2006_snapshot",
+    "sha256": "dad5149f96d7615591e06e04481f05e06ff7e0da1054cda80a3457e804e8d350",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 2334,
+    "start": "2017-05-26",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "AMBA",
+    "source": "long_2006_snapshot",
+    "sha256": "b6310ccb3a0b13e2c87ba58c70b57d8cce65799d242d9cce59b9038fef7513bb",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3497,
+    "start": "2012-10-10",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "AMG",
+    "source": "long_2006_snapshot",
+    "sha256": "b967a041e42341df101624226c7644211ae95df8b9460454be1433ccc78216f5",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "APPS",
+    "source": "long_2006_snapshot",
+    "sha256": "4dc567e867fec084f4596675674b2967ff977d35b9903fdd0a3389b2b2d01175",
+    "validation": "manual_review",
+    "issues": [
+      "unchanged_close_20_sessions",
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5076,
+    "start": "2006-07-06",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ARQT",
+    "source": "long_2006_snapshot",
+    "sha256": "4ebcb01a0d908e1c7156e45c4550e025a0847a6f9ed0297120bc77be0ac0f098",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1660,
+    "start": "2020-01-31",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ARW",
+    "source": "long_2006_snapshot",
+    "sha256": "06fc621ff209ecb7e8b4eaaeb26de3d06c6a2ef4f259fef8cac235b08f36c216",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ASB",
+    "source": "long_2006_snapshot",
+    "sha256": "c72c1bc2530970177aaf0a4cb8e5f156497332728166d697155d163184cc8e30",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ASC",
+    "source": "long_2006_snapshot",
+    "sha256": "76aa865eee5c5c977ebb6bba21ba336f68c87901ae5e41c49ff380a19c558978",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3296,
+    "start": "2013-08-01",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ASH",
+    "source": "long_2006_snapshot",
+    "sha256": "c5f586d603b7ce483450347849029b2136754a5e5e17585d3bb3c38850dafc32",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ATRC",
+    "source": "long_2006_snapshot",
+    "sha256": "5f0209673b13030c9be6efdb4bd1ed079f7e8857e46f63454401c349164f709f",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "AUB",
+    "source": "long_2006_snapshot",
+    "sha256": "e1135de2676247b354c5df735cef4cfaea02d86b46a8c6112d382b2e54bfeee5",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "AVA",
+    "source": "long_2006_snapshot",
+    "sha256": "a598299d9c1b228f1b37a78547715437cbfcb629227195934ad73549d6dc8e60",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BAH",
+    "source": "long_2006_snapshot",
+    "sha256": "8499a57253fd0892043fe3820147d6926993142154bdc9ba163ddf6f1767dfcc",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3974,
+    "start": "2010-11-18",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BEAM",
+    "source": "long_2006_snapshot",
+    "sha256": "fa774b49de18ebe979722f24e90642a1628feffcca6d8a47181e80ce89618777",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1656,
+    "start": "2020-02-06",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BKE",
+    "source": "long_2006_snapshot",
+    "sha256": "d6bd6382d2a9b588f0e7505be80c8b65cbeed45c5a91542dff96006c5304743b",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BMBL",
+    "source": "long_2006_snapshot",
+    "sha256": "07470d32db3d2e0ecdb6baf3a6722bc1d48b6012e732b5712d81e5483d71ede6",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1400,
+    "start": "2021-02-11",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BN",
+    "source": "long_2006_snapshot",
+    "sha256": "b35c0a9e481787a2e8c801cca5f8109d2b12a4d5dabeb3f01a567fc18b36a023",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BRK-B",
+    "source": "long_2006_snapshot",
+    "sha256": "536437d3ff270aab0fb5da60a00ad19896ad38a542217a34a3fdd493b9778825",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "BWIN",
+    "source": "long_2006_snapshot",
+    "sha256": "66f625dc8e6828a2da20f069101b8f6befad98d4ba532607670d117a4739e2f4",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1727,
+    "start": "2019-10-24",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CABO",
+    "source": "long_2006_snapshot",
+    "sha256": "9ab1a5909146b1a0fec303b9208ea309ca47ad6489d146387c366194a10874ea",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2828,
+    "start": "2015-06-11",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CAR",
+    "source": "long_2006_snapshot",
+    "sha256": "0665b343be625a9f4a0c6aad339ba67367adde65da676a7756a61aba8598000a",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CBRL",
+    "source": "long_2006_snapshot",
+    "sha256": "04d05c120f9d60964cedb5966e0281fbf69db41eef9b11eb4ca4142899be8b7a",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CCRN",
+    "source": "retained_2021_snapshot_not_spliced",
+    "sha256": null,
+    "validation": "hold",
+    "issues": [
+      "missing_or_nonfinite_open",
+      "missing_or_nonfinite_high",
+      "missing_or_nonfinite_low",
+      "missing_or_nonfinite_close",
+      "missing_or_nonfinite_volume",
+      "missing_or_nonfinite_adjusted_close",
+      "new_source_loses_retained_history"
+    ],
+    "rows": 1294,
+    "start": "2021-06-01",
+    "end": "2026-07-28"
+  },
+  {
+    "ticker": "CENTA",
+    "source": "long_2006_snapshot",
+    "sha256": "58bca82c87b205e764e5a7bc3316afc1053bef06e9f96733c00888065b9fd299",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4929,
+    "start": "2007-02-06",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CIEN",
+    "source": "long_2006_snapshot",
+    "sha256": "23d84d0706971aa7117f6d3a551dcefef4354344bc8d1f2edd32d426c19708f6",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CIM",
+    "source": "long_2006_snapshot",
+    "sha256": "0f5c5e00e8d5abf9fbc8998d1b788040277a3400f71b6328fef74be5627b6311",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4723,
+    "start": "2007-11-29",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CMRC",
+    "source": "long_2006_snapshot",
+    "sha256": "de6f8454a5d605e9f9016e902fa17f7905ff0e86ebe7a4fb3403178242d0b950",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1531,
+    "start": "2020-08-05",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CNNE",
+    "source": "long_2006_snapshot",
+    "sha256": "11ec3a00949a0b022cd00e0c44c1198c9fc9cfb6adc4bc7c90a11e1a7c093fac",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2211,
+    "start": "2017-11-20",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CNQ",
+    "source": "long_2006_snapshot",
+    "sha256": "8e11fa7d83489281835da0793642bb8b4a672887b39f33ce383add86433fbd85",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "COLB",
+    "source": "long_2006_snapshot",
+    "sha256": "c30aaa157be140df56c704054a30469584a0152288f6bd601de1b3628e3c9ff4",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "CPRI",
+    "source": "long_2006_snapshot",
+    "sha256": "13f01ac027b6c27ff8a61b058978943c4af205aad03da30c051dfded72440aac",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 3703,
+    "start": "2011-12-15",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "DAL",
+    "source": "long_2006_snapshot",
+    "sha256": "50f633a8e83f98440962490962c672e1464fd2ff48823e76f38db8db7ce79ed8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4869,
+    "start": "2007-05-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "DNUT",
+    "source": "long_2006_snapshot",
+    "sha256": "332a7f84c11b433717bd845884c65eb91f2a9445bbcdd6a644717262a98af6d3",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1303,
+    "start": "2021-07-01",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "DRI",
+    "source": "long_2006_snapshot",
+    "sha256": "c2d0cee37087babfa741a38aa7ce79c4f719c7f9ba932915f3300ff229676bc7",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "DT",
+    "source": "long_2006_snapshot",
+    "sha256": "80d176739e52a14e99f1dc22e9525f24a3d081cf900b3bbc25e3178d5bc8be95",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1786,
+    "start": "2019-08-01",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ECVT",
+    "source": "long_2006_snapshot",
+    "sha256": "5684d71ccc720b002fd5cff6b70d8da863a77ce3bd3ce2541d6591e22d18be7e",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2247,
+    "start": "2017-09-29",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "EGBN",
+    "source": "long_2006_snapshot",
+    "sha256": "ff7b57205c4ec130b19ee5d8e20e739617f3ded43fad051a52458c1f5ab30ba1",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "EME",
+    "source": "long_2006_snapshot",
+    "sha256": "da7acccf84fcfe780c1e06d12a51d9b0887086a70ad99659bfadede1eed00c0a",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ENS",
+    "source": "long_2006_snapshot",
+    "sha256": "5eb56c47d67fe6ec52755708876dcdcad368a95a2ee6393914cc1d47147aa238",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ESE",
+    "source": "long_2006_snapshot",
+    "sha256": "6c168bcf1ad91e6747273d6094d9acb41f5fb719fe3071e49bebf768b89f7afe",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ESTA",
+    "source": "long_2006_snapshot",
+    "sha256": "62deb9d6560786092dbfd07628a9df2a3a570f142f14ca53ff12b074f3646077",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 2046,
+    "start": "2018-07-19",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "EXTR",
+    "source": "long_2006_snapshot",
+    "sha256": "9820f15014e26b5710113c003d66209885fe5409e662896329e0d09967890ada",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "FIS",
+    "source": "long_2006_snapshot",
+    "sha256": "644823be79f298e5984e507ae40332d740159892aa18f89972806ad01c267819",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "FLEX",
+    "source": "long_2006_snapshot",
+    "sha256": "71e105d2c5ec039ef72392c58ca474f286d32ce1878820f3bc011a03ccefbfbd",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "GSBD",
+    "source": "long_2006_snapshot",
+    "sha256": "646de0c5e4d319765a57497cb6aa96cadd2e67959f27d75cdb295f9e8a3ed8a8",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 2887,
+    "start": "2015-03-18",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "GT",
+    "source": "long_2006_snapshot",
+    "sha256": "f82492915175503b3bcc83253ebe11c272b9eb7f7376f6a3912728da2abe13c8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "GTM",
+    "source": "long_2006_snapshot",
+    "sha256": "9a835a904ce7910cad4d5469b2f39df3475a7b6b961aef8ff170090f08763803",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1574,
+    "start": "2020-06-04",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "GTY",
+    "source": "long_2006_snapshot",
+    "sha256": "e5a8c800d576a93a12e7432af45ec12e3b649fa0b4c11185df743f4e0b3b6dc9",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "HBM",
+    "source": "long_2006_snapshot",
+    "sha256": "a14b9cdd9f98b9b531abcb6ae53dd36a2a0ea4c2b98798fe00d97a0f8f87fb7d",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4419,
+    "start": "2009-02-13",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "HHH",
+    "source": "long_2006_snapshot",
+    "sha256": "4b6098c53900007272e7a04a247859e4bf500a265c14d0be7372e83bbd99f310",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3983,
+    "start": "2010-11-05",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "HPE",
+    "source": "long_2006_snapshot",
+    "sha256": "14d24c65c58f22281739d40a3ee330153851d4fbf112560c1f2187a447ef84e8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2738,
+    "start": "2015-10-19",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "HQY",
+    "source": "long_2006_snapshot",
+    "sha256": "43527fec9bf3e5ba70c0881f3a94ff7bf4b699fe6e60017c02c695c6f96539e2",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3045,
+    "start": "2014-07-31",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "HXL",
+    "source": "long_2006_snapshot",
+    "sha256": "cc4b4e5845df0bce29db79ca7260c737d334bce5c49ca50982426817ee8dda8f",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "IMKTA",
+    "source": "long_2006_snapshot",
+    "sha256": "7715025a1cd242d5a0a009a43dd8ce43bf1648644f05db4e8c027ba390e0613b",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "INO",
+    "source": "long_2006_snapshot",
+    "sha256": "d08ec96cfc317563c502a76890aa87b7e1fecd278694cdeaf7265402cfe82df5",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "JBTM",
+    "source": "long_2006_snapshot",
+    "sha256": "838e836c4d84b0bbae886448ec83763be1083c87b6b55b0bcea29fcf55a24c88",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4562,
+    "start": "2008-07-22",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "JCI",
+    "source": "long_2006_snapshot",
+    "sha256": "8e7342e2d8d74e4a4e1a66b1098491c43d73206532a0d84b3f3536916bb2efa8",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "KW",
+    "source": "retained_2021_snapshot_not_spliced",
+    "sha256": null,
+    "validation": "missing",
+    "issues": [],
+    "rows": 1266,
+    "start": "2021-06-01",
+    "end": "2026-06-15"
+  },
+  {
+    "ticker": "LEG",
+    "source": "retained_2021_snapshot_not_spliced",
+    "sha256": null,
+    "validation": "hold",
+    "issues": [
+      "missing_or_nonfinite_open",
+      "missing_or_nonfinite_high",
+      "missing_or_nonfinite_low",
+      "missing_or_nonfinite_close",
+      "missing_or_nonfinite_volume",
+      "missing_or_nonfinite_adjusted_close",
+      "new_source_loses_retained_history"
+    ],
+    "rows": 1305,
+    "start": "2021-06-01",
+    "end": "2026-08-27"
+  },
+  {
+    "ticker": "MAS",
+    "source": "long_2006_snapshot",
+    "sha256": "ff9a5cbc342e031568e66fcc816a46377fce6d209bf150d2f28755a23b86f9de",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "MEOH",
+    "source": "long_2006_snapshot",
+    "sha256": "db664e860cb249bd05a66316cf4a462c8b721eb3694d537f30b59be5332a8cdb",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "MTG",
+    "source": "long_2006_snapshot",
+    "sha256": "40ea518bc52498894dbd666921ddf3f97c9159fd59ff4f7768856a8d42eed132",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "MTN",
+    "source": "long_2006_snapshot",
+    "sha256": "52acf5d686637d9d243d22301b5e193a59a51f87fc840e5ea58b5844f5739767",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "MUFG",
+    "source": "long_2006_snapshot",
+    "sha256": "a39a3d0f22a171e93f87f4345dca08b166c83001ff9100b5a72c31139197db52",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NBIX",
+    "source": "long_2006_snapshot",
+    "sha256": "87c15607bd37017489b8b5e8a8b6de888a63be1c42aa0b58eaf4d79d8ef938e7",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NOG",
+    "source": "long_2006_snapshot",
+    "sha256": "ec7f65fd140443f6950cf290cbd444daf04e6fffc39eb04d9fe111feb29c36e7",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4883,
+    "start": "2007-04-13",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NOW",
+    "source": "long_2006_snapshot",
+    "sha256": "639d3b93e6645a5a3646ad60d3c98f9a377456e3975513b8c4c813a2dbe9da2c",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3568,
+    "start": "2012-06-29",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NRG",
+    "source": "long_2006_snapshot",
+    "sha256": "2ec52a5ada4f5b2888955895ff7fcee7c5d2f201cd51395e799f06e75ba68eb8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NSA",
+    "source": "retained_2021_snapshot_not_spliced",
+    "sha256": null,
+    "validation": "hold",
+    "issues": [
+      "missing_or_nonfinite_open",
+      "missing_or_nonfinite_high",
+      "missing_or_nonfinite_low",
+      "missing_or_nonfinite_close",
+      "missing_or_nonfinite_volume",
+      "missing_or_nonfinite_adjusted_close",
+      "new_source_loses_retained_history"
+    ],
+    "rows": 1290,
+    "start": "2021-06-01",
+    "end": "2026-07-21"
+  },
+  {
+    "ticker": "NSSC",
+    "source": "long_2006_snapshot",
+    "sha256": "1f5eae119e2af462d98a3927c6f9783cfa74ce129ffd5007b2533ffbea317aab",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NVG",
+    "source": "long_2006_snapshot",
+    "sha256": "9cddc5a94eb28d1ab6afe704be23b0a591c2f9fda6a3c14c25a31af98ebb44b0",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "NWE",
+    "source": "long_2006_snapshot",
+    "sha256": "e249b0b1afdf988317bba4ba2cb184bde1ea6d001660905aef97bf3e99412540",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4703,
+    "start": "2007-12-28",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "OGS",
+    "source": "long_2006_snapshot",
+    "sha256": "830c43bb565dceb381a524ac84eee98487ac70d2fa877a7f2769a59ac0174d55",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3180,
+    "start": "2014-01-16",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "OII",
+    "source": "long_2006_snapshot",
+    "sha256": "8e2f32d600e647764deb6894699721d577d8fa6eff58cdc04803c9826552430e",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ONT",
+    "source": "long_2006_snapshot",
+    "sha256": "33dce790467f9f3cb32227875237c137ac23996cafc2da86bfd92f19012aca33",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1540,
+    "start": "2020-07-23",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "OPCH",
+    "source": "long_2006_snapshot",
+    "sha256": "2dc8d48f8c9ff047c912846f655bdacb3cf6c56ed45d8b9c41e1dc1c402be96f",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "OUT",
+    "source": "long_2006_snapshot",
+    "sha256": "9964042c797d292352670730d452c8f79128488449ccf7e959dde8dd78873df8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3131,
+    "start": "2014-03-28",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "OVV",
+    "source": "long_2006_snapshot",
+    "sha256": "f3a9c44f3bf9a07045f5d025786ec2a4a37e02d7a9b8c94b28f9c510c9b34351",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PAC",
+    "source": "long_2006_snapshot",
+    "sha256": "a1f139497d59f0923239f378a693a9d4fadf22723b0daefd2c9508415981ccf0",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5166,
+    "start": "2006-02-27",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PARR",
+    "source": "long_2006_snapshot",
+    "sha256": "0638dfa43c55a26457bd9e9d93922c7d0375bfb5421c0437ccb9b9ed3b387094",
+    "validation": "manual_review",
+    "issues": [
+      "unchanged_close_20_sessions",
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 3522,
+    "start": "2012-09-05",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PAYC",
+    "source": "long_2006_snapshot",
+    "sha256": "95eee5234409d4559abf77b0eccd14a689fe0ae4b331d8f8b828be698fc6e5e9",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3119,
+    "start": "2014-04-15",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PCG",
+    "source": "long_2006_snapshot",
+    "sha256": "0dd30ebe313b1fdfeea5feb6935b6cfd5254da3f6ed71ee801bf465635ca9454",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PEN",
+    "source": "long_2006_snapshot",
+    "sha256": "c102cac84919aeb05d2e7e516123c290b7f0a934030919d8d9f9d5a2c652f9d0",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2759,
+    "start": "2015-09-18",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PHG",
+    "source": "long_2006_snapshot",
+    "sha256": "f1b6e4e30f4d20f1ac591d199bc1aee1076fa22cc73069d64a5f753a1ca67bae",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PHR",
+    "source": "long_2006_snapshot",
+    "sha256": "9ebd861b78a19ca784e75cbea7c714b020011feaa869198107ecdd632704951d",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1796,
+    "start": "2019-07-18",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PMT",
+    "source": "long_2006_snapshot",
+    "sha256": "4e28737e3273c064a040d868443a29f0bbc15a9d441ba76f458086bb21630280",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 4304,
+    "start": "2009-07-30",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PNW",
+    "source": "long_2006_snapshot",
+    "sha256": "b278ac21e396315a3175476b279314ddc22e39130b020ff6dfe57a7fcb03276b",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PPG",
+    "source": "long_2006_snapshot",
+    "sha256": "47568c316ba596d0998068143cae10fd7f376ab5b6976785bbc2161f3f587b9e",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PPL",
+    "source": "long_2006_snapshot",
+    "sha256": "c45c3b2a529637c59063529d7e1b2b8c0b7da2bdf553241503204588969ee8bc",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PRM",
+    "source": "long_2006_snapshot",
+    "sha256": "b308f36b6bf2c8a4c98ff21845ea58ed0c27bee90b2e25cb98f01f94b6d21a48",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1212,
+    "start": "2021-11-09",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PRTA",
+    "source": "retained_2021_snapshot_not_spliced",
+    "sha256": null,
+    "validation": "hold",
+    "issues": [
+      "invalid_sign_open",
+      "invalid_sign_high",
+      "invalid_sign_low",
+      "invalid_sign_close",
+      "invalid_sign_adjusted_close",
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 1324,
+    "start": "2021-06-01",
+    "end": "2026-09-08"
+  },
+  {
+    "ticker": "PSEC",
+    "source": "long_2006_snapshot",
+    "sha256": "67a67ca4d1f6e1dc177d76924d634b722114cdfa5715f33317e579cb8e6c1dc7",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "PSKY",
+    "source": "long_2006_snapshot",
+    "sha256": "cf1a93c9bd789b99f7635597b3090ccb2a48db6c1e3fbfcbd663b486c05bcfdd",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "QCOM",
+    "source": "long_2006_snapshot",
+    "sha256": "c4113704f7de56ac73fb918791b836797a05b75e726ef1e328831202b35501c0",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "RBC",
+    "source": "long_2006_snapshot",
+    "sha256": "5cc071af447a65cd0d2171535a0250d61392aa3f4b8c96fc0c27ba3c46ea983f",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "RCUS",
+    "source": "long_2006_snapshot",
+    "sha256": "d651dd719eed9a95686953dc4cb1a8c90a72a998b7ac3c7ac04a212da6a3efe5",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 2133,
+    "start": "2018-03-15",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ROST",
+    "source": "long_2006_snapshot",
+    "sha256": "e109567cb5f1b1181b08b468c78659a53abf7919e8db7a7ff4a5f566d4c29ff0",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SAM",
+    "source": "long_2006_snapshot",
+    "sha256": "905977d09d5914c638db40e3c67df785bc2f80204a1c5fe4891656e66ab66ec3",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SDGR",
+    "source": "long_2006_snapshot",
+    "sha256": "457b4561b429ac9566d4c23608d5184824ff2b5b9c73493bcca9b265c604f650",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1656,
+    "start": "2020-02-06",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SIGI",
+    "source": "long_2006_snapshot",
+    "sha256": "33931dd8054da469d6b003c9382aa4b6bffdf934daf33095ea463ce273328ec8",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SIRI",
+    "source": "long_2006_snapshot",
+    "sha256": "d53c3ebfe645f7753ec3004da1d0b53803b0a85afa734cc74bb8e329e71553b0",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SKT",
+    "source": "long_2006_snapshot",
+    "sha256": "ac2d3ff227dad93fd5528e6207756c17fe09671009f8d8da0d00c2cc73c30365",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SLF",
+    "source": "long_2006_snapshot",
+    "sha256": "4daca4315844e9427570477daeb6a12698d1b83aca65c8f75a189df6d6ea569d",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SPXC",
+    "source": "long_2006_snapshot",
+    "sha256": "1fb01154e93009b3b3947ef924d317e76c61f58a48607779f3428e27918d6aee",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SRPT",
+    "source": "long_2006_snapshot",
+    "sha256": "33ac6a679173cf6aaefc444f63c4fee8d88e70df381a49a78f79af5d4db0b222",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "SSNC",
+    "source": "long_2006_snapshot",
+    "sha256": "9525f5062446a9632541bc8ce22920422b385a7faf3eb073d213eefc640cec2f",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4136,
+    "start": "2010-03-31",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "STNE",
+    "source": "long_2006_snapshot",
+    "sha256": "5c722573198ccc22d88f0322040217efd99ee08ce4eedd3873593e3fcc395be4",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1977,
+    "start": "2018-10-25",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "TFC",
+    "source": "long_2006_snapshot",
+    "sha256": "bef1ed15e9fb74e8fb4e0d9dde68cd77b1bdf93dcc31c165371ea567661eb84d",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "TTGT",
+    "source": "long_2006_snapshot",
+    "sha256": "4eb305737e4a082451ff4f8e20d2f7d76fbbeff1f588a5d99fb64800436d4e91",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4859,
+    "start": "2007-05-17",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "TWLO",
+    "source": "long_2006_snapshot",
+    "sha256": "2e2b02d30e5012cde940dc11541db865b825a2aaeb3bb397e506ce94dbb736a1",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2567,
+    "start": "2016-06-23",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "TXNM",
+    "source": "long_2006_snapshot",
+    "sha256": "65fb6707def5981c1fc8018e152f66f3c362f114c1b19b9effee69ffe76eddeb",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "UE",
+    "source": "long_2006_snapshot",
+    "sha256": "0abdb620d09af6065f2499c3f5c024c90c8fff1c547d6ff2186bc75289c34052",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2928,
+    "start": "2015-01-16",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "ULTA",
+    "source": "long_2006_snapshot",
+    "sha256": "9c4d841ade81af98b32d73bffa32cba2615881b447157f1631699a9d6b01b805",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 4747,
+    "start": "2007-10-25",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "UPBD",
+    "source": "long_2006_snapshot",
+    "sha256": "ad05ac4fab49ff1e0085c01aeb41b2b33391f64ba2ba9fbcc4f76c060342b129",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "USPH",
+    "source": "long_2006_snapshot",
+    "sha256": "1003e24562f9b195a10e1b9a584fa78d663c5cb309a16e7873b5e7492d754b97",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "UTZ",
+    "source": "long_2006_snapshot",
+    "sha256": "716d23e047aefab91652d9d351193ecb657c1cf3ced4fa35c8ac8863922f6cba",
+    "validation": "manual_review",
+    "issues": [
+      "large_adjusted_returns_gt_50pct"
+    ],
+    "rows": 1956,
+    "start": "2018-11-26",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "VOYA",
+    "source": "long_2006_snapshot",
+    "sha256": "344ae19a34fd322a0c4da99812ba18580724d6a64a73065af10b3f82fad0dcc7",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 3359,
+    "start": "2013-05-02",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "WDC",
+    "source": "long_2006_snapshot",
+    "sha256": "c3344711c6a01e2fd7e3628bf4b9ef498a33fc087c93c4f0ac10a896476b3cbf",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "WH",
+    "source": "long_2006_snapshot",
+    "sha256": "8fd7df76dfdcc40890c13faf8a6ac3b3a62a4db4c2aa80b5ee82fdfd8637787a",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2087,
+    "start": "2018-05-21",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "WOOF",
+    "source": "long_2006_snapshot",
+    "sha256": "9c508a826e484ba01b667373064f2eab4769f27584062590a7d69d9a1f1c724f",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 1419,
+    "start": "2021-01-14",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "WRB",
+    "source": "long_2006_snapshot",
+    "sha256": "edede9b5e67404f0dd5e4d77f51fcf7a8584024296296a6dd2bfa94e1d1d5745",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "WTS",
+    "source": "long_2006_snapshot",
+    "sha256": "049a426fb4571b7ce726b8dfae521e7c29ea280d3d04d21b5c5a08f232c5cb63",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 5203,
+    "start": "2006-01-03",
+    "end": "2026-09-09"
+  },
+  {
+    "ticker": "XHR",
+    "source": "long_2006_snapshot",
+    "sha256": "91981fe2842f44ebae721ade714216145288eda96f221486bff1e3d93e359193",
+    "validation": "auto_pass",
+    "issues": [],
+    "rows": 2916,
+    "start": "2015-02-04",
+    "end": "2026-09-09"
+  }
+]

@@ -1,0 +1,381 @@
+{
+  "case": {
+    "id": "matched-review63",
+    "source": "matched",
+    "start": "2023-01-03",
+    "interval": 63
+  },
+  "summary": {
+    "compound_quarter": {
+      "net_return": 1.1545791464327904,
+      "max_drawdown": -0.27220330705088647,
+      "annualized_volatility": 0.24712892603490827,
+      "sharpe_zero_cash_rate": 0.9765051031623873,
+      "final_nav": 64637.37439298371,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.23455732713741084,
+      "stale_reserved_return": 1.1545791464327904,
+      "cost_paid": 352.8263819907925,
+      "trade_count": 177,
+      "turnover": 11.760879399693081,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 1.1545791464327904,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.2761368266802098,
+          "max_drawdown": -0.27220330705088647,
+          "annualized_volatility": 0.23619651234921488,
+          "sharpe_zero_cash_rate": 0.6366590862339438,
+          "final_nav": 1.2761368266802098,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.6883606063135044,
+          "max_drawdown": -0.22323797449963967,
+          "annualized_volatility": 0.2598290763861563,
+          "sharpe_zero_cash_rate": 1.3511574642480493,
+          "final_nav": 2.1545791464327904,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.28179326599419974,
+        "worst": -0.08340361323064605,
+        "positive_fraction": 0.9895052473763118
+      }
+    },
+    "compound_half": {
+      "net_return": 0.6655833232392501,
+      "max_drawdown": -0.2342833412257882,
+      "annualized_volatility": 0.19594678896073794,
+      "sharpe_zero_cash_rate": 0.812577437295127,
+      "final_nav": 49967.4996971775,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.15032918675590756,
+      "stale_reserved_return": 0.6655833232392501,
+      "cost_paid": 230.75087263369863,
+      "trade_count": 166,
+      "turnover": 7.691695754456621,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.6655833232392501,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.3634517028298607,
+          "max_drawdown": -0.16728618535119655,
+          "annualized_volatility": 0.17429702627236413,
+          "sharpe_zero_cash_rate": 0.9802603131398331,
+          "final_nav": 1.3634517028298607,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.22159319599096294,
+          "max_drawdown": -0.2342833412257882,
+          "annualized_volatility": 0.21946070791395145,
+          "sharpe_zero_cash_rate": 0.6615407843381884,
+          "final_nav": 1.66558332323925,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.1616473485506258,
+        "worst": -0.10525939173233334,
+        "positive_fraction": 0.9760119940029985
+      }
+    },
+    "compound_year": {
+      "net_return": 0.5485011820418382,
+      "max_drawdown": -0.23423005385651008,
+      "annualized_volatility": 0.20724609886204154,
+      "sharpe_zero_cash_rate": 0.6827124946903869,
+      "final_nav": 46455.035461255145,
+      "sessions": 918,
+      "return_basis": "unitized_after_fund_flows",
+      "cagr": 0.12754161570420663,
+      "stale_reserved_return": 0.5485011820418382,
+      "cost_paid": 256.67760285809715,
+      "trade_count": 171,
+      "turnover": 8.555920095269904,
+      "stale_days": 0,
+      "max_stale_weight": 0.0,
+      "unitized_return": 0.5485011820418382,
+      "periods": {
+        "v1_early": {
+          "net_return": 0.3027536675845357,
+          "max_drawdown": -0.12798423811743542,
+          "annualized_volatility": 0.18378638029720676,
+          "sharpe_zero_cash_rate": 0.8144591890848629,
+          "final_nav": 1.3027536675845357,
+          "sessions": 502
+        },
+        "later_review": {
+          "net_return": 0.1886369776359551,
+          "max_drawdown": -0.22783569506835932,
+          "annualized_volatility": 0.23265480621581947,
+          "sharpe_zero_cash_rate": 0.5656359524587538,
+          "final_nav": 1.5485011820418382,
+          "sessions": 416
+        }
+      },
+      "rolling_1y": {
+        "observations": 667,
+        "median": 0.11167468055156005,
+        "worst": -0.19287919464021752,
+        "positive_fraction": 0.881559220389805
+      }
+    }
+  },
+  "ledger_tail": "c9d270aef8e56347a3489ff8412034473934970638159ae195ee292428e5db0e",
+  "decisions": 45,
+  "trades": 514,
+  "last_decisions": {
+    "compound_quarter": {
+      "desk": "compound_quarter",
+      "company": "compound",
+      "signal_date": "2026-07-13",
+      "rule": "growth_quality; breadth=0.556; target_exposure=1.00",
+      "target_capital": 65686.24786185563,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ARQT",
+          "target_weight": 0.1,
+          "score": 0.711111,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001787306-26-000040"
+        },
+        {
+          "ticker": "CIEN",
+          "target_weight": 0.1,
+          "score": 0.811111,
+          "filing_available_at": "2026-06-05",
+          "filing_id": "0001628280-26-040767"
+        },
+        {
+          "ticker": "DT",
+          "target_weight": 0.1,
+          "score": 0.730556,
+          "filing_available_at": "2026-05-21",
+          "filing_id": "0001773383-26-000019"
+        },
+        {
+          "ticker": "ECVT",
+          "target_weight": 0.1,
+          "score": 0.733333,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0001708035-26-000067"
+        },
+        {
+          "ticker": "NBIX",
+          "target_weight": 0.1,
+          "score": 0.819444,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0000914475-26-000026"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.822222,
+          "filing_available_at": "2026-04-24",
+          "filing_id": "0001373715-26-000056"
+        },
+        {
+          "ticker": "NSSC",
+          "target_weight": 0.1,
+          "score": 0.711111,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0001104659-26-055383"
+        },
+        {
+          "ticker": "PEN",
+          "target_weight": 0.1,
+          "score": 0.772222,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001321732-26-000019"
+        },
+        {
+          "ticker": "TTGT",
+          "target_weight": 0.1,
+          "score": 0.727778,
+          "filing_available_at": "2026-05-08",
+          "filing_id": "0001193125-26-211990"
+        },
+        {
+          "ticker": "WDC",
+          "target_weight": 0.1,
+          "score": 0.8,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001628280-26-029054"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "compound_half": {
+      "desk": "compound_half",
+      "company": "compound",
+      "signal_date": "2026-07-13",
+      "rule": "cash_quality; breadth=0.556; target_exposure=1.00",
+      "target_capital": 47895.39593406729,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "ATRC",
+          "target_weight": 0.1,
+          "score": 0.714815,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001323885-26-000023"
+        },
+        {
+          "ticker": "CIEN",
+          "target_weight": 0.1,
+          "score": 0.796296,
+          "filing_available_at": "2026-06-05",
+          "filing_id": "0001628280-26-040767"
+        },
+        {
+          "ticker": "DT",
+          "target_weight": 0.1,
+          "score": 0.763889,
+          "filing_available_at": "2026-05-21",
+          "filing_id": "0001773383-26-000019"
+        },
+        {
+          "ticker": "HQY",
+          "target_weight": 0.1,
+          "score": 0.751852,
+          "filing_available_at": "2026-05-29",
+          "filing_id": "0001428336-26-000028"
+        },
+        {
+          "ticker": "NBIX",
+          "target_weight": 0.1,
+          "score": 0.789815,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0000914475-26-000026"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.859259,
+          "filing_available_at": "2026-04-24",
+          "filing_id": "0001373715-26-000056"
+        },
+        {
+          "ticker": "NSSC",
+          "target_weight": 0.1,
+          "score": 0.962963,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0001104659-26-055383"
+        },
+        {
+          "ticker": "PEN",
+          "target_weight": 0.1,
+          "score": 0.794444,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001321732-26-000019"
+        },
+        {
+          "ticker": "SAM",
+          "target_weight": 0.1,
+          "score": 0.787963,
+          "filing_available_at": "2026-05-01",
+          "filing_id": "0001193125-26-197491"
+        },
+        {
+          "ticker": "WDC",
+          "target_weight": 0.1,
+          "score": 0.792593,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001628280-26-029054"
+        }
+      ],
+      "pending_at_end": false
+    },
+    "compound_year": {
+      "desk": "compound_year",
+      "company": "compound",
+      "signal_date": "2026-07-13",
+      "rule": "durable_quality; breadth=0.556; target_exposure=1.00",
+      "target_capital": 43761.875784880205,
+      "target_exposure": 1.0,
+      "positions": [
+        {
+          "ticker": "CIEN",
+          "target_weight": 0.1,
+          "score": 0.725926,
+          "filing_available_at": "2026-06-05",
+          "filing_id": "0001628280-26-040767"
+        },
+        {
+          "ticker": "DT",
+          "target_weight": 0.1,
+          "score": 0.687037,
+          "filing_available_at": "2026-05-21",
+          "filing_id": "0001773383-26-000019"
+        },
+        {
+          "ticker": "HBM",
+          "target_weight": 0.1,
+          "score": 0.737037,
+          "filing_available_at": "2026-03-28",
+          "filing_id": "0001062993-26-001648"
+        },
+        {
+          "ticker": "HQY",
+          "target_weight": 0.1,
+          "score": 0.777778,
+          "filing_available_at": "2026-05-29",
+          "filing_id": "0001428336-26-000028"
+        },
+        {
+          "ticker": "NBIX",
+          "target_weight": 0.1,
+          "score": 0.87963,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0000914475-26-000026"
+        },
+        {
+          "ticker": "NOW",
+          "target_weight": 0.1,
+          "score": 0.777778,
+          "filing_available_at": "2026-04-24",
+          "filing_id": "0001373715-26-000056"
+        },
+        {
+          "ticker": "NSSC",
+          "target_weight": 0.1,
+          "score": 0.962963,
+          "filing_available_at": "2026-05-06",
+          "filing_id": "0001104659-26-055383"
+        },
+        {
+          "ticker": "PEN",
+          "target_weight": 0.1,
+          "score": 0.877778,
+          "filing_available_at": "2026-05-07",
+          "filing_id": "0001321732-26-000019"
+        },
+        {
+          "ticker": "ULTA",
+          "target_weight": 0.1,
+          "score": 0.7,
+          "filing_available_at": "2026-06-03",
+          "filing_id": "0001104659-26-069491"
+        },
+        {
+          "ticker": "WDC",
+          "target_weight": 0.1,
+          "score": 0.859259,
+          "filing_available_at": "2026-05-02",
+          "filing_id": "0001628280-26-029054"
+        }
+      ],
+      "pending_at_end": false
+    }
+  }
+}

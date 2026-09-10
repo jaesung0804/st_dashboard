@@ -1,0 +1,824 @@
+{
+  "2023-01-03": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ]
+  },
+  "2024-01-04": {
+    "pulse_day": [],
+    "pulse_week": [],
+    "pulse_month": [],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [],
+    "adaptive_quality": [],
+    "adaptive_defensive": []
+  },
+  "2024-04-05": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ]
+  },
+  "2024-07-08": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [],
+    "pulse_month": [],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ]
+  },
+  "2024-10-04": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ]
+  },
+  "2025-01-06": {
+    "pulse_day": [],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_quarter-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E01",
+        "weight": 1.0,
+        "variant": "baseline",
+        "overrides": {}
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E01",
+        "weight": 0.8,
+        "variant": "baseline",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ]
+  },
+  "2025-04-08": {
+    "pulse_day": [],
+    "pulse_week": [],
+    "pulse_month": [],
+    "compound_quarter": [],
+    "compound_half": [],
+    "compound_year": [],
+    "adaptive_tactical": [],
+    "adaptive_quality": [],
+    "adaptive_defensive": []
+  },
+  "2025-07-10": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_quarter": [],
+    "compound_half": [
+      {
+        "id": "compound_half-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "adaptive_quality": [],
+    "adaptive_defensive": []
+  },
+  "2025-10-08": {
+    "pulse_day": [],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "adaptive_quality": [],
+    "adaptive_defensive": []
+  },
+  "2026-01-08": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ]
+  },
+  "2026-04-10": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ]
+  },
+  "2026-07-13": {
+    "pulse_day": [
+      {
+        "id": "pulse_day-E02",
+        "weight": 1.0,
+        "variant": "efficient",
+        "overrides": {}
+      }
+    ],
+    "pulse_week": [
+      {
+        "id": "pulse_week-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "pulse_month": [
+      {
+        "id": "pulse_month-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_quarter": [
+      {
+        "id": "compound_quarter-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_half": [
+      {
+        "id": "compound_half-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "compound_year": [
+      {
+        "id": "compound_year-E03",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {}
+      },
+      {
+        "id": "compound_year-E04",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ],
+    "adaptive_tactical": [
+      {
+        "id": "adaptive_tactical-E04",
+        "weight": 0.8,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      },
+      {
+        "id": "adaptive_tactical-E03",
+        "weight": 0.2,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_quality": [
+      {
+        "id": "adaptive_quality-E03",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {}
+      }
+    ],
+    "adaptive_defensive": [
+      {
+        "id": "adaptive_defensive-E04",
+        "weight": 1.0,
+        "variant": "guarded",
+        "overrides": {
+          "rank_buffer": 15,
+          "volatility_budget": 0.35
+        }
+      }
+    ]
+  }
+}
