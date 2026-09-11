@@ -53,6 +53,30 @@ def body(value):
     return (json.dumps(value, ensure_ascii=False, allow_nan=False, sort_keys=True, separators=(',', ':')) + '\n').encode()
 
 
+def trade_archive(trades, cost_multiplier):
+    """Lossless float64 quantities/prices, dictionary-coded text; no pickle.
+
+    Notional and cost are exactly derivable. Check that before omitting those
+    redundant columns. Each file is independently readable with numpy.load.
+    """
+    rate = .001 * cost_multiplier
+    for trade in trades:
+        notional = abs(trade['signed_adjusted_units'] * trade['adjusted_open'])
+        if notional != trade['notional'] or notional * rate != trade['cost']:
+            raise ValueError('Trade values cannot be restored losslessly')
+    arrays = {}
+    for field in ('desk', 'ticker', 'signal_date', 'fill_date'):
+        dictionary, indexes = np.unique([t[field] for t in trades], return_inverse=True)
+        arrays[field + '_dictionary'] = dictionary
+        arrays[field + '_index'] = indexes.astype(np.uint16)
+    arrays['signed_adjusted_units'] = np.asarray([t['signed_adjusted_units'] for t in trades], dtype=np.float64)
+    arrays['adjusted_open'] = np.asarray([t['adjusted_open'] for t in trades], dtype=np.float64)
+    arrays['one_way_cost_rate'] = np.asarray([rate], dtype=np.float64)
+    buffer = io.BytesIO()
+    np.savez_compressed(buffer, **arrays)
+    return buffer.getvalue()
+
+
 def assignments(people, mode, first_date):
     if mode not in MODES:
         raise ValueError('Undeclared allocation')
@@ -195,7 +219,7 @@ def main():
                     checks=['signal_before_fill', 'trade_cost_reconciles', 'shared_company_volume_capacity_engine'])
                 runs[case_id] = summary
                 payloads[f'{case_id}/summary.json'] = body(summary)
-                payloads[f'{case_id}/trades.csv.gz'] = packed(pd.DataFrame(result['trades']).to_csv(index=False).encode())
+                payloads[f'{case_id}/trades.npz'] = trade_archive(result['trades'], cost)
                 payloads[f'{case_id}/company-nav.csv.gz'] = packed(pd.DataFrame({'date': dates,
                     **{c: result['series'][c] for c in policy['companies']}, 'spy_cash_matched': benchmark}).to_csv(index=False).encode())
                 print('PHASE3_CASE=' + json.dumps({'id': case_id, 'trade_rows': len(result['trades']), 'status': 'computed_unarchived'}), flush=True)
@@ -206,6 +230,22 @@ def main():
             db_writes=0, deletions=0, actual_hour_round_completed=False, new_role_registration='pending',
             elapsed_seconds=round(time.perf_counter()-started, 3))
     payloads['summary.json'] = body(summary)
+    (output / 'summary.json').write_bytes(payloads['summary.json'])
+    # Preserve the bounded summary in the log even if a later archive gate fails.
+    print('PHASE3_RESULT=' + body(summary).decode().strip(), flush=True)
+    payloads['README.txt'] = b'''Investment r04 recovery evidence. Backend synchronization and independent review pending.
+All nine cases retain summary.json, company-nav.csv.gz, and trades.npz.
+Use numpy.load(path, allow_pickle=False). For each text field f (desk, ticker,
+signal_date, fill_date), decode f_dictionary[f_index]. Numeric columns are
+float64 signed_adjusted_units and adjusted_open, preserving their exact values.
+notional = abs(signed_adjusted_units * adjusted_open).
+cost = notional * one_way_cost_rate[0]. Both equations were checked exactly
+against every original engine trade before storage. No rounding was applied.
+Full decision payloads are not included; decision counts/fingerprints and all
+executed trades are retained. Reproduce decisions using the frozen source
+hashes and protocol. Do not label this as independent investment approval,
+historical AI active performance, or completion of the formal 60-minute round.
+'''
     file_manifest = {path: dict(bytes=len(content), sha256=hashlib.sha256(content).hexdigest()) for path, content in payloads.items()}
     payloads['manifest.json'] = body(dict(files=file_manifest, retention='Save immutable recovery archive before referencing results; backend sync pending.'))
     buffer = io.BytesIO()
@@ -216,7 +256,6 @@ def main():
     if len(raw_archive) > MAX_ARCHIVE or any(len(c) > 500_000 for c in payloads.values()):
         raise ValueError('Recovery evidence exceeds declared small-file budget')
     (output / 'recovery.zip').write_bytes(raw_archive)
-    print('PHASE3_RESULT=' + body(summary).decode().strip(), flush=True)
     encoded = base64.b64encode(raw_archive).decode()
     for index in range(0, len(encoded), 48_000):
         print(f'PHASE3_ARCHIVE_{index//48_000:04d}=' + encoded[index:index+48_000], flush=True)
