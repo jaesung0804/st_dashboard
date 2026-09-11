@@ -10,7 +10,7 @@ on:
       - scripts/simulation_web/**
       - scripts/build_simulation_pages.py
       - docs/replays/**/summary.json
-      - .github/workflows/refresh-dashboard-ui.yml
+      # Scheduling/queue-only workflow edits do not change the public bundle.
 permissions:
   contents: write
 concurrency:
