@@ -4,6 +4,7 @@ on:
     branches: [codex/investment-phase3-20260911]
     paths:
       - scripts/investment_phase3_preflight.py
+      - scripts/run_investment_phase3_recovery.py
       - .github/workflows/investment-phase3-recovery.yml
   workflow_dispatch:
 permissions:
@@ -30,3 +31,23 @@ jobs:
           python-version: '3.12'
       - name: Inspect migrated investment state without writes or collection
         run: python scripts/investment_phase3_preflight.py
+  replay:
+    if: github.repository == 'jaesung0804/st_dashboard' && github.event.repository.private == false
+    needs: inspect
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      RESEARCH_STORAGE: backend
+      RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical runtime without cache
+        run: python -m pip install --no-cache-dir numpy pandas
+      - name: Restore retained inputs and calculate all nine comparisons
+        run: python scripts/run_investment_phase3_recovery.py
