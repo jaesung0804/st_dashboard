@@ -16,6 +16,7 @@ permissions:
 concurrency:
   # Serialize with daily inference to avoid publishing an older state snapshot.
   group: dashboard-state-update
+  queue: max
   cancel-in-progress: false
 env:
   RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}

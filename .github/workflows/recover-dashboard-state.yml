@@ -7,6 +7,7 @@ permissions:
   actions: read
 concurrency:
   group: dashboard-state-update
+  queue: max
   cancel-in-progress: false
 jobs:
   recover:
