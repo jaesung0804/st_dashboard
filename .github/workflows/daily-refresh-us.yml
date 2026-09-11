@@ -1,0 +1,24 @@
+name: Daily Refresh US
+on:
+  workflow_dispatch:
+    inputs:
+      asof:
+        description: "Completed session YYYYMMDD; blank uses latest available close"
+        type: string
+        default: ""
+  schedule:
+    # Regular NYSE/Nasdaq open 09:30 ET. IANA timezone handles DST.
+    - cron: "30 6 * * 1-5"
+      timezone: America/New_York
+permissions:
+  contents: write
+  actions: read
+jobs:
+  refresh:
+    uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    with:
+      mode: infer
+      market: us
+      asof: ${{ inputs.asof || '' }}

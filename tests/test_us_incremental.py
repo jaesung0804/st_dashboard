@@ -109,6 +109,38 @@ def test_widespread_missing_latest_session_rejects_canonical_replacement(tmp_pat
     assert args["prices_path"].read_bytes() == before
 
 
+def test_partial_newest_session_advances_only_through_complete_new_session(tmp_path, monkeypatch):
+    tickers = [f"T{i:02}" for i in range(20)]
+    args = setup(tmp_path, monkeypatch, tickers=tickers, dates=("2026-09-02",))
+    def fetch(requested, **kwargs):
+        return {t: quotes(t, ["2026-09-02", "2026-09-03"] +
+                          (["2026-09-04"] if t == "T00" else [])) for t in requested}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    result = refresh.refresh_us_daily_data(**args)
+    assert result.asof == "20260903"
+    merged = pd.read_csv(args["prices_path"])
+    assert merged.date.max() == "2026-09-03"
+    assert merged.loc[merged.date.eq("2026-09-03"), "ticker"].nunique() == 20
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["accepted"] and report["latest_session_coverage"] == 1
+    assert report["provider_latest"] == "2026-09-04"
+    assert report["deferred_partial_session_tickers"] == ["T00"]
+
+
+def test_partial_session_cannot_shrink_the_previously_active_universe(tmp_path, monkeypatch):
+    tickers = [f"T{i:02}" for i in range(20)]
+    args = setup(tmp_path, monkeypatch, tickers=tickers, dates=("2026-09-02",))
+    before = args["prices_path"].read_bytes()
+    def fetch(requested, **kwargs):
+        return {t: quotes(t, ["2026-09-02"] +
+                          (["2026-09-03"] if t not in {"T18", "T19"} else []) +
+                          (["2026-09-04"] if t == "T00" else [])) for t in requested}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    with pytest.raises(RuntimeError, match="coverage"):
+        refresh.refresh_us_daily_data(**args)
+    assert args["prices_path"].read_bytes() == before
+
+
 def test_each_ticker_recovers_its_own_long_gap(tmp_path, monkeypatch):
     args = setup(tmp_path, monkeypatch)
     old = pd.read_csv(args["prices_path"])

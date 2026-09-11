@@ -8,7 +8,7 @@ import pandas as pd
 import pytest
 
 from ai_stock_assistant.monthly_ews import (
-    FEATURES, calibrated, chronological_split, digest, evaluate_archive, export_dashboard, feature_panel,
+    FEATURES, calibrated, chronological_split, dated_metrics, digest, evaluate_archive, export_dashboard, feature_panel,
     freeze_prediction, infer_latest, load_month, metrics, migrate_legacy, publish_directory,
     ticker_features, verify_prediction,
 )
@@ -145,6 +145,27 @@ def test_partial_calibration_is_bounded_monotone_and_limits_regime_shift():
 def test_constant_probability_has_no_spurious_top_decile_lift():
     result = metrics([1] * 20 + [0] * 80, [.2] * 100)
     assert result["top_decile_lift"] == pytest.approx(1.)
+
+
+def test_date_diagnostics_expose_reversed_regime_levels_despite_good_stock_selection():
+    # Perfect ranking within each date, but high-event dates have lower scores.
+    y = [0] + [1] * 9 + [0] * 9 + [1]
+    p = [.10] + [.20] * 9 + [.80] * 9 + [.90]
+    dates = ["2025-11-25"] * 10 + ["2026-02-25"] * 10
+    assert metrics(y, p)["auc"] < .5
+    result = dated_metrics(dates, y, p)
+    assert result["mean_date_auc"] == 1
+    assert result["date_count"] == result["auc_date_count"] == 2
+    assert [r["event_rate"] for r in result["by_date"]] == [.9, .1]
+    assert result["by_date"][0]["mean_prediction"] < result["by_date"][1]["mean_prediction"]
+
+
+def test_date_diagnostics_do_not_invent_auc_for_single_class_dates():
+    result = dated_metrics(["2026-01-01"] * 2 + ["2026-01-02"] * 2,
+                           [0, 0, 0, 1], [.1, .2, .1, .9])
+    assert result["date_count"] == 2 and result["auc_date_count"] == 1
+    assert result["by_date"][0]["auc"] is None
+    assert result["mean_date_auc"] == 1
 
 
 def test_outcomes_are_separate_and_missing_stocks_are_not_false_negatives(tmp_path):

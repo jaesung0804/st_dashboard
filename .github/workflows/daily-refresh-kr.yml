@@ -1,0 +1,24 @@
+name: Daily Refresh KR
+on:
+  workflow_dispatch:
+    inputs:
+      asof:
+        description: "Completed session YYYYMMDD; blank uses latest available close"
+        type: string
+        default: ""
+  schedule:
+    # Regular KRX open 09:00 KST; start three hours beforehand.
+    - cron: "0 6 * * 1-5"
+      timezone: Asia/Seoul
+permissions:
+  contents: write
+  actions: read
+jobs:
+  refresh:
+    uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    with:
+      mode: infer
+      market: kr
+      asof: ${{ inputs.asof || '' }}

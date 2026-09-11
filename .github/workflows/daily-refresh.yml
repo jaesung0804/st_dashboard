@@ -1,6 +1,11 @@
 name: Daily Refresh
 run-name: Daily Refresh (${{ inputs.market || 'all' }})
 on:
+  # Explicit one-time post-merge recovery for the September incident. Normal
+  # code pushes do not collect prices; the merge message must opt in below.
+  push:
+    branches: [main]
+    paths: [.github/workflows/daily-refresh.yml]
   workflow_dispatch:
     inputs:
       market:
@@ -12,22 +17,31 @@ on:
         description: "Completed session YYYYMMDD; blank uses latest available close"
         type: string
         default: ""
-  schedule:
-    # After the US close; Korean signals use the already completed Korean session.
-    - cron: "30 22 * * 1-5"
   workflow_run:
-    workflows: ["Monthly Training", "Dashboard State Recovery"]
+    workflows: ["Dashboard State Recovery"]
     types: [completed]
 permissions:
   contents: write
   actions: read
 jobs:
-  refresh-and-publish:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+  kr:
+    if: (github.event_name != 'push' || contains(github.event.head_commit.message, '[market-recovery-20260911]')) && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success') && (inputs.market != 'us')
     uses: ./.github/workflows/dashboard-batch.yml
     secrets:
       RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
     with:
       mode: infer
-      market: ${{ inputs.market || 'all' }}
+      market: kr
+      asof: ${{ inputs.asof || '' }}
+  us:
+    # Separate restore/save transactions. A failed KR run does not skip US.
+    # Serialize manual "all" to avoid competing writes to the shared snapshot.
+    needs: kr
+    if: always() && !cancelled() && (github.event_name != 'push' || contains(github.event.head_commit.message, '[market-recovery-20260911]')) && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success') && (inputs.market != 'kr')
+    uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    with:
+      mode: infer
+      market: us
       asof: ${{ inputs.asof || '' }}
