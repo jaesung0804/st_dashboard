@@ -60,7 +60,7 @@ def inspect_backend(client):
         page = client.json("GET", f"/records/{kind}?limit=20")
         items = page.get("items", [])
         report["record_pages"][kind] = {
-            "keys": [str(x.get("key", "")) for x in items],
+            "keys": [str(x.get("key", x.get("record_key", x.get("id", "")))) for x in items],
             "more": page.get("next_cursor") is not None,
         }
     rounds = client.read_json("data/reference/investment_rounds.json")
@@ -92,7 +92,7 @@ def inspect_backend(client):
         report["snapshot_inspection_complete"] = cursor is None
         report["snapshot_file_count"] = len(entries)
         report["snapshot_inspected_bytes"] = sum(int(e["byte_size"]) for e in entries)
-        manifest = next((e for e in entries if e["relative_path"] == "manifest.json"), None)
+        manifest = next((e for e in entries if e["relative_path"] in ("manifest.json", "state-manifest.json")), None)
         report["pipeline_manifest_found"] = manifest is not None
         if manifest and int(manifest["byte_size"]) <= 500_000:
             with client.request("GET", "/files/" + manifest["sha256"]) as response:
@@ -102,12 +102,16 @@ def inspect_backend(client):
             body = json.loads(raw)
             report["manifest_top_keys"] = sorted(body)
             values = body.get("files", {})
+            report["manifest_files_type"] = type(values).__name__
             if isinstance(values, dict):
                 report["replay_input_candidates"] = {
                     path: {k: value.get(k) for k in ("sha256", "size", "encoding", "parts")}
                     for path, value in values.items()
                     if any(word in path.lower() for word in ("us_ohlcv", "replay", "filing_events", "spy", "accounting_cohort"))
                 }
+            elif isinstance(values, list):
+                report["replay_input_candidates"] = [value for value in values
+                    if any(word in json.dumps(value).lower() for word in ("us_ohlcv", "replay", "filing_events", "spy", "accounting_cohort"))][:12]
         report["related_snapshot_entries"] = [{k: e[k] for k in ("relative_path", "sha256", "byte_size")}
             for e in entries if any(w in e["relative_path"].lower() for w in ("manifest", "replay", "filing", "spy", "cohort"))][:30]
     report["can_run_exact_replay_from_direct_blobs"] = all(x["present"] for x in report["exact_input_blobs"].values())
