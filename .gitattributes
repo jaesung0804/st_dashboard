@@ -1,1 +1,4 @@
 data/reference/accounting_seed/** -text
+# Completed replay manifests hash exact committed bytes. Windows checkout must
+# not rewrite their JSON/CSV/Markdown line endings before integrity checks.
+docs/replays/** -text
