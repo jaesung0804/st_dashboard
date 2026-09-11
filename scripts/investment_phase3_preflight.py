@@ -100,15 +100,17 @@ def inspect_backend(client):
             if len(raw) != manifest["byte_size"] or hashlib.sha256(raw).hexdigest() != manifest["sha256"]:
                 raise ValueError("Invalid pipeline manifest")
             body = json.loads(raw)
-            report["manifest_top_keys"] = sorted(body)
-            values = body.get("files", {})
+            values = body.get("files", body)
             report["manifest_files_type"] = type(values).__name__
             if isinstance(values, dict):
                 report["replay_input_candidates"] = {
-                    path: {k: value.get(k) for k in ("sha256", "size", "encoding", "parts")}
+                    path: {k: value.get(k) for k in ("type", "sha256", "size", "encoding", "parts")}
                     for path, value in values.items()
-                    if any(word in path.lower() for word in ("us_ohlcv", "replay", "filing_events", "spy", "accounting_cohort"))
+                    if any(word in path.lower() for word in ("us_ohlcv", "replay", "filing_events", "spy", "accounting_cohort", "dashboard_research"))
                 }
+                selected_parts = {p for item in report["replay_input_candidates"].values() for p in (item.get("parts") or [])}
+                report["candidate_parts"] = [{k: e[k] for k in ("relative_path", "sha256", "byte_size")}
+                    for e in entries if e["relative_path"] in selected_parts]
             elif isinstance(values, list):
                 report["replay_input_candidates"] = [value for value in values
                     if any(word in json.dumps(value).lower() for word in ("us_ohlcv", "replay", "filing_events", "spy", "accounting_cohort"))][:12]
