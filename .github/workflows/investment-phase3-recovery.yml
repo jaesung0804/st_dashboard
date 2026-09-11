@@ -1,0 +1,32 @@
+name: Investment phase 3 read-only recovery
+on:
+  push:
+    branches: [codex/investment-phase3-20260911]
+    paths:
+      - scripts/investment_phase3_preflight.py
+      - .github/workflows/investment-phase3-recovery.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: investment-phase3-readonly
+  cancel-in-progress: false
+jobs:
+  inspect:
+    # Standard public-repository runner; no paid runners, artifacts or caches.
+    if: github.repository == 'jaesung0804/st_dashboard' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      RESEARCH_STORAGE: backend
+      RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Inspect migrated investment state without writes or collection
+        run: python scripts/investment_phase3_preflight.py
