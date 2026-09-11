@@ -10,12 +10,13 @@ on:
       - scripts/simulation_web/**
       - scripts/build_simulation_pages.py
       - docs/replays/**/summary.json
-      - .github/workflows/refresh-dashboard-ui.yml
+      # Scheduling/queue-only workflow edits do not change the public bundle.
 permissions:
   contents: write
 concurrency:
   # Serialize with daily inference to avoid publishing an older state snapshot.
   group: dashboard-state-update
+  queue: max
   cancel-in-progress: false
 env:
   RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE || 'git' }}
