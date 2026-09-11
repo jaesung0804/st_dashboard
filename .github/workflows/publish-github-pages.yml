@@ -2,7 +2,7 @@ name: Publish verified GitHub Pages
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Daily Refresh", "Refresh dashboard UI", "Macro EWS comparison", "Accounting and history research", "Refresh accounting inference", "Backfill recommendation history"]
+    workflows: ["Daily Refresh", "Daily Refresh KR", "Daily Refresh US", "Refresh dashboard UI", "Macro EWS comparison", "Accounting and history research", "Refresh accounting inference", "Backfill recommendation history"]
     types: [completed]
 permissions:
   contents: read
@@ -12,7 +12,9 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    # A manual "all" run can save/publish KR even when US later fails.
+    # This job verifies only the already committed gh-pages bundle.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' || (github.event.workflow_run.path == '.github/workflows/daily-refresh.yml' && github.event.workflow_run.conclusion == 'failure')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

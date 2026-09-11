@@ -16,10 +16,20 @@ permissions:
   contents: write
   actions: read
 jobs:
-  train:
+  kr:
+    if: inputs.market != 'us'
     uses: ./.github/workflows/dashboard-batch.yml
     secrets:
       RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
     with:
       mode: train
-      market: ${{ inputs.market || 'all' }}
+      market: kr
+  us:
+    needs: kr
+    if: always() && !cancelled() && inputs.market != 'kr'
+    uses: ./.github/workflows/dashboard-batch.yml
+    secrets:
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+    with:
+      mode: train
+      market: us

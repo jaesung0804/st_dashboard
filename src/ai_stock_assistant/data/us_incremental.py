@@ -203,6 +203,32 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     except Exception as exc:
         fatal = exc
 
+    update = pd.concat(updates.values(), ignore_index=True) if updates else pd.DataFrame(columns=PRICE_SCHEMA)
+    provider_latest = pd.to_datetime(update.date).max()
+    latest = provider_latest
+    deferred_tickers = []
+    # Yahoo can expose the newest session for a minority while most symbols
+    # have only the preceding close. Select a consistently covered session,
+    # using the fixed active universe, only if canonical history advances.
+    # An outage must not become a successful replay of existing data.
+    if not update.empty and not fatal:
+        counts = update.loc[update.ticker.isin(active)].groupby("date").ticker.nunique()
+        complete = counts.loc[counts / len(active) >= minimum_coverage]
+        newest_coverage = counts.get(provider_latest.strftime("%Y-%m-%d"), 0) / len(active)
+        if newest_coverage < minimum_coverage and not complete.empty:
+            candidate = pd.Timestamp(complete.index.max())
+            canonical_latest = pd.to_datetime(existing.date).max()
+            if pd.isna(canonical_latest) or candidate > canonical_latest:
+                latest = candidate
+                boundary = latest.strftime("%Y-%m-%d")
+                deferred_tickers = sorted(set(update.loc[update.date.gt(boundary), "ticker"]))
+                update = update.loc[update.date.le(boundary)].copy()
+                updates = {ticker: frame.loc[frame.date.le(boundary)].copy()
+                           for ticker, frame in updates.items() if frame.date.le(boundary).any()}
+                print(f"US provider session {provider_latest.date()} incomplete; "
+                      f"advance consistently through {latest.date()}, "
+                      f"defer newer bars for {len(deferred_tickers)} tickers", flush=True)
+
     summary = []
     for ticker in tickers:
         frame = updates.get(ticker)
@@ -215,8 +241,6 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                         "error": errors.get(ticker, "")})
     summary_path = run_dir / "us_daily_data_refresh_summary.csv"
     _atomic_csv(summary_path, pd.DataFrame(summary))
-    update = pd.concat(updates.values(), ignore_index=True) if updates else pd.DataFrame(columns=PRICE_SCHEMA)
-    latest = pd.to_datetime(update.date).max()
     observed = set(update.loc[update.date.eq(latest.strftime("%Y-%m-%d")), "ticker"]) if pd.notna(latest) else set()
     coverage = len(active & observed) / len(active)
     reason = str(fatal) if fatal else ""
@@ -225,6 +249,8 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     if not reason and coverage < minimum_coverage:
         reason = f"US latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}"
     report = {"requested_asof": end, "latest": str(latest.date()) if pd.notna(latest) else None,
+              "provider_latest": str(provider_latest.date()) if pd.notna(provider_latest) else None,
+              "deferred_partial_session_tickers": deferred_tickers,
               "requested_tickers": len(tickers), "updated_tickers": len(updates),
               "unavailable_tickers": sorted(set(tickers) - set(updates)),
               "adjustment_detected_tickers": sorted(adjustment_detected),

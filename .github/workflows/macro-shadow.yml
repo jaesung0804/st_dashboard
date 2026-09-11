@@ -12,7 +12,7 @@ on:
     - cron: "45 4 1 * *"
   workflow_run:
     # Run after Daily Refresh rather than competing with it after Monthly Training.
-    workflows: [Daily Refresh]
+    workflows: [Daily Refresh, Daily Refresh KR, Daily Refresh US]
     types: [completed]
 permissions:
   contents: write

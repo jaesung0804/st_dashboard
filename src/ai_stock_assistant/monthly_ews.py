@@ -248,6 +248,27 @@ def metrics(y, p) -> dict:
     }
 
 
+def dated_metrics(dates, y, p) -> dict:
+    """Separate same-session stock selection from cross-session probability drift.
+
+    Overlapping forward outcomes mean the date rows are not independent tests.
+    These diagnostics do not select weights or certify an investable strategy.
+    """
+    frame = pd.DataFrame({"date": np.asarray(dates), "y": np.asarray(y), "p": np.asarray(p)})
+    by_date = []
+    for date, group in frame.groupby("date", sort=True):
+        result = metrics(group.y, group.p)
+        result.pop("reliability")
+        by_date.append({"date": pd.Timestamp(date).strftime("%Y-%m-%d"), **result,
+                        "mean_prediction": float(group.p.mean())})
+    eligible = [r for r in by_date if r["auc"] is not None]
+    lifts = [r["top_decile_lift"] for r in by_date if r["top_decile_lift"] is not None]
+    return {"date_count": len(by_date), "auc_date_count": len(eligible),
+            "mean_date_auc": float(np.mean([r["auc"] for r in eligible])) if eligible else None,
+            "mean_date_top_decile_lift": float(np.mean(lifts)) if lifts else None,
+            "by_date": by_date}
+
+
 def train_month(prices_path: Path, market: str, month: str, state_root: Path, *, jobs: int = 1, research: bool = False, max_rows: int = 180_000) -> Path:
     import lightgbm as lgb
     from sklearn.linear_model import LogisticRegression
@@ -317,6 +338,7 @@ def train_month(prices_path: Path, market: str, month: str, state_root: Path, *,
                 "calibration_start": str(cal["date"].min().date()), "calibration_end": str(cal["date"].max().date()),
                 "train_event_rate": float(y.mean()),
                 "calibration_diagnostics_not_test": metrics(cal[f"y_{head}"], calibrated(raw, calibration)),
+                "calibration_by_date_not_test": dated_metrics(cal["date"], cal[f"y_{head}"], calibrated(raw, calibration)),
             }
             print(f"{market} {month} {head}: {len(train):,} train / {len(cal):,} calibration rows", flush=True)
         write_json(staged / "model.json", card)
