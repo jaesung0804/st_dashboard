@@ -143,6 +143,7 @@ jobs:
         if: inputs.mode == 'infer'
         run: python scripts/build_pages_deploy.py --days 60 --push
       - name: Queue changed monthly observations from the saved snapshot
+        id: row_projection
         if: vars.RESEARCH_STORAGE == 'backend'
         # SQL projection is secondary to the verified canonical snapshot.
         # Surface its failure without discarding a saved, publishable forecast.
@@ -154,3 +155,9 @@ jobs:
           } else {
             python scripts/backend_rows.py --csv data/raw/us_ohlcv_nasdaq_nyse_yfinfo_state.csv --dataset ohlcv-us --snapshot-name pipeline-state --state-dir .dashboard-state
           }
+      - name: Report deferred SQL projection
+        if: always() && steps.row_projection.outcome == 'failure'
+        run: |
+          $message = "$env:BATCH_MARKET SQL projection queue failed. The verified pipeline-state snapshot remains canonical; inspect this step before resuming row import."
+          Write-Warning $message
+          $message | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8

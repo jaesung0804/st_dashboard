@@ -5,7 +5,7 @@
 한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
 
 - `Monthly Training`이 이전 달까지의 자료로 상승 기회·급락 위험 모델을 저장합니다. 같은 월의 재실행은 이미 저장된 모델을 유지합니다.
-- `Daily Refresh`는 저장된 모델로 새 신호일만 추론합니다. 이전 예측은 다시 계산하거나 덮어쓰지 않습니다.
+- `Daily Refresh KR`은 한국 시각 06:00, `Daily Refresh US`는 뉴욕 시각 06:30에 각각 실행합니다. 저장된 모델로 새 신호일만 추론하며 이전 예측은 보존합니다.
 - 가격·거래량·시장 폭을 쓰는 작은 LightGBM과 로지스틱 회귀를 결합합니다. 날짜가 확실하지 않은 재무·거시 자료는 운영 입력에서 제외합니다.
 - 상태 저장에 성공한 뒤 정적 HTML/JSON만 GitHub Pages에 공개합니다.
 
@@ -67,14 +67,17 @@ Combine annual and quarterly financial files:
 
 ## Daily Refresh
 
-GitHub Pages deployment is updated by `.github/workflows/daily-refresh.yml`.
-The workflow runs on a schedule and can also be started manually from the Actions page:
+The independent `daily-refresh-kr.yml` and `daily-refresh-us.yml` workflows start three hours before each regular market open on weekdays: 06:00 Asia/Seoul and 06:30 America/New_York. The US timezone automatically follows daylight saving time. GitHub scheduling can be delayed; special opening times are not calendar-adjusted.
+
+`daily-refresh.yml` remains a manual dispatcher (`all`, `kr`, or `us`) and recovery entry point:
 
 ```text
 https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml
 ```
 
-The runner restores `dashboard-state`, preserves published history, refreshes prices for the selected market (`all`, `kr`, or `us`), and infers only new signal dates with frozen monthly models. It persists state **before** publishing `gh-pages`. Training runs separately in `monthly-training.yml`. Both workflows share a concurrency group.
+Each market restores verified state, collects prices, infers new signal dates with frozen monthly models, and persists state **before** publishing `gh-pages`. Backend mode restores the external Oracle-backed `pipeline-state`; legacy mode retains `dashboard-state`. Manual `all` and monthly training use separate market transactions, with shared writer concurrency to prevent lost updates. One market's collection failure does not discard the other market's saved result. SQL row projection is secondary and its failure does not block a saved forecast's publication.
+
+The [2026-09-11 market health review](docs/MARKET_HEALTH_REVIEW_20260911.md) explains the Korean pooled AUC versus same-date selection results, the US partially available session failure, and the remaining SQL migration work. Public aggregate evidence is linked from the report; raw prices and model binaries remain outside Git.
 
 The production model uses causal price features; existing financial files are retained but are not refreshed by the daily production workflow. OpenDART secrets remain relevant only to the research collection commands.
 
