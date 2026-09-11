@@ -60,7 +60,7 @@ def restore_selected(root, market, month):
 
     def download(relative):
         e = entries[relative]
-        client.download(e["sha256"], safe_path(packed, relative), e["size"])
+        client.download(e["sha256"], safe_path(packed, relative), e["byte_size"])
 
     download("state-manifest.json")
     manifest = json.loads((packed / "state-manifest.json").read_text())
@@ -77,7 +77,7 @@ def restore_selected(root, market, month):
     restored = root / "restored"
     restore_state(packed, restored)
     emit("source", {"snapshot_id": sid, "selected_files": len(selected),
-                    "download_bytes": sum(entries[p]["size"] for p in needed),
+                    "download_bytes": sum(entries[p]["byte_size"] for p in needed),
                     "price_sha256": live.digest(restored / price)})
     return restored
 
