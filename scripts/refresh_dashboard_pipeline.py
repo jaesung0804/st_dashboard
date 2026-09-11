@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import argparse
 import shutil
-import subprocess
 import sys
 from pathlib import Path
 
@@ -53,7 +52,9 @@ def main() -> None:
             export_dashboard(state, market, Path("outputs"), args.pages_days)
     if not args.skip_push:
         raise RuntimeError("Publish only after persisting dashboard-state; use the Daily Refresh workflow or --skip-push")
-    subprocess.run([sys.executable, "scripts/build_pages_deploy.py", "--days", str(args.pages_days)], check=True)
+    # The caller validates and saves this market's canonical state next. Build
+    # the web bundle only after that save, so unrelated simulation/UI failures
+    # cannot discard successfully collected prices and immutable forecasts.
 
 
 if __name__ == "__main__":

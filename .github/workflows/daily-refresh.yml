@@ -5,7 +5,7 @@ on:
   # code pushes do not collect prices; the merge message must opt in below.
   push:
     branches: [main]
-    paths: [.github/workflows/daily-refresh.yml]
+    paths: [.github/workflows/daily-refresh.yml, scripts/refresh_dashboard_pipeline.py]
   workflow_dispatch:
     inputs:
       market:
