@@ -37,3 +37,7 @@ data/dashboard_research/
 /.research-backend/
 *.sqlite3
 /backend.env
+
+# Local retired artifacts and simulation previews
+/.archive/
+/.simulation-deploy/

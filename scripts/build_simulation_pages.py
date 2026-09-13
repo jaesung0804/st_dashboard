@@ -20,19 +20,19 @@ def build(target:Path):
     source=ROOT/'docs/replays/2026-09-10-v2'
     if not (source/'summary.json').exists() or not (source/'manifest.json').exists():
         raise FileNotFoundError('Simulation requires a completed, verified run bundle')
-    summary=json.loads((source/'summary.json').read_text())
-    manifest=json.loads((source/'manifest.json').read_text())
+    summary=json.loads((source/'summary.json').read_text(encoding='utf-8'))
+    manifest=json.loads((source/'manifest.json').read_text(encoding='utf-8'))
     for name,digest in manifest['artifacts'].items():
         if hashlib.sha256((source/name).read_bytes()).hexdigest()!=digest:
             raise ValueError(f'Result artifact changed: {name}')
     target.mkdir(parents=True,exist_ok=True)
     for p in (ROOT/'scripts/simulation_web').iterdir():
         if p.is_file():shutil.copyfile(p,target/p.name)
-    html=(target/'index.html').read_text()
+    html=(target/'index.html').read_text(encoding='utf-8')
     for asset in ('simulation.css','simulation.js'):
         version=hashlib.sha256((target/asset).read_bytes()).hexdigest()[:16]
         html=html.replace(f'"{asset}"',f'"{asset}?v={version}"')
-    (target/'index.html').write_text(html)
+    (target/'index.html').write_text(html, encoding='utf-8')
     keys=['pulse','compound','adaptive','spy','spy_cash_matched','baseline_cash_matched']
     runs={}
     for key,run in summary['runs'].items():
@@ -49,7 +49,7 @@ def build(target:Path):
         runs[key]={k:v for k,v in run.items() if k not in ['summary','audit']}
         runs[key].update(id=key,summary={k:run['summary'][k] for k in keys},chart=chart)
         gov=source/key/'governance.json'
-        if gov.exists():runs[key]['governance']=json.loads(gov.read_text())[-3:]
+        if gov.exists():runs[key]['governance']=json.loads(gov.read_text(encoding='utf-8'))[-3:]
     payload=dict(schema='simulation-ui-v2',runs=runs,data_sources=summary['data_sources'])
     org=references.read('data/reference/investment_organization.json')
     # Keep final employee evidence, not every repeated evaluation, in the UI.
@@ -79,7 +79,7 @@ def build(target:Path):
     if (value:=references.read(communications,default=None)) is not None:payload['communications']=value
     research=ROOT/'data/reference/investment_research_library.json'
     if (value:=references.read(research,default=None)) is not None:payload['research']=value
-    conversations=json.loads((ROOT/'docs/replays/2026-09-10-employee-supervised/events.json').read_text())
+    conversations=json.loads((ROOT/'docs/replays/2026-09-10-employee-supervised/events.json').read_text(encoding='utf-8'))
     payload['team_conversations']={}
     for event in conversations:
         if event['action']=='senior_strategy_review':
@@ -87,26 +87,26 @@ def build(target:Path):
     payload['team_conversations']={k:v[-3:] for k,v in payload['team_conversations'].items()}
     payload['team_reviews']={}
     for folder,company in [('2026-09-10-compound-teams','compound'),('2026-09-10-company-teams',None)]:
-        data=json.loads((ROOT/'docs/replays'/folder/'summary.json').read_text())
+        data=json.loads((ROOT/'docs/replays'/folder/'summary.json').read_text(encoding='utf-8'))
         for key,value in data['runs'].items():
             c=company or value['case']['company']
             payload['team_reviews'].setdefault(c,{})[key]={k:v for k,v in value.items() if k!='last_decisions'}
     payload['evolution']={}
     for suffix,label in [('employee-evolution','빠른 직원 재배분'),('employee-hurdle','관찰·승진 기준 강화'),('employee-supervised','상위자 비용·낙폭 심사')]:
-        data=json.loads((ROOT/f'docs/replays/2026-09-10-{suffix}/summary.json').read_text())
+        data=json.loads((ROOT/f'docs/replays/2026-09-10-{suffix}/summary.json').read_text(encoding='utf-8'))
         payload['evolution'][suffix]={'label':label,'summary':{c:data['funded_summary'][c] for c in ['pulse','compound','adaptive']},
                                      **{k:data.get(k,0) for k in ['staff_count','births','reviews','senior_reviews','senior_vetoes']}}
     payload['total_experiments']=len(runs)+sum(len(v) for v in payload['team_reviews'].values())+len(payload['evolution'])
     market=ROOT/'docs/replays/2026-09-10-market-controls/ui-summary.json'
     if market.exists():
-        payload['market_validation']=json.loads(market.read_text())
+        payload['market_validation']=json.loads(market.read_text(encoding='utf-8'))
         payload['total_experiments']+=payload['market_validation']['run_count']
     analysis=ROOT/'docs/replays/2026-09-10-r03-analysis/summary.json'
     if analysis.exists():
-        payload['round_analysis']=json.loads(analysis.read_text())
+        payload['round_analysis']=json.loads(analysis.read_text(encoding='utf-8'))
         payload['total_experiments']+=payload['round_analysis']['run_count']
     content=json.dumps(payload,ensure_ascii=False,separators=(',',':'),allow_nan=False)
-    (target/'results.json').write_text(content+'\n')
+    (target/'results.json').write_text(content+'\n', encoding='utf-8')
     print(f'Simulation: {payload["total_experiments"]} experiments; results {len(content.encode()):,} bytes; {target}')
     return target
 

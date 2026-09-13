@@ -10,7 +10,7 @@ from ai_stock_assistant.investment_replay_v2 import replay_v2,governor_targets
 
 def fixture():
     prices,filings,old,dates=fixture_data()
-    policy=json.loads(Path('data/reference/investment_replay_v2_policy.json').read_text())
+    policy=json.loads(Path('data/reference/investment_replay_v2_policy.json').read_text(encoding='utf-8'))
     policy.update(start=old['start'],end=old['end'],review_split=old['review_split'])
     return prices,filings,policy,dates
 
