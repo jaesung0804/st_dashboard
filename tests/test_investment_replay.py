@@ -18,7 +18,7 @@ def fixture_data():
                              "fin_revenue_growth": .1+k*.01, "fin_roa": .05, "fin_cfo_assets": .1, "fin_accruals_assets": 0,
                              "fin_liabilities_assets": .4, "fin_cash_assets": .2, "fin_cfo_after_ppe_assets": .08,
                              "fin_observed_fraction": .8} for k in range(12)])
-    policy = json.loads(Path("data/reference/investment_replay_policy.json").read_text())
+    policy = json.loads(Path("data/reference/investment_replay_policy.json").read_text(encoding="utf-8"))
     policy.update(start=str(dates[130].date()), end=str(dates[-1].date()), review_split=str(dates[155].date()))
     return pd.DataFrame(records), filings, policy, dates
 

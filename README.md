@@ -1,5 +1,9 @@
 # ai_stock_assistant
 
+시작 위치: [문서·폴더 안내](docs/README.md) · [2026-09-13 연결 점검](docs/PROJECT_AUDIT_20260913.md) · [웹 ChatGPT에서 DB 사용](docs/CHATGPT_DB_ACCESS.md).
+
+운영의 기준 자료는 Oracle/OCI의 검증된 `pipeline-state`입니다. 로컬 `outputs/`는 생성 당시의 결과이며 Git pull로 갱신되지 않습니다. 웹 ChatGPT에는 DB 연결 도구와 인증을 별도로 설정해야 합니다.
+
 미국 투자회사 3개·9팀의 [시뮬레이션 화면](https://jaesung0804.github.io/st_dashboard/simulation/)과 [89개 실험·조직 운영 기록](docs/INVESTMENT_REPLAY_SESSION_20260910.md)을 추가했습니다. 직원별 전략·승인 근거와 공통 운영조정팀을 확인할 수 있습니다. 기존 [1차 설계](docs/INVESTMENT_REPLAY.md)와 [첫 실행 결과](docs/replays/2026-09-10-v1/report.md)도 보존합니다. 과거 연구용이며 별도 유료 AI API를 호출하지 않습니다.
 
 한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
@@ -91,6 +95,8 @@ Build the lightweight Pages bundle locally:
 $env:OPENDART_API_KEY="your-key"
 .\scripts\daily_refresh.ps1
 ```
+
+위 PowerShell 스크립트는 OpenDART 재무 수집을 포함하는 기존 **연구용** 명령입니다. 운영 한·미 배치를 실행할 때는 위의 시장별 GitHub Actions를 사용합니다.
 
 Generated data is intentionally ignored by git:
 
