@@ -22,9 +22,9 @@ ROOT = Path("outputs")
 DEPLOY_DIR = Path(".pages-deploy")
 BUILD_VERSION = os.environ.get("PAGES_BUILD_VERSION", str(int(time.time())))
 ACTION_URLS = {
-    "all": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
-    "kr": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
-    "us": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh.yml",
+    "all": "https://github.com/jaesung0804/st_dashboard/actions",
+    "kr": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh-kr.yml",
+    "us": "https://github.com/jaesung0804/st_dashboard/actions/workflows/daily-refresh-us.yml",
 }
 WINDOWS_RESERVED_NAMES = {
     "CON",
@@ -173,34 +173,32 @@ def theme_toggle_script() -> str:
 </script>"""
 
 
+def header_html(market: str = "") -> str:
+    assets = Path(__file__).resolve().parent / "dashboard_web"
+    html = (assets / "header.html").read_text(encoding="utf-8")
+    html = html.replace("@@ROOT@@", "../" if market else "")
+    for key, value in (("HOME", ""), ("KR", "kr"), ("US", "us")):
+        html = html.replace(f"@@{key}_CURRENT@@", 'aria-current="page"' if market == value else "")
+    return html
+
+
 def home_html() -> str:
-    return f"""<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>주식 조기경보 대시보드</title>
-{theme_head_script()}
-<style>
-:root{{--ink:#17202a;--muted:#64748b;--line:#d9e2ec;--bg:#f6f8fb;--panel:#fff;--blue:#1d4ed8;--button-soft:#e8eef8;--button-soft-ink:#1e3a8a;--shadow:rgba(15,23,42,.08)}}html[data-theme="dark"]{{--ink:#e5e7eb;--muted:#9ca3af;--line:#30363d;--bg:#0d1117;--panel:#161b22;--blue:#3b82f6;--button-soft:#1f2937;--button-soft-ink:#dbeafe;--shadow:rgba(0,0,0,.32)}}*{{box-sizing:border-box}}body{{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}}main{{max-width:1040px;margin:0 auto;padding:28px 18px 42px}}h1{{font-size:26px;margin:0 0 8px}}.sub{{color:var(--muted);line-height:1.55;margin-bottom:18px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}.card{{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;text-decoration:none;color:var(--ink)}}.card:hover{{border-color:var(--blue);box-shadow:0 8px 24px var(--shadow)}}b{{display:block;font-size:18px;margin-bottom:7px}}span{{display:block;color:var(--muted);font-size:14px;line-height:1.45}}.actions{{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}}.button{{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;border:1px solid transparent;border-radius:7px;padding:10px 13px;text-decoration:none;font-weight:800;cursor:pointer;font:inherit}}.button.secondary,.theme-toggle{{background:var(--button-soft);color:var(--button-soft-ink)}}@media(max-width:720px){{main{{padding:20px 12px 34px}}h1{{font-size:23px}}.grid{{grid-template-columns:1fr}}.card{{padding:15px}}.button{{width:100%}}}}
-</style></head><body><main>
-<h1>주식 조기경보 대시보드</h1>
-<div class="sub">최근 한 달치 신호일을 공개용으로 가볍게 정리한 화면입니다. 매일 GitHub Actions가 종가와 재무 상태를 갱신하고 Pages를 다시 배포합니다.</div>
-<div class="actions">
-<a class="button" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html?v={BUILD_VERSION}">한국 보기</a>
-<a class="button" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html?v={BUILD_VERSION}">미국 보기</a>
-<a class="button secondary" href="{ACTION_URLS["all"]}">최신화 실행 (market 선택)</a>
-<button class="button secondary theme-toggle" id="themeToggle" type="button" aria-pressed="false">다크모드</button>
-</div>
-<div class="grid">
-<a class="card" href="lgbm_warning_dashboard_macro_kr_latest/dashboard.html?v={BUILD_VERSION}"><b>한국 대시보드</b><span>신호일별 KOSPI/KOSDAQ 최근 후보</span></a>
-<a class="card" href="lgbm_warning_dashboard_macro_us_latest/dashboard.html?v={BUILD_VERSION}"><b>미국 대시보드</b><span>신호일별 NASDAQ/NYSE 최근 후보</span></a>
-<a class="card" href="simulation/"><b>투자회사 시뮬레이션</b><span>회사 3곳의 순수익·위험·운용 판단과 과거 실험 비교</span></a>
-</div>
-</main>{theme_toggle_script()}</body></html>"""
+    assets = Path(__file__).resolve().parent / "dashboard_web"
+    html = (assets / "home.html").read_text(encoding="utf-8")
+    for key, value in {
+        "@@HEADER@@": header_html(), "@@BUILD@@": BUILD_VERSION,
+        "@@THEME_HEAD@@": theme_head_script(), "@@THEME_TOGGLE@@": theme_toggle_script(),
+        "@@ACTION_URL@@": ACTION_URLS["all"],
+    }.items():
+        html = html.replace(key, value)
+    return html
 
 
 def render_dashboard_template(template: str, label: str, other_href: str, other_label: str) -> str:
     assets = Path(__file__).resolve().parent / "dashboard_web"
     html = (assets / template).read_text(encoding="utf-8")
     replacements = {
+        "@@HEADER@@": header_html("kr" if label == "한국" else "us"),
         "@@LABEL@@": label, "@@OTHER_HREF@@": other_href, "@@OTHER_LABEL@@": other_label,
         "@@BUILD@@": BUILD_VERSION, "@@THEME_HEAD@@": theme_head_script(),
         "@@THEME_TOGGLE@@": theme_toggle_script(),
@@ -305,7 +303,7 @@ def build_dashboard(source: Path, target: Path, days: int, label: str, subtitle:
             "predictionPolicy": source_manifest.get("predictionPolicy", "legacy_unversioned"),
             "predictionKindsByDate": source_manifest.get("predictionKindsByDate", {}),
             "marketName": label,
-            "uiVersion": "ews-recommendations-research-v2",
+            "uiVersion": "ews-research-workspace-v3",
             "presentationBuild": BUILD_VERSION,
             "uiAssets": ui_assets,
             "priceContext": price_context,
@@ -444,6 +442,9 @@ def main() -> None:
     deploy_dir.mkdir(parents=True)
     (deploy_dir / ".nojekyll").write_text("", encoding="utf-8")
     (deploy_dir / "index.html").write_bytes(home_html().encode("utf-8"))
+    assets = Path(__file__).resolve().parent / "dashboard_web"
+    for filename in ("dashboard.css", "common.js", "home.js"):
+        (deploy_dir / filename).write_bytes((assets / filename).read_text(encoding="utf-8").encode("utf-8"))
     (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
     simulation_result = Path("docs/replays/2026-09-10-v2/manifest.json")
     if simulation_result.exists():
