@@ -229,8 +229,8 @@ def main():
         report['rows'].extend(rows)
         report['markets'][market] = diag
     live.write_json(output / 'investment_view.json', report)
-    from build_investment_preview import build
-    build(output, output / 'preview')
+    # v2 HTML remains in its original immutable snapshot. Current preview assets
+    # require the asymmetric v3 schema; never mislabel a v2 re-run.
     archived = client.push(args.snapshot_name, output, [str(p.relative_to(output)).replace('\\', '/') for p in output.iterdir()])
     print(json.dumps({'archived': archived, 'preview_rows': len(report['rows'])}), flush=True)
 

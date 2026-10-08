@@ -445,6 +445,8 @@ def main() -> None:
     assets = Path(__file__).resolve().parent / "dashboard_web"
     for filename in ("dashboard.css", "common.js", "home.js"):
         (deploy_dir / filename).write_bytes((assets / filename).read_text(encoding="utf-8").encode("utf-8"))
+    from export_investment_experiment import export as export_investment_experiment
+    export_investment_experiment(deploy_dir)
     (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
     simulation_result = Path("docs/replays/2026-09-10-v2/manifest.json")
     if simulation_result.exists():

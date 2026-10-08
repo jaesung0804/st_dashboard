@@ -6,6 +6,9 @@ on:
     paths:
       - scripts/build_pages_deploy.py
       - scripts/build_price_context.py
+      - scripts/export_investment_experiment.py
+      - scripts/build_investment_preview.py
+      - data/reference/relative_ews_release.json
       - scripts/dashboard_web/**
       - scripts/simulation_web/**
       - scripts/build_simulation_pages.py
