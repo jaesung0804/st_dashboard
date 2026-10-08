@@ -24,12 +24,12 @@ def main():
     download('state-manifest.json')
     manifest = json.loads((packed / 'state-manifest.json').read_text())
     candidates = {p: info for p, info in manifest.items()
-                  if ('filing_events' in p or 'macro_indicators_long' in p or 'fx' in p.lower())}
-    selected = {p: info for p, info in candidates.items()
-                if ('filing_events.csv' in p or 'macro_indicators_long' in p)}
+                  if ('filing_events' in p or 'macro_indicators_long' in p or 'fx' in p.lower()
+                      or p in ('data/dashboard_research', 'data/dashboard_ews_shadow'))}
+    selected = candidates
     needed = {p for p, info in selected.items() if info['type'] == 'file'}
     needed.update(part for info in selected.values() for part in info.get('parts', []))
-    if sum(entries[p]['byte_size'] for p in needed) > 30_000_000:
+    if sum(entries[p]['byte_size'] for p in needed) > 500_000_000:
         raise ValueError('Inventory download exceeds bounded size')
     for path in sorted(needed):
         download(path)
@@ -37,7 +37,11 @@ def main():
     restored = root / 'restored'
     restore_state(packed, restored)
     report = {'snapshot_id': sid, 'candidates': list(candidates), 'files': {}}
-    for path in selected:
+    paths = [p.relative_to(restored).as_posix() for p in restored.rglob('*')
+             if p.is_file() and ('filing_events.csv' in p.name or 'macro_indicators_long' in p.name)]
+    report['related_files'] = [p.relative_to(restored).as_posix() for p in restored.rglob('*')
+                             if p.is_file() and ('fx' in p.name.lower() or 'macro' in p.name.lower())][:60]
+    for path in paths:
         df = pd.read_csv(restored / path, dtype={'ticker': str, 'filing_id': str})
         summary = {'rows': len(df), 'columns': list(df)}
         if 'ticker' in df:
