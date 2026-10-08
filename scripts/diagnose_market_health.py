@@ -6,6 +6,7 @@ changes a snapshot head, or emits individual price/prediction records.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import io
 import json
 import os
@@ -22,9 +23,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from ai_stock_assistant import monthly_ews as live
 from research_backend_client import Client, safe_path
 from unpack_dashboard_state import restore_state
+from model_health_metrics import coefficient_report, label_audit, probability_summary, score_audit
+from crash_target_comparison import compare_targets
+
+REPORT = {}
 
 
 def emit(section, value):
+    REPORT[section] = value
     print("MARKET_DIAGNOSTIC=" + json.dumps({section: value}, allow_nan=False), flush=True)
 
 
@@ -67,6 +73,10 @@ def restore_selected(root, market, month):
     price = "data/raw/" + live.PRICE_FILES[market]
     prefix = f"data/dashboard_ews/{market}/models/{month}/"
     selected = {p: info for p, info in manifest.items() if p == price or p.startswith(prefix)}
+    predictions = sorted(p for p in manifest if p.startswith(f"data/dashboard_ews/{market}/predictions/{month}-") and p.endswith("/meta.json"))
+    if predictions:
+        latest = predictions[-1].rsplit("/", 1)[0] + "/"
+        selected.update({p: info for p, info in manifest.items() if p.startswith(latest)})
     if price not in selected or prefix + "model.json" not in selected:
         raise ValueError("Requested frozen model or price source is absent")
     needed = {p for p, info in selected.items() if info["type"] == "file"}
@@ -95,10 +105,11 @@ def scores(frame, head, card, boosters):
     tree = boosters[head].predict(frame[live.FEATURES], num_threads=1)
     raw = .5 * lr + .5 * tree
     return {"linear": lr, "tree": tree, "raw": raw,
+            "calibrator_only_diagnostic": live.calibrated(raw, {**card["heads"][head]["calibration"], "weight": 1.0}),
             "final": live.calibrated(raw, card["heads"][head]["calibration"])}
 
 
-def diagnose(root, market, month):
+def diagnose(root, market, month, heads, comparison_anchors=()):
     card, boosters = live.load_month(root / f"data/dashboard_ews/{market}/models/{month}")
     price_path = root / "data/raw" / live.PRICE_FILES[market]
     prices = live.read_prices(price_path, card["cutoff"])
@@ -111,9 +122,13 @@ def diagnose(root, market, month):
                     "nonpositive_adjusted": int(prices.adjusted_close.le(0).sum()),
                     "missing_adjusted": int(prices.adjusted_close.isna().sum())})
     panel = live.feature_panel(prices, market, training=True)
+    if "down" in heads:
+        emit("down_label_audit", label_audit(prices, panel, card["cutoff"]))
+    if comparison_anchors:
+        emit("target_comparison", compare_targets(prices, market, comparison_anchors))
     del prices
     from sklearn.metrics import roc_auc_score
-    for head in live.HORIZONS:
+    for head in heads:
         train, cal = live.chronological_split(panel, head, pd.Timestamp(card["cutoff"]))
         if len(train) > 180000:
             train = train.sample(180000, random_state=live.SEED).sort_values(["date", "ticker"])
@@ -137,6 +152,11 @@ def diagnose(root, market, month):
         published = meta["calibration_diagnostics_not_test"]
         actual = short_metrics(y, predictions["final"])
         train_scores = scores(train, head, card, boosters)
+        emit(head + "_audit", {
+            "calibration": score_audit(cal["date"], y, predictions, float(train[f"y_{head}"].mean())),
+            "coefficients": coefficient_report(meta["linear"], {"train": train, "calibration": cal}),
+            "split_checks": {"purged": bool(train[f"end_{head}"].max() < cal.date.min()),
+                             "labels_known_by_cutoff": bool(cal[f"end_{head}"].max() <= pd.Timestamp(card["cutoff"]))}})
         emit(head, {"metadata": {k: v for k, v in meta.items() if k != "linear"},
             "reproduced": actual,
             "same_calibration_rows": len(cal) == published["rows"],
@@ -149,6 +169,32 @@ def diagnose(root, market, month):
             "constant_event_rate_brier": float(y.mean() * (1 - y.mean())),
             "label_end_min": str(cal[f"end_{head}"].min().date()),
             "label_end_max": str(cal[f"end_{head}"].max().date())})
+    del panel, train, cal
+    archives = sorted((root / f"data/dashboard_ews/{market}/predictions").glob(f"{month}-*/meta.json"))
+    if archives:
+        target = archives[-1].parent
+        frozen_meta = live.verify_prediction(target)
+        frozen = pd.DataFrame(live.read_json(target / "rows.json")).set_index("ticker")
+        prices = live.read_prices(price_path, target.name)
+        prices = prices.loc[~(prices.date.eq(pd.Timestamp(target.name)) & prices.ticker.isin(frozen_meta.get("excluded_tickers", [])))]
+        current = live.feature_panel(prices, market, training=False, signal_date=target.name)
+        feature_hash = hashlib.sha256(pd.util.hash_pandas_object(current[["date", "ticker", *live.FEATURES]], index=False).to_numpy().tobytes()).hexdigest()
+        identity_matches = frozen_meta["model"] == card["id"]
+        tickers_match = set(current.ticker) == set(frozen.index)
+        emit("latest_source", {"signal_date": target.name, "model_matches": identity_matches,
+             "tickers_match": tickers_match, "feature_hash_matches": feature_hash == frozen_meta["feature_sha256"],
+             "rows_sha256": frozen_meta["rows_sha256"], "prediction_kind": frozen_meta["prediction_kind"],
+             "rows": len(current), "excluded_count": len(frozen_meta.get("excluded_tickers", []))})
+        if not identity_matches or not tickers_match:
+            raise ValueError("Frozen forecast cannot be aligned with selected model and source")
+        for head in heads:
+            components = scores(current, head, card, boosters)
+            shap = boosters[head].predict(current[live.FEATURES], pred_contrib=True, num_threads=1)
+            emit(head + "_latest", {"components": {k: probability_summary(p) for k, p in components.items()},
+                "max_frozen_probability_difference": float(np.max(np.abs(components["final"] - frozen.loc[current.ticker, head + "Prob"].to_numpy()))),
+                "coefficients": coefficient_report(card["heads"][head]["linear"], {"latest": current}),
+                "tree_contributions": [{"feature": f, "mean": float(shap[:, j].mean()), "mean_absolute": float(np.abs(shap[:, j]).mean())} for j, f in enumerate(live.FEATURES)],
+                "tree_base_log_odds": float(shap[:, -1].mean())})
 
 
 def main():
@@ -156,12 +202,23 @@ def main():
     parser.add_argument("--market", choices=["kr", "us"], default="kr")
     parser.add_argument("--month", default="2026-09")
     parser.add_argument("--artifact", type=int)
+    parser.add_argument("--head", choices=["all", "down", "up"], default="all")
+    parser.add_argument("--output", type=Path)
+    parser.add_argument("--comparison-anchors", default="", help="Comma-separated common calendar signal dates; also inspect prior two years")
     parser.add_argument("--root", type=Path, default=Path(".research-backend/artifacts/market-diagnosis"))
     args = parser.parse_args()
     if args.artifact:
         collection_summary(os.environ["GITHUB_REPOSITORY"], args.artifact)
     root = restore_selected(args.root, args.market, args.month)
-    diagnose(root, args.market, args.month)
+    emit("audit", {"created_at": live.utc_now(), "code_commit": os.environ.get("GITHUB_SHA", "local"),
+                   "market": args.market, "month": args.month, "head": args.head,
+                   "scope": "Frozen-model diagnostics only; no collection, training, or model/forecast publication. Calibration scores are not independent test results."})
+    anchors = [pd.Timestamp(d).strftime("%Y-%m-%d") for d in args.comparison_anchors.split(",") if d.strip()]
+    if len(anchors) > 20 or len(set(anchors)) != len(anchors):
+        parser.error("Comparison accepts at most 20 distinct anchor dates")
+    diagnose(root, args.market, args.month, list(live.HORIZONS) if args.head == "all" else [args.head], anchors)
+    if args.output:
+        live.write_json(args.output, REPORT)
 
 
 if __name__ == "__main__":
