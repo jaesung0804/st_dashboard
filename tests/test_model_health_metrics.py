@@ -7,7 +7,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from model_health_metrics import coefficient_report, label_audit, score_audit, threshold_metrics
-from crash_target_comparison import path_outcomes, summarize
+from crash_target_comparison import compare_targets, path_outcomes, summarize
 from ai_stock_assistant import monthly_ews as live
 
 
@@ -83,3 +83,26 @@ def test_barrier_retains_recovery_and_upside_order_information():
     assert result.up20_before_down20.tolist() == [True, False]
     assert result.recovered_breakeven_after_barrier.tolist() == [True, False]
     assert summarize(result)["among_barrier_events_recovered_breakeven"] == .5
+
+
+def test_comparison_excludes_incomplete_paths_and_uses_only_past_volatility():
+    rng = np.random.default_rng(18)
+    dates = pd.bdate_range("2022-01-03", periods=1200)
+    frames = []
+    for ticker in ("A", "B", "C"):
+        p = 100 * np.exp(np.cumsum(rng.normal(0, .015, len(dates))))
+        frames.append(pd.DataFrame({"ticker": ticker, "date": dates, "open": p, "high": p,
+                                    "low": p, "close": p, "adjusted_close": p, "volume": 1e7}))
+    prices = pd.concat(frames, ignore_index=True)
+    anchor = pd.Timestamp("2026-03-26")
+    prices = prices.loc[~(prices.ticker.eq("C") & prices.date.eq(anchor + pd.offsets.BDay(5)))].copy()
+    before = compare_targets(prices, "us", [str(anchor.date())])
+    current = before["by_date"][0]
+    assert current["eligible_rows"] == 3
+    assert current["rows"] == 2
+    assert current["excluded_incomplete_or_invalid_paths"] == 1
+    prices.loc[prices.date.gt(anchor), ["open", "high", "low", "close", "adjusted_close"]] *= .5
+    after = compare_targets(prices, "us", [str(anchor.date())])
+    assert after["by_date"][0]["median_annual_vol"] == current["median_annual_vol"]
+    assert after["by_date"][0]["barrier20_rate"] == 1
+    assert before["periods"]["year_minus_1"] == after["periods"]["year_minus_1"]
