@@ -104,6 +104,7 @@ def scores(frame, head, card, boosters):
     tree = boosters[head].predict(frame[live.FEATURES], num_threads=1)
     raw = .5 * lr + .5 * tree
     return {"linear": lr, "tree": tree, "raw": raw,
+            "calibrator_only_diagnostic": live.calibrated(raw, {**card["heads"][head]["calibration"], "weight": 1.0}),
             "final": live.calibrated(raw, card["heads"][head]["calibration"])}
 
 

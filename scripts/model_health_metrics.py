@@ -84,7 +84,7 @@ def label_audit(prices, panel, cutoff):
     """Independently verify each calibration label with explicit forward slices."""
     _, cal = live.chronological_split(panel, "down", pd.Timestamp(cutoff))
     n, checked, mismatches, boundary_cases = live.HORIZONS["down"], 0, 0, 0
-    mins, terminals, event_steps = [], [], []
+    mins, terminals, event_steps, has_jump, outcomes = [], [], [], [], []
     events_by_date, large_jumps = {}, {}
     price_groups = {ticker: g for ticker, g in prices.groupby("ticker", sort=False)}
     for ticker, rows in cal.groupby("ticker", sort=False):
@@ -104,6 +104,9 @@ def label_audit(prices, panel, cutoff):
             boundary_cases += int((future.min() <= .8 * p[i]) != bool(expected))
             mins.append(low)
             terminals.append(terminal)
+            path = p[i:i + n + 1]
+            has_jump.append(bool(np.any(path[1:] / path[:-1] - 1 < -.301)))
+            outcomes.append(expected)
             crossings = np.flatnonzero(future / p[i] - 1 <= -.2)
             if len(crossings):
                 step = int(crossings[0] + 1)
@@ -117,7 +120,10 @@ def label_audit(prices, panel, cutoff):
         for date in g.loc[jump & g.date.ge(cal.date.min()), "date"]:
             day = str(date.date())
             large_jumps[day] = large_jumps.get(day, 0) + 1
+    unaffected = ~np.asarray(has_jump)
     return {"checked_rows": checked, "implementation_mismatches": mismatches,
+            "rows_with_daily_loss_below_minus_30_1_percent_in_horizon": int(np.sum(has_jump)),
+            "event_rate_excluding_these_rows_sensitivity_only": float(np.asarray(outcomes)[unaffected].mean()) if unaffected.any() else None,
             "literal_80_percent_boundary_differences": boundary_cases,
             "minimum_forward_return_quantiles": {str(q): float(np.quantile(mins, q)) for q in (0, .1, .25, .5, .75, .9, 1)},
             "terminal_63_session_return_quantiles": {str(q): float(np.quantile(terminals, q)) for q in (0, .1, .25, .5, .75, .9, 1)},
