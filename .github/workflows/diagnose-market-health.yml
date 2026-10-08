@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Read-only diagnostic mode
+        description: Inspect retained inputs or explicitly train an isolated relative-model research candidate
         type: choice
-        options: [model, investment-inputs]
+        options: [model, investment-inputs, relative-research]
         default: model
       market:
         type: choice
@@ -28,7 +28,7 @@ concurrency:
 jobs:
   diagnose:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 90
     env:
       RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE }}
       RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
@@ -50,7 +50,7 @@ jobs:
       - name: Install production numerical packages
         run: python -m pip install -r requirements-live.txt
       - name: Reproduce frozen calibration and inspect optional collection artifact
-        if: inputs.mode != 'investment-inputs'
+        if: inputs.mode == 'model' || inputs.mode == ''
         run: python scripts/diagnose_market_health.py --market "$DIAG_MARKET" --month "$DIAG_MONTH" --artifact "$DIAG_ARTIFACT"
       - name: Inspect existing financial and FX input availability
         if: inputs.mode == 'investment-inputs'
@@ -60,3 +60,14 @@ jobs:
         with:
           name: investment-input-inventory
           path: .research-backend/artifacts/investment-input-inventory/report.json
+      - name: Train and evaluate relative warnings in isolated research storage
+        if: inputs.mode == 'relative-research'
+        run: python scripts/run_relative_ews_research.py --root ".research-backend/artifacts/relative-ews-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --snapshot-name "relative-ews-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'relative-research'
+        with:
+          name: relative-investment-preview
+          path: |
+            .research-backend/artifacts/relative-ews-*/result/preview/
+            .research-backend/artifacts/relative-ews-*/result/investment_view.json
+          retention-days: 14
