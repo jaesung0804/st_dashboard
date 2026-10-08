@@ -5,7 +5,7 @@ on:
       mode:
         description: Inspect retained inputs or explicitly train an isolated relative-model research candidate
         type: choice
-        options: [model, investment-inputs, relative-research]
+        options: [model, investment-inputs, relative-research, asymmetric-research]
         default: model
       market:
         type: choice
@@ -70,4 +70,13 @@ jobs:
           path: |
             .research-backend/artifacts/relative-ews-*/result/preview/
             .research-backend/artifacts/relative-ews-*/result/investment_view.json
+          retention-days: 14
+      - name: Compare asymmetric tails and full-market ranking on frozen inputs
+        if: inputs.mode == 'asymmetric-research'
+        run: python scripts/run_asymmetric_ews_research.py --root ".research-backend/artifacts/asymmetric-ews-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --snapshot-name "asymmetric-ews-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'asymmetric-research'
+        with:
+          name: asymmetric-investment-report
+          path: .research-backend/artifacts/asymmetric-ews-*/result/investment_view.json
           retention-days: 14

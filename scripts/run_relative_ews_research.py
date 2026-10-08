@@ -22,9 +22,9 @@ from unpack_dashboard_state import restore_state
 FOLDS = ['2024-10-01', '2025-04-01', '2025-10-01', '2026-04-01']
 
 
-def restore_inputs(root):
+def restore_inputs(root, snapshot_id=None):
     client = Client(project='investment')
-    sid = client.json('GET', '/snapshot-heads/pipeline-state')['snapshot_id']
+    sid = snapshot_id or client.json('GET', '/snapshot-heads/pipeline-state')['snapshot_id']
     entries = {e['relative_path']: e for e in client.snapshot_entries(sid)}
     packed = root / 'packed'
 
@@ -52,7 +52,7 @@ def weights(frame):
     return value / value.mean()
 
 
-def fit_bundle(train, cal):
+def fit_bundle(train, cal, *, heads=('up', 'down'), quantiles=True, ranker=False):
     import lightgbm as lgb
     from sklearn.impute import SimpleImputer
     from sklearn.linear_model import LogisticRegression
@@ -71,7 +71,7 @@ def fit_bundle(train, cal):
         'cal_first': str(cal.date.min().date()), 'cal_last': str(cal.date.max().date()),
         'cal_label_end': str(cal.end_down.max().date()),
         'train_baseline_log_return': float(np.log1p(train.future_return).median())}
-    for head in ('up', 'down'):
+    for head in heads:
         y = train['y_' + head].astype(int)
         if y.nunique() != 2 or cal['y_' + head].nunique() != 2:
             raise ValueError('Both classes required for training and calibration')
@@ -92,10 +92,15 @@ def fit_bundle(train, cal):
             'coefficients_per_sd': dict(zip(relative.FEATURES, linear[-1].coef_[0].tolist())),
             'intercept': float(linear[-1].intercept_[0]),
             'calibration_diagnostics_not_test': live.metrics(cal['y_' + head], live.calibrated(raw, calibration))}
-    for q in (.1, .5, .9):
+    for q in ((.1, .5, .9) if quantiles else ()):
         model = lgb.LGBMRegressor(**params, objective='quantile', alpha=q)
         model.fit(x, np.log1p(train.future_return), sample_weight=w)
         bundle['quantiles'][q] = model
+    if ranker:
+        model = lgb.LGBMRegressor(**params, objective='regression')
+        model.fit(x, train.future_percentile, sample_weight=w)
+        bundle['ranker'] = model
+        card['ranker_target'] = 'expected future within-market midrank percentile; not a probability'
     return bundle, card
 
 
@@ -105,6 +110,10 @@ def predict(bundle, frame):
         x = frame[relative.FEATURES]
         raw = .5 * model['linear'].predict_proba(x)[:, 1] + .5 * model['tree'].predict_proba(x)[:, 1]
         result[head] = live.calibrated(raw, model['calibration'])
+    if 'ranker' in bundle:
+        result['rank'] = np.clip(bundle['ranker'].predict(frame[relative.FEATURES]), 0, 1)
+    if not bundle['quantiles']:
+        return result
     raw = np.column_stack([bundle['quantiles'][q].predict(frame[relative.FEATURES]) for q in (.1, .5, .9)])
     # Monotonic rearrangement is explicit; report how often independently fitted
     # quantiles cross rather than returning an impossible downside interval.
