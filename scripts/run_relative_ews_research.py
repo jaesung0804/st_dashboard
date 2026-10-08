@@ -7,6 +7,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from importlib.metadata import version as package_version
 
 import numpy as np
 import pandas as pd
@@ -186,6 +187,7 @@ def run_market(restored, output, market):
             'scenarios': {str(fx): relative.attractiveness(prediction['q50'][i], prediction['q10'][i], market, fx_change=fx)
                           for fx in (-.05, 0., .05)}})
     diagnostics['latest'] = {'asof': str(signal.date()), 'training': card, 'scored': len(rows),
+        'financial_events_sha256': live.digest(events_path) if events_path.exists() else None,
         'financial_covered': sum(bool(r['opinion']['evidence']) for r in rows),
         'financial_opinions': pd.Series([r['opinion']['status'] for r in rows]).value_counts().to_dict(),
         'feature_hash': hashlib.sha256(pd.util.hash_pandas_object(latest[['ticker', *relative.FEATURES]], index=False).values.tobytes()).hexdigest()}
@@ -209,6 +211,7 @@ def main():
     output = root / 'result'
     output.mkdir(parents=True)
     report = {'version': relative.VERSION, 'created_at': live.utc_now(), 'code_commit': os.getenv('GITHUB_SHA', 'local'),
+        'packages': {name: package_version(name) for name in ('numpy', 'pandas', 'scipy', 'scikit-learn', 'lightgbm')},
         'kind': 'research-created-after-signal', 'contract': relative.CONTRACT, 'rules': relative.RULES,
         'source': source, 'fx_observation': None, 'fx_status': 'No retained point-in-time USD/KRW series; scenario only',
         'validation_status': 'research_only_no_promotion', 'markets': {}, 'rows': []}
