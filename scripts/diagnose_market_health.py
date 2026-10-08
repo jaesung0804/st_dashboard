@@ -24,6 +24,7 @@ from ai_stock_assistant import monthly_ews as live
 from research_backend_client import Client, safe_path
 from unpack_dashboard_state import restore_state
 from model_health_metrics import coefficient_report, label_audit, probability_summary, score_audit
+from crash_target_comparison import compare_targets
 
 REPORT = {}
 
@@ -108,7 +109,7 @@ def scores(frame, head, card, boosters):
             "final": live.calibrated(raw, card["heads"][head]["calibration"])}
 
 
-def diagnose(root, market, month, heads):
+def diagnose(root, market, month, heads, comparison_anchors=()):
     card, boosters = live.load_month(root / f"data/dashboard_ews/{market}/models/{month}")
     price_path = root / "data/raw" / live.PRICE_FILES[market]
     prices = live.read_prices(price_path, card["cutoff"])
@@ -123,6 +124,8 @@ def diagnose(root, market, month, heads):
     panel = live.feature_panel(prices, market, training=True)
     if "down" in heads:
         emit("down_label_audit", label_audit(prices, panel, card["cutoff"]))
+    if comparison_anchors:
+        emit("target_comparison", compare_targets(prices, market, comparison_anchors))
     del prices
     from sklearn.metrics import roc_auc_score
     for head in heads:
@@ -201,6 +204,7 @@ def main():
     parser.add_argument("--artifact", type=int)
     parser.add_argument("--head", choices=["all", "down", "up"], default="all")
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--comparison-anchors", default="", help="Comma-separated common calendar signal dates; also inspect prior two years")
     parser.add_argument("--root", type=Path, default=Path(".research-backend/artifacts/market-diagnosis"))
     args = parser.parse_args()
     if args.artifact:
@@ -209,7 +213,10 @@ def main():
     emit("audit", {"created_at": live.utc_now(), "code_commit": os.environ.get("GITHUB_SHA", "local"),
                    "market": args.market, "month": args.month, "head": args.head,
                    "scope": "Frozen-model diagnostics only; no collection, training, or model/forecast publication. Calibration scores are not independent test results."})
-    diagnose(root, args.market, args.month, list(live.HORIZONS) if args.head == "all" else [args.head])
+    anchors = [pd.Timestamp(d).strftime("%Y-%m-%d") for d in args.comparison_anchors.split(",") if d.strip()]
+    if len(anchors) > 20 or len(set(anchors)) != len(anchors):
+        parser.error("Comparison accepts at most 20 distinct anchor dates")
+    diagnose(root, args.market, args.month, list(live.HORIZONS) if args.head == "all" else [args.head], anchors)
     if args.output:
         live.write_json(args.output, REPORT)
 

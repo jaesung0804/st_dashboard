@@ -7,6 +7,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from model_health_metrics import coefficient_report, label_audit, score_audit, threshold_metrics
+from crash_target_comparison import path_outcomes, summarize
 from ai_stock_assistant import monthly_ews as live
 
 
@@ -65,3 +66,20 @@ def test_forward_audit_checks_complete_window_and_signal_exclusion(monkeypatch):
     corrupted.iloc[0, corrupted.columns.get_loc("y_down")] = 0
     monkeypatch.setattr(live, "chronological_split", lambda *args: (labels, corrupted))
     assert label_audit(frame, corrupted, str(frame.date.max().date()))["implementation_mismatches"] == 1
+
+
+def test_market_wide_loss_is_not_relative_underperformance():
+    result, benchmark = path_outcomes([[.9, .8, .75], [.9, .8, .75]], [.4, .8])
+    assert result.barrier20.all()
+    assert not result.relative_barrier20.any()
+    assert benchmark["terminal_return"] == -.25
+    assert summarize(result)["barrier20_rate"] == 1
+
+
+def test_barrier_retains_recovery_and_upside_order_information():
+    result, _ = path_outcomes([[1.25, .8, 1.1], [.79, 1.3, .7]], [.5, .5])
+    assert result.barrier20.tolist() == [True, True]
+    assert result.terminal20.tolist() == [False, True]
+    assert result.up20_before_down20.tolist() == [True, False]
+    assert result.recovered_breakeven_after_barrier.tolist() == [True, False]
+    assert summarize(result)["among_barrier_events_recovered_breakeven"] == .5
