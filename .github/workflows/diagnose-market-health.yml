@@ -5,7 +5,7 @@ on:
       mode:
         description: Inspect retained inputs or explicitly train an isolated relative-model research candidate
         type: choice
-        options: [model, investment-inputs, relative-research, asymmetric-research]
+        options: [model, investment-inputs, relative-research, asymmetric-research, investment-metrics]
         default: model
       market:
         type: choice
@@ -79,4 +79,13 @@ jobs:
         with:
           name: asymmetric-investment-report
           path: .research-backend/artifacts/asymmetric-ews-*/result/investment_view.json
+          retention-days: 14
+      - name: Derive presentation metrics from the experiment's retained inputs
+        if: inputs.mode == 'investment-metrics'
+        run: python scripts/enrich_investment_view.py --root ".research-backend/artifacts/investment-metrics-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --snapshot-name "investment-metrics-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'investment-metrics'
+        with:
+          name: investment-metrics-report
+          path: .research-backend/artifacts/investment-metrics-*/result/investment_view.json
           retention-days: 14

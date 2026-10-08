@@ -68,3 +68,28 @@ def test_backend_checks_pinned_manifest_before_download(tmp_path, monkeypatch, m
     else:
         assert module.export(tmp_path / 'site', ref, cache)
         assert calls == [digest]
+
+
+def test_phone_summary_defers_details_without_losing_evidence(tmp_path):
+    import re
+    from build_investment_preview import build
+    rows = [{'market': 'kr', 'ticker': f'{i:06}', 'opinion': {'status':'watch','label':'관망','evidence':[{'filing_id':'proof'}]},
+        'scenarios': {'0': {'score':50, 'median_krw':.1}},
+        'financials': {'latest':{'metrics':{'fin_roa':.1}},'history':[{'period_end':'2026-06-30'}]},
+        'price_metrics': {'chart':list(range(64))}} for i in range(130)]
+    source={'rows':rows};payload=json.dumps(source,ensure_ascii=False).encode()
+    (tmp_path/'investment_view.json').write_bytes(payload)
+    dest=tmp_path/'site';build(tmp_path,dest)
+    assert (dest/'research.json').read_bytes()==payload
+    html=(dest/'index.html').read_text(encoding='utf-8')
+    summary=json.loads(re.search(r'<script id="investment-data" type="application/json">(.*?)</script>',html).group(1))
+    assert len(summary['rows'][0]['price_metrics']['chart'])==16
+    assert summary['rows'][0]['price_metrics']['chart'][-1]==63
+    assert 'history' not in summary['rows'][0]['financials']
+    assert summary['rows'][0]['scenarios']['0']['score']==50
+    recovered=[]
+    for path in sorted((dest/'details').glob('*.json')):
+        recovered.extend(json.loads(path.read_text(encoding='utf-8')))
+    assert recovered==rows
+    assert re.fullmatch(r'details/001.json\?v=[a-f0-9]{12}', summary['rows'][-1]['detail_bundle'])
+    assert re.search(r'investment.js\?v=[a-f0-9]{12}',html)
