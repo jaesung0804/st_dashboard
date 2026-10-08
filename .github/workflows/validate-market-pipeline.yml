@@ -1,10 +1,10 @@
 name: Validate market pipeline
 on:
   pull_request:
-    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
+    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/refresh_dashboard_pipeline.py', 'scripts/diagnose_market_health.py', 'scripts/model_health_metrics.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
   push:
     branches: [main, 'codex/**']
-    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
+    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/refresh_dashboard_pipeline.py', 'scripts/diagnose_market_health.py', 'scripts/model_health_metrics.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
 permissions:
   contents: read
 jobs:
