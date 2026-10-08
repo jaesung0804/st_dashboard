@@ -45,6 +45,7 @@ class DailyRefreshResult:
     summary_path: Path
     updated_count: int
     failed_count: int
+    excluded_tickers: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -55,6 +56,7 @@ class USDailyRefreshResult:
     summary_path: Path
     updated_count: int
     failed_count: int
+    excluded_tickers: tuple[str, ...] = ()
 
 
 def _find_latest_price_dir(market_slug: str) -> Path | None:

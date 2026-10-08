@@ -110,15 +110,15 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     }
     deadline = time.monotonic() + max_seconds
     updates, errors = {}, {}
+    attempts = defaultdict(int)
     adjustment_detected, rebase_updated, rebase_quarantined = set(), set(), set()
     fatal = None
 
-    def download(queries, result=None):
+    def download(queries, result=None, *, full_history=False):
         groups = defaultdict(list)
         for ticker, start in queries.items():
             groups[start].append(ticker)
         result = {} if result is None else result
-        failed_batches = 0
         for start, symbols in sorted(groups.items()):
             for offset in range(0, len(symbols), batch_size):
                 pending = symbols[offset:offset + batch_size]
@@ -127,6 +127,8 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                     if time.monotonic() >= deadline:
                         raise TimeoutError("US collection scheduling budget exhausted")
                     try:
+                        for ticker in pending:
+                            attempts[ticker] += 1
                         response = fetch(pending, start=start, end=end)
                     except Exception as exc:
                         response = {}
@@ -140,22 +142,23 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                             retry.append(ticker)
                             continue
                         try:
-                            result[ticker] = validate_prices(frame, ticker, start, end)
+                            validated = validate_prices(frame, ticker, start, end)
+                            old = histories.get(ticker)
+                            if old is not None:
+                                required = old if full_history else old.loc[old.date.ge(pd.Timestamp(start).strftime("%Y-%m-%d"))]
+                                if not set(required.date).issubset(set(validated.date)):
+                                    raise ValueError("Incomplete overlapping history; ticker update withheld")
+                            result[ticker] = validated
                         except ValueError as exc:
                             errors[ticker] = str(exc)
                             retry.append(ticker)
                         else:
                             recovered += 1
                             errors.pop(ticker, None)
-                    # Inactive/delisted tickers need not be retried on every run.
-                    pending = [ticker for ticker in retry if ticker in active]
+                    pending = retry
                     if not pending:
                         break
-                failed_batches = 0 if recovered else failed_batches + 1
                 print(f"US range {start}..{end}: {recovered}/{min(batch_size, len(symbols) - offset)} tickers", flush=True)
-                if (failed_batches >= 2 and set(symbols[offset:offset + batch_size]) & active
-                        and len(set(errors) & active) > len(active) * (1 - minimum_coverage)):
-                    raise RuntimeError("Repeated US provider failures; stopping collection")
         return result
 
     try:
@@ -180,11 +183,7 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                     rebases[ticker] = old.date.min().replace("-", "")
                 else:
                     rebase_updated.add(ticker)
-            elif not set(old.loc[old.date.ge(pd.Timestamp(starts[ticker]).strftime("%Y-%m-%d")), "date"]).issubset(set(frame.date)):
-                # A response truncated to recent rows cannot repair a long gap.
-                errors[ticker] = "Incomplete overlapping history; ticker update withheld"
-                del updates[ticker]
-        full = download(rebases) if rebases else {}
+        full = download(rebases, full_history=True) if rebases else {}
         for ticker in rebases:
             frame = full.get(ticker)
             if frame is None or not set(histories[ticker].date).issubset(set(frame.date)):
@@ -238,6 +237,7 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                                   "updated" if frame is not None else "unavailable",
                         "rows": len(frame) if frame is not None else 0,
                         "latest_date": frame.date.max() if frame is not None else "",
+                        "attempts": attempts[ticker],
                         "error": errors.get(ticker, "")})
     summary_path = run_dir / "us_daily_data_refresh_summary.csv"
     _atomic_csv(summary_path, pd.DataFrame(summary))
@@ -257,6 +257,9 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
               "rebased_tickers": sorted(rebase_updated),
               "quarantined_rebase_tickers": sorted(rebase_quarantined),
               "active_tickers": len(active), "latest_session_coverage": coverage,
+              "missing_active_tickers": sorted(active - observed),
+              "missing_active_fraction": len(active - observed) / len(active),
+              "maximum_missing_fraction": 1 - minimum_coverage, "attempt_limit_per_range": 2,
               "accepted": not bool(reason), "error": reason}
     _atomic_bytes(run_dir / "us_collection.json", _json_bytes(report))
     if reason:
@@ -265,7 +268,9 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
     _atomic_csv(output_path, combined)
     print(f"US collection committed: latest={report['latest']}, coverage={coverage:.1%}, "
+          f"missing_active={len(active - observed)}/{len(active)}, "
           f"rebased={len(rebase_updated)}, quarantined={len(rebase_quarantined)}", flush=True)
     return USDailyRefreshResult(asof=latest.strftime("%Y%m%d"), listings_path=listings_path,
                                 combined_prices_path=output_path, summary_path=summary_path,
-                                updated_count=len(updates), failed_count=len(tickers) - len(updates))
+                                updated_count=len(updates), failed_count=len(tickers) - len(updates),
+                                excluded_tickers=tuple(sorted(set(tickers) - observed)))

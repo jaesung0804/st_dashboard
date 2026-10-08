@@ -395,7 +395,9 @@ def verify_prediction(path: Path) -> dict:
     return meta
 
 
-def infer_latest(prices_path: Path, listings_path: Path, market: str, state_root: Path, *, asof: str | None = None, research: bool = False) -> Path:
+def infer_latest(prices_path: Path, listings_path: Path, market: str, state_root: Path, *,
+                 asof: str | None = None, research: bool = False,
+                 excluded_tickers: tuple[str, ...] = ()) -> Path:
     prices = read_prices(prices_path, asof)
     signal = prices["date"].max().strftime("%Y-%m-%d")
     if not research and pd.Timestamp.now(tz="UTC").tz_localize(None).normalize() - pd.Timestamp(signal) > pd.Timedelta(days=7):
@@ -419,6 +421,9 @@ def infer_latest(prices_path: Path, listings_path: Path, market: str, state_root
     counts = prices.groupby("date")["ticker"].nunique()
     if counts.iloc[-1] < .8 * counts.tail(21).iloc[:-1].median():
         raise ValueError(f"Incomplete market coverage on {signal}; refusing to publish")
+    # A preserved canonical quote is not evidence that today's provider check
+    # succeeded. Keep history on disk but withhold unverified signal-date rows.
+    prices = prices.loc[~(prices.date.eq(pd.Timestamp(signal)) & prices.ticker.isin(excluded_tickers))]
     panel = feature_panel(prices, market, training=False, signal_date=signal)
     if panel.empty:
         raise ValueError(f"No eligible stocks for {market} {signal}")
@@ -459,7 +464,8 @@ def infer_latest(prices_path: Path, listings_path: Path, market: str, state_root
     rows.sort(key=lambda row: (-row["upProb"], row["downProb"], row["ticker"]))
     feature_hash = hashlib.sha256(pd.util.hash_pandas_object(panel[["date", "ticker", *FEATURES]], index=False).to_numpy().tobytes()).hexdigest()
     return freeze_prediction(state_root, market, signal, rows, {"model": card["id"], "created_at": created,
-                             "prediction_kind": kind, "feature_sha256": feature_hash, "rows": len(rows)})
+                             "prediction_kind": kind, "feature_sha256": feature_hash, "rows": len(rows),
+                             "excluded_tickers": sorted(set(excluded_tickers))})
 
 
 def migrate_legacy(pages_root: Path, state_root: Path) -> None:

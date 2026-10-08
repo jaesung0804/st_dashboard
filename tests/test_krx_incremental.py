@@ -184,7 +184,7 @@ def test_changed_adjustment_refetches_full_retained_history(tmp_path, monkeypatc
     assert merged.loc[merged.ticker.eq("999999"), "adjusted_close"].eq(100).all()
 
 
-def test_circuit_breaker_stops_provider_outage(tmp_path, monkeypatch):
+def test_provider_outage_checks_final_totals_after_two_attempts(tmp_path, monkeypatch):
     args = setup(tmp_path, tuple(f"{i:06d}" for i in range(1, 21)))
     original = args["prices_path"].read_bytes()
     calls = []
@@ -192,10 +192,111 @@ def test_circuit_breaker_stops_provider_outage(tmp_path, monkeypatch):
         calls.append(ticker)
         raise RuntimeError("service unavailable")
     monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fail)
-    with pytest.raises(RuntimeError, match="Eight consecutive"):
+    with pytest.raises(RuntimeError, match="Canonical prices unchanged"):
         inc.refresh_ranges(**args)
-    assert len(calls) == 8
+    assert len(calls) == 40
+    assert all(calls.count(ticker) == 2 for ticker in set(calls))
     assert args["prices_path"].read_bytes() == original
+    report = json.loads((args["run_dir"] / "krx_collection.json").read_text())
+    assert not report["accepted"] and report["failed_tickers"] == 20
+
+
+@pytest.mark.parametrize("bad_count,accepted", [(1, True), (2, False)])
+def test_five_percent_quarantine_boundary_preserves_history(tmp_path, monkeypatch, bad_count, accepted):
+    tickers = tuple(f"{i:06d}" for i in range(1, 21))
+    args = setup(tmp_path, tickers)
+    original = args["prices_path"].read_bytes()
+    before = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+    bad = set(tickers[:bad_count])
+    calls = []
+    def fetch(ticker, start, end, **kwargs):
+        assert kwargs["attempts"] == 1
+        calls.append(ticker)
+        frame = quotes(ticker, ["2026-08-05", "2026-09-04"])
+        if ticker in bad:
+            frame.loc[1, "open"] = 0  # Same partial OHL failure as the incident.
+        return frame
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    if accepted:
+        result = inc.refresh_ranges(**args)
+        assert result.excluded_tickers == tuple(sorted(bad))
+        assert result.failed_count == bad_count
+        after = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+        pd.testing.assert_frame_equal(before[before.ticker.isin(bad)].reset_index(drop=True),
+                                      after[after.ticker.isin(bad)].reset_index(drop=True))
+        assert set(after.loc[after.date.eq("2026-09-04"), "ticker"]) == set(tickers) - bad
+    else:
+        with pytest.raises(RuntimeError, match="coverage"):
+            inc.refresh_ranges(**args)
+        assert args["prices_path"].read_bytes() == original
+    assert all(calls.count(t) == (2 if t in bad else 1) for t in tickers)
+    report = json.loads((args["run_dir"] / "krx_collection.json").read_text())
+    assert report["accepted"] == accepted
+    assert report["quarantined_tickers"] == sorted(bad)
+    assert report["missing_active_fraction"] == bad_count / 20
+
+
+def test_second_valid_response_recovers_without_quarantine(tmp_path, monkeypatch):
+    args = setup(tmp_path)
+    calls = []
+    def fetch(ticker, *a, **k):
+        calls.append(ticker)
+        frame = quotes(ticker, ["2026-08-05", "2026-09-04"])
+        if ticker == "000001" and calls.count(ticker) == 1:
+            frame.loc[1, "open"] = 0
+        return frame
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    result = inc.refresh_ranges(**args)
+    assert calls == ["000001", "000001", "000002"]
+    assert not result.excluded_tickers and result.failed_count == 0
+
+
+def test_consecutive_isolated_failures_do_not_abort_other_tickers(tmp_path, monkeypatch):
+    tickers = tuple(f"{i:06d}" for i in range(1, 201))
+    args = setup(tmp_path, tickers)
+    bad = set(tickers[:8])
+    def fetch(ticker, *a, **k):
+        if ticker in bad:
+            raise ValueError("Invalid traded OHL")
+        return quotes(ticker, ["2026-08-05", "2026-09-04"])
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    result = inc.refresh_ranges(**args)
+    assert result.failed_count == 8 and result.asof == "20260904"
+
+
+def test_repeated_failures_do_not_shrink_active_denominator(tmp_path, monkeypatch):
+    tickers = tuple(f"{i:06d}" for i in range(1, 21))
+    args = setup(tmp_path, tickers)
+    before = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+    # One ticker was missed yesterday, but was active the session before it.
+    before.loc[before.ticker.eq(tickers[0]), "date"] = "2026-08-04"
+    before.to_csv(args["prices_path"], index=False)
+    original = args["prices_path"].read_bytes()
+    def fetch(ticker, *a, **k):
+        if ticker in tickers[:2]:
+            raise ValueError("Provider missing")
+        return quotes(ticker, ["2026-08-05", "2026-09-04"])
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    with pytest.raises(RuntimeError, match="coverage"):
+        inc.refresh_ranges(**args)
+    assert args["prices_path"].read_bytes() == original
+
+
+def test_incomplete_rebase_retries_fresh_and_keeps_bad_ticker_history(tmp_path, monkeypatch):
+    tickers = tuple(f"{i:06d}" for i in range(1, 21))
+    args = setup(tmp_path, tickers)
+    before = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+    pd.concat([before, quotes(tickers[0], ["2021-06-01"])]).to_csv(args["prices_path"], index=False)
+    calls = []
+    def fetch(ticker, start, end, **k):
+        calls.append((ticker, start))
+        return quotes(ticker, ["2026-08-05", "2026-09-04"], price=50 if ticker == tickers[0] else 100)
+    monkeypatch.setattr(inc, "fetch_krx_ohlcv_bounded", fetch)
+    result = inc.refresh_ranges(**args)
+    assert result.excluded_tickers == (tickers[0],)
+    assert calls.count((tickers[0], "20210601")) == 2
+    after = pd.read_csv(args["prices_path"], dtype={"ticker": str})
+    assert after.loc[after.ticker.eq(tickers[0]), "adjusted_close"].eq(100).all()
 
 
 def test_budget_stops_before_next_request(tmp_path, monkeypatch):
