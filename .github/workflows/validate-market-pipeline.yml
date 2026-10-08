@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: requirements-live.txt
       - run: python -m pip install -r requirements-live.txt pytest 'pytest-socket==0.7.0'
       - name: Verify coverage, corporate-action isolation, and dated model diagnostics
-        run: python -m pytest -q --disable-socket tests/test_krx_incremental.py tests/test_us_incremental.py tests/test_monthly_ews.py tests/test_replay_checkout.py
+        run: python -m pytest -q --disable-socket tests/test_krx_incremental.py tests/test_us_incremental.py tests/test_monthly_ews.py tests/test_model_health_metrics.py tests/test_replay_checkout.py
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
