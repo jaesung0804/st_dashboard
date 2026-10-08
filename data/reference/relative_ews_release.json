@@ -1,9 +1,11 @@
 {
-  "snapshot_name": "asymmetric-ews-37749609497-1",
-  "snapshot_id": "048c3f850e94474c96cace38d31515c0",
-  "report_sha256": "150aec8814b816b88aadad2dc4ea738f4d4c8183149cfb3bec5c8c38327f9e5d",
+  "snapshot_name": "investment-metrics-37753917656-1",
+  "snapshot_id": "83fa4314fc0b49a7a62d51d1e3db6090",
+  "report_sha256": "c8da0d7df8c9a80421bfcc8ab11bfb5b362c73b71dc040ed707419ff05c18092",
   "experiment_code_commit": "162f49b293ba1e2413080eb59bd7e0ea52424196",
   "signal_date": "2026-10-07",
   "workflow_run": "https://github.com/jaesung0804/st_dashboard/actions/runs/37749609497",
-  "release_mode": "dated_experiment_not_daily_inference"
+  "release_mode": "dated_experiment_not_daily_inference",
+  "metrics_code_commit": "3c25040291b26a2f7064777d916c3d1d39860aba",
+  "metrics_workflow_run": "https://github.com/jaesung0804/st_dashboard/actions/runs/37753917656"
 }
