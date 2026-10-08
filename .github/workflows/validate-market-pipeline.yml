@@ -1,10 +1,10 @@
 name: Validate market pipeline
 on:
   pull_request:
-    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/relative_ews.py', 'src/ai_stock_assistant/asymmetric_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/run_relative_ews_research.py', 'scripts/run_asymmetric_ews_research.py', 'scripts/export_investment_experiment.py', 'data/reference/relative_ews_release.json', 'scripts/build_investment_preview.py', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
+    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/relative_ews.py', 'src/ai_stock_assistant/asymmetric_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/run_relative_ews_research.py', 'scripts/run_asymmetric_ews_research.py', 'scripts/export_investment_experiment.py', 'data/reference/relative_ews_release.json', 'scripts/build_investment_preview.py', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/ensure_pages_build.cjs', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
   push:
     branches: [main, 'codex/**']
-    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/relative_ews.py', 'src/ai_stock_assistant/asymmetric_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/run_relative_ews_research.py', 'scripts/run_asymmetric_ews_research.py', 'scripts/export_investment_experiment.py', 'data/reference/relative_ews_release.json', 'scripts/build_investment_preview.py', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
+    paths: ['src/ai_stock_assistant/monthly_ews.py', 'src/ai_stock_assistant/relative_ews.py', 'src/ai_stock_assistant/asymmetric_ews.py', 'src/ai_stock_assistant/data/**', 'scripts/run_relative_ews_research.py', 'scripts/run_asymmetric_ews_research.py', 'scripts/export_investment_experiment.py', 'data/reference/relative_ews_release.json', 'scripts/build_investment_preview.py', 'scripts/refresh_dashboard_pipeline.py', 'scripts/build_pages_deploy.py', 'scripts/ensure_pages_build.cjs', 'scripts/build_price_context.py', 'scripts/dashboard_web/**', 'scripts/simulation_web/**', '.gitattributes', 'tests/**', '.github/workflows/**']
 permissions:
   contents: read
 jobs:
@@ -32,5 +32,6 @@ jobs:
       - name: Verify explorer state, frozen forecasts, and generated UI assets
         run: |
           node tests/test_dashboard_ui.cjs
+          node tests/test_pages_build.cjs
           node --check scripts/dashboard_web/investment.js
           python -m pytest -q --disable-socket tests/test_build_pages_deploy.py tests/test_price_context.py
