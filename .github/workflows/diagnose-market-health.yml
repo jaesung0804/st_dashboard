@@ -2,6 +2,11 @@ name: Diagnose market health
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: Read-only diagnostic mode
+        type: choice
+        options: [model, investment-inputs]
+        default: model
       market:
         type: choice
         options: [kr, us]
@@ -45,4 +50,13 @@ jobs:
       - name: Install production numerical packages
         run: python -m pip install -r requirements-live.txt
       - name: Reproduce frozen calibration and inspect optional collection artifact
+        if: inputs.mode != 'investment-inputs'
         run: python scripts/diagnose_market_health.py --market "$DIAG_MARKET" --month "$DIAG_MONTH" --artifact "$DIAG_ARTIFACT"
+      - name: Inspect existing financial and FX input availability
+        if: inputs.mode == 'investment-inputs'
+        run: python scripts/inspect_investment_inputs.py
+      - uses: actions/upload-artifact@v4
+        if: inputs.mode == 'investment-inputs'
+        with:
+          name: investment-input-inventory
+          path: .research-backend/artifacts/investment-input-inventory/report.json
