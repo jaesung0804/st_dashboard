@@ -1,7 +1,7 @@
 """Bounded, resumable KRX collection: one period request per restored ticker.
 
-Checkpoints are expendable caches, never authoritative dashboard state. A failed
-collection must not replace the canonical CSV or allow training/publication.
+Checkpoints are expendable caches, never authoritative dashboard state. Isolated
+failures retain their history; only a sufficiently covered market may commit.
 """
 from __future__ import annotations
 
@@ -85,20 +85,24 @@ def _json_bytes(value: object) -> bytes:
     return json.dumps(value, sort_keys=True, separators=(",", ":"), allow_nan=False).encode("utf-8")
 
 
-def _period(ticker: str, start: str, end: str, cache: Path, before_request) -> tuple[pd.DataFrame, bool]:
+def _period(ticker: str, start: str, end: str, cache: Path, before_request,
+            *, use_cache: bool = True) -> tuple[pd.DataFrame, bool]:
     key = {"version": VERSION, "ticker": ticker, "start": start, "end": end}
     path = cache / (hashlib.sha256(_json_bytes(key)).hexdigest() + ".json.gz")
     try:
         entry = json.loads(gzip.decompress(path.read_bytes()))
         body = entry["body"]
         age = time.time() - body["fetched_at"]
-        if (body["query"] == key and 0 <= age < 36 * 3600
+        if (use_cache and body["query"] == key and 0 <= age < 36 * 3600
                 and entry["sha256"] == hashlib.sha256(_json_bytes(body)).hexdigest()):
             frame = pd.DataFrame(body["rows"], columns=PRICE_SCHEMA)
             return _validate(frame, ticker, start, end), True
     except (OSError, EOFError, ValueError, KeyError, TypeError):
         pass  # Corrupt or old caches are re-fetched, never trusted as prices.
-    frame = _validate(fetch_krx_ohlcv_bounded(ticker, start, end, before_request=before_request), ticker, start, end)
+    # The collector owns the two attempts, including validation failures.
+    # Do not multiply them by the HTTP client's own retry loop.
+    frame = _validate(fetch_krx_ohlcv_bounded(ticker, start, end, before_request=before_request,
+                                           attempts=1), ticker, start, end)
     body = {"query": key, "fetched_at": time.time(), "rows": frame.values.tolist()}
     payload = _json_bytes({"body": body, "sha256": hashlib.sha256(_json_bytes(body)).hexdigest()})
     _atomic_bytes(path, gzip.compress(payload, mtime=0))
@@ -154,6 +158,11 @@ def refresh_ranges(
         raise ValueError("Restored prices have duplicate keys; refusing a lossy merge")
     history = existing.loc[existing["date"] <= requested.strftime("%Y-%m-%d")]
     histories = {ticker: group for ticker, group in history.groupby("ticker", sort=False)}
+    sessions = sorted(history.date.unique())
+    recent_floor = (pd.Timestamp(sessions[-1]) - pd.Timedelta(days=45)).strftime("%Y-%m-%d") if sessions else ""
+    recent = history.loc[history.date.isin(sessions[-21:]) & history.date.ge(recent_floor) & history.volume.gt(0)]
+    # Yesterday's failures must not disappear from today's coverage denominator.
+    active = (set(recent.ticker) & set(tickers)) or set(tickers)
     ends = history.groupby("ticker")["date"].max()
     starts = {
         ticker: (pd.Timestamp(ends[ticker]) - pd.Timedelta(days=overlap_days)).strftime("%Y%m%d")
@@ -166,9 +175,14 @@ def refresh_ranges(
           f"overlap={overlap_days}d, budget={max_seconds:.0f}s", flush=True)
     budget = RequestBudget(max_seconds, request_interval)
 
-    def collect(ticker):
+    attempts = {}
+
+    def collect_once(ticker, use_cache):
         budget.check()
-        frame, cached = _period(ticker, starts[ticker], end, checkpoint_dir, budget.before_request)
+        frame, cached = _period(ticker, starts[ticker], end, checkpoint_dir, budget.before_request,
+                                use_cache=use_cache)
+        if frame.empty:
+            raise ValueError("No provider observations; history retained")
         status = "cached" if cached else "updated"
         old = histories.get(ticker)
         if old is not None and not frame.empty:
@@ -179,15 +193,25 @@ def refresh_ranges(
                     # A split/rebase must not splice newly adjusted quotes onto
                     # an old-scale history. Re-read the original retained range.
                     full_start = old["date"].min().replace("-", "")
-                    frame, cached = _period(ticker, full_start, end, checkpoint_dir, budget.before_request)
+                    frame, cached = _period(ticker, full_start, end, checkpoint_dir, budget.before_request,
+                                            use_cache=use_cache)
                     if not set(old["date"]).issubset(set(frame["date"])):
                         raise ValueError("Adjusted prices changed but provider did not return the full retained history")
                     status = "rebase_cached" if cached else "rebase_updated"
         return frame, status
 
+    def collect(ticker):
+        for attempt in range(1, 3):
+            budget.check()
+            attempts[ticker] = attempt
+            try:
+                return collect_once(ticker, use_cache=attempt == 1)
+            except Exception:
+                if attempt == 2:
+                    raise
+
     frames, rows = [], []
     iterator = iter(tickers)
-    consecutive_failures = 0
     fatal = None
     pool = ThreadPoolExecutor(max_workers=workers)
     pending = {}
@@ -205,7 +229,6 @@ def refresh_ranges(
                     frame, status = future.result()
                     if not frame.empty:
                         frames.append(frame)
-                    consecutive_failures = 0
                     missing_ohl = frame[["open", "high", "low"]].eq(0).all(axis=1)
                     rows.append({"ticker": ticker, "status": status if not frame.empty else "empty",
                                  "rows": len(frame), "latest_date": frame["date"].max() if len(frame) else "",
@@ -213,7 +236,6 @@ def refresh_ranges(
                                  "missing_ohl_with_volume": int((missing_ohl & frame["volume"].gt(0)).sum()),
                                  "error": ""})
                 except Exception as exc:
-                    consecutive_failures += 1
                     rows.append({"ticker": ticker, "status": "failed", "rows": 0, "latest_date": "",
                                  "missing_ohl_rows": 0, "missing_ohl_with_volume": 0,
                                  "error": f"{type(exc).__name__}: {str(exc).splitlines()[0]}"})
@@ -223,8 +245,8 @@ def refresh_ranges(
                     if rows[-1]["missing_ohl_with_volume"]:
                         detail += f" (missing OHL with volume: {rows[-1]['missing_ohl_with_volume']}; raw values retained)"
                     print(f"[KRX range {len(rows)}/{len(tickers)}] {ticker} {rows[-1]['status']}{detail}", flush=True)
-                if consecutive_failures >= 8:
-                    raise RuntimeError("Eight consecutive provider failures; stopping requests and retaining checkpoints")
+                # Examine the final market totals, not the position of failures
+                # in ticker order. A run budget still bounds provider outages.
                 ticker = next(iterator, None)
                 if ticker is not None:
                     pending[pool.submit(collect, ticker)] = ticker
@@ -236,37 +258,45 @@ def refresh_ranges(
             future.cancel()
         pool.shutdown(wait=True, cancel_futures=True)
     summary_path = run_dir / "krx_daily_data_refresh_summary.csv"
+    for row in rows:
+        row["attempts"] = attempts.get(row["ticker"], 0)
     _atomic_csv(summary_path, pd.DataFrame(rows))
     failed = sum(row["status"] == "failed" for row in rows)
-    if fatal is not None or failed or len(rows) != len(tickers):
-        raise RuntimeError(f"KRX collection incomplete ({len(rows)}/{len(tickers)}, {failed} failed). "
-                           f"Canonical prices unchanged; retry reuses {checkpoint_dir}. {fatal or ''}") from fatal
     update = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=PRICE_SCHEMA)
     latest = pd.to_datetime(update["date"]).max()
-    if pd.isna(latest) or requested - latest > pd.Timedelta(days=7):
-        raise ValueError(f"KRX provider prices stale at {latest}; canonical prices unchanged")
     # Check coverage on the provider's latest completed session. Weekends and
     # holidays need not equal requested_asof, but a lone fresh ticker isn't enough.
-    last_existing = history["date"].max()
-    active = set(history.loc[(history["date"] == last_existing) & (history["volume"] > 0), "ticker"]) & set(tickers)
-    active = active or set(tickers)
-    observed = set(update.loc[update["date"].eq(latest.strftime("%Y-%m-%d")), "ticker"])
+    observed = set(update.loc[update["date"].eq(latest.strftime("%Y-%m-%d")), "ticker"]) if pd.notna(latest) else set()
     coverage = len(active & observed) / len(active)
-    if coverage < minimum_coverage:
-        raise ValueError(f"KRX latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}; canonical prices unchanged")
+    reason = str(fatal) if fatal else ""
+    if not reason and len(rows) != len(tickers):
+        reason = f"KRX collection incomplete ({len(rows)}/{len(tickers)})"
+    if not reason and (pd.isna(latest) or requested - latest > pd.Timedelta(days=7)):
+        reason = f"KRX provider prices empty or stale at {latest}"
+    if not reason and coverage < minimum_coverage:
+        reason = f"KRX latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}"
     combined = pd.concat([existing, update], ignore_index=True)
     combined = combined.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"]).reset_index(drop=True)
     report = {"version": VERSION, "collected_at": datetime.now(timezone.utc).isoformat(),
-              "requested_asof": end, "latest": latest.strftime("%Y-%m-%d"),
+              "requested_asof": end, "latest": latest.strftime("%Y-%m-%d") if pd.notna(latest) else None,
               "requested_tickers": len(tickers), "updated_rows": len(update), "failed_tickers": failed,
+              "quarantined_tickers": sorted(row["ticker"] for row in rows if row["status"] == "failed"),
+              "active_tickers": len(active), "missing_active_tickers": sorted(active - observed),
+              "missing_active_fraction": len(active - observed) / len(active),
+              "maximum_missing_fraction": 1 - minimum_coverage, "attempt_limit": 2,
+              "accepted": not bool(reason), "error": reason,
               "missing_ohl_rows": sum(row["missing_ohl_rows"] for row in rows),
               "missing_ohl_with_volume": sum(row["missing_ohl_with_volume"] for row in rows),
               "latest_session_coverage": coverage, "restored_rows": len(existing), "merged_rows": len(combined),
               "listings_source": str(listings_path), "universe_refreshed": False}
     _atomic_bytes(run_dir / "krx_collection.json", _json_bytes(report))
+    if reason:
+        raise RuntimeError(f"{reason}; Canonical prices unchanged; {failed} tickers failed after retry") from fatal
     _atomic_csv(output_path, combined)
     print(f"KRX collection committed atomically: latest={report['latest']}, coverage={coverage:.1%}, "
+          f"missing_active={len(active - observed)}/{len(active)}, quarantined={failed}, "
           f"rows={len(existing)} -> {len(combined)}", flush=True)
     return DailyRefreshResult(asof=latest.strftime("%Y%m%d"), listings_path=listings_path,
                               price_dir=output_path.parent, combined_prices_path=output_path,
-                              summary_path=summary_path, updated_count=len(update), failed_count=failed)
+                              summary_path=summary_path, updated_count=len(update), failed_count=failed,
+                              excluded_tickers=tuple(sorted(set(tickers) - observed)))

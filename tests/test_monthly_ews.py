@@ -89,7 +89,32 @@ def test_daily_rerun_returns_archive_even_if_prices_are_revised_or_model_missing
     path = tmp_path / "price.csv"
     frame.to_csv(path, index=False)
     saved = freeze_prediction(tmp_path, "us", signal, [{"upProb": .2}], {"model": "frozen"})
-    assert infer_latest(path, tmp_path / "missing-listings", "us", tmp_path, research=True) == saved
+    assert infer_latest(path, tmp_path / "missing-listings", "us", tmp_path, research=True,
+                        excluded_tickers=("TEST0",)) == saved
+
+
+def test_quarantined_current_quote_cannot_generate_a_new_prediction(tmp_path, monkeypatch):
+    from ai_stock_assistant import monthly_ews as ews
+    frame = prices(n=320, tickers=2)
+    signal = str(frame.date.max().date())
+    path, listing = tmp_path / "prices.csv", tmp_path / "listings.csv"
+    frame.to_csv(path, index=False)
+    pd.DataFrame({"ticker": ["TEST0", "TEST1"]}).to_csv(listing, index=False)
+    before = path.read_bytes()
+    class Booster:
+        def predict(self, panel, **kwargs):
+            return np.zeros((len(panel), len(FEATURES) + 1))
+    card = {"id": "test-model", "month": signal[:7], "market": "us", "research": True,
+            "cutoff": "2022-12-31", "created_at": signal,
+            "heads": {"down": {"linear": {}}}}
+    monkeypatch.setattr(ews, "load_month", lambda path: (card, {"down": Booster()}))
+    monkeypatch.setattr(ews, "predict_panel", lambda panel, *a: {"up": np.full(len(panel), .3), "down": np.full(len(panel), .1)})
+    monkeypatch.setattr(ews, "probabilities", lambda booster, linear, panel: np.full(len(panel), .1))
+    saved = infer_latest(path, listing, "us", tmp_path, research=True, excluded_tickers=("TEST0",))
+    rows = json.loads((saved / "rows.json").read_text())
+    assert [row["ticker"] for row in rows] == ["TEST1"]
+    assert json.loads((saved / "meta.json").read_text())["excluded_tickers"] == ["TEST0"]
+    assert path.read_bytes() == before
 
 
 def test_missing_model_fails_without_training(tmp_path):

@@ -10,6 +10,10 @@ on:
     # Regular NYSE/Nasdaq open 09:30 ET. IANA timezone handles DST.
     - cron: "30 6 * * 1-5"
       timezone: America/New_York
+    # After the 16:00 close and the collector's one-hour settlement buffer.
+    # The morning run remains a retry opportunity for delayed provider data.
+    - cron: "30 17 * * 1-5"
+      timezone: America/New_York
 permissions:
   contents: write
   actions: read

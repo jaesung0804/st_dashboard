@@ -43,7 +43,8 @@ def main() -> None:
         if result.listings_path.resolve() != listing.resolve():
             shutil.copy2(result.listings_path, listing)
         if not args.collect_only:
-            infer_latest(price, listing, market, state, asof=args.asof)
+            infer_latest(price, listing, market, state, asof=args.asof,
+                         excluded_tickers=result.excluded_tickers)
     if args.collect_only:
         return
     # Both archives are restored even for a one-market refresh.

@@ -5,7 +5,7 @@
 한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
 
 - `Monthly Training`이 이전 달까지의 자료로 상승 기회·급락 위험 모델을 저장합니다. 같은 월의 재실행은 이미 저장된 모델을 유지합니다.
-- `Daily Refresh KR`은 한국 시각 06:00, `Daily Refresh US`는 뉴욕 시각 06:30에 각각 실행합니다. 저장된 모델로 새 신호일만 추론하며 이전 예측은 보존합니다.
+- `Daily Refresh KR`은 한국 시각 06:00, `Daily Refresh US`는 뉴욕 시각 17:30(장 마감 후)과 06:30(개장 전 재확인)에 실행합니다. 저장된 모델로 새 신호일만 추론하며 이전 예측은 보존합니다.
 - 가격·거래량·시장 폭을 쓰는 작은 LightGBM과 로지스틱 회귀를 결합합니다. 날짜가 확실하지 않은 재무·거시 자료는 운영 입력에서 제외합니다.
 - 상태 저장에 성공한 뒤 정적 HTML/JSON만 GitHub Pages에 공개합니다.
 
@@ -67,7 +67,9 @@ Combine annual and quarterly financial files:
 
 ## Daily Refresh
 
-The independent `daily-refresh-kr.yml` and `daily-refresh-us.yml` workflows start three hours before each regular market open on weekdays: 06:00 Asia/Seoul and 06:30 America/New_York. The US timezone automatically follows daylight saving time. GitHub scheduling can be delayed; special opening times are not calendar-adjusted.
+The independent `daily-refresh-kr.yml` and `daily-refresh-us.yml` workflows are scheduled on weekdays at 06:00 Asia/Seoul and 06:30 America/New_York. US collection also runs at 17:30 America/New_York, after the regular close and provider-settlement buffer. This makes the completed session available without waiting until the next pre-open run. The US timezone automatically follows daylight saving time. GitHub scheduling can be delayed; special opening times are not calendar-adjusted.
+
+Each market retries failed price requests/validation once before recording unavailable tickers. Corporate-action reconciliation may require a separate full-history request, also bounded to two attempts. The final decision requires observations for at least 95% of the recently active universe (the previous 21 observed sessions, bounded to 45 calendar days); yesterday's missing ticker remains in that denominator. Invalid or unavailable ticker updates retain their old history and are excluded from new inference, without fabricating null/zero price bars. Reports retain attempts, reasons, missing ticker counts and the final coverage decision. More than 5% missing, stale market data or an exhausted run budget prevents canonical replacement. Existing frozen predictions remain unchanged.
 
 `daily-refresh.yml` remains a manual dispatcher (`all`, `kr`, or `us`) and recovery entry point:
 

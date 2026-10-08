@@ -73,6 +73,47 @@ def test_retry_only_missing_active_tickers(tmp_path, monkeypatch):
     assert result.updated_count == 2 and result.failed_count == 0
 
 
+@pytest.mark.parametrize("bad_count,accepted", [(1, True), (2, False)])
+def test_invalid_tickers_retried_twice_then_final_five_percent_check(tmp_path, monkeypatch, bad_count, accepted):
+    tickers = [f"T{i:02}" for i in range(20)]
+    args = setup(tmp_path, monkeypatch, tickers=tickers)
+    before = args["prices_path"].read_bytes()
+    calls = []
+    bad = set(tickers[:bad_count])
+    def fetch(requested, **kwargs):
+        calls.extend(requested)
+        frames = {t: quotes(t, ["2026-09-03", "2026-09-04"]) for t in requested}
+        for ticker in bad & set(requested):
+            frames[ticker].loc[1, "high"] = 1
+        return frames
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    if accepted:
+        result = refresh.refresh_us_daily_data(**args)
+        assert result.excluded_tickers == tuple(sorted(bad))
+        merged = pd.read_csv(args["prices_path"])
+        assert set(merged.loc[merged.ticker.isin(bad), "date"]) == {"2026-09-03"}
+    else:
+        with pytest.raises(RuntimeError, match="coverage"):
+            refresh.refresh_us_daily_data(**args)
+        assert args["prices_path"].read_bytes() == before
+    assert all(calls.count(t) == (2 if t in bad else 1) for t in tickers)
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["accepted"] == accepted
+    assert report["missing_active_fraction"] == bad_count / 20
+    assert report["missing_active_tickers"] == sorted(bad)
+
+
+def test_incomplete_overlap_retries_before_quarantining(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",))
+    calls = []
+    def fetch(tickers, **kwargs):
+        calls.append(tickers)
+        return {"AAA": quotes("AAA", ["2026-09-04"] if len(calls) == 1 else ["2026-09-03", "2026-09-04"])}
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    result = refresh.refresh_us_daily_data(**args)
+    assert calls == [["AAA"], ["AAA"]] and not result.excluded_tickers
+
+
 @pytest.mark.parametrize("asof", ["20260905", "20260906", "20260907"])
 def test_weekend_and_labor_day_reuse_observed_friday_without_fabrication(tmp_path, monkeypatch, asof):
     args = setup(tmp_path, monkeypatch, dates=("2026-09-04",))
@@ -178,8 +219,10 @@ def test_changed_adjustment_uses_complete_full_history(tmp_path, monkeypatch):
 def test_incomplete_rebase_is_quarantined_when_market_coverage_is_safe(tmp_path, monkeypatch):
     tickers = ["AAA", *[f"T{i:02}" for i in range(19)]]
     args = setup(tmp_path, monkeypatch, tickers=tickers, dates=("2021-06-01", "2026-09-03"))
+    full_calls = []
     def fetch(requested, start, end):
         if start == "20210601":
+            full_calls.append(requested)
             return {"AAA": quotes("AAA", ["2026-09-03", "2026-09-04"], 50)}
         return {ticker: quotes(ticker, ["2026-09-03", "2026-09-04"], 50 if ticker == "AAA" else 100)
                 for ticker in requested}
@@ -196,6 +239,7 @@ def test_incomplete_rebase_is_quarantined_when_market_coverage_is_safe(tmp_path,
     report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
     assert report["accepted"] and report["latest_session_coverage"] == .95
     assert report["quarantined_rebase_tickers"] == ["AAA"]
+    assert full_calls == [["AAA"], ["AAA"]]
     summary = pd.read_csv(tmp_path / "daily/20260904/us_daily_data_refresh_summary.csv")
     assert summary.loc[summary.ticker.eq("AAA"), "status"].item() == "rebase_quarantined"
 
