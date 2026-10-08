@@ -51,7 +51,7 @@ const EWS = (() => {
     const normalize = s => String(s || '').toLocaleLowerCase().replace(/\s+/g, '');
     const q = normalize(query);
     const result = rows.filter(row => {
-      if (q) return normalize(row.ticker).includes(q) || normalize(row.name).includes(q) || normalize(row._quote?.name).includes(q);
+      if (q && ![row.ticker, row.name, row._quote?.name].some(value => normalize(value).includes(q))) return false;
       if (mode === 'scored') return isScored(row);
       if (mode === 'final') return isScored(row) && Boolean(row.isFinalCandidate);
       if (mode === 'up') return isScored(row) && Boolean(row.isUpCandidate);
@@ -85,12 +85,40 @@ const EWS = (() => {
     const suffix = {NASDAQ:'.O',NYSE:'.N',NYSEAMERICAN:'.A',NYSEARCA:'.P'};
     return row.currency === 'USD' ? `https://m.stock.naver.com/worldstock/stock/${encodeURIComponent(ticker + (suffix[String(row.exchange || '').toUpperCase()] || '.O'))}/total` : `https://m.stock.naver.com/domestic/stock/${encodeURIComponent(ticker.padStart(6, '0'))}/total`;
   }
-  function stockHref(ticker, date) { return `stock.html?ticker=${encodeURIComponent(ticker)}&date=${encodeURIComponent(date)}`; }
+  function viewState(search = '') {
+    const p = new URLSearchParams(search);
+    const choice = (key, values, fallback) => values.includes(p.get(key)) ? p.get(key) : fallback;
+    return {q:(p.get('q') || '').slice(0,100), mode:choice('mode',['all','scored','final','up','down'],'all'),
+      sort:choice('sort',['upScore','downRisk','trailingReturn6mPct','name','ticker','closeRaw'],'upScore'),
+      ascending:p.get('asc') === '1', size:Number(choice('size',['10','25','50','100'],'25')),
+      page:Math.min(10000, Math.max(1, Math.floor(Number(p.get('page')) || 1))),
+      date:/^\d{4}-\d{2}-\d{2}$/.test(p.get('date') || '') ? p.get('date') : ''};
+  }
+  function viewQuery(state) {
+    return new URLSearchParams({date:state.date || '', q:state.q || '', mode:state.mode || 'all', sort:state.sort || 'upScore', asc:state.ascending ? '1' : '0', size:String(state.size || 25), page:String(state.page || 1)}).toString();
+  }
+  function dashboardHref(search = '', date = '') {
+    const state = viewState(search);
+    if (/^\d{4}-\d{2}-\d{2}$/.test(date)) state.date = date;
+    return `dashboard.html?${viewQuery(state)}`;
+  }
+  function stockHref(ticker, date, view = '') {
+    return `stock.html?${new URLSearchParams({ticker, date, view:viewQuery(viewState(view))})}`;
+  }
+  const dateText = date => /^\d{4}-\d{2}-\d{2}$/.test(date || '') ? date.replaceAll('-', '.') : '기준일 없음';
+  function freshness(date, now = new Date()) {
+    const stamp = Date.parse(`${date}T00:00:00Z`);
+    if (!Number.isFinite(stamp)) return {label:'기준일 확인 필요', description:'저장된 신호일을 확인할 수 없습니다.', stale:true};
+    const today = Date.parse(now.toISOString().slice(0,10) + 'T00:00:00Z');
+    const days = Math.max(0, Math.floor((today - stamp) / 86400000));
+    return {label:days === 0 ? '오늘 날짜 신호' : `${days}일 전 신호`, stale:days > 7,
+      description:days > 7 ? '최근 신호가 7일 넘게 갱신되지 않았습니다. 수집 기록을 확인해 주세요.' : '신호 기준일을 확인하세요. 휴장일과 시장별 수집 시각에 따라 차이가 있습니다.'};
+  }
   function record(row) {
     if (row._quoteOnly) return '선택일의 모델 평가가 없습니다. 시세 자료는 보관된 최신 목록에서 조회합니다.';
     if (!row.modelVersion) return '기존 모델의 순위 기록입니다. 새 사건 확률과 직접 비교할 수 없습니다.';
     const kind = {live:'저장된 일별 추론', delayed:'지연 생성 · 당시 실시간 예측 아님', research:'연구용 재현', reconstructed:'사후 복원 · 당시 실시간 예측 아님'}[row.predictionKind] || '생성 유형 미확인';
     return `${esc(row.modelMonth)} 모델 · ${kind}<br>학습 자료 기준일 ${esc(row.trainingCutoff)} · 생성 ${esc(row.generatedAt)}<br>모델 ${esc(row.modelVersion)}`;
   }
-  return {esc, numeric, percent, number, price, riskUpper, isScored, candidate, score, returnText, mergedRows, selectRows, json, context, naver, stockHref, record};
+  return {esc, numeric, percent, number, price, riskUpper, isScored, candidate, score, returnText, mergedRows, selectRows, json, context, naver, stockHref, record, viewState, viewQuery, dashboardHref, dateText, freshness};
 })();

@@ -59,6 +59,14 @@ def test_pages_deploy_succeeds_when_only_kr_dashboard_exists(tmp_path: Path) -> 
         assert "dashboardTheme" in html
         assert "down_negative_model_comparison" not in html
         assert "모델 비교" not in html
+        assert "@@" not in html
+        assert 'class="main-nav"' in html
+
+    for asset in ['dashboard.css', 'common.js', 'home.js']:
+        assert (deploy_dir / asset).is_file(), asset
+    assert '최신화 실행' not in home
+    assert 'workflows/daily-refresh-kr.yml' in dashboard
+    assert 'id="backToResults"' in stock
 
 
 def test_pages_deploy_preserves_existing_missing_dashboard(tmp_path: Path) -> None:

@@ -2,8 +2,10 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>@@LABEL@@ 모델 설명·검증</title>@@THEME_HEAD@@
 <link rel="stylesheet" href="dashboard.css?v=@@BUILD@@"></head><body>
-<header><div class="header-inner"><div><a class="eyebrow" href="../index.html">ST DASHBOARD</a><h1>@@LABEL@@ 모델 설명·검증</h1></div><nav aria-label="대시보드 이동"><a href="dashboard.html">추천·검색</a><a href="@@OTHER_HREF@@">@@OTHER_LABEL@@ 시장</a><a href="@@ACTION_URL@@">배치 상태</a><button id="themeToggle" class="theme-toggle" aria-pressed="false" type="button">다크모드</button></nav></div></header>
-<main>
+@@HEADER@@
+<main id="main"><div class="section-nav"><a href="dashboard.html">종목 탐색</a><a href="model.html" aria-current="page">모델·검증</a><a class="external-link" href="@@ACTION_URL@@" target="_blank" rel="noopener">수집 기록 ↗</a></div>
+<div class="page-heading"><div><span class="eyebrow">MODEL & EVIDENCE</span><h1>@@LABEL@@ 모델·검증</h1><p>신호의 의미부터 과거 검증 결과까지, 판단의 근거를 확인하세요.</p></div></div>
+
 <section class="panel"><h2>추천의 근거와 검증을 한곳에서</h2><p>추천 화면은 고정된 운영 모델을 사용합니다. 강화한 상승 목표를 쓰는 가격 모델과 거시 추가 모델은 별도 실험으로 기록하며, 실험 결과가 운영 추천을 자동으로 바꾸지는 않습니다.</p><p id="reportStatus" class="footnote" role="status">검증 자료를 불러오는 중입니다.</p></section>
 <div class="model-tabs" role="tablist" aria-label="모델 정보"><button id="tab-guide" role="tab" aria-selected="true" aria-controls="pane-guide" data-pane="guide">사용법</button><button id="tab-comparison" role="tab" aria-selected="false" aria-controls="pane-comparison" data-pane="comparison" tabindex="-1">가격·거시 검증</button><button id="tab-shadow" role="tab" aria-selected="false" aria-controls="pane-shadow" data-pane="shadow" tabindex="-1">실험 종목 조회</button><button id="tab-accounting" role="tab" aria-selected="false" aria-controls="pane-accounting" data-pane="accounting" tabindex="-1">재무·확률 진단</button></div>
 <div id="pane-guide" role="tabpanel" aria-labelledby="tab-guide">

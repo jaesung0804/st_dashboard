@@ -1,31 +1,42 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
-  let manifest, rows = [], page = 1, ascending = false, request = 0;
+  let manifest, rows = [], page = 1, ascending = false, request = 0, mode = 'all', loading = true;
+  const state = () => ({date:$('date').value, q:$('query').value.trim(), mode, sort:$('sort').value, ascending, size:Number($('pageSize').value), page});
+  const saveState = () => history.replaceState(null, '', `?${EWS.viewQuery(state())}`);
+  function restoreState() {
+    const s = EWS.viewState(location.search);
+    $('date').value = manifest.dates.includes(s.date) ? s.date : manifest.dates[0];
+    $('query').value=s.q; mode=s.mode; $('sort').value=s.sort; ascending=s.ascending; $('pageSize').value=s.size; page=s.page;
+  }
   const labels = ['종목', '종가', '과거 6개월', '6개월 상승 기회', '3개월 급락 위험', '후보 판정'];
   function render() {
     const query = $('query').value.trim();
-    $('mode').disabled = Boolean(query);
-    const filtered = EWS.selectRows(rows, {query, mode:$('mode').value, sort:$('sort').value, ascending});
+    const filtered = EWS.selectRows(rows, {query, mode, sort:$('sort').value, ascending});
+    for (const button of document.querySelectorAll('[data-mode]')) button.setAttribute('aria-pressed', String(button.dataset.mode === mode));
+    $('clearQuery').disabled = !query;
+    if (loading) { saveState(); return; }
     const size = Number($('pageSize').value);
     const pages = Math.max(1, Math.ceil(filtered.length / size));
     page = Math.max(1, Math.min(page, pages));
     const start = (page - 1) * size, shown = filtered.slice(start, start + size), date = $('date').value;
-    $('meta').textContent = `${date} · ${EWS.number(filtered.length)}종목${query ? ' · 전체 종목에서 검색 중' : ''}${shown.length ? ` · ${EWS.number(start + 1)}–${EWS.number(start + shown.length)}번째 표시` : ''}`;
+    $('meta').textContent = `${EWS.number(filtered.length)}개 종목${query ? ` · “${query}” 검색` : ''}${shown.length ? ` · ${EWS.number(start + 1)}–${EWS.number(start + shown.length)} 표시` : ''}`;
     $('pageInfo').textContent = `${page} / ${pages}`;
     $('prev').disabled = page <= 1;
     $('next').disabled = page >= pages;
-    $('dir').textContent = ascending ? '낮은 순 ↑' : '높은 순 ↓';
+    $('dir').textContent = ['name','ticker'].includes($('sort').value) ? (ascending ? '이름순 ↑' : '역순 ↓') : (ascending ? '낮은 순 ↑' : '높은 순 ↓');
+    saveState();
+    const view = EWS.viewQuery(state());
     if (!shown.length) {
-      $('table').innerHTML = `<div class="empty"><h3>${query ? '검색한 종목을 찾지 못했습니다' : '이 조건을 통과한 종목이 없습니다'}</h3><p>${query ? '종목명이나 티커를 확인해 주세요. 보관 목록에 없는 종목에는 임의의 점수를 만들지 않습니다.' : '전체 종목에서 가격·확률·미충족 조건을 확인할 수 있습니다.'}</p><button id="showAll" type="button">전체 종목 보기</button></div>`;
-      $('showAll').onclick = () => {$('query').value=''; $('mode').value='all'; page=1; render();};
+      $('table').innerHTML = `<div class="empty"><h3>현재 조건에 맞는 종목이 없습니다</h3><p>${query ? '검색어와 선택한 분류를 함께 확인해 주세요. 전체 종목에서 다시 찾아볼 수 있습니다.' : '전체 종목에서 가격·확률·미충족 조건을 확인할 수 있습니다.'}</p><button id="showAll" type="button">전체 종목 보기</button></div>`;
+      $('showAll').onclick = () => {$('query').value=''; mode='all'; page=1; render();};
       return;
     }
     $('table').innerHTML = '<table><thead><tr>' + labels.map(t => `<th scope="col">${t}</th>`).join('') + '</tr></thead><tbody>' + shown.map(row => {
       const condition = EWS.candidate(row), quote = row._quote;
       const pastClass = EWS.numeric(quote?.trailingReturn6mPct) < 0 ? 'neg' : 'pos';
       const cells = [
-        `<div><a class="stock-name" href="${EWS.stockHref(row.ticker,date)}">${EWS.esc(row.name || row.ticker)}</a><span class="subtext">${EWS.esc(row.ticker)}${row.exchange ? ' · ' + EWS.esc(row.exchange) : ''}</span></div>`,
+        `<div><a class="stock-name" href="${EWS.esc(EWS.stockHref(row.ticker,date,view))}">${EWS.esc(row.name || row.ticker)}</a><span class="subtext">${EWS.esc(row.ticker)}${row.exchange ? ' · ' + EWS.esc(row.exchange) : ''}</span></div>`,
         `<div>${EWS.price(row)}${row._quoteOnly && quote?.quoteDate !== date ? `<span class="subtext">${EWS.esc(quote?.quoteDate || '시세 없음')}${quote?.quoteDate ? ' 보관 종가' : ''}</span>` : ''}</div>`,
         `<div><span class="${quote?.returnStatus === 'available' ? 'metric-number ' + pastClass : 'muted'}">${EWS.returnText(quote)}</span></div>`,
         `<div>${EWS.score(row, 'up')}</div>`, `<div>${EWS.score(row, 'down')}</div>`,
@@ -36,7 +47,15 @@
   }
   async function loadDate() {
     const id = ++request, date = $('date').value;
-    rows = []; page = 1;
+    rows = []; loading = true;
+    $('table').setAttribute('aria-busy', 'true');
+    for (const name of ['rowCount','upCount','finalCount','lookupCount']) $(name).textContent='—';
+    $('prev').disabled=true; $('next').disabled=true;
+    $('latestDate').hidden = date === manifest.latest;
+    const health = EWS.freshness(manifest.latest);
+    $('freshness').textContent = date === manifest.latest ? health.label : '과거 신호 조회';
+    $('freshness').classList.toggle('stale', health.stale);
+    $('freshnessNote').textContent = `최신 저장 신호 ${EWS.dateText(manifest.latest)} · ${date === manifest.latest ? health.description : '선택한 날짜의 저장된 평가입니다.'}`;
     $('table').innerHTML = '<div class="empty">선택일 자료를 불러오는 중입니다.</div>';
     try {
       const [forecasts, lookup] = await Promise.all([EWS.json(`walkforward_scores_by_date/${encodeURIComponent(date)}.json`), EWS.context(manifest,date)]);
@@ -50,12 +69,15 @@
       const legacy = !forecasts.some(r => r.modelVersion);
       labels[3] = legacy ? '기존 상승 순위' : '6개월 상승 기회';
       labels[4] = legacy ? '기존 하락 순위' : '3개월 급락 위험';
-      $('candidateNotice').textContent = legacy ? '이 날짜는 기존 모델의 순위 기록입니다. 새 모델의 확률과 직접 비교하지 마세요.' : `${final ? '관심 후보 ' + EWS.number(final) + '개' : '관심 후보 0개'} · 상승 조건 통과 ${EWS.number(up)}개 중 하락 추정 상단 15% 미만까지 통과한 결과입니다. 종목 검색은 후보 여부와 관계없이 작동합니다.`;
+      $('candidateNotice').textContent = legacy ? '이 날짜는 기존 모델의 순위 기록입니다. 새 모델의 확률과 직접 비교하지 마세요.' : `${final ? '관심 후보 ' + EWS.number(final) + '개' : '관심 후보 0개'} · 상승 조건 통과 ${EWS.number(up)}개 중 하락 추정 상단 15% 미만까지 통과한 결과입니다. 검색어와 선택한 분류 조건이 함께 적용됩니다.`;
       if (manifest.predictionKindsByDate?.[date] === 'reconstructed') $('candidateNotice').textContent = '사후 복원 자료입니다. 당시 실시간으로 생성된 예측이나 실전 성과가 아닙니다. ' + $('candidateNotice').textContent;
       if (manifest.marketName === '한국' && date.startsWith('2026-09')) $('candidateNotice').textContent += ' 이 월 모델은 상승 확률 보정 구간의 구분력이 낮습니다. 설명·검증 페이지의 확률 진단을 함께 확인하세요.';
+      loading = false;
+      $('table').setAttribute('aria-busy','false');
       render();
     } catch (error) {
       if (id !== request) return;
+      $('table').setAttribute('aria-busy','false');
       $('table').innerHTML = `<div class="empty">${EWS.esc(error.message)} <button id="retry" type="button">다시 불러오기</button></div>`;
       $('meta').textContent='선택일 결과를 불러오지 못했습니다.';
       $('retry').onclick=loadDate;
@@ -64,11 +86,14 @@
   async function init() {
     manifest = await EWS.json('manifest.json');
     for (const date of manifest.dates || []) $('date').add(new Option(date + (manifest.predictionKindsByDate?.[date] === 'reconstructed' ? ' · 사후 복원' : ''),date));
-    const params = new URLSearchParams(location.search);
-    if ((manifest.dates || []).includes(params.get('date'))) $('date').value=params.get('date');
-    $('query').value=params.get('q') || '';
-    $('date').onchange=loadDate;
-    for (const id of ['query','mode','sort','pageSize']) $(id).addEventListener(id==='query'?'input':'change',()=>{page=1;render();});
+    if (!manifest.dates?.length) throw new Error('공개된 신호일이 없습니다. 수집 기록을 확인해 주세요.');
+    restoreState();
+    $('date').onchange=()=>{page=1; saveState(); loadDate();};
+    $('latestDate').onclick=()=>{$('date').value=manifest.latest;page=1;saveState();loadDate();};
+    for (const id of ['query','sort','pageSize']) $(id).addEventListener(id==='query'?'input':'change',()=>{if(id==='sort')ascending=['name','ticker'].includes($('sort').value);page=1;render();});
+    for (const button of document.querySelectorAll('[data-mode]')) button.onclick=()=>{mode=button.dataset.mode;page=1;render();};
+    $('resetFilters').onclick=()=>{$('query').value='';mode='all';$('sort').value='upScore';ascending=false;page=1;render();};
+    window.addEventListener('popstate',()=>{restoreState();loadDate();});
     $('clearQuery').onclick=()=>{$('query').value='';page=1;render();$('query').focus();};
     $('dir').onclick=()=>{ascending=!ascending;render();};
     $('prev').onclick=()=>{page--;render();}; $('next').onclick=()=>{page++;render();};
