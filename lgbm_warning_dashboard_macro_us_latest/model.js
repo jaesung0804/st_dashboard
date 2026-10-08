@@ -4,7 +4,8 @@
   const decimal = value => Number.isFinite(numeric(value)) ? numeric(value).toFixed(3) : '자료 없음';
   const pct = value => Number.isFinite(numeric(value)) ? percent(numeric(value) * 100) : '자료 없음';
   const tabs = [...document.querySelectorAll('[role="tab"]')];
-  function activate(pane, focus=false) {
+  function activate(pane, focus=false, updateUrl=true) {
+    if (updateUrl) history.replaceState(null, '', `#${pane}`);
     for (const tab of tabs) {
       const selected = tab.dataset.pane === pane;
       tab.setAttribute('aria-selected', String(selected)); tab.tabIndex = selected ? 0 : -1;
@@ -23,9 +24,17 @@
       if (next !== undefined) { event.preventDefault(); activate(tabs[next].dataset.pane, true); }
     });
   });
-  if (location.hash === '#comparison') activate('comparison');
-  if (location.hash === '#shadow') activate('shadow');
-  if (location.hash === '#accounting') activate('accounting');
+  function restoreTab() {
+    const pane = location.hash.slice(1);
+    activate(['comparison','shadow','accounting'].includes(pane) ? pane : 'guide', false, false);
+    if (pane === 'score-guide') {
+      const guide = $('score-guide');
+      if (guide?.tagName === 'DETAILS') guide.open = true;
+      guide?.scrollIntoView();
+    }
+  }
+  restoreTab();
+  window.addEventListener('hashchange', restoreTab);
   const table = (headers, rows) => `<table><thead><tr>${headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(v=>`<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
   let report, stockNames=new Map(), page=0;
   function renderComparison() {

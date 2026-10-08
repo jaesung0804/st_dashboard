@@ -2,6 +2,8 @@
 (() => {
   const $ = id => document.getElementById(id), params = new URLSearchParams(location.search), ticker = params.get('ticker') || '';
   let manifest, history = [], historyWarning = '', request = 0;
+  const listView = params.get('view') || '';
+  $('backToResults').href = EWS.dashboardHref(listView, params.get('date') || '');
   function tickerFile(value) {
     let name=encodeURIComponent(value).replace(/[!'()*]/g,c=>'%'+c.charCodeAt(0).toString(16).toUpperCase());
     const stem=(name.includes('.') ? name.slice(0,name.lastIndexOf('.')) : name).toUpperCase();
@@ -31,10 +33,14 @@
       ['200일선 위 종목 비율', EWS.percent(e.breadth200), '이 종목만의 점수가 아닙니다. 가격 이력이 충분하고 거래가 있는 관측 종목들의 시장 폭입니다.']
     ].map(([label,value,explain])=>`<article><h3>${label}</h3><b>${value}</b><p>${explain}</p></article>`).join('')}</div><details><summary>하락 추정 범위와 위험 기여 보기</summary><p>보정 전후 추정 범위: <b>${(row.riskEstimateRange || []).map(v=>EWS.percent(v)).join(' – ') || '자료 없음'}</b>. 두 추정의 차이이며 신뢰구간이 아닙니다.</p><ul>${(row.riskFactors || []).map(f=>`<li>${EWS.esc(f.label)} · ${EWS.esc(f.direction)}</li>`).join('')}</ul><p class="muted">트리 모델 부분에서 기여가 큰 두 지표입니다. 인과관계나 혼합 모델 전체의 설명이 아닙니다.</p></details></section>` : '';
     $('content').innerHTML=cards+status+'<p class="notice">상승 기회는 사건의 추정 확률, 과거 수익률은 이미 관측한 가격 변화입니다. 앞으로 6개월의 평균 예상 수익률은 현재 모델이 계산하지 않습니다.</p>'+evidence+`<details><summary>모델·예측 생성 기록</summary><p class="record-meta">${EWS.record(row)}</p><p class="footnote">표시용 가격 변화는 보관 가격의 현재 정정 상태로 계산하며, 배당·수수료·실제 체결을 모두 반영한 투자 수익률이 아닙니다. 예측 원본의 확률은 그대로 유지합니다.</p></details>`;
-    $('history').innerHTML=historyWarning ? `<p class="notice warning">${EWS.esc(historyWarning)}</p>` : !history.length ? '<p class="muted">공개된 기간에 이 종목의 저장된 평가가 없습니다.</p>' : '<div class="history-table"><table><thead><tr><th scope="col">신호일</th><th scope="col">상승 기회 / 기존 순위</th><th scope="col">급락 위험 / 기존 순위</th><th scope="col">모델·기록 유형</th></tr></thead><tbody>'+history.slice().reverse().map(r=>`<tr><td><a href="${EWS.stockHref(ticker,r.date)}">${EWS.esc(r.date)}</a></td><td>${EWS.score(r,'up')}</td><td>${EWS.score(r,'down')}</td><td>${r.modelVersion?EWS.esc(r.modelMonth)+(r.predictionKind==='delayed'?' · 지연 생성':r.predictionKind==='research'?' · 연구용':' · 일별 추론'):'기존 순위 기록'}</td></tr>`).join('')+'</tbody></table></div>';
+    $('history').innerHTML=historyWarning ? `<p class="notice warning">${EWS.esc(historyWarning)}</p>` : !history.length ? '<p class="muted">공개된 기간에 이 종목의 저장된 평가가 없습니다.</p>' : '<div class="history-table"><table><thead><tr><th scope="col">신호일</th><th scope="col">상승 기회 / 기존 순위</th><th scope="col">급락 위험 / 기존 순위</th><th scope="col">모델·기록 유형</th></tr></thead><tbody>'+history.slice().reverse().map(r=>`<tr><td><a href="${EWS.esc(EWS.stockHref(ticker,r.date,listView))}">${EWS.esc(r.date)}</a></td><td>${EWS.score(r,'up')}</td><td>${EWS.score(r,'down')}</td><td>${r.modelVersion?EWS.esc(r.modelMonth)+(r.predictionKind==='delayed'?' · 지연 생성':r.predictionKind==='research'?' · 연구용':' · 일별 추론'):'기존 순위 기록'}</td></tr>`).join('')+'</tbody></table></div>';
   }
   async function loadDate() {
     const id=++request, date=$('date').value;
+    window.history.replaceState(null, '', EWS.stockHref(ticker,date,listView));
+    $('backToResults').href=EWS.dashboardHref(listView,date);
+    $('naver').hidden=true;
+    $('stockMeta').textContent='';
     $('content').textContent='선택일 자료를 불러오는 중입니다.';
     try {
       const [forecasts,lookup]=await Promise.all([EWS.json(`walkforward_scores_by_date/${encodeURIComponent(date)}.json`),EWS.context(manifest,date)]);
@@ -43,7 +49,7 @@
       const row=EWS.mergedRows(forecasts,lookup.data).find(r=>String(r.ticker)===ticker);
       if(!row)throw new Error('이 날짜의 보관 자료에서 종목을 찾지 못했습니다. 전체 종목 검색에서 확인해 주세요.');
       show(row,date);
-    }catch(error){if(id===request)$('content').innerHTML=`<div class="empty">${EWS.esc(error.message)} <a href="dashboard.html">전체 종목 검색</a></div>`;}
+    }catch(error){if(id===request){$('content').innerHTML=`<div class="empty"><p>${EWS.esc(error.message)}</p><button id="retry" type="button">다시 불러오기</button> <a href="${EWS.esc(EWS.dashboardHref(listView,date))}">탐색 결과로</a></div>`;$('retry').onclick=loadDate;}}
   }
   async function init() {
     if(!ticker)throw new Error('종목이 지정되지 않았습니다. 전체 종목 검색에서 선택해 주세요.');
