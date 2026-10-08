@@ -100,7 +100,7 @@ const EWS = (() => {
   function dashboardHref(search = '', date = '') {
     const state = viewState(search);
     if (/^\d{4}-\d{2}-\d{2}$/.test(date)) state.date = date;
-    return `dashboard.html?${viewQuery(state)}`;
+    return `legacy.html?${viewQuery(state)}`;
   }
   function stockHref(ticker, date, view = '') {
     return `stock.html?${new URLSearchParams({ticker, date, view:viewQuery(viewState(view))})}`;
