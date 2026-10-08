@@ -152,3 +152,31 @@ def test_manifest_hashes_survive_windows_style_git_text_settings(tmp_path: Path)
     for name,expected in manifest['uiAssets'].items():
         committed=subprocess.run(['git','show',f':{folder}/{name}'],cwd=site,check=True,capture_output=True).stdout
         assert hashlib.sha256(committed).hexdigest()==expected, name
+
+
+def test_entrypoint_migration_preserves_archives_and_manifest_hashes(tmp_path: Path) -> None:
+    sys.path.insert(0, str(SCRIPT.parent))
+    from build_pages_deploy import publish_investment_entrypoints
+
+    (tmp_path / 'index.html').write_text('saved home', encoding='utf-8')
+    publish_investment_entrypoints(tmp_path)
+    assert (tmp_path / 'index.html').read_text() == 'saved home', 'No redirect to a missing explorer'
+    (tmp_path / 'investment').mkdir()
+    (tmp_path / 'investment' / 'index.html').write_text('verified explorer', encoding='utf-8')
+    for market in ('kr', 'us'):
+        folder = tmp_path / f'lgbm_warning_dashboard_macro_{market}_latest'
+        folder.mkdir()
+        (folder / 'dashboard.html').write_text(f'saved {market} forecasts', encoding='utf-8')
+        (folder / 'manifest.json').write_text(json.dumps({'latest':'2026-10-07','uiAssets':{}}), encoding='utf-8')
+    publish_investment_entrypoints(tmp_path)
+    publish_investment_entrypoints(tmp_path)  # Rerendering must not replace history with redirects.
+    assert (tmp_path / 'history.html').read_text() == 'saved home'
+    assert 'investment/?market=all' in (tmp_path / 'index.html').read_text(encoding='utf-8')
+    for market in ('kr', 'us'):
+        folder = tmp_path / f'lgbm_warning_dashboard_macro_{market}_latest'
+        assert (folder / 'legacy.html').read_text() == f'saved {market} forecasts'
+        assert f'../investment/?market={market}' in (folder / 'dashboard.html').read_text(encoding='utf-8')
+        manifest = json.loads((folder / 'manifest.json').read_text())
+        assert manifest['latest'] == '2026-10-07'
+        for name, checksum in manifest['uiAssets'].items():
+            assert hashlib.sha256((folder / name).read_bytes()).hexdigest() == checksum

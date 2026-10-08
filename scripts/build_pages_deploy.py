@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import base64
 import hashlib
+import html as html_lib
 import json
 import os
 import shutil
@@ -192,6 +193,43 @@ def home_html() -> str:
     }.items():
         html = html.replace(key, value)
     return html
+
+
+def investment_entry_html(market: str = "all") -> str:
+    """Move saved entry URLs to the current explorer, preserving only search."""
+    prefix = "" if market == "all" else "../"
+    target = f"{prefix}investment/?market={market}&sort=score&v={quote(BUILD_VERSION, safe='')}"
+    template = (Path(__file__).resolve().parent / "dashboard_web" / "entry.html").read_text(encoding="utf-8")
+    return (template.replace("@@TARGET_JSON@@", json.dumps(target).replace("<", "\\u003c"))
+            .replace("@@TARGET_HTML@@", html_lib.escape(target, quote=True))
+            .replace("@@HISTORY@@", "history.html" if market == "all" else "legacy.html"))
+
+
+def publish_investment_entrypoints(deploy_dir: Path) -> None:
+    """Only migrate when a verified explorer has actually been built."""
+    if not (deploy_dir / "investment" / "index.html").is_file():
+        return
+    home = deploy_dir / "index.html"
+    if home.is_file() and 'data-investment-entry="v1"' not in home.read_text(encoding="utf-8"):
+        shutil.copyfile(home, deploy_dir / "history.html")
+    home.write_bytes(investment_entry_html().encode("utf-8"))
+    for market, config in DASHBOARDS.items():
+        folder = deploy_dir / config["target"]
+        dashboard = folder / "dashboard.html"
+        if not dashboard.is_file():
+            continue
+        if 'data-investment-entry="v1"' not in dashboard.read_text(encoding="utf-8"):
+            shutil.copyfile(dashboard, folder / "legacy.html")
+        for name in ("dashboard.html", "index.html"):
+            (folder / name).write_bytes(investment_entry_html(market).encode("utf-8"))
+        manifest_path = folder / "manifest.json"
+        if manifest_path.is_file():
+            manifest = json_load(manifest_path)
+            ui_assets = manifest.setdefault("uiAssets", {})
+            for name in ("dashboard.html", "index.html", "legacy.html"):
+                if (folder / name).is_file():
+                    ui_assets[name] = hashlib.sha256((folder / name).read_bytes()).hexdigest()
+            json_dump(manifest_path, manifest)
 
 
 def render_dashboard_template(template: str, label: str, other_href: str, other_label: str) -> str:
@@ -490,6 +528,7 @@ def main() -> None:
         restored_dashboards = restore_existing_dashboards(deploy_dir, args.repo, dashboard_targets)
     if built_dashboards + restored_dashboards == 0:
         raise FileNotFoundError("No dashboard date JSON files found under outputs")
+    publish_investment_entrypoints(deploy_dir)
     total = sum(path.stat().st_size for path in deploy_dir.rglob("*") if path.is_file())
     print(f"Built {deploy_dir} with {sum(1 for _ in deploy_dir.rglob('*') if _.is_file())} files, {total / 1024 / 1024:.1f} MB.")
     if args.push:
