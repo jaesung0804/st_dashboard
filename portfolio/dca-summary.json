@@ -1,6 +1,16 @@
 {
   "dca_archive_sha256": "33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0",
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
+  "forecast_inference_archive_sha256": "f6cb1cd3829442e3b0be066c2aa16e1298bd1e0d04a06fc889ebd2541318f8a3",
+  "validation_readiness_archive_sha256": "2511aa115b93001b819aca675e374b783e3a9a8c165485b163e386370694f0a3",
+  "forecast_timing": {
+    "entry_valuation_offset": 1,
+    "exit_valuation_offset": 6,
+    "common_weekday_steps": 5,
+    "current_native_order_forecast_compatible": false,
+    "knowledge_time_certified": false,
+    "last_used_outcome": "2026-06-15"
+  },
   "corporate_action_diagnostic_archive_sha256": "3caa2cc01e0aaa2ed58dc54886f8df4045898615e07713b0db6a9eba96c017b4",
   "complete_guarded": true,
   "guarded_comparison_archive_sha256": "f983c2361444c4c68502f70809e4fc781cd9402a17f0cbd929ab06853820ed33",
