@@ -51,6 +51,9 @@ def test_backend_checks_pinned_manifest_before_download(tmp_path, monkeypatch, m
     class FakeClient:
         def __init__(self, project):
             assert project == 'investment'
+        def json(self, method, path):
+            assert method == 'GET' and path == '/snapshot-heads/financial-metrics-current'
+            return {'snapshot_id': None}
         def snapshot_entries(self, snapshot):
             assert snapshot == 'a' * 32
             return [{'relative_path': 'investment_view.json', 'sha256': 'b' * 64 if mismatch else digest,

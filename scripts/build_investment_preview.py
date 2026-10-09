@@ -8,12 +8,15 @@ import json
 from pathlib import Path
 
 
-def build(source: Path, destination: Path):
-    data = json.loads((source / 'investment_view.json').read_text(encoding='utf-8'))
+def build(source: Path, destination: Path, presentation=None):
+    data = presentation if presentation is not None else json.loads((source / 'investment_view.json').read_text(encoding='utf-8'))
     destination.mkdir(parents=True, exist_ok=True)
     # Keep the complete public evidence available, but avoid making a phone
     # parse every filing and chart before it can show the first 20 cards.
-    (destination / 'research.json').write_bytes((source / 'investment_view.json').read_bytes())
+    (destination / 'experiment.json').write_bytes((source / 'investment_view.json').read_bytes())
+    public_bytes = (json.dumps(data, ensure_ascii=False, allow_nan=False, separators=(',', ':')).encode()
+                    if presentation is not None else (source / 'investment_view.json').read_bytes())
+    (destination / 'research.json').write_bytes(public_bytes)
     display = copy.deepcopy(data)
     originals = data.get('rows', [])
     chunks = destination / 'details'
@@ -41,7 +44,7 @@ def build(source: Path, destination: Path):
     for name in ('dashboard.css', 'investment.css', 'investment-metrics.js', 'investment.js'):
         digest = hashlib.sha256((assets / name).read_bytes()).hexdigest()[:12]
         template = template.replace('"' + name + '"', '"' + name + '?v=' + digest + '"')
-    report_hash = hashlib.sha256((source / 'investment_view.json').read_bytes()).hexdigest()[:12]
+    report_hash = hashlib.sha256(public_bytes).hexdigest()[:12]
     template = template.replace('href="research.json"', f'href="research.json?v={report_hash}"')
     # Inline JSON supports a local preview; escape raw-text HTML termination.
     payload = json.dumps(display, ensure_ascii=False, allow_nan=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')

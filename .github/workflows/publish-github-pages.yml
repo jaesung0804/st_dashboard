@@ -2,7 +2,7 @@ name: Publish verified GitHub Pages
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Daily Refresh", "Daily Refresh KR", "Daily Refresh US", "Refresh dashboard UI", "Macro EWS comparison", "Accounting and history research", "Refresh accounting inference", "Backfill recommendation history"]
+    workflows: ["Daily Refresh", "Daily Refresh KR", "Daily Refresh US", "Refresh dashboard UI", "Macro EWS comparison", "Accounting and history research", "Refresh accounting inference", "Backfill recommendation history", "Collect dated financial statements"]
     types: [completed]
 permissions:
   contents: read
