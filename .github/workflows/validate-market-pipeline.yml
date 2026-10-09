@@ -35,4 +35,4 @@ jobs:
           node tests/test_pages_build.cjs
           node tests/test_investment_ui.cjs
           node --check scripts/dashboard_web/investment.js
-          python -m pytest -q --disable-socket tests/test_build_pages_deploy.py tests/test_price_context.py
+          python -m pytest -q --disable-socket tests/test_build_pages_deploy.py tests/test_price_context.py tests/test_financial_database.py tests/test_investment_export.py tests/test_investment_metrics.py

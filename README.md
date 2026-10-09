@@ -1,5 +1,7 @@
 # ai_stock_assistant
 
+**[대시보드 공개 페이지 바로가기](https://jaesung0804.github.io/st_dashboard/)**
+
 미국 투자회사 3개·9팀의 [시뮬레이션 화면](https://jaesung0804.github.io/st_dashboard/simulation/)과 [89개 실험·조직 운영 기록](docs/INVESTMENT_REPLAY_SESSION_20260910.md)을 추가했습니다. 직원별 전략·승인 근거와 공통 운영조정팀을 확인할 수 있습니다. 기존 [1차 설계](docs/INVESTMENT_REPLAY.md)와 [첫 실행 결과](docs/replays/2026-09-10-v1/report.md)도 보존합니다. 과거 연구용이며 별도 유료 AI API를 호출하지 않습니다.
 
 한국·미국 주식 조기경보 대시보드입니다. 운영 모델은 **월 1회 학습 · 일 1회 추론 · 과거 예측 보존** 구조입니다.
@@ -12,6 +14,16 @@
 설계, 사건 정의, 한계, 재현 및 복구 절차는 [월별 조기경보 운영 문서](docs/monthly-ews.md)를 참고하세요. [개발 검증 기록](docs/validation/summary.md)에는 시간 순서를 분리한 한국·미국 점검 결과를 공개합니다. 과거 검증은 미래 성과를 보장하지 않습니다.
 
 운영 환경은 `requirements-live.txt`를 사용합니다. 아래의 재무 수집·walk-forward 명령은 기존 연구용 경로이며 일 배치와 분리되어 있습니다.
+
+## 재무자료 저장과 갱신
+
+현재 종목 화면의 재무자료는 기존 Oracle DB의 기업별 기록에서 계산합니다. 재무 값·보고기간·공시 식별자·출처 해시·확인 시각은 DB에 저장하고 수정 이력도 보존합니다. 공개 페이지에는 계산된 비율과 자료 기준만 배포하며, DB 토큰이나 원본 재무제표를 보내지 않습니다.
+
+`Collect dated financial statements`는 매일 한국 시각 02:20에 시장별 최대 600개 기업을 오래 확인하지 않은 순서로 갱신합니다. 모든 종목의 일일 갱신을 뜻하지 않으며, 실패·미제공 자료는 기존 성공 값을 지우지 않습니다. 기존 자료 이관은 같은 작업의 `bootstrap`, 특정 기업 재수집은 `refresh`의 `tickers` 입력으로 명시적으로 실행합니다. 최초 이관이 없는 환경에서는 빈 자료로 시작하지 않고 실패합니다.
+
+기존 보관본은 검증된 `pipeline-state`에서 임시로 복원한 뒤 DB에 이관합니다. 신규 재무 수집은 원본 CSV나 Git 상태 브랜치를 누적하지 않습니다. 영구 보관된 과거 스냅샷은 복구 근거로 유지합니다. 화면의 `고정 실험 원본`은 기존 예측·시나리오·재무 의견을 그대로 보존하며 현재 재무지표 갱신은 모델을 재학습하지 않습니다.
+
+재무지표의 기간은 종목별로 표시합니다. 분기·반기 값을 임의로 TTM(최근 12개월)으로 취급하지 않으며, 공시일·결산일이 확인되지 않으면 이를 표시하고 과거 예측 입력으로 사용하지 않습니다. 일부 비율은 정확한 기간·분모가 부족하면 비워 둡니다.
 
 ## Research setup
 
@@ -81,7 +93,7 @@ Each market restores verified state, collects prices, infers new signal dates wi
 
 The [2026-09-11 market health review](docs/MARKET_HEALTH_REVIEW_20260911.md) explains the Korean pooled AUC versus same-date selection results, the US partially available session failure, and the remaining SQL migration work. Public aggregate evidence is linked from the report; raw prices and model binaries remain outside Git.
 
-The production model uses causal price features; existing financial files are retained but are not refreshed by the daily production workflow. OpenDART secrets remain relevant only to the research collection commands.
+The production model uses causal price features. A separate daily `Collect dated financial statements` workflow refreshes Oracle financial records and public display metrics using the OpenDART secret; it does not change frozen model inputs or predictions. The commands above remain the legacy research collection path.
 
 Build the lightweight Pages bundle locally:
 

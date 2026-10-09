@@ -1,11 +1,11 @@
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.InvestmentMetrics=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
   'use strict';
   const definitions={
-    fin_revenue_growth:['매출 성장률','pct','최근 12개월 매출 ÷ 전년 동기 최근 12개월 매출 − 1'],
-    fin_gross_margin:['매출총이익률','pct','최근 12개월 매출총이익 ÷ 매출'],
-    fin_operating_margin:['영업이익률','pct','최근 12개월 영업이익 ÷ 매출'],
-    fin_roa:['ROA','pct','최근 12개월 순이익 ÷ 기말·전년 동기 말 평균 자산'],
-    fin_cfo_assets:['영업현금 / 자산','pct','최근 12개월 영업현금흐름 ÷ 평균 자산'],
+    fin_revenue_growth:['매출 성장률','pct','표시 보고기간 매출 ÷ 전년 같은 보고기간 매출 − 1'],
+    fin_gross_margin:['매출총이익률','pct','표시 보고기간 매출총이익 ÷ 같은 기간 매출'],
+    fin_operating_margin:['영업이익률','pct','표시 보고기간 영업이익 ÷ 같은 기간 매출'],
+    fin_roa:['ROA','pct','확인된 연간 순이익 ÷ 기말·전년 동기 말 평균 자산'],
+    fin_cfo_assets:['영업현금 / 자산','pct','확인된 연간 영업현금흐름 ÷ 평균 자산'],
     fin_cfo_after_ppe_assets:['설비투자 후 현금 / 자산','pct','(영업현금흐름 − 유형자산 취득액 절댓값) ÷ 평균 자산. 전체 잉여현금흐름과 다를 수 있습니다.'],
     fin_accruals_assets:['발생액 / 자산','pct','(최근 12개월 순이익 − 영업현금흐름) ÷ 평균 자산'],
     fin_cash_assets:['현금 / 자산','pct','기말 현금 및 현금성자산 ÷ 자산'],
@@ -30,9 +30,9 @@
     const key=state.market==='all'&&state.sort==='market_score'?'score':state.sort;
     const q=(state.q||'').trim().toLocaleLowerCase();
     const result=rows.filter(r=>(state.market==='all'||r.market===state.market)
-      && (!state.opinion||state.opinion==='all'||r.opinion.status===state.opinion)
+      && (!state.opinion||state.opinion==='all'||(r.financial_opinion||r.opinion).status===state.opinion)
       && (!state.coverage||state.coverage==='all'||state.coverage==='scored'&&r.scored||state.coverage==='unscored'&&!r.scored||state.coverage==='warning'&&r.warning)
-      && (!state.financial||state.financial==='all'||state.financial==='available'&&r.financials?.latest||state.financial==='fresh'&&r.financials?.latest&&!r.financials.stale||state.financial==='growth'&&!r.financials?.stale&&financial(r,'fin_revenue_growth')>0&&financial(r,'fin_operating_margin')>0)
+      && (!state.financial||state.financial==='all'||state.financial==='available'&&r.financials?.latest||state.financial==='fresh'&&r.financials?.latest&&!r.financials.stale&&r.financials.date_precision!=='fiscal_period'||state.financial==='growth'&&!r.financials?.stale&&financial(r,'fin_revenue_growth')>0&&financial(r,'fin_operating_margin')>0)
       && `${r.ticker} ${r.name} ${r.price_metrics?.sector||''}`.toLocaleLowerCase().includes(q));
     const direction=state.direction==='asc'?1:-1;
     result.sort((a,b)=>{

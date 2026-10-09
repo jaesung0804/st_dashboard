@@ -33,6 +33,12 @@ def export(deploy_dir, reference=Path('data/reference/relative_ews_release.json'
     import hashlib
     if hashlib.sha256(report.read_bytes()).hexdigest() != ref['report_sha256']:
         raise ValueError('Cached public experiment failed integrity check')
-    build(root, Path(deploy_dir) / 'investment')
+    presentation = None
+    if os.getenv('RESEARCH_STORAGE') == 'backend':
+        from export_financial_metrics import load_metrics, overlay
+        metrics = load_metrics(client, cache / 'financial-metrics')
+        if metrics:
+            presentation = overlay(json.loads(report.read_text(encoding='utf-8')), metrics)
+    build(root, Path(deploy_dir) / 'investment', presentation=presentation)
     print('Built explicitly dated investment experiment; no training or inference was run.')
     return True
