@@ -62,7 +62,7 @@ def by_id(result):
 class OperationsTests(unittest.TestCase):
     def test_actual_strategy_proposal_routes_with_evidence_date_and_blocks_without_it(self):
         config_path = Path(__file__).resolve().parents[1] / "data/reference/employee_supervision_policy.json"
-        generated = strategy_proposal("pulse_day", "efficient", json.loads(config_path.read_text()), "2024-01-03")
+        generated = strategy_proposal("pulse_day", "efficient", json.loads(config_path.read_text(encoding="utf-8")), "2024-01-03")
         request = proposal()
         request["strategy_brief"] = generated["strategy_brief"]
         routed = review([request])
