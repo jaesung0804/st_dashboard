@@ -112,6 +112,9 @@ def test_presentation_contains_only_metrics_and_preserves_frozen_model_and_opini
     assert row['financials']['latest']['metrics']['fin_operating_margin'] == .2
     assert 'values' not in json.dumps(out)
     assert 'source_sha256' not in json.dumps(out)
+    original['rows'][0]['financials'] = {'latest': {'period_end': '2026-06-30', 'metrics': {'fin_roa': .1}}}
+    kept = overlay(original, {'snapshot_id': 'a', 'markets': {'us': summary}}, '2026-10-09')
+    assert kept['rows'][0]['financials'] == original['rows'][0]['financials']
 
 
 def test_import_skips_retained_empty_responses(tmp_path):

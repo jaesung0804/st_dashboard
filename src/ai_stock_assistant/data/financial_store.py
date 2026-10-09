@@ -78,7 +78,7 @@ def normalized_statement(row, *, source, observed_at, source_hash, period_end=No
 
 
 def ratio(a, b):
-    return a / b if a is not None and b is not None and b > 0 else None
+    return number(a / b) if a is not None and b is not None and b > 0 else None
 
 
 def financial_metrics(payload, asof):

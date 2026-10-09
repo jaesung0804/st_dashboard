@@ -46,6 +46,11 @@ def overlay(report, saved, today=None):
             continue
         financials = copy.deepcopy(financials)
         latest = financials['latest']
+        previous = (row.get('financials') or {}).get('latest')
+        if previous and previous.get('period_end') and (
+            not latest.get('period_end') or latest['period_end'] < previous['period_end']
+        ):
+            continue  # Migration must not hide a newer, already verified public ratio.
         age = (date.fromisoformat(today) - date.fromisoformat(latest['period_end'])).days if latest.get('period_end') else None
         financials.update(age_days=age, stale=age is not None and age > 240)
         row['financials'] = financials

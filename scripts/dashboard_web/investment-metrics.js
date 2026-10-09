@@ -32,7 +32,7 @@
     const result=rows.filter(r=>(state.market==='all'||r.market===state.market)
       && (!state.opinion||state.opinion==='all'||(r.financial_opinion||r.opinion).status===state.opinion)
       && (!state.coverage||state.coverage==='all'||state.coverage==='scored'&&r.scored||state.coverage==='unscored'&&!r.scored||state.coverage==='warning'&&r.warning)
-      && (!state.financial||state.financial==='all'||state.financial==='available'&&r.financials?.latest||state.financial==='fresh'&&r.financials?.latest&&!r.financials.stale||state.financial==='growth'&&!r.financials?.stale&&financial(r,'fin_revenue_growth')>0&&financial(r,'fin_operating_margin')>0)
+      && (!state.financial||state.financial==='all'||state.financial==='available'&&r.financials?.latest||state.financial==='fresh'&&r.financials?.latest&&!r.financials.stale&&r.financials.date_precision!=='fiscal_period'||state.financial==='growth'&&!r.financials?.stale&&financial(r,'fin_revenue_growth')>0&&financial(r,'fin_operating_margin')>0)
       && `${r.ticker} ${r.name} ${r.price_metrics?.sector||''}`.toLocaleLowerCase().includes(q));
     const direction=state.direction==='asc'?1:-1;
     result.sort((a,b)=>{

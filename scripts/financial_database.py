@@ -240,7 +240,9 @@ def run(args, client=None):
                 work = list(import_rows(restored, market, observed_at, provenance))
             else:
                 def priority(ticker):
-                    return summary.get('collection_checks', {}).get(ticker, '')
+                    key = PREFIX + market + '/' + ticker
+                    return summary.get('collection_checks', {}).get(ticker,
+                        index.get(key, {}).get('observed_at', ''))
                 tickers = args.tickers or sorted(listing, key=lambda t: (priority(t), t))[:args.limit]
                 work = [(ticker, None) for ticker in tickers if ticker in listing]
             if not work:
