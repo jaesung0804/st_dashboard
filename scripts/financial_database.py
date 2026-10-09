@@ -186,6 +186,10 @@ def fetch_kr(ticker, code, previous, observed_at):
         if len(filings) != 1:
             raise ValueError('Ambiguous DART filing receipts')
         for row in normalize_financial_accounts(frame).to_dict('records'):
+            for field, tag in (('current_assets', 'CurrentAssets'), ('current_liabilities', 'CurrentLiabilities')):
+                matches = frame.loc[frame.account_id.astype(str).str.endswith('_' + tag) & frame.sj_div.eq('BS')]
+                if len(matches) == 1:
+                    row[field] = number(matches.iloc[0].thstrm_amount)
             result.append(normalized_statement(row, source='opendart', observed_at=observed_at,
                 source_hash=sha, frequency='annual' if report == '11011' else 'reported',
                 filing_id=filings[0], fiscal_month=month))
@@ -198,7 +202,8 @@ def fetch_us(ticker, name, observed_at):
     from ai_stock_assistant.data.us import fetch_us_financials_for_ticker
     rows = []
     for frequency in ('annual', 'quarterly'):
-        raw, _ = fetch_us_financials_for_ticker(ticker=ticker, frequency=frequency, name=name)
+        raw, _ = fetch_us_financials_for_ticker(ticker=ticker, frequency=frequency, name=name,
+                                               include_fourth_quarter=True)
         if raw.empty:
             continue
         sha = hashlib.sha256(raw.to_csv(index=False).encode()).hexdigest()

@@ -146,3 +146,20 @@ def test_verified_period_supersedes_undated_legacy_view_without_deleting_source(
     records = merge_statements([old], [new])
     assert len(records) == 2
     assert financial_metrics({'statements': records}, '2026-10-10')['latest']['period_end'] == '2026-06-30'
+
+
+def test_new_us_collector_keeps_fourth_quarter_distinct_from_annual(monkeypatch):
+    from ai_stock_assistant.data import us
+    class Response:
+        def raise_for_status(self):
+            pass
+        def json(self):
+            return {'timeseries': {'result': [{'meta': {'type': ['quarterlyTotalRevenue']},
+                'quarterlyTotalRevenue': [{'asOfDate': '2025-12-31', 'reportedValue': {'raw': 100}}]}]}}
+    monkeypatch.setattr(us.requests, 'get', lambda *a, **kw: Response())
+    raw, _ = us._fetch_yahoo_timeseries_financials_for_ticker('TEST', 'quarterly', include_fourth_quarter=True)
+    assert raw.period_end.tolist() == ['2025-12-31']
+    from financial_database import us_raw_statements
+    converted = us_raw_statements(raw, 'quarterly', '2026-10-09', 'hash')
+    assert converted[0]['frequency'] == 'quarterly'
+    assert converted[0]['values']['revenue'] == 100

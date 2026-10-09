@@ -106,6 +106,9 @@ FINANCIAL_FIELD_ALIASES = {
     "financing_cash_flow": {"Financing Cash Flow", "Total Cash From Financing Activities"},
     "capex": {"Capital Expenditure", "Capital Expenditures"},
     "eps": {"Basic EPS", "Diluted EPS"},
+    "current_assets": {"Current Assets"},
+    "current_liabilities": {"Current Liabilities"},
+    "interest_expense": {"Interest Expense"},
 }
 
 YAHOO_TIMESERIES_URL = "https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/{ticker}"
@@ -125,6 +128,9 @@ YAHOO_TIMESERIES_FIELD_MAP = {
     "financing_cash_flow": "FinancingCashFlow",
     "capex": "CapitalExpenditure",
     "eps": "DilutedEPS",
+    "current_assets": "CurrentAssets",
+    "current_liabilities": "CurrentLiabilities",
+    "interest_expense": "InterestExpense",
 }
 YAHOO_TIMESERIES_FALLBACK_FIELD_MAP = {
     "eps": ["BasicEPS"],
@@ -313,6 +319,7 @@ def _fetch_yahoo_timeseries_financials_for_ticker(
     ticker: str,
     frequency: str = "annual",
     name: str | None = None,
+    include_fourth_quarter: bool = False,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     ticker = _to_yfinance_ticker(ticker)
     type_by_key = _yahoo_timeseries_types(frequency)
@@ -357,7 +364,7 @@ def _fetch_yahoo_timeseries_financials_for_ticker(
                 continue
             period = pd.Timestamp(period_value)
             report_name = _financial_report_name(period, frequency=frequency)
-            if frequency != "annual" and report_name == "annual":
+            if frequency != "annual" and report_name == "annual" and not include_fourth_quarter:
                 continue
             row = rows_by_period.setdefault(
                 period,
@@ -400,11 +407,13 @@ def _fetch_yahoo_timeseries_financials_for_ticker(
     return raw, normalized
 
 
-def fetch_us_financials_for_ticker(ticker: str, frequency: str = "annual", name: str | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
+def fetch_us_financials_for_ticker(ticker: str, frequency: str = "annual", name: str | None = None,
+                                  include_fourth_quarter: bool = False) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Fetch and normalize yfinance statements for one US ticker."""
     ticker = _to_yfinance_ticker(ticker)
     try:
-        raw, normalized = _fetch_yahoo_timeseries_financials_for_ticker(ticker=ticker, frequency=frequency, name=name)
+        raw, normalized = _fetch_yahoo_timeseries_financials_for_ticker(ticker=ticker, frequency=frequency, name=name,
+                                                                      include_fourth_quarter=include_fourth_quarter)
         if not normalized.empty:
             return raw, normalized
     except Exception:
