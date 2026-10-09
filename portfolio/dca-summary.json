@@ -1,6 +1,19 @@
 {
   "dca_archive_sha256": "33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0",
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
+  "mark_forecast_calibration": {
+    "archives": {
+      "refit": "8480add152474d42b702a9fdb4ad0e818f0c57805ecf77e30f5a36dd0136c6a1",
+      "calibration": "6d9cd26cc7e75afd6ce7b9ec1f90d6986062759f9fd4564eea7bc6ddeaccb1b7",
+      "verification": "bcc9d13881215088e6e62b18a13add1f071a0897b1b9b3660dec72878818fd7b"
+    },
+    "unique_forecasts": 56128,
+    "variants": 4,
+    "production_allowed": false,
+    "independent_validation_passed": false,
+    "portfolio_replay_performed": false,
+    "decision": "not_adopted"
+  },
   "entry_capacity_archive_sha256": "02cbc25bb67d3cb388c4e5ff844323d0c415c3cb5fac04b0ebf5c8635cb5c936",
   "entry_capacity_verification_archive_sha256": "aeb62184432a6caee8aab27a4e51211a8d65deb38f99b9fb3a45d5472a23e124",
   "entry_capacity": {
