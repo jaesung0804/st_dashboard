@@ -1,7 +1,10 @@
 {
   "dca_archive_sha256": "33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0",
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
+  "corporate_action_diagnostic_archive_sha256": "3caa2cc01e0aaa2ed58dc54886f8df4045898615e07713b0db6a9eba96c017b4",
   "complete_guarded": false,
+  "guarded_comparison_archive_sha256": null,
+  "guarded_holdings_archive_sha256": null,
   "metrics": [
     {
       "strategy": "cash",
