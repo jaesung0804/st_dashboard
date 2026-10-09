@@ -170,9 +170,11 @@ def fetch_kr(ticker, code, previous, observed_at):
     if month != '12':
         raise ValueError('Non-December fiscal calendar requires a verified period adapter')
     now = datetime.fromisoformat(observed_at)
-    # Recent annual plus current-year quarterly reports; historical import is separate.
-    periods = [(now.year - 1, '11011')]
-    periods += [(now.year, code) for end, code in ((3, '11013'), (6, '11012'), (9, '11014')) if now.month > end]
+    # Two annual periods and same-quarter comparatives make growth and annual
+    # average-asset ratios verifiable even when legacy fiscal dates are unknown.
+    periods = [(now.year - 2, '11011'), (now.year - 1, '11011')]
+    periods += [(year, report) for end, report in ((3, '11013'), (6, '11012'), (9, '11014'))
+                if now.month > end for year in (now.year - 1, now.year)]
     result = []
     for year, report in periods:
         frame, scope, status, _ = fetch_financial_statement_with_fallback(code, year, report, key)

@@ -163,3 +163,32 @@ def test_new_us_collector_keeps_fourth_quarter_distinct_from_annual(monkeypatch)
     converted = us_raw_statements(raw, 'quarterly', '2026-10-09', 'hash')
     assert converted[0]['frequency'] == 'quarterly'
     assert converted[0]['values']['revenue'] == 100
+
+
+def test_korean_refresh_collects_verified_comparative_periods(monkeypatch):
+    import pandas as pd
+    import financial_database as database
+    from ai_stock_assistant.data import opendart
+    class Response:
+        def raise_for_status(self):
+            pass
+        def json(self):
+            return {'status': '000', 'acc_mt': '12', 'corp_name': 'Example', 'induty_code': '26'}
+    monkeypatch.setattr(database.requests, 'get', lambda *a, **kw: Response())
+    monkeypatch.setattr(database.time, 'sleep', lambda _: None)
+    monkeypatch.setattr(opendart, 'get_api_key', lambda: 'test-only')
+    calls = []
+    def fetch(code, year, report, key):
+        calls.append((year, report))
+        if report == '11014' and year == 2026:
+            return pd.DataFrame(), 'CFS', '013', ''
+        frame = pd.DataFrame([{'bsns_year': year, 'reprt_code': report,
+            'rcept_no': f'{year}0814000001', 'account_id': 'ifrs-full_Revenue',
+            'account_nm': 'Revenue', 'sj_div': 'IS', 'thstrm_amount': '200' if year == 2026 else '100'}])
+        return frame, 'CFS', '000', ''
+    monkeypatch.setattr(opendart, 'fetch_financial_statement_with_fallback', fetch)
+    rows, metadata = database.fetch_kr('000001', '00000001', None, '2026-10-09')
+    assert (2024, '11011') in calls and (2025, '11012') in calls
+    latest = financial_metrics({'statements': rows, **metadata}, '2026-10-09')['latest']
+    assert latest['period_end'] == '2026-06-30'
+    assert latest['metrics']['fin_revenue_growth'] == 1
