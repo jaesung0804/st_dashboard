@@ -40,6 +40,16 @@
     return research.metrics.filter(m=>m.period===period&&m.scenario===scenario).slice()
       .sort((a,b)=>order.indexOf(a.family+':'+a.variant)-order.indexOf(b.family+':'+b.variant));
   }
+  function guardedUncertaintyRows(research,period,scenario) {
+    const range=(bounds,scale,digits,suffix)=>Array.isArray(bounds)&&bounds.length===2&&bounds.every(Number.isFinite)
+      ?bounds.map(x=>number(x*scale,digits)+suffix).join(' ~ '):'산출 불가';
+    return research.paired_comparisons.filter(c=>c.period===period&&c.scenario===scenario)
+      .flatMap(c=>c.intervals.slice().sort((a,b)=>a.block_days-b.block_days).map(v=>({
+        variant:c.variant,reference_variant:c.reference_variant,block_days:v.block_days,
+        return_range:range(v.interval?.annual_geometric_excess,100,2,'%p'),
+        volatility_range:range(v.interval?.volatility_ratio,1,3,''),
+        status:v.status==='insufficient_span_for_block'?'기간 부족':v.status==='descriptive_few_blocks'?'묶음 수 적음':'과거 자료 재표집'})));
+  }
   const diagnosticDays=value=>Number.isFinite(value)?number(value)+'일':'미측정';
   function fxInstruction(value) {
     if(!Number.isFinite(value))return '자료 없음';
@@ -65,7 +75,7 @@
       `시장 내 종목 순위는 ${p.maximum_within_country_rank_change<1e-10?'같습니다':'변했습니다'}. 예측 구간 폭은 ${p.maximum_interval_width_change<1e-10?'그대로입니다':'변했습니다'}.`
     ];
   }
-  const api={names,esc,number,pct,money,positions,allocation,briefText,extensionContext,extensionMetrics,researchRows,guardedRows,diagnosticDays,accountSets,fxInstruction,forecastRows,forecastNotes};
+  const api={names,esc,number,pct,money,positions,allocation,briefText,extensionContext,extensionMetrics,researchRows,guardedRows,guardedUncertaintyRows,diagnosticDays,accountSets,fxInstruction,forecastRows,forecastNotes};
   root.PortfolioUI=api;
   if (typeof module !== 'undefined' && module.exports) module.exports=api;
   if (typeof document === 'undefined') return;
@@ -196,7 +206,7 @@
   }
   if(data.v02_research&&!data.guarded_comparison){
     const research=data.v02_research,section=document.createElement('section');section.id='v02-research';
-    section.innerHTML='<div class="section-title"><div><span class="eyebrow">V0.2 · CONTROLLED DEVELOPMENT</span><h2>체결과 전망, 무엇을 고쳐야 할까</h2></div><span class="pill">개발 재실험 · 채택 전</span></div><p class="context">이미 본 기간에서 개선 원인을 분리하는 비교입니다. 독립 검증·모의 실전 성과가 아닙니다. 네 후보는 같은 초기 자산·위험 한도·비용을 사용합니다.</p><div class="panel-heading"><label>비교 기간<select id="research-period"><option value="extension">2026.04–06 · 추가 기간</option><option value="development">2024.10–2026.03 · 개발 기간</option></select></label><label>체결 조건<select id="research-scenario"><option value="base">기본 체결</option><option value="one_day_delay">하루 지연</option></select></label></div><div class="table-wrap panel"><table><caption class="sr-only">v0.2 체결·보정 분리 비교</caption><thead><tr><th>후보</th><th>누적 수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>총 비용</th><th>위험 초과일</th><th>미해결 계획</th><th>계산·재검사 실패</th></tr></thead><tbody id="research-comparison"></tbody></table></div><p class="footnote">미해결 계획은 거래 제한 때문에 요청한 위험 한도를 회복하지 못한 날입니다. 정상·안전 상태로 처리하지 않습니다. 체결 수정 후보는 지연 주문을 현재 잔액으로 다시 검사하므로, 단순히 어제 주문을 그대로 실행하는 비교군과 실행 정책이 다릅니다.</p><p class="context">실전 승격 보류 · 앞으로 쌓은 모의 관찰 0일 · 실제 주문 미연결</p>';
+    section.innerHTML='<div class="section-title"><div><span class="eyebrow">V0.2 · CONTROLLED DEVELOPMENT</span><h2>체결과 전망, 무엇을 고쳐야 할까</h2></div><span class="pill">개발 재실험 · 채택 전</span></div><p class="context">이미 본 기간에서 개선 원인을 분리하는 비교입니다. 독립 검증·모의 실전 성과가 아닙니다. 네 후보는 같은 초기 자산·위험 한도·비용을 사용합니다.</p><div class="panel-heading"><label>비교 기간<select id="research-period"><option value="extension">2026.04–06 · 추가 기간</option><option value="development">2024.10–2026.03 · 개발 기간</option></select></label><label>체결 조건<select id="research-scenario"><option value="base">기본 체결</option><option value="one_day_delay">하루 지연</option></select></label></div><div class="table-wrap panel"><table><caption class="sr-only">v0.2 체결·보정 분리 비교</caption><thead><tr><th>후보</th><th>누적 수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>총 비용</th><th>위험 초과일</th><th>미해결 계획</th><th>계산·주문 검사 실패</th></tr></thead><tbody id="research-comparison"></tbody></table></div><p class="footnote">미해결 계획은 거래 제한 때문에 요청한 위험 한도를 회복하지 못한 날입니다. 정상·안전 상태로 처리하지 않습니다. 체결 수정 후보는 지연 주문을 현재 잔액으로 다시 검사하므로, 단순히 어제 주문을 그대로 실행하는 비교군과 실행 정책이 다릅니다.</p><p class="context">실전 승격 보류 · 앞으로 쌓은 모의 관찰 0일 · 실제 주문 미연결</p>';
     document.querySelector('main').insertBefore(section,document.querySelector('main > footer'));
     if(research.known_defects?.items?.length){
       const warning=document.createElement('p');warning.className='context breach';
@@ -208,7 +218,7 @@
     section.querySelector('.table-wrap').after(scope);
     if(data.return_risk_appendix){
       const appendix=document.createElement('p');appendix.className='context';
-      appendix.innerHTML='<a href="return-risk.html">단순 매매 규칙까지 포함한 전체 수익·변동성 비교 보기 →</a><br><span class="footnote">기본 체결 16개·하루 지연 6개 후보를 두 기간에서 비교한 44개 완료 결과입니다. 평균 주식 비중·낙폭·비용·계산 실패도 함께 확인하세요.</span>';
+      appendix.innerHTML='<a href="return-risk.html">단순 매매 규칙을 포함한 기존 44개 조건 비교 보기 →</a><br><span class="footnote">기본 체결 16개·하루 지연 6개 후보를 두 기간에서 비교한 기존 결과입니다. 최종 주문 재검사 수정안의 8개 조건은 별도 비교에 포함됩니다. 평균 주식 비중·낙폭·비용·계산 실패도 함께 확인하세요.</span>';
       scope.after(appendix);
     }
     const labels={reference:'v0.1 그대로',execution_only:'체결 구조만 수정',bias_only:'수익 보정만 수정',combined:'체결 + 수익 보정'};
@@ -223,7 +233,7 @@
   }
   if(data.guarded_comparison){
     const research=data.guarded_comparison,section=document.createElement('section');section.id='guarded-comparison';
-    section.innerHTML='<div class="section-title"><div><span class="eyebrow">FINAL ORDER CHECKS · RESEARCH</span><h2>최종 주문을 검사하면 결과가 달라질까</h2></div><span class="pill">개발 비교 · 채택 전</span></div><p class="context">각 기간마다 같은 1억 원에서 새로 시작했습니다. 수익과 함께 변동성·주식 비중을 확인하세요. 위 계좌 상세는 v0.1의 과거 재현이고, 아래는 수정안까지 포함한 성과 비교입니다.</p><div class="panel-heading"><label>비교 기간<select id="guarded-period"><option value="extension">2026.04–06 · 추가 기간</option><option value="development">2024.10–2026.03 · 개발 기간</option></select></label><label>체결 조건<select id="guarded-scenario"><option value="base">기본 체결</option><option value="one_day_delay">하루 지연</option></select></label></div><div class="table-wrap panel"><table class="guarded-table"><caption class="sr-only">모든 후보와 비교군의 비용 차감 성과</caption><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>전체 위험 항목 초과</th><th>주문 계획 미해결</th><th>계산·재검사 실패</th></tr></thead><tbody id="guarded-rows"></tbody></table></div><p class="footnote">전체 위험 항목을 검사하지 않았던 비교군은 미측정으로 표시합니다. 기존 변동성·CVaR 초과일과 새 전체 항목 진단은 정의가 다릅니다. 비교군의 위험 정책 차이도 함께 고려해야 합니다. 주문 계획 미해결은 수정안의 최종 검사 기준이며, 계산·재검사 실패는 날짜가 아닌 사건 수입니다. 정확도 부족으로 중단된 계산과 실제 위험 초과를 구분합니다.</p><p class="context breach">기존 v0.2 체결 후보에는 순주문 비용과 계획 비용이 달라질 수 있는 결함이 확인됐습니다. 그 장부는 비교용으로 보존하며, 계획의 위험 준수를 입증하는 자료로 사용하지 않습니다.</p><h3>같은 전망에서 실행 구조를 바꾼 차이</h3><div class="table-wrap panel"><table><thead><tr><th>수정 후보</th><th>비교 후보</th><th>누적 수익 차이</th><th>변동성 비율</th><th>판단일</th></tr></thead><tbody id="guarded-effects"></tbody></table></div><p class="footnote">수익 차이는 해당 기간의 %p 차이입니다. 변동성 비율이 1보다 작으면 수정안의 흔들림이 작습니다. 이미 본 자료의 비교이며, 통계 구간도 독립 검증이나 수익 보장이 아닙니다.</p><p class="context">모델 채택 보류 · 앞으로 쌓은 모의·실전 관찰 각 0일 · 최종 주문 검사 후에도 가격 급변·부분 체결에 따른 위험을 다시 확인해야 합니다.</p>';
+    section.innerHTML='<div class="section-title"><div><span class="eyebrow">FINAL ORDER CHECKS · RESEARCH</span><h2>최종 주문을 검사하면 결과가 달라질까</h2></div><span class="pill">개발 비교 · 채택 전</span></div><p class="context">각 기간마다 같은 1억 원에서 새로 시작했습니다. 수익과 함께 변동성·주식 비중을 확인하세요. 위 계좌 상세는 v0.1의 과거 재현이고, 아래는 수정안까지 포함한 성과 비교입니다.</p><div class="panel-heading"><label>비교 기간<select id="guarded-period"><option value="extension">2026.04–06 · 추가 기간</option><option value="development">2024.10–2026.03 · 개발 기간</option></select></label><label>체결 조건<select id="guarded-scenario"><option value="base">기본 체결</option><option value="one_day_delay">하루 지연</option></select></label></div><div class="table-wrap panel"><table class="guarded-table"><caption class="sr-only">모든 후보와 비교군의 비용 차감 성과</caption><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>전체 위험 항목 초과</th><th>주문 계획 미해결</th><th>계산·주문 검사 실패</th></tr></thead><tbody id="guarded-rows"></tbody></table></div><p class="footnote">전체 위험 항목을 검사하지 않았던 비교군은 미측정으로 표시합니다. 기존 변동성·CVaR 초과일과 새 전체 항목 진단은 정의가 다릅니다. 비교군의 위험 정책 차이도 함께 고려해야 합니다. 주문 계획 미해결은 수정안의 최종 검사 기준이며, 계산·주문 검사 실패는 최적화 계산 중단과 산출 주문의 최종 검사 거절을 포함한 사건 수입니다. 실패 날짜 수나 실제 위험 초과와 구분합니다.</p><p class="context breach">기존 v0.2 체결 후보에는 순주문 비용과 계획 비용이 달라질 수 있는 결함이 확인됐습니다. 그 장부는 비교용으로 보존하며, 계획의 위험 준수를 입증하는 자료로 사용하지 않습니다.</p><h3>같은 전망에서 실행 구조를 바꾼 차이</h3><div class="table-wrap panel"><table><thead><tr><th>수정 후보</th><th>비교 후보</th><th>누적 수익 차이</th><th>변동성 비율</th><th>판단일</th></tr></thead><tbody id="guarded-effects"></tbody></table></div><p class="footnote">수익 차이는 해당 기간의 %p 차이입니다. 변동성 비율이 1보다 작으면 수정안의 흔들림이 작습니다. 이미 본 자료의 비교이며, 통계 구간도 독립 검증이나 수익 보장이 아닙니다.</p><h3>수익과 변동성의 95% 구간</h3><div class="table-wrap panel"><table><caption class="sr-only">같은 날짜를 묶어 재표집한 수익 차이와 변동성 비율</caption><thead><tr><th>수정 후보</th><th>비교 후보</th><th>묶음</th><th>연 수익 차이 구간</th><th>변동성 비율 구간</th><th>해석</th></tr></thead><tbody id="guarded-uncertainty"></tbody></table></div><p class="footnote">10·20·60일 묶음을 각각 2,000회 재표집했습니다. 수익 구간은 누적 차이가 아닌 연환산 차이입니다. 변동성 비율 구간이 1을 포함하면 감소를 단정할 수 없습니다. 기간이 부족하거나 재표집된 비교군의 변동성이 0이면 산출 불가로 남깁니다. 이미 본 기간의 설명용 구간이며 미사용 자료의 검증을 대신하지 않습니다.</p><p class="context">모델 채택 보류 · 앞으로 쌓은 모의·실전 관찰 각 0일 · 최종 주문 검사 후에도 가격 급변·부분 체결에 따른 위험을 다시 확인해야 합니다.</p>';
     document.querySelector('main').insertBefore(section,document.querySelector('main > footer'));
     if(data.guarded_holdings)section.querySelector('.context').textContent='각 기간마다 같은 1억 원에서 새로 시작했습니다. 수익과 함께 변동성·주식 비중을 확인하세요. 위 계좌 선택에서 각 수정안의 요청·승인·체결 후 비중을 확인할 수 있습니다.';
     const show=()=>{
@@ -232,13 +242,15 @@
       $('guarded-rows').innerHTML=rows.map(m=>`<tr class="${m.family==='guarded'?'highlight':''}"><td>${esc(m.label)}</td><td>${pct(m.total_return)}</td><td>${pct(m.volatility)}</td><td>${pct(m.max_drawdown)}</td><td>${pct(m.equity_mean,1)}</td><td>${money(m.trade_cost_krw+m.fx_cost_krw)}</td><td>${diagnosticDays(m.postfill_risk_breach_days)}</td><td>${diagnosticDays(m.postfill_all_constraint_breach_days)}</td><td>${diagnosticDays(m.guard_unresolved_days)}</td><td>${number(m.solver_failures)}건</td></tr>`).join('');
       const label=(family,variant)=>rows.find(m=>m.family===family&&m.variant===variant)?.label||variant;
       $('guarded-effects').innerHTML=research.paired_comparisons.filter(c=>c.period===period&&c.scenario===scenario).map(c=>`<tr><td>${esc(label('guarded',c.variant))}</td><td>${esc(label('frozen_v02',c.reference_variant))}</td><td>${number(c.cumulative_return_difference*100,2)}%p</td><td>${Number.isFinite(c.volatility_ratio)?number(c.volatility_ratio,3):'산출 불가'}</td><td>${number(c.decision_days)}일</td></tr>`).join('');
+      $('guarded-uncertainty').innerHTML=guardedUncertaintyRows(research,period,scenario).map(c=>`<tr><td>${esc(label('guarded',c.variant))}</td><td>${esc(label('frozen_v02',c.reference_variant))}</td><td>${c.block_days}일</td><td>${esc(c.return_range)}</td><td>${esc(c.volatility_range)}</td><td>${esc(c.status)}</td></tr>`).join('');
     };
     $('guarded-period').addEventListener('change',show);$('guarded-scenario').addEventListener('change',show);show();
     $('period').textContent=data.period.join(' — ')+' · v0.1 과거 계좌 재현';
-    const latest=guardedRows(research,'extension','base'),candidate=latest.find(m=>m.family==='guarded'&&m.variant==='combined');
-    const original=latest.find(m=>m.family==='frozen_v02'&&m.variant==='reference');
+    const matched=research.metrics.filter(m=>m.family==='guarded').map(m=>({candidate:m,reference:research.metrics.find(r=>r.family==='frozen_v02'&&r.variant==='reference'&&r.period===m.period&&r.scenario===m.scenario)})).filter(m=>m.reference);
+    const higher=matched.filter(m=>m.candidate.total_return>m.reference.total_return).length;
+    const lowerVol=matched.filter(m=>m.candidate.volatility<m.reference.volatility).length;
     const card=document.querySelector('.decision-card');card.querySelector('h3').textContent='최종 주문 검사까지 추가한 결과';
-    card.querySelector('p').textContent=`추가 기간 순수익: 주문 재검사 + 보정 ${pct(candidate.total_return)}, v0.1 ${pct(original.total_return)}. 수정안의 모든 위험 항목 초과 ${diagnosticDays(candidate.postfill_all_constraint_breach_days)}. 과거 개발 결과로 채택을 확정하지 않습니다.`;
+    card.querySelector('p').textContent=`같은 기간·체결 조건의 v0.1 대비 ${matched.length}개 조건 중 수익이 높았던 조건은 ${higher}개, 변동성이 낮았던 조건은 ${lowerVol}개입니다. 수익 우위는 일관되지 않았으며, 최종 주문 검사 후에도 위험 항목 초과가 남았습니다. 전체 비교를 바탕으로 채택을 보류합니다.`;
     card.querySelector('a').href='#guarded-comparison';card.querySelector('a').textContent='모든 후보 비교 보기 →';
   }
   if(data.v02_research?.known_defects?.items?.some(item=>item.id==='candidate-boundary-ties-follow-ticker-order')){

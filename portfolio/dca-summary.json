@@ -2,9 +2,11 @@
   "dca_archive_sha256": "33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0",
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
   "corporate_action_diagnostic_archive_sha256": "3caa2cc01e0aaa2ed58dc54886f8df4045898615e07713b0db6a9eba96c017b4",
-  "complete_guarded": false,
-  "guarded_comparison_archive_sha256": null,
-  "guarded_holdings_archive_sha256": null,
+  "complete_guarded": true,
+  "guarded_comparison_archive_sha256": "f983c2361444c4c68502f70809e4fc781cd9402a17f0cbd929ab06853820ed33",
+  "guarded_holdings_archive_sha256": "01aa46d74a2038fceba088fec35780e4502a416fc9a4b3138c429c12976f4961",
+  "guarded_failure_audit_archive_sha256": "9190bf8c0cddb051e48f6d0cf224f11f7afab222bdb48cb5a4752d8ec99d4c05",
+  "guarded_risk_detail_archive_sha256": "85391b8066c11dee9b229b3e75175eb458f3e41c41acdad8f0c85cc2195b4ea6",
   "metrics": [
     {
       "strategy": "cash",

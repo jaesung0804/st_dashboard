@@ -1,6 +1,6 @@
 <!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>한미 통합 일별 포트폴리오와 소액 적립식 운용 · ST Research</title><style>body{margin:0;background:#f4f7f8;color:#192e3d;font-family:Malgun Gothic,Arial,sans-serif;line-height:1.85}header,main{max-width:1080px;margin:auto;padding:30px 30px}header{padding-bottom:12px}a{color:#137b7b;text-underline-offset:3px}nav{display:flex;gap:25px;flex-wrap:wrap}h1{font-size:36px;line-height:1.4;letter-spacing:-1px;max-width:850px}h2{font-size:25px;margin:50px 0 20px;padding-top:20px;border-top:2px solid #d8e4e8}h3{font-size:18px;margin-top:30px}p{font-size:16px;max-width:960px;overflow-wrap:anywhere}figure{margin:28px 0;background:white;padding:14px;border:1px solid #d8e4e8;border-radius:12px}img{display:block;width:100%;height:auto}figcaption,.meta{font-size:13px;color:#586e7d}.table-wrap{overflow-x:auto;background:white;border:1px solid #d8e4e8;border-radius:10px}table{border-collapse:collapse;width:100%;font-size:13px;min-width:660px}td,th{padding:12px 14px;text-align:left;border-bottom:1px solid #e3eaee;vertical-align:top}th{background:#edf3f5;white-space:nowrap}.notice{background:#fff3df;border-left:4px solid #b67425;padding:18px}.equation{background:#e8f2f1;padding:22px;overflow:auto;font-family:Georgia,serif;font-size:18px}.reference{font-size:13px;overflow-wrap:anywhere}.hero{background:#e9f2f2;border-radius:18px;padding:24px}.download{display:inline-block;padding:9px 18px;background:#147d78;color:white;border-radius:8px;text-decoration:none}.contents{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px}@media(max-width:650px){header,main{padding:20px 16px}h1{font-size:27px}h2{font-size:22px}p{font-size:15px}figure{padding:5px;margin-left:-5px;margin-right:-5px}.hero{padding:18px}td,th{padding:10px}.equation{font-size:15px}}</style>
 <header><nav><a href="./">포트폴리오 대시보드</a><a href="../investment/">한미 종목 탐색</a><a href="#dca">100만 원 적립식 결과</a></nav></header><main>
-<div class="hero"><p class="meta">ST RESEARCH · 연구 중간보고서 · 최종 주문 재검사 비교 진행 중 · 실제 주문 비활성</p><h1>한미 통합 일별 포트폴리오와 소액 적립식 운용</h1><p>수익을 먼저 높이고, 비슷한 수익이면 덜 흔들리게.<br>서론부터 설계·비교 실험·1년 적립식 결과·개선 과제까지.</p>
+<div class="hero"><p class="meta">ST RESEARCH · 연구 종합보고서 · 실제 주문 비활성</p><h1>한미 통합 일별 포트폴리오와 소액 적립식 운용</h1><p>수익을 먼저 높이고, 비슷한 수익이면 덜 흔들리게.<br>서론부터 설계·비교 실험·1년 적립식 결과·개선 과제까지.</p>
 <a class="download" href="paper.pdf" download>논문 형식 PDF 받기</a>
 </div>
 <h2 id="section-0">초록</h2>
@@ -65,8 +65,197 @@
 </tbody></table></div>
 <p class="p">개발 기간의 v0.1은 기존 순위 모델보다 수익과 낙폭이 개선됐으나, 초기 80% 주식 유지의 수익을 넘지 못했다. 비중 차이 1%p 매매 규칙은 수익 49.91%·변동성 11.95%로 v0.2 결합 후보의 47.18%·12.08%보다 좋았다. 추가 기간에서는 결합 후보와 단순 규칙의 순서가 바뀌었다. 복잡한 설계가 단순 규칙보다 일관되게 우월하다는 증거는 없다.</p>
 <p class="p">v0.2의 하루 지연 개발 조건에서 체결 수정 단독과 결합 후보는 각각 41건·44건의 계산 실패를 기록했다. 높은 장부 수익을 실행 안정성의 증거로 사용할 수 없다. 순주문 비용 불일치와 상위 20개 경계의 동점 처리 문제를 원본과 함께 보존했으며, 최종 주문 재검사 후보는 별도로 비교한다. 평균 편향을 줄이는 보정도 전체 분포의 보정과 동일하지 않았다.</p>
-<p class="notice">최종 주문 재검사 수정안의 8개 조건 비교는 진행 중이다. 이 절에는 완료·보관된 이전 결과만 넣었다. 전체 수정안 비교와 보유 장부가 검증되면 이 보고서를 갱신한다.</p>
-<p class="link"><a href="return-risk.html">전체 완료 후보 44행의 수익·변동성 비교</a></p>
+<h3>최종 주문 재검사 · 사전 지정된 전체 비교</h3>
+<p class="p">같은 전망·초기 계좌·위험 한도에서 최종 순주문 비용과 환전·체결 가능성을 다시 확인한 수정안을 비교했다. 개발·추가 기간, 기본·하루 지연 체결을 모두 표시한다. 아래 34개 집계 행에는 새 수정안의 8개 조건과 기존 대조 조건이 함께 들어 있다. 별도 자료의 기존 44개 조건과 일부가 겹치므로 행 수를 단순히 더하지 않는다. 매일 매매·비중 차이 규칙까지 포함한 기존 비교도 함께 확인한다.</p>
+<p class="p">같은 기간·체결 조건의 v0.1과 비교하면 새 후보 8개 조건 중 누적 순수익이 높은 조건은 4개, 낮은 조건은 4개였다. 실현 변동성의 점 추정치는 8개 조건에서 더 낮았다. 수익을 줄이고 변동성을 낮춘 경우도 포함되므로 이를 동일한 수익에서의 일관된 개선으로 해석하지 않는다.</p>
+<p class="p">아래 16개 사전 지정 대응 비교에서 계산 가능한 연 수익 차이 구간은 40개이며, 그 하한이 0보다 큰 구간은 0개였다. 이는 이미 본 자료의 기술적 재표본 구간이다. 수익 우위의 독립 검증이나 운영 채택을 뜻하지 않으며, 짧은 추가 기간과 체결 지연에서 순서가 달라지는지 함께 본다.</p>
+<h3>개발 기간 · 기본 체결</h3>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>38.82%</td><td>11.02%</td><td>-8.07%</td><td>45.02%</td></tr>
+<tr><td>주문 재검사</td><td>47.72%</td><td>11.46%</td><td>-7.25%</td><td>47.33%</td></tr>
+<tr><td>v0.1 그대로</td><td>44.61%</td><td>12.45%</td><td>-8.16%</td><td>48.84%</td></tr>
+<tr><td>v0.2 체결 구조</td><td>44.08%</td><td>12.26%</td><td>-7.61%</td><td>53.45%</td></tr>
+<tr><td>수익 보정만</td><td>44.52%</td><td>11.68%</td><td>-8.01%</td><td>48.62%</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>47.18%</td><td>12.08%</td><td>-9.28%</td><td>49.80%</td></tr>
+<tr><td>기존 순위 모델</td><td>34.16%</td><td>17.30%</td><td>-17.66%</td><td>69.04%</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>51.32%</td><td>18.87%</td><td>-17.50%</td><td>79.85%</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>55.76%</td><td>20.42%</td><td>-20.75%</td><td>82.53%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>거래·환전 비용</th><th>변동성·CVaR 초과일</th><th>모든 한도 초과일</th><th>주문 검사 미해결일</th><th>계산·주문 검사 실패 건</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>3,828,431원</td><td>1</td><td>117</td><td>43</td><td>21</td></tr>
+<tr><td>주문 재검사</td><td>4,133,813원</td><td>0</td><td>127</td><td>41</td><td>17</td></tr>
+<tr><td>v0.1 그대로</td><td>3,994,779원</td><td>1</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 구조</td><td>3,346,523원</td><td>1</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>수익 보정만</td><td>4,130,155원</td><td>6</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>3,620,686원</td><td>2</td><td>미측정</td><td>해당 검사 없음</td><td>1</td></tr>
+<tr><td>기존 순위 모델</td><td>18,176,750원</td><td>193</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>4,080,856원</td><td>391</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>0원</td><td>391</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>누적 수익 차이</th><th>변동성 비율</th><th>연 수익 차이의 95% 구간</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>-5.71%p</td><td>0.943</td><td>10일: -9.93%p ~ +2.37%p; 20일: -9.57%p ~ +2.13%p; 60일: -8.99%p ~ +1.63%p</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>-8.37%p</td><td>0.913</td><td>10일: -12.30%p ~ +0.94%p; 20일: -13.37%p ~ +1.42%p; 60일: -13.17%p ~ +1.83%p</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>+3.64%p</td><td>0.935</td><td>10일: -5.88%p ~ +9.86%p; 20일: -5.39%p ~ +9.70%p; 60일: -5.97%p ~ +9.70%p</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>+3.11%p</td><td>0.921</td><td>10일: -5.54%p ~ +8.59%p; 20일: -5.46%p ~ +8.24%p; 60일: -4.06%p ~ +6.99%p</td></tr>
+</tbody></table></div>
+<p class="p">변동성 비율의 95% 구간: 1을 포함하면 이 구간으로 변동성 감소를 단정할 수 없다. 수익 차이의 구간과 함께 확인한다.</p>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>10일 묶음</th><th>20일 묶음</th><th>60일 묶음</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>0.882 ~ 0.981</td><td>0.876 ~ 0.981</td><td>0.885 ~ 0.971</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>0.874 ~ 0.960</td><td>0.880 ~ 0.961</td><td>0.884 ~ 0.968</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>0.873 ~ 0.996</td><td>0.870 ~ 0.999</td><td>0.869 ~ 0.987</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>0.869 ~ 0.967</td><td>0.874 ~ 0.965</td><td>0.871 ~ 0.967</td></tr>
+</tbody></table></div>
+<h3>개발 기간 · 하루 지연</h3>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>52.97%</td><td>10.89%</td><td>-7.76%</td><td>43.32%</td></tr>
+<tr><td>주문 재검사</td><td>47.98%</td><td>10.34%</td><td>-5.91%</td><td>43.53%</td></tr>
+<tr><td>v0.1 그대로</td><td>37.75%</td><td>12.81%</td><td>-8.57%</td><td>46.95%</td></tr>
+<tr><td>v0.2 체결 구조</td><td>53.01%</td><td>10.57%</td><td>-5.74%</td><td>45.49%</td></tr>
+<tr><td>수익 보정만</td><td>37.89%</td><td>12.10%</td><td>-8.65%</td><td>44.41%</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>50.78%</td><td>11.05%</td><td>-8.09%</td><td>40.08%</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>51.97%</td><td>18.88%</td><td>-17.00%</td><td>79.90%</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>55.76%</td><td>20.42%</td><td>-20.75%</td><td>82.53%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>거래·환전 비용</th><th>변동성·CVaR 초과일</th><th>모든 한도 초과일</th><th>주문 검사 미해결일</th><th>계산·주문 검사 실패 건</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>2,797,624원</td><td>2</td><td>87</td><td>40</td><td>49</td></tr>
+<tr><td>주문 재검사</td><td>2,787,587원</td><td>1</td><td>78</td><td>30</td><td>15</td></tr>
+<tr><td>v0.1 그대로</td><td>10,102,147원</td><td>10</td><td>미측정</td><td>해당 검사 없음</td><td>1</td></tr>
+<tr><td>v0.2 체결 구조</td><td>3,171,781원</td><td>4</td><td>미측정</td><td>해당 검사 없음</td><td>41</td></tr>
+<tr><td>수익 보정만</td><td>11,277,988원</td><td>14</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>3,197,914원</td><td>9</td><td>미측정</td><td>해당 검사 없음</td><td>44</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>4,197,686원</td><td>390</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>0원</td><td>391</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>누적 수익 차이</th><th>변동성 비율</th><th>연 수익 차이의 95% 구간</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>+15.08%p</td><td>0.901</td><td>10일: -2.41%p ~ +17.82%p; 20일: -4.11%p ~ +17.90%p; 60일: -3.27%p ~ +18.36%p</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>+2.19%p</td><td>0.986</td><td>10일: -7.71%p ~ +9.56%p; 20일: -9.20%p ~ +9.72%p; 60일: -9.52%p ~ +10.20%p</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>-5.03%p</td><td>0.978</td><td>10일: -12.46%p ~ +6.93%p; 20일: -13.14%p ~ +6.80%p; 60일: -13.96%p ~ +7.42%p</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>+10.23%p</td><td>0.807</td><td>10일: -3.89%p ~ +13.98%p; 20일: -3.25%p ~ +14.11%p; 60일: -2.62%p ~ +13.34%p</td></tr>
+</tbody></table></div>
+<p class="p">변동성 비율의 95% 구간: 1을 포함하면 이 구간으로 변동성 감소를 단정할 수 없다. 수익 차이의 구간과 함께 확인한다.</p>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>10일 묶음</th><th>20일 묶음</th><th>60일 묶음</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>0.847 ~ 0.947</td><td>0.840 ~ 0.944</td><td>0.846 ~ 0.932</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>0.937 ~ 1.039</td><td>0.930 ~ 1.034</td><td>0.935 ~ 1.027</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>0.902 ~ 1.050</td><td>0.894 ~ 1.056</td><td>0.884 ~ 1.067</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>0.746 ~ 0.890</td><td>0.746 ~ 0.895</td><td>0.756 ~ 0.886</td></tr>
+</tbody></table></div>
+<h3>추가 기간 · 기본 체결</h3>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>14.81%</td><td>15.80%</td><td>-3.18%</td><td>44.11%</td></tr>
+<tr><td>주문 재검사</td><td>6.73%</td><td>15.32%</td><td>-4.72%</td><td>36.55%</td></tr>
+<tr><td>v0.1 그대로</td><td>8.37%</td><td>16.26%</td><td>-4.87%</td><td>37.90%</td></tr>
+<tr><td>v0.2 체결 구조</td><td>7.00%</td><td>15.66%</td><td>-5.05%</td><td>39.01%</td></tr>
+<tr><td>수익 보정만</td><td>10.01%</td><td>16.33%</td><td>-4.19%</td><td>52.13%</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>11.54%</td><td>16.33%</td><td>-3.91%</td><td>53.66%</td></tr>
+<tr><td>기존 순위 모델</td><td>18.58%</td><td>17.26%</td><td>-2.96%</td><td>63.79%</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>40.42%</td><td>27.45%</td><td>-6.42%</td><td>80.11%</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>33.66%</td><td>27.93%</td><td>-7.42%</td><td>83.96%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>거래·환전 비용</th><th>변동성·CVaR 초과일</th><th>모든 한도 초과일</th><th>주문 검사 미해결일</th><th>계산·주문 검사 실패 건</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>452,677원</td><td>12</td><td>32</td><td>28</td><td>26</td></tr>
+<tr><td>주문 재검사</td><td>501,310원</td><td>5</td><td>25</td><td>9</td><td>5</td></tr>
+<tr><td>v0.1 그대로</td><td>548,434원</td><td>5</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 구조</td><td>558,891원</td><td>1</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>수익 보정만</td><td>709,821원</td><td>4</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>756,604원</td><td>0</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>기존 순위 모델</td><td>2,463,203원</td><td>23</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>451,916원</td><td>48</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>0원</td><td>48</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>누적 수익 차이</th><th>변동성 비율</th><th>연 수익 차이의 95% 구간</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>+4.79%p</td><td>0.968</td><td>10일: -6.67%p ~ +87.42%p; 20일: -10.22%p ~ +74.92%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>+3.26%p</td><td>0.968</td><td>10일: -32.31%p ~ +71.88%p; 20일: -35.47%p ~ +64.24%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>-0.27%p</td><td>0.978</td><td>10일: -24.91%p ~ +6.30%p; 20일: -25.29%p ~ +5.42%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>-1.64%p</td><td>0.942</td><td>10일: -44.98%p ~ +0.28%p; 20일: -46.03%p ~ +0.18%p; 60일: 산출 불가</td></tr>
+</tbody></table></div>
+<p class="p">변동성 비율의 95% 구간: 1을 포함하면 이 구간으로 변동성 감소를 단정할 수 없다. 수익 차이의 구간과 함께 확인한다.</p>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>10일 묶음</th><th>20일 묶음</th><th>60일 묶음</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>0.883 ~ 1.041</td><td>0.876 ~ 1.035</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>0.847 ~ 1.023</td><td>0.844 ~ 1.023</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>0.933 ~ 1.001</td><td>0.932 ~ 0.999</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>0.851 ~ 0.969</td><td>0.852 ~ 0.970</td><td>산출 불가</td></tr>
+</tbody></table></div>
+<h3>추가 기간 · 하루 지연</h3>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>8.26%</td><td>15.27%</td><td>-3.49%</td><td>41.21%</td></tr>
+<tr><td>주문 재검사</td><td>7.72%</td><td>15.58%</td><td>-4.04%</td><td>34.31%</td></tr>
+<tr><td>v0.1 그대로</td><td>10.72%</td><td>16.09%</td><td>-4.18%</td><td>37.16%</td></tr>
+<tr><td>v0.2 체결 구조</td><td>6.65%</td><td>15.36%</td><td>-4.81%</td><td>35.72%</td></tr>
+<tr><td>수익 보정만</td><td>9.60%</td><td>16.29%</td><td>-3.99%</td><td>45.60%</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>12.23%</td><td>15.92%</td><td>-2.83%</td><td>43.18%</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>39.79%</td><td>27.30%</td><td>-6.52%</td><td>80.24%</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>33.66%</td><td>27.93%</td><td>-7.42%</td><td>83.96%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>후보</th><th>거래·환전 비용</th><th>변동성·CVaR 초과일</th><th>모든 한도 초과일</th><th>주문 검사 미해결일</th><th>계산·주문 검사 실패 건</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정</td><td>459,479원</td><td>3</td><td>13</td><td>7</td><td>17</td></tr>
+<tr><td>주문 재검사</td><td>370,887원</td><td>3</td><td>23</td><td>6</td><td>14</td></tr>
+<tr><td>v0.1 그대로</td><td>916,569원</td><td>15</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 구조</td><td>422,181원</td><td>8</td><td>미측정</td><td>해당 검사 없음</td><td>7</td></tr>
+<tr><td>수익 보정만</td><td>1,732,027원</td><td>12</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>v0.2 체결 + 보정</td><td>446,334원</td><td>5</td><td>미측정</td><td>해당 검사 없음</td><td>2</td></tr>
+<tr><td>유동성 상위 동일비중</td><td>437,465원</td><td>48</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+<tr><td>초기 80% 그대로 보유</td><td>0원</td><td>48</td><td>미측정</td><td>해당 검사 없음</td><td>0</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>누적 수익 차이</th><th>변동성 비율</th><th>연 수익 차이의 95% 구간</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>-1.34%p</td><td>0.937</td><td>10일: -70.04%p ~ +20.10%p; 20일: -72.40%p ~ +16.66%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>-3.97%p</td><td>0.959</td><td>10일: -73.97%p ~ -3.63%p; 20일: -66.69%p ~ -7.81%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>+1.07%p</td><td>1.014</td><td>10일: -16.19%p ~ +31.12%p; 20일: -13.56%p ~ +21.04%p; 60일: 산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>-3.00%p</td><td>0.968</td><td>10일: -60.32%p ~ -3.17%p; 20일: -57.40%p ~ -5.08%p; 60일: 산출 불가</td></tr>
+</tbody></table></div>
+<p class="p">변동성 비율의 95% 구간: 1을 포함하면 이 구간으로 변동성 감소를 단정할 수 없다. 수익 차이의 구간과 함께 확인한다.</p>
+<div class="table-wrap"><table><thead><tr><th>수정안 / 비교군</th><th>10일 묶음</th><th>20일 묶음</th><th>60일 묶음</th></tr></thead><tbody>
+<tr><td>주문 재검사 + 수익 보정 / 수익 보정만</td><td>0.755 ~ 0.991</td><td>0.765 ~ 0.991</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 + 수익 보정 / v0.2 체결 + 보정</td><td>0.822 ~ 1.000</td><td>0.854 ~ 0.989</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.2 체결 구조</td><td>0.976 ~ 1.184</td><td>0.983 ~ 1.184</td><td>산출 불가</td></tr>
+<tr><td>주문 재검사 / v0.1 그대로</td><td>0.828 ~ 1.027</td><td>0.834 ~ 1.026</td><td>산출 불가</td></tr>
+</tbody></table></div>
+<p class="p">누적 수익 차이는 같은 기간의 수정안 수익에서 비교군 수익을 뺀 값이며, 변동성 비율은 1보다 작을 때 수정안이 덜 흔들렸다. 수익 구간은 누적 차이와 다른 연환산 수익 차이다. 변동성 비율과 함께 같은 날짜를 10·20·60일 묶음으로 각각 2,000회 재표집했다. 추가 기간은 48일이어서 60일 묶음은 산출하지 못한다. 재표집된 비교군의 변동성이 0이면 비율 구간도 산출 불가로 남긴다. 이미 본 기간과 여러 후보의 비교이므로 유리한 구간이 나와도 독립 검증이나 운영 채택을 의미하지 않는다.</p>
+<p class="p">기존 모델의 변동성·CVaR 초과일과 수정안의 모든 한도 초과일은 정의가 다르다. 이전에 측정하지 않은 값을 0으로 채우지 않는다. 계산·주문 검사 실패는 최적화 계산 중단과 산출 주문의 최종 검사 거절을 함께 센 사건 수다. 하루에 여러 번 발생할 수 있고, 해가 없다는 수학적 증명과 같지 않다. 주문 검사 통과와 실제 체결 후 위험 준수도 별도로 평가한다. 이 수정안은 소수 연구 주수와 선언된 가격·환율 시나리오를 사용하며 아래 적립식 정수 주수 실험과 다른 계좌다.</p>
+<p class="p">최종 주문 검사는 선언된 후보를 순서대로 고르는 방식이며 전역 최적 주문을 보장하지 않는다. 기존 상위 20개 경계의 동점 종목 선택 문제도 공통으로 남아 있다. 실제 원주수·부분 체결·공식 기업행사·최신 계좌 자료를 연결한 독립 모의 운용은 후속 과제다.</p>
+<p class="p">최종 주문 재검사 전체 비교 아카이브 SHA-256: f983c2361444c4c68502f70809e4fc781cd9402a17f0cbd929ab06853820ed33</p>
+<p class="link"><a href="./#guarded-research">최종 주문 재검사 전체 비교와 계좌 보기</a></p>
+<p class="p">8개 계좌의 전체 날짜를 저장된 최종 주문으로 다시 계산해 자산·현금·비용·회전액을 원본 장부와 대조했다. 공개 대시보드에서는 계좌별 최근 25개 판단일의 요청 비중·승인 비중·체결 후 비중을 구분해 볼 수 있다. 보유 내역 재현 아카이브 SHA-256: 01aa46d74a2038fceba088fec35780e4502a416fc9a4b3138c429c12976f4961</p>
+<h3>실패 기록의 분류와 그날의 최종 계좌 상태</h3>
+<p class="p">8개 조건의 실패 기록을 모두 대조했다. 최종 주문 거절은 계산된 주문이 선언된 검사를 통과하지 못한 사건이며, 분산 단계의 정확도 부족이나 계산기 예외와 구분한다. 원인을 확정하는 분류가 아니라 기록된 실패 단계를 분류한 것이다. 실패가 없는 조건도 0으로 남긴다.</p>
+<p class="p">전체 기록 164건 중 최종 주문 거절은 157건, 분산 단계 정확도 부족은 6건, 기타 단계 정확도 부족은 0건, 계산기 예외는 1건, 기타 기록은 0건이었다. 검사 범위가 다른 이전 모델의 총실패 건수와 직접 비교해 계산 안정성이 좋아졌다고 판단하지 않는다.</p>
+<div class="table-wrap"><table><thead><tr><th>조건</th><th>최종 주문 거절</th><th>분산 정확도 부족</th><th>기타 단계 정확도 부족</th><th>계산기 예외</th><th>기타 기록</th></tr></thead><tbody>
+<tr><td>개발 · 재검사+보정 · 기본</td><td>20</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사+보정 · 하루 지연</td><td>47</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사 · 기본</td><td>16</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사 · 하루 지연</td><td>13</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사+보정 · 기본</td><td>26</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사+보정 · 하루 지연</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사 · 기본</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사 · 하루 지연</td><td>13</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>조건</th><th>실패 건 / 날짜</th><th>최종 실행 표시일</th><th>최종 검사 미해결일</th><th>체결 후 한도 초과일</th></tr></thead><tbody>
+<tr><td>개발 · 재검사+보정 · 기본</td><td>21건 / 21일</td><td>14</td><td>19</td><td>14</td></tr>
+<tr><td>개발 · 재검사+보정 · 하루 지연</td><td>49건 / 46일</td><td>41</td><td>10</td><td>17</td></tr>
+<tr><td>개발 · 재검사 · 기본</td><td>17건 / 17일</td><td>9</td><td>15</td><td>11</td></tr>
+<tr><td>개발 · 재검사 · 하루 지연</td><td>15건 / 13일</td><td>9</td><td>6</td><td>5</td></tr>
+<tr><td>추가 · 재검사+보정 · 기본</td><td>26건 / 26일</td><td>18</td><td>25</td><td>24</td></tr>
+<tr><td>추가 · 재검사+보정 · 하루 지연</td><td>17건 / 17일</td><td>15</td><td>3</td><td>7</td></tr>
+<tr><td>추가 · 재검사 · 기본</td><td>5건 / 5일</td><td>4</td><td>5</td><td>5</td></tr>
+<tr><td>추가 · 재검사 · 하루 지연</td><td>14건 / 12일</td><td>9</td><td>2</td><td>6</td></tr>
+</tbody></table></div>
+<p class="p">날짜 집계는 실패가 기록된 날에만 한정한다. 당일 판단과 지연 주문 재검사에서 같은 날 각각 실패해도 날짜는 한 번 센다. 최종 실행 표시는 모든 주문이 체결됐거나 위험이 해소됐다는 뜻이 아니다. 같은 날의 상태를 연결한 결과이므로 특정 실패가 수익이나 손실의 원인이었다고 해석하지 않는다. 전체 기간의 한도 초과일은 앞의 성과표에서 확인한다.</p>
+<p class="p">세부 검사값을 해석하지 못한 주문 거절은 0건이며, 해당 사건도 주문 거절 합계에 포함했다. 검사 오차는 서로 다른 제약의 잔차여서 손실률로 해석하지 않는다. 이 분석에서 계산 허용 오차를 완화하거나 새 최적화를 수행하지 않았다.</p>
+<p class="p">전체 실패 기록 검증 아카이브 SHA-256: 9190bf8c0cddb051e48f6d0cf224f11f7afab222bdb48cb5a4752d8ec99d4c05</p>
+<h3>체결 후 어느 한도를 넘었는가</h3>
+<p class="p">종목 목표 검사는 일반 종목 5%, 공동 이력이 짧은 종목 2%를 기준으로 하며, 별도의 강제 비중 한도 8%와 다르다. 따라서 모든 항목 초과일을 강제 비중 한도 초과일로 읽으면 안 된다. 아래는 전체 기간의 원래 검사 기준으로 센 날짜이며, 같은 날 여러 항목을 넘을 수 있어 열을 더하지 않는다.</p>
+<div class="table-wrap"><table><thead><tr><th>조건</th><th>어떤 항목이든</th><th>종목 목표</th><th>변동성</th><th>충격 손실</th><th>CVaR</th><th>강제 비중</th></tr></thead><tbody>
+<tr><td>개발 · 재검사+보정 · 기본</td><td>117</td><td>111</td><td>1</td><td>12</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사+보정 · 하루 지연</td><td>87</td><td>83</td><td>2</td><td>6</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사 · 기본</td><td>127</td><td>120</td><td>0</td><td>27</td><td>0</td><td>0</td></tr>
+<tr><td>개발 · 재검사 · 하루 지연</td><td>78</td><td>76</td><td>1</td><td>8</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사+보정 · 기본</td><td>32</td><td>24</td><td>14</td><td>16</td><td>1</td><td>0</td></tr>
+<tr><td>추가 · 재검사+보정 · 하루 지연</td><td>13</td><td>10</td><td>3</td><td>2</td><td>1</td><td>0</td></tr>
+<tr><td>추가 · 재검사 · 기본</td><td>25</td><td>23</td><td>8</td><td>3</td><td>0</td><td>0</td></tr>
+<tr><td>추가 · 재검사 · 하루 지연</td><td>23</td><td>20</td><td>3</td><td>2</td><td>1</td><td>0</td></tr>
+</tbody></table></div>
+<p class="p">나머지 검사 항목의 8개 조건 합계: 주식 총비중 0계좌일 · 달러 노출 0계좌일 · 국가 비중 0계좌일 · 상관 종목군 0계좌일. 관찰된 단일 종목 비중의 최댓값은 6.42%였다. 목표 비중 초과와 충격·변동성·CVaR 초과를 분리해서 개선해야 한다. 이 집계만으로 가격 변화, 거래 불가능 상태, 전망 변화 또는 계산 실패 중 무엇이 원인이었는지는 확정하지 않는다.</p>
+<p class="p">잔차 기준 2e-7과 강제 비중 검사 허용 오차 1e-8을 그대로 유지했다. 위 새 검사와 기존 변동성·CVaR 초과일은 허용 오차가 다르다. 이 기록은 다음 평가 시점의 한도 진단이며 미래 실제 손실의 상한을 보증하지 않는다. 위험 세부 진단 아카이브 SHA-256: 85391b8066c11dee9b229b3e75175eb458f3e41c41acdad8f0c85cc2195b4ea6</p>
+<p class="link"><a href="return-risk.html">단순 매매 규칙을 포함한 기존 44개 조건의 수익·변동성 비교</a></p>
 <h2 id="dca">6. 초기 100만 원 + 월 100만 원의 1년 적립식 실험</h2>
 <p class="p">2025-04-01에 100만 원으로 시작하고, 이후 매월 첫 공동 평일에 100만 원씩 11회 납입하여 2026-03-31까지 운용하였다. 총 납입액은 1,200만 원이다. 모두 현금에서 시작하며 기존 1억 원 계좌의 수익률을 축소 복사하지 않았다. 같은 과거 예측을 고정하고 각 소액 계좌의 실제 잔액·보유 정수 주수에서 다시 배분하였다.</p>
 <p class="p">처음에는 100만 원보다 비싼 1주를 살 수 없다. 종목 목표 5% 한도까지 적용하면 초기 종목별 목표액은 5만 원이며, 계좌가 1,200만 원일 때도 60만 원이다. 최소 주문 5만 원과 정수 반올림이 겹치면 목표 비중보다 적게 사거나 전혀 못 살 수 있다. 이를 숨기지 않고 기본 조건을 유지했다. 최소 주문만 5천 원으로 낮춘 별도 민감도 실험은 이 마찰을 확인하는 비교다.</p>
@@ -120,7 +309,7 @@
 <p class="p">주총 전일 가격을 과거 배당락일 판단에 미리 넣지 않고 종료 시점 평가 민감도에만 사용했다. 실제 배당 지급일·단주 현금 반올림·세금과 모든 기업행사를 확인한 것은 아니다. 후속 장부는 주식배당과 주식분할을 구분하고, 배당 대상 기존 주수·새 주식 권리·거래 가능일·현금 지급일을 각각 기록해야 한다. 진단 아카이브 SHA-256: 3caa2cc01e0aaa2ed58dc54886f8df4045898615e07713b0db6a9eba96c017b4</p>
 <h3>비용과 환율</h3>
 <p class="p">모든 전략에 동일한 2026-10-09 토스 비용 가정을 적용했다. 국내 수수료 0.015%·매도세 0.20%, 미국 수수료 0.1%·매도 SEC Fee 0.00206% 및 최소금액·반올림, 주간 환전 스프레드 0.05%, 편도 체결 마찰 0.05%를 포함한다. 과거 실제 요금표가 아닌 현재 비용 조건의 반사실 실험이다. 개인별 양도·배당 소득세는 제외했다. 실제 환전에서만 비용을 내며 달러 평가에는 환율 변화를 반영했다.</p>
-<h2 id="section-52">7. 한계와 개선 방안</h2>
+<h2 id="section-98">7. 한계와 개선 방안</h2>
 <div class="table-wrap"><table><thead><tr><th>확인한 문제</th><th>다음 변경</th><th>다시 검증할 항목</th></tr></thead><tbody>
 <tr><td>평균 전망의 과장·축소, 낮은 구간 포함률</td><td>시장별 보정과 평균의 불확실성 분리</td><td>성숙한 과거 라벨만 사용한 편향·순위·하방 정확도</td></tr>
 <tr><td>작은 계좌의 반올림·최소 주문 마찰</td><td>정수 주수·최소 주문을 배분 문제에 직접 반영</td><td>같은 위험 한도에서 순이익·잔여 현금·실행 가능성</td></tr>
@@ -130,9 +319,9 @@
 <tr><td>이미 본 과거 구간과 다중 비교</td><td>새 기간의 고정 정책 관찰</td><td>미사용 성과·비용 스트레스·126일 모의 및 별도 승인 소액 실전</td></tr>
 </tbody></table></div>
 <p class="p">공개 페이지의 높은 과거 수익률만으로 자동매매로 넘어가지 않는다. 가상 장부, 최신 시세, 실제 계좌 읽기와 주문 대조, 일일 텔레그램 요약을 순서대로 연결한다. 운영 승격은 사전 비용 차감 성과·낙폭·실행 기준과 독립 관찰이 충족되어야 한다. 현재 실제 모의·소액 실전 관찰은 0일이다.</p>
-<h2 id="section-55">8. 결론</h2>
+<h2 id="section-101">8. 결론</h2>
 <p class="p">수익 예측을 보유·현금·공동 위험·거래비용과 연결하는 구조를 구현하고 기존 순위 모델 및 단순 규칙과 비교하였다. 위험을 낮춘 결과와 수익을 높인 결과가 항상 동시에 나타나지 않았고, 실행 제약과 소액 계좌의 주문 단위가 성과를 크게 바꿀 수 있었다. v0.1은 후속 연구의 기준 모델로 유지하며, 이미 본 수익을 근거로 운영 채택하거나 미래 수익을 보장하지 않는다.</p>
-<h2 id="section-57">참고문헌</h2>
+<h2 id="section-103">참고문헌</h2>
 <p class="reference"><a href="https://www.ijcai.org/proceedings/2025/673">[1] Park, K., Hong, S., &amp; Jeon, J.-J. (2025). Dynamic Higher-Order Relations and Event-Driven Temporal Modeling for Stock Price Forecasting. IJCAI, 6048–6056.</a></p>
 <p class="reference"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/27767">[2] Li, T., et al. (2024). MASTER: Market-Guided Stock Transformer for Stock Price Forecasting. AAAI 38(1), 162–170.</a></p>
 <p class="reference"><a href="https://proceedings.mlr.press/v119/zhang20q.html">[3] Zhang, Q., et al. (2020). Self-Attentive Hawkes Process. ICML, PMLR 119, 11183–11193.</a></p>
@@ -147,6 +336,6 @@
 <p class="reference"><a href="https://uk.help.yahoo.com/kb/finance/historical-prices-adjusted-close-sln2311.html">[12] Yahoo Finance Help. Historical price, dividend and split data. 적립식 실험은 내려받은 원문을 비공개 보관.</a></p>
 <p class="reference"><a href="https://kind.krx.co.kr/external/2026/03/13/000897/20260313000999/61474.htm">[13] 미래에셋증권 (2026-03-13). 주식배당 결정 정정 공시. 한국거래소 KIND.</a></p>
 <p class="reference"><a href="https://webzine.securities.miraeasset.com/webzine2604/vol2604_page31.php">[14] 미래에셋증권 (2026-04). 주주환원 이사회 결의와 배당 기준일·주총 일정. 발행사 웹진.</a></p>
-<h2 id="section-72">재현 근거</h2>
-<p class="p">적립식 불변 아카이브 SHA-256: 33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0. 전체 완료 비교 아카이브: 0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707. 공개 문서에는 집계 지표와 도표를 포함하며 원시 가격·전체 예측·실계좌 정보는 포함하지 않는다. 보고서 작성일: 2026-10-10.</p>
+<h2 id="section-118">재현 근거</h2>
+<p class="p">적립식 불변 아카이브 SHA-256: 33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0. 기존 44개 조건 비교 아카이브: 0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707. 공개 문서에는 집계 지표와 도표를 포함하며 원시 가격·전체 예측·실계좌 정보는 포함하지 않는다. 보고서 작성일: 2026-10-10.</p>
 <footer><a href="./">대시보드로 돌아가기 →</a></footer></main></html>
