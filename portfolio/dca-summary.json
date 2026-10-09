@@ -3,9 +3,10 @@
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
   "mark_forecast_calibration": {
     "archives": {
-      "refit": "8480add152474d42b702a9fdb4ad0e818f0c57805ecf77e30f5a36dd0136c6a1",
-      "calibration": "6d9cd26cc7e75afd6ce7b9ec1f90d6986062759f9fd4564eea7bc6ddeaccb1b7",
-      "verification": "bcc9d13881215088e6e62b18a13add1f071a0897b1b9b3660dec72878818fd7b"
+      "refit": "ebfc9760df05fa9fdfbbd1ed506f1cb5f5f78faf18c7fe4cc51478be4e74876e",
+      "calibration": "c724fe57accf621cb0f68d5d20553d3537d383f155ed5546c87eb97180b47b63",
+      "verification": "e0b8dc5d62f2e02182cdce041191d38c48d66e654fbc398a118d683940d785e8",
+      "components": "da8652ba6b14ebfe5948e6534190f579f1fc764e2bc6c4841b5141d3d95e813c"
     },
     "unique_forecasts": 56128,
     "variants": 4,
