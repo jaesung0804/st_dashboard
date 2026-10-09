@@ -9,10 +9,10 @@ let page=1,selected=null,view=['overview','performance','financial'].includes(pa
 const detailCache=new Map(),bundleCache=new Map();
 for(const id of ['market','fx','sort','opinion','coverage','financial'])if([...$(id).options].some(o=>o.value===params.get(id)))$(id).value=params.get(id);
 $('query').value=params.get('q')||'';
-$('created').textContent=`기준 ${[...new Set(['kr','us'].map(m=>data.markets[m].latest.asof))].join(' / ')} · 고정 실험${data.financial_data?' · 재무 갱신 '+[...new Set(Object.values(data.financial_data.updated_at).map(d=>d.slice(0,10)))].join(' / '):''}`;
+$('created').textContent=`기준 ${[...new Set(['kr','us'].map(m=>data.markets[m].latest.asof))].join(' / ')} · 고정 실험${data.financial_data?' · 재무 갱신 '+[...new Set(Object.values(data.financial_data.updated_at).map(d=>d.slice(0,10)))].join(' / ')+(Object.values(data.financial_data.collection).some(c=>c.failed)?' · 일부 재무 수집 실패':''):''}`;
 $('universe-count').textContent=`한국 + 미국 ${data.rows.length.toLocaleString()}개 종목`;
 const scenario=r=>M.scenario(r,$('fx').value),score=r=>M.finite(scenario(r)?.score)?scenario(r).score.toFixed(1):'—';
-const finPeriod=f=>f?.latest?.period_label||f?.latest?.period_end||'기준일 미확인';
+const finPeriod=f=>(f?.latest?.period_label||f?.latest?.period_end||'기준일 미확인')+(f?.date_precision==='fiscal_period'?' · 결산일 확인 대기':'');
 const finOpinion=r=>r.financial_opinion||r.opinion;
 const finBasis=f=>({annual:'연간 보고기간 기준',reported_period:'해당 보고기간 기준 · 연율화하지 않음'})[f?.latest?.basis]||'최근 12개월(TTM) 기준';
 const formatFin=(k,v)=>M.definitions[k][1]==='times'?(M.finite(v)?v.toFixed(2)+'배':'—'):pct(v);
