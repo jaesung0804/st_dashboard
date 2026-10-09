@@ -4,8 +4,8 @@
     fin_revenue_growth:['매출 성장률','pct','표시 보고기간 매출 ÷ 전년 같은 보고기간 매출 − 1'],
     fin_gross_margin:['매출총이익률','pct','표시 보고기간 매출총이익 ÷ 같은 기간 매출'],
     fin_operating_margin:['영업이익률','pct','표시 보고기간 영업이익 ÷ 같은 기간 매출'],
-    fin_roa:['ROA','pct','확인된 연간 순이익 ÷ 기말·전년 동기 말 평균 자산'],
-    fin_cfo_assets:['영업현금 / 자산','pct','확인된 연간 영업현금흐름 ÷ 평균 자산'],
+    fin_roa:['ROA','pct','최근 12개월 순이익 ÷ 기말·전년 동기 말 평균 자산. 부족하면 기준일을 표시한 최근 연간 자료를 사용합니다.'],
+    fin_cfo_assets:['영업현금 / 자산','pct','최근 12개월 영업현금흐름 ÷ 기말·전년 동기 말 평균 자산. 부족하면 기준일을 표시한 최근 연간 자료를 사용합니다.'],
     fin_cfo_after_ppe_assets:['설비투자 후 현금 / 자산','pct','(영업현금흐름 − 유형자산 취득액 절댓값) ÷ 평균 자산. 전체 잉여현금흐름과 다를 수 있습니다.'],
     fin_accruals_assets:['발생액 / 자산','pct','(최근 12개월 순이익 − 영업현금흐름) ÷ 평균 자산'],
     fin_cash_assets:['현금 / 자산','pct','기말 현금 및 현금성자산 ÷ 자산'],
@@ -18,6 +18,13 @@
   };
   const finite=v=>typeof v==='number'&&Number.isFinite(v);
   const financial=(r,k)=>r.financials?.latest?.metrics?.[k]??null;
+  function financialNote(r,k){
+    const d=r.financials?.latest?.metric_details?.[k];
+    if(!d)return '';
+    if(d.status==='unavailable')return d.reason||'원자료 미확보';
+    const label={ttm:'최근 12개월',annual:'연간',annual_fallback:'최근 연간 자료',reported_period:'해당 보고기간'}[d.basis]||'';
+    return `${label} · ${d.period_label||d.period_end||'기준일 미확인'}`;
+  }
   function scenario(r,fx=0){return r.scenarios?.[String(Number(fx))]||r.scenarios?.[Number(fx).toFixed(1)]||null;}
   function value(r,key,fx=0){
     if(key==='score')return scenario(r,fx)?.score??null;
@@ -42,5 +49,5 @@
     });
     return {rows:result,key};
   }
-  return {definitions,finite,financial,scenario,value,select};
+  return {definitions,finite,financial,financialNote,scenario,value,select};
 });

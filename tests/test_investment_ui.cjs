@@ -16,4 +16,7 @@ assert.equal(M.value(rows[0],'score',.05),30);
 assert.equal(M.value(rows[1],'score',.05),50);
 assert.equal(M.select(rows,{...base,q:'missing'}).rows.length,0);
 assert.equal(rows[0].ticker,'A');
+rows[0].financials.latest.metric_details={fin_roa:{status:'available',basis:'annual_fallback',period_label:'2025-12-31'},fin_current_ratio:{status:'unavailable',reason:'유동자산·유동부채 원자료 미확보'}};
+assert.equal(M.financialNote(rows[0],'fin_roa'),'최근 연간 자료 · 2025-12-31');
+assert.equal(M.financialNote(rows[0],'fin_current_ratio'),'유동자산·유동부채 원자료 미확보');
 console.log('PASS: global ordering, missing/stale metrics, zero values, FX and combined filters');

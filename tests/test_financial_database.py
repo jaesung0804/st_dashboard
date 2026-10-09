@@ -232,3 +232,87 @@ def test_transient_provider_retry_is_bounded_and_does_not_retry_db_conflicts(mon
     with pytest.raises(BackendError):
         database.provider_read(conflict)
     assert len(calls) == 1
+
+
+def test_korean_ttm_bridges_cumulative_income_and_cash_flows():
+    rows = []
+    for year, code, net, cfo, assets in [(2025, '11011', 10, 20, 160),
+            (2025, '11012', 3, 7, 100), (2026, '11012', 6, 12, 200)]:
+        raw = {'bsns_year': year, 'reprt_code': code, 'fs_div': 'CFS',
+               'net_income': net if code == '11011' else 2, 'operating_cash_flow': cfo, 'total_assets': assets}
+        rows.append(normalized_statement(raw, source='opendart', observed_at='2026-10-09', source_hash=str(year)+code,
+            fiscal_month='12', frequency='annual' if code == '11011' else 'reported',
+            ytd_values={'net_income': net, 'operating_cash_flow': cfo}))
+    latest = financial_metrics({'statements': rows}, '2026-10-09')['latest']
+    assert latest['metrics']['fin_roa'] == pytest.approx(13/150)
+    assert latest['metrics']['fin_cfo_assets'] == pytest.approx(25/150)
+    assert latest['metric_details']['fin_roa']['basis'] == 'ttm'
+    rows[-1]['ytd_values']['net_income'] = None
+    assert financial_metrics({'statements': rows}, '2026-10-09')['latest']['metrics']['fin_roa'] is None
+
+
+def test_us_ttm_four_quarters_and_average_balance_endpoints():
+    rows = []
+    for end, net, assets in [('2025-06-30', 1, 100), ('2025-09-30', 3, 120),
+                             ('2025-12-31', 4, 140), ('2026-03-31', 5, 170), ('2026-06-30', 6, 200)]:
+        row = {'bsns_year': end[:4], 'reprt_code': {'03':'11013','06':'11012','09':'11014','12':'11011'}[end[5:7]],
+               'net_income': net, 'operating_cash_flow': net*2, 'total_assets': assets}
+        rows.append(normalized_statement(row, source='yahoo', observed_at='2026-10-09', source_hash=end,
+                                         period_end=end, frequency='quarterly'))
+    latest = financial_metrics({'statements': rows}, '2026-10-09')['latest']
+    assert latest['metrics']['fin_roa'] == pytest.approx(18/150)
+    assert latest['metrics']['fin_cfo_assets'] == pytest.approx(36/150)
+    assert latest['metric_details']['fin_cfo_assets']['basis'] == 'ttm'
+    rows.pop(2)
+    assert financial_metrics({'statements': rows}, '2026-10-09')['latest']['metrics']['fin_roa'] is None
+
+
+def test_latest_annual_fallback_has_its_own_date_and_denominator():
+    quarter = statement(2026, total_assets=300)
+    quarter.update(period_end='2026-03-31', period_label='2026-03-31', report_code='11013', frequency='quarterly')
+    rows = [statement(2024, total_assets=100), statement(2025, current_assets=100, current_liabilities=0), quarter]
+    latest = financial_metrics({'statements': rows}, '2026-10-09')['latest']
+    assert latest['metrics']['fin_roa'] == pytest.approx(10/150)
+    assert latest['metric_details']['fin_roa']['basis'] == 'annual_fallback'
+    assert latest['metric_details']['fin_roa']['period_end'] == '2025-12-31'
+    assert latest['period_end'] == '2026-03-31'
+    assert latest['metrics']['fin_current_ratio'] is None
+
+
+def test_dart_parser_separates_ytd_from_quarter_and_ignores_equity_statement():
+    import pandas as pd
+    from financial_database import kr_raw_statements, enrich_retained
+    base = {'ticker':'005930','bsns_year':'2026','reprt_code':'11012','fs_div':'CFS','rcept_no':'20260814000001'}
+    entries = []
+    for tag, section, amount, cumulative in [('ifrs-full_ProfitLoss','SCE',999,999),
+        ('ifrs-full_ProfitLoss','IS',2,6), ('ifrs-full_ProfitLoss','CIS',2,6),
+        ('ifrs-full_CashFlowsFromUsedInOperatingActivities','CF',12,''),
+        ('ifrs-full_CurrentAssets','BS',100,''), ('ifrs-full_CurrentLiabilities','BS',50,''),
+        ('ifrs-full_OtherCurrentAssets','BS',500,'')]:
+        entries.append({**base,'account_id':tag,'sj_div':section,'thstrm_amount':amount,'thstrm_add_amount':cumulative})
+    row = kr_raw_statements(pd.DataFrame(entries), '2026-10-09', 'raw', '12')[0]
+    assert row['values']['net_income'] == 2
+    assert row['ytd_values']['net_income'] == 6
+    assert row['ytd_values']['operating_cash_flow'] == 12
+    latest = financial_metrics({'statements':[row]}, '2026-10-09')['latest']
+    assert latest['metrics']['fin_current_ratio'] == 2
+    old = copy.deepcopy(row); old.pop('normalization_version'); old.pop('ytd_values')
+    assert merge_statements([old],[row])[0]['ytd_values']['net_income'] == 6
+
+
+def test_retained_enrichment_is_non_destructive_and_preserves_observation(tmp_path):
+    import pandas as pd
+    from financial_database import enrich_retained
+    old = normalized_statement({'bsns_year':'2025','reprt_code':'11011','fs_div':'CFS','total_assets':200},
+        source='opendart', observed_at='2026-10-09', source_hash='original', frequency='annual')
+    entries = [{'ticker':'005930','bsns_year':'2025','reprt_code':'11011','fs_div':'CFS','rcept_no':'20260314000001',
+                'account_id':tag,'sj_div':'BS','thstrm_amount':value}
+               for tag,value in [('ifrs-full_Assets',200),('ifrs-full_CurrentAssets',100),('ifrs-full_CurrentLiabilities',50)]]
+    path=tmp_path/'source.csv'; pd.DataFrame(entries).to_csv(path,index=False)
+    enriched=enrich_retained({'statements':[old]},[path])
+    merged=merge_statements([old],enriched)[0]
+    assert merged['values']['current_assets'] == 100
+    assert merged['observed_at'] == old['observed_at']
+    assert merged['source_sha256'] == 'original' and merged['period_end'] is None
+    changed=copy.deepcopy(old); changed['values']['total_assets']=300
+    assert enrich_retained({'statements':[changed]},[path]) == [changed]
