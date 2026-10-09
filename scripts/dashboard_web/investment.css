@@ -9,3 +9,4 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 .pulse-numbers strong{white-space:nowrap}
 [data-theme=dark] .investment-intro h1 span{color:#9ab8ff}
+.financial-basis{display:block;margin-top:4px;font-size:10px;font-weight:400;line-height:1.5;color:var(--muted)}
