@@ -8,6 +8,15 @@
       "verification": "e0b8dc5d62f2e02182cdce041191d38c48d66e654fbc398a118d683940d785e8",
       "components": "da8652ba6b14ebfe5948e6534190f579f1fc764e2bc6c4841b5141d3d95e813c"
     },
+    "separate_heads": {
+      "archive_sha256": "b1acc2af7a30bb58c7d34c7d09aefa4c00a1c67ac87e24162ed13406dca75bd5",
+      "verification_archive_sha256": "3bab60329a8a07e370e488ba9c22ba303ca5c3b6732b57356a37856454ccd4c1",
+      "variants": 4,
+      "unique_forecasts": 56128,
+      "decision": "not_adopted",
+      "production_allowed": false,
+      "portfolio_replay_performed": false
+    },
     "unique_forecasts": 56128,
     "variants": 4,
     "production_allowed": false,
