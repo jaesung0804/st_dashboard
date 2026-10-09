@@ -124,6 +124,21 @@ def test_import_skips_retained_empty_responses(tmp_path):
     assert list(import_rows(tmp_path, 'us', '2026-10-09', {})) == []
 
 
+def test_reimport_does_not_replace_a_refreshed_statement_or_add_clock_revisions():
+    saved = statement(revenue=150)
+    saved['source_sha256'] = 'refreshed'
+    payload = {'schema': 1, 'market': 'us', 'ticker': 'AAPL', 'statements': [saved]}
+    class Client:
+        def json(self, method, path, body=None):
+            if method == 'GET':
+                return {'version': 4, 'payload': copy.deepcopy(payload)}
+            assert body['expected_version'] == 4
+            assert body['payload'] == payload
+            return {'version': 4, 'changed': False}
+    write_company(Client(), {'financial-statements-v1/us/AAPL': {}}, 'us', 'AAPL',
+                  [statement()], {}, checked_at='2026-10-10', import_only=True)
+
+
 def test_verified_period_supersedes_undated_legacy_view_without_deleting_source():
     row = {'bsns_year': '2026', 'reprt_code': '11012', 'fs_div': 'CFS', 'revenue': 100, 'operating_income': 10}
     old = normalized_statement(row, source='opendart', observed_at='2026-10-09', source_hash='a')

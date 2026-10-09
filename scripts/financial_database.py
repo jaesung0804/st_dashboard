@@ -22,7 +22,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ai_stock_assistant.data.financial_store import (canonical, financial_metrics,
-    merge_statements, normalized_statement, number, payload_hash)
+    merge_statements, normalized_statement, number, payload_hash, statement_id)
 from research_backend_client import Client, BackendError
 from unpack_dashboard_state import restore_state
 
@@ -88,16 +88,20 @@ def record_path(key):
     return '/records/sources/' + urllib.parse.quote(key, safe='')
 
 
-def write_company(client, index, market, ticker, rows, metadata, checked_at=None):
+def write_company(client, index, market, ticker, rows, metadata, checked_at=None, import_only=False):
     key = PREFIX + market + '/' + ticker
     old = client.json('GET', record_path(key)) if key in index else None
     previous = old['payload'] if old else {}
+    if import_only:
+        existing = {statement_id(r) for r in previous.get('statements', [])}
+        rows = [r for r in rows if statement_id(r) not in existing]
     payload = {**previous, **metadata, 'schema': 1, 'market': market, 'ticker': ticker,
                'statements': merge_statements(previous.get('statements', []), rows)}
     if not payload['statements']:
         raise ValueError('Empty financial result cannot replace retained statements')
-    if checked_at:
-        payload['last_checked_at'] = checked_at
+    # Check times live in the small metrics checkpoint. An unchanged provider
+    # response must not create a full statement revision just because time passed.
+    payload.pop('last_checked_at', None)
     if len(canonical(payload)) > 120000:
         raise ValueError('Company record exceeds budget; split by fiscal year before publishing')
     result = client.json('PUT', record_path(key), {'payload': payload,
@@ -269,7 +273,7 @@ def run(args, client=None):
                 else:
                     metadata['migration_source'] = provenance
                 payload, receipt = write_company(worker, index, market, ticker, rows, metadata,
-                                                  observed_at if args.command == 'refresh' else None)
+                    observed_at if args.command == 'refresh' else None, import_only=args.command == 'bootstrap')
                 return ticker, payload, receipt
             with ThreadPoolExecutor(max_workers=args.workers) as pool:
                 for n, (ticker, payload, receipt) in enumerate(pool.map(process, work), 1):
