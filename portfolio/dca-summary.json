@@ -1,6 +1,14 @@
 {
   "dca_archive_sha256": "33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0",
   "controls_archive_sha256": "0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707",
+  "entry_capacity_archive_sha256": "02cbc25bb67d3cb388c4e5ff844323d0c415c3cb5fac04b0ebf5c8635cb5c936",
+  "entry_capacity_verification_archive_sha256": "aeb62184432a6caee8aab27a4e51211a8d65deb38f99b9fb3a45d5472a23e124",
+  "entry_capacity": {
+    "first_month_days": 22,
+    "primary_no_feasible_entry_days": 22,
+    "primary_first_buy": "2025-05-02",
+    "classification": "posthoc_necessary_entry_conditions_not_causal_cash_decomposition"
+  },
   "forecast_inference_archive_sha256": "f6cb1cd3829442e3b0be066c2aa16e1298bd1e0d04a06fc889ebd2541318f8a3",
   "validation_readiness_archive_sha256": "2511aa115b93001b819aca675e374b783e3a9a8c165485b163e386370694f0a3",
   "forecast_timing": {
