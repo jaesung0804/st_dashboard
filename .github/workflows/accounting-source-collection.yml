@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: Import retained statements once, or collect a rotating current batch
+        description: Bootstrap, refresh a current batch, or repair all saved metrics from retained sources
         type: choice
-        options: [refresh, bootstrap]
+        options: [refresh, bootstrap, repair]
         default: refresh
       market:
         type: choice

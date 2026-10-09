@@ -23,7 +23,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ai_stock_assistant.data.financial_store import (canonical, financial_metrics,
-    merge_statements, normalized_statement, number, payload_hash, statement_id)
+    merge_statements, normalized_statement, number, payload_hash, statement_id, FIELDS, FLOW_FIELDS)
 from research_backend_client import Client, BackendError
 from unpack_dashboard_state import restore_state
 
@@ -60,7 +60,7 @@ def provider_read(operation, *args, **kwargs):
             time.sleep(2 ** (attempt + 1))
 
 
-def restore_inputs(client, root, markets, bootstrap=False):
+def restore_inputs(client, root, markets, bootstrap=False, repair=False):
     """Restore selected inputs from the verified pipeline snapshot before collecting."""
     sid = client.json('GET', '/snapshot-heads/pipeline-state')['snapshot_id']
     if not sid:
@@ -81,6 +81,8 @@ def restore_inputs(client, root, markets, bootstrap=False):
             wanted.append('data/raw/opendart_financials_state.csv')
         if 'us' in markets:
             wanted.append('data/raw/yfinance_financials')
+    if repair and 'kr' in markets:
+        wanted.append('data/raw/opendart_accounts')
     selected = {p: manifest[p] for p in wanted}
     paths = {part for p, info in selected.items() for part in info.get('parts', [p])}
     if sum(entries[p]['byte_size'] for p in paths) > 256 * 1024**2:
@@ -111,9 +113,9 @@ def record_path(key):
     return '/records/sources/' + urllib.parse.quote(key, safe='')
 
 
-def write_company(client, index, market, ticker, rows, metadata, checked_at=None, import_only=False):
+def write_company(client, index, market, ticker, rows, metadata, checked_at=None, import_only=False, existing_record=None):
     key = PREFIX + market + '/' + ticker
-    old = client.json('GET', record_path(key)) if key in index else None
+    old = existing_record or (client.json('GET', record_path(key)) if key in index else None)
     previous = old['payload'] if old else {}
     if import_only:
         existing = {statement_id(r) for r in previous.get('statements', [])}
@@ -150,6 +152,91 @@ def us_raw_statements(raw, frequency, observed_at, sha):
     return result
 
 
+def kr_raw_statements(frame, observed_at, sha, fiscal_month=None):
+    """Keep statement types and quarterly income / cumulative cash flows distinct.
+
+    OpenDART full-statement guide: apiId=2019020. IS/CIS thstrm_amount
+    is three months; thstrm_add_amount is YTD. CF amounts are cumulative.
+    """
+    from ai_stock_assistant.data.opendart import ACCOUNT_ALIASES
+    aliases = {k: set(v) for k, v in ACCOUNT_ALIASES.items()}
+    aliases.update(current_assets={'ifrs-full_CurrentAssets', '유동자산'},
+                   current_liabilities={'ifrs-full_CurrentLiabilities', '유동부채'},
+                   interest_expense={'ifrs-full_InterestExpense', '이자비용'})
+    aliases['net_income'].update({'당기순이익(손실)', '분기순이익(손실)', '반기순이익(손실)'})
+    def clean(value):
+        return ''.join(str(value).split()).replace('ifrs-full_', 'ifrs_')
+    result = []
+    for _, group in frame.groupby(['ticker', 'bsns_year', 'reprt_code', 'fs_div'], dropna=False):
+        entries = group.to_dict('records')
+        row = {k: str(entries[0][k]) for k in ('bsns_year', 'reprt_code', 'fs_div')}
+        annual = row['reprt_code'] == '11011'
+        receipts = sorted({str(e.get('rcept_no', '')) for e in entries if e.get('rcept_no')})
+        if len(receipts) != 1:
+            raise ValueError('Ambiguous DART filing receipts')
+        def pick(field, column):
+            sections = ('IS', 'CIS') if field in ('revenue', 'gross_profit', 'operating_income', 'net_income', 'eps', 'interest_expense') else (
+                ('CF',) if field in ('operating_cash_flow', 'investing_cash_flow', 'financing_cash_flow', 'capex') else ('BS',))
+            names = {clean(a) for a in aliases.get(field, ())}
+            for section in sections:
+                candidates = [e for e in entries if e.get('sj_div') == section]
+                by_id = [e for e in candidates if clean(e.get('account_id', '')) in names]
+                chosen = by_id or [e for e in candidates if clean(e.get('account_nm', '')) in names]
+                if field == 'net_income':
+                    total = [e for e in chosen if clean(e.get('account_id')) == 'ifrs_ProfitLoss']
+                    chosen = total or chosen
+                values = {number(e.get(column)) for e in chosen} - {None}
+                if len(values) == 1:
+                    return values.pop()
+                if len(values) > 1:
+                    return None  # Ambiguous totals must not depend on source order.
+            return None
+        for field in FIELDS:
+            row[field] = pick(field, 'thstrm_amount')
+        ytd = {}
+        for field in FLOW_FIELDS:
+            cash_flow = field in ('operating_cash_flow', 'capex')
+            value = row[field] if annual or cash_flow else pick(field, 'thstrm_add_amount')
+            if value is None and row['reprt_code'] == '11013':
+                value = row[field]  # Q1 and YTD cover the same three months.
+            ytd[field] = value
+        result.append(normalized_statement(row, source='opendart', observed_at=observed_at,
+            source_hash=sha, frequency='annual' if annual else 'reported',
+            filing_id=receipts[0], fiscal_month=fiscal_month, ytd_values=ytd))
+    return result
+
+
+def enrich_retained(payload, files):
+    """Recover missing fields from matching retained statements, never older amendments."""
+    import copy
+    result = copy.deepcopy(payload['statements'])
+    for path in files:
+        try:
+            raw = pd.read_csv(path, dtype=str).fillna('')
+        except pd.errors.EmptyDataError:
+            continue
+        if raw.empty:
+            continue
+        sha = hashlib.sha256(path.read_bytes()).hexdigest()
+        for recovered in kr_raw_statements(raw, '1970-01-01', sha):
+            for old in result:
+                if any(old.get(k) != recovered.get(k) for k in ('source', 'scope', 'fiscal_year', 'report_code', 'frequency')):
+                    continue
+                if old.get('filing_id') and old['filing_id'] != recovered['filing_id']:
+                    continue
+                if any(old['values'].get(k) is not None and recovered['values'].get(k) is not None
+                       and old['values'][k] != recovered['values'][k]
+                       for k in ('revenue', 'net_income', 'operating_cash_flow', 'total_assets')):
+                    continue
+                for k in ('current_assets', 'current_liabilities', 'interest_expense'):
+                    if old['values'].get(k) is None:
+                        old['values'][k] = recovered['values'].get(k)
+                old.setdefault('ytd_values', recovered['ytd_values'])
+                old['enrichment_sha256'] = sha
+                # Preserve observation time, source hashes and unverified fiscal dates.
+    return result
+
+
 def import_rows(restored, market, observed_at, provenance):
     if market == 'kr':
         path = restored / 'data/raw/opendart_financials_state.csv'
@@ -181,7 +268,7 @@ def import_rows(restored, market, observed_at, provenance):
 
 def fetch_kr(ticker, code, previous, observed_at):
     from ai_stock_assistant.data.opendart import (get_api_key,
-        fetch_financial_statement_with_fallback, normalize_financial_accounts)
+        fetch_financial_statement_with_fallback)
     key = get_api_key()
     response = provider_read(requests.get, 'https://opendart.fss.or.kr/api/company.json',
         params={'crtfc_key': key, 'corp_code': code}, timeout=30)
@@ -207,17 +294,7 @@ def fetch_kr(ticker, code, previous, observed_at):
             raise ValueError('DART statement request failed')
         frame['ticker'], frame['corp_code'], frame['corp_name'], frame['fs_div'] = ticker, code, profile['corp_name'], scope
         sha = hashlib.sha256(frame.to_csv(index=False).encode()).hexdigest()
-        filings = sorted(set(frame.rcept_no.dropna().astype(str)))
-        if len(filings) != 1:
-            raise ValueError('Ambiguous DART filing receipts')
-        for row in normalize_financial_accounts(frame).to_dict('records'):
-            for field, tag in (('current_assets', 'CurrentAssets'), ('current_liabilities', 'CurrentLiabilities')):
-                matches = frame.loc[frame.account_id.astype(str).str.endswith('_' + tag) & frame.sj_div.eq('BS')]
-                if len(matches) == 1:
-                    row[field] = number(matches.iloc[0].thstrm_amount)
-            result.append(normalized_statement(row, source='opendart', observed_at=observed_at,
-                source_hash=sha, frequency='annual' if report == '11011' else 'reported',
-                filing_id=filings[0], fiscal_month=month))
+        result.extend(kr_raw_statements(frame, observed_at, sha, month))
         time.sleep(.25)
     return result, {'financial_sector': str(profile.get('induty_code', ''))[:2] in ('64', '65', '66'),
                     'fiscal_month': month}
@@ -262,8 +339,12 @@ def run(args, client=None):
             client.pull(SNAPSHOT, summaries)
         elif args.command != 'bootstrap':
             raise ValueError('Bootstrap the retained statements before enabling scheduled refresh')
-        restored, provenance = restore_inputs(client, root, markets, args.command == 'bootstrap')
+        restored, provenance = restore_inputs(client, root, markets, args.command == 'bootstrap', args.command == 'repair')
         index = source_index(client)
+        retained = {}
+        if args.command == 'repair' and 'kr' in markets:
+            for path in sorted((restored / 'data/raw/opendart_accounts').rglob('*.csv')):
+                retained.setdefault(path.stem.split('_', 1)[0], []).append(path)
         results = {}
         for market in markets:
             target = summaries / SUMMARY_FILES[market]
@@ -272,6 +353,9 @@ def run(args, client=None):
             failures, saved = [], 0
             if args.command == 'bootstrap':
                 work = list(import_rows(restored, market, observed_at, provenance))
+            elif args.command == 'repair':
+                tickers = args.tickers or [k.removeprefix(PREFIX + market + '/') for k in index if k.startswith(PREFIX + market + '/')]
+                work = [(ticker, None) for ticker in tickers if PREFIX + market + '/' + ticker in index]
             else:
                 def priority(ticker):
                     key = PREFIX + market + '/' + ticker
@@ -288,6 +372,16 @@ def run(args, client=None):
                 ticker, rows = item
                 worker = Client(project='investment')
                 metadata = {'name': listing.get(ticker, {}).get('name', ticker)}
+                if args.command == 'repair':
+                    key = PREFIX + market + '/' + ticker
+                    old = worker.json('GET', record_path(key))
+                    if market == 'kr':
+                        rows = enrich_retained(old['payload'], retained.get(ticker, []))
+                        payload, receipt = write_company(worker, index, market, ticker, rows, {}, existing_record=old)
+                    else:
+                        payload = old['payload']
+                        receipt = {'key': key, 'version': old['version'], 'sha256': payload_hash(payload)}
+                    return ticker, payload, receipt
                 if rows is None:
                     try:
                         if market == 'kr':
@@ -333,7 +427,7 @@ def run(args, client=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['bootstrap', 'refresh'])
+    parser.add_argument('command', choices=['bootstrap', 'refresh', 'repair'])
     parser.add_argument('--market', choices=['kr', 'us', 'all'], default='all')
     parser.add_argument('--limit', type=int, default=600)
     parser.add_argument('--workers', type=int, choices=[1, 2, 3], default=3)

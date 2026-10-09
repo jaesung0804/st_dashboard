@@ -20,6 +20,8 @@ METRICS = ('fin_revenue_growth', 'fin_gross_margin', 'fin_operating_margin', 'fi
            'fin_cash_assets', 'fin_liabilities_assets', 'fin_current_ratio',
            'fin_ppe_sales', 'fin_interest_coverage', 'equity_assets', 'liabilities_equity')
 REPORTS = {'11013': '1분기', '11012': '반기', '11014': '3분기', '11011': '연간'}
+FLOW_FIELDS = ('revenue', 'gross_profit', 'operating_income', 'net_income',
+               'operating_cash_flow', 'capex', 'interest_expense')
 
 
 def number(value):
@@ -46,7 +48,9 @@ def merge_statements(previous, incoming):
     for row in incoming:
         key = statement_id(row)
         old = result.get(key)
-        if old and old.get('source_sha256') == row.get('source_sha256'):
+        same_source = old and old.get('source_sha256') == row.get('source_sha256')
+        if (same_source and old.get('normalization_version', 1) >= row.get('normalization_version', 1)
+                and old.get('enrichment_sha256') == row.get('enrichment_sha256')):
             continue
         if old and old.get('observed_at', '') > row.get('observed_at', ''):
             continue
@@ -54,12 +58,14 @@ def merge_statements(previous, incoming):
         if old:
             row = {**old, **row, 'values': {**old['values'],
                    **{k: v for k, v in row['values'].items() if v is not None}}}
+            if same_source:
+                row['observed_at'] = old['observed_at']
         result[key] = row
     return [result[key] for key in sorted(result)]
 
 
 def normalized_statement(row, *, source, observed_at, source_hash, period_end=None,
-                         frequency=None, filing_id=None, fiscal_month=None):
+                         frequency=None, filing_id=None, fiscal_month=None, ytd_values=None):
     year, code = str(row['bsns_year']), str(row['reprt_code'])
     # DART quarter ends are valid only after verifying a December fiscal calendar.
     if source == 'opendart' and str(fiscal_month).zfill(2) == '12':
@@ -70,15 +76,70 @@ def normalized_statement(row, *, source, observed_at, source_hash, period_end=No
         filed_at = date.fromisoformat(f'{filing_id[:4]}-{filing_id[4:6]}-{filing_id[6:8]}').isoformat()
     if period_end:
         period_end = date.fromisoformat(str(period_end)[:10]).isoformat()
-    return {'source': source, 'scope': 'provider' if source == 'yahoo' else str(row.get('fs_div') or ''),
+    result = {'source': source, 'scope': 'provider' if source == 'yahoo' else str(row.get('fs_div') or ''),
             'fiscal_year': year, 'report_code': code, 'frequency': frequency or 'reported',
             'period_end': period_end, 'period_label': period_end or f'{year}년 {REPORTS.get(code, code)}',
             'filed_at': filed_at, 'filing_id': filing_id, 'observed_at': observed_at,
             'source_sha256': source_hash, 'values': {k: number(row.get(k)) for k in FIELDS}}
+    if ytd_values is not None:
+        result.update(normalization_version=2, ytd_values={k: number(ytd_values.get(k)) for k in FLOW_FIELDS})
+    return result
 
 
 def ratio(a, b):
     return number(a / b) if a is not None and b is not None and b > 0 else None
+
+
+def annualized_windows(rows, last):
+    """Yield verified TTM, then a separately labelled latest annual fallback."""
+    def previous_year(row, frequency):
+        candidates = [r for r in rows if r['frequency'] == frequency
+            and r['report_code'] == row['report_code']
+            and int(r['fiscal_year']) == int(row['fiscal_year']) - 1]
+        if row.get('period_end'):
+            candidates = [r for r in candidates if r.get('period_end') and
+                345 <= (date.fromisoformat(row['period_end']) - date.fromisoformat(r['period_end'])).days <= 385]
+        return candidates[-1] if candidates else None
+
+    def window(flows, end, start, basis):
+        a, b = end['values'].get('total_assets'), (start or {}).get('values', {}).get('total_assets')
+        average = (a + b) / 2 if a is not None and b is not None and a > 0 and b > 0 else None
+        return {'flows': flows, 'average_assets': average, 'basis': basis,
+                'period_end': end.get('period_end'), 'period_label': end['period_label']}
+
+    if last['frequency'] != 'annual' and last.get('period_end'):
+        previous = previous_year(last, last['frequency'])
+        if last['source'] == 'opendart' and last.get('ytd_values') and previous and previous.get('ytd_values'):
+            annual = next((r for r in reversed(rows) if r['frequency'] == 'annual'
+                and int(r['fiscal_year']) == int(last['fiscal_year']) - 1 and r.get('period_end')
+                and previous['period_end'] < r['period_end'] < last['period_end']), None)
+            if annual:
+                flows = {}
+                for k in FLOW_FIELDS:
+                    values = (last['ytd_values'].get(k), annual['values'].get(k), previous['ytd_values'].get(k))
+                    flows[k] = number(values[0] + values[1] - values[2]) if all(v is not None for v in values) else None
+                yield window(flows, last, previous, 'ttm')
+        elif last['source'] == 'yahoo' and last['frequency'] == 'quarterly':
+            quarters = [r for r in rows if r['frequency'] == 'quarterly' and r.get('period_end')
+                        and r['period_end'] <= last['period_end']][-4:]
+            dates = [date.fromisoformat(r['period_end']) for r in quarters]
+            if len(dates) == 4 and dates[-1].isoformat() == last['period_end'] and all(
+                70 <= (b - a).days <= 110 for a, b in zip(dates, dates[1:])):
+                flows = {k: number(sum(r['values'][k] for r in quarters))
+                         if all(r['values'].get(k) is not None for r in quarters) else None for k in FLOW_FIELDS}
+                # Balance sheet endpoints may also be in an annual report.
+                starts = [r for r in rows if r.get('period_end') and
+                          345 <= (dates[-1] - date.fromisoformat(r['period_end'])).days <= 385]
+                yield window(flows, last, starts[-1] if starts else None, 'ttm')
+    annuals = [r for r in rows if r['frequency'] == 'annual'
+               and int(last['fiscal_year']) - 1 <= int(r['fiscal_year']) <= int(last['fiscal_year'])]
+    for annual in reversed(annuals):
+        if last.get('period_end') and annual.get('period_end') and not (
+            0 <= (date.fromisoformat(last['period_end']) - date.fromisoformat(annual['period_end'])).days <= 450):
+            continue
+        yield window(annual['values'], annual, previous_year(annual, 'annual'),
+                     'annual' if annual is last else 'annual_fallback')
+        break
 
 
 def financial_metrics(payload, asof):
@@ -127,28 +188,41 @@ def financial_metrics(payload, asof):
         ('liabilities_equity', 'total_liabilities', 'total_equity'),
         ('fin_current_ratio', 'current_assets', 'current_liabilities')):
         metrics[key] = ratio(v.get(numerator), v.get(denominator))
-    basis = 'reported_period'
-    # Annual values are a full-year flow; unverified quarterly/YTD flows are not annualized.
-    if last['frequency'] == 'annual':
-        basis = 'annual'
-        assets, old_assets = v.get('total_assets'), prev.get('total_assets')
-        avg = (assets + old_assets) / 2 if assets is not None and old_assets is not None else None
-        metrics['fin_roa'] = ratio(v.get('net_income'), avg)
-        metrics['fin_cfo_assets'] = ratio(v.get('operating_cash_flow'), avg)
-        cfo, net, capex = v.get('operating_cash_flow'), v.get('net_income'), v.get('capex')
-        metrics['fin_accruals_assets'] = ratio(net - cfo, avg) if net is not None and cfo is not None else None
-        metrics['fin_cfo_after_ppe_assets'] = ratio(cfo - abs(capex), avg) if cfo is not None and capex is not None else None
-        metrics['fin_ppe_sales'] = ratio(abs(capex), v.get('revenue')) if capex is not None else None
-        metrics['fin_interest_coverage'] = ratio(v.get('operating_income'), v.get('interest_expense'))
+    basis = 'annual' if last['frequency'] == 'annual' else 'reported_period'
+    details = {k: {'basis': basis, 'period_end': last.get('period_end'),
+                  'period_label': last['period_label']} for k in METRICS}
+    for w in annualized_windows(rows, last):
+        flow, avg = w['flows'], w['average_assets']
+        cfo, net, capex = flow.get('operating_cash_flow'), flow.get('net_income'), flow.get('capex')
+        calculated = {'fin_roa': ratio(net, avg), 'fin_cfo_assets': ratio(cfo, avg),
+            'fin_accruals_assets': ratio(net - cfo, avg) if net is not None and cfo is not None else None,
+            'fin_cfo_after_ppe_assets': ratio(cfo - abs(capex), avg) if cfo is not None and capex is not None else None,
+            'fin_ppe_sales': ratio(abs(capex), flow.get('revenue')) if capex is not None else None,
+            'fin_interest_coverage': ratio(flow.get('operating_income'), flow.get('interest_expense'))}
+        for k, value in calculated.items():
+            if metrics[k] is None and value is not None:
+                metrics[k] = value
+                details[k] = {key: w[key] for key in ('basis', 'period_end', 'period_label')}
     financial_sector = payload.get('financial_sector')
     if financial_sector:
         for key in ('fin_gross_margin', 'fin_cfo_assets', 'fin_cfo_after_ppe_assets',
                     'fin_accruals_assets', 'fin_current_ratio', 'fin_ppe_sales', 'fin_interest_coverage'):
             metrics[key] = None
+            details[key]['reason'] = '금융업에는 적용하지 않는 지표'
+    for k, value in metrics.items():
+        details[k]['status'] = 'available' if value is not None else 'unavailable'
+        if value is None:
+            details[k].setdefault('reason', '계산에 필요한 원자료 또는 양수 분모 미확보')
+    for k in ('fin_roa', 'fin_cfo_assets', 'fin_cfo_after_ppe_assets', 'fin_accruals_assets'):
+        if metrics[k] is None and '금융업' not in details[k]['reason']:
+            details[k]['reason'] = '연간·최근 12개월 흐름 또는 비교 시점 자산 미확보'
+    if metrics['fin_current_ratio'] is None and '금융업' not in details['fin_current_ratio']['reason']:
+        details['fin_current_ratio']['reason'] = ('유동부채가 0 이하라 비율 계산 불가' if
+            v.get('current_liabilities') is not None and v['current_liabilities'] <= 0 else '유동자산·유동부채 원자료 미확보')
     age = (today - date.fromisoformat(last['period_end'])).days if last.get('period_end') else None
     latest = {k: last.get(k) for k in ('period_end', 'period_label', 'filed_at', 'filing_id',
                                       'observed_at', 'source', 'scope')}
-    latest.update(metrics=metrics, basis=basis, available_at=last.get('filed_at'))
+    latest.update(metrics=metrics, metric_details=details, basis=basis, available_at=last.get('filed_at'))
     return {'latest': latest, 'history': [], 'age_days': age, 'stale': age is not None and age > 240,
             'status': 'available' if last.get('filed_at') else 'filing_date_unverified',
             'asof': asof, 'financial_sector': financial_sector,
