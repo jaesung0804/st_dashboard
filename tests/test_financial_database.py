@@ -204,3 +204,31 @@ def test_failure_diagnostics_do_not_expose_provider_urls_or_keys():
     assert 'test_financial_database.py:' in diagnostic['error_location']
     assert 'provider.invalid' not in json.dumps(diagnostic)
     assert 'private-test-value' not in json.dumps(diagnostic)
+
+
+def test_transient_provider_retry_is_bounded_and_does_not_retry_db_conflicts(monkeypatch):
+    import requests
+    import financial_database as database
+    monkeypatch.setattr(database.time, 'sleep', lambda _: None)
+    calls = []
+    def transient():
+        calls.append(1)
+        if len(calls) < 3:
+            raise requests.ConnectionError('transient')
+        return 'saved response'
+    assert database.provider_read(transient) == 'saved response'
+    assert len(calls) == 3
+    calls.clear()
+    def failed():
+        calls.append(1)
+        raise requests.Timeout('timeout')
+    with pytest.raises(requests.Timeout):
+        database.provider_read(failed)
+    assert len(calls) == 3
+    calls.clear()
+    def conflict():
+        calls.append(1)
+        raise BackendError(409, 'changed')
+    with pytest.raises(BackendError):
+        database.provider_read(conflict)
+    assert len(calls) == 1

@@ -43,8 +43,21 @@ def error_diagnostic(error):
     # locations, not messages or traceback source lines, for safe diagnosis.
     frames = traceback.extract_tb(error.__traceback__)
     last = frames[-1] if frames else None
+    operation = next((f for f in reversed(frames) if Path(f.filename).name == 'financial_database.py'), None)
     return {'error_type': type(error).__name__,
-            'error_location': f'{Path(last.filename).name}:{last.name}:{last.lineno}' if last else None}
+            'error_location': f'{Path(last.filename).name}:{last.name}:{last.lineno}' if last else None,
+            'operation': f'{operation.name}:{operation.lineno}' if operation else None}
+
+
+def provider_read(operation, *args, **kwargs):
+    """Retry transient DART reads only; never retry a database conflict."""
+    for attempt in range(3):
+        try:
+            return operation(*args, **kwargs)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+            time.sleep(2 ** (attempt + 1))
 
 
 def restore_inputs(client, root, markets, bootstrap=False):
@@ -170,7 +183,7 @@ def fetch_kr(ticker, code, previous, observed_at):
     from ai_stock_assistant.data.opendart import (get_api_key,
         fetch_financial_statement_with_fallback, normalize_financial_accounts)
     key = get_api_key()
-    response = requests.get('https://opendart.fss.or.kr/api/company.json',
+    response = provider_read(requests.get, 'https://opendart.fss.or.kr/api/company.json',
         params={'crtfc_key': key, 'corp_code': code}, timeout=30)
     response.raise_for_status()
     profile = response.json()
@@ -187,7 +200,7 @@ def fetch_kr(ticker, code, previous, observed_at):
                 if now.month > end for year in (now.year - 1, now.year)]
     result = []
     for year, report in periods:
-        frame, scope, status, _ = fetch_financial_statement_with_fallback(code, year, report, key)
+        frame, scope, status, _ = provider_read(fetch_financial_statement_with_fallback, code, year, report, key)
         if status == '013':
             continue  # No filing yet: keep the last successful period.
         if status != '000' or frame.empty:
