@@ -1,0 +1,61 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>전체 후보의 수익·변동성 비교</title><style>body{margin:0;background:#f5f7f9;color:#193044;font:16px/1.7 "Malgun Gothic",sans-serif}main{max-width:1260px;margin:auto;padding:30px 24px}a{color:#117d80}h1{font-size:clamp(25px,4vw,38px);line-height:1.4;word-break:keep-all}h2{font-size:22px;margin-top:40px}.note{background:#eaf4f3;padding:20px;border-radius:12px}figure{margin:24px 0}img{display:block;width:100%;height:auto;background:white}figcaption{font-size:13px;color:#637484}.table-wrap{overflow:auto;background:white;border:1px solid #dde5eb;border-radius:12px}table{border-collapse:collapse;min-width:1120px;width:100%;font-size:14px}th,td{padding:12px 14px;border-bottom:1px solid #dde5eb;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}th{background:#eaf4f3}footer{margin:35px 0;color:#637484;font-size:13px;overflow-wrap:anywhere}@media(max-width:600px){main{padding:20px 16px}.note{padding:15px}}</style>
+<main><a href="./#v02-research">← 포트폴리오 대시보드로</a><h1>전체 후보의 수익·변동성 비교</h1>
+<p>기본 체결 16개와 하루 지연 6개 후보를 두 기간에서 비교했습니다. 총 44개 완료 결과이며, 중복된 v0.1 기준 결과는 한 번만 표시합니다.</p>
+<div class="note"><strong>같은 기본 모델을 이겼다고 최종 후보가 되는 것은 아닙니다.</strong><br>단순 매매 규칙을 포함해 수익·변동성·낙폭·비용을 함께 봅니다. 이미 본 개발 자료의 사후 비교이며, 미래 수익이나 실제 주문 승인을 의미하지 않습니다.</div>
+<p>개발: 2024.10.01–2026.03.31 · 391개 판단일<br>추가: 2026.04.01–06.05 · 48개 판단일<br>각 조건은 같은 1억 원에서 별도로 시작했습니다. 수익은 원화 누적 순수익, 변동성은 연환산 값입니다. 2026.10.09 수수료 가정과 환전 비용을 반영하며 개인별 소득세는 제외했습니다.</p>
+<figure><a href="return-risk.png" aria-label="수익·변동성 도표 원본 크게 보기"><img src="return-risk.png" alt="개발 및 추가 기간의 기본 체결과 하루 지연 후보 44개 수익·변동성 산점도"></a><figcaption>그림을 누르면 원본을 크게 볼 수 있습니다. 점 크기는 평균 주식 비중, 검은 테두리는 이 표본의 수익·변동성 두 지표에서 다른 후보에 밀리지 않는 점입니다. 같은 위험 예산의 비교나 통계 검정은 아닙니다.</figcaption></figure>
+<p>† 체결 수정 후보에는 순주문 비용 불일치가 남아 있습니다. 동점 후보 선별 문제도 유지됩니다. 원래 수익 입력 비교군도 후보 선별에는 보정 전망을 사용합니다. 진행 중인 최종 주문 재검사 결과는 이 자료에 포함하지 않았습니다.</p>
+<section><h2>개발 · 기본 체결</h2><div class="table-wrap"><table><caption>개발 · 기본 체결 전체 후보</caption><thead><tr><th>번호 · 후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>계산 실패</th></tr></thead><tbody>
+<tr><td>01 초기 주식 80% 유지</td><td>55.76%</td><td>20.42%</td><td>-20.75%</td><td>82.5%</td><td>0원</td><td>391일</td><td>0건</td></tr>
+<tr><td>02 고정 80% 동일비중</td><td>51.32%</td><td>18.87%</td><td>-17.50%</td><td>79.9%</td><td>4,080,856원</td><td>391일</td><td>0건</td></tr>
+<tr><td>03 변동성 조절 동일비중</td><td>53.30%</td><td>19.91%</td><td>-19.77%</td><td>85.7%</td><td>4,127,368원</td><td>356일</td><td>0건</td></tr>
+<tr><td>04 시장 조절 동일비중</td><td>49.66%</td><td>18.46%</td><td>-18.42%</td><td>81.7%</td><td>4,889,123원</td><td>354일</td><td>0건</td></tr>
+<tr><td>05 기존 순위 모델</td><td>34.16%</td><td>17.30%</td><td>-17.66%</td><td>69.0%</td><td>18,176,750원</td><td>193일</td><td>0건</td></tr>
+<tr><td>06 전망 순위 동일비중</td><td>67.42%</td><td>20.95%</td><td>-16.61%</td><td>66.9%</td><td>19,461,780원</td><td>301일</td><td>0건</td></tr>
+<tr><td>07 v0.1 기본</td><td>44.61%</td><td>12.45%</td><td>-8.16%</td><td>48.8%</td><td>3,994,779원</td><td>1일</td><td>0건</td></tr>
+<tr><td>08 관계 특징 제외</td><td>45.02%</td><td>12.21%</td><td>-8.21%</td><td>48.4%</td><td>3,538,748원</td><td>4일</td><td>1건</td></tr>
+<tr><td>09 수익 입력 보정 제외</td><td>46.61%</td><td>12.43%</td><td>-7.11%</td><td>32.3%</td><td>7,602,710원</td><td>9일</td><td>1건</td></tr>
+<tr><td>10 변동성 2단계 제외</td><td>36.28%</td><td>13.85%</td><td>-8.28%</td><td>51.9%</td><td>3,510,686원</td><td>16일</td><td>0건</td></tr>
+<tr><td>11 매일 재조정</td><td>50.87%</td><td>12.13%</td><td>-8.18%</td><td>49.2%</td><td>4,474,748원</td><td>1일</td><td>0건</td></tr>
+<tr><td>12 비중 차이 1%p 규칙</td><td>49.91%</td><td>11.95%</td><td>-7.83%</td><td>49.0%</td><td>4,428,033원</td><td>1일</td><td>0건</td></tr>
+<tr><td>13 시장 위험 조절 제외</td><td>45.05%</td><td>12.48%</td><td>-7.95%</td><td>49.0%</td><td>3,780,237원</td><td>0일</td><td>0건</td></tr>
+<tr><td>14 v0.2 체결 수정 †</td><td>44.08%</td><td>12.26%</td><td>-7.61%</td><td>53.4%</td><td>3,346,523원</td><td>1일</td><td>0건</td></tr>
+<tr><td>15 온라인 수익 보정</td><td>44.52%</td><td>11.68%</td><td>-8.01%</td><td>48.6%</td><td>4,130,155원</td><td>6일</td><td>0건</td></tr>
+<tr><td>16 v0.2 체결 + 보정 †</td><td>47.18%</td><td>12.08%</td><td>-9.28%</td><td>49.8%</td><td>3,620,686원</td><td>2일</td><td>1건</td></tr>
+</tbody></table></div></section>
+<section><h2>개발 · 하루 지연</h2><div class="table-wrap"><table><caption>개발 · 하루 지연 전체 후보</caption><thead><tr><th>번호 · 후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>계산 실패</th></tr></thead><tbody>
+<tr><td>01 초기 주식 80% 유지</td><td>55.76%</td><td>20.42%</td><td>-20.75%</td><td>82.5%</td><td>0원</td><td>391일</td><td>0건</td></tr>
+<tr><td>02 고정 80% 동일비중</td><td>51.97%</td><td>18.88%</td><td>-17.00%</td><td>79.9%</td><td>4,197,686원</td><td>390일</td><td>0건</td></tr>
+<tr><td>07 v0.1 기본</td><td>37.75%</td><td>12.81%</td><td>-8.57%</td><td>46.9%</td><td>10,102,147원</td><td>10일</td><td>1건</td></tr>
+<tr><td>14 v0.2 체결 수정 †</td><td>53.01%</td><td>10.57%</td><td>-5.74%</td><td>45.5%</td><td>3,171,781원</td><td>4일</td><td>41건</td></tr>
+<tr><td>15 온라인 수익 보정</td><td>37.89%</td><td>12.10%</td><td>-8.65%</td><td>44.4%</td><td>11,277,988원</td><td>14일</td><td>0건</td></tr>
+<tr><td>16 v0.2 체결 + 보정 †</td><td>50.78%</td><td>11.05%</td><td>-8.09%</td><td>40.1%</td><td>3,197,914원</td><td>9일</td><td>44건</td></tr>
+</tbody></table></div></section>
+<section><h2>추가 · 기본 체결</h2><div class="table-wrap"><table><caption>추가 · 기본 체결 전체 후보</caption><thead><tr><th>번호 · 후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>계산 실패</th></tr></thead><tbody>
+<tr><td>01 초기 주식 80% 유지</td><td>33.66%</td><td>27.93%</td><td>-7.42%</td><td>84.0%</td><td>0원</td><td>48일</td><td>0건</td></tr>
+<tr><td>02 고정 80% 동일비중</td><td>40.42%</td><td>27.45%</td><td>-6.42%</td><td>80.1%</td><td>451,916원</td><td>48일</td><td>0건</td></tr>
+<tr><td>03 변동성 조절 동일비중</td><td>39.39%</td><td>28.83%</td><td>-6.80%</td><td>80.1%</td><td>566,365원</td><td>48일</td><td>0건</td></tr>
+<tr><td>04 시장 조절 동일비중</td><td>37.17%</td><td>26.30%</td><td>-6.41%</td><td>74.1%</td><td>597,821원</td><td>48일</td><td>0건</td></tr>
+<tr><td>05 기존 순위 모델</td><td>18.58%</td><td>17.26%</td><td>-2.96%</td><td>63.8%</td><td>2,463,203원</td><td>23일</td><td>0건</td></tr>
+<tr><td>06 전망 순위 동일비중</td><td>23.21%</td><td>18.52%</td><td>-2.06%</td><td>53.7%</td><td>3,186,033원</td><td>33일</td><td>0건</td></tr>
+<tr><td>07 v0.1 기본</td><td>8.37%</td><td>16.26%</td><td>-4.87%</td><td>37.9%</td><td>548,434원</td><td>5일</td><td>0건</td></tr>
+<tr><td>08 관계 특징 제외</td><td>9.36%</td><td>15.78%</td><td>-4.76%</td><td>39.4%</td><td>517,646원</td><td>5일</td><td>0건</td></tr>
+<tr><td>09 수익 입력 보정 제외</td><td>9.35%</td><td>14.69%</td><td>-3.34%</td><td>43.0%</td><td>881,662원</td><td>4일</td><td>0건</td></tr>
+<tr><td>10 변동성 2단계 제외</td><td>8.00%</td><td>16.01%</td><td>-5.23%</td><td>37.9%</td><td>529,327원</td><td>17일</td><td>0건</td></tr>
+<tr><td>11 매일 재조정</td><td>8.27%</td><td>16.27%</td><td>-4.98%</td><td>37.9%</td><td>561,466원</td><td>5일</td><td>0건</td></tr>
+<tr><td>12 비중 차이 1%p 규칙</td><td>8.73%</td><td>16.37%</td><td>-5.04%</td><td>37.9%</td><td>554,534원</td><td>5일</td><td>0건</td></tr>
+<tr><td>13 시장 위험 조절 제외</td><td>8.22%</td><td>16.80%</td><td>-4.88%</td><td>41.1%</td><td>517,072원</td><td>3일</td><td>0건</td></tr>
+<tr><td>14 v0.2 체결 수정 †</td><td>7.00%</td><td>15.66%</td><td>-5.05%</td><td>39.0%</td><td>558,891원</td><td>1일</td><td>0건</td></tr>
+<tr><td>15 온라인 수익 보정</td><td>10.01%</td><td>16.33%</td><td>-4.19%</td><td>52.1%</td><td>709,821원</td><td>4일</td><td>0건</td></tr>
+<tr><td>16 v0.2 체결 + 보정 †</td><td>11.54%</td><td>16.33%</td><td>-3.91%</td><td>53.7%</td><td>756,604원</td><td>0일</td><td>0건</td></tr>
+</tbody></table></div></section>
+<section><h2>추가 · 하루 지연</h2><div class="table-wrap"><table><caption>추가 · 하루 지연 전체 후보</caption><thead><tr><th>번호 · 후보</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>거래·환전 비용</th><th>변동성·CVaR 초과</th><th>계산 실패</th></tr></thead><tbody>
+<tr><td>01 초기 주식 80% 유지</td><td>33.66%</td><td>27.93%</td><td>-7.42%</td><td>84.0%</td><td>0원</td><td>48일</td><td>0건</td></tr>
+<tr><td>02 고정 80% 동일비중</td><td>39.79%</td><td>27.30%</td><td>-6.52%</td><td>80.2%</td><td>437,465원</td><td>48일</td><td>0건</td></tr>
+<tr><td>07 v0.1 기본</td><td>10.72%</td><td>16.09%</td><td>-4.18%</td><td>37.2%</td><td>916,569원</td><td>15일</td><td>0건</td></tr>
+<tr><td>14 v0.2 체결 수정 †</td><td>6.65%</td><td>15.36%</td><td>-4.81%</td><td>35.7%</td><td>422,181원</td><td>8일</td><td>7건</td></tr>
+<tr><td>15 온라인 수익 보정</td><td>9.60%</td><td>16.29%</td><td>-3.99%</td><td>45.6%</td><td>1,732,027원</td><td>12일</td><td>0건</td></tr>
+<tr><td>16 v0.2 체결 + 보정 †</td><td>12.23%</td><td>15.92%</td><td>-2.83%</td><td>43.2%</td><td>446,334원</td><td>5일</td><td>2건</td></tr>
+</tbody></table></div></section>
+<footer>계산 실패는 사건 수이며 독립 거래일 수가 아닙니다. 주식 비중과 위험 정책 차이를 함께 확인하세요. 순수익과 변동성이 좋아도 최대 낙폭·미해결 주문·독립 검증 기준을 모두 통과해야 합니다.<br>관찰 일수: 모의 0일 · 실전 0일<br>근거 보관본: 3eca37ae95c75d8b8e13428285319f97c5c156808dfdeaad5469adbff677c29e</footer></main></html>

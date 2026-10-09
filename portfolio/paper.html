@@ -1,0 +1,146 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>한미 통합 일별 포트폴리오와 소액 적립식 운용 · ST Research</title><style>body{margin:0;background:#f4f7f8;color:#192e3d;font-family:Malgun Gothic,Arial,sans-serif;line-height:1.85}header,main{max-width:1080px;margin:auto;padding:30px 30px}header{padding-bottom:12px}a{color:#137b7b;text-underline-offset:3px}nav{display:flex;gap:25px;flex-wrap:wrap}h1{font-size:36px;line-height:1.4;letter-spacing:-1px;max-width:850px}h2{font-size:25px;margin:50px 0 20px;padding-top:20px;border-top:2px solid #d8e4e8}h3{font-size:18px;margin-top:30px}p{font-size:16px;max-width:960px;overflow-wrap:anywhere}figure{margin:28px 0;background:white;padding:14px;border:1px solid #d8e4e8;border-radius:12px}img{display:block;width:100%;height:auto}figcaption,.meta{font-size:13px;color:#586e7d}.table-wrap{overflow-x:auto;background:white;border:1px solid #d8e4e8;border-radius:10px}table{border-collapse:collapse;width:100%;font-size:13px;min-width:660px}td,th{padding:12px 14px;text-align:left;border-bottom:1px solid #e3eaee;vertical-align:top}th{background:#edf3f5;white-space:nowrap}.notice{background:#fff3df;border-left:4px solid #b67425;padding:18px}.equation{background:#e8f2f1;padding:22px;overflow:auto;font-family:Georgia,serif;font-size:18px}.reference{font-size:13px;overflow-wrap:anywhere}.hero{background:#e9f2f2;border-radius:18px;padding:24px}.download{display:inline-block;padding:9px 18px;background:#147d78;color:white;border-radius:8px;text-decoration:none}.contents{display:flex;gap:14px;flex-wrap:wrap;margin-top:20px}@media(max-width:650px){header,main{padding:20px 16px}h1{font-size:27px}h2{font-size:22px}p{font-size:15px}figure{padding:5px;margin-left:-5px;margin-right:-5px}.hero{padding:18px}td,th{padding:10px}.equation{font-size:15px}}</style>
+<header><nav><a href="./">포트폴리오 대시보드</a><a href="../investment/">한미 종목 탐색</a><a href="#dca">100만 원 적립식 결과</a></nav></header><main>
+<div class="hero"><p class="meta">ST RESEARCH · 연구 중간보고서 · 최종 주문 재검사 비교 진행 중 · 실제 주문 비활성</p><h1>한미 통합 일별 포트폴리오와 소액 적립식 운용</h1><p>수익을 먼저 높이고, 비슷한 수익이면 덜 흔들리게.<br>서론부터 설계·비교 실험·1년 적립식 결과·개선 과제까지.</p>
+<a class="download" href="paper.pdf" download>논문 형식 PDF 받기</a>
+</div>
+<h2 id="section-0">초록</h2>
+<p class="p">개별 종목의 상승·하락 경보를 계좌 전체의 자산 배분 문제로 확장하였다. 한국·미국 주식과 원화·달러 현금을 함께 평가하고, 거래비용 차감 기대수익을 먼저 최대화한 뒤 거의 같은 기대수익의 후보 가운데 변동성이 낮은 비중을 선택한다. 과거 5일 수익 분포, 공동 손실 시나리오, 실제 보유 상태와 결제 가능 현금을 연결한 연구용 v0.1을 구현하였다.</p>
+<p class="p">이미 살펴본 개발 구간에서 v0.1은 낙폭을 낮췄으나 단순 전략을 일관되게 앞서지 못했다. 초기 100만 원과 이후 월 100만 원 11회, 총 1,200만 원을 납입한 별도 정수 주수 실험의 v0.1 최종 평가액은 13,344,967원이었고, 납입액 대비 이익은 1,344,967원이었다. 자료 재구성·배당 지급일·기업행사 처리와 실행 실패의 한계가 있어 결과를 미래 수익이나 실제 계좌 재현의 보증으로 해석하지 않는다.</p>
+<h2 id="section-3">1. 서론</h2>
+<p class="p">좋은 종목을 고르는 일과 좋은 포트폴리오를 만드는 일은 다르다. 상승 전망이 높은 종목 여러 개를 동시에 보유하면 같은 충격에 함께 하락할 수 있고, 기존 보유를 바꾸는 비용이 기대 이익을 넘을 수 있다. 이 연구는 “얼마나 투자할까, 무엇이 유리할까, 얼마나 담을까, 지금 바꿀까”를 하나의 계좌 장부 위에서 검증한다.</p>
+<p class="p">목표는 원화 기준 순수익의 개선이다. 변동성과 꼬리 위험은 낮은 수익을 정당화하는 사후 설명이 아니라 사전에 정한 제약과 동률 판단 기준으로 사용한다. 매일 판단하되 유지도 정상적인 결정으로 인정한다. 연구의 최종 지향점은 설명 가능한 공개 대시보드와 일일 매매안, 이후 충분한 독립 관찰을 거친 자동 운용이다.</p>
+<h2 id="section-6">2. 관련 연구와 기술적 선택</h2>
+<div class="table-wrap"><table><thead><tr><th>근거</th><th>채택한 원리</th><th>이번 구현의 범위</th></tr></thead><tbody>
+<tr><td>Park·Hong·Jeon [1]</td><td>급격한 공동 움직임, 시간에 따라 변하는 종목군 관계</td><td>충격 빈도·감쇠와 과거 상관 특징. 논문 신경망 재현은 아님</td></tr>
+<tr><td>MASTER·SAHP [2,3]</td><td>시장 상태와 관계 변화, 사건 이후 영향</td><td>설명 가능한 통계 특징으로 먼저 추가 가치 검증</td></tr>
+<tr><td>Rockafellar–Uryasev [4]</td><td>공동 시나리오의 CVaR 제약</td><td>전체 시나리오를 한 번에 포함하는 볼록 문제</td></tr>
+<tr><td>Boyd 등 [5]</td><td>보유·현금·거래비용을 연결한 반복 운용</td><td>단일 기간 최적화와 별도 체결 장부</td></tr>
+<tr><td>Goldfarb–Iyengar [6]</td><td>추정 오차를 고려한 배분</td><td>전망 축소·위험 보수화의 근거. 논문 그대로의 강건 최적화는 아님</td></tr>
+<tr><td>공개 운용 사례 [8–10]</td><td>분산, 비중 유지, 거래 문턱 비교</td><td>초기 주식 80% 비교군과 단순 규칙. 서비스 수익률은 이식하지 않음</td></tr>
+</tbody></table></div>
+<p class="p">검토 특허 KR101830090B1 [7]의 국부 타원체·비선형 투영·경로 조정비용 누적을 구현하지 않고, 공개 연구에 기반한 전체 시나리오 제약과 실제 순매매 비용을 사용하였다. 이는 확인한 구성의 기술적 차이를 기록한 것이며 자유실시나 비침해를 확정한 법률 의견이 아니다. 운영 형태가 정해지면 최종 구현과 유효 청구항을 별도로 검토해야 한다.</p>
+<h2 id="section-9">3. 모델 구조와 목적함수</h2>
+<figure><img src="architecture.png" alt="그림 1. v0.1의 네 판단 단계. 전망과 계좌 상태를 분리하고 최종 체결 뒤 실제 비중을 다시 확인한다." loading="lazy"><figcaption>그림 1. v0.1의 네 판단 단계. 전망과 계좌 상태를 분리하고 최종 체결 뒤 실제 비중을 다시 확인한다.</figcaption></figure>
+<p class="p">한국시간 평일 08:30까지 이용 가능한 이전 세션의 가격·거래량·시장 상태·사건·관계 특징을 입력한다. 두 시장별 LightGBM이 다음 체결 이후 5개 공동 평가 영업일의 원화 수익률 평균과 5·50·95% 분위수를 예측한다. 3개월마다 재학습하고, 학습 밖에서 이미 결과가 성숙한 63일을 이용해 보정한다. 날짜별 총 가중치를 같게 하며 평균에는 제곱오차, 분위수에는 pinball loss를 사용한다.</p>
+<p class="equation">G* = max [ μᵀw − C(w, w₀) ];  min wᵀΣw  subject to  μᵀw − C(w, w₀) ≥ G* − 0.0001</p>
+<p class="p">μ는 같은 5일 기간의 기대수익, w는 목표 비중, w₀는 현재 비중, C는 매매·환전 비용, Σ는 공동 위험이다. 2단계는 최선의 기대 순수익에서 1bp 이내인 후보 중 변동성이 작은 비중을 고른다. “같은 수익이면 낮은 변동성”을 직접 표현하지만, 예측 평균의 오차나 미래 수익을 제거하지는 않는다.</p>
+<div class="table-wrap"><table><thead><tr><th>항목</th><th>고정 연구 기준</th></tr></thead><tbody>
+<tr><td>전체·종목·통화</td><td>주식 최대 95%, 종목 목표 5%·사후 8% 감시, 국가 주식 65%, 미국 주식+달러 75%</td></tr>
+<tr><td>공동 위험</td><td>연 예상 변동성 18%; 시장 악화 시 12%; 5일 CVaR95 7%; 별도 위기 손실 15%; 고상관 군집 25%</td></tr>
+<tr><td>공동 이력 부족</td><td>60관측 미만 신규 매수 금지; 120미만 종목 2% 및 위험 확대; 종목별 가용 이력으로 요인 추정</td></tr>
+<tr><td>거래 판단</td><td>평상시 일간 매수+매도 20%; 기대 순개선 1bp 문턱; 위험 축소가 비용·회전율 문턱보다 우선</td></tr>
+<tr><td>후보·누락</td><td>당일 시장별 평균 전망 상위 20개; 보유 종목은 계속 추적; 누락 수익을 0으로 대체하지 않음</td></tr>
+</tbody></table></div>
+<p class="p">한국 시장·미국 시장·환율의 3개 요인과 국가 공통 잔차 충격으로 공분산 및 공동 시나리오를 구성한다. 전체 종목의 공동 이력을 교집합으로 잘라 쓰지 않는다. 평균 0의 위험 충격과 별도 위기 시나리오를 사용하므로 높은 기대수익이 위험 한도를 없애지 않는다. 생성한 256개 시나리오는 추가로 관측한 256개 위기가 아니다.</p>
+<h2 id="section-16">4. 실험 설계와 평가 방법</h2>
+<figure><img src="experiments.png" alt="그림 2. 시장·전망·배분·매매 단계의 비교. 전체 운용 비교와 동일 입력을 고정한 통제 실험을 구분한다." loading="lazy"><figcaption>그림 2. 시장·전망·배분·매매 단계의 비교. 전체 운용 비교와 동일 입력을 고정한 통제 실험을 구분한다.</figcaption></figure>
+<p class="p">개발 기간은 2024-10-01–2026-03-31의 391개 공동 평가일, 추가 기간은 2026-04-01–06-05의 48일이다. 두 기간은 각 1억 원에서 새로 시작하며 모두 이미 본 과거 자료다. 학습·보정·시험 순서를 유지하고 라벨이 경계를 넘지 않도록 한다. 독립 시험 또는 실제 미래 모의 운용으로 세지 않는다.</p>
+<div class="table-wrap"><table><thead><tr><th>단계</th><th>비교</th><th>주요 실패 신호</th></tr></thead><tbody>
+<tr><td>시장</td><td>같은 구성의 고정 80%·변동성 조절·시장 상태 조절</td><td>현금 증가로 손실만 줄거나 단순 조절보다 낮은 순성과</td></tr>
+<tr><td>전망</td><td>기존 순위·5일 평균/분위수·관계 특징 제거·보정 제거</td><td>평균 편향, 낮은 구간 포함률, 하방 위험 누락</td></tr>
+<tr><td>배분</td><td>전체 운용 방식 비교 및 2단계 최소분산 제거 통제</td><td>실현 공동 손실·집중·비용으로 이점 소멸</td></tr>
+<tr><td>매매</td><td>매일·비중 차이·비용 문턱, 별도 동일 목표 경로</td><td>작은 비용 절감보다 큰 기회비용, 위험 축소 지연</td></tr>
+</tbody></table></div>
+<p class="p">최종 결과는 순수익·변동성·낙폭·꼬리 손실·평균 주식 비중·비용·계산 실패·미해결 위험을 함께 본다. 노출이 다른 전략의 수익 차이를 종목 선별력으로 단정하지 않는다. 이미 여러 후보를 살펴본 개발 결과의 블록 재표집 구간은 기술적 불확실성 표시이며, 미사용 시험의 확증 통계로 해석하지 않는다.</p>
+<h2 id="section-21">5. 기존 모델과 포트폴리오 후보의 결과</h2>
+<h3>개발 기간 · 기본 체결</h3>
+<div class="table-wrap"><table><thead><tr><th>전략</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>초기 주식 80% 유지</td><td>55.76%</td><td>20.42%</td><td>-20.75%</td><td>82.53%</td></tr>
+<tr><td>고정 80% 동일비중</td><td>51.32%</td><td>18.87%</td><td>-17.50%</td><td>79.85%</td></tr>
+<tr><td>기존 순위 모델</td><td>34.16%</td><td>17.30%</td><td>-17.66%</td><td>69.04%</td></tr>
+<tr><td>v0.1 기본</td><td>44.61%</td><td>12.45%</td><td>-8.16%</td><td>48.84%</td></tr>
+<tr><td>매일 재조정</td><td>50.87%</td><td>12.13%</td><td>-8.18%</td><td>49.21%</td></tr>
+<tr><td>비중 차이 1%p 규칙</td><td>49.91%</td><td>11.95%</td><td>-7.83%</td><td>48.96%</td></tr>
+<tr><td>v0.2 체결 + 보정 †</td><td>47.18%</td><td>12.08%</td><td>-9.28%</td><td>49.80%</td></tr>
+</tbody></table></div>
+<h3>추가 기간 · 기본 체결</h3>
+<div class="table-wrap"><table><thead><tr><th>전략</th><th>순수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th></tr></thead><tbody>
+<tr><td>초기 주식 80% 유지</td><td>33.66%</td><td>27.93%</td><td>-7.42%</td><td>83.96%</td></tr>
+<tr><td>고정 80% 동일비중</td><td>40.42%</td><td>27.45%</td><td>-6.42%</td><td>80.11%</td></tr>
+<tr><td>기존 순위 모델</td><td>18.58%</td><td>17.26%</td><td>-2.96%</td><td>63.79%</td></tr>
+<tr><td>v0.1 기본</td><td>8.37%</td><td>16.26%</td><td>-4.87%</td><td>37.90%</td></tr>
+<tr><td>매일 재조정</td><td>8.27%</td><td>16.27%</td><td>-4.98%</td><td>37.93%</td></tr>
+<tr><td>비중 차이 1%p 규칙</td><td>8.73%</td><td>16.37%</td><td>-5.04%</td><td>37.86%</td></tr>
+<tr><td>v0.2 체결 + 보정 †</td><td>11.54%</td><td>16.33%</td><td>-3.91%</td><td>53.66%</td></tr>
+</tbody></table></div>
+<p class="p">개발 기간의 v0.1은 기존 순위 모델보다 수익과 낙폭이 개선됐으나, 초기 80% 주식 유지의 수익을 넘지 못했다. 비중 차이 1%p 매매 규칙은 수익 49.91%·변동성 11.95%로 v0.2 결합 후보의 47.18%·12.08%보다 좋았다. 추가 기간에서는 결합 후보와 단순 규칙의 순서가 바뀌었다. 복잡한 설계가 단순 규칙보다 일관되게 우월하다는 증거는 없다.</p>
+<p class="p">v0.2의 하루 지연 개발 조건에서 체결 수정 단독과 결합 후보는 각각 41건·44건의 계산 실패를 기록했다. 높은 장부 수익을 실행 안정성의 증거로 사용할 수 없다. 순주문 비용 불일치와 상위 20개 경계의 동점 처리 문제를 원본과 함께 보존했으며, 최종 주문 재검사 후보는 별도로 비교한다. 평균 편향을 줄이는 보정도 전체 분포의 보정과 동일하지 않았다.</p>
+<p class="notice">최종 주문 재검사 수정안의 8개 조건 비교는 진행 중이다. 이 절에는 완료·보관된 이전 결과만 넣었다. 전체 수정안 비교와 보유 장부가 검증되면 이 보고서를 갱신한다.</p>
+<p class="link"><a href="return-risk.html">전체 완료 후보 44행의 수익·변동성 비교</a></p>
+<h2 id="dca">6. 초기 100만 원 + 월 100만 원의 1년 적립식 실험</h2>
+<p class="p">2025-04-01에 100만 원으로 시작하고, 이후 매월 첫 공동 평일에 100만 원씩 11회 납입하여 2026-03-31까지 운용하였다. 총 납입액은 1,200만 원이다. 모두 현금에서 시작하며 기존 1억 원 계좌의 수익률을 축소 복사하지 않았다. 같은 과거 예측을 고정하고 각 소액 계좌의 실제 잔액·보유 정수 주수에서 다시 배분하였다.</p>
+<p class="p">처음에는 100만 원보다 비싼 1주를 살 수 없다. 종목 목표 5% 한도까지 적용하면 초기 종목별 목표액은 5만 원이며, 계좌가 1,200만 원일 때도 60만 원이다. 최소 주문 5만 원과 정수 반올림이 겹치면 목표 비중보다 적게 사거나 전혀 못 살 수 있다. 이를 숨기지 않고 기본 조건을 유지했다. 최소 주문만 5천 원으로 낮춘 별도 민감도 실험은 이 마찰을 확인하는 비교다.</p>
+<figure><img src="dca-performance.png" alt="그림 3. 위: 납입액을 포함한 총 평가액. 아래: 납입 자체를 수익으로 세지 않은 운용 수익률. 동일한 모델도 소액 주문 제약에 따라 다르게 움직인다." loading="lazy"><figcaption>그림 3. 위: 납입액을 포함한 총 평가액. 아래: 납입 자체를 수익으로 세지 않은 운용 수익률. 동일한 모델도 소액 주문 제약에 따라 다르게 움직인다.</figcaption></figure>
+<div class="table-wrap"><table><thead><tr><th>전략</th><th>최종 평가액</th><th>납입 대비 이익</th><th>이익/납입</th><th>운용 수익률</th></tr></thead><tbody>
+<tr><td>원화 현금</td><td>12,000,000원</td><td>0원</td><td>0.00%</td><td>0.00%</td></tr>
+<tr><td>거래대금 순위 균등</td><td>12,725,839원</td><td>725,839원</td><td>6.05%</td><td>8.86%</td></tr>
+<tr><td>기존 순위 모델</td><td>12,690,275원</td><td>690,275원</td><td>5.75%</td><td>10.80%</td></tr>
+<tr><td>v0.1 · 최소 주문 5만 원</td><td>13,344,967원</td><td>1,344,967원</td><td>11.21%</td><td>19.23%</td></tr>
+<tr><td>v0.1 · 최소 주문 5천 원</td><td>13,436,047원</td><td>1,436,047원</td><td>11.97%</td><td>21.35%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>전략</th><th>금액가중 연 수익</th><th>연 변동성</th><th>최대 낙폭</th><th>평균 주식</th><th>총비용</th></tr></thead><tbody>
+<tr><td>원화 현금</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0원</td></tr>
+<tr><td>거래대금 순위 균등</td><td>11.41%</td><td>6.67%</td><td>-4.13%</td><td>20.74%</td><td>76,492원</td></tr>
+<tr><td>기존 순위 모델</td><td>10.84%</td><td>7.61%</td><td>-4.36%</td><td>24.81%</td><td>335,938원</td></tr>
+<tr><td>v0.1 · 최소 주문 5만 원</td><td>21.43%</td><td>8.82%</td><td>-6.06%</td><td>28.31%</td><td>92,786원</td></tr>
+<tr><td>v0.1 · 최소 주문 5천 원</td><td>22.93%</td><td>9.00%</td><td>-6.09%</td><td>27.77%</td><td>99,510원</td></tr>
+</tbody></table></div>
+<p class="p">이익/납입은 최종 이익을 1,200만 원으로 나눈 비율이다. 운용 수익률(TWR)은 매일 입금 전후를 구분하여 복리로 연결한다. 금액가중 수익률(XIRR)은 실제 납입 날짜와 종료 평가액으로 계산한 연율이다. 변동성과 최대 낙폭은 입금 효과를 제거한 수익 경로에서 계산하므로, 입금이 손실을 가려 주지 않는다.</p>
+<p class="p">이 조건에서 기본 v0.1의 이익은 기존 순위 모델보다 654,692원 컸지만, 변동성과 최대 낙폭도 더 컸다. 따라서 같은 위험에서 수익이 우월하다고 결론내리지 않는다. 최소 주문 5천 원 조건의 추가 이익은 91,080원이었으며, 이 한 번의 비교로 최소 주문 정책을 자동 변경하지 않는다.</p>
+<h3>기본 v0.1의 월별 계좌</h3>
+<div class="table-wrap"><table><thead><tr><th>월</th><th>누적 납입</th><th>월말 평가액</th><th>그달 손익</th><th>그달 운용 수익</th></tr></thead><tbody>
+<tr><td>2025-04</td><td>1,000,000원</td><td>1,000,000원</td><td>0원</td><td>0.00%</td></tr>
+<tr><td>2025-05</td><td>2,000,000원</td><td>2,016,864원</td><td>16,864원</td><td>0.84%</td></tr>
+<tr><td>2025-06</td><td>3,000,000원</td><td>3,090,169원</td><td>73,304원</td><td>2.43%</td></tr>
+<tr><td>2025-07</td><td>4,000,000원</td><td>4,155,247원</td><td>65,078원</td><td>1.59%</td></tr>
+<tr><td>2025-08</td><td>5,000,000원</td><td>5,149,595원</td><td>-5,652원</td><td>-0.11%</td></tr>
+<tr><td>2025-09</td><td>6,000,000원</td><td>6,273,324원</td><td>123,729원</td><td>2.01%</td></tr>
+<tr><td>2025-10</td><td>7,000,000원</td><td>7,373,571원</td><td>100,247원</td><td>1.38%</td></tr>
+<tr><td>2025-11</td><td>8,000,000원</td><td>8,472,806원</td><td>99,235원</td><td>1.19%</td></tr>
+<tr><td>2025-12</td><td>9,000,000원</td><td>9,492,032원</td><td>19,226원</td><td>0.20%</td></tr>
+<tr><td>2026-01</td><td>10,000,000원</td><td>11,304,099원</td><td>812,067원</td><td>7.74%</td></tr>
+<tr><td>2026-02</td><td>11,000,000원</td><td>12,943,294원</td><td>639,194원</td><td>5.19%</td></tr>
+<tr><td>2026-03</td><td>12,000,000원</td><td>13,344,967원</td><td>-598,327원</td><td>-4.29%</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>전략</th><th>기말 결제 현금</th><th>기말 미수금</th><th>위험 초과일</th><th>계산 실패</th><th>시세 누락 보유일</th></tr></thead><tbody>
+<tr><td>원화 현금</td><td>12,000,000원</td><td>0원</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>거래대금 순위 균등</td><td>7,642,578원</td><td>13,406원</td><td>43</td><td>0</td><td>2</td></tr>
+<tr><td>기존 순위 모델</td><td>6,593,190원</td><td>1,302,500원</td><td>79</td><td>0</td><td>1</td></tr>
+<tr><td>v0.1 · 최소 주문 5만 원</td><td>9,346,161원</td><td>362,921원</td><td>3</td><td>2</td><td>1</td></tr>
+<tr><td>v0.1 · 최소 주문 5천 원</td><td>8,996,507원</td><td>768,845원</td><td>2</td><td>1</td><td>1</td></tr>
+</tbody></table></div>
+<p class="p">1,305개 계좌·날짜의 현금과 평가액 연결을 대조했으며 최대 일간 오차는 0.00000001원이었다. 잔액은 음수가 아니고 매매 수량은 정수였다. 이 검사는 계산 내부의 일관성을 뜻하며, 원천 자료의 모든 기업행사나 실제 체결을 인증하지 않는다.</p>
+<h3>당시 가격과 배당·기업행사의 한계</h3>
+<p class="p">Yahoo의 Close에 보고된 이후 분할을 역산하여 당시 주당 가격을 복원했다. Adj Close를 1주 가격으로 사용하지 않았다. 분할 시 기존 주수와 단주 대금을 조정하고, 배당은 배당락 당시 보유량에만 귀속시켰다. 실제 배당 지급일은 없어 평가상 미수금으로 잡고 시험 중 재투자하지 않았다. 단주 현금화는 당시 종가의 대용값이며 실제 지급가격·지급일은 확인하지 않았다.</p>
+<p class="p">현재 내려받은 공급자 이력은 당시 공시된 가격·기업행사 데이터베이스가 아니다. 합병·인적분할의 새 종목 권리, 무상주 전달일, 정지·상장폐지의 완전한 재현은 별도 자료가 필요하다. 실제 주문은 결정 시점 가격의 ±2% 지정가와 이후 종가를 대조한 가상 체결이며 호가·장중 순서를 재현하지 않는다. 배당 미수금을 포함한 최종 평가액과 즉시 쓸 수 있는 현금은 구분한다.</p>
+<p class="p">별도 주수 재구성에서도 1,740건의 매매와 1,305개 계좌·날짜의 자산 합계를 대조했다. 삼성바이오로직스 인적분할은 단순 주식분할로 완전히 설명할 수 없지만, 이번 다섯 계좌에는 해당 종목 보유·매매가 없어 빠진 신설회사 권리가 이 결과에 직접 반영되지 않았다. 보유 중 공급자 분할 이벤트가 발생한 사례는 균등 배분 계좌의 미래에셋증권 4주 한 건이었다. 그 기업행사의 정확한 신주 전달·단주 지급 처리는 여전히 자료 한계다.</p>
+<h3>비용과 환율</h3>
+<p class="p">모든 전략에 동일한 2026-10-09 토스 비용 가정을 적용했다. 국내 수수료 0.015%·매도세 0.20%, 미국 수수료 0.1%·매도 SEC Fee 0.00206% 및 최소금액·반올림, 주간 환전 스프레드 0.05%, 편도 체결 마찰 0.05%를 포함한다. 과거 실제 요금표가 아닌 현재 비용 조건의 반사실 실험이다. 개인별 양도·배당 소득세는 제외했다. 실제 환전에서만 비용을 내며 달러 평가에는 환율 변화를 반영했다.</p>
+<h2 id="section-48">7. 한계와 개선 방안</h2>
+<div class="table-wrap"><table><thead><tr><th>확인한 문제</th><th>다음 변경</th><th>다시 검증할 항목</th></tr></thead><tbody>
+<tr><td>평균 전망의 과장·축소, 낮은 구간 포함률</td><td>시장별 보정과 평균의 불확실성 분리</td><td>성숙한 과거 라벨만 사용한 편향·순위·하방 정확도</td></tr>
+<tr><td>작은 계좌의 반올림·최소 주문 마찰</td><td>정수 주수·최소 주문을 배분 문제에 직접 반영</td><td>같은 위험 한도에서 순이익·잔여 현금·실행 가능성</td></tr>
+<tr><td>목표 비중과 최종 주문·체결의 차이</td><td>순주문 비용·결제·부분 체결 재검사</td><td>현금 보존, 모든 위험 항목, 미해결 일수</td></tr>
+<tr><td>계산 정확도 부족과 동점 후보 편향</td><td>실패 원인별 수치 개선, 동점 전부 포함 비교</td><td>같은 예측·제약의 실행 안정성; 성능을 보고 허용오차 변경 금지</td></tr>
+<tr><td>수정주가·기업행사·업종 이력 부족</td><td>당시 원주가·권리·공식 달력과 시점별 종목 마스터</td><td>정지·분할·배당·신주·상장폐지의 계좌 대조</td></tr>
+<tr><td>이미 본 과거 구간과 다중 비교</td><td>새 기간의 고정 정책 관찰</td><td>미사용 성과·비용 스트레스·126일 모의 및 별도 승인 소액 실전</td></tr>
+</tbody></table></div>
+<p class="p">공개 페이지의 높은 과거 수익률만으로 자동매매로 넘어가지 않는다. 가상 장부, 최신 시세, 실제 계좌 읽기와 주문 대조, 일일 텔레그램 요약을 순서대로 연결한다. 운영 승격은 사전 비용 차감 성과·낙폭·실행 기준과 독립 관찰이 충족되어야 한다. 현재 실제 모의·소액 실전 관찰은 0일이다.</p>
+<h2 id="section-51">8. 결론</h2>
+<p class="p">수익 예측을 보유·현금·공동 위험·거래비용과 연결하는 구조를 구현하고 기존 순위 모델 및 단순 규칙과 비교하였다. 위험을 낮춘 결과와 수익을 높인 결과가 항상 동시에 나타나지 않았고, 실행 제약과 소액 계좌의 주문 단위가 성과를 크게 바꿀 수 있었다. v0.1은 후속 연구의 기준 모델로 유지하며, 이미 본 수익을 근거로 운영 채택하거나 미래 수익을 보장하지 않는다.</p>
+<h2 id="section-53">참고문헌</h2>
+<p class="reference"><a href="https://www.ijcai.org/proceedings/2025/673">[1] Park, K., Hong, S., &amp; Jeon, J.-J. (2025). Dynamic Higher-Order Relations and Event-Driven Temporal Modeling for Stock Price Forecasting. IJCAI, 6048–6056.</a></p>
+<p class="reference"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/27767">[2] Li, T., et al. (2024). MASTER: Market-Guided Stock Transformer for Stock Price Forecasting. AAAI 38(1), 162–170.</a></p>
+<p class="reference"><a href="https://proceedings.mlr.press/v119/zhang20q.html">[3] Zhang, Q., et al. (2020). Self-Attentive Hawkes Process. ICML, PMLR 119, 11183–11193.</a></p>
+<p class="reference"><a href="https://sites.math.washington.edu/~rtr/papers/rtr179-CVaR1.pdf">[4] Rockafellar, R. T., &amp; Uryasev, S. (2000). Optimization of Conditional Value-at-Risk. Journal of Risk 2(3), 21–41. 저자 공개 원고.</a></p>
+<p class="reference"><a href="https://web.stanford.edu/~boyd/papers/cvx_portfolio.html">[5] Boyd, S., et al. (2017). Multi-Period Trading via Convex Optimization. Foundations and Trends in Optimization 3(1), 1–76.</a></p>
+<p class="reference"><a href="https://pubsonline.informs.org/doi/10.1287/moor.28.1.1.14260">[6] Goldfarb, D., &amp; Iyengar, G. (2003). Robust Portfolio Selection Problems. Mathematics of Operations Research 28(1), 1–38.</a></p>
+<p class="reference"><a href="https://patents.google.com/patent/KR101830090B1/ko">[7] KR101830090B1. 검토 대상 특허 공보 및 청구항.</a></p>
+<p class="reference"><a href="https://research.wealthfront.com/whitepapers/investment-methodology/">[8] Wealthfront. Investment Methodology. 공개 운용 방법론.</a></p>
+<p class="reference"><a href="https://help.composer.trade/article/76-threshold-trading">[9] Composer. Threshold Trading. 공개 비중 문턱 매매 설명.</a></p>
+<p class="reference"><a href="https://fund-docs.vanguard.com/LifeStrategy_80_Equity_Fund_9244_GBP_EN_UK.pdf">[10] Vanguard. LifeStrategy 80% Equity Fund. 공개 자산 배분 사례.</a></p>
+<p class="reference"><a href="https://corp.tossinvest.com/ko/business?tab=commission">[11] 토스증권. 공식 수수료표. 이 실험의 고정 기준일: 2026-10-09.</a></p>
+<p class="reference"><a href="https://uk.help.yahoo.com/kb/finance/historical-prices-adjusted-close-sln2311.html">[12] Yahoo Finance Help. Historical price, dividend and split data. 적립식 실험은 내려받은 원문을 비공개 보관.</a></p>
+<h2 id="section-66">재현 근거</h2>
+<p class="p">적립식 불변 아카이브 SHA-256: 33a563184f841a8e2a807b705cc40ab8229c01b02bb23d21337b247238f508b0. 전체 완료 비교 아카이브: 0c75885dcec67e3df07bd20e927e6e72920f5ea9fc130a8c90c90514d4ea7707. 공개 문서에는 집계 지표와 도표를 포함하며 원시 가격·전체 예측·실계좌 정보는 포함하지 않는다. 보고서 작성일: 2026-10-10.</p>
+<footer><a href="./">대시보드로 돌아가기 →</a></footer></main></html>
