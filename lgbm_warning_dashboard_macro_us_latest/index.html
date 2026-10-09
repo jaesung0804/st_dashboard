@@ -2,11 +2,11 @@
 <html lang="ko" data-investment-entry="v1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ST Research · 통합 화면으로 이동</title>
 <script>
 (() => {
-  const target = new URL("../investment/?market=us&sort=score&v=3f079b602426183ff9b4730a4a733ae3123dd332", location.href);
+  const target = new URL("../investment/?market=us&sort=score&v=0f8dd154d4d6e51f20c89f41c9ef24e9301db4b2", location.href);
   const previous = new URLSearchParams(location.search);
   const query = previous.get('q') || previous.get('ticker');
   if (query) target.searchParams.set('q', query.slice(0, 100));
   location.replace(target.href);
 })();
-</script><noscript><meta http-equiv="refresh" content="0;url=../investment/?market=us&amp;sort=score&amp;v=3f079b602426183ff9b4730a4a733ae3123dd332"></noscript></head>
-<body><p>한국·미국 통합 화면으로 이동합니다.</p><p><a href="../investment/?market=us&amp;sort=score&amp;v=3f079b602426183ff9b4730a4a733ae3123dd332">최신 종목 화면 열기</a></p><p><a href="legacy.html">기존 예측 기록 보기</a></p></body></html>
+</script><noscript><meta http-equiv="refresh" content="0;url=../investment/?market=us&amp;sort=score&amp;v=0f8dd154d4d6e51f20c89f41c9ef24e9301db4b2"></noscript></head>
+<body><p>한국·미국 통합 화면으로 이동합니다.</p><p><a href="../investment/?market=us&amp;sort=score&amp;v=0f8dd154d4d6e51f20c89f41c9ef24e9301db4b2">최신 종목 화면 열기</a></p><p><a href="legacy.html">기존 예측 기록 보기</a></p></body></html>

@@ -14,9 +14,9 @@ $('universe-count').textContent=`한국 + 미국 ${data.rows.length.toLocaleStri
 const scenario=r=>M.scenario(r,$('fx').value),score=r=>M.finite(scenario(r)?.score)?scenario(r).score.toFixed(1):'—';
 const finPeriod=f=>(f?.latest?.period_label||f?.latest?.period_end||'기준일 미확인')+(f?.date_precision==='fiscal_period'?' · 결산일 확인 대기':'');
 const finOpinion=r=>r.financial_opinion||r.opinion;
-const finBasis=f=>({annual:'연간 보고기간 기준',reported_period:'해당 보고기간 기준 · 연율화하지 않음'})[f?.latest?.basis]||'최근 12개월(TTM) 기준';
+const finBasis=f=>({annual:'연간 보고기간 기준',reported_period:'이익률·재무상태는 해당 보고기간 기준'})[f?.latest?.basis]||'최근 12개월(TTM) 기준';
 const formatFin=(k,v)=>M.definitions[k][1]==='times'?(M.finite(v)?v.toFixed(2)+'배':'—'):pct(v);
-const financialCell=(r,k)=>{const d=r.financials?.latest?.metric_details?.[k],value=formatFin(k,M.financial(r,k)),note=M.financialNote(r,k);return `<span title="${esc(note)}">${value}</span>${d?.status==='available'&&['ttm','annual_fallback'].includes(d.basis)?`<small>${esc(d.basis==='ttm'?'최근 12개월':'연간 '+d.period_label)}</small>`:''}`;};
+const financialCell=(r,k)=>{const d=r.financials?.latest?.metric_details?.[k],value=formatFin(k,M.financial(r,k)),note=M.financialNote(r,k);return `<span title="${esc(note)}">${value}</span>${d?.status==='available'&&['ttm','annual_fallback'].includes(d.basis)?`<small>${esc(d.basis==='ttm'?'최근 12개월':(d.period_end?'연간 '+d.period_end:d.period_label))}</small>`:''}`;};
 const price=r=>M.finite(r.price_metrics?.close)?new Intl.NumberFormat('ko-KR',{style:'currency',currency:r.market==='kr'?'KRW':'USD',maximumFractionDigits:r.market==='kr'?0:2}).format(r.price_metrics.close):'시세 없음';
 function spark(r,large=false){
   const values=r.price_metrics?.chart||[];if(values.length<2)return '<div class="chart-empty">연속된 6개월 가격 자료 없음</div>';
