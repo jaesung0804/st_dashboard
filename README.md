@@ -93,7 +93,7 @@ Each market restores verified state, collects prices, infers new signal dates wi
 
 The [2026-09-11 market health review](docs/MARKET_HEALTH_REVIEW_20260911.md) explains the Korean pooled AUC versus same-date selection results, the US partially available session failure, and the remaining SQL migration work. Public aggregate evidence is linked from the report; raw prices and model binaries remain outside Git.
 
-The production model uses causal price features; existing financial files are retained but are not refreshed by the daily production workflow. OpenDART secrets remain relevant only to the research collection commands.
+The production model uses causal price features. A separate daily `Collect dated financial statements` workflow refreshes Oracle financial records and public display metrics using the OpenDART secret; it does not change frozen model inputs or predictions. The commands above remain the legacy research collection path.
 
 Build the lightweight Pages bundle locally:
 
