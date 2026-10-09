@@ -192,3 +192,15 @@ def test_korean_refresh_collects_verified_comparative_periods(monkeypatch):
     latest = financial_metrics({'statements': rows, **metadata}, '2026-10-09')['latest']
     assert latest['period_end'] == '2026-06-30'
     assert latest['metrics']['fin_revenue_growth'] == 1
+
+
+def test_failure_diagnostics_do_not_expose_provider_urls_or_keys():
+    from financial_database import error_diagnostic
+    try:
+        raise ValueError('https://provider.invalid/?crtfc_key=private-test-value')
+    except ValueError as error:
+        diagnostic = error_diagnostic(error)
+    assert diagnostic['error_type'] == 'ValueError'
+    assert 'test_financial_database.py:' in diagnostic['error_location']
+    assert 'provider.invalid' not in json.dumps(diagnostic)
+    assert 'private-test-value' not in json.dumps(diagnostic)

@@ -15,6 +15,7 @@ from pathlib import Path
 import sys
 import tempfile
 import time
+import traceback
 import urllib.parse
 
 import pandas as pd
@@ -35,6 +36,15 @@ SUMMARY_FILES = {'kr': 'kr.json', 'us': 'us.json'}
 
 def utc_now():
     return datetime.now(timezone.utc).isoformat(timespec='seconds')
+
+
+def error_diagnostic(error):
+    # Exception text can contain authenticated provider URLs. Expose code
+    # locations, not messages or traceback source lines, for safe diagnosis.
+    frames = traceback.extract_tb(error.__traceback__)
+    last = frames[-1] if frames else None
+    return {'error_type': type(error).__name__,
+            'error_location': f'{Path(last.filename).name}:{last.name}:{last.lineno}' if last else None}
 
 
 def restore_inputs(client, root, markets, bootstrap=False):
@@ -276,7 +286,7 @@ def run(args, client=None):
                         metadata.update(extra)
                     except Exception as error:
                         # Never log provider URLs, request parameters or tokens.
-                        return ticker, None, {'error_type': type(error).__name__}
+                        return ticker, None, error_diagnostic(error)
                 else:
                     metadata['migration_source'] = provenance
                 payload, receipt = write_company(worker, index, market, ticker, rows, metadata,
@@ -286,6 +296,7 @@ def run(args, client=None):
                 for n, (ticker, payload, receipt) in enumerate(pool.map(process, work), 1):
                     if payload is None:
                         failures.append({'ticker': ticker, **receipt})
+                        print(json.dumps({'market': market, 'ticker': ticker, **receipt}), flush=True)
                     else:
                         update_metrics(summary, ticker, payload, receipt, observed_at[:10])
                         saved += 1
@@ -320,7 +331,7 @@ def main():
     try:
         run(args)
     except Exception as error:
-        print(json.dumps({'status': 'failed', 'error_type': type(error).__name__,
+        print(json.dumps({'status': 'failed', **error_diagnostic(error),
                           'http_status': error.status if isinstance(error, BackendError) else None}), flush=True)
         return 1
     return 0
