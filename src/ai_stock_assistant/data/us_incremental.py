@@ -17,7 +17,8 @@ from ai_stock_assistant.data.krx_incremental import _atomic_bytes, _atomic_csv, 
 from ai_stock_assistant.data.us import PRICE_SCHEMA, _to_yfinance_ticker
 
 
-def validate_prices(frame: pd.DataFrame, ticker: str, start: str, end: str) -> pd.DataFrame:
+def validate_prices(frame: pd.DataFrame, ticker: str, start: str, end: str,
+                    *, diagnostics: dict | None = None) -> pd.DataFrame:
     if not set(PRICE_SCHEMA).issubset(frame.columns):
         raise ValueError("Missing US OHLCV columns")
     frame = frame[PRICE_SCHEMA].copy()
@@ -45,6 +46,18 @@ def validate_prices(frame: pd.DataFrame, ticker: str, start: str, end: str) -> p
     required = frame[["close", "adjusted_close", "volume"]]
     invalid_required = (~np.isfinite(required.to_numpy(dtype=float))).any(axis=1)
     invalid_required |= frame["close"].le(0) | frame["adjusted_close"].le(0) | frame["volume"].lt(0)
+    if diagnostics is not None and pd.notna(latest):
+        invalid_fields = []
+        for column in required:
+            values = frame.loc[dates.eq(latest), column]
+            invalid = ~np.isfinite(values.to_numpy(dtype=float))
+            invalid |= (values.lt(0) if column == "volume" else values.le(0)).to_numpy()
+            if invalid.any():
+                invalid_fields.append(column)
+        diagnostics.update(received_latest_date=latest.strftime("%Y-%m-%d"),
+                           latest_invalid_fields=invalid_fields,
+                           discarded_required_rows=int(invalid_required.sum()),
+                           latest_adjusted_close_filled=int(latest_adjusted_missing.sum()))
     if invalid_required.any():
         frame = frame.loc[~invalid_required].copy()
         dates = dates.loc[~invalid_required]
@@ -109,7 +122,7 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         for ticker in tickers
     }
     deadline = time.monotonic() + max_seconds
-    updates, errors = {}, {}
+    updates, errors, received = {}, {}, {}
     attempts = defaultdict(int)
     adjustment_detected, rebase_updated, rebase_quarantined = set(), set(), set()
     fatal = None
@@ -141,8 +154,9 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                             errors.setdefault(ticker, "No provider observations; history retained")
                             retry.append(ticker)
                             continue
+                        diagnostic = {}
                         try:
-                            validated = validate_prices(frame, ticker, start, end)
+                            validated = validate_prices(frame, ticker, start, end, diagnostics=diagnostic)
                             old = histories.get(ticker)
                             if old is not None:
                                 required = old if full_history else old.loc[old.date.ge(pd.Timestamp(start).strftime("%Y-%m-%d"))]
@@ -155,6 +169,12 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
                         else:
                             recovered += 1
                             errors.pop(ticker, None)
+                        finally:
+                            # Retain evidence of a newer incomplete session even
+                            # when validation removes its unusable price row.
+                            # A retry at the same date can clear an earlier defect.
+                            if diagnostic and diagnostic["received_latest_date"] >= received.get(ticker, {}).get("received_latest_date", ""):
+                                received[ticker] = diagnostic
                     pending = retry
                     if not pending:
                         break
@@ -203,7 +223,11 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         fatal = exc
 
     update = pd.concat(updates.values(), ignore_index=True) if updates else pd.DataFrame(columns=PRICE_SCHEMA)
-    provider_latest = pd.to_datetime(update.date).max()
+    validated_latest = pd.to_datetime(update.date).max()
+    observed_dates = [pd.Timestamp(item["received_latest_date"]) for item in received.values()]
+    if pd.notna(validated_latest):
+        observed_dates.append(validated_latest)
+    provider_latest = max(observed_dates) if observed_dates else pd.NaT
     latest = provider_latest
     deferred_tickers = []
     # Yahoo can expose the newest session for a minority while most symbols
@@ -220,7 +244,9 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
             if pd.isna(canonical_latest) or candidate > canonical_latest:
                 latest = candidate
                 boundary = latest.strftime("%Y-%m-%d")
-                deferred_tickers = sorted(set(update.loc[update.date.gt(boundary), "ticker"]))
+                deferred_tickers = sorted(set(update.loc[update.date.gt(boundary), "ticker"]) |
+                                          {ticker for ticker, item in received.items()
+                                           if item["received_latest_date"] > boundary})
                 update = update.loc[update.date.le(boundary)].copy()
                 updates = {ticker: frame.loc[frame.date.le(boundary)].copy()
                            for ticker, frame in updates.items() if frame.date.le(boundary).any()}
@@ -231,12 +257,17 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
     summary = []
     for ticker in tickers:
         frame = updates.get(ticker)
+        diagnostic = received.get(ticker, {})
         summary.append({"ticker": ticker, "requested_start": starts[ticker],
                         "status": "rebase_quarantined" if ticker in rebase_quarantined else
                                   "rebase_updated" if ticker in rebase_updated and not fatal else
                                   "updated" if frame is not None else "unavailable",
                         "rows": len(frame) if frame is not None else 0,
                         "latest_date": frame.date.max() if frame is not None else "",
+                        "received_latest_date": diagnostic.get("received_latest_date", ""),
+                        "latest_invalid_fields": ",".join(diagnostic.get("latest_invalid_fields", [])),
+                        "discarded_required_rows": diagnostic.get("discarded_required_rows", 0),
+                        "latest_adjusted_close_filled": diagnostic.get("latest_adjusted_close_filled", 0),
                         "attempts": attempts[ticker],
                         "error": errors.get(ticker, "")})
     summary_path = run_dir / "us_daily_data_refresh_summary.csv"
@@ -250,6 +281,11 @@ def refresh_ranges(*, listings_path: Path, prices_path: Path, output_path: Path,
         reason = f"US latest-session coverage {coverage:.1%} < {minimum_coverage:.1%}"
     report = {"requested_asof": end, "latest": str(latest.date()) if pd.notna(latest) else None,
               "provider_latest": str(provider_latest.date()) if pd.notna(provider_latest) else None,
+              "provider_latest_validated": str(validated_latest.date()) if pd.notna(validated_latest) else None,
+              "provider_latest_invalid_field_counts": {
+                  column: sum(ticker in active and item["received_latest_date"] == str(provider_latest.date())
+                              and column in item["latest_invalid_fields"] for ticker, item in received.items())
+                  for column in ("close", "adjusted_close", "volume")},
               "deferred_partial_session_tickers": deferred_tickers,
               "requested_tickers": len(tickers), "updated_tickers": len(updates),
               "unavailable_tickers": sorted(set(tickers) - set(updates)),
