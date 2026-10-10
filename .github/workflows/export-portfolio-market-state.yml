@@ -1,0 +1,43 @@
+name: Export existing portfolio market inputs
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/portfolio-state-export]
+    paths:
+      - scripts/export_portfolio_market_state.py
+      - .github/workflows/export-portfolio-market-state.yml
+permissions:
+  contents: read
+concurrency:
+  group: portfolio-market-state-read-export
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      RESEARCH_STORAGE: ${{ vars.RESEARCH_STORAGE }}
+      RESEARCH_BACKEND_URL: ${{ vars.RESEARCH_BACKEND_URL }}
+      RESEARCH_BACKEND_TOKEN: ${{ secrets.RESEARCH_BACKEND_TOKEN }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify the bounded read-only export
+        run: python -m unittest discover -s tests -p test_portfolio_market_export.py -q
+      - name: Restore only price and listing files from one verified snapshot
+        run: python scripts/export_portfolio_market_state.py --output .research-backend/artifacts/portfolio-market-export
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-market-inputs-${{ github.run_id }}
+          path: |
+            .research-backend/artifacts/portfolio-market-export/market-inputs.tar.gz
+            .research-backend/artifacts/portfolio-market-export/export.json
+            .research-backend/artifacts/portfolio-market-export/receipt.json
+          compression-level: 0
+          retention-days: 1
+          if-no-files-found: error
