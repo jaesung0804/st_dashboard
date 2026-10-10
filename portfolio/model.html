@@ -1,0 +1,58 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>모델 구조와 구현 현황 | 한미 포트폴리오 연구</title>
+<meta name="description" content="LightGBM 수익 전망, 공동 위험 추정, 수익 우선·분산 차선 최적화와 실제 연결 상태를 설명합니다.">
+<style>
+:root{color-scheme:light;--ink:#192e43;--muted:#587083;--line:#d9e3eb;--blue:#245ea8;--teal:#18796f}
+*{box-sizing:border-box}body{margin:0;background:#f5f8fb;color:var(--ink);font-family:Malgun Gothic,Apple SD Gothic Neo,Arial,sans-serif;line-height:1.8}
+main,nav,footer{max-width:1140px;margin:auto;padding:24px}nav{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;padding-bottom:8px}
+a{color:var(--blue);text-underline-offset:4px}h1{font-size:38px;line-height:1.4;letter-spacing:-1.4px;margin:12px 0 20px;max-width:920px}
+h2{font-size:25px;line-height:1.5;margin:0 0 18px}h3{font-size:18px;margin:0 0 9px}p{margin:10px 0 16px}section{margin:28px 0}
+.hero{padding:34px;border:1px solid #cddcea;border-radius:20px;background:linear-gradient(125deg,#e8f1fc,#edf7f4)}
+.eyebrow{color:var(--teal);font-size:12px;font-weight:700;letter-spacing:1.5px}.lead{font-size:18px;max-width:940px}
+.tags{display:flex;gap:8px;flex-wrap:wrap}.tag{border-radius:18px;background:white;padding:5px 13px;font-size:13px;border:1px solid var(--line)}
+.notice{border-left:4px solid #b5772a;background:#fff5e5;padding:16px 21px;border-radius:0 10px 10px 0}
+.panel{padding:28px;background:#fff;border:1px solid var(--line);border-radius:16px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.step{padding:24px;background:#fff;border:1px solid var(--line);border-radius:14px}.step b{color:var(--teal)}
+.step p{font-size:15px}.tech{color:var(--muted);font-size:13px}.formula{font-size:18px;background:#edf6f3;padding:18px;border-radius:10px}
+figure{margin:18px 0}figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+figcaption,.small{font-size:13px;color:var(--muted)}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#eef3f8;white-space:nowrap}
+details{border-top:1px solid var(--line);padding:15px 0}summary{font-weight:700;cursor:pointer}code{font-size:11px;overflow-wrap:anywhere;word-break:break-all}
+.button{display:inline-block;padding:9px 16px;color:white;background:var(--blue);border-radius:8px;text-decoration:none;margin-right:10px}
+.status-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.status-list div{background:#f5f8fb;padding:18px;border-radius:10px}.status-list strong{display:block;font-size:22px;color:var(--blue)}
+footer{font-size:13px;color:var(--muted)}@media(max-width:700px){main,nav,footer{padding:18px 15px}h1{font-size:28px;letter-spacing:-.8px}.hero,.panel{padding:22px 18px}.lead{font-size:16px}.grid,.status-list{grid-template-columns:1fr}h2{font-size:22px}.step{padding:21px}figure{margin-left:-10px;margin-right:-10px}th,td{padding:10px;font-size:13px}nav{gap:14px}.formula{font-size:16px}}
+</style></head><body><nav aria-label="연구 페이지 탐색"><a href="./">포트폴리오 대시보드</a><a href="paper.html">연구 보고서</a><a href="#implementation">구현 비교</a><a href="#progress">검증 현황</a></nav>
+<main><header class="hero"><span class="eyebrow">MODEL ARCHITECTURE · 2026.10.10 확인</span>
+<h1>우리 모델은 어떻게<br>투자 비중을 정할까?</h1>
+<p class="lead">종목별 수익을 <strong>LightGBM으로 예측</strong>하고, 보유자산·위험·거래비용을 함께 넣어 <strong>투자 비중을 수학적으로 계산</strong>합니다. 매일 판단하지만 매일 반드시 거래하지는 않습니다.</p>
+<div class="tags"><span class="tag">Python · CPU</span><span class="tag">LightGBM</span><span class="tag">CVXPY + Clarabel</span><span class="tag">현재 핵심 모델에 PyTorch 미사용</span></div></header>
+<section class="notice"><strong>연구용 구현 설명입니다.</strong> 아래 구조에는 과거 비교 실험과 새로 학습한 예측기가 함께 표시돼 있습니다. 새 배당·원화 수익 예측을 최신 호가·실제 계좌에 연결하는 검증은 남아 있습니다. 기존 백테스트 수익률이 새 모델의 성과를 뜻하지 않습니다.</section>
+<section class="panel" id="architecture"><h2>한 장으로 보는 전체 구조</h2>
+<p>파란색은 학습·보정, 초록색은 계산·규칙, 주황색 점선은 실전 연결이 남은 부분입니다.</p>
+<figure><a href="model-architecture.svg" aria-label="모델 구조 그림 크게 보기"><img src="model-architecture.png" width="3240" height="2412" alt="43개 입력 특성에서 국가별 LightGBM 예측과 보정을 거쳐, 공동 위험·계좌·비용을 고려한 두 단계 최적화 및 매매 장부로 연결되는 구조. 새 수익 목표와 정수 주수 실전 연결은 미완료."></a>
+<figcaption>그림 1. 실제 코드 기준 v0.1 계열 구조. 그림을 누르면 확대할 수 있습니다. 논문의 신경망을 그대로 구현한 도식은 아닙니다.</figcaption></figure>
+<a class="button" href="model-architecture.svg">확대해서 보기</a><a href="model-architecture.png" download>그림 저장</a></section>
+<section><h2>순서대로 읽는 모델</h2><div class="grid">
+<article class="step"><b>01 · 자료를 숫자로 요약</b><h3>종목·날짜마다 입력 43개</h3><p>추세·변동성·거래량·시장 상황 23개에 급등락 이력 9개, 관련 종목의 상황 9개, 환율 2개를 더합니다. 관련 종목은 최근 함께 움직였던 집단의 통계로 표현합니다.</p><p class="tech">NumPy / pandas / SciPy. 기본 비교 모델은 25개 입력. attention이나 학습형 그래프 층은 없습니다.</p></article>
+<article class="step"><b>02 · 수익 전망 학습</b><h3>평균과 나쁜·중간·좋은 결과</h3><p>한국·미국을 따로 학습합니다. 각 국가에서 평균 수익률과 5%·50%·95% 분위수를 각각 예측합니다. 하위 5% 분위수는 최악 손실 한도가 아니며, 세 분위수가 완전한 공동분포를 뜻하지도 않습니다.</p><p class="tech">독립 LightGBM 4개 / 국가. 예측기당 트리 160개 설정. 평균: MSE, 분위수: pinball loss.</p></article>
+<article class="step"><b>03 · 과신 보정과 공동 손실</b><h3>잘 맞을 것이라는 가정도 점검</h3><p>학습 뒤쪽의 별도 과거 구간으로 예측 편향을 보정합니다. 한국시장·미국시장·환율이라는 공통 요인으로 함께 떨어지는 위험을 추정합니다. 이력이 짧으면 위험을 더 크게 보고 매수 한도를 낮춥니다.</p><p class="tech">평균 축소·분위수 보정 / 수축 공분산 / 공동 충격 시나리오. 시장 상태는 현재 규칙으로 판단합니다.</p></article>
+<article class="step"><b>04 · 비중과 매매 결정</b><h3>얼마나 담고, 바꿀 가치가 있는가?</h3><p>기보유 종목, 원화·달러 현금, 결제 대기금, 수수료·환전 비용을 함께 고려합니다. 변경 이득이 작으면 유지하고, 체결 후에는 실제 비중과 위험을 다시 계산합니다.</p><p class="tech">연속 비중: CVXPY + Clarabel. 별도 정수 주수 배분: SCIP. 증권사 실체결 연결은 미완료.</p></article>
+</div></section>
+<section class="panel"><h2>수익은 우선하고, 비슷하면 덜 흔들리게</h2>
+<div class="formula"><strong>1단계</strong> 위험·현금 제약 안에서 비용 차감 기대수익 최대화<br><strong>2단계</strong> 최선보다 0.01%포인트 이내인 배분 중 분산 최소화</div>
+<p>예측기의 학습 손실과 투자 비중의 목표함수는 분리돼 있습니다. 포트폴리오의 최종 손익을 예측기에 직접 역전파하는 구조는 아닙니다. 후속 체결 최적화는 선택한 매매 방향 안에서 계산하므로 모든 가능한 주문 조합의 전역 최적을 보장하지 않습니다.</p>
+<details><summary>매일 거래하는데 왜 약 1주 뒤를 예측하나요?</summary><p>매일 약 1주 뒤(5개 공통 평일)의 수익 전망을 갱신해 현재 보유 상태를 다시 평가합니다. 매일 전량 매도·재매수하거나, 반드시 5일만 보유하는 방식은 아닙니다. 국가별 휴장일과 실제 체결 시점은 별도 처리해야 합니다.</p></details>
+<details><summary>현금 비중도 AI가 직접 출력하나요?</summary><p>현재는 아닙니다. 예측과 위험·현금 제약을 받아 최적화기가 투자 비중을 정하고 잔액은 현금으로 남깁니다. 시장 위험 한도도 규칙 기반입니다. 한 시장의 최근 20일 수익률이 -5% 아래이면 연 변동성 허용치를 18%에서 12%로 낮춥니다.</p></details></section>
+<section class="panel" id="implementation"><h2>박기정 외 논문의 Figure 2와 비교하면</h2><div class="table-wrap"><table><thead><tr><th>구성</th><th>참고 논문</th><th>현재 구현</th></tr></thead><tbody>
+<tr><td>시간 패턴</td><td>Self-attention으로 학습</td><td>기간별 지표로 요약</td></tr><tr><td>급격한 움직임</td><td>Hawkes 강도 함수를 신경망으로 학습</td><td>급등락 발생 이력 계산</td></tr><tr><td>종목 간 관계</td><td>사전·동적 하이퍼그래프 신경망</td><td>최근 상관 집단의 통계 계산</td></tr><tr><td>수익 예측</td><td>신경망·MLP / PyTorch</td><td>트리 앙상블 / LightGBM</td></tr><tr><td>포트폴리오 실험</td><td>예측 상위 종목 매매</td><td>보유자산·비용·공동 위험을 포함한 별도 비중 최적화</td></tr>
+</tbody></table></div><p>논문의 급등락·종목 간 관계라는 아이디어 일부를 반영했습니다. 해당 신경망 자체를 재현하거나 현재 모델보다 우수한지 같은 조건에서 비교한 상태는 아닙니다.</p>
+<p class="small">참고: Park, Hong &amp; Jeon (2025), <a href="https://www.ijcai.org/proceedings/2025/673">Dynamic Higher-Order Relations and Event-Driven Temporal Modeling for Stock Price Forecasting</a>, Figure 2·Sections 4–5.</p></section>
+<section class="panel" id="progress"><h2>실제 자료와 검증은 어디까지 왔나요?</h2>
+<div class="status-list"><div>확보한 한미 일봉<strong>2026.10.08까지</strong><span class="small">10월 9일 미국 종가 불완전</span></div><div>새 목표의 연구 학습<strong>한미 128종목</strong><span class="small">저장 후 예측 재현 완료</span></div><div>미래 날짜 운용 관찰<strong>모의 0일 · 실전 0일</strong><span class="small">실제 주문 0건</span></div></div>
+<p>새 학습 목표는 분할 기준을 맞춘 주식 가치와 재투자하지 않은 세전 배당 수취권을 합해 원화로 평가합니다. 유효 목표 <strong>123,151개</strong>를 원자료의 주수·현금·환율로 독립 재계산했고 허용 오차 초과 불일치는 <strong>0개</strong>였습니다. 배당 포함 4,392개, 분할 구간 78개가 포함됩니다.</p>
+<p>이 검사는 산술 일관성 확인입니다. 예측 성능이나 투자 성과 평가가 아닙니다. 자료 종료일은 10월 8일, 예측 기준일은 10월 9일이지만 실제 생성일은 10월 10일입니다. 이를 10월 9일에 미리 알았던 예측으로 사용하지 않습니다.</p>
+<div class="notice"><strong>아직 남은 연결과 검증</strong><p>한국 64종목 중 59종목의 공급처별 가격 차이, 과거 자료 공개 시각·당시 종목 구성, 최신 호가 기준 예측, 실제 배당 입금·세금·증권사 계좌 연결이 남아 있습니다. 매일 텔레그램 매매안과 실제 자동매매는 활성화하지 않았습니다.</p></div>
+<details><summary>검증 근거와 보관본 해시</summary><p class="small">공개한 것은 집계와 검증 근거입니다. 원시 가격·계좌 정보·모델 파일은 포함하지 않습니다.</p><div class="table-wrap"><table><thead><tr><th>근거</th><th>SHA-256</th></tr></thead><tbody><tr><td>portfolio-market-state-20261010-v1</td><td><code>298b7eb5bdd5eb694d582c3588d9de776e3bad392ec2c03222eb277520699b0f</code></td></tr><tr><td>portfolio-wealth-training-20261010-v4</td><td><code>5fa4b58c5bb3e06df639594e4160d92b05f36f1d478b10eb80a2aafb15e47672</code></td></tr><tr><td>portfolio-wealth-model-20261010-v2</td><td><code>6388ecce9c2ae162b221a43ba2e07407962f798686b78317e646ba866b094c92</code></td></tr><tr><td>portfolio-wealth-target-audit-20261010-v1</td><td><code>e82d6a1c14c5767231240001a111bb17c543eb197a0ef7ff520773776175218c</code></td></tr></tbody></table></div><p><a href="model-progress.json">집계 자료 보기</a></p></details></section>
+<section><a class="button" href="./">포트폴리오 결과로 돌아가기</a><a href="paper.html#dca">100만 원 적립식 실험 읽기</a></section></main>
+<footer>구현 설명·연구 검증용 페이지입니다. 학습 완료와 계산 검증만으로 전략을 채택하거나 실전 수익을 보장하지 않습니다.</footer></body></html>

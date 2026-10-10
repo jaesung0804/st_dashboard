@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "research_model_explanation_not_operational_approval",
+  "asof": "2026-10-10",
+  "source_through": "2026-10-08",
+  "forecast_anchor": "2026-10-09",
+  "actual_issue_date": "2026-10-10",
+  "assets": 128,
+  "feature_count": 43,
+  "baseline_feature_count": 25,
+  "framework": "LightGBM",
+  "optimization_framework": "CVXPY/Clarabel",
+  "pytorch_used_in_current_forecaster": false,
+  "targets_audited": 123151,
+  "audit_mismatches": 0,
+  "cash_distribution_rows": 4392,
+  "split_crossing_rows": 78,
+  "unresolved_source_price_count": 59,
+  "native_quote_bridge_ready": false,
+  "production_allowed": false,
+  "forward_paper_days": 0,
+  "approved_live_days": 0,
+  "broker_orders": 0,
+  "predictive_performance_validated": false,
+  "backdated_predictions": false,
+  "evidence": {
+    "portfolio-market-state-20261010-v1": "298b7eb5bdd5eb694d582c3588d9de776e3bad392ec2c03222eb277520699b0f",
+    "portfolio-wealth-training-20261010-v4": "5fa4b58c5bb3e06df639594e4160d92b05f36f1d478b10eb80a2aafb15e47672",
+    "portfolio-wealth-model-20261010-v2": "6388ecce9c2ae162b221a43ba2e07407962f798686b78317e646ba866b094c92",
+    "portfolio-wealth-target-audit-20261010-v1": "e82d6a1c14c5767231240001a111bb17c543eb197a0ef7ff520773776175218c"
+  }
+}
