@@ -37,7 +37,14 @@
     "portfolio-missing-training-20261011-v2": "8f0fec1242631a06fe1437254850bc70315fae222d09328bc646253b614f68bd",
     "portfolio-missing-forecast-20261011-v2": "d38ec02d9d44ba4a93c0beec4bceb77a5721b4b2da07de17a5500892ff4fb7d5",
     "portfolio-missing-comparison-20261011-v2": "567917ee93bba31a012a4f2c438f7df1bfc66ff231f6cceeadfd13671863ca98",
-    "portfolio-missing-review-20261011-v2": "79774957cd63722b87e0c556d55e6b25e1ba12c39c31eed2e9e4cf8f630e7112"
+    "portfolio-missing-review-20261011-v2": "79774957cd63722b87e0c556d55e6b25e1ba12c39c31eed2e9e4cf8f630e7112",
+    "portfolio-whole-wealth-inputs-20261011-v1": "aae4440a18f2e5064cda6b70bc330933ec6dec9adb12b8c852a1eb8f8c530012",
+    "portfolio-whole-wealth-baseline-50000-20261011-v1": "7482e4736c56a5d8950ea621dba7461d3ac0ea59ceec8e2751e35821977de264",
+    "portfolio-whole-wealth-baseline-5000-20261011-v1": "adaad4b8a5291e756cb0768deb88da41a2b7e34f570a5db29e497b4d684d5e22",
+    "portfolio-whole-wealth-baseline-50000-review-20261011-v1": "6f7760167cc9b220e86384ff8959ca6485290792d893a3fe2bf93d15a0115a54",
+    "portfolio-whole-wealth-baseline-5000-review-20261011-v1": "dd84ed11339b2041450c66e40f53a4d1700c70398fd5419cc72e4188cba84604",
+    "portfolio-whole-wealth-postfill-diagnosis-20261011-v1": "fa45179c4aea3fba527826cb18db522f741c49495e96c101710775df4413df84",
+    "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -2147,6 +2154,95 @@
       "portfolio-missing-forecast-20261011-v2": "d38ec02d9d44ba4a93c0beec4bceb77a5721b4b2da07de17a5500892ff4fb7d5",
       "portfolio-missing-comparison-20261011-v2": "567917ee93bba31a012a4f2c438f7df1bfc66ff231f6cceeadfd13671863ca98",
       "portfolio-missing-review-20261011-v2": "79774957cd63722b87e0c556d55e6b25e1ba12c39c31eed2e9e4cf8f630e7112"
+    }
+  },
+  "whole_share_evaluation": {
+    "classification": "incomplete_whole_share_replay_with_audited_prefix",
+    "published_at": "2026-10-10T17:38:21.024717+00:00",
+    "period_start": "2025-10-01",
+    "period_end": "2026-09-30",
+    "initial_krw": 1000000,
+    "monthly_krw": 1000000,
+    "deposit_count": 12,
+    "total_contributions_krw": 12000000,
+    "strategies": [
+      "cash",
+      "baseline_50000",
+      "combined_50000",
+      "baseline_5000",
+      "combined_5000",
+      "prior_5000"
+    ],
+    "full_year_stock_results_available": false,
+    "prefix_days": 44,
+    "prefix_start": "2025-10-01",
+    "prefix_end": "2025-12-01",
+    "postfill_diagnostic": [
+      {
+        "strategy": "baseline_50000",
+        "archive_sha256": "7482e4736c56a5d8950ea621dba7461d3ac0ea59ceec8e2751e35821977de264",
+        "days": 44,
+        "breach_days": 7,
+        "preexisting_breach_days": 7,
+        "breach_with_no_plan": 1,
+        "breach_with_changed_quantities": 5,
+        "breach_already_at_old_prices": 6,
+        "breach_only_after_revaluation": 1,
+        "largest_limit_ratio": 1.2028764937200378,
+        "independent_max_risk_difference": 5.551115123125783e-17
+      },
+      {
+        "strategy": "baseline_5000",
+        "archive_sha256": "adaad4b8a5291e756cb0768deb88da41a2b7e34f570a5db29e497b4d684d5e22",
+        "days": 44,
+        "breach_days": 13,
+        "preexisting_breach_days": 12,
+        "breach_with_no_plan": 1,
+        "breach_with_changed_quantities": 8,
+        "breach_already_at_old_prices": 8,
+        "breach_only_after_revaluation": 5,
+        "largest_limit_ratio": 1.2861076279193162,
+        "independent_max_risk_difference": 2.7755575615628914e-17
+      }
+    ],
+    "independent_account_audits": [
+      {
+        "strategy": "baseline_50000",
+        "archive_sha256": "7482e4736c56a5d8950ea621dba7461d3ac0ea59ceec8e2751e35821977de264",
+        "days": 44,
+        "events": 67,
+        "contributions": 3,
+        "uncompleted_tail_events": 0,
+        "max_absolute_money_difference": 3.792101059642002e-10,
+        "independent_arithmetic": "60-digit Decimal, separate event transitions, fee formula, prices and settlement calendar",
+        "source_truth_or_executability_certified": false
+      },
+      {
+        "strategy": "baseline_5000",
+        "archive_sha256": "adaad4b8a5291e756cb0768deb88da41a2b7e34f570a5db29e497b4d684d5e22",
+        "days": 44,
+        "events": 185,
+        "contributions": 3,
+        "uncompleted_tail_events": 0,
+        "max_absolute_money_difference": 4.0911726469226187e-10,
+        "independent_arithmetic": "60-digit Decimal, separate event transitions, fee formula, prices and settlement calendar",
+        "source_truth_or_executability_certified": false
+      }
+    ],
+    "partial_fill_protection_validated": false,
+    "broker_delivery_confirmed": false,
+    "promotion_allowed": false,
+    "forward_paper_days": 0,
+    "live_days": 0,
+    "real_orders": 0,
+    "source_archives": {
+      "portfolio-whole-wealth-inputs-20261011-v1": "aae4440a18f2e5064cda6b70bc330933ec6dec9adb12b8c852a1eb8f8c530012",
+      "portfolio-whole-wealth-baseline-50000-20261011-v1": "7482e4736c56a5d8950ea621dba7461d3ac0ea59ceec8e2751e35821977de264",
+      "portfolio-whole-wealth-baseline-5000-20261011-v1": "adaad4b8a5291e756cb0768deb88da41a2b7e34f570a5db29e497b4d684d5e22",
+      "portfolio-whole-wealth-baseline-50000-review-20261011-v1": "6f7760167cc9b220e86384ff8959ca6485290792d893a3fe2bf93d15a0115a54",
+      "portfolio-whole-wealth-baseline-5000-review-20261011-v1": "dd84ed11339b2041450c66e40f53a4d1700c70398fd5419cc72e4188cba84604",
+      "portfolio-whole-wealth-postfill-diagnosis-20261011-v1": "fa45179c4aea3fba527826cb18db522f741c49495e96c101710775df4413df84",
+      "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471"
     }
   }
 }
