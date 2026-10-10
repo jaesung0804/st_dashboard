@@ -44,7 +44,7 @@ footer{font-size:13px;color:var(--muted)}@media(max-width:700px){main,nav,footer
 <p>예측기의 학습 손실과 투자 비중의 목표함수는 분리돼 있습니다. 포트폴리오의 최종 손익을 예측기에 직접 역전파하는 구조는 아닙니다. 후속 체결 최적화는 선택한 매매 방향 안에서 계산하므로 모든 가능한 주문 조합의 전역 최적을 보장하지 않습니다.</p>
 <details><summary>매일 거래하는데 왜 약 1주 뒤를 예측하나요?</summary><p>매일 약 1주 뒤(5개 공통 평일)의 수익 전망을 갱신해 현재 보유 상태를 다시 평가합니다. 매일 전량 매도·재매수하거나, 반드시 5일만 보유하는 방식은 아닙니다. 국가별 휴장일과 실제 체결 시점은 별도 처리해야 합니다.</p></details>
 <details><summary>현금 비중도 AI가 직접 출력하나요?</summary><p>현재는 아닙니다. 예측과 위험·현금 제약을 받아 최적화기가 투자 비중을 정하고 잔액은 현금으로 남깁니다. 시장 위험 한도도 규칙 기반입니다. 한 시장의 최근 20일 수익률이 -5% 아래이면 연 변동성 허용치를 18%에서 12%로 낮춥니다.</p></details></section>
-<section class="panel" id="implementation"><h2>박기정 외 논문의 Figure 2와 비교하면</h2><div class="table-wrap"><table><thead><tr><th>구성</th><th>참고 논문</th><th>현재 구현</th></tr></thead><tbody>
+<section class="panel" id="implementation"><h2>참고 논문의 딥러닝 모델과 비교하면</h2><div class="table-wrap"><table><thead><tr><th>구성</th><th>참고 논문</th><th>현재 구현</th></tr></thead><tbody>
 <tr><td>시간 패턴</td><td>Self-attention으로 학습</td><td>기간별 지표로 요약</td></tr><tr><td>급격한 움직임</td><td>Hawkes 강도 함수를 신경망으로 학습</td><td>급등락 발생 이력 계산</td></tr><tr><td>종목 간 관계</td><td>사전·동적 하이퍼그래프 신경망</td><td>최근 상관 집단의 통계 계산</td></tr><tr><td>수익 예측</td><td>신경망·MLP / PyTorch</td><td>트리 앙상블 / LightGBM</td></tr><tr><td>포트폴리오 실험</td><td>예측 상위 종목 매매</td><td>보유자산·비용·공동 위험을 포함한 별도 비중 최적화</td></tr>
 </tbody></table></div><p>논문의 급등락·종목 간 관계라는 아이디어 일부를 반영했습니다. 해당 신경망 자체를 재현하거나 현재 모델보다 우수한지 같은 조건에서 비교한 상태는 아닙니다.</p>
 <p class="small">참고: Park, Hong &amp; Jeon (2025), <a href="https://www.ijcai.org/proceedings/2025/673">Dynamic Higher-Order Relations and Event-Driven Temporal Modeling for Stock Price Forecasting</a>, Figure 2·Sections 4–5.</p></section>
