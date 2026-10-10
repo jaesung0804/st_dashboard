@@ -77,7 +77,8 @@
     "portfolio-whole-wealth-combined-5000-review-20261011-v3": "551349214a234cc0a1d437977acc41fb5abb0e3b84ea433e4226a581083bbf4e",
     "portfolio-whole-wealth-combined-5000-performance-20261011-v1": "9d16585fd1ac2b3f7565e36d378baa9491249c69fa68f7c1c122024b42f7f4d0",
     "portfolio-whole-wealth-combined-5000-risk-review-20261011-v1": "9c3e75b846fdcbd41dbfc4a8c36e074883fd3eca197d8bfa22fdf4acc5243afe",
-    "portfolio-whole-wealth-prior-risk-review-20261011-v1": "4e190fc181ce817cc73d144d7919fb976ba89a499fa7e94ac2bde43fcc2b777a"
+    "portfolio-whole-wealth-prior-risk-review-20261011-v1": "4e190fc181ce817cc73d144d7919fb976ba89a499fa7e94ac2bde43fcc2b777a",
+    "portfolio-whole-wealth-paper-20261011-v1": "9dbe2c268a17f04a39d78a32786d066d36521b2bf90f5a921294f5bcb0cf7df7"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -3172,5 +3173,11 @@
         "Risk priority and same-return preference are planning objectives, not proven realized equivalence or guaranteed returns."
       ]
     }
+  },
+  "complete_paper": {
+    "url": "whole-wealth-paper.html",
+    "pdf": "whole-wealth-paper.pdf",
+    "archive_sha256": "9dbe2c268a17f04a39d78a32786d066d36521b2bf90f5a921294f5bcb0cf7df7",
+    "model_adopted": false
   }
 }
