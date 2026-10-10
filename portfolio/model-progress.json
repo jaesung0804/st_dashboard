@@ -53,7 +53,17 @@
     "portfolio-whole-wealth-prior-5000-20261011-v2": "08c4625e7c68663e42e6c7e13f41f889faf0534a8ba821f59cc427d01a293192",
     "portfolio-whole-wealth-prior-5000-review-20261011-v2": "2253280b0e129cd908c485329b14cf950e72e31c36e9b8a7ef97a5fefb086d4d",
     "portfolio-whole-wealth-prior-performance-20261011-v1": "0fd7a3f125074ed31335c59806476b0145832b7deec2c9794221a2f1fc4dad00",
-    "portfolio-whole-wealth-prior-postfill-20261011-v1": "dd10660d4958d7f12f01ea2a76370e69c32f9578267d3abe80fc68ae068f6e2e"
+    "portfolio-whole-wealth-prior-postfill-20261011-v1": "dd10660d4958d7f12f01ea2a76370e69c32f9578267d3abe80fc68ae068f6e2e",
+    "portfolio-whole-wealth-primary-contrast-20261011-v1": "6ad131607c5b90ccdfedc0e1eb17de841f9dfd38016a7f821a34dc7e5449682b",
+    "portfolio-whole-wealth-comparison-plan-20261011-v1": "b26c078f52063528f3c76d3112b7412cfd44f0826636bdebca5e80f73871de26",
+    "portfolio-whole-wealth-combined-50000-20261011-v3": "35daa394006c795e4b97b48dc3e19b28c69cc51912a8237701490ddb88cad5b0",
+    "portfolio-whole-wealth-combined-50000-review-20261011-v3": "e80fd296b86cf4b254e0a8bd8b6892152bf1ade47b639b03d4b177d2170c4544",
+    "portfolio-whole-wealth-combined-50000-performance-20261011-v1": "b9c6fc222e341d78001ce4ac302278429720679b3353e568787105254dd88211",
+    "portfolio-whole-wealth-combined-50000-risk-review-20261011-v1": "d2bd626908cc007ede2ab05a7e2b5746452ebd259f3b121e076e97862053a7ee",
+    "portfolio-whole-wealth-baseline-50000-20261011-v3": "c585de95adbef39d8f30db93727b5f83dbcd4c96afcc4551d4443c9ad0497041",
+    "portfolio-whole-wealth-baseline-50000-review-20261011-v3": "552c39167f36f43e51b217f21bb5548ccbd94aaf8dcaf4a6bef313094c90ec0e",
+    "portfolio-whole-wealth-baseline-50000-performance-20261011-v1": "daab5759a4bc1bfa72387e4955781f843f8accdb0407c14cce6af79f2eca604e",
+    "portfolio-whole-wealth-baseline-50000-risk-review-20261011-v1": "d15ec05e5e74e4f69c1bdcc0e0de612c042b6510d7afbd1fc7ca53ea82d71bc4"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -2338,7 +2348,179 @@
       }
     },
     "full_year_stock_comparison_complete": false,
-    "completed_stock_arms": 1,
-    "pending_stock_arms": 4
+    "completed_stock_arms": 3,
+    "pending_stock_arms": 2,
+    "completed_primary_contrast": {
+      "recorded_at": "2026-10-10T19:07:30.522362+00:00",
+      "analysis_plan_sha256": "b26c078f52063528f3c76d3112b7412cfd44f0826636bdebca5e80f73871de26",
+      "period": [
+        "2025-10-01",
+        "2026-09-30"
+      ],
+      "rows": [
+        {
+          "strategy": "combined_50000",
+          "label": "확장 모델 · 5만원",
+          "metrics": {
+            "ending_nav": 14631906.028133484,
+            "contributions": 12000000.0,
+            "profit_krw": 2631906.0281334836,
+            "profit_over_contributions": 0.21932550234445697,
+            "twr": 0.4559176384720833,
+            "xirr": 0.43183876514075814,
+            "realized_annual_volatility": 0.15931107054746738,
+            "max_drawdown": -0.05805066262854907,
+            "fees": 93366.24404313571,
+            "fx_cost": 14133.250245367191,
+            "solver_failure_days": 89,
+            "postfill_risk_breach_days": 140,
+            "average_equity": 0.4592041641050169,
+            "tail_risk_breach_days": 125,
+            "ending_receivables": 974201.8448564521,
+            "ending_pending_equity": 0.0,
+            "additional_settled_cash_breach_days": 0,
+            "negative_native_cash_days": 0
+          },
+          "evidence": {
+            "run": "35daa394006c795e4b97b48dc3e19b28c69cc51912a8237701490ddb88cad5b0",
+            "account_review": "e80fd296b86cf4b254e0a8bd8b6892152bf1ade47b639b03d4b177d2170c4544",
+            "performance_review": "b9c6fc222e341d78001ce4ac302278429720679b3353e568787105254dd88211",
+            "risk_review": "d2bd626908cc007ede2ab05a7e2b5746452ebd259f3b121e076e97862053a7ee"
+          },
+          "source_directories": {
+            "run": "portfolio-whole-wealth-combined-50000-20261011-v3",
+            "account_review": "portfolio-whole-wealth-combined-50000-review-20261011-v3",
+            "performance_review": "portfolio-whole-wealth-combined-50000-performance-20261011-v1",
+            "risk_review": "portfolio-whole-wealth-combined-50000-risk-review-20261011-v1"
+          },
+          "corporate_action_equivalence": "Common classified-action catalog and delivery assumption; independently audited",
+          "research_comparison_only": true,
+          "model_adopted": false
+        },
+        {
+          "strategy": "baseline_50000",
+          "label": "기본 모델 · 5만원",
+          "metrics": {
+            "ending_nav": 13805212.532012878,
+            "contributions": 12000000.0,
+            "profit_krw": 1805212.532012878,
+            "profit_over_contributions": 0.15043437766773984,
+            "twr": 0.272614012877409,
+            "xirr": 0.29129205163746424,
+            "realized_annual_volatility": 0.16814569134365762,
+            "max_drawdown": -0.13965206628147794,
+            "fees": 89250.01171783928,
+            "fx_cost": 14642.613042517898,
+            "solver_failure_days": 94,
+            "postfill_risk_breach_days": 130,
+            "average_equity": 0.4241755100173101,
+            "tail_risk_breach_days": 119,
+            "ending_receivables": 642144.2090344108,
+            "ending_pending_equity": 0.0,
+            "additional_settled_cash_breach_days": 0,
+            "negative_native_cash_days": 0
+          },
+          "evidence": {
+            "run": "c585de95adbef39d8f30db93727b5f83dbcd4c96afcc4551d4443c9ad0497041",
+            "account_review": "552c39167f36f43e51b217f21bb5548ccbd94aaf8dcaf4a6bef313094c90ec0e",
+            "performance_review": "daab5759a4bc1bfa72387e4955781f843f8accdb0407c14cce6af79f2eca604e",
+            "risk_review": "d15ec05e5e74e4f69c1bdcc0e0de612c042b6510d7afbd1fc7ca53ea82d71bc4"
+          },
+          "source_directories": {
+            "run": "portfolio-whole-wealth-baseline-50000-20261011-v3",
+            "account_review": "portfolio-whole-wealth-baseline-50000-review-20261011-v3",
+            "performance_review": "portfolio-whole-wealth-baseline-50000-performance-20261011-v1",
+            "risk_review": "portfolio-whole-wealth-baseline-50000-risk-review-20261011-v1"
+          },
+          "corporate_action_equivalence": "No held share-action event in the complete journal; delivery rule is inactive on this path",
+          "research_comparison_only": true,
+          "model_adopted": false
+        }
+      ],
+      "differences": {
+        "ending_nav": 826693.4961206056,
+        "profit_krw": 826693.4961206056,
+        "xirr": 0.1405467135032939,
+        "twr": 0.18330362559467428,
+        "realized_annual_volatility": -0.00883462079619024,
+        "max_drawdown": 0.08160140365292887,
+        "fees": 4116.232325296427,
+        "fx_cost": -509.3627971507067,
+        "average_equity": 0.035028654087706834,
+        "postfill_risk_breach_days": 10,
+        "solver_failure_days": -5
+      },
+      "uncertainty": [
+        {
+          "candidate": "combined_50000",
+          "reference": "baseline_50000",
+          "block_length": 5,
+          "repetitions": 2000,
+          "annualized_mean_log_return": {
+            "observed_difference": 0.12992320379480016,
+            "pointwise_percentile_95_interval": [
+              -0.04092417763820783,
+              0.2985803013718813
+            ]
+          },
+          "annualized_volatility": {
+            "observed_difference": -0.008834620796190296,
+            "pointwise_percentile_95_interval": [
+              -0.028770573813098006,
+              0.008160144639104652
+            ]
+          }
+        },
+        {
+          "candidate": "combined_50000",
+          "reference": "baseline_50000",
+          "block_length": 20,
+          "repetitions": 2000,
+          "annualized_mean_log_return": {
+            "observed_difference": 0.12992320379480016,
+            "pointwise_percentile_95_interval": [
+              -0.017000806389012732,
+              0.2849792220876801
+            ]
+          },
+          "annualized_volatility": {
+            "observed_difference": -0.008834620796190296,
+            "pointwise_percentile_95_interval": [
+              -0.032841324247884995,
+              0.010489003135002697
+            ]
+          }
+        }
+      ],
+      "uncertainty_scope": {
+        "method": "Paired circular block percentile bootstrap of observed daily returns, not an account or allocation rerun",
+        "block_lengths": [
+          5,
+          20
+        ],
+        "repetitions": 2000,
+        "seed": 20261011,
+        "confidence": 0.95,
+        "metrics": [
+          "annualized mean log-return difference",
+          "annualized volatility difference"
+        ],
+        "simultaneous_coverage": false,
+        "model_selection_uncertainty_included": false,
+        "assumption": "Weakly stationary observed return path; a single year does not validate this assumption"
+      },
+      "completed_primary_contrast": true,
+      "all_six_arms_complete": false,
+      "remaining": [
+        "baseline_5000",
+        "combined_5000"
+      ],
+      "selection": "Primary 50000-minimum feature contrast fixed in the analysis plan; no replacement or stopping of other arms",
+      "interpretation": "Retrospective same-period path comparison; no superiority, same-return equivalence or model adoption claim",
+      "model_adopted": false,
+      "real_orders": 0,
+      "forward_paper_days": 0,
+      "live_days": 0
+    }
   }
 }
