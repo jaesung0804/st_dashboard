@@ -49,7 +49,11 @@
     "portfolio-whole-wealth-held-action-diagnosis-20261011-v1": "1f4393e28ffc7985c9748b5e196d35d8b4fc046fa0a98e15382defcc68f8d01c",
     "portfolio-whole-wealth-action-catalog-20261011-v1": "6aa45391d5789593f5eb146639dc112bba3300d5ea419726fd315555a883b7fe",
     "portfolio-whole-wealth-exact-fee-review-20261011-v1": "c46b94a0a06cc47dc5701da82fc81c13041d93b28172e47ca4e3e951faf23189",
-    "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8"
+    "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8",
+    "portfolio-whole-wealth-prior-5000-20261011-v2": "08c4625e7c68663e42e6c7e13f41f889faf0534a8ba821f59cc427d01a293192",
+    "portfolio-whole-wealth-prior-5000-review-20261011-v2": "2253280b0e129cd908c485329b14cf950e72e31c36e9b8a7ef97a5fefb086d4d",
+    "portfolio-whole-wealth-prior-performance-20261011-v1": "0fd7a3f125074ed31335c59806476b0145832b7deec2c9794221a2f1fc4dad00",
+    "portfolio-whole-wealth-prior-postfill-20261011-v1": "dd10660d4958d7f12f01ea2a76370e69c32f9578267d3abe80fc68ae068f6e2e"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -2178,7 +2182,7 @@
       "combined_5000",
       "prior_5000"
     ],
-    "full_year_stock_results_available": false,
+    "full_year_stock_results_available": true,
     "prefix_days": 44,
     "prefix_start": "2025-10-01",
     "prefix_end": "2025-12-01",
@@ -2250,7 +2254,7 @@
       "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471"
     },
     "accounting_revision": {
-      "published_at": "2026-10-10T18:28:43.790089+00:00",
+      "published_at": "2026-10-10T18:52:42.230632+00:00",
       "audited_days": 177,
       "audited_events": 495,
       "full_year_result": false,
@@ -2263,8 +2267,78 @@
         "portfolio-whole-wealth-held-action-diagnosis-20261011-v1": "1f4393e28ffc7985c9748b5e196d35d8b4fc046fa0a98e15382defcc68f8d01c",
         "portfolio-whole-wealth-action-catalog-20261011-v1": "6aa45391d5789593f5eb146639dc112bba3300d5ea419726fd315555a883b7fe",
         "portfolio-whole-wealth-exact-fee-review-20261011-v1": "c46b94a0a06cc47dc5701da82fc81c13041d93b28172e47ca4e3e951faf23189",
-        "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8"
+        "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8",
+        "portfolio-whole-wealth-prior-5000-20261011-v2": "08c4625e7c68663e42e6c7e13f41f889faf0534a8ba821f59cc427d01a293192",
+        "portfolio-whole-wealth-prior-5000-review-20261011-v2": "2253280b0e129cd908c485329b14cf950e72e31c36e9b8a7ef97a5fefb086d4d",
+        "portfolio-whole-wealth-prior-performance-20261011-v1": "0fd7a3f125074ed31335c59806476b0145832b7deec2c9794221a2f1fc4dad00",
+        "portfolio-whole-wealth-prior-postfill-20261011-v1": "dd10660d4958d7f12f01ea2a76370e69c32f9578267d3abe80fc68ae068f6e2e"
       }
-    }
+    },
+    "completed_control": {
+      "strategy": "prior_5000",
+      "run_archive_sha256": "08c4625e7c68663e42e6c7e13f41f889faf0534a8ba821f59cc427d01a293192",
+      "account_audit_sha256": "2253280b0e129cd908c485329b14cf950e72e31c36e9b8a7ef97a5fefb086d4d",
+      "period_start": "2025-10-01",
+      "period_end": "2026-09-30",
+      "days": 261,
+      "deposit_count": 12,
+      "metrics": {
+        "ending_nav": 12871739.96387529,
+        "contributions": 12000000.0,
+        "profit_krw": 871739.96387529,
+        "profit_over_contributions": 0.0726449969896075,
+        "twr": 0.2462718683666078,
+        "xirr": 0.13786299758591952,
+        "realized_annual_volatility": 0.13751513682209893,
+        "max_drawdown": -0.08498443133360307,
+        "fees": 76013.46847142809,
+        "fx_cost": 11164.833313060226,
+        "solver_failure_days": 40,
+        "postfill_risk_breach_days": 104
+      },
+      "xirr_day_basis": "Actual calendar days / 365; deposits at beginning of each registered first weekday, terminal marked NAV",
+      "volatility_basis": "Sample standard deviation of 261 common-weekday returns, annualized by sqrt(252)",
+      "terminal_nav_is_liquidation_proceeds": false,
+      "terminal_unknown_payment_receivables": 49607.553764861295,
+      "held_share_action_events": 0,
+      "summary_absolute_differences": {
+        "ending_nav": 0.0,
+        "contributions": 0.0,
+        "twr": 1.3877787807814457e-15,
+        "realized_annual_volatility": 5.551115123125783e-17,
+        "max_drawdown": 1.5265566588595902e-16,
+        "fees": 0.0,
+        "fx_cost": 0.0,
+        "solver_failure_days": 0.0,
+        "postfill_risk_breach_days": 0.0
+      },
+      "strategy_adopted": false,
+      "all_comparison_arms_complete": false,
+      "forward_paper_days": 0,
+      "live_days": 0,
+      "real_orders": 0,
+      "caveats": [
+        "Current selected roster and reconstructed history, not historical point-in-time membership.",
+        "Frozen 2026-10-09 fee assumptions applied counterfactually, personal tax and final liquidation costs excluded.",
+        "Declared close-price fill and settlement proxies; unknown dividend payment rights remain unavailable cash.",
+        "Positive returns do not override recorded solver failures or postfill risk breaches."
+      ],
+      "tail_risk_audit": {
+        "strategy": "prior_5000",
+        "archive_sha256": "08c4625e7c68663e42e6c7e13f41f889faf0534a8ba821f59cc427d01a293192",
+        "days": 261,
+        "breach_days": 82,
+        "preexisting_breach_days": 90,
+        "breach_with_no_plan": 30,
+        "breach_with_changed_quantities": 34,
+        "breach_already_at_old_prices": 63,
+        "breach_only_after_revaluation": 19,
+        "largest_limit_ratio": 2.192820298569655,
+        "independent_max_risk_difference": 8.326672684688674e-17
+      }
+    },
+    "full_year_stock_comparison_complete": false,
+    "completed_stock_arms": 1,
+    "pending_stock_arms": 4
   }
 }
