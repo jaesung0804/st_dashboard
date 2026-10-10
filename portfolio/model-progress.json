@@ -29,7 +29,10 @@
     "portfolio-wealth-model-20261010-v2": "6388ecce9c2ae162b221a43ba2e07407962f798686b78317e646ba866b094c92",
     "portfolio-wealth-target-audit-20261010-v1": "e82d6a1c14c5767231240001a111bb17c543eb197a0ef7ff520773776175218c",
     "portfolio-wealth-forecast-evaluation-20261011-v2": "9e5544e81eb9ce90eb3dfd0be156edaa1ff35eb54289348c0081a9ad00fad5ab",
-    "portfolio-wealth-forecast-review-20261011-v1": "fce08a61500bdc201cde9384edaa514b1401446b85d8513fe5ec8643949650b6"
+    "portfolio-wealth-forecast-review-20261011-v1": "fce08a61500bdc201cde9384edaa514b1401446b85d8513fe5ec8643949650b6",
+    "portfolio-historical-bridge-20261011-v1": "19e0e5c2c2ccae0e4432446be830ef89a48fab99a61de86c88962acecd9b91bf",
+    "portfolio-forecast-availability-20261011-v1": "4bc36a46c92fb0e1926090197b92c6ac95515a632441cc4f48dcdc5481efce97",
+    "portfolio-history-gap-20261011-v1": "d10bc109098aad773c8e80e9947df898e6371a5c9d81ca1d5bbeb0bf2fbbb654"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -784,5 +787,51 @@
     "adopted": false,
     "independent_validation_passed": false
   },
-  "verification_updated_at": "2026-10-11"
+  "verification_updated_at": "2026-10-11",
+  "input_availability": {
+    "classification": "availability_audit_not_model_performance",
+    "no_candidate_market_dates": 13,
+    "excluded_dates": [
+      "2025-10-01",
+      "2025-10-02",
+      "2025-10-03",
+      "2025-10-13",
+      "2025-10-14",
+      "2025-10-15",
+      "2025-10-16",
+      "2025-10-17",
+      "2025-10-20",
+      "2025-10-21",
+      "2025-10-22",
+      "2025-10-23",
+      "2025-10-24"
+    ],
+    "unknown_liquidity_exclusions": 819,
+    "same_provider_rerequest_assets": 64,
+    "recovered_positive_bars": 0,
+    "source_repaired": false,
+    "source_archives": {
+      "portfolio-historical-bridge-20261011-v1": "19e0e5c2c2ccae0e4432446be830ef89a48fab99a61de86c88962acecd9b91bf",
+      "portfolio-forecast-availability-20261011-v1": "4bc36a46c92fb0e1926090197b92c6ac95515a632441cc4f48dcdc5481efce97",
+      "portfolio-history-gap-20261011-v1": "d10bc109098aad773c8e80e9947df898e6371a5c9d81ca1d5bbeb0bf2fbbb654"
+    },
+    "anchor_identity": {
+      "baseline": {
+        "rows": 30157,
+        "dates": 257,
+        "assets": 128,
+        "scored": 30130,
+        "unresolved": 27,
+        "maximum_absolute_target_error": 2.220446049250313e-16
+      },
+      "combined": {
+        "rows": 30157,
+        "dates": 257,
+        "assets": 128,
+        "scored": 30130,
+        "unresolved": 27,
+        "maximum_absolute_target_error": 2.220446049250313e-16
+      }
+    }
+  }
 }
