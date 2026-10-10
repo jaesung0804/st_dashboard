@@ -44,7 +44,12 @@
     "portfolio-whole-wealth-baseline-50000-review-20261011-v1": "6f7760167cc9b220e86384ff8959ca6485290792d893a3fe2bf93d15a0115a54",
     "portfolio-whole-wealth-baseline-5000-review-20261011-v1": "dd84ed11339b2041450c66e40f53a4d1700c70398fd5419cc72e4188cba84604",
     "portfolio-whole-wealth-postfill-diagnosis-20261011-v1": "fa45179c4aea3fba527826cb18db522f741c49495e96c101710775df4413df84",
-    "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471"
+    "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471",
+    "portfolio-whole-wealth-held-action-review-20261011-v1": "d8739d6a87524e7f69032a1e3772a69b1381c2c6482f9f21ef1e79d8071b5b69",
+    "portfolio-whole-wealth-held-action-diagnosis-20261011-v1": "1f4393e28ffc7985c9748b5e196d35d8b4fc046fa0a98e15382defcc68f8d01c",
+    "portfolio-whole-wealth-action-catalog-20261011-v1": "6aa45391d5789593f5eb146639dc112bba3300d5ea419726fd315555a883b7fe",
+    "portfolio-whole-wealth-exact-fee-review-20261011-v1": "c46b94a0a06cc47dc5701da82fc81c13041d93b28172e47ca4e3e951faf23189",
+    "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8"
   },
   "forecast_evaluation": {
     "classification": "retrospective_current_roster_forecast_comparison_not_portfolio_performance",
@@ -2243,6 +2248,23 @@
       "portfolio-whole-wealth-baseline-5000-review-20261011-v1": "dd84ed11339b2041450c66e40f53a4d1700c70398fd5419cc72e4188cba84604",
       "portfolio-whole-wealth-postfill-diagnosis-20261011-v1": "fa45179c4aea3fba527826cb18db522f741c49495e96c101710775df4413df84",
       "portfolio-whole-wealth-corporate-evidence-20261011-v1": "0f7668e88d7b42fa6428725775bfb5692967d1184afd02781e7f82c6c2f99471"
+    },
+    "accounting_revision": {
+      "published_at": "2026-10-10T18:25:33.661379+00:00",
+      "audited_days": 177,
+      "audited_events": 495,
+      "full_year_result": false,
+      "saved_plan_replayed": true,
+      "broker_delivery_confirmed": false,
+      "listing_close_delivery_is_assumption": true,
+      "max_absolute_money_difference": 2.9819312638522096e-09,
+      "source_archives": {
+        "portfolio-whole-wealth-held-action-review-20261011-v1": "d8739d6a87524e7f69032a1e3772a69b1381c2c6482f9f21ef1e79d8071b5b69",
+        "portfolio-whole-wealth-held-action-diagnosis-20261011-v1": "1f4393e28ffc7985c9748b5e196d35d8b4fc046fa0a98e15382defcc68f8d01c",
+        "portfolio-whole-wealth-action-catalog-20261011-v1": "6aa45391d5789593f5eb146639dc112bba3300d5ea419726fd315555a883b7fe",
+        "portfolio-whole-wealth-exact-fee-review-20261011-v1": "c46b94a0a06cc47dc5701da82fc81c13041d93b28172e47ca4e3e951faf23189",
+        "portfolio-whole-wealth-fee-prefix-audit-20261011-v2": "ffa57fd89091815f1631edaa0c277f413f918d6d25ab04da223d483f853a55b8"
+      }
     }
   }
 }
