@@ -17,6 +17,7 @@ from urllib.parse import quote
 
 from build_price_context import build_price_context
 from build_simulation_pages import build as build_simulation_pages
+from site_navigation import sync as sync_site_navigation
 
 
 ROOT = Path("outputs")
@@ -463,6 +464,8 @@ def push_pages(deploy_dir: Path, repo: str) -> None:
                 shutil.copytree(source, target, dirs_exist_ok=True)
             else:
                 shutil.copyfile(source, target)
+        # Apply the same menu to preserved research pages and freshly built pages.
+        sync_site_navigation(checkout)
         run_git(["add", "-A"], checkout)
         unchanged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=checkout).returncode == 0
         if unchanged:
@@ -529,6 +532,7 @@ def main() -> None:
     if built_dashboards + restored_dashboards == 0:
         raise FileNotFoundError("No dashboard date JSON files found under outputs")
     publish_investment_entrypoints(deploy_dir)
+    sync_site_navigation(deploy_dir)
     total = sum(path.stat().st_size for path in deploy_dir.rglob("*") if path.is_file())
     print(f"Built {deploy_dir} with {sum(1 for _ in deploy_dir.rglob('*') if _.is_file())} files, {total / 1024 / 1024:.1f} MB.")
     if args.push:
@@ -537,3 +541,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
