@@ -1,0 +1,38 @@
+/* Shared navigation: independent of each research page's styles. */
+#st-site-header{box-sizing:border-box;background:#fff;color:#193044;border:0;border-bottom:1px solid #dde5eb;border-radius:0;margin:0;padding:0;width:100%;font:14px/1.5 system-ui,"Malgun Gothic",sans-serif}
+#st-site-header *{box-sizing:border-box}
+#st-site-header .st-header-inner{max-width:1280px;margin:auto;padding:16px 24px;display:flex;align-items:center;gap:28px;min-width:0}
+#st-site-header .st-brand{color:inherit;text-decoration:none;font-size:18px;white-space:nowrap;flex-shrink:0}
+#st-site-header .st-primary{display:flex;align-items:center;gap:6px;flex:1;min-width:0;width:auto;max-width:none;margin:0;padding:0;flex-wrap:nowrap;order:0;font-size:14px}
+#st-site-header .st-primary a{display:block;flex:0 0 auto;white-space:nowrap;word-break:keep-all;text-decoration:none;color:#586b7d;padding:9px 13px;border-radius:9px;border:0;line-height:1.5}
+#st-site-header .st-primary a[aria-current="page"]{color:#087774;background:#eaf4f3;font-weight:700}
+#st-site-header a:hover{background:#f0f5f7}
+#st-site-header a:focus-visible,#st-site-header button:focus-visible{outline:3px solid #117d80;outline-offset:2px}
+#st-site-header button{margin:0 0 0 auto;flex-shrink:0;white-space:nowrap;border:1px solid #dde5eb;background:none;color:inherit;border-radius:8px;padding:7px 10px;font:12px/1.5 inherit;cursor:pointer}
+.st-section-nav{max-width:1280px;margin:16px auto;padding:0 24px;color:#637484;font:13px/1.6 system-ui,"Malgun Gothic",sans-serif}
+.st-section-nav summary{cursor:pointer;font-weight:600;width:max-content}
+.st-section-nav nav{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 0;margin:0;max-width:none;font-size:13px}
+.st-section-nav a{white-space:nowrap;color:#117d80}
+.st-research-main{max-width:1100px;margin:auto;padding:40px 24px 64px;font:16px/1.75 system-ui,"Malgun Gothic",sans-serif;color:#193044}
+.st-research-main h1{font-size:32px;line-height:1.4;word-break:keep-all}
+.st-research-main .st-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.st-research-main article{padding:24px;background:#fff;border:1px solid #dde5eb;border-radius:14px}
+.st-research-main article h2{font-size:19px;margin:0 0 10px}
+.st-research-main a{color:#087774;text-underline-offset:4px}
+.st-research-main p{margin:10px 0}
+body.dark #st-site-header,html[data-theme="dark"] #st-site-header{background:#172633;color:#e8f0f6;border-color:#314350}
+body.dark #st-site-header .st-primary a,html[data-theme="dark"] #st-site-header .st-primary a{color:#bacbd7}
+body.dark #st-site-header .st-primary a[aria-current],html[data-theme="dark"] #st-site-header .st-primary a[aria-current]{background:#203c3e;color:#65d5cc}
+@media(max-width:720px){
+ #st-site-header .st-header-inner{padding:12px 16px;gap:10px;flex-wrap:wrap}
+ #st-site-header .st-brand{font-size:17px}
+ #st-site-header .st-primary{order:3;flex:0 0 100%;width:100%;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:2px 0}
+ #st-site-header .st-primary a{font-size:13px;padding:9px 12px}
+ .st-section-nav{padding:0 16px;margin:12px auto}
+ .st-research-main{padding:24px 16px 40px}
+ .st-research-main h1{font-size:26px}
+ .st-research-main .st-cards{grid-template-columns:1fr}
+}
+@media print{#st-site-header,.st-section-nav{display:none}}
+
+main>.intro h1{word-break:keep-all}

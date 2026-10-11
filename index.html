@@ -1,12 +1,9 @@
-<!doctype html>
-<html lang="ko" data-investment-entry="v1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ST Research · 통합 화면으로 이동</title>
-<script>
-(() => {
-  const target = new URL("investment/?market=all&sort=score&v=1791645826", location.href);
-  const previous = new URLSearchParams(location.search);
-  const query = previous.get('q') || previous.get('ticker');
-  if (query) target.searchParams.set('q', query.slice(0, 100));
-  location.replace(target.href);
-})();
-</script><noscript><meta http-equiv="refresh" content="0;url=investment/?market=all&amp;sort=score&amp;v=1791645826"></noscript></head>
-<body><p>한국·미국 통합 화면으로 이동합니다.</p><p><a href="investment/?market=all&amp;sort=score&amp;v=1791645826">최신 종목 화면 열기</a></p><p><a href="history.html">기존 예측 기록 보기</a></p></body></html>
+<!doctype html><html lang="ko" data-portfolio-entry="v1"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ST Research · 포트폴리오</title><link rel="stylesheet" href="site-nav.css?v=20261011">
+<script>(()=>{const q=new URLSearchParams(location.search);const stock=q.get('q')||q.get('ticker');
+const target=new URL(stock?'investment/':'portfolio/',location.href);
+if(stock)target.searchParams.set('q',stock.slice(0,100));else target.hash=location.hash;
+location.replace(target.href);})();</script>
+<noscript><meta http-equiv="refresh" content="0;url=portfolio/"></noscript></head>
+<body><p><a href="portfolio/">포트폴리오 열기</a> · <a href="investment/">장기 투자 후보 찾기</a> · <a href="research/">연구 기록</a></p></body></html>

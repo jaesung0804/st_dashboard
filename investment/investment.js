@@ -1,3 +1,21 @@
+/* Shared navigation for previously published inline-data explorer pages. */
+(() => {
+  document.title = '장기 투자 후보 · ST Research';
+  const heading = document.querySelector('.investment-intro h1');
+  if (heading) heading.innerHTML = '장기 투자 후보를,<br><span>한 곳에서 선별.</span>';
+  const intro = document.querySelector('.investment-intro p');
+  if (intro) intro.innerHTML = '기존 모형으로 먼저 살펴볼 종목을 추립니다.<br>장기 투자 판단은 재무·사업·가격 검토로 이어갑니다.';
+  const basis = document.querySelector('.basis span:last-child');
+  if (basis) basis.textContent = '장기 투자 후보 선별용 · 기존 약 3개월 전망';
+  if (document.getElementById('st-site-header')) return;
+  const old = document.querySelector('header.app-header');
+  if (!old) return;
+  const theme = old.querySelector('#themeToggle');
+  old.outerHTML = "<header id=\"st-site-header\"><div class=\"st-header-inner\"><a class=\"st-brand\" href=\"../portfolio/\">ST <strong>Research</strong></a><nav class=\"st-primary\" aria-label=\"주요 메뉴\"><a href=\"../portfolio/\">포트폴리오</a><a href=\"../investment/\" aria-current=\"page\">장기 후보</a><a href=\"../research/\">연구 기록</a></nav>__THEME__</div></header><details class=\"st-section-nav\"><summary>후보 선별 목차</summary><nav aria-label=\"후보 선별 목차\"><a href=\"#comparison\">종목 탐색</a><a href=\"#validation\">검증 결과</a><a href=\"#method\">산정 기준</a></nav></details>".replace('__THEME__', theme ? theme.outerHTML : '');
+  const css = document.createElement('link');
+  css.rel = 'stylesheet'; css.href = '../site-nav.css?v=20261011';
+  document.head.appendChild(css);
+})();
 'use strict';
 const data=JSON.parse(document.getElementById('investment-data').textContent),M=InvestmentMetrics,$=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -106,3 +124,4 @@ $('detail-panel').addEventListener('close',()=>{selected=null;});
 $('detail-panel').addEventListener('click',e=>{if(e.target===$('detail-panel')){const rect=e.target.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)e.target.close();}});
 $('themeToggle').addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'';$('themeToggle').textContent=dark?'라이트모드':'다크모드';$('themeToggle').setAttribute('aria-pressed',String(dark));});
 selectionTables();validation();render();
+
