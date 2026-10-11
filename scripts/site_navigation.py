@@ -80,6 +80,10 @@ def research_page() -> str:
 
 def sync(root: Path) -> None:
     root.mkdir(parents=True, exist_ok=True)
+    # A partial local bundle must not redirect to a page it does not contain.
+    # The publication overlay runs this again after preserving the live portfolio.
+    if not (root / "portfolio" / "index.html").is_file():
+        return
     (root / "site-nav.css").write_bytes((ASSETS / "site-nav.css").read_bytes())
     # Upgrade all existing HTML, including standalone experimental reports.
     for path in root.rglob("*.html"):

@@ -8,6 +8,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from site_navigation import decorate, root_entry, sync
 
 class NavigationTests(unittest.TestCase):
+    def test_partial_bundle_does_not_redirect_to_absent_portfolio(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "index.html").write_text("existing home")
+            sync(root)
+            self.assertEqual((root / "index.html").read_text(), "existing home")
+
     def test_shared_menu_preserves_theme_and_frozen_data(self):
         payload = '<script id="portfolio-data" type="application/json">{"frozen":"원본","value":1.2}</script>'
         source = '<html><head></head><body><header class="site-header"><nav>old</nav><button id="theme">dark</button></header><main id="main"></main>' + payload + '</body></html>'
@@ -28,6 +35,8 @@ class NavigationTests(unittest.TestCase):
     def test_market_entry_redirects_and_forecasts_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
+            (root / "portfolio").mkdir()
+            (root / "portfolio/index.html").write_text("<html><head></head><body><main>Portfolio</main></body></html>")
             market = root / "lgbm_warning_dashboard_macro_kr_latest"
             market.mkdir()
             (market / "index.html").write_text('<html data-investment-entry="v1">existing saved entry</html>')
