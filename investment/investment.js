@@ -11,7 +11,7 @@
   const old = document.querySelector('header.app-header');
   if (!old) return;
   const theme = old.querySelector('#themeToggle');
-  old.outerHTML = "<header id=\"st-site-header\"><div class=\"st-header-inner\"><a class=\"st-brand\" href=\"../portfolio/\">ST <strong>Research</strong></a><nav class=\"st-primary\" aria-label=\"주요 메뉴\"><a href=\"../portfolio/\">포트폴리오</a><a href=\"../investment/\" aria-current=\"page\">장기 후보</a><a href=\"../research/\">연구 기록</a></nav>__THEME__</div></header><details class=\"st-section-nav\"><summary>후보 선별 목차</summary><nav aria-label=\"후보 선별 목차\"><a href=\"#comparison\">종목 탐색</a><a href=\"#validation\">검증 결과</a><a href=\"#method\">산정 기준</a></nav></details>".replace('__THEME__', theme ? theme.outerHTML : '');
+  old.outerHTML = "<header id=\"st-site-header\"><div class=\"st-header-inner\"><a class=\"st-brand\" href=\"../portfolio/\">ST <strong>Research</strong></a><nav class=\"st-primary\" aria-label=\"주요 메뉴\"><a href=\"../portfolio/\">포트폴리오</a><a href=\"../investment/\" aria-current=\"page\">장기 후보</a><a href=\"../research/\">연구 기록</a><a href=\"../papers/\">논문 리서치</a></nav>__THEME__</div></header><details class=\"st-section-nav\"><summary>후보 선별 목차</summary><nav aria-label=\"후보 선별 목차\"><a href=\"#comparison\">종목 탐색</a><a href=\"#validation\">검증 결과</a><a href=\"#method\">산정 기준</a></nav></details>".replace('__THEME__', theme ? theme.outerHTML : '');
   const css = document.createElement('link');
   css.rel = 'stylesheet'; css.href = '../site-nav.css?v=20261011';
   document.head.appendChild(css);
@@ -122,6 +122,5 @@ for(const id of ['rows','stock-cards'])$(id).addEventListener('click',e=>{const 
 $('close-detail').addEventListener('click',()=>{$('detail-panel').close();});
 $('detail-panel').addEventListener('close',()=>{selected=null;});
 $('detail-panel').addEventListener('click',e=>{if(e.target===$('detail-panel')){const rect=e.target.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)e.target.close();}});
-$('themeToggle').addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'';$('themeToggle').textContent=dark?'라이트모드':'다크모드';$('themeToggle').setAttribute('aria-pressed',String(dark));});
 selectionTables();validation();render();
 
