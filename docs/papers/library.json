@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-11",
+  "papers": [
+    {
+      "id": "kronos",
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "year": 2026,
+      "publication": "AAAI 2026 · 사전 공개 2025",
+      "field": "금융 시계열 표현학습",
+      "tracks": [
+        "mechanical"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730",
+      "review_note": "확장 arXiv v1의 방법·설정·표를 심층 검토했습니다. 학회판과 확장판의 범위를 구분합니다.",
+      "research_question": "금융시장 데이터에 맞춘 사전학습 표현이 금융 시계열의 다양한 예측 작업에 도움이 되는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "학습 자료에 KRX가 포함되었다고 해서 한국·미국 정수 주수와 환전을 결합한 운용을 검증한 것은 아닙니다.",
+      "application_hypothesis": "적용 가설: 금융 전용 표현학습을 기존과 동일한 실행 엔진에 넣고 비용 차감 후 순수익의 증분을 검증합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 동일 시점의 정보, 종목 집합, 거래 비용, 정수 주수·환전 제약을 고정하고 표현학습 모듈의 유무만 비교합니다."
+    },
+    {
+      "id": "master",
+      "title": "MASTER: Market-Guided Stock Transformer for Stock Price Forecasting",
+      "authors": [
+        "Tong Li",
+        "Zhaoyang Liu",
+        "Yanyan Shen",
+        "Xue Wang",
+        "Haokun Chen",
+        "Sen Huang"
+      ],
+      "year": 2024,
+      "publication": "AAAI 2024",
+      "field": "시장 상태와 종목 관계",
+      "tracks": [
+        "mechanical"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27767",
+      "review_note": "방법 및 Table 1–2를 심층 검토했습니다.",
+      "research_question": "시장 상태에 따른 정보 중요도와 종목 간·시간 간 관계를 함께 반영하면 주가 예측을 개선할 수 있는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "중국 시장의 결과를 한국·미국 시장 성과로 일반화하지 않습니다.",
+      "application_hypothesis": "적용 가설: 시장 상태에 따라 입력의 중요도를 조절하는 구조와 종목 간·시간 간 관계를 분리해 검토합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 같은 평가 기간과 실행 조건에서 시장 상태 입력, 종목 간 관계, 시간 간 관계를 차례로 제거하는 비교를 설계합니다."
+    },
+    {
+      "id": "deepm",
+      "title": "DeePM: Regime-Robust Deep Learning for Systematic Macro Portfolio Management",
+      "authors": [
+        "Kieran Wood",
+        "Stephen J. Roberts",
+        "Stefan Zohren"
+      ],
+      "year": 2026,
+      "publication": "arXiv 2026",
+      "field": "거시 포트폴리오와 시장 국면",
+      "tracks": [
+        "mechanical"
+      ],
+      "review_status": "partial_text",
+      "source_url": "https://arxiv.org/abs/2601.05975",
+      "review_note": "본문·설정·Table 1을 부분 검토했습니다. 원문 전체 심층 검토로 표시하지 않습니다.",
+      "research_question": "경제적 자산 관계와 시장 국면을 고려한 학습이 거시 포트폴리오 운용에 도움이 되는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "선물과 10% 변동성 조건의 연구입니다. S&P 500 초과수익이나 한국·미국 현물 혼합 운용이 검증되었다는 뜻이 아닙니다.",
+      "application_hypothesis": "적용 가설: 경제 그래프와 attention의 결합이 포트폴리오 성과에 더하는 부분을 따로 검증합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 그래프와 attention의 유무를 비교하고, 논문의 선물·변동성 조건과 새 현물 적용 조건의 차이를 먼저 명시합니다."
+    },
+    {
+      "id": "lodl",
+      "title": "Decision-Focused Learning without Decision-Making: Learning Locally Optimized Decision Losses",
+      "authors": [
+        "Sanket Shah",
+        "Kai Wang",
+        "Bryan Wilder",
+        "Andrew Perrault",
+        "Milind Tambe"
+      ],
+      "year": 2022,
+      "publication": "NeurIPS 2022",
+      "field": "의사결정 중심 학습",
+      "tracks": [
+        "mechanical"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://papers.neurips.cc/paper_files/paper/2022/hash/0904c7edde20d7134a77fc7f9cd86ea2-Abstract-Conference.html",
+      "review_note": "방법과 포트폴리오 표를 심층 검토했습니다. 학회 페이지와 PDF의 제목 표기에 차이가 있습니다.",
+      "research_question": "예측 오차 대신 후속 의사결정의 가치를 반영하는 손실을 학습할 수 있는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "포트폴리오 실험에서 모든 비교를 일관되게 이기는 방법으로 해석하지 않습니다.",
+      "application_hypothesis": "적용 가설: 실제 운용 목적함수가 정해진 뒤, 그 목적에 맞춰 학습한 손실을 예측 오차 기반 학습과 비교합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 동일한 의사결정기와 제약을 유지한 채 손실함수만 바꾸고, 예측 오차와 최종 의사결정 성과를 각각 평가합니다."
+    },
+    {
+      "id": "conformal-risk-training",
+      "title": "Conformal Risk Training: End-to-End Optimization of Conformal Risk Control",
+      "authors": [
+        "Christopher Yeh",
+        "Nicolas Christianson",
+        "Adam Wierman",
+        "Yisong Yue"
+      ],
+      "year": 2025,
+      "publication": "NeurIPS 2025",
+      "field": "위험 교정과 불확실성",
+      "tracks": [
+        "mechanical"
+      ],
+      "review_status": "partial_text",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6559542f75b4452ebaaf82094c7defb7-Abstract-Conference.html",
+      "review_note": "정리·가정·알고리즘을 부분 검토했습니다.",
+      "research_question": "위험 제어 절차를 학습 과정에 연결해 꼬리위험과 평균 성과를 함께 다룰 수 있는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "교환가능성 가정이 필요합니다. 배터리·이미지 실험의 보장을 금융시장 보장으로 옮길 수 없습니다.",
+      "application_hypothesis": "적용 가설: CVaR 위험 교정 후보로 검토하되 금융 시계열에 필요한 가정을 별도로 점검합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 시계열 의존성과 시장 국면 변화에서 가정이 성립하는지 먼저 확인하고, 사후 교정과 학습 중 교정을 독립 구간에서 비교합니다."
+    },
+    {
+      "id": "financebench",
+      "title": "FinanceBench: A New Benchmark for Financial Question Answering",
+      "authors": [
+        "Pranab Islam",
+        "Anand Kannappan",
+        "Douwe Kiela",
+        "Rebecca Qian",
+        "Nino Scherrer",
+        "Bertie Vidgen"
+      ],
+      "year": 2023,
+      "publication": "arXiv 2023",
+      "field": "재무 문서 질의응답",
+      "tracks": [
+        "long_term"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://arxiv.org/abs/2311.11944",
+      "review_note": "자료·Table 2·실패 사례를 심층 검토했습니다.",
+      "research_question": "공개 기업 문서에 근거한 금융 질의응답에서 언어모델은 어떤 오류를 보이는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "과거의 150문항 평가를 현재 모델의 오류율이나 투자 초과수익으로 해석하지 않습니다.",
+      "application_hypothesis": "적용 가설: 문서와 기간에 맞는 근거 검색을 답변 생성의 별도 검증 단계로 둡니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 시점이 고정된 기업 문서에서 근거 위치·보고 기간·계산을 각각 채점하고, 검색 실패와 추론 실패를 분리합니다."
+    },
+    {
+      "id": "docmath-eval",
+      "title": "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents",
+      "authors": [
+        "Yilun Zhao",
+        "Yitao Long",
+        "Hongjun Liu",
+        "Ryo Kamoi",
+        "Linyong Nan",
+        "Lyuhao Chen",
+        "Yixin Liu",
+        "Xiangru Tang",
+        "Rui Zhang",
+        "Arman Cohan"
+      ],
+      "year": 2024,
+      "publication": "ACL 2024 · 수정판",
+      "field": "문서 기반 수치 추론",
+      "tracks": [
+        "long_term"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://aclanthology.org/2024.acl-long.852/",
+      "review_note": "수정판의 방법과 표를 심층 검토했습니다.",
+      "research_question": "긴 전문 문서의 본문과 표를 근거로 수치 문제를 정확히 풀 수 있는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "계산 도구의 효과를 확인하더라도 장기투자 초과수익을 검증한 것은 아닙니다.",
+      "application_hypothesis": "적용 가설: 단위·기간·원문 근거의 확인과 실제 계산을 분리하는 연구 절차를 검토합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 동일 문서·문제에서 근거 선택, 단위와 기간의 일치, 계산 정확도를 나누어 평가합니다."
+    },
+    {
+      "id": "datedgpt",
+      "title": "DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining",
+      "authors": [
+        "Yutong Yan",
+        "Raphael Tang",
+        "Zhenyu Gao",
+        "Wenxi Jiang",
+        "Yao Lu"
+      ],
+      "year": 2026,
+      "publication": "arXiv 2026 · v2",
+      "field": "시점 통제와 사후정보 편향",
+      "tracks": [
+        "long_term"
+      ],
+      "review_status": "full_text",
+      "source_url": "https://arxiv.org/abs/2603.11838",
+      "review_note": "시점별 코퍼스와 Table 1–4를 심층 검토했습니다. 기준 버전은 v2입니다.",
+      "research_question": "모델의 학습 자료 시점을 제한하면 과거 예측에 섞이는 사후 지식을 구분할 수 있는가?",
+      "core_math": [
+        {
+          "formula": "수식 정리 준비 중",
+          "intuition": "검토한 원문의 수식과 직관을 연결하는 상세 노트를 준비하고 있습니다. 미확인 식을 임의로 채우지 않습니다."
+        }
+      ],
+      "empirical_results": "실증 결과의 조건별 표·수치 요약은 준비 중입니다. 이 사이트에서 해당 방법을 시장 실험으로 재현한 결과는 아직 제시하지 않습니다.",
+      "limitations": "초기 연구이며 외부 재현이 필요합니다. 과거 연구 능력에 대한 대조군과 실제 장기투자 성과를 구분합니다.",
+      "application_hypothesis": "적용 가설: 과거 기업 연구 능력과 결과를 미리 아는 효과를 구별하는 대조군으로 활용할 수 있는지 검토합니다.",
+      "validation_method": "제안 단계 · 아직 수행하지 않은 검증입니다. 평가일 이전 문서만 제공하는 조건과 모델의 학습 시점을 함께 고정하고, 사후정보에 노출된 모델과 같은 질문으로 비교합니다."
+    }
+  ]
+}

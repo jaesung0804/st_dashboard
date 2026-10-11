@@ -8,6 +8,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from site_navigation import decorate, root_entry, sync
 
 class NavigationTests(unittest.TestCase):
+    def test_existing_shell_receives_papers_and_theme_without_touching_data(self):
+        payload = '<script id="portfolio-data" type="application/json">{"private_field_not_read":"frozen"}</script>'
+        original = '<html><head><meta charset="utf-8"><link rel="stylesheet" href="portfolio.css"></head><body>' + '<header id="st-site-header"><nav>old</nav><button id="theme">dark</button></header><main>unchanged</main>' + payload + '</body></html>'
+        result = decorate(original, "portfolio/index.html")
+        self.assertIn(payload, result)
+        self.assertEqual(result.count('id="st-site-header"'), 1)
+        self.assertEqual(result.count('data-st-theme="head"'), 1)
+        self.assertIn('href="../papers/"', result)
+        self.assertLess(result.index('data-st-theme="head"'), result.index('href="portfolio.css"'))
+        self.assertEqual(decorate(result, "portfolio/index.html"), result)
+        paper = decorate(original, "papers/index.html")
+        self.assertIn('href="../papers/" aria-current="page"', paper)
+
     def test_partial_bundle_does_not_redirect_to_absent_portfolio(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

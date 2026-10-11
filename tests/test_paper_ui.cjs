@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict');
+const lib=require('../scripts/dashboard_web/papers.js');
+const base={id:'test-only',title:'Test <script>alert(1)</script>',authors:['Author'],year:2025,field:'Risk',tracks:['mechanical'],review_status:'abstract',source_url:'https://example.org',research_question:'Question',core_math:[{formula:'x < y',intuition:'Intuition'}],empirical_results:'Results',limitations:'Limits',application_hypothesis:'Hypothesis',validation_method:['Method','Second paragraph']};
+const papers=[base,{...base,id:'second',year:2024,tracks:['long_term'],review_status:'full_text',field:'Value'}];
+const original=JSON.stringify(papers);
+assert.equal(lib.select(papers,{year:'2025',field:'Risk',track:'mechanical',review:'abstract',q:'AU THOR'}).length,1);
+assert.equal(lib.select(papers,{year:'2025',track:'long_term'}).length,0);
+assert.equal(lib.select(papers,{track:'long_term'})[0].id,'second');
+assert.equal(JSON.stringify(papers),original);
+assert.ok(lib.card(base).includes('&lt;script&gt;'));
+assert.ok(!lib.detail(base).includes('<script>'));
+for(const heading of ['연구 질문','핵심 수식과 직관','실증 결과','한계','적용 가설','검증 방법','원문 링크'])assert.ok(lib.detail(base).includes(heading));
+assert.ok(lib.detail(base).includes('초록 검토 단계'));
+assert.equal(lib.source('javascript:alert(1)'), '');
+assert.equal(lib.source('https://name:secret@example.org'), '');
+console.log('PASS: intersected filters, immutable data, review scope, escaped text, safe source URLs');

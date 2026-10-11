@@ -13,6 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
 from ai_stock_assistant.investment_operations import review_queue
 from backend_references import References
+from dashboard_theme import theme_head_script, theme_toggle_script
 
 
 def build(target:Path):
@@ -28,11 +29,12 @@ def build(target:Path):
     target.mkdir(parents=True,exist_ok=True)
     for p in (ROOT/'scripts/simulation_web').iterdir():
         if p.is_file():shutil.copyfile(p,target/p.name)
-    html=(target/'index.html').read_text()
+    html=(target/'index.html').read_text(encoding='utf-8')
+    html=html.replace('@@THEME_HEAD@@',theme_head_script()).replace('@@THEME_TOGGLE@@',theme_toggle_script())
     for asset in ('simulation.css','simulation.js'):
         version=hashlib.sha256((target/asset).read_bytes()).hexdigest()[:16]
         html=html.replace(f'"{asset}"',f'"{asset}?v={version}"')
-    (target/'index.html').write_text(html)
+    (target/'index.html').write_text(html,encoding='utf-8')
     keys=['pulse','compound','adaptive','spy','spy_cash_matched','baseline_cash_matched']
     runs={}
     for key,run in summary['runs'].items():

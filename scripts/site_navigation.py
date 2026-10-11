@@ -6,17 +6,18 @@ import html
 import json
 import re
 from pathlib import Path
-VERSION = "20261011"
+from dashboard_theme import decorate_theme, theme_head_script
+VERSION = "20261011-papers"
 ASSETS = Path(__file__).resolve().parent / "dashboard_web"
 
 def header(prefix: str, active: str, theme: str = "") -> str:
-    items = (("portfolio", "portfolio/", "포트폴리오"), ("investment", "investment/", "장기 후보"), ("research", "research/", "연구 기록"))
+    items = (("portfolio", "portfolio/", "포트폴리오"), ("investment", "investment/", "장기 후보"), ("research", "research/", "연구 기록"), ("papers", "papers/", "논문 리서치"))
     links = "".join(f'<a href="{prefix}{path}"' + (' aria-current="page"' if key == active else '') + f'>{label}</a>' for key, path, label in items)
     return f'<header id="st-site-header"><div class="st-header-inner"><a class="st-brand" href="{prefix}portfolio/">ST <strong>Research</strong></a><nav class="st-primary" aria-label="주요 메뉴">{links}</nav>{theme}</div></header>'
 
 def root_entry() -> str:
     return """<!doctype html><html lang="ko" data-portfolio-entry="v1"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">@@THEME_HEAD@@<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ST Research · 포트폴리오</title><link rel="stylesheet" href="site-nav.css?v=20261011">
 <script>(()=>{const q=new URLSearchParams(location.search);const stock=q.get('q')||q.get('ticker');
 const target=new URL(stock?'investment/':'portfolio/',location.href);
@@ -24,23 +25,27 @@ if(stock)target.searchParams.set('q',stock.slice(0,100));else target.hash=locati
 location.replace(target.href);})();</script>
 <noscript><meta http-equiv="refresh" content="0;url=portfolio/"></noscript></head>
 <body><p><a href="portfolio/">포트폴리오 열기</a> · <a href="investment/">장기 투자 후보 찾기</a> · <a href="research/">연구 기록</a></p></body></html>
-"""
+""".replace('@@THEME_HEAD@@', theme_head_script())
 
 def decorate(text: str, relative: str) -> str:
     prefix = "../" * (len(Path(relative).parts) - 1)
-    active = "portfolio" if relative == "portfolio/index.html" else ("investment" if relative.startswith("investment/") or "lgbm_" in relative else "research")
-    # Idempotence keeps scheduled publishers from adding duplicate headers.
-    if 'id="st-site-header"' in text:
-        return text
+    if relative.startswith("simulation/"):
+        # Older simulation bundles kept their separate header below the shared one.
+        text = re.sub(r'<header><div class="wrap top">.*?</header>', '', text, flags=re.S)
+    active = "papers" if relative.startswith("papers/") else ("portfolio" if relative == "portfolio/index.html" else ("investment" if relative.startswith("investment/") or "lgbm_" in relative else "research"))
     theme_match = re.search(r'<button\b[^>]*id="(?:theme|themeToggle)"[^>]*>.*?</button>', text, re.S)
-    theme = theme_match.group(0) if theme_match else ""
+    theme = theme_match.group(0) if theme_match else '<button id="themeToggle" type="button" aria-pressed="false">다크모드</button>'
     shared = header(prefix, active, theme)
-    old_header = re.search(r'<header class="(?:app-header|site-header)">.*?</header>', text, re.S)
+    # Replace an existing shared header as well, so preserved pages receive new tabs.
+    old_header = re.search(r'<header (?:id="st-site-header"|class="(?:app-header|site-header)")>.*?</header>', text, re.S)
+    already_shared = 'id="st-site-header"' in text
     local = ""
     if relative == "portfolio/index.html":
         local = '<details class="st-section-nav"><summary>포트폴리오 목차</summary><nav aria-label="포트폴리오 목차"><a href="#account">가상 계좌</a><a href="#readiness">운용 준비</a><a href="#evidence">검증 결과</a><a href="model.html">모델 구조</a></nav></details>'
     elif relative == "investment/index.html":
         local = '<details class="st-section-nav"><summary>후보 선별 목차</summary><nav aria-label="후보 선별 목차"><a href="#comparison">종목 탐색</a><a href="#validation">검증 결과</a><a href="#method">산정 기준</a></nav></details>'
+    if already_shared:
+        local = ""
     if old_header:
         text = text[:old_header.start()] + shared + local + text[old_header.end():]
     else:
@@ -55,6 +60,7 @@ def decorate(text: str, relative: str) -> str:
                 raise ValueError(f"No page body: {relative}")
             text = text[:pos] + shared + text[pos:]
     css = f'<link rel="stylesheet" href="{prefix}site-nav.css?v={VERSION}">'
+    text = re.sub(r'<link\b[^>]*href="[^"]*site-nav\.css[^\"]*"[^>]*>', '', text)
     if "</head>" in text:
         text = text.replace("</head>", css + "</head>", 1)
     else:
@@ -66,10 +72,12 @@ def decorate(text: str, relative: str) -> str:
         text = text.replace("한국과 미국,<br><span>한 화면에서.</span>", "장기 투자 후보를,<br><span>한 곳에서 선별.</span>")
         text = text.replace("통합 매력도부터 실적과 현금흐름까지.<br>숫자를 비교하고, 종목을 눌러 근거를 확인하세요.", "기존 모형으로 먼저 살펴볼 종목을 추립니다.<br>장기 투자 판단은 재무·사업·가격 검토로 이어갑니다.")
         text = text.replace("원화 기준 통합 점수 · 약 3개월 전망", "장기 투자 후보 선별용 · 기존 약 3개월 전망")
-    return text
+    if relative.startswith("portfolio/") and relative != "portfolio/index.html":
+        text = text.replace("<main", '<main data-st-archive="true"', 1) if 'data-st-archive="true"' not in text else text
+    return decorate_theme(text)
 
 def research_page() -> str:
-    return """<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>연구 기록 · ST Research</title><style>body{margin:0;background:#f5f7f9}</style></head><body><main class="st-research-main"><p>ST RESEARCH · RESEARCH ARCHIVE</p><h1>연구 결과와 이전 기록</h1><p>완료된 실험과 설명은 이곳에서 찾습니다. 메인 포트폴리오의 현재 상태와 각 실험의 기간·가정은 구분해서 확인하세요.</p><div class="st-cards">
+    return """<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>연구 기록 · ST Research</title><style>body{margin:0;background:var(--bg,#f5f7f9);color:var(--ink,#193044)}</style></head><body><main class="st-research-main"><p>ST RESEARCH · RESEARCH ARCHIVE</p><h1>연구 결과와 이전 기록</h1><p>완료된 실험과 설명은 이곳에서 찾습니다. 메인 포트폴리오의 현재 상태와 각 실험의 기간·가정은 구분해서 확인하세요.</p><div class="st-cards">
 <article><h2>포트폴리오 모델</h2><p>수익 예측, 비중 결정과 남아 있는 구현 과제를 확인합니다.</p><a href="../portfolio/model.html">모델 구조·검증 현황 →</a></article>
 <article><h2>정수 주수·원화 총자산</h2><p>2025.10–2026.09 · 여섯 계좌의 적립식 성과, 비용과 체결 후 위험.</p><a href="../portfolio/whole-wealth-paper.html">최근 완료 보고서 →</a></article>
 <article><h2>후보 선택 비교</h2><p>같은 점수의 종목을 포함하는 방식에 따른 여덟 조건 비교.</p><a href="../portfolio/candidate-comparison.html">후보 선택 실험 →</a></article>

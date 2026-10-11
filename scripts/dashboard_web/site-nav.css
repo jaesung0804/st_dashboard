@@ -36,3 +36,20 @@ body.dark #st-site-header .st-primary a[aria-current],html[data-theme="dark"] #s
 @media print{#st-site-header,.st-section-nav{display:none}}
 
 main>.intro h1{word-break:keep-all}
+
+html[data-theme="dark"] .st-research-main{color:#e8eef7}
+html[data-theme="dark"] .st-research-main article{background:#182332;border-color:#2d3b4e}
+html[data-theme="dark"] .st-research-main a,html[data-theme="dark"] .st-section-nav a{color:#90b6ff}
+html[data-theme="dark"] .st-section-nav{color:#a4b3c5}
+html[data-theme="dark"] #st-site-header a:hover{background:#22344f}
+#st-site-header button{min-height:44px}
+@media(max-width:480px){#st-site-header .st-primary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px;overflow:visible}#st-site-header .st-primary a{min-height:44px;text-align:center}}
+
+/* Archived document figures retain their original colors and evidence. */
+html[data-theme="dark"] main[data-st-archive]{color:#e8eef7}
+html[data-theme="dark"] main[data-st-archive] :is(section,article,header,.card,.panel,.table-wrap){background:#182332;color:#e8eef7;border-color:#2d3b4e}
+html[data-theme="dark"] main[data-st-archive] :is(h1,h2,h3,p,li,td){color:inherit}
+html[data-theme="dark"] main[data-st-archive] :is(.note,.formula,th,tbody tr:nth-child(odd)){background:#22344f;color:#e8eef7}
+html[data-theme="dark"] main[data-st-archive] :is(a,.lead){color:#90b6ff}
+html[data-theme="dark"] main[data-st-archive] :is(figcaption,.caption,.kicker,footer){color:#a4b3c5}
+html[data-theme="dark"] body:has(main[data-st-archive]){background:#101824;color:#e8eef7}

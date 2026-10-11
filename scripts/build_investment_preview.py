@@ -6,6 +6,7 @@ import copy
 import hashlib
 import json
 from pathlib import Path
+from dashboard_theme import theme_head_script, theme_toggle_script
 
 
 def build(source: Path, destination: Path, presentation=None):
@@ -41,6 +42,7 @@ def build(source: Path, destination: Path, presentation=None):
     display['full_report'] = 'research.json'
     assets = Path(__file__).parent / 'dashboard_web'
     template = (assets / 'investment.html').read_text(encoding='utf-8')
+    template = template.replace('@@THEME_HEAD@@', theme_head_script()).replace('@@THEME_TOGGLE@@', theme_toggle_script())
     for name in ('dashboard.css', 'investment.css', 'investment-metrics.js', 'investment.js'):
         digest = hashlib.sha256((assets / name).read_bytes()).hexdigest()[:12]
         template = template.replace('"' + name + '"', '"' + name + '?v=' + digest + '"')

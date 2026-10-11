@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - scripts/build_pages_deploy.py
+      - scripts/build_paper_library.py
+      - scripts/dashboard_theme.py
+      - docs/papers/**
       - scripts/site_navigation.py
       - scripts/build_price_context.py
       - scripts/export_investment_experiment.py

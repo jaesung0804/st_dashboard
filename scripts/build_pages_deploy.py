@@ -16,6 +16,8 @@ from pathlib import Path
 from urllib.parse import quote
 
 from build_price_context import build_price_context
+from dashboard_theme import theme_head_script, theme_toggle_script
+from build_paper_library import build as build_paper_library
 from build_simulation_pages import build as build_simulation_pages
 from site_navigation import sync as sync_site_navigation
 
@@ -151,30 +153,6 @@ def normalized_row(row: dict, label: str, exchange_map: dict[str, str]) -> dict:
     return out
 
 
-def theme_head_script() -> str:
-    return """<script>
-(function(){try{if(localStorage.getItem('dashboardTheme')==='dark')document.documentElement.dataset.theme='dark';}catch(e){}})();
-</script>"""
-
-
-def theme_toggle_script() -> str:
-    return """<script>
-(function(){
-  const button=document.getElementById('themeToggle');
-  if(!button)return;
-  function apply(theme){
-    const dark=theme==='dark';
-    document.documentElement.dataset.theme=dark?'dark':'';
-    button.textContent=dark?'라이트모드':'다크모드';
-    button.setAttribute('aria-pressed',String(dark));
-    try{localStorage.setItem('dashboardTheme',dark?'dark':'light');}catch(e){}
-  }
-  button.addEventListener('click',()=>apply(document.documentElement.dataset.theme==='dark'?'light':'dark'));
-  apply(document.documentElement.dataset.theme==='dark'?'dark':'light');
-})();
-</script>"""
-
-
 def header_html(market: str = "") -> str:
     assets = Path(__file__).resolve().parent / "dashboard_web"
     html = (assets / "header.html").read_text(encoding="utf-8")
@@ -203,6 +181,7 @@ def investment_entry_html(market: str = "all") -> str:
     template = (Path(__file__).resolve().parent / "dashboard_web" / "entry.html").read_text(encoding="utf-8")
     return (template.replace("@@TARGET_JSON@@", json.dumps(target).replace("<", "\\u003c"))
             .replace("@@TARGET_HTML@@", html_lib.escape(target, quote=True))
+            .replace("@@THEME_HEAD@@", theme_head_script())
             .replace("@@HISTORY@@", "history.html" if market == "all" else "legacy.html"))
 
 
@@ -486,6 +465,7 @@ def main() -> None:
     assets = Path(__file__).resolve().parent / "dashboard_web"
     for filename in ("dashboard.css", "common.js", "home.js"):
         (deploy_dir / filename).write_bytes((assets / filename).read_text(encoding="utf-8").encode("utf-8"))
+    build_paper_library(deploy_dir / "papers")
     from export_investment_experiment import export as export_investment_experiment
     export_investment_experiment(deploy_dir)
     (deploy_dir / ".gitattributes").write_bytes(b"* -text\n")
