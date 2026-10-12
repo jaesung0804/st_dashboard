@@ -1,5 +1,5 @@
 {
-  "schema": "portfolio12-public-summary-v1",
+  "schema": "portfolio12-public-summary-v2",
   "classification": "retrospective_development_reconstruction",
   "status": "ALL_12_COMPLETED_AND_JOURNALS_VALIDATED",
   "evaluated_start": "2023-10-19",
@@ -1605,5 +1605,348 @@
     "common_input_manifest": "5e4a68fffa19b10079c00e4f61b1e3dfb4611fcd7d2e1e5485e461ad0e45c768",
     "common_frozen_predictions": "cc73de5135f61779cdb9999390c66587a588ddfa0f83d6b71289f66d2068082b",
     "calendar_overrides": "fd709463c10f3e00aded6139d3933169259d946a81f2c8b0e2ab6127a4d32a8f"
+  },
+  "B_followup_diagnostic": {
+    "classification": "bounded_read_only_diagnostic_of_completed_run",
+    "research_baseline": "B",
+    "production_model_changed": false,
+    "three_cases_are_initial_states_not_separate_models": true,
+    "new_experiments_run": false,
+    "cost_definition": "Already included in original NAV and returns. USD equity costs converted at retained daily FX; not a broker statement conversion.",
+    "cash_definition": "KRW plus USD cash at retained FX divided by economic NAV; excludes unsettled claims and does not remove FX risk.",
+    "execution_interpretation": "The opening proxy is inspected after planning; orders are submitted only inside the +/-2% retained planning-mark interval and filled entirely at that proxy. Zero partial-fill events is not a partial-fill validation. FX precedes the opening corporate-action cancellation check.",
+    "FX_spread_interpretation": "All logged fee/notional ratios round to 0.005 at 8 decimal places. Pre-open conversion is outside the code-defined discounted window.",
+    "risk_excess_counts": {
+      "total_market_sessions": 455,
+      "within_first_10_relevant_market_sessions": 1,
+      "after_first_10_relevant_market_sessions": 454,
+      "recorded_risk_repair_tier": 454,
+      "P1_uncertified": 1
+    },
+    "P1_uncertified_excess": {
+      "case": "B-mixed",
+      "date": "2026-02-04",
+      "market": "KR",
+      "cursor": 1133,
+      "post_risk": [
+        "cvar"
+      ],
+      "status": "rejected_ledger_continues",
+      "filled_orders": 0,
+      "P2": "not_run",
+      "failure_class": "repair_joint_maximum_net_return candidate failed original master-problem numerical certification",
+      "interpretation": "No certified candidate and no equity fill; ledger and next session continued. Not a successful risk-repair case."
+    },
+    "risk_recovery_interval_definition": "Difference between cumulative relevant-market session numbers: first observed excess to first subsequent assessed compliant session. Excludes the starting session and includes the recovery session. Counts intervening unassessed sessions; excludes calendar holidays and other-market-only sessions. Neither calendar days nor assessed-only session count.",
+    "risk_recovery_limitations": "Assessed compliance uses post-trade quantities at retained planning marks, not actual close-risk certification or continuous compliance. Unassessed sessions never count as compliant. B-mixed longest US interval includes one unassessed session. No full causal decomposition of pre/post orders versus market movement.",
+    "risk_policy_interpretation": "If strict problem is infeasible, risk_repair minimizes residual terminal slack under inherited budgets and permits residual excess. The 10-session count is outcome monitoring, not a deadline argument to native_plan.",
+    "availability_scope": {
+      "sampled_dates": 5,
+      "market_proof_samples": 10,
+      "unassessed_no_forecast": 2,
+      "existing_forecast_rows_checked": 16,
+      "observed_dates_precede_decisions": true,
+      "sampled_fit_and_calibration_label_cutoffs_precede_decisions": true,
+      "sampled_actual_model_completions_after_simulated_decisions": true,
+      "historical_availability_proven": false
+    },
+    "limitations": [
+      "Current roster is not established historical PIT membership.",
+      "Historical source/model publication, corporate entitlement/payment/delivery and actual partial fills remain unverified.",
+      "Journal replay consistency is not execution realism or proof of absence of future information.",
+      "Fixed KR T+2 / US T+1 historical settlement proxy remains unverified across regime changes."
+    ],
+    "cases": [
+      {
+        "case": "B-cash",
+        "initial_state": {
+          "requested_stock_fraction": "0",
+          "actual_stock_fraction": "0E-16",
+          "holdings": {
+            "KR:000150": 0,
+            "KR:000270": 0,
+            "US:AAPL": 0,
+            "US:AMAT": 0
+          },
+          "cash_native": {
+            "KRW": "1000982.5177456",
+            "USD": "739"
+          },
+          "residual_cash_KRW_value": "2000000"
+        },
+        "cash_share": {
+          "daily_mean": "0.6192621432859666335906698081",
+          "minimum": "0.3564639066160731490944471519",
+          "maximum": "1",
+          "final": "0.7668902087091846954521246538"
+        },
+        "drawdown": {
+          "peak_date": "2026-06-01",
+          "trough_date": "2026-09-09",
+          "recovery_date": null
+        },
+        "costs": {
+          "equity_aggregate_native": {
+            "KRW": "578905.135",
+            "USD": "480.37618025"
+          },
+          "equity_aggregate_KRW_dailyFX": "1272289.7212272608177350",
+          "FX_spread_KRW": "3299402.40245291",
+          "total_KRW_dailyFX": "4571692.1236801708177350",
+          "FX_spread_ratio_counts": {
+            "0.005": 1092
+          }
+        },
+        "execution": {
+          "filled_orders": 915,
+          "partial_fill_events": 0,
+          "all_fills_full_quantity": true,
+          "corporate_action_canceled_sessions": 31,
+          "corporate_action_canceled_sessions_with_already_executed_FX": 25,
+          "out_of_range_unsubmitted_asset_events": 226,
+          "FX_events": 1092
+        },
+        "risk_recovery": {
+          "KR": {
+            "excess": 48,
+            "within_initial_10": 0,
+            "after_initial_10": 48,
+            "unassessed": 38,
+            "observed_excess_episodes": 39,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2026-01-16",
+              "first_session": 547,
+              "excess_assessed_sessions": 4,
+              "unassessed_gaps": 0,
+              "last_excess_date": "2026-01-21",
+              "first_next_assessed_compliant_date": "2026-01-22",
+              "elapsed_market_sessions_to_next_compliance": 4
+            }
+          },
+          "US": {
+            "excess": 105,
+            "within_initial_10": 0,
+            "after_initial_10": 105,
+            "unassessed": 31,
+            "observed_excess_episodes": 70,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2025-10-15",
+              "first_session": 499,
+              "excess_assessed_sessions": 6,
+              "unassessed_gaps": 0,
+              "last_excess_date": "2025-10-22",
+              "first_next_assessed_compliant_date": "2025-10-23",
+              "elapsed_market_sessions_to_next_compliance": 6
+            }
+          }
+        },
+        "risk_path_associations": {
+          "KR | risk_repair | unfilled | planned": 39,
+          "KR | risk_repair | no_unfilled | planned": 8,
+          "KR | risk_repair | no_unfilled | rejected": 1,
+          "US | risk_repair | no_unfilled | planned": 84,
+          "US | risk_repair | unfilled | planned": 15,
+          "US | risk_repair | no_unfilled | rejected": 6
+        }
+      },
+      {
+        "case": "B-stock",
+        "initial_state": {
+          "requested_stock_fraction": "1",
+          "actual_stock_fraction": "0.883178620082667483184",
+          "holdings": {
+            "KR:000150": 6,
+            "KR:000270": 5,
+            "US:AAPL": 2,
+            "US:AMAT": 2
+          },
+          "cash_native": {
+            "KRW": "92482.5177456",
+            "USD": "104.42001342"
+          },
+          "residual_cash_KRW_value": "233642.759834665033632"
+        },
+        "cash_share": {
+          "daily_mean": "0.6192395902721644205002457251",
+          "minimum": "0.1169650051809876310815338554",
+          "maximum": "1",
+          "final": "0.7693336212989641115056637240"
+        },
+        "drawdown": {
+          "peak_date": "2026-06-01",
+          "trough_date": "2026-09-09",
+          "recovery_date": null
+        },
+        "costs": {
+          "equity_aggregate_native": {
+            "KRW": "565765.540",
+            "USD": "468.06226271"
+          },
+          "equity_aggregate_KRW_dailyFX": "1240643.4444722228218300",
+          "FX_spread_KRW": "3395210.33762878",
+          "total_KRW_dailyFX": "4635853.7821010028218300",
+          "FX_spread_ratio_counts": {
+            "0.005": 1081
+          }
+        },
+        "execution": {
+          "filled_orders": 895,
+          "partial_fill_events": 0,
+          "all_fills_full_quantity": true,
+          "corporate_action_canceled_sessions": 31,
+          "corporate_action_canceled_sessions_with_already_executed_FX": 25,
+          "out_of_range_unsubmitted_asset_events": 226,
+          "FX_events": 1081
+        },
+        "risk_recovery": {
+          "KR": {
+            "excess": 48,
+            "within_initial_10": 1,
+            "after_initial_10": 47,
+            "unassessed": 38,
+            "observed_excess_episodes": 37,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2026-01-16",
+              "first_session": 547,
+              "excess_assessed_sessions": 5,
+              "unassessed_gaps": 0,
+              "last_excess_date": "2026-01-22",
+              "first_next_assessed_compliant_date": "2026-01-23",
+              "elapsed_market_sessions_to_next_compliance": 5
+            }
+          },
+          "US": {
+            "excess": 99,
+            "within_initial_10": 0,
+            "after_initial_10": 99,
+            "unassessed": 31,
+            "observed_excess_episodes": 72,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2025-10-15",
+              "first_session": 499,
+              "excess_assessed_sessions": 6,
+              "unassessed_gaps": 0,
+              "last_excess_date": "2025-10-22",
+              "first_next_assessed_compliant_date": "2025-10-23",
+              "elapsed_market_sessions_to_next_compliance": 6
+            }
+          }
+        },
+        "risk_path_associations": {
+          "KR | risk_repair | no_unfilled | planned": 8,
+          "KR | risk_repair | unfilled | planned": 39,
+          "KR | risk_repair | no_unfilled | rejected": 1,
+          "US | risk_repair | no_unfilled | planned": 79,
+          "US | risk_repair | unfilled | planned": 14,
+          "US | risk_repair | no_unfilled | rejected": 6
+        }
+      },
+      {
+        "case": "B-mixed",
+        "initial_state": {
+          "requested_stock_fraction": "0.5",
+          "actual_stock_fraction": "0.420614310041333741592",
+          "holdings": {
+            "KR:000150": 3,
+            "KR:000270": 2,
+            "US:AAPL": 1,
+            "US:AMAT": 1
+          },
+          "cash_native": {
+            "KRW": "588682.5177456",
+            "USD": "421.71000671"
+          },
+          "residual_cash_KRW_value": "1158771.379917332516816"
+        },
+        "cash_share": {
+          "daily_mean": "0.6200397285131624931944872447",
+          "minimum": "0.3561741890756798652417025350",
+          "maximum": "1",
+          "final": "0.7697632678541311979120042415"
+        },
+        "drawdown": {
+          "peak_date": "2026-06-01",
+          "trough_date": "2026-09-09",
+          "recovery_date": null
+        },
+        "costs": {
+          "equity_aggregate_native": {
+            "KRW": "582663.245",
+            "USD": "463.36237706"
+          },
+          "equity_aggregate_KRW_dailyFX": "1250399.1587716060346674",
+          "FX_spread_KRW": "3409804.73637250",
+          "total_KRW_dailyFX": "4660203.8951441060346674",
+          "FX_spread_ratio_counts": {
+            "0.005": 1087
+          }
+        },
+        "execution": {
+          "filled_orders": 912,
+          "partial_fill_events": 0,
+          "all_fills_full_quantity": true,
+          "corporate_action_canceled_sessions": 31,
+          "corporate_action_canceled_sessions_with_already_executed_FX": 25,
+          "out_of_range_unsubmitted_asset_events": 228,
+          "FX_events": 1087
+        },
+        "risk_recovery": {
+          "KR": {
+            "excess": 53,
+            "within_initial_10": 0,
+            "after_initial_10": 53,
+            "unassessed": 38,
+            "observed_excess_episodes": 42,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2026-01-16",
+              "first_session": 547,
+              "excess_assessed_sessions": 5,
+              "unassessed_gaps": 0,
+              "last_excess_date": "2026-01-22",
+              "first_next_assessed_compliant_date": "2026-01-23",
+              "elapsed_market_sessions_to_next_compliance": 5
+            }
+          },
+          "US": {
+            "excess": 102,
+            "within_initial_10": 0,
+            "after_initial_10": 102,
+            "unassessed": 31,
+            "observed_excess_episodes": 69,
+            "open_observed_episodes_at_end": 0,
+            "longest_observed_recovery": {
+              "first_date": "2026-01-13",
+              "first_session": 560,
+              "excess_assessed_sessions": 5,
+              "unassessed_gaps": 1,
+              "last_excess_date": "2026-01-21",
+              "first_next_assessed_compliant_date": "2026-01-22",
+              "elapsed_market_sessions_to_next_compliance": 6
+            }
+          }
+        },
+        "risk_path_associations": {
+          "KR | risk_repair | unfilled | planned": 43,
+          "KR | risk_repair | no_unfilled | rejected": 2,
+          "KR | risk_repair | no_unfilled | planned": 7,
+          "KR | unresolved | no_unfilled | rejected": 1,
+          "US | risk_repair | no_unfilled | planned": 85,
+          "US | risk_repair | unfilled | planned": 12,
+          "US | risk_repair | no_unfilled | rejected": 5
+        }
+      }
+    ],
+    "logical_evidence_sha256": {
+      "manifest.json": "d46e662a77e45c14bbafe8da86e96f34022eba743058b03be974dbc8702ddbca",
+      "B-details.json": "2185ff2f499cc6efabc0e50d91eec980cbc97e56ecb9cd56494e1838804a26db",
+      "sample-checks.json": "880aeb373cbf3d1c7b9eac475e3d154f8ab0117df2ad406df83a711f452e4b26",
+      "risk-samples.json": "85109ba2f444e5e584b78d976cf90f3fad37d6b448fc45e2fc4af3c2b4795685",
+      "analysis-evidence.json": "5e03c84aea0b660ff00e29bc78292e8d9b42a735a4497ced06414a1b22d9bd82"
+    }
   }
 }
