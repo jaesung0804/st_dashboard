@@ -1,5 +1,5 @@
 {
-  "schema": "portfolio12-public-summary-v2",
+  "schema": "portfolio12-public-summary-v3",
   "classification": "retrospective_development_reconstruction",
   "status": "ALL_12_COMPLETED_AND_JOURNALS_VALIDATED",
   "evaluated_start": "2023-10-19",
@@ -200,7 +200,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -334,7 +334,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -465,7 +465,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -597,7 +597,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.00010000009957105392,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 10,
         "exact_concession_cap_exceedances": 36,
         "max_raw_concession_excess": 9.957105391665121e-11,
@@ -734,7 +734,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.00010000009693084729,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 10,
         "exact_concession_cap_exceedances": 35,
         "max_raw_concession_excess": 9.693084728693967e-11,
@@ -874,7 +874,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.00010000009791429564,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 8,
         "exact_concession_cap_exceedances": 34,
         "max_raw_concession_excess": 9.791429563573827e-11,
@@ -986,7 +986,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -1098,7 +1098,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -1210,7 +1210,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": null,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 0,
         "exact_concession_cap_exceedances": 0,
         "max_raw_concession_excess": 0,
@@ -1329,7 +1329,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.00010000009510725306,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 4,
         "exact_concession_cap_exceedances": 10,
         "max_raw_concession_excess": 9.510725305992684e-11,
@@ -1448,7 +1448,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.00010000008592809053,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 3,
         "exact_concession_cap_exceedances": 12,
         "max_raw_concession_excess": 8.592809053002953e-11,
@@ -1567,7 +1567,7 @@
         "return_preservation_failures": 0,
         "max_observed_concession": 0.0001000000602470047,
         "allowed_concession": 0.0001,
-        "unchanged_original_certification_tolerance": 1e-08,
+        "unchanged_original_certification_tolerance": 1e-8,
         "certified_P1_fallback": 8,
         "exact_concession_cap_exceedances": 6,
         "max_raw_concession_excess": 6.024700469140897e-11,
@@ -1608,7 +1608,7 @@
   },
   "B_followup_diagnostic": {
     "classification": "bounded_read_only_diagnostic_of_completed_run",
-    "research_baseline": "B",
+    "research_baseline": "B within the fixed four-stock experiment only",
     "production_model_changed": false,
     "three_cases_are_initial_states_not_separate_models": true,
     "new_experiments_run": false,
@@ -1948,5 +1948,127 @@
       "risk-samples.json": "85109ba2f444e5e584b78d976cf90f3fad37d6b448fc45e2fc4af3c2b4795685",
       "analysis-evidence.json": "5e03c84aea0b660ff00e29bc78292e8d9b42a735a4497ced06414a1b22d9bd82"
     }
+  },
+  "universe_scope_audit": {
+    "classification": "read_only_scope_audit_of_completed_original_12_paths",
+    "underlying_training_forecast_names": 128,
+    "frozen_prediction_rows": 88436,
+    "optimization_input_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "submitted_order_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "initial_stock_basket_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "completed_paths_checked": 12,
+    "all_12_planning_and_submitted_order_asset_sets_equal_configured_four": true,
+    "original_default_candidate_rule": "Top 20 forecast candidates per market plus all held or required axes; this is not a four-stock rule in the base allocator.",
+    "experiment_override": "LocalInputs filters forecasts and features to cfg.assets before candidate selection; cfg.assets also supplies required_assets and the initialization basket. Cash starts have zero holdings but the same four-axis candidate restriction.",
+    "provenance": [
+      {
+        "stage": "v27_small_integration_protocol",
+        "source": "v27/protocol.json",
+        "lines": [
+          71,
+          72,
+          76,
+          97
+        ],
+        "recorded_reconstructed_at": "2026-10-12T06:01:50.834040+00:00",
+        "timestamp_is_exact_edit_or_approval_time": false,
+        "selection": "First two US forecast/feature-covered names and first two KR names at inception for a five-US-session integration check; US tradable, KR fixed exposure axes; outcome-blind selection stated in the protocol."
+      },
+      {
+        "stage": "v27_input_filter",
+        "source": "v27/run.py",
+        "lines": [
+          60,
+          65,
+          66,
+          116
+        ],
+        "effect": "Same four identifiers define retained forecasts/features and required risk axes before any optimization."
+      },
+      {
+        "stage": "long_experiment_configuration",
+        "source": "long_runtime.py",
+        "lines": [
+          36,
+          170,
+          175,
+          176,
+          217
+        ],
+        "effect": "The same cfg.assets list defines the initial basket and all later optimization input. The v2, v3 and executed v4 configurations retain the same four stocks; eligible KR and US assets can trade on their respective sessions."
+      },
+      {
+        "stage": "before_full_execution_documentation",
+        "source": "final-report-v3.md",
+        "lines": [
+          13,
+          44
+        ],
+        "effect": "Preparation report already distinguishes pooled 128-name learning from fixed four-name trading and retains the four-stock basket."
+      }
+    ],
+    "intent_boundary": "The small v27 scope restriction is explicitly documented. Retained long-run code/configuration demonstrate reuse of that restriction for initialization and later candidates. These artifacts alone do not establish a separate human decision or approval to limit long-run evaluation to four stocks, nor the exact first edit time.",
+    "interpretation": "These results compare policies within a fixed four-stock execution universe. They do not validate B as a whole-market default model, selection across all 128 forecast names, or universe expansion.",
+    "logical_evidence_sha256": {
+      "v27_protocol": "412c68597146a8cafc1da6f3c9e219ee9395189e920136b0806b0f8c9dbdd393",
+      "v27_initial_preflight_protocol": "0a7f286a8394faf1218f539dabf6158279cba35ab19cdcd56872332bb8a037a7",
+      "v27_runtime": "24d548c330793de0b2d8f8aecc9a5e2dd6c63e1464dcea13ebdd6f9a9c8f42e4",
+      "long_config_v2": "c1a81dc59a762d5badd538f896556319acf2e21a203b664dbf3e67daa929de56",
+      "long_config_v3": "65859e9e08fcbe77b54668b694e9e1cef65eca33bf91f77b57ab6c2cbb9fc1a2",
+      "long_config_v4": "2919fc77023f10b1bae02f918bf813d95591a3bc6c94f672ca5e57bfc406fcde",
+      "long_runtime": "cb060146c778ffd82f1de8d0226f28ef2674eb0d358e007503851614cdb817a7",
+      "preparation_report_v3": "67a33b185395e350bfa910314b67fc4ff7e537a1360f215c8eeba1ca118ab154",
+      "original_allocator": "fdc35f3242d387d8ac428e16b051ffc2343c0b9033656b6c173ee7cb0767820c",
+      "original_12_universe_and_pre_fx_audit": "a8c204b18f14853622c1d153bc12718484229b824f4430960da28476cb2b915d"
+    },
+    "B_superiority_and_default_selection_decision": "Deferred until full-candidate revalidation is complete; preserve observed four-stock metrics as historical audit evidence.",
+    "full_candidate_incomplete_results_included": false
+  },
+  "E1_pre_fx_preventability_audit": {
+    "classification": "read_only_cancellation_timing_audit_of_original_B_logs_not_variant_performance",
+    "rule": "Only cancellation or order-invalidity information demonstrably available at the original FX timestamp may be used.",
+    "cases": [
+      {
+        "case": "B-cash",
+        "opening_action_cancelled_sessions": 31,
+        "prior_FX_then_equity_cancellation": 25,
+        "verified_preventable_at_original_FX_time": 0,
+        "historical_notice_availability_unverified": 25
+      },
+      {
+        "case": "B-stock",
+        "opening_action_cancelled_sessions": 31,
+        "prior_FX_then_equity_cancellation": 25,
+        "verified_preventable_at_original_FX_time": 0,
+        "historical_notice_availability_unverified": 25
+      },
+      {
+        "case": "B-mixed",
+        "opening_action_cancelled_sessions": 31,
+        "prior_FX_then_equity_cancellation": 25,
+        "verified_preventable_at_original_FX_time": 0,
+        "historical_notice_availability_unverified": 25
+      }
+    ],
+    "reason": "The relevant action becomes visible at the simulated open, after the FX timestamp; actual archive availability is late and no verified historical pre-FX notice/publication time is present.",
+    "limitation": "Zero is the number proven preventable from retained contemporaneous evidence, not proof that advance information never existed. A future corporate-action event or late archive timestamp must not be relabeled as known before FX.",
+    "no_improvement_claim": true,
+    "no_variant_results_published": true,
+    "logical_evidence_sha256": "a8c204b18f14853622c1d153bc12718484229b824f4430960da28476cb2b915d"
   }
 }

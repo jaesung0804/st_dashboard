@@ -1,5 +1,5 @@
 {
-  "schema": "portfolio12-public-reproduction-settings-v1",
+  "schema": "portfolio12-public-reproduction-settings-v2",
   "purpose": "Document completed synthetic experiment; settings alone are not a runnable or independently reproducible archive. Private inputs, models, ledgers and original runtime remain excluded.",
   "classification": "retrospective_development_reconstruction",
   "evaluated_period": {
@@ -154,7 +154,7 @@
   },
   "AB_policy_limits": {
     "company": 0.3,
-    "equity": 1.0,
+    "equity": 1,
     "country": null,
     "currency": null,
     "std_5_period": 0.035,
@@ -185,7 +185,7 @@
     "candidate_after_FX": "same joint candidate, no second concession",
     "fallback": "certified same-domain P1, separate timeout/failed status",
     "global_market_optimum": false,
-    "unchanged_certification_tolerance": 1e-08,
+    "unchanged_certification_tolerance": 1e-8,
     "strict_real_number_inequality_guaranteed": false
   },
   "integer_domain": {
@@ -211,7 +211,7 @@
     "kr_commission": 0.00015,
     "kr_sell_tax": 0.002,
     "us_commission": 0.001,
-    "us_sec_sell": 2.06e-05,
+    "us_sec_sell": 0.0000206,
     "fx_daytime_spread": 0.0005,
     "fx_outside_spread": 0.005,
     "slippage_each_way": 0.0005,
@@ -266,5 +266,28 @@
     "common_input_manifest": "5e4a68fffa19b10079c00e4f61b1e3dfb4611fcd7d2e1e5485e461ad0e45c768",
     "common_frozen_predictions": "cc73de5135f61779cdb9999390c66587a588ddfa0f83d6b71289f66d2068082b",
     "calendar_overrides": "fd709463c10f3e00aded6139d3933169259d946a81f2c8b0e2ab6127a4d32a8f"
+  },
+  "universe_scope": {
+    "underlying_training_forecast_names": 128,
+    "optimization_and_order_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "initial_stock_basket_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "assets_is_not_initial_holdings_only": true,
+    "pre_candidate_filter": "Both forecasts and features are filtered to assets before allocation_inputs; required_assets uses the same list.",
+    "base_candidate_rule_before_override": "20 forecast candidates per market plus holdings/required assets.",
+    "scope_origin": "Documented v27 small integration roster carried into long-run v2/v3/v4; separate long-run scope approval not established by the retained artifacts alone.",
+    "whole_market_default_model_validated": false,
+    "full_128_candidate_selection_validated": false,
+    "B_superiority_and_default_selection_decision": "Deferred until full-candidate revalidation is complete.",
+    "full_candidate_incomplete_results_included": false
   }
 }
