@@ -103,7 +103,11 @@ def test_presentation_contains_only_metrics_and_preserves_frozen_model_and_opini
         'scenarios': {'0': {'score': 50}}, 'opinion': {'status': 'withheld'}, 'financials': None}]}
     before = copy.deepcopy(original)
     summary = {'companies': {'AAPL': financial_metrics({'statements': [statement()]}, '2026-10-09')},
-        'generated_at': '2026-10-09', 'collection': {'attempted': 1, 'saved': 1, 'failed': 0, 'mode': 'bootstrap'}}
+        'generated_at': '2026-10-09T00:00:00+00:00', 'schema': 1, 'market': 'us', 'storage': 'oracle',
+        'presentation_only': True, 'source_snapshot': 'fixture-source', 'record_versions': {},
+        'collection': {'attempted': 1, 'saved': 1, 'failed': 0, 'failures': [], 'mode': 'bootstrap'}}
+    from export_financial_metrics import publication_batch, publication_evidence
+    summary['publication'] = publication_evidence(summary, 'public', publication_batch({'us': summary}, ['us']))
     out = overlay(original, {'snapshot_id': 'a', 'markets': {'us': summary}}, '2026-10-09')
     assert original == before
     row = out['rows'][0]
@@ -316,3 +320,222 @@ def test_retained_enrichment_is_non_destructive_and_preserves_observation(tmp_pa
     assert merged['source_sha256'] == 'original' and merged['period_end'] is None
     changed=copy.deepcopy(old); changed['values']['total_assets']=300
     assert enrich_retained({'statements':[changed]},[path]) == [changed]
+
+
+def collection_summary(saved=564, failed=36, market='us'):
+    return {'schema': 1, 'market': market, 'storage': 'oracle',
+            'presentation_only': True, 'generated_at': '2026-10-09T00:00:00+00:00',
+            'source_snapshot': 'fixture-source', 'record_versions': {},
+            'companies': {'RETAINED': {'latest': {'period_end': '2025-12-31'}}},
+            'collection': {'attempted': saved + failed, 'saved': saved, 'failed': failed,
+                           'failures': [{'ticker': str(i)} for i in range(failed)], 'mode': 'refresh'}}
+
+
+class SnapshotFixture:
+    def __init__(self, conflict=None):
+        self.calls, self.snapshots = [], {}
+        self.conflict = conflict
+
+    def push(self, name, root, paths):
+        self.calls.append(name)
+        if name == self.conflict:
+            raise BackendError(409, 'changed fixture head')
+        self.snapshots[name] = {p: json.loads((root / p).read_text()) for p in paths}
+        return {'snapshot_id': name + '-fixture'}
+
+
+@pytest.mark.parametrize('saved,failed,eligible', [(523, 77, False), (564, 36, True),
+    (30, 3, True), (30, 4, False), (0, 0, False), (0, 3, False)])
+def test_quality_is_decided_before_public_head_promotion(tmp_path, saved, failed, eligible):
+    import financial_database as db
+    public, checkpoints = tmp_path / 'public', tmp_path / 'checkpoints'
+    public.mkdir(); checkpoints.mkdir()
+    summary = collection_summary(saved, failed)
+    (public / 'us.json').write_text(json.dumps(summary))
+    client = SnapshotFixture()
+    if eligible:
+        db.publish_summaries(client, public, checkpoints, ['us'])
+        assert client.calls == [db.CHECKPOINT, db.SNAPSHOT]
+        assert client.snapshots[db.SNAPSHOT]['us.json']['publication']['role'] == 'public'
+    else:
+        with pytest.raises(ValueError, match='checkpoint retained'):
+            db.publish_summaries(client, public, checkpoints, ['us'])
+        assert client.calls == [db.CHECKPOINT]
+        assert json.loads((public / 'us.json').read_text()) == summary
+    retained = client.snapshots[db.CHECKPOINT]['us.json']
+    assert retained['companies'] == summary['companies']
+    assert retained['publication']['role'] == 'checkpoint'
+    assert retained['publication']['quality']['eligible'] is eligible
+
+
+def test_one_failed_market_blocks_entire_public_bundle(tmp_path):
+    import financial_database as db
+    public, checkpoints = tmp_path / 'public', tmp_path / 'checkpoints'
+    public.mkdir(); checkpoints.mkdir()
+    for market, saved, failed in [('kr', 523, 77), ('us', 564, 36)]:
+        (public / (market + '.json')).write_text(json.dumps(collection_summary(saved, failed, market)))
+    client = SnapshotFixture()
+    with pytest.raises(ValueError):
+        db.publish_summaries(client, public, checkpoints, ['kr', 'us'])
+    assert client.calls == [db.CHECKPOINT]
+    assert len(client.snapshots[db.CHECKPOINT]) == 2
+
+
+@pytest.mark.parametrize('kind', ['public', 'checkpoint', 'failed_forged', 'legacy', 'missing_counts', 'wrong_policy'])
+def test_loader_independently_blocks_checkpoint_failed_and_unverified_summaries(tmp_path, kind):
+    from export_financial_metrics import load_metrics, publication_evidence, publication_batch
+    summary = collection_summary()
+    summary['publication'] = publication_evidence(summary, 'checkpoint' if kind == 'checkpoint' else 'public',
+                                                publication_batch({'us': summary}, ['us']))
+    if kind == 'failed_forged':
+        summary['collection'] = collection_summary(523, 77)['collection']
+    elif kind == 'legacy':
+        del summary['publication']
+    elif kind == 'missing_counts':
+        del summary['collection']['failed']
+    elif kind == 'wrong_policy':
+        summary['publication']['quality']['policy'] = 'unknown-policy'
+    raw = json.dumps(summary).encode()
+    class Client:
+        def json(self, method, path):
+            return {'snapshot_id': 'fixture'}
+        def snapshot_entries(self, head):
+            return [{'relative_path': 'us.json', 'sha256': 'fixture', 'byte_size': len(raw)}]
+        def download(self, sha, path, size):
+            path.write_bytes(raw)
+    if kind == 'public':
+        assert load_metrics(Client(), tmp_path)['markets']['us'] == summary
+    else:
+        with pytest.raises(ValueError):
+            load_metrics(Client(), tmp_path)
+
+
+def test_unselected_legacy_market_cannot_be_inherited_into_public_head(tmp_path):
+    import financial_database as db
+    public, checkpoints = tmp_path / 'public', tmp_path / 'checkpoints'
+    public.mkdir(); checkpoints.mkdir()
+    for market in ('kr', 'us'):
+        (public / (market + '.json')).write_text(json.dumps(collection_summary(10, 0, market)))
+    client = SnapshotFixture()
+    with pytest.raises(ValueError, match='not verified'):
+        db.publish_summaries(client, public, checkpoints, ['us'])
+    assert client.calls == [db.CHECKPOINT]
+
+
+@pytest.mark.parametrize('head', ['financial-metrics-checkpoint', 'financial-metrics-current'])
+def test_snapshot_conflict_is_not_retried_or_bypassed(tmp_path, head):
+    import financial_database as db
+    public, checkpoints = tmp_path / 'public', tmp_path / 'checkpoints'
+    public.mkdir(); checkpoints.mkdir()
+    (public / 'us.json').write_text(json.dumps(collection_summary()))
+    client = SnapshotFixture(conflict=head)
+    with pytest.raises(BackendError) as error:
+        db.publish_summaries(client, public, checkpoints, ['us'])
+    assert error.value.status == 409
+    assert client.calls == ([db.CHECKPOINT] if head == db.CHECKPOINT else [db.CHECKPOINT, db.SNAPSHOT])
+    assert db.SNAPSHOT not in client.snapshots
+
+
+@pytest.mark.parametrize('month,reason', [(None, 'missing_or_invalid_fiscal_month'),
+    ('', 'missing_or_invalid_fiscal_month'), ('00', 'missing_or_invalid_fiscal_month'),
+    ('bad', 'missing_or_invalid_fiscal_month'), ('03', 'unsupported_fiscal_month')])
+def test_fiscal_month_failures_are_distinct_and_never_request_statements(monkeypatch, month, reason):
+    import financial_database as db
+    from ai_stock_assistant.data import opendart
+    class Response:
+        def raise_for_status(self): pass
+        def json(self): return {'status': '000', 'acc_mt': month}
+    monkeypatch.setattr(opendart, 'get_api_key', lambda: 'fixture-only')
+    monkeypatch.setattr(db.requests, 'get', lambda *a, **kw: Response())
+    monkeypatch.setattr(opendart, 'fetch_financial_statement_with_fallback',
+                        lambda *a, **kw: pytest.fail('Unsupported calendar must not fetch statements'))
+    with pytest.raises(db.CollectionFailure) as error:
+        db.fetch_kr('FIXTURE', '00000001', None, '2026-10-09')
+    assert db.error_diagnostic(error.value)['reason_code'] == reason
+
+
+@pytest.mark.parametrize('code', [None, '', '  '])
+def test_missing_corporate_code_never_reads_credentials_or_calls_provider(monkeypatch, code):
+    import financial_database as db
+    from ai_stock_assistant.data import opendart
+    monkeypatch.setattr(opendart, 'get_api_key', lambda: pytest.fail('No credential read for missing code'))
+    with pytest.raises(db.CollectionFailure) as error:
+        db.fetch_kr('UNKNOWN', code, None, '2026-10-09')
+    assert error.value.reason_code == 'missing_corporate_code'
+
+
+def test_empty_us_response_is_not_reclassified_as_success(monkeypatch):
+    import pandas as pd
+    import financial_database as db
+    from ai_stock_assistant.data import us
+    calls = []
+    def fetch(**kwargs):
+        calls.append(kwargs['frequency'])
+        return pd.DataFrame(), pd.DataFrame()
+    monkeypatch.setattr(us, 'fetch_us_financials_for_ticker', fetch)
+    with pytest.raises(db.CollectionFailure) as error:
+        db.fetch_us('EMPTY', 'Fixture', '2026-10-09')
+    assert error.value.reason_code == 'empty_provider_response'
+    assert calls == ['annual', 'quarterly']
+
+
+def test_attempt_success_failure_and_unscheduled_retry_clocks_remain_separate():
+    import financial_database as db
+    summary = {'companies': {'X': {'retained': 123}}, 'collection_checks': {'X': '2026-10-01'}}
+    before = copy.deepcopy(summary['companies'])
+    failure = {'reason_code': 'empty_provider_response'}
+    db.record_collection_check(summary, 'X', '2026-10-02T00:00:00+00:00', failure)
+    status = summary['collection_status']['X']
+    assert status['last_success_at'] is None  # A legacy attempt clock is not success evidence.
+    restored = {'companies': copy.deepcopy(before)}
+    db.restore_collection_checks(restored, summary)
+    db.record_collection_check(restored, 'X', '2026-10-03T00:00:00+00:00')
+    db.record_collection_check(restored, 'X', '2026-10-04T00:00:00+00:00', failure)
+    status = restored['collection_status']['X']
+    assert status['last_success_at'] == '2026-10-03T00:00:00+00:00'
+    assert status['last_failure_at'] == status['last_attempt_at'] == '2026-10-04T00:00:00+00:00'
+    assert status['next_retry_at'] is None
+    assert restored['companies'] == before
+    db.restore_collection_checks(restored, summary)
+    assert restored['collection_status']['X'] == status  # An older checkpoint cannot move clocks backwards.
+
+
+def test_all_failed_refresh_still_saves_checkpoint_and_keeps_old_values(tmp_path, monkeypatch):
+    from argparse import Namespace
+    import financial_database as db
+    from export_financial_metrics import publication_evidence, publication_batch
+    summary = collection_summary(1, 0)
+    summary['collection_status'] = {'RETAINED': {'last_attempt_at': '2026-10-01T00:00:00+00:00',
+        'last_success_at': '2026-10-01T00:00:00+00:00', 'last_failure_at': None, 'next_retry_at': None}}
+    summary['publication'] = publication_evidence(summary, 'public', publication_batch({'us': summary}, ['us']))
+    class Client(SnapshotFixture):
+        def json(self, method, path, body=None):
+            assert method == 'GET', 'Failed providers must not write company records'
+            if path == '/ready': return {'database': 'oracle'}
+            if path == '/snapshot-heads/' + db.SNAPSHOT: return {'snapshot_id': 'old-public'}
+            if path == '/snapshot-heads/' + db.CHECKPOINT: return {'snapshot_id': None}
+            pytest.fail('Unexpected backend request')
+        def pull(self, name, root):
+            assert name == db.SNAPSHOT
+            (root / 'us.json').write_text(json.dumps(summary))
+    client = Client()
+    def restore(client, root, markets, bootstrap, repair):
+        path = root / db.LISTINGS['us']
+        path.parent.mkdir(parents=True)
+        path.write_text('ticker,name\nRETAINED,Fixture\n')
+        return root, {'snapshot_id': 'fixture-source'}
+    def failed(*args): raise db.CollectionFailure('empty_provider_response')
+    monkeypatch.setenv('RESEARCH_STORAGE', 'backend')
+    monkeypatch.setattr(db, 'Client', lambda **kwargs: client)
+    monkeypatch.setattr(db, 'restore_inputs', restore)
+    monkeypatch.setattr(db, 'source_index', lambda _: {})
+    monkeypatch.setattr(db, 'fetch_us', failed)
+    monkeypatch.setattr(db, 'utc_now', lambda: '2026-10-09T00:00:00+00:00')
+    with pytest.raises(ValueError, match='checkpoint retained'):
+        db.run(Namespace(command='refresh', market='us', limit=1, tickers=None, workers=1), client)
+    assert client.calls == [db.CHECKPOINT]
+    checkpoint = client.snapshots[db.CHECKPOINT]['us.json']
+    assert checkpoint['companies'] == summary['companies']
+    assert checkpoint['collection']['saved'] == 0 and checkpoint['collection']['failed'] == 1
+    assert checkpoint['collection']['failures'][0]['reason_code'] == 'empty_provider_response'
+    assert checkpoint['collection_status']['RETAINED']['last_success_at'] == '2026-10-01T00:00:00+00:00'

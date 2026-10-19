@@ -26,9 +26,12 @@ from ai_stock_assistant.data.financial_store import (canonical, financial_metric
     merge_statements, normalized_statement, number, payload_hash, statement_id, FIELDS, FLOW_FIELDS)
 from research_backend_client import Client, BackendError
 from unpack_dashboard_state import restore_state
+from export_financial_metrics import (publication_batch, publication_evidence,
+    require_public_summary, require_public_bundle)
 
 PREFIX = 'financial-statements-v1/'
 SNAPSHOT = 'financial-metrics-current'
+CHECKPOINT = 'financial-metrics-checkpoint'
 LISTINGS = {'kr': 'data/raw/krx_listings_kospi_kosdaq_state.csv',
             'us': 'data/raw/us_listings_nasdaq_nyse_yfinfo_state.csv'}
 SUMMARY_FILES = {'kr': 'kr.json', 'us': 'us.json'}
@@ -38,6 +41,13 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat(timespec='seconds')
 
 
+class CollectionFailure(ValueError):
+    """Safe categorical diagnostic; never carries a provider response or URL."""
+    def __init__(self, reason_code):
+        super().__init__(reason_code)
+        self.reason_code = reason_code
+
+
 def error_diagnostic(error):
     # Exception text can contain authenticated provider URLs. Expose code
     # locations, not messages or traceback source lines, for safe diagnosis.
@@ -45,6 +55,8 @@ def error_diagnostic(error):
     last = frames[-1] if frames else None
     operation = next((f for f in reversed(frames) if Path(f.filename).name == 'financial_database.py'), None)
     return {'error_type': type(error).__name__,
+            'reason_code': error.reason_code if isinstance(error, CollectionFailure) else
+                           ('backend_conflict' if isinstance(error, BackendError) and error.status == 409 else 'unclassified_error'),
             'error_location': f'{Path(last.filename).name}:{last.name}:{last.lineno}' if last else None,
             'operation': f'{operation.name}:{operation.lineno}' if operation else None}
 
@@ -267,6 +279,8 @@ def import_rows(restored, market, observed_at, provenance):
 
 
 def fetch_kr(ticker, code, previous, observed_at):
+    if not isinstance(code, str) or not code.strip():
+        raise CollectionFailure('missing_corporate_code')
     from ai_stock_assistant.data.opendart import (get_api_key,
         fetch_financial_statement_with_fallback)
     key = get_api_key()
@@ -276,9 +290,12 @@ def fetch_kr(ticker, code, previous, observed_at):
     profile = response.json()
     if profile.get('status') != '000':
         raise ValueError('DART profile unavailable')
-    month = str(profile.get('acc_mt', '')).zfill(2)
+    value = profile.get('acc_mt')
+    month = str(value).strip().zfill(2) if value is not None else ''
+    if month not in {f'{n:02}' for n in range(1, 13)}:
+        raise CollectionFailure('missing_or_invalid_fiscal_month')
     if month != '12':
-        raise ValueError('Non-December fiscal calendar requires a verified period adapter')
+        raise CollectionFailure('unsupported_fiscal_month')
     now = datetime.fromisoformat(observed_at)
     # Two annual periods and same-quarter comparatives make growth and annual
     # average-asset ratios verifiable even when legacy fiscal dates are unknown.
@@ -312,13 +329,64 @@ def fetch_us(ticker, name, observed_at):
         rows.extend(us_raw_statements(raw, frequency, observed_at, sha))
         time.sleep(.3)
     if not rows:
-        raise ValueError('Provider returned no financial statements')
+        raise CollectionFailure('empty_provider_response')
     return rows, {}
 
 
 def update_metrics(summary, ticker, payload, receipt, asof):
     summary.setdefault('companies', {})[ticker] = financial_metrics(payload, asof)
     summary.setdefault('record_versions', {})[ticker] = receipt
+
+
+def record_collection_check(summary, ticker, observed_at, failure=None):
+    status = summary.setdefault('collection_status', {}).setdefault(ticker, {
+        'last_success_at': None, 'last_failure_at': None})
+    status.update(last_attempt_at=observed_at, next_retry_at=None,
+                  reason_code=failure['reason_code'] if failure else None)
+    status['last_failure_at' if failure else 'last_success_at'] = observed_at
+    # Compatibility: this clock has always meant attempt time, never success.
+    summary.setdefault('collection_checks', {})[ticker] = observed_at
+
+
+def restore_collection_checks(summary, checkpoint):
+    """Resume attempt clocks only; failed-checkpoint metrics never become public implicitly."""
+    for ticker, status in checkpoint.get('collection_status', {}).items():
+        previous = summary.setdefault('collection_status', {}).get(ticker)
+        if previous is None or datetime.fromisoformat(status['last_attempt_at']) > datetime.fromisoformat(previous['last_attempt_at']):
+            summary['collection_status'][ticker] = dict(status)
+            summary.setdefault('collection_checks', {})[ticker] = status['last_attempt_at']
+
+
+def publish_summaries(client, summaries, checkpoints, markets):
+    """Save diagnostics first, then promote only an entirely eligible public bundle."""
+    selected = {}
+    for market in markets:
+        summary = json.loads((summaries / SUMMARY_FILES[market]).read_text(encoding='utf-8'))
+        selected[market] = summary
+    batch = publication_batch(selected, markets)
+    for market, summary in selected.items():
+        checkpoint = {**summary, 'publication': publication_evidence(summary, 'checkpoint', batch)}
+        (checkpoints / SUMMARY_FILES[market]).write_bytes(canonical(checkpoint))
+    retained = client.push(CHECKPOINT, checkpoints, [SUMMARY_FILES[m] for m in markets])
+    print(json.dumps({'checkpoint_snapshot': retained['snapshot_id'],
+                      'quality': {m: member['quality'] for m, member in batch['markets'].items()}}), flush=True)
+    if not batch['eligible']:
+        raise ValueError('Financial collection failed quality; checkpoint retained, public head unchanged')
+    # push retains unselected entries. They must not smuggle a failed or legacy
+    # unverified market into a new public head during a single-market refresh.
+    bundle = dict(selected)
+    for market, name in SUMMARY_FILES.items():
+        path = summaries / name
+        if path.exists() and market not in selected:
+            bundle[market] = json.loads(path.read_text(encoding='utf-8'))
+            require_public_summary(bundle[market], market)
+    public_batch = publication_batch(bundle, markets)
+    for summary in bundle.values():
+        summary['publication'] = publication_evidence(summary, 'public', public_batch)
+    require_public_bundle(bundle)
+    for market, summary in bundle.items():
+        (summaries / SUMMARY_FILES[market]).write_bytes(canonical(summary))
+    return client.push(SNAPSHOT, summaries, [SUMMARY_FILES[m] for m in sorted(bundle)])
 
 
 def run(args, client=None):
@@ -334,11 +402,15 @@ def run(args, client=None):
         root = Path(temporary)
         summaries = root / 'summaries'
         summaries.mkdir()
+        checkpoints = root / 'checkpoints'
+        checkpoints.mkdir()
         head = client.json('GET', '/snapshot-heads/' + SNAPSHOT)['snapshot_id']
         if head:
             client.pull(SNAPSHOT, summaries)
         elif args.command != 'bootstrap':
             raise ValueError('Bootstrap the retained statements before enabling scheduled refresh')
+        if client.json('GET', '/snapshot-heads/' + CHECKPOINT)['snapshot_id']:
+            client.pull(CHECKPOINT, checkpoints)
         restored, provenance = restore_inputs(client, root, markets, args.command == 'bootstrap', args.command == 'repair')
         index = source_index(client)
         retained = {}
@@ -349,6 +421,10 @@ def run(args, client=None):
         for market in markets:
             target = summaries / SUMMARY_FILES[market]
             summary = json.loads(target.read_text()) if target.exists() else {'schema': 1, 'market': market, 'companies': {}}
+            summary.setdefault('record_versions', {})  # Also retain an all-failed first attempt as a checkpoint.
+            checkpoint = checkpoints / SUMMARY_FILES[market]
+            if checkpoint.exists():
+                restore_collection_checks(summary, json.loads(checkpoint.read_text(encoding='utf-8')))
             listing = pd.read_csv(restored / LISTINGS[market], dtype=str).fillna('').set_index('ticker').to_dict('index')
             failures, saved = [], 0
             if args.command == 'bootstrap':
@@ -367,7 +443,7 @@ def run(args, client=None):
                 raise ValueError('No financial inputs found for the requested market')
             codes = {}
             if market == 'kr':
-                codes = pd.read_csv(restored / 'data/raw/opendart_corp_codes.csv', dtype=str).set_index('ticker').corp_code.to_dict()
+                codes = pd.read_csv(restored / 'data/raw/opendart_corp_codes.csv', dtype=str).fillna('').set_index('ticker').corp_code.to_dict()
             def process(item):
                 ticker, rows = item
                 worker = Client(project='investment')
@@ -385,11 +461,11 @@ def run(args, client=None):
                 if rows is None:
                     try:
                         if market == 'kr':
-                            rows, extra = fetch_kr(ticker, codes[ticker], None, observed_at)
+                            rows, extra = fetch_kr(ticker, codes.get(ticker), None, observed_at)
                         else:
                             rows, extra = fetch_us(ticker, metadata['name'], observed_at)
                         if not rows:
-                            raise ValueError('No available reports')
+                            raise CollectionFailure('no_available_reports')
                         metadata.update(extra)
                     except Exception as error:
                         # Never log provider URLs, request parameters or tokens.
@@ -408,21 +484,17 @@ def run(args, client=None):
                         update_metrics(summary, ticker, payload, receipt, observed_at[:10])
                         saved += 1
                     if args.command == 'refresh':
-                        summary.setdefault('collection_checks', {})[ticker] = observed_at
+                        record_collection_check(summary, ticker, observed_at, receipt if payload is None else None)
                     if n % 100 == 0:
                         print(json.dumps({'market': market, 'processed': n, 'saved_to_db': saved, 'failed': len(failures)}), flush=True)
-            if saved == 0:
-                raise ValueError('No successful financial writes; previous public summary retained')
             # The saved collection status makes partial provider failures visible.
             summary.update(generated_at=observed_at, storage='oracle', presentation_only=True,
                 collection={'attempted': len(work), 'saved': saved, 'failed': len(failures),
                             'failures': failures, 'mode': args.command}, source_snapshot=provenance['snapshot_id'])
             target.write_bytes(canonical(summary))
             results[market] = {'companies': len(summary['companies']), 'saved': saved, 'failed': len(failures)}
-        publication = client.push(SNAPSHOT, summaries, [SUMMARY_FILES[m] for m in markets])
+        publication = publish_summaries(client, summaries, checkpoints, markets)
         print(json.dumps({'storage': 'oracle', 'metrics_snapshot': publication['snapshot_id'], 'markets': results}), flush=True)
-        if any(r['failed'] > max(3, r['saved'] * .1) for r in results.values()):
-            raise ValueError('Financial collection exceeded failure threshold; inspect retained diagnostics')
 
 
 def main():
