@@ -277,6 +277,23 @@ class Client:
         if head['snapshot_id'] != restored:
             raise BackendError(409, 'Remote state changed since restore, or no restore receipt exists. Pull before editing and pushing.')
         old = {e["relative_path"]: e for e in self.snapshot_entries(head["snapshot_id"])} if head["snapshot_id"] else {}
+        financial_hashes = None
+        if name == 'financial-metrics-current':
+            # The generic CLI and other callers must not bypass the collector's gate.
+            from export_financial_metrics import require_public_bundle
+            paths = list(paths)
+            if (not paths or len(paths) != len(set(paths))
+                    or not set(paths) <= {'kr.json', 'us.json'} or not set(old) <= set(paths)):
+                raise ValueError('Public financial push requires the entire explicit market bundle')
+            bundle, financial_hashes = {}, {}
+            for relative in paths:
+                source = safe_path(root, relative)
+                if source.stat().st_size > 24 * 1024**2:
+                    raise ValueError('Financial metric summary exceeds public build budget')
+                raw = source.read_bytes()
+                financial_hashes[relative] = hashlib.sha256(raw).hexdigest()
+                bundle[relative[:-5]] = json.loads(raw)
+            require_public_bundle(bundle)
         # Retain unselected old files; selected missing paths are errors, never deletion requests.
         entries, uploaded = dict(old), 0
         for value in paths:
@@ -293,7 +310,13 @@ class Client:
                     staged = Path(tmp) / "artifact"
                     with path.open("rb") as inp, staged.open("wb") as out:
                         shutil.copyfileobj(inp, out, 1024 * 1024)
+                    if financial_hashes is not None:
+                        with staged.open('rb') as stream:
+                            if hashlib.file_digest(stream, 'sha256').hexdigest() != financial_hashes[rel]:
+                                raise ValueError('Financial payload changed after publication validation')
                     info = self.upload(staged)
+                    if financial_hashes is not None and info['sha256'] != financial_hashes[rel]:
+                        raise ValueError('Financial upload receipt does not match validated payload')
                 entries[rel] = {"relative_path": rel, "sha256": info["sha256"], "byte_size": info["byte_size"]}
                 uploaded += bool(info.get("changed"))
         same = len(entries) == len(old) and all(old[k]["sha256"] == v["sha256"] for k, v in entries.items())
