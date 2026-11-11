@@ -19,9 +19,8 @@ on:
         description: Optional space-separated tickers for an explicit repair
         type: string
         default: ''
-  schedule:
-    - cron: '20 2 * * *'
-      timezone: Asia/Seoul
+  # Scheduled daily collection paused on 2026-11-11.
+  # Keep workflow_dispatch available for explicitly requested manual runs.
 permissions:
   contents: write
 concurrency:

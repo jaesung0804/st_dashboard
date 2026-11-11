@@ -6,10 +6,8 @@ on:
         description: "Completed session YYYYMMDD; blank uses latest available close"
         type: string
         default: ""
-  schedule:
-    # Regular KRX open 09:00 KST; start three hours beforehand.
-    - cron: "0 6 * * 1-5"
-      timezone: Asia/Seoul
+  # Scheduled daily collection paused on 2026-11-11.
+  # Keep workflow_dispatch available for explicitly requested manual runs.
 permissions:
   contents: write
   actions: read
