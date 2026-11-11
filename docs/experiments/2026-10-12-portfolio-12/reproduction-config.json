@@ -1,0 +1,293 @@
+{
+  "schema": "portfolio12-public-reproduction-settings-v2",
+  "purpose": "Document completed synthetic experiment; settings alone are not a runnable or independently reproducible archive. Private inputs, models, ledgers and original runtime remain excluded.",
+  "classification": "retrospective_development_reconstruction",
+  "evaluated_period": {
+    "start": "2023-10-19",
+    "end": "2026-10-08"
+  },
+  "retained_source_period": {
+    "earliest": "2021-06-01",
+    "latest": "2026-10-08",
+    "asset_coverage_varies": true,
+    "earlier_period_use": "training and warmup only; portfolio results before 2023-10-19 not evaluated"
+  },
+  "synthetic_capital": {
+    "initial_KRW": "2000000",
+    "monthly_KRW": "2000000",
+    "monthly_deposits": 36,
+    "total_contributions_KRW": "74000000",
+    "first_deposit_date": "2023-11-01",
+    "deposit_rule": "first_common_KR_US_market_date_of_month",
+    "real_person_finances": false,
+    "initial_cash_USD_target_fraction": "0.5",
+    "cash_interest_rate": 0
+  },
+  "assets": [
+    "KR:000150",
+    "KR:000270",
+    "US:AAPL",
+    "US:AMAT"
+  ],
+  "stock_target_weights": {
+    "KR:000150": "0.25",
+    "KR:000270": "0.25",
+    "US:AAPL": "0.25",
+    "US:AMAT": "0.25"
+  },
+  "cases": [
+    {
+      "id": "A-cash",
+      "limits": true,
+      "P2": false
+    },
+    {
+      "id": "A-stock",
+      "limits": true,
+      "P2": false
+    },
+    {
+      "id": "A-mixed",
+      "limits": true,
+      "P2": false
+    },
+    {
+      "id": "B-cash",
+      "limits": true,
+      "P2": true
+    },
+    {
+      "id": "B-stock",
+      "limits": true,
+      "P2": true
+    },
+    {
+      "id": "B-mixed",
+      "limits": true,
+      "P2": true
+    },
+    {
+      "id": "C-cash",
+      "limits": false,
+      "P2": false
+    },
+    {
+      "id": "C-stock",
+      "limits": false,
+      "P2": false
+    },
+    {
+      "id": "C-mixed",
+      "limits": false,
+      "P2": false
+    },
+    {
+      "id": "D-cash",
+      "limits": false,
+      "P2": true
+    },
+    {
+      "id": "D-stock",
+      "limits": false,
+      "P2": true
+    },
+    {
+      "id": "D-mixed",
+      "limits": false,
+      "P2": true
+    }
+  ],
+  "initial_states": {
+    "cash": {
+      "requested_stock_fraction": "0",
+      "actual_stock_fraction": "0E-16",
+      "stock_value_KRW": "0",
+      "residual_cash_KRW_value": "2000000",
+      "holdings": {
+        "KR:000150": 0,
+        "KR:000270": 0,
+        "US:AAPL": 0,
+        "US:AMAT": 0
+      },
+      "cash_native": {
+        "KRW": "1000982.5177456",
+        "USD": "739"
+      }
+    },
+    "stock": {
+      "requested_stock_fraction": "1",
+      "actual_stock_fraction": "0.883178620082667483184",
+      "stock_value_KRW": "1766357.240165334966368",
+      "residual_cash_KRW_value": "233642.759834665033632",
+      "holdings": {
+        "KR:000150": 6,
+        "KR:000270": 5,
+        "US:AAPL": 2,
+        "US:AMAT": 2
+      },
+      "cash_native": {
+        "KRW": "92482.5177456",
+        "USD": "104.42001342"
+      }
+    },
+    "mixed": {
+      "requested_stock_fraction": "0.5",
+      "actual_stock_fraction": "0.420614310041333741592",
+      "stock_value_KRW": "841228.620082667483184",
+      "residual_cash_KRW_value": "1158771.379917332516816",
+      "holdings": {
+        "KR:000150": 3,
+        "KR:000270": 2,
+        "US:AAPL": 1,
+        "US:AMAT": 1
+      },
+      "cash_native": {
+        "KRW": "588682.5177456",
+        "USD": "421.71000671"
+      }
+    }
+  },
+  "initialization_conventions": {
+    "opening_acquisition_fees": false,
+    "reason": "Synthetic pre-existing holdings; later trades incur costs.",
+    "rounding": "Whole shares, aggregate whole-USD opening wealth, residue retained as cash; exact initial KRW NAV."
+  },
+  "AB_policy_limits": {
+    "company": 0.3,
+    "equity": 1,
+    "country": null,
+    "currency": null,
+    "std_5_period": 0.035,
+    "CVaR_alpha": 0.95,
+    "CVaR": 0.07,
+    "stress_loss": 0.15,
+    "initial_excess_goal_market_sessions": 10
+  },
+  "CD_policy": {
+    "investment_weight_and_risk_limits": false,
+    "hidden_risk_reduction": false,
+    "physical_constraints_remain": true
+  },
+  "physical_constraints": [
+    "confirmed native settled cash",
+    "whole shares/lots",
+    "fees",
+    "settlement",
+    "predecision execution liquidity",
+    "no leverage",
+    "no short selling"
+  ],
+  "P2": {
+    "same_joint_integer_domain": true,
+    "same_P1": true,
+    "max_concession_pretrade_NAV": 0.0001,
+    "implementation": "original variance_stage/minimize_fraction",
+    "candidate_after_FX": "same joint candidate, no second concession",
+    "fallback": "certified same-domain P1, separate timeout/failed status",
+    "global_market_optimum": false,
+    "unchanged_certification_tolerance": 1e-8,
+    "strict_real_number_inequality_guaranteed": false
+  },
+  "integer_domain": {
+    "roster": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "max_lots_per_asset": 10,
+    "full_native_integer_search_inside_declared_domain": true,
+    "global_market_optimum": false,
+    "legacy_25_candidate_mode": "debug approximation only; excluded from long-run"
+  },
+  "runtime_parameters": {
+    "plan_seconds": 8,
+    "minimum_ticket_krw": 0,
+    "fx_usd_quantum": 0.01
+  },
+  "fees": {
+    "as_of": "2026-10-09",
+    "historical_schedule": false,
+    "kr_commission": 0.00015,
+    "kr_sell_tax": 0.002,
+    "us_commission": 0.001,
+    "us_sec_sell": 0.0000206,
+    "fx_daytime_spread": 0.0005,
+    "fx_outside_spread": 0.005,
+    "slippage_each_way": 0.0005,
+    "source": "https://corp.tossinvest.com/ko/business?tab=commission",
+    "personal_income_capital_gains_tax": "excluded; no tax-lot or dividend-tax claim"
+  },
+  "applied_order_costs": {
+    "KR_buy_rate": 0.00065,
+    "KR_sell_rate": 0.00265,
+    "US_buy_rate": 0.0015,
+    "US_sell_rate": 0.0015206,
+    "US_sell_fixed_USD": 0.015,
+    "fee_rounding": "Ceiling to 8 native-currency decimal places",
+    "predecision_max_participation": 0.001
+  },
+  "fee_accounting": "Frozen synthetic schedule, not historically verified brokerage rates. Order commissions aggregate applicable rate components; separate journal tax=0 is not a tax-exemption claim. Personal capital-gains and dividend taxes are not modeled.",
+  "execution_assumptions": {
+    "decision": "90 seconds before scheduled market open",
+    "fill": "Retained opening proxy, only if inside pre-decision execution contract; out-of-range orders not submitted",
+    "settlement": "KR T+2 / US T+1 synthetic close-of-session proxy throughout; historical effective-date regimes not verified",
+    "economic_NAV": "Includes gross unpaid distributions and undelivered share rights; not spendable before settlement/delivery",
+    "calendar": "Corrected KR/US regular session clocks, US DST; known KR CSAT delayed sessions and 2026-06-03/2026-07-17 closures",
+    "PIT_universe": "Current 128-stock training roster and fixed four-stock execution roster, not historical membership; delisting/survivorship bias possible",
+    "historical_visibility": "Daily open at scheduled open, close at close+1 minute are development assumptions; source timestamps are late archive timestamps, not historical delivery proof",
+    "actual_source_available_at": "2026-10-10T17:01:09.756486+00:00",
+    "retrospective_calendar": "Full realized calendar not established as known at each historical decision"
+  },
+  "common_forecasts": {
+    "protocol": "common-preparation-v3-min252",
+    "country_folds": 26,
+    "model_heads_total": 104,
+    "prediction_rows": 88436,
+    "shared_by_all_12": true,
+    "historically_issued": false,
+    "additional_training_during_full_execution": false
+  },
+  "resource_envelope": {
+    "cpu": 1,
+    "priority": "IDLE",
+    "job_memory_GiB": 1.5,
+    "body_tranche_seconds": 480,
+    "supervisor_watchdog_seconds": 540
+  },
+  "logical_evidence_sha256": {
+    "private_final_summary": "493508ef91a44e3597e267002c8a4c401432831ce5a1fdc457a68a278c9aa43c",
+    "private_final_manifest": "cf55dfd2007124fb3568f3c9f4069a1d65c5a70abb323607892eb090057c2e37",
+    "private_source_manifest": "82bd37568143c8c533f06e27745c4cef6af9a73293a189c67c30952ddee8e63c",
+    "original_execution_config": "2919fc77023f10b1bae02f918bf813d95591a3bc6c94f672ca5e57bfc406fcde",
+    "entry_source": "31297ab210b73dd38918d72d88ea7fa74a2ad05bb7e0f81913f9b20c0a06bcf2",
+    "runtime_source": "cb060146c778ffd82f1de8d0226f28ef2674eb0d358e007503851614cdb817a7",
+    "analysis_source": "5871c9682d9cc7c79c81455344f768e6ab37db6730c81da85bb9bdc640b58c97",
+    "common_input_manifest": "5e4a68fffa19b10079c00e4f61b1e3dfb4611fcd7d2e1e5485e461ad0e45c768",
+    "common_frozen_predictions": "cc73de5135f61779cdb9999390c66587a588ddfa0f83d6b71289f66d2068082b",
+    "calendar_overrides": "fd709463c10f3e00aded6139d3933169259d946a81f2c8b0e2ab6127a4d32a8f"
+  },
+  "universe_scope": {
+    "underlying_training_forecast_names": 128,
+    "optimization_and_order_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "initial_stock_basket_assets": [
+      "KR:000150",
+      "KR:000270",
+      "US:AAPL",
+      "US:AMAT"
+    ],
+    "assets_is_not_initial_holdings_only": true,
+    "pre_candidate_filter": "Both forecasts and features are filtered to assets before allocation_inputs; required_assets uses the same list.",
+    "base_candidate_rule_before_override": "20 forecast candidates per market plus holdings/required assets.",
+    "scope_origin": "Documented v27 small integration roster carried into long-run v2/v3/v4; separate long-run scope approval not established by the retained artifacts alone.",
+    "whole_market_default_model_validated": false,
+    "full_128_candidate_selection_validated": false,
+    "B_superiority_and_default_selection_decision": "Deferred until full-candidate revalidation is complete.",
+    "full_candidate_incomplete_results_included": false
+  }
+}
