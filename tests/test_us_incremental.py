@@ -353,3 +353,59 @@ def test_yfinance_batch_uses_bounded_threads_and_timeout(monkeypatch):
     us.fetch_us_ohlcv_batch([f"T{i}" for i in range(100)], "20260801", "20260904")
     assert calls[0]["threads"] == 8 and calls[0]["timeout"] == 15
     assert calls[0]["end"] == "2026-09-05"  # Yahoo's end is exclusive.
+
+
+@pytest.mark.parametrize("field,value", [("close", float("nan")), ("close", 0),
+                                        ("volume", float("nan")), ("volume", -1)])
+def test_new_session_with_unusable_required_field_cannot_pass_as_yesterday(tmp_path, monkeypatch, field, value):
+    args = setup(tmp_path, monkeypatch)
+    before = args["prices_path"].read_bytes()
+    def fetch(tickers, **kwargs):
+        frames = {t: quotes(t, ["2026-09-03", "2026-09-04"]) for t in tickers}
+        for frame in frames.values():
+            frame.loc[1, field] = value
+        return frames
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    with pytest.raises(RuntimeError, match="coverage 0.0%.*canonical US prices unchanged"):
+        refresh.refresh_us_daily_data(**args)
+    assert args["prices_path"].read_bytes() == before
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["provider_latest"] == report["latest"] == "2026-09-04"
+    assert report["provider_latest_validated"] == "2026-09-03"
+    assert report["provider_latest_invalid_field_counts"][field] == 2
+    assert report["missing_active_fraction"] == 1
+    summary = pd.read_csv(tmp_path / "daily/20260904/us_daily_data_refresh_summary.csv")
+    assert summary.received_latest_date.eq("2026-09-04").all()
+    assert summary.latest_date.eq("2026-09-03").all()
+    assert summary.latest_invalid_fields.str.contains(field).all()
+
+
+def test_unusable_newest_rows_can_defer_only_when_complete_history_advances(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, dates=("2026-09-02",))
+    def fetch(tickers, **kwargs):
+        frames = {t: quotes(t, ["2026-09-02", "2026-09-03", "2026-09-04"]) for t in tickers}
+        for frame in frames.values():
+            frame.loc[2, ["close", "adjusted_close"]] = float("nan")
+        return frames
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", fetch)
+    result = refresh.refresh_us_daily_data(**args)
+    assert result.asof == "20260903"
+    assert pd.read_csv(args["prices_path"]).date.max() == "2026-09-03"
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["accepted"] and report["latest_session_coverage"] == 1
+    assert report["provider_latest"] == "2026-09-04"
+    assert report["deferred_partial_session_tickers"] == ["AAA", "BBB"]
+    assert report["provider_latest_invalid_field_counts"] == {"close": 2, "adjusted_close": 2, "volume": 0}
+
+
+def test_missing_adjusted_only_reports_fill_without_blocking_valid_latest_raw_close(tmp_path, monkeypatch):
+    args = setup(tmp_path, monkeypatch, tickers=("AAA",))
+    frame = quotes("AAA", ["2026-09-03", "2026-09-04"])
+    frame.loc[1, "adjusted_close"] = float("nan")
+    monkeypatch.setattr(refresh, "fetch_us_ohlcv_batch", lambda *a, **k: {"AAA": frame})
+    result = refresh.refresh_us_daily_data(**args)
+    assert result.asof == "20260904"
+    report = json.loads((tmp_path / "daily/20260904/us_collection.json").read_text())
+    assert report["provider_latest_invalid_field_counts"] == {"close": 0, "adjusted_close": 0, "volume": 0}
+    summary = pd.read_csv(tmp_path / "daily/20260904/us_daily_data_refresh_summary.csv")
+    assert summary.latest_adjusted_close_filled.item() == 1
